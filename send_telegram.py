@@ -8,8 +8,8 @@ import glob
 import httpx
 
 
-BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
-CHAT_ID   = os.environ["TELEGRAM_CHAT_ID"]
+BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"].strip()
+CHAT_ID   = os.environ["TELEGRAM_CHAT_ID"].strip()
 API_URL   = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
 
 def latest_digest() -> str:
