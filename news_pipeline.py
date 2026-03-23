@@ -202,7 +202,11 @@ async def run_pipeline(config_path: str = "config.yaml") -> str:
     print(f"      → {len(scored)} relevant items")
 
     print("[3/4] Generating summary…")
-    summary = await generate_digest_summary(scored, llm) if scored else "Сегодня новостей по твоим темам не нашлось."
+    try:
+        summary = await generate_digest_summary(scored, llm) if scored else "Сегодня новостей по твоим темам не нашлось."
+    except Exception as e:
+        print(f"[WARN] Summary failed: {e}")
+        summary = "⚠️ Саммари недоступно. Смотри новости ниже."
 
     print("[4/4] Rendering Telegram message…")
     output = render_telegram(scored, summary)
