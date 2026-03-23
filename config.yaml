@@ -1,0 +1,101 @@
+# ─────────────────────────────────────────────
+# news_pipeline config
+# ─────────────────────────────────────────────
+
+topics:
+  - Vue.js ecosystem (Vue 3, Vite, Vue Router, Pinia, Vue devtools)
+  - Nuxt.js framework (Nuxt 3, Nuxt modules, Nitro, server-side rendering)
+  - Nuxt UI, Vuetify, PrimeVue — Vue component libraries
+  - HTML5, CSS3, SCSS, CSS variables, CSS Grid, Flexbox
+  - UnoCSS, Tailwind CSS, utility-first CSS
+  - JavaScript and TypeScript for web development
+  - Web performance, Core Web Vitals, accessibility
+  - AI tools for developers (Copilot, Cursor, v0, Claude, AI code generation)
+  - AI integration in web apps (chatbots, embeddings, APIs)
+  - Web development best practices, tooling, DX
+  - npm, pnpm, package ecosystem news relevant to frontend
+
+output_dir: output
+cutoff_hours: 24
+max_items: 15
+batch_size: 12
+
+model: llama-3.3-70b-versatile
+
+feeds:
+  # ── Vue / Nuxt core ──────────────────────────
+  - name: Vue.js Blog
+    url: https://blog.vuejs.org/feed.rss
+    tags: [Vue, frontend]
+
+  - name: Nuxt.js Blog
+    url: https://nuxt.com/blog/feed.xml
+    tags: [Nuxt, Vue, frontend]
+
+  - name: VueSchool Blog
+    url: https://vueschool.io/articles/feed/
+    tags: [Nuxt, Vue, frontend]
+
+  - name: Vuetify Blog
+    url: https://vuetifyjs.com/blog/feed.xml
+    tags: [Vuetify, Vue, frontend]
+
+  # ── CSS / Styling ────────────────────────────
+  - name: CSS-Tricks
+    url: https://css-tricks.com/feed/
+    tags: [CSS, SCSS, frontend]
+
+  - name: Smashing Magazine
+    url: https://www.smashingmagazine.com/feed/
+    tags: [CSS, frontend, design]
+
+  - name: web.dev (Google)
+    url: https://web.dev/feed.xml
+    tags: [webdev, CSS, performance]
+
+  - name: Frontend Focus
+    url: https://frontendfocus.co/rss/
+    tags: [frontend, CSS, HTML]
+
+  - name: Tailwind CSS Blog
+    url: https://tailwindcss.com/feeds/feed.xml
+    tags: [Tailwind, CSS, frontend]
+
+  # ── JS / TS ecosystem ────────────────────────
+  - name: JavaScript Weekly
+    url: https://javascriptweekly.com/rss/
+    tags: [JavaScript, TypeScript, frontend]
+
+  - name: Dev.to (Vue tag)
+    url: https://dev.to/feed/tag/vue
+    tags: [Vue, frontend]
+
+  - name: Dev.to (Nuxt tag)
+    url: https://dev.to/feed/tag/nuxt
+    tags: [Nuxt, frontend]
+
+  - name: Dev.to (CSS tag)
+    url: https://dev.to/feed/tag/css
+    tags: [CSS, frontend]
+
+  - name: Dev.to (Webdev tag)
+    url: https://dev.to/feed/tag/webdev
+    tags: [webdev, frontend]
+
+  # ── AI for developers ────────────────────────
+  - name: Dev.to (AI tag)
+    url: https://dev.to/feed/tag/ai
+    tags: [AI, devtools]
+
+  - name: GitHub Blog
+    url: https://github.blog/feed/
+    tags: [AI, devtools, frontend]
+
+  - name: The Pragmatic Engineer
+    url: https://newsletter.pragmaticengineer.com/feed
+    tags: [AI, webdev, devtools]
+
+  # ── General webdev ───────────────────────────
+  - name: Hacker News
+    url: https://news.ycombinator.com/rss
+    tags: [webdev, tech]
