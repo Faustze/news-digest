@@ -11,15 +11,12 @@ import yaml
 from datetime import datetime, timezone
 from pathlib import Path
 
-from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 
 
 # ── Config ────────────────────────────────────────────────────────────────────
-
-load_dotenv()
 
 def load_config(path: str = "config.yaml") -> dict:
     with open(path) as f:
