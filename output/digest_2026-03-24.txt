@@ -1,0 +1,67 @@
+📰 *Дайджест 24.03.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Для разработчиков на Vue.js вышла статья "Building PWA 2.0 with Vue 2026", в которой описывается, как создать прогрессивные веб-приложения с использованием Vue.js. Кроме того, была опубликована статья "The Vue 3 Reactivity Trap", в которой исследуется проблема производительности в Vue 3 и предлагаются решения. Для разработчиков, интересующихся CSS, вышла статья "CSS Container Queries: The Layout Revolution You've Been Waiting For", в которой описывается революция в верстке с помощью CSS Container Queries. Кроме того, GitHub расширил возможности безопасности приложений с помощью обнаружения на основе AI, что полезно разработчикам, заботящимся о безопасности своих приложений.
+
+─────────────────────
+
+💚 [Building PWA 2.0 with Vue 2026: The Enterprise Architecture Guide for Next-Gen Web Development](https://dev.to/emma_schmidt_/building-pwa-20-with-vue-2026-the-enterprise-architecture-guide-for-next-gen-web-development-3fog)
+Эта статья представляет собой руководство по созданию прогрессивных веб-приложений (PWA) с использованием Vue.js. Автор описывает, как использовать Vue для создания высокопроизводительных и масштабируемых веб-приложений. Это может быть полезно разработчикам, которые хотят создать
+#Vue #frontend
+
+💚 [The Vue 3 Reactivity Trap: Why Large Datasets Crash Your Browser](https://dev.to/ameer-pk/the-vue-3-reactivity-trap-why-large-datasets-crash-your-browser-1ikb)
+Эта статья исследует проблему производительности в Vue 3, когда работа с большими наборами данных может привести к зависанию браузера. Автор описывает причины этой проблемы и предлагает решения. Это может быть полезно разработчикам, которые работают с большими наборами данных в с
+#Vue #frontend
+
+💚 [When You Should Use Vue Teleport](https://dev.to/jacobandrewsky/when-you-should-use-vue-teleport-4k6i)
+Статья о том, когда использовать Vue Teleport. Автор объясняет, что это такое и как оно может помочь в создании компонентов, которые необходимо отображать вне их родительского контейнера.
+#Vue #frontend
+
+🖥️ [GitHub expands application security coverage with AI‑powered detections](https://github.blog/security/application-security/github-expands-application-security-coverage-with-ai-powered-detections/)
+GitHub расширил возможности безопасности приложений с помощью обнаружения на основе AI. Полезно разработчикам, заботящимся о безопасности своих приложений.
+#AI #devtools #frontend
+
+🎨 [CSS Container Queries: The Layout Revolution You've Been Waiting For](https://dev.to/chengyixu/css-container-queries-the-layout-revolution-youve-been-waiting-for-3h07)
+Статья о революции в верстке с помощью CSS Container Queries. Теперь можно писать стили, которые реагируют на размер контейнера, а не только на размер viewport. Это полезно для создания адаптивных компонентов.
+#CSS #frontend
+
+🎨 [CSS Container Queries: Real World Use Cases](https://dev.to/chengyixu/css-container-queries-real-world-use-cases-31d5)
+Статья о реальных примерах использования CSS Container Queries. Автор показывает, как использовать эту технологию для создания адаптивных компонентов.
+#CSS #frontend
+
+📌 [I built the algorithm behind ChatGPT from scratch — here's what I learned](https://dev.to/tusharinqueue/i-built-the-algorithm-behind-chatgpt-from-scratch-heres-what-i-learned-hdh)
+Статья о том, как разработчик построил алгоритм ChatGPT с нуля и что он узнал из этого опыта. Полезно разработчикам, интересующимся AI и машинным обучением.
+#AI #devtools
+
+💚 [When You Should Use Vue Teleport](https://dev.to/jacobandrewsky/when-you-should-use-vue-teleport-4k6i)
+Эта статья описывает, когда и как использовать Vue Teleport для решения проблем с позиционированием элементов в Vue-приложениях. Автор демонстрирует примеры использования Teleport для создания модальных окон и других элементов. Это может быть полезно разработчикам, которые хотят
+#Vue #frontend
+
+💚 [I open-sourced my Nuxt 3 portfolio. Here's what's inside](https://dev.to/emeric_guyon_316373525114/i-open-sourced-my-nuxt-3-portfolio-heres-whats-inside-2lb1)
+Эта статья представляет собой обзор открытого исходного кода портфолио, созданного с использованием Nuxt 3. Автор описывает, как он создал свое портфолио и какие технологии использовал. Это может быть полезно разработчикам, которые хотят создать свое портфолио или улучшить сущест
+#Nuxt #frontend
+
+🌐 [Beyond `chmod 755`: A Senior Engineer’s Guide to Debugging Nginx 403 Forbidden](https://dev.to/meowth/beyond-chmod-755-a-senior-engineers-guide-to-debugging-nginx-403-forbidden-234f)
+Эта статья предоставляет подробное руководство по отладке ошибки 403 Forbidden в Nginx. Она охватывает файловые разрешения, идентификатор процесса, контроли безопасности ядра и уровни безопасности upstream. Это может быть полезно для разработчиков, которые сталкиваются с этой про
+#Nginx #webdev
+
+📌 [Stop Building Auth From Scratch in Next.js (2026 Guide)](https://dev.to/huangyongshan46a11y/stop-building-auth-from-scratch-in-nextjs-2026-guide-25fl)
+Эта статья предлагает использовать Auth.js v5 для упрощения процесса аутентификации в Next.js. Она предоставляет пример кода и объясняет, как избежать создания аутентификации с нуля.
+#Next.js #Auth.js
+
+📌 [The Occupied Scaffold](https://dev.to/thesythesis/the-occupied-scaffold-4a0e)
+Статья о том, как инструменты AI могут замедлить разработчиков, если не использовать их правильно. Полезно разработчикам, использующим инструменты AI в своей работе.
+#AI #devtools
+
+🎨 [Experimenting With Scroll-Driven corner-shape Animations](https://css-tricks.com/experimenting-with-scroll-driven-corner-shape-animations/)
+Эта статья исследует возможность использования CSS для создания анимаций, управляемых прокруткой. Автор демонстрирует, как использовать новое свойство CSS corner-shape для создания интересных эффектов. Это может быть полезно разработчикам, которые хотят улучшить пользовательский
+#CSS #SCSS #frontend
+
+🎨 [Why z-index Doesn’t Work (And How to Fix It)](https://dev.to/pawar-shivam7/why-z-index-doesnt-work-and-how-to-fix-it-4m3c)
+Эта статья исследует проблему с использованием z-index в CSS и предлагает решения. Автор описывает, почему z-index может не работать как ожидается, и как исправить эту проблему. Это может быть полезно разработчикам, которые работают с CSS и сталкиваются с проблемами позиционирова
+#CSS #frontend
+
+🎨 [CSS Scroll-Driven Animations: The End of JavaScript Scroll Listeners](https://dev.to/chengyixu/css-scroll-driven-animations-the-end-of-javascript-scroll-listeners-4bij)
+Эта статья представляет собой обзор новой функции CSS - Scroll-Driven Animations. Автор описывает, как использовать эту функцию для создания анимаций, управляемых прокруткой, без использования JavaScript. Это может быть полезно разработчикам, которые хотят улучшить пользовательск
+#CSS #frontend
+
+_Источников: 7 · Новостей: 15_
