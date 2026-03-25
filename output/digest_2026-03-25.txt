@@ -1,0 +1,67 @@
+📰 *Дайджест 25.03.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Для разработчиков на Vue и Nuxt доступно новое руководство по созданию прогрессивных веб-приложений (PWA) с использованием Vue, а также статья о создании пользовательской темы для Nuxt UI v4. Кроме того, опубликованы статьи о CSS Grid Layout и CSS Flexbox, которые могут быть полезны разработчикам, интересующимся frontend-разработкой и созданием сложных макетов. Для разработчиков на Python и JavaScript доступны статьи о использовании промисов и async/await, а также о новых функциях JavaScript ES6+, которые могут быть полезны для написания эффективного и читаемого кода.
+
+─────────────────────
+
+💚 [Building PWA 2.0 with Vue 2026: The Enterprise Architecture Guide for Next-Gen Web Development](https://dev.to/emma_schmidt_/building-pwa-20-with-vue-2026-the-enterprise-architecture-guide-for-next-gen-web-development-3fog)
+Эта статья представляет собой руководство по созданию прогрессивных веб-приложений (PWA) с использованием Vue. Автор описывает подход к разработке приложений с высоким уровнем производительности и масштабируемости, что может быть полезно разработчикам, интересующимся Vue и соврем
+#Vue #frontend
+
+🎨 [CSS Grid Layout: Complete Tutorial with Examples](https://dev.to/_d7eb1c1703182e3ce1782/css-grid-layout-complete-tutorial-with-examples-dd8)
+Эта статья представляет собой полное руководство по CSS Grid Layout. Автор описывает основы и продвинутые техники использования CSS Grid, что может быть полезно разработчикам, интересующимся frontend-разработкой и созданием сложных макетов.
+#CSS #frontend
+
+🎨 [CSS Flexbox vs Grid: Complete Guide 2026 — When to Use Which](https://dev.to/_d7eb1c1703182e3ce1782/css-flexbox-vs-grid-complete-guide-2026-when-to-use-which-5624)
+Эта статья сравнивает CSS Flexbox и CSS Grid, два мощных инструмента для создания макетов в современной веб-разработке. Автор описывает основные различия и рекомендации по использованию каждого инструмента, что может быть полезно разработчикам, интересующимся frontend-разработкой
+#CSS #frontend
+
+🎨 [CSS Flexbox: Complete Guide for Modern Layouts](https://dev.to/_d7eb1c1703182e3ce1782/css-flexbox-complete-guide-for-modern-layouts-8jo)
+Эта статья представляет собой полное руководство по CSS Flexbox. Автор описывает основы и продвинутые техники использования CSS Flexbox, что может быть полезно разработчикам, интересующимся frontend-разработкой и созданием сложных макетов.
+#CSS #frontend
+
+💚 [I built a Recipe Finder using Vue 3, Express.js, and MongoDB](https://dev.to/johnrusu/i-built-a-recipe-finder-using-vue-3-expressjs-and-mongodb-2alg)
+Эта статья рассказывает о создании приложения для поиска рецептов с использованием Vue 3, Express.js и MongoDB. Автор делится своим опытом и подходом к разработке приложения, что может быть полезно разработчикам, интересующимся Vue и frontend-разработкой. Статья также затрагивает
+#Vue #frontend
+
+💚 [How to Build a Custom Theme in Nuxt UI v4](https://dev.to/ratracegrad/how-to-build-a-custom-theme-in-nuxt-ui-v4-e2f)
+Эта статья рассказывает о создании пользовательской темы для Nuxt UI v4. Автор описывает подход к настройке внешнего вида приложения с использованием CSS-переменных и дизайн-токенов, что может быть полезно разработчикам, интересующимся Nuxt и frontend-разработкой.
+#Nuxt #frontend
+
+🟨 [JavaScript Promises and Async/Await: Complete Guide](https://dev.to/_d7eb1c1703182e3ce1782/javascript-promises-and-asyncawait-complete-guide-3d04)
+Эта статья предоставляет полное руководство по использованию промисов и async/await в JavaScript. Она объясняет, как использовать эти инструменты для написания асинхронного кода, который не блокирует выполнение программы. Это полезно для разработчиков, которые хотят улучшить свои
+#JavaScript #async/await #promises
+
+🟨 [JavaScript ES6+ Features Every Developer Should Know](https://dev.to/_d7eb1c1703182e3ce1782/javascript-es6-features-every-developer-should-know-5d95)
+Эта статья описывает новые функции JavaScript ES6+, которые каждый разработчик должен знать. Она объясняет, как использовать эти функции для написания более эффективного и читаемого кода. Это полезно для разработчиков, которые хотят улучшить свои навыки в написании современного J
+#JavaScript #ES6+
+
+🖥️ [Building AI-powered GitHub issue triage with the Copilot SDK](https://github.blog/ai-and-ml/github-copilot/building-ai-powered-github-issue-triage-with-the-copilot-sdk/)
+Статья рассказывает о том, как интегрировать Copilot SDK в приложение React Native для генерации AI-аналитики проблем, с шаблонами для плавной деградации и кэширования. Это может быть полезно разработчикам для автоматизации процессов и улучшения производительности.
+#AI #devtools #frontend
+
+🎨 [Font Pairing Rules That Actually Work for Developer Projects](https://dev.to/alphashark/font-pairing-rules-that-actually-work-for-developer-projects-4i5c)
+Статья о том, как правильно выбирать шрифты для проектов. Приведены примеры и рекомендации по выбору шрифтов для создания визуальной иерархии на сайте. Полезно разработчикам для улучшения дизайна своих проектов.
+#CSS
+
+🎨 [Glassmorphism in CSS: The Frosted Glass Effect Done Right](https://dev.to/alphashark/glassmorphism-in-css-the-frosted-glass-effect-done-right-4fho)
+Статья о том, как создать эффект стеклянности в CSS. Приведены примеры и рекомендации по использованию этого эффекта в проектах. Полезно разработчикам для улучшения дизайна своих проектов.
+#CSS
+
+🎨 [CSS Gradient Text That Actually Works Cross-Browser](https://dev.to/alphashark/css-gradient-text-that-actually-works-cross-browser-13ca)
+Статья о том, как создать градиентный текст в CSS. Приведены примеры и рекомендации по использованию этого эффекта в проектах. Полезно разработчикам для улучшения дизайна своих проектов.
+#CSS
+
+🎨 [Understanding Hex Colors: What #FF6B35 Actually Means](https://dev.to/alphashark/understanding-hex-colors-what-ff6b35-actually-means-4c2k)
+Статья о том, как понять и использовать шестнадцатеричные цвета в CSS. Приведены примеры и рекомендации по использованию этого формата в проектах. Полезно разработчикам для улучшения дизайна своих проектов.
+#CSS
+
+🎨 [Why Every Developer Needs an HTML/CSS Playground Bookmarked](https://dev.to/alphashark/why-every-developer-needs-an-htmlcss-playground-bookmarked-489l)
+Статья о том, почему каждый разработчик должен иметь закладку на HTML/CSS-песочницу. Приведены примеры и рекомендации по использованию этого инструмента в проектах. Полезно разработчикам для улучшения дизайна и отладки своих проектов.
+#CSS
+
+🐍 [Python List Comprehension: Complete Guide with Examples](https://dev.to/_d7eb1c1703182e3ce1782/python-list-comprehension-complete-guide-with-examples-1m1k)
+Статья о том, как использовать списковые включения в Python. Приведены примеры и рекомендации по использованию этого инструмента в проектах. Полезно разработчикам для улучшения производительности и читаемости своего кода.
+#Python
+
+_Источников: 5 · Новостей: 15_
