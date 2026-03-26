@@ -1,0 +1,67 @@
+📰 *Дайджест 26.03.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Разработчики Vue.js 3 могут быть заинтересованы в том, что Composition API наконец-то стала популярной среди разработчиков, что может быть полезно для понимания тенденций и лучших практик в разработке на Vue.js. Кроме того, представлен инструмент Vue.js Screenshot API, который позволяет захватывать веб-страницы в качестве скриншотов или PDF без необходимости управления Puppeteer, Chromium или wkhtmltopdf на сервере, что может быть полезно для автоматизации задач и улучшения производительности приложений. Также GitHub обновил политику использования данных взаимодействия с GitHub Copilot, что может повлиять на то, как разработчики используют инструменты AI в своей работе.
+
+─────────────────────
+
+💚 [Vue.js 3 in 2026: Why the Composition API is Finally Clicking for Everyone](https://dev.to/ottoaria/vuejs-3-in-2026-why-the-composition-api-is-finally-clicking-for-everyone-2gkb)
+Эта новость интересна разработчикам, которые работают с Vue.js 3, поскольку объясняет, почему Composition API наконец-то стала популярной среди разработчиков. Это может быть полезно для понимания тенденций и лучших практик в разработке на Vue.js.
+#Vue
+
+📌 [Your LangChain Agent Has No Security. Neither Does CrewAI, OpenAI, or 6 Others.](https://dev.to/acacian/your-langchain-agent-has-no-security-neither-does-crewai-openai-or-6-others-2ecp)
+Статья раскрывает проблемы безопасности в популярных фреймворках AI, включая LangChain, CrewAI и OpenAI. Это важно для разработчиков, которые используют эти фреймворки и хотят обеспечить безопасность своих приложений.
+#AI #security #LangChain
+
+💚 [Vue.js Screenshot API: Capture Pages from Your Nuxt and Vue Backend](https://dev.to/custodiaadmin/vuejs-screenshot-api-capture-pages-from-your-nuxt-and-vue-backend-5c82)
+Эта новость полезна разработчикам, работающим с Nuxt и Vue, поскольку представляет собой решение для захвата веб-страниц в качестве скриншотов или PDF без необходимости управления Puppeteer, Chromium или wkhtmltopdf на сервере. Это может быть полезно для автоматизации задач и улу
+#Vue #Nuxt #frontend
+
+📌 [Building AI Agents That Can Control Cloud Infrastructure](https://dev.to/manishmshiva/building-ai-agents-that-can-control-cloud-infrastructure-2852)
+Эта статья рассказывает о том, как создавать агентов ИИ, которые могут контролировать облачную инфраструктуру. Это полезно для разработчиков, которые хотят автоматизировать свои рабочие процессы и использовать ИИ для управления инфраструктурой.
+#AI #cloud
+
+📌 [CallSight - Review Agentic AI Code Generations](https://dev.to/ricky_dev/callsight-review-agentic-ai-code-generations-3m)
+CallSight — инструмент для обзора и анализа кода, сгенерированного AI. Он помогает разработчикам выявлять ошибки и улучшать качество кода. Это полезно для разработчиков, которые используют AI для генерации кода и хотят повысить эффективность своей работы.
+#AI #code generation #code review
+
+🖥️ [Updates to GitHub Copilot interaction data usage policy](https://github.blog/news-insights/company-news/updates-to-github-copilot-interaction-data-usage-policy/)
+GitHub обновляет политику использования данных взаимодействия с GitHub Copilot. С 24 апреля данные об взаимодействии пользователей будут использоваться для обучения и улучшения моделей ИИ, если пользователи не откажутся от этого.
+#AI #devtools #frontend
+
+📌 [Updates to GitHub Copilot interaction data usage policy](https://github.blog/news-insights/company-news/updates-to-github-copilot-interaction-data-usage-policy/)
+GitHub обновил политику использования данных взаимодействия с GitHub Copilot. Это полезно разработчикам, поскольку они могут лучше понять, как используются их данные при работе с Copilot. Обновление политики может повлиять на то, как разработчики используют инструменты AI в своей
+#AI #GitHub Copilot
+
+🎨 [CSS Variables Generator: Build a Design System in Minutes](https://dev.to/tatelyman/css-variables-generator-build-a-design-system-in-minutes-m2k)
+Эта новость полезна разработчикам, работающим с CSS, поскольку представляет собой инструмент для генерации набора пользовательских свойств CSS для системы дизайна. Это может быть полезно для создания последовательного и эффективного дизайна веб-приложений.
+#CSS
+
+🎨 [CSS Specificity Calculator: Compare Selectors Visually](https://dev.to/tatelyman/css-specificity-calculator-compare-selectors-visually-6h2)
+Эта новость полезна разработчикам, работающим с CSS, поскольку представляет собой инструмент для сравнения селекторов CSS и определения их специфичности. Это может быть полезно для понимания и оптимизации CSS-кодов.
+#CSS
+
+📌 [Complete Guide: How To Make Money With Ai](https://dev.to/m_sshadow_9faef2413b29/complete-guide-how-to-make-money-with-ai-1a1o)
+Полное руководство по использованию AI для заработка денег. Статья охватывает различные аспекты AI и предоставляет советы и рекомендации для разработчиков, которые хотят использовать AI для создания прибыльных приложений.
+#AI #monetization #development
+
+📌 [Show HN: Optio – Orchestrate AI coding agents in K8s to go from ticket to PR](https://github.com/jonwiggins/optio)
+Эта новость представляет собой инструмент для оркестровки агентов ИИ в Kubernetes. Инструмент позволяет автоматизировать процесс создания кода и отправки его в систему контроля версий. Это может быть полезно для разработчиков, которые работают с ИИ и автоматизацией.
+#AI #Kubernetes #automation
+
+🎨 [Tailwind CSS Color Palette: Every Shade with Hex Codes](https://dev.to/tatelyman/tailwind-css-color-palette-every-shade-with-hex-codes-1ea)
+Эта новость интересна разработчикам, работающим с Tailwind CSS, поскольку представляет собой полную палитру цветов с кодами hex. Это может быть полезно для выбора и использования последовательных цветов в дизайне веб-приложений.
+#CSS #Tailwind
+
+🎨 [CSS Clip Path Generator with 16 Shape Presets](https://dev.to/tatelyman/css-clip-path-generator-with-16-shape-presets-44m)
+Эта новость интересна разработчикам, работающим с CSS, поскольку представляет собой инструмент для создания пользовательских форм с помощью CSS clip-path. Это может быть полезно для создания уникальных и интересных дизайнов веб-приложений.
+#CSS
+
+🎨 [CSS Text Gradient Generator: Rainbow Text in 3 Lines of CSS](https://dev.to/tatelyman/css-text-gradient-generator-rainbow-text-in-3-lines-of-css-7g)
+Этот инструмент позволяет создавать градиентные текстовые эффекты визуально. Вы можете выбрать два цвета, задать угол и увидеть результат. Это полезно для разработчиков, которые хотят добавить визуальный интерес к своему тексту.
+#CSS
+
+🎨 [CSS Filter Generator: Create Instagram-Style Effects with Code](https://dev.to/tatelyman/css-filter-generator-create-instagram-style-effects-with-code-1dgn)
+Этот инструмент позволяет создавать фильтры для изображений в стиле Instagram. Вы можете выбрать из 8 разных фильтров и задать параметры для каждого из них. Это полезно для разработчиков, которые хотят добавить визуальный интерес к своим изображениям.
+#CSS
+
+_Источников: 7 · Новостей: 15_
