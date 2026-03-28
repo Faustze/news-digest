@@ -1,0 +1,67 @@
+📰 *Дайджест 28.03.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "Stop Rewriting Components — Convert React to Vue Automatically" представляет инструмент для автоматического преобразования компонентов React в Vue, что может быть полезно разработчикам, которые хотят перейти с React на Vue. Кроме того, статья "Nuxt 3 Has a Free Full-Stack Vue Framework with Auto-Imports and Server Routes" представляет новые функции Nuxt 3, включая автоматические импорты и серверные маршруты, что может быть полезно разработчикам, которые хотят создать полноценное веб-приложение на основе Vue. Также были представлены новые функции веб-браузеров в марте 2026 года, включая инструменты для создания запросов контейнеров CSS и проверки доступности цвета. Эти инструменты могут быть полезны разработчикам для улучшения производительности и доступности веб-приложений.
+
+─────────────────────
+
+💚 [Stop Rewriting Components — Convert React to Vue Automatically](https://dev.to/parsajiravand/stop-rewriting-components-convert-react-to-vue-automatically-pfc)
+Статья представляет инструмент для автоматического преобразования компонентов React в Vue. Это может быть полезно разработчикам, которые хотят перейти с React на Vue или использовать логику из одного фреймворка в другом.
+#Vue #frontend
+
+💚 [Nuxt 3 Has a Free Full-Stack Vue Framework with Auto-Imports and Server Routes](https://dev.to/0012303/nuxt-3-has-a-free-full-stack-vue-framework-with-auto-imports-and-server-routes-39ic)
+Статья представляет новые функции Nuxt 3, включая автоматические импорты и серверные маршруты. Это может быть полезно разработчикам, которые хотят создать полноценное веб-приложение на основе Vue.
+#Nuxt #frontend
+
+🌐 [New to the web platform in March](https://web.dev/blog/web-platform-03-2026?hl=en)
+В статье представлены новые функции, добавленные в стабильные и бета-версии веб-браузеров в марте 2026 года. Это может быть полезно разработчикам для улучшения производительности и доступности веб-приложений.
+#webdev #CSS #performance
+
+🎨 [CSS Container Queries + Color Accessibility Checker: Two Essential Tools](https://dev.to/tatelyman/css-container-queries-color-accessibility-checker-two-essential-tools-409a)
+Статья представляет два инструмента для создания запросов контейнеров CSS и проверки доступности цвета. Это может быть полезно разработчикам для улучшения производительности и доступности веб-приложений.
+#CSS #frontend
+
+🎨 [CSS Grid vs Flexbox: When to Use Which (with Playgrounds)](https://dev.to/tatelyman/css-grid-vs-flexbox-when-to-use-which-with-playgrounds-385b)
+Эта статья сравнивает CSS Grid и Flexbox, и объясняет, когда использовать каждый из них. Это может быть полезно для разработчиков, которые хотят создать адаптивные и гибкие макеты.
+#CSS #frontend
+
+🌐 [Most Developers Are Using AI Wrong, And It Shows](https://dev.to/jaideepparashar/most-developers-are-using-ai-wrong-and-it-shows-2dfk)
+Эта статья обсуждает, как разработчики неправильно используют ИИ, и как это влияет на качество их работы. Это может быть полезно для разработчиков, которые хотят улучшить свои навыки и использовать ИИ более эффективно.
+#webdev #frontend
+
+📌 [LLM Security in 2026: The Developer's Practical Guide to Safe AI Inference](https://dev.to/q2408808/llm-security-in-2026-the-developers-practical-guide-to-safe-ai-inference-2972)
+Эта статья предоставляет практическое руководство по безопасной реализации моделей машинного обучения. Разработчикам важно понимать, как защитить свои приложения от уязвимостей безопасности, связанных с моделями машинного обучения. Статья обсуждает риски, связанные с моделями маш
+#AI #security
+
+📌 [LiteLLM vs Bifrost: Why the Supply Chain Attack Changes Everything for LLM Gateways](https://dev.to/pranay_batta/litellm-vs-bifrost-why-the-supply-chain-attack-changes-everything-for-llm-gateways-b9l)
+Эта статья сравнивает LiteLLM и Bifrost, две популярные модели машинного обучения, и обсуждает последствия атаки на цепочку поставок для моделей машинного обучения. Статья предоставляет информацию о том, как выбрать безопасную модель машинного обучения для своих приложений.
+#AI #security
+
+📌 [Top 5 LLM Gateway Alternatives After the LiteLLM Supply Chain Attack](https://dev.to/debmckinney/top-5-llm-gateway-alternatives-after-the-litellm-supply-chain-attack-1g7)
+Эта статья представляет альтернативы LiteLLM после атаки на цепочку поставок. Это может быть полезно разработчикам, которые используют LiteLLM в своих проектах, чтобы найти альтернативные решения. Статья также обсуждает проблемы безопасности, связанные с использованием LiteLLM.
+#AI #devtools
+
+🎨 [SVG Wave Generator + Color Palette Generator: Section Dividers & Color Scales](https://dev.to/tatelyman/svg-wave-generator-color-palette-generator-section-dividers-color-scales-1pje)
+Статья представляет два инструмента для генерации волновых разделителей и цветовых палитр. Это может быть полезно разработчикам для создания визуально привлекательных и последовательных дизайнов.
+#CSS #frontend
+
+🎨 [Font Pairing Tool + CSS Outline Generator: Typography Meets Focus Rings](https://dev.to/tatelyman/font-pairing-tool-css-outline-generator-typography-meets-focus-rings-114l)
+Статья представляет два инструмента для создания парных шрифтов и генерации контуров CSS. Это может быть полезно разработчикам для улучшения читаемости и доступности веб-страниц.
+#CSS #frontend
+
+🔷 [Drizzle ORM Has a Free TypeScript ORM — SQL-Like Queries with Full Type Safety](https://dev.to/0012303/drizzle-orm-has-a-free-typescript-orm-sql-like-queries-with-full-type-safety-519p)
+Эта статья рассказывает о Drizzle ORM, бесплатной ORM-библиотеке для TypeScript, которая позволяет выполнять SQL-подобные запросы с полной безопасностью типов. Статья предоставляет информацию о том, как использовать Drizzle ORM для построения безопасных и эффективных баз данных.
+#TypeScript #ORM
+
+📌 [5 Real Issues With LiteLLM That Are Pushing Teams Away in 2026](https://dev.to/debmckinney/5-real-issues-with-litellm-that-are-pushing-teams-away-in-2026-h0h)
+Эта статья обсуждает проблемы, которые могут возникнуть при использовании LiteLLM, такие как проблемы безопасности и производительности. Это может быть полезно разработчикам, которые используют LiteLLM в своих проектах, чтобы понять потенциальные риски и найти альтернативные реше
+#AI #devtools
+
+📌 [Reliable Function Calling in Deeply Recursive Union Types: Fixing Qwen Models' Double-Stringify Bug](https://dev.to/pavkode/reliable-function-calling-in-deeply-recursive-union-types-fixing-qwen-models-double-stringify-bug-4hm7)
+Эта статья обсуждает проблемы, которые могут возникнуть при использовании глубоко рекурсивных типов объединения в AI-моделях. Это может быть полезно разработчикам, которые работают с AI, чтобы понять, как избежать подобных проблем и улучшить производительность своих моделей.
+#AI #devtools
+
+🎨 [CSS Aspect Ratio Generator + Favicon Preview: Two New Tools](https://dev.to/tatelyman/css-aspect-ratio-generator-favicon-preview-two-new-tools-3p2f)
+Статья представляет два инструмента для генерации соотношения сторон CSS и предпросмотра фавиконов. Это может быть полезно разработчикам для создания визуально привлекательных и последовательных дизайнов.
+#CSS #frontend
+
+_Источников: 5 · Новостей: 15_
