@@ -1,0 +1,67 @@
+📰 *Дайджест 29.03.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Nuxt 3 и Nuxt 4 представляют собой последние эволюции фреймворка Nuxt, которые приносят значительные улучшения производительности, лучший опыт разработки и усовершенствованный API, что упрощает разработку полноценных веб-приложений. Кроме того, были представлены новые инструменты для работы с CSS, такие как UnoCSS, Panda CSS и StyleX, которые предлагают атомарный движок CSS и генерацию CSS на основе того, что вы используете. Эти инструменты могут заменить целые JavaScript-библиотеки и упростить разработку веб-приложений.
+
+─────────────────────
+
+💚 [Nuxt 3 Has a Free API You Should Know About](https://dev.to/0012303/nuxt-3-has-a-free-api-you-should-know-about-4bi5)
+Nuxt 3 поставляется с Nitro, серверным движком, который предоставляет полноценную платформу API. Это позволяет разработчикам создавать серверные маршруты API, middleware и кэширование, что упрощает разработку бэкенда. Полезно разработчикам, которые хотят создавать полноценные веб
+#Nuxt #Vue #API
+
+💚 [VitePress Has a Free API — Static Sites Powered by Vite and Vue](https://dev.to/0012303/vitepress-has-a-free-api-static-sites-powered-by-vite-and-vue-31k8)
+VitePress — это следующее поколение статического генератора сайтов от экосистемы Vue, работающего на Vite. Он позволяет создавать документационные сайты, которые загружаются мгновенно, поддерживают компоненты Vue в Markdown и строятся за секунды. Полезно разработчикам, которые хо
+#VitePress #Vue #Vite
+
+💚 [Nuxt 4 Has a Free API You Should Know About](https://dev.to/0012303/nuxt-4-has-a-free-api-you-should-know-about-3874)
+Nuxt 4 — это последняя эволюция фреймворка Nuxt, которая приносит значительные улучшения производительности, лучший опыт разработки и усовершенствованный API. Полезно разработчикам, которые хотят создавать полноценные веб-приложения с помощью Nuxt.
+#Nuxt #Vue #API
+
+💚 [Nuxt 3 Has a Free API You Should Know About](https://dev.to/0012303/nuxt-3-has-a-free-api-you-should-know-about-4bi5)
+Nuxt 3 поставляется с Nitro, серверным движком, который предоставляет полноценную платформу API. Это позволяет разработчикам создавать серверные маршруты API, middleware, кэширование и авто-импорты, что упрощает разработку бэкенда.
+#Nuxt #Vue
+
+💚 [Nuxt 4 Has a Free API You Should Know About](https://dev.to/0012303/nuxt-4-has-a-free-api-you-should-know-about-3874)
+Nuxt 4 - это последняя эволюция мета-фреймворка Vue.js, которая приносит значительные улучшения производительности, лучший опыт разработки и усовершенствованный API, что делает создание полноценных веб-приложений проще, чем когда-либо.
+#Nuxt #Vue
+
+🌐 [Nuxt 3 Has a Free API You Should Know About](https://dev.to/0012303/nuxt-3-has-a-free-api-you-should-know-about-4bi5)
+Nuxt 3 поставляется с Nitro, серверным движком, который предоставляет полноценную платформу API из коробки. Это позволяет разработчикам создавать серверные маршруты API и работать с ними напрямую. Nuxt 3 полезен для разработчиков, поскольку упрощает создание полноценных веб-прило
+#webdev #frontend
+
+🎨 [12 Modern CSS Features You Should Be Using in 2026](https://dev.to/lucasmdevdev/12-modern-css-features-you-should-be-using-in-2026-276b)
+Современные функции CSS, которые могут заменить целые JavaScript-библиотеки.
+#CSS
+
+🎨 [UnoCSS Has a Free API — The Instant On-Demand Atomic CSS Engine](https://dev.to/0012303/unocss-has-a-free-api-the-instant-on-demand-atomic-css-engine-jfh)
+UnoCSS - это атомарный движок CSS, который генерирует CSS на основе того, что вы используете.
+#CSS #UnoCSS
+
+🎨 [Panda CSS Has a Free API — Type-Safe CSS-in-JS with Zero Runtime](https://dev.to/0012303/panda-css-has-a-free-api-type-safe-css-in-js-with-zero-runtime-4one)
+Panda CSS - это движок CSS-in-JS, который генерирует атомарный CSS во время сборки.
+#CSS #Panda CSS
+
+🎨 [StyleX Has a Free API You Should Know About](https://dev.to/0012303/stylex-has-a-free-api-you-should-know-about-4l1l)
+StyleX - решение Meta для CSS-in-JS, которое сочетает в себе преимущества CSS-in-JS с нулевой производительностью во время выполнения. Оно компилирует стили во время сборки в атомарный CSS, что делает его полезным для разработчиков. StyleX используется в Meta с 2021 года и имеет
+#CSS #frontend
+
+🎨 [Vanilla Extract Has a Free API You Should Know About](https://dev.to/0012303/vanilla-extract-has-a-free-api-you-should-know-about-347e)
+Vanilla Extract - это библиотека CSS-in-TypeScript, которая позволяет писать стили как выражения TypeScript и получать типобезопасный, локально определенный CSS во время сборки. Она полезна для разработчиков, поскольку обеспечивает типобезопасность и автоматическое завершение код
+#CSS #frontend
+
+📌 [Big Tech firms are accelerating AI investments and integration, while regulators and companies focus on safety and responsible adoption.](https://dev.to/stelixx-insights/big-tech-firms-are-accelerating-ai-investments-and-integration-while-regulators-and-companies-5g98)
+Крупные технологические компании ускоряют инвестиции в ИИ и интеграцию, в то время как регулирующие органы и компании фокусируются на безопасности и ответственной адоптации. Это может быть полезно разработчикам, которые хотят создать более сложные и автоматизированные системы с и
+#ИИ #инвестиции
+
+🌐 [I Let OpenClaw Build a Web App From Scratch - It Even Created the PayPal Plan](https://dev.to/juveni_jah_6ed48b472d2647/i-let-openclaw-build-a-web-app-from-scratch-it-even-created-the-paypal-plan-373n)
+В этой статье рассказывается об эксперименте, в котором AI-инструмент OpenClaw был использован для создания веб-приложения с нуля. OpenClaw смог создать整个 продукт, развернуть его и даже настроить платежи через PayPal. Это может быть полезно разработчикам, чтобы понять возможности
+#AI #devtools #webdev
+
+🌐 [Why New Developers Should Build Skills Before Leaning on AI](https://dev.to/hamidrazadev/why-new-developers-should-build-skills-before-leaning-on-ai-b1n)
+Эта статья предупреждает новых разработчиков о том, что слишком сильная зависимость от AI-инструментов может привести к долгосрочным проблемам. Автор утверждает, что важно развивать свои навыки и понимание кода, прежде чем полагаться на AI. Это может быть полезно разработчикам, ч
+#AI #devtools #webdev
+
+💚 [Mitosis Has a Free API You Should Know About](https://dev.to/0012303/mitosis-has-a-free-api-you-should-know-about-2mjc)
+Mitosis позволяет писать компоненты один раз и компилировать их в React, Vue, Svelte, Angular и другие фреймворки. Это упрощает разработку и поддержку компонентов. Полезно разработчикам, которые работают с несколькими фреймворками и хотят уменьшить количество кода.
+#Mitosis #Vue #React
+
+_Источников: 5 · Новостей: 15_
