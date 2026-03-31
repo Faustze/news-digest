@@ -1,0 +1,67 @@
+📰 *Дайджест 31.03.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Axios был скомпрометирован на NPM, что может повлиять на безопасность проектов, и разработчикам рекомендуется быть осторожными при использовании библиотек и инструментов. Кроме того, была представлена альтернатива традиционным капчам для веб-форм, основанная на Vue 3, которая позволяет генерировать и проверять капчи на стороне клиента. Также была опубликована статья о том, как использовать Server Actions и API Routes в Next.js для создания эффективных и масштабируемых веб-приложений. Эти новости могут быть полезны разработчикам, которые работают с Vue, Nuxt, Python и хотят улучшить свою производительность и безопасность.
+
+─────────────────────
+
+📌 [Day 57 of #100DayOfCode — Understanding Server Actions vs API Routes & MongoDB in Next.js](https://dev.to/m_saad_ahmad/day-57-of-100dayofcode-understanding-server-actions-vs-api-routes-mongodb-in-nextjs-am8)
+Эта новость рассказывает о том, как использовать Server Actions и API Routes в Next.js для создания эффективных и масштабируемых веб-приложений. Это может быть полезно разработчикам, которые работают с Next.js и хотят улучшить свою производительность.
+#Next.js #Server Actions #API Routes
+
+📌 [LiteLLM Was Poisoned. Here's What It Reveals About AI Tool Supply Chains.](https://dev.to/rotiferdev/litellm-was-poisoned-heres-what-it-reveals-about-ai-tool-supply-chains-16lh)
+Статья рассказывает о том, как библиотека LiteLLM была скомпрометирована и что это говорит о цепочке поставок инструментов AI. Это может быть полезно разработчикам, которые используют библиотеки и инструменты AI и хотят быть в курсе потенциальных угроз безопасности.
+#AI #devtools #security
+
+🌐 [Axios compromised on NPM – Malicious versions drop remote access trojan](https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan)
+Статья о том, как Axios был скомпрометирован на NPM и как это может повлиять на безопасность проектов. Полезно разработчикам для понимания потенциальных рисков.
+#webdev #security
+
+💚 [🧩 Stop Using Heavy Captchas — Try This Vue 3 Client-Side Alternative](https://dev.to/parsajiravand/stop-using-heavy-captchas-try-this-vue-3-client-side-alternative-p5e)
+Эта новость представляет альтернативу традиционным капчам для веб-форм, основанную на Vue 3. Она позволяет генерировать и проверять капчи на стороне клиента, без необходимости обращения к серверу или использования секретных ключей. Это может быть полезно для разработчиков, которы
+#Vue
+
+📌 [My $5/month Cloudflare bill hit $4,868 because of an infinite loop](https://dev.to/nathanschram/my-5month-cloudflare-bill-hit-4868-because-of-an-infinite-loop-13g8)
+Эта новость рассказывает о том, как разработчик столкнулся с проблемой бесконечного цикла, который привел к огромному счету от Cloudflare. Это может быть полезно разработчикам, которые используют Cloudflare и хотят избежать подобных проблем.
+#Cloudflare #Web development #Optimization
+
+📌 [How I cut Claude's token usage by 63% with one CLAUDE.md change](https://dev.to/subprime2010/how-i-cut-claudes-token-usage-by-63-with-one-claudemd-change-gho)
+Статья рассказывает о том, как автор смог сократить использование токенов Claude на 63% с помощью одного изменения в файле CLAUDE.md. Это может быть полезно разработчикам, которые используют Claude для автоматизации задач и хотят оптимизировать использование токенов.
+#AI #devtools #Claude
+
+📌 [GitHub for Beginners: Getting started with GitHub security](https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-security/)
+Статья о том, как начать работать с безопасностью GitHub. Полезно разработчикам для защиты своих проектов и данных.
+#devtools #security
+
+💚 [Schema-Driven, Framework-Agnostic Forms: Building a Runtime Engine for React, Vue, Angular & Vanilla JS](https://dev.to/yanggmtl/schema-driven-framework-agnostic-forms-building-a-runtime-engine-for-react-vue-angular--3o26)
+Эта новость представляет подход к созданию динамических форм, который позволяет работать с различными фреймворками, включая Vue. Он основан на использовании runtime-инженера, который позволяет создавать формы на основе схемы, без необходимости硬кодить компоненты. Это может быть по
+#Vue
+
+📌 [how i used AI content moderation to stop toxic uploads on my app](https://dev.to/cloudassets_dev/how-i-used-ai-content-moderation-to-stop-toxic-uploads-on-my-app-1h2o)
+Эта новость рассказывает о том, как разработчик использовал AI для модерации контента и предотвращения токсичных загрузок. Это может быть полезно разработчикам, которые хотят создавать безопасные и дружественные веб-приложения.
+#AI #Web development #Content moderation
+
+🌐 [Product Mindset Is the Skill Vibe Coding Can't Replace](https://dev.to/supriya-kotturu/product-mindset-is-the-skill-vibe-coding-cant-replace-26jk)
+Статья рассказывает о том, как автор использовал инструменты AI для автоматизации задач и пришел к выводу, что навыки продуктивного мышления являются важными для разработчиков. Это может быть полезно разработчикам, которые хотят улучшить свои навыки и быть более эффективными в св
+#webdev #frontend #AI
+
+🎨 [The Tailwind CSS Setup I Use on Every Project](https://dev.to/impeccify/the-tailwind-css-setup-i-use-on-every-project-4a75)
+Эта новость представляет подход к настройке Tailwind CSS, который может быть полезен для разработчиков, которые хотят создавать быстрые и эффективные веб-приложения с использованием Vue. Она включает в себя примеры кода и объяснения, как настроить Tailwind CSS для своих проектов.
+#CSS #Tailwind CSS
+
+🟨 [I Built a 42KB Website with Canvas Particles, Live API Status, and an Interactive Terminal](https://dev.to/yedanyagamiaicmd/i-built-a-42kb-website-with-canvas-particles-live-api-status-and-an-interactive-terminal-43c8)
+Эта новость рассказывает о том, как разработчик создал веб-сайт всего из одного HTML-файла, используя Canvas и vanilla JS. Это может быть полезно разработчикам, которые хотят создавать легкие и эффективные веб-приложения.
+#HTML5 #CSS3 #JavaScript
+
+📌 [How I cut Claude's token usage by 63% with one CLAUDE.md change](https://dev.to/subprime2010/how-i-cut-claudes-token-usage-by-63-with-one-claudemd-change-gho)
+Эта новость рассказывает о том, как разработчик оптимизировал использование токенов Claude, изменив один параметр в файле CLAUDE.md. Это может быть полезно разработчикам, которые используют Claude и хотят снизить свои затраты.
+#AI #Claude #Optimization
+
+📌 [Building Smarter Apps with Multi-Agent Systems in AI](https://dev.to/mabualzait/building-smarter-apps-with-multi-agent-systems-in-ai-a4h)
+Статья о построении более умных приложений с помощью многоагентных систем в AI. Полезно разработчикам для создания более сложных и интеллектуальных систем.
+#AI
+
+📌 [Do your own writing](https://alexhwoods.com/dont-let-ai-write-for-you/)
+Статья о том, почему разработчикам не следует полагаться на AI для написания кода. Полезно разработчикам для понимания важности ручного написания кода.
+#AI
+
+_Источников: 5 · Новостей: 15_
