@@ -23,7 +23,8 @@ batch_size: 12
 model: llama-3.3-70b-versatile
 
 feeds:
-  # ── Vue / Nuxt core ──────────────────────────
+
+  # ── Core ecosystem ──────────────────────────
   - name: Vue.js Blog
     url: https://blog.vuejs.org/feed.rss
     tags: [Vue, frontend]
@@ -32,40 +33,58 @@ feeds:
     url: https://nuxt.com/blog/feed.xml
     tags: [Nuxt, Vue, frontend]
 
-  - name: VueSchool Blog
-    url: https://vueschool.io/articles/feed/
-    tags: [Nuxt, Vue, frontend]
+  - name: Vite Blog
+    url: https://vite.dev/blog/rss.xml
+    tags: [Vite, frontend, tooling]
+
+  - name: Node.js Blog
+    url: https://nodejs.org/en/feed/blog.xml
+    tags: [Node, JavaScript, ecosystem]
 
   - name: Vuetify Blog
     url: https://vuetifyjs.com/blog/feed.xml
     tags: [Vuetify, Vue, frontend]
 
-  # ── CSS / Styling ────────────────────────────
+  # ── CSS / Styling ───────────────────────────
   - name: CSS-Tricks
     url: https://css-tricks.com/feed/
-    tags: [CSS, SCSS, frontend]
+    tags: [CSS, frontend]
 
   - name: Smashing Magazine
     url: https://www.smashingmagazine.com/feed/
     tags: [CSS, frontend, design]
 
-  - name: web.dev (Google)
-    url: https://web.dev/feed.xml
-    tags: [webdev, CSS, performance]
-
-  - name: Frontend Focus
-    url: https://frontendfocus.co/rss/
-    tags: [frontend, CSS, HTML]
-
   - name: Tailwind CSS Blog
     url: https://tailwindcss.com/feeds/feed.xml
     tags: [Tailwind, CSS, frontend]
 
-  # ── JS / TS ecosystem ────────────────────────
+  - name: UnoCSS Blog
+    url: https://unocss.dev/blog/rss.xml
+    tags: [UnoCSS, CSS, frontend]
+
+  # ── Web platform ────────────────────────────
+  - name: web.dev (Google)
+    url: https://web.dev/feed.xml
+    tags: [webdev, performance]
+
+  - name: Chrome Developers Blog
+    url: https://developer.chrome.com/blog/rss.xml
+    tags: [webdev, performance]
+
+  # ── Frontend newsletters / curated feeds ────
+  - name: Frontend Focus
+    url: https://frontendfocus.co/rss/
+    tags: [frontend, webdev]
+
   - name: JavaScript Weekly
     url: https://javascriptweekly.com/rss/
     tags: [JavaScript, TypeScript, frontend]
 
+  - name: Frontend Masters Blog
+    url: https://frontendmasters.com/blog/feed/
+    tags: [frontend, webdev]
+
+  # ── Community sources ───────────────────────
   - name: Dev.to (Vue tag)
     url: https://dev.to/feed/tag/vue
     tags: [Vue, frontend]
@@ -74,28 +93,33 @@ feeds:
     url: https://dev.to/feed/tag/nuxt
     tags: [Nuxt, frontend]
 
-  - name: Dev.to (CSS tag)
-    url: https://dev.to/feed/tag/css
-    tags: [CSS, frontend]
-
   - name: Dev.to (Webdev tag)
     url: https://dev.to/feed/tag/webdev
     tags: [webdev, frontend]
 
-  # ── AI for developers ────────────────────────
-  - name: Dev.to (AI tag)
-    url: https://dev.to/feed/tag/ai
-    tags: [AI, devtools]
+  # ── Habr (high signal hubs) ─────────────────
+  - name: Habr — Frontend
+    url: https://habr.com/ru/rss/hub/frontend/
+    tags: [frontend, webdev]
 
+  - name: Habr — JavaScript
+    url: https://habr.com/ru/rss/hub/javascript/
+    tags: [JavaScript, frontend]
+
+  # ── AI devtools ─────────────────────────────
   - name: GitHub Blog
     url: https://github.blog/feed/
-    tags: [AI, devtools, frontend]
+    tags: [AI, devtools]
 
-  - name: The Pragmatic Engineer
-    url: https://newsletter.pragmaticengineer.com/feed
-    tags: [AI, webdev, devtools]
+  - name: OpenAI Blog
+    url: https://openai.com/blog/rss.xml
+    tags: [AI, devtools]
 
-  # ── General webdev ───────────────────────────
+  - name: Anthropic Blog
+    url: https://www.anthropic.com/news/rss.xml
+    tags: [AI, devtools]
+
+  # ── Tech news signal ────────────────────────
   - name: Hacker News
     url: https://news.ycombinator.com/rss
-    tags: [webdev, tech]
+    tags: [tech, webdev]
