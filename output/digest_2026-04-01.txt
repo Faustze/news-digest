@@ -1,0 +1,67 @@
+📰 *Дайджест 01.04.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "No database, no problem: e-commerce with Nuxt Content and Stripe" показала, как создать онлайн-магазин без базы данных, используя Nuxt Content и Stripe. Кроме того, вышла новая версия Inertia.js v3, и для разработчиков Laravel доступно руководство по обновлению. Также была опубликована статья о сравнении Python, R и Julia для разработки искусственного интеллекта и машинного обучения, что может быть полезно для выбора языка программирования для проектов 2026 года.
+
+─────────────────────
+
+💚 [No database, no problem: e-commerce with Nuxt Content and Stripe](https://dev.to/francklebas/no-database-no-problem-e-commerce-with-nuxt-content-and-stripe-cbc)
+В этой статье обсуждается возможность создания онлайн-магазина без использования базы данных, используя Nuxt Content и Stripe. Это может быть полезно разработчикам, которые хотят создать простой и эффективный онлайн-магазин.
+#Nuxt #frontend
+
+🐍 [Python vs R vs Julia for AI ML Development — an Honest Comparison for 2026 Projects](https://dev.to/elite_websolutions_157cc/python-vs-r-vs-julia-for-ai-ml-development-an-honest-comparison-for-2026-projects-526m)
+Статья сравнивает Python, R и Julia как языки программирования для разработки искусственного интеллекта и машинного обучения. Автор анализирует сильные и слабые стороны каждого языка и дает рекомендации для выбора языка для проектов 2026 года.
+#Python #AI #ML
+
+🖥️ [Agent-driven development in Copilot Applied Science](https://github.blog/ai-and-ml/github-copilot/agent-driven-development-in-copilot-applied-science/)
+Статья о том, как использовать кодирование-агентов для автоматизации части работы разработчика. Автор делится своим опытом работы с кодированием-агентами и дает советы, как работать с ними более эффективно.
+#AI #devtools #frontend
+
+💚 [Inertia.js v3 Is Out: The Upgrade Guide Every Laravel Developer Actually Needs](https://dev.to/hafiz619/inertiajs-v3-is-out-the-upgrade-guide-every-laravel-developer-actually-needs-419b)
+В этой статье обсуждается новый выпуск Inertia.js v3 и предоставляется руководство по обновлению для разработчиков Laravel. Это может быть полезно разработчикам, которые используют Inertia.js в своих проектах.
+#Vue #frontend
+
+🎨 [SCSS Is Solving Problems CSS Is Learning to Solve Itself](https://dev.to/ouvarov/scss-is-solving-problems-css-is-learning-to-solve-itself-3cgf)
+Статья обсуждает эволюцию CSS и его способность решать проблемы, которые ранее требовали использования SCSS. Автор анализирует, какие возможности CSS можно использовать вместо SCSS, и где SCSS все еще необходим. Это полезно для разработчиков, чтобы понять, как использовать CSS бо
+#CSS
+
+🎨 [Mastering CSS Flexbox: Say Goodbye to Float Nightmares](https://dev.to/longnguyeenx/mastering-css-flexbox-say-goodbye-to-float-nightmares-1igk)
+Статья о том, как освоить CSS Flexbox, который является мощным инструментом для создания адаптивных и гибких макетов. Это необходимо для любого разработчика, чтобы создавать современные и удобные интерфейсы. Flexbox позволяет легко располагать и выравнивать элементы на странице,
+#CSS #Flexbox #frontend
+
+📌 [What Claude Code Architecture Reveals About the Missing Governance Layer for AI Agents](https://dev.to/levelsofself/what-claude-code-architecture-reveals-about-the-missing-governance-layer-for-ai-agents-1k62)
+Утечка исходного кода популярного AI-агента Claude Code показала, как он управляет инструментами, координирует подагентов и обрабатывает разрешения. Это открытие может быть полезно разработчикам для понимания внутренней структуры AI-агентов и создания более эффективных инструмент
+#AI #devtools
+
+🎨 [Mastering CSS Flexbox: Say Goodbye to Float Nightmares](https://dev.to/longnguyeenx/mastering-css-flexbox-say-goodbye-to-float-nightmares-1igk)
+В этой статье обсуждается возможность использования CSS Flexbox для создания гибких и адаптивных макетов. Это может быть полезно разработчикам, которые хотят улучшить внешний вид и функциональность своих веб-приложений.
+#CSS #frontend
+
+🎨 [I Built 8 Landing Page Templates with Zero Dependencies — Here is What I Learned](https://dev.to/young_efb26d4080937/i-built-8-landing-page-templates-with-zero-dependencies-here-is-what-i-learned-15p)
+Автор статьи построил 8 шаблонов страниц приземления без использования каких-либо зависимостей, только с помощью ванильного HTML и CSS. Он делится своим опытом и выводами о том, как можно создавать эффективные и простые веб-страницы без использования фреймворков и библиотек.
+#CSS #frontend
+
+📌 [How Bifrost Reduces GPT Costs and Response Times with Semantic Caching](https://dev.to/pranay_batta/how-bifrost-reduces-gpt-costs-and-response-times-with-semantic-caching-344g)
+Статья о том, как использовать Bifrost для снижения затрат и времени ответа при работе с GPT. Bifrost является открытым LLM-шлюзом, который использует семантический кэш для уменьшения количества запросов к GPT. Это может быть полезно для разработчиков, которые работают с большими
+#AI #GPT #Bifrost
+
+📌 [Top 5 Enterprise AI Gateways to Track Claude Code Costs](https://dev.to/debmckinney/top-5-enterprise-ai-gateways-to-track-claude-code-costs-54f0)
+Статья о том, как использовать AI-шлюзы для отслеживания затрат на Claude Code. Claude Code является мощным инструментом для разработки AI-приложений, но его использование может быть дорогим. Статья представляет 5 лучших AI-шлюзов, которые могут помочь разработчикам отслеживать и
+#AI #Claude Code #AI-шлюзы
+
+📌 [5 Best MCP Gateways for Developers in 2026: Routing Tools and Context Across LLM Agents](https://dev.to/debmckinney/5-best-mcp-gateways-for-developers-in-2026-routing-tools-and-context-across-llm-agents-3474)
+Статья о том, как использовать MCP-шлюзы для маршрутизации инструментов и контекста между LLM-агентами. MCP-шлюзы являются важными инструментами для разработчиков, которые работают с большими объемами данных и хотят оптимизировать процесс разработки. Статья представляет 5 лучших
+#AI #MCP-шлюзы #LLM-агенты
+
+📌 [Top 5 Enterprise AI Gateways to Reduce LLM Cost and Latency](https://dev.to/debmckinney/top-5-enterprise-ai-gateways-to-reduce-llm-cost-and-latency-24cg)
+Статья о том, как использовать AI-шлюзы для снижения затрат и времени ответа при работе с LLM. AI-шлюзы являются важными инструментами для разработчиков, которые работают с большими объемами данных и хотят оптимизировать процесс разработки. Статья представляет 5 лучших AI-шлюзов,
+#AI #LLM #AI-шлюзы
+
+📌 [LLM Cost Tracking and Spend Management for Engineering Teams](https://dev.to/pranay_batta/llm-cost-tracking-and-spend-management-for-engineering-teams-233a)
+Статья о том, как отслеживать и управлять затратами на LLM для инженерных команд. LLM является мощным инструментом для разработки AI-приложений, но его использование может быть дорогим. Статья представляет способы отслеживания и управления затратами на LLM, чтобы помочь инженерны
+#AI #LLM #затраты
+
+🌐 [What is inference engineering? Deepdive](https://newsletter.pragmaticengineer.com/p/what-is-inference-engineering)
+Статья об инженерии вывода, которая является областью, богатой интересными задачами. Автор объясняет, что такое инженерия вывода и как она используется в разработке программного обеспечения.
+#AI #webdev #devtools
+
+_Источников: 6 · Новостей: 15_
