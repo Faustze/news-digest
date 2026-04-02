@@ -1,0 +1,55 @@
+📰 *Дайджест 02.04.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "Scaling Vue.js for the Next Million" делится опытом масштабирования Vue.js-приложений для обработки большого количества пользователей, что может быть полезно разработчикам, работающим с крупными проектами. Кроме того, статья "Vue vs React in 2026" сравнивает Vue и React в контексте разработки с использованием инструментов ИИ, что может помочь разработчикам выбрать лучший фреймворк для своих проектов. Также была опубликована статья о новом подходе к поиску кода, который в 100 раз быстрее, чем традиционный поиск с помощью regex, что может оптимизировать процесс поиска и редактирования кода.
+
+─────────────────────
+
+💚 [Scaling Vue.js for the Next Million: Lessons from 100k+ Concurrent User Environments](https://dev.to/raj_vue/scaling-vuejs-for-the-next-million-lessons-from-100k-concurrent-user-environments-dh7)
+Статья делится опытом масштабирования Vue.js-приложений для обработки большого количества пользователей. Автор рассказывает о том, как писать код, который уважает ресурсы пользователя, и как масштабировать приложения для обработки enterprise-уровня трафика.
+#Vue #scaling
+
+🌐 [🚀 Realtime Communication in Frontend (Polling vs WebSocket vs SSE)](https://dev.to/vishwark/realtime-communication-in-frontend-polling-vs-websocket-vs-sse-566l)
+Статья о реальном времени коммуникации на фронте. Она сравнивает различные подходы, такие как опрос, WebSocket и SSE, и дает советы, как выбрать лучший подход для конкретного проекта.
+#webdev #frontend
+
+💚 [Vue vs React in 2026: What AI-First Development Teams Actually Choose](https://dev.to/krunal_groovy/vue-vs-react-in-2026-what-ai-first-development-teams-actually-choose-419b)
+Статья сравнивает Vue и React в контексте разработки с использованием инструментов ИИ. Автор делится опытом работы с обоими фреймворками и рассказывает, как ИИ-инструменты могут повлиять на выбор фреймворка. Это может быть полезно разработчикам, которые рассматривают возможность
+#Vue #React #AI
+
+📌 [Securing the open source supply chain across GitHub](https://github.blog/security/supply-chain-security/securing-the-open-source-supply-chain-across-github/)
+Статья о безопасности открытого исходного кода на GitHub. Она дает советы, как предотвратить утечку секретов и рассказывает о новых возможностях безопасности GitHub.
+#security #devtools
+
+🌐 [I voice-code from my phone while walking my dog](https://dev.to/nathanschram/i-voice-code-from-my-phone-while-walking-my-dog-3d8g)
+Статья о том, как использовать голосовые команды для кодирования с помощью инструмента Claude Code. Это может быть полезно разработчикам, чтобы повысить производительность и работать над проектами в любом месте.
+#AI #webdev
+
+📌 [Run multiple agents at once with /fleet in Copilot CLI](https://github.blog/ai-and-ml/github-copilot/run-multiple-agents-at-once-with-fleet-in-copilot-cli/)
+Статья о том, как запускать несколько агентов одновременно с помощью команды /fleet в Copilot CLI. Она дает советы, как писать запросы, которые могут быть разделены между файлами, и как объявлять зависимости.
+#AI #devtools
+
+🌐 [The future of code search is not regex – 100x faster than ripgrep](https://fff.dmtrkovalenko.dev/)
+Статья представляет новый подход к поиску кода, который в 100 раз быстрее, чем традиционный поиск с помощью regex. Для разработчиков это может быть полезно для оптимизации процесса поиска и редактирования кода. Статья предоставляет информацию о новом инструменте и его возможностя
+#webdev #productivity
+
+💚 [AURORA Commerce Pro: adding Sanity support without touching the storefront](https://dev.to/francklebas/aurora-commerce-pro-adding-sanity-support-without-touching-the-storefront-j29)
+Статья рассказывает о том, как добавить поддержку Sanity в проект AURORA Commerce без изменения storefront. Это может быть полезно разработчикам, которые работают с Nuxt и Sanity.
+#Nuxt #Sanity
+
+🌐 [Top LLM Gateways That Support Semantic Caching in 2026](https://dev.to/debmckinney/top-llm-gateways-that-support-semantic-caching-in-2026-3dho)
+Статья о семантическом кэшировании в приложениях LLM. Это может быть полезно разработчикам, чтобы уменьшить количество запросов и повысить производительность. Семантическое кэширование позволяет хранить ответы на часто задаваемые вопросы и возвращать их вместо повторного запроса
+#AI #webdev
+
+🟨 [Claude Code бесплатно: как использовать ии бесплатно в 2026 году](https://habr.com/ru/articles/1018234/?utm_campaign=1018234&utm_source=habrahabr&utm_medium=rss)
+Статья о том, как использовать инструмент Claude Code бесплатно. Она рассказывает о форке OpenClaude и о том, как подключить его к различным моделям LLM.
+#AI #JavaScript
+
+🌐 [Email obfuscation: What works in 2026?](https://spencermortensen.com/articles/email-obfuscation/)
+В статье обсуждается проблема обфускации электронных адресов и представлены методы, которые можно использовать для защиты от спам-ботов. Для разработчиков важно знать, как защитить электронные адреса пользователей от спама. Статья предоставляет информацию о том, какие методы обфу
+#webdev #security
+
+📌 [Claude Code without the $20/month rate limits: using ANTHROPIC_BASE_URL in production](https://dev.to/subprime2010/claude-code-without-the-20month-rate-limits-using-anthropicbaseurl-in-production-18p6)
+Статья рассказывает о том, как использовать переменную окружения ANTHROPIC_BASE_URL для обхода ограничений скорости в Claude Code. Это может быть полезно разработчикам, которые используют Claude Code в своих проектах.
+#Claude Code #AI
+
+_Источников: 5 · Новостей: 12_
