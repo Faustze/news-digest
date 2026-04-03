@@ -1,0 +1,59 @@
+📰 *Дайджест 03.04.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Опубликовано полное руководство по оптимизации производительности Vue и Nuxt, в котором описываются такие темы, как реактивность и стратегия рендеринга. Кроме того, вышла новая статья о том, как разработчики могут оптимизировать производительность frontend для современных веб-приложений. Также было объявлено о компрометации цепочки поставок axios в NPM, что может быть интересно разработчикам, которые используют axios в своих проектах. Наконец, появилась информация о создании веб-приложений с поддержкой ИИ с помощью Vercel AI SDK, что может быть полезно разработчикам, которые хотят интегрировать ИИ в свои проекты.
+
+─────────────────────
+
+💚 [Vue & Nuxt Performance in 2026: The Complete Guide](https://dev.to/parsajiravand/vue-nuxt-performance-in-2026-the-complete-guide-4agk)
+Полное руководство по оптимизации производительности Vue и Nuxt. Статья охватывает такие темы, как реактивность, стратегия рендеринга, стабильность макета и многое другое. Это может быть полезно разработчикам, которые хотят улучшить производительность своих приложений.
+#Vue #Nuxt #frontend
+
+🖥️ [What To Know in JavaScript (2026 Edition)](https://frontendmasters.com/blog/what-to-know-in-javascript-2026-edition/)
+Обзор новых возможностей и тенденций в JavaScript. Статья охватывает языковые особенности, фреймворки, среды выполнения, инструменты сборки и многое другое. Это может быть полезно разработчикам для того, чтобы оставаться в курсе последних событий в мире JavaScript.
+#frontend #webdev
+
+📌 [The CanisterWorm npm Attack Made Me Audit My Own node_modules — Here's What I Found](https://dev.to/profiterole/the-canisterworm-npm-attack-made-me-audit-my-own-nodemodules-heres-what-i-found-499c)
+Статья о проверке уязвимостей в проекте после атаки CanisterWorm на npm. Автор рассказывает о том, как он проверил свои проекты и что он нашел. Полезно разработчикам для понимания важности безопасности в своих проектах.
+#npm #security
+
+📌 [Post Mortem: axios NPM supply chain compromise](https://github.com/axios/axios/issues/10636)
+В этой новости рассказывается о компрометации цепочки поставок axios в NPM. Это может быть интересно разработчикам, которые используют axios в своих проектах и хотят узнать, как избежать подобных проблем в будущем.
+#npm #security
+
+🌐 [How Developers Can Optimize Frontend Performance for Modern Web Applications](https://dev.to/brandvix/how-developers-can-optimize-frontend-performance-for-modern-web-applications-444b)
+Статья о том, как разработчики могут оптимизировать производительность frontend для современных веб-приложений. Автор предоставляет советы и рекомендации по улучшению производительности и описывает важность этого аспекта веб-разработки.
+#webdev #frontend
+
+🌐 [OpenAI Acquires TBPN](https://openai.com/index/openai-acquires-tbpn/)
+OpenAI приобрела компанию TBPN, что может быть интересно разработчикам, которые работают с искусственным интеллектом и машинным обучением. Эта новость может указывать на новые возможности для разработчиков в области AI.
+#AI #webdev
+
+🎨 [Making Complex CSS Shapes Using shape()](https://css-tricks.com/complex-css-shapes-with-shape-function/)
+Статья о создании сложных форм в CSS с помощью функции shape(). Это может быть полезно разработчикам для создания уникальных и интересных дизайнов. Статья предоставляет примеры и объяснения того, как использовать эту функцию.
+#CSS #frontend
+
+🌐 [Running ChatGPT, Claude, and Gemini in One TypeScript App](https://dev.to/neurolink/running-chatgpt-claude-and-gemini-in-one-typescript-app-47pm)
+Статья о том, как запустить ChatGPT, Claude и Gemini в одном приложении на TypeScript. Автор описывает, как создать многофункциональное приложение с помощью одного SDK и почему это важно для разработчиков.
+#webdev #frontend
+
+📌 [The Ultimate Guide to Building AI-Powered Web Apps with the Vercel AI SDK in 2026](https://dev.to/bean_bean/the-ultimate-guide-to-building-ai-powered-web-apps-with-the-vercel-ai-sdk-in-2026-1c6a)
+Полное руководство по созданию веб-приложений с поддержкой ИИ с помощью Vercel AI SDK. Статья рассказывает о том, как использовать ИИ в веб-разработке и как интегрировать его в свои проекты.
+#AI #Vercel
+
+🌐 [Cursor 3](https://cursor.com/blog/cursor-3)
+Cursor 3 — новая версия инструмента для разработчиков, который может быть полезен для создания более эффективных и автоматизированных процессов. Эта новость может быть интересна разработчикам, которые работают с веб-приложениями и ищут способы улучшить свою производительность.
+#AI #webdev
+
+💚 [I built a free shift calendar app as a solo developer — here's how](https://dev.to/jlodev-desing/i-built-a-free-shift-calendar-app-as-a-solo-developer-heres-how-14aj)
+Статья о создании бесплатного приложения для календаря смен. Автор делится своим опытом и описывает, как он создал приложение с помощью Vue.js. Это может быть полезно разработчикам, которые хотят создать подобные приложения.
+#Vue #frontend
+
+🟨 [Как я рендерю 3D-квартиры в браузере: Next.js + Three.js, процедурная мебель и мультиплеер на WebSocket](https://habr.com/ru/articles/1018620/?utm_campaign=1018620&utm_source=habrahabr&utm_medium=rss)
+Статья о том, как автор создал 3D-квартиры в браузере с помощью Next.js и Three.js. Полезно разработчикам для понимания возможностей современных технологий веб-разработки.
+#JavaScript #3D
+
+📌 [Codex now offers more flexible pricing for teams](https://openai.com/index/codex-flexible-pricing-for-teams)
+OpenAI представила более гибичную систему оплаты для команд, использующих ChatGPT Business и Enterprise. Полезно разработчикам для понимания возможностей ИИ в их проектах.
+#AI #OpenAI
+
+_Источников: 7 · Новостей: 13_
