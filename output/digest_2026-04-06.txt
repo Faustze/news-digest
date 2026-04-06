@@ -1,0 +1,51 @@
+📰 *Дайджест 06.04.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "ARIA Labels Are Probably Making Your Site Less Accessible" подчеркивает важность использования родных HTML-элементов вместо ARIA-атрибутов для улучшения доступности веб-сайтов. Кроме того, компания заменила Node.js на Bun и получила увеличение производительности в 5 раз, что может быть полезно разработчикам для оптимизации производительности своих приложений. Также была представлена AI-модель Gemma Gem, встроенная в браузер, которая не требует API-ключей и облачных сервисов, и может быть полезна для создания приложений с интегрированными функциями ИИ.
+
+─────────────────────
+
+📌 [ARIA Labels Are Probably Making Your Site Less Accessible. Here's When to Use Them (And When to Delete Them).](https://dev.to/agentkit/aria-labels-are-probably-making-your-site-less-accessible-heres-when-to-use-them-and-when-to-gio)
+Статья о том, как использовать ARIA-атрибуты в HTML для улучшения доступности веб-сайтов. Автор подчеркивает важность использования родных HTML-элементов вместо ARIA, если это возможно, и дает советы по правильному использованию ARIA-атрибутов.
+#accessibility #HTML #ARIA
+
+📌 [The 5 Most Common EAA Violations I Found Auditing 14 Production Sites (And How to Fix Each One)](https://dev.to/agentkit/the-5-most-common-eaa-violations-i-found-auditing-14-production-sites-and-how-to-fix-each-one-1lhf)
+Статья о 5 наиболее распространенных ошибках, которые автор нашел при аудите 14 веб-сайтов на соответствие Европейскому акту об доступности. Автор дает советы по исправлению этих ошибок и улучшению доступности веб-сайтов.
+#accessibility #EAA #web development
+
+📌 [Copilot is 'for entertainment purposes only', per Microsoft's terms of use](https://techcrunch.com/2026/04/05/copilot-is-for-entertainment-purposes-only-according-to-microsofts-terms-of-service/)
+Статья о том, что Microsoft считает Copilot инструментом для развлечения, а не для серьезного использования. Это может быть важно для разработчиков, использующих этот инструмент.
+#AI #development tools
+
+🌐 [Show HN: Gemma Gem – AI model embedded in a browser – no API keys, no cloud](https://github.com/kessler/gemma-gem)
+Gemma Gem - это AI-модель, встроенная в браузер, которая не требует API-ключей и облачных сервисов. Это может быть полезно разработчикам для создания приложений с интегрированными функциями ИИ.Gemmi Gem может быть использована для различных задач, таких как обработка естественног
+#AI #webdev
+
+🌐 [Running Gemma 4 locally with LM Studio's new headless CLI and Claude Code](https://ai.georgeliu.com/p/running-google-gemma-4-locally-with)
+В этой статье описывается, как запустить Gemma 4 локально с помощью новой безголовой CLI от LM Studio и Claude Code. Это может быть полезно разработчикам для создания приложений с интегрированными функциями ИИ.Статья предоставляет подробную инструкцию по настройке и запуску Gemma
+#AI #webdev
+
+🌐 [Show HN: Modo – I built an open-source alternative to Kiro, Cursor, and Windsurf](https://github.com/mohshomis/modo)
+Modo - это открытая альтернатива Kiro, Cursor и Windsurf. Это может быть полезно разработчикам для создания приложений с интегрированными функциями ИИ и машинного обучения.Modo предоставляет набор инструментов для создания и обучения моделей ИИ.
+#AI #webdev
+
+🟨 [We replaced Node.js with Bun for 5x throughput](https://trigger.dev/blog/firebun)
+В этой статье описывается, как компания заменила Node.js на Bun и получила увеличение производительности в 5 раз. Это может быть полезно разработчикам для оптимизации производительности своих приложений.Bun - это новый runtime, который позволяет запускать JavaScript-приложения с
+#JavaScript #webdev
+
+📌 [AI coding agents nail the code. They break on the scaffolding.](https://dev.to/urbanisierung/stay-ahead-in-web-development-latest-news-tools-and-insights-131-1n7h)
+Статья о ограничениях AI-инструментов для кодирования и о том, как они могут помочь разработчикам, но также могут создавать проблемы при использовании в реальных проектах.
+#AI #code generation #web development
+
+🐍 [Process 1,000 articles for $1: Python content pipeline with pay-per-use AI](https://dev.to/sbastien_lopez_399f3f6b8/process-1000-articles-for-1-python-content-pipeline-with-pay-per-use-ai-3ic3)
+Статья о создании контент-пайплайна с использованием Python и AI-инструментов для обработки текстов. Автор представляет свой API, который позволяет обрабатывать тексты за небольшую плату.
+#Python #AI #content pipeline
+
+🟨 [Building a Simple Calculator App using HTML, CSS & JavaScript](https://dev.to/hariharan_sj_584ad73ef2e/building-a-simple-calculator-app-using-html-css-javascript-41fh)
+Статья о создании простого калькулятора с помощью HTML, CSS и JavaScript. Проект подходит для начинающих и помогает понять основные концепции, такие как манипуляция DOM, обработка событий и базовая логика JavaScript.
+#HTML5 #CSS3 #JavaScript
+
+🟨 [Что всё таки не так с веб компонентами](https://habr.com/ru/articles/1019420/)
+Статья о проблемах с веб-компонентами и сравнении фреймворков для их создания. Автор делится своим опытом и результатами бенчмарков.
+#JavaScript #frontend
+
+_Источников: 3 · Новостей: 11_
