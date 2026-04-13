@@ -1,0 +1,23 @@
+📰 *Дайджест 13.04.2026*
+
+Сегодня в мире фронтенда и Python произошли интересные события. Статьи о сравнении размеров приложений на Nuxt 3 и Vue 3 с React показали, что приложение на Vue 3 может быть на 41% меньше, чем на React, в то время как приложение на Nuxt 3 оказалось на 7% больше. Кроме того, была опубликована статья о создании собственного AI-агента на любом VPS с помощью OpenClaw, что может быть полезно разработчикам, интересующимся искусственным интеллектом. Также была опубликована статья о том, почему использовать WebAssembly вместо CLI-инструментов для обработки файлов, что может оптимизировать работу с файлами.
+
+─────────────────────
+
+💚 [Porting to Nuxt 3: +7% Larger Than React, the Only Regression in the Series (and Why)](https://dev.to/sendotltd/porting-to-nuxt-3-7-larger-than-react-the-only-regression-in-the-series-and-why-3k1b)
+Статья о сравнении размеров приложений на Nuxt 3 и React. Автор обнаружил, что приложение на Nuxt 3 оказалось на 7% больше, чем на React. Это может быть полезно разработчикам, которые хотят оптимизировать размер своих приложений.
+#Nuxt #Vue #frontend
+
+💚 [Porting the Same Portfolio Landing to Vue 3 — 41% Smaller Gzip Than React](https://dev.to/sendotltd/porting-the-same-portfolio-landing-to-vue-3-41-smaller-gzip-than-react-l7j)
+Статья о сравнении размеров приложений на Vue 3 и React. Автор обнаружил, что приложение на Vue 3 оказалось на 41% меньше, чем на React. Это может быть полезно разработчикам, которые хотят оптимизировать размер своих приложений.
+#Vue #frontend
+
+🌐 [OpenClaw Deep Dive Guide: Self-Host Your Own AI Agent on Any VPS (2026)](https://dev.to/bean_bean/openclaw-deep-dive-guide-self-host-your-own-ai-agent-on-any-vps-2026-kcb)
+Статья о том, как создать собственного AI-агента на любом VPS с помощью OpenClaw. Это может быть полезно разработчикам, которые хотят создать свои собственные AI-агенты.
+#AI #webdev
+
+🌐 [Why I Stopped Installing CLI Tools for File Processing (And Started Using WebAssembly)](https://dev.to/gktrk_kahriman_192cb6da/why-i-stopped-installing-cli-tools-for-file-processing-and-started-using-webassembly-3mkm)
+Статья о том, почему автор перестал использовать CLI-инструменты для обработки файлов и начал использовать WebAssembly. Это может быть полезно разработчикам, которые хотят оптимизировать свою работу с файлами.
+#webdev #frontend
+
+_Источников: 2 · Новостей: 4_
