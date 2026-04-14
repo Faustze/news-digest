@@ -1,0 +1,43 @@
+📰 *Дайджест 14.04.2026*
+
+Сегодня в мире фронтенда и Python произошли интересные события. Статья "Building a Production Vue Frontend for Multi-Tenant Laravel SaaS with Inertia v2" поделилась опытом построения производительного фронтенда на Vue.js для многоарендного SaaS-приложения на Laravel. Кроме того, статья "The Hidden Cost of ‘Reusable Components’ in Vue" предупредила о потенциальных проблемах с переиспользуемыми компонентами в Vue.js и дала советы, как их избежать. Также была опубликована статья о создании библиотеки валидации схем, которая может быть полезна разработчикам, работающим с валидацией данных в своих проектах.
+
+─────────────────────
+
+💚 [Building a Production Vue Frontend for Multi-Tenant Laravel SaaS with Inertia v2](https://dev.to/d_isaenko_dev/building-a-production-vue-frontend-for-multi-tenant-laravel-saas-with-inertia-v2-54h1)
+Статья о том, как построить производительный фронтенд на Vue.js для многоарендного SaaS-приложения на Laravel с использованием Inertia v2. Автор делится своим опытом и дает советы, как реализовать динамические макеты, управление наложениями и другие функции.
+#Vue
+
+💚 [The Hidden Cost of ‘Reusable Components’ in Vue](https://dev.to/livecodebase/the-hidden-cost-of-reusable-components-in-vue-4mce)
+Статья о том, как переиспользуемые компоненты могут привести к проблемам в кодовой базе Vue.js. Автор делится своим опытом и дает советы, как избежать этих проблем. Полезно разработчикам, которые работают с Vue.js и хотят улучшить свою кодовую базу.
+#Vue
+
+🟨 [Как я написал свою библиотеку валидации схем и создал свою альтернативу Zod](https://habr.com/ru/articles/1023038/?utm_campaign=1023038&utm_source=habrahabr&utm_medium=rss)
+Автор написал свою библиотеку валидации схем и создал свою альтернативу Zod. В статье описывается процесс создания и примеры использования библиотеки. Это может быть полезно разработчикам, которые работают с валидацией данных в своих проектах.
+#JavaScript #frontend
+
+🟨 [Создаем WCAG-доступный DatePicker на React: как Claude пишет основу, а мы доводим до ума](https://habr.com/ru/articles/1022918/?utm_campaign=1022918&utm_source=habrahabr&utm_medium=rss)
+Авторы создали WCAG-доступный DatePicker на React, используя инструменты AI для ускорения разработки. Статья описывает процесс создания и примеры использования компонента. Это может быть полезно разработчикам, которые работают с доступностью и React.
+#JavaScript #frontend
+
+🌐 [I Built an API That Gives AI Agents Persistent Memory - Here's How](https://dev.to/timbassler/i-built-an-api-that-gives-ai-agents-persistent-memory-heres-how-1jjb)
+Автор создал API, который дает AI-агентам постоянную память. Статья описывает процесс создания и примеры использования API. Это может быть полезно разработчикам, которые работают с AI и хотят улучшить производительность своих агентов.
+#AI #webdev
+
+📌 [Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI](https://openai.com/index/cloudflare-openai-agent-cloud)
+Cloudflare объявляет о партнерстве с OpenAI для интеграции AI-агентов в Cloudflare Agent Cloud. Это может быть полезно разработчикам, которые работают с AI и хотят улучшить производительность своих агентов.
+#AI #devtools
+
+📌 [AI-Generated UI Is Inaccessible by Default](https://frontendmasters.com/blog/ai-generated-ui-is-inaccessible-by-default/)
+Статья о том, как интерфейсы, сгенерированные с помощью ИИ, могут быть недоступными по умолчанию. Автор дает советы, как сделать эти интерфейсы более доступными. Полезно разработчикам, которые работают с ИИ и хотят улучшить доступность своих приложений.
+#AI
+
+🎨 [7 View Transitions Recipes to Try](https://css-tricks.com/7-view-transitions-recipes-to-try/)
+Статья о том, как реализовать переходы между представлениями в CSS. Автор предлагает 7 рецептов, которые можно использовать в своих проектах. Полезно разработчикам, которые хотят улучшить пользовательский опыт в своих веб-приложениях.
+#CSS
+
+🟨 [Call back function_Single Threaded_forEach](https://dev.to/vignesh_sky/call-back-functionsingle-threadedforeach-1jah)
+Автор описывает callback-функции и их использование в JavaScript. Статья может быть полезна разработчикам, которые хотят улучшить свое понимание callback-функций и их применения.
+#JavaScript #frontend
+
+_Источников: 6 · Новостей: 9_
