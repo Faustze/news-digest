@@ -1,0 +1,67 @@
+📰 *Дайджест 15.04.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Для разработчиков на Vue и Nuxt представлена статья о том, как настроить Claude Code и Cursor для написания идеального кода, а также новая библиотека компонентов SVAR Vue для создания интерактивных приложений. Кроме того, вышла новая версия Playwright 1.59, которая предлагает новые фичи для автоматизации тестирования. Эти новости могут быть полезны разработчикам для улучшения качества своего кода и ускорения разработки.
+
+─────────────────────
+
+💚 [How to Make Claude Code & Cursor Write Perfect Vue/Nuxt Code](https://dev.to/mvtandas/how-to-make-claude-code-cursor-write-perfect-vuenuxt-code-cpg)
+Статья о том, как настроить Claude Code и Cursor для написания идеального кода на Vue и Nuxt. Это может быть полезно разработчикам, чтобы улучшить качество своего кода и ускорить разработку.
+#Vue #Nuxt #frontend
+
+💚 [SVAR Vue – New UI Component Library for Interactive Vue Apps](https://dev.to/olga_tash/svar-vue-new-ui-component-library-for-interactive-vue-apps-413e)
+Представлена новая библиотека компонентов SVAR Vue для создания интерактивных приложений на Vue. Библиотека включает в себя набор предустановленных компонентов для наиболее распространенных случаев использования. Это может быть полезно разработчикам, чтобы ускорить разработку сво
+#Vue #frontend
+
+💚 [Как правильно реализовать кнопку «Назад» во Vue: просто о сложном](https://habr.com/ru/articles/1023578/?utm_campaign=1023578&utm_source=habrahabr&utm_medium=rss)
+Статья о том, как правильно реализовать кнопку «Назад» в приложении на Vue, и как устроена навигация в роутерах и история браузера. Это полезно разработчикам, чтобы создать предсказуемое поведение приложения.
+#Vue #JavaScript #frontend
+
+📌 [Hack the AI agent: Build agentic AI security skills with the GitHub Secure Code Game](https://github.blog/security/hack-the-ai-agent-build-agentic-ai-security-skills-with-the-github-secure-code-game/)
+Эта новость полезна разработчикам, поскольку она предлагает бесплатную игру для улучшения навыков безопасности агентного ИИ. Игра включает в себя пять прогрессивных задач, которые помогут разработчикам найти и использовать уязвимости в реальных приложениях ИИ.
+#AI #devtools
+
+📌 [How exposed is your code? Find out in minutes—for free](https://github.blog/security/application-security/how-exposed-is-your-code-find-out-in-minutes-for-free/)
+Эта новость полезна разработчикам, поскольку она предлагает бесплатный инструмент для оценки безопасности кода. Инструмент дает возможность быстро и легко оценить уязвимости в коде и принять меры для их исправления.
+#AI #devtools
+
+🌐 [JavaScript is evolvin g — and ES2026 is bringing some powerful upgrades!](https://dev.to/dharamgfx/javascript-is-evolvin-g-and-es2026-is-bringing-some-powerful-upgrades-l02)
+Статья о новых возможностях JavaScript в ES2026. Это может быть полезно разработчикам, чтобы оставаться в курсе последних событий в области веб-разработки и улучшить качество своего кода.
+#webdev #frontend
+
+🟨 [[Перевод] Предварительная загрузка изображений с помощью JavaScript](https://habr.com/ru/companies/timeweb/articles/1020138/?utm_campaign=1020138&utm_source=habrahabr&utm_medium=rss)
+Статья о том, как предварительно загружать изображения с помощью JavaScript. Это полезно разработчикам, чтобы улучшить производительность веб-приложений.
+#JavaScript #frontend #Web performance
+
+🟨 [[Перевод] Вышел Playwright 1.59: как тестировщикам с пользой применить каждую новую фичу](https://habr.com/ru/articles/1022960/?utm_campaign=1022960&utm_source=habrahabr&utm_medium=rss)
+Статья о том, как использовать новые фичи Playwright 1.59 для автоматизации тестирования. Это полезно разработчикам, чтобы улучшить процесс тестирования.
+#JavaScript #frontend #Playwright
+
+🎨 [The Radio State Machine](https://css-tricks.com/the-radio-state-machine/)
+Статья о управлении состоянием в CSS с помощью Radio State Machine. Это полезно разработчикам, чтобы создавать компоненты с множеством состояний. Radio State Machine позволяет управлять состояниями компонентов более эффективно.
+#CSS #frontend
+
+🟨 [WebGPU, библиотека Orillusion и кастомные шейдеры: как я создавал 4D Тессеракт](https://habr.com/ru/articles/1023432/?utm_campaign=1023432&utm_source=habrahabr&utm_medium=rss)
+Статья о том, как использовать WebGPU, библиотеку Orillusion и кастомные шейдеры для создания 4D Тессеракта. Это полезно разработчикам, чтобы узнать о новых технологиях и их применении.
+#JavaScript #frontend #WebGPU
+
+🟨 [Как я сделал PWA-приложение для заметок и ссылок за вечер (и почему оно работает без интернета)](https://habr.com/ru/articles/1023144/?utm_campaign=1023144&utm_source=habrahabr&utm_medium=rss)
+Статья о том, как создать PWA-приложение для заметок и ссылок, которое работает без интернета. Это полезно разработчикам, чтобы узнать о новых технологиях и их применении.
+#JavaScript #frontend #PWA
+
+🐍 [Show HN: Plain – The full-stack Python framework designed for humans and agents](https://github.com/dropseed/plain)
+Новая библиотека Plain представляет собой полнофункциональный фреймворк на Python, предназначенный для разработки веб-приложений. Это может быть полезно разработчикам, ищущим альтернативные решения для создания веб-приложений на Python.
+#Python #webdev
+
+🌐 [March 2026 Baseline monthly digest](https://web.dev/blog/baseline-digest-mar-2026?hl=en)
+Ежемесячный обзор Baseline за март 2026 года. В обзоре рассказывается о различных событиях и обновлениях, связанных с Baseline. Это может быть полезно разработчикам, чтобы оставаться в курсе последних событий в области веб-разработки.
+#webdev #performance
+
+🌐 [Claude Code Routines](https://code.claude.com/docs/en/routines)
+Эта новость полезна разработчикам, поскольку она представляет собой инструмент для создания и управления кодовыми рутинами. Инструмент может помочь разработчикам автоматизировать повторяющиеся задачи и улучшить производительность.
+#tech #webdev
+
+🌐 [Turn your best AI prompts into one-click tools in Chrome](https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/)
+Эта новость полезна разработчикам, поскольку она представляет собой инструмент для создания однокликных инструментов в Chrome на основе лучших запросов ИИ. Инструмент может помочь разработчикам улучшить производительность и автоматизировать повторяющиеся задачи.
+#tech #webdev
+
+_Источников: 7 · Новостей: 15_
