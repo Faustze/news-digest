@@ -1,0 +1,35 @@
+📰 *Дайджест 16.04.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "Signals in Vue (I): A Minimal Bridge to the Composition API" описывает, как интегрировать сигналы в Vue 3 Composition API, что может быть полезно для разработчиков, работающих с Vue. Кроме того, статья "Пишем свой текстовый 3D движок в браузере" предоставляет практический разбор создания текстового 3D движка в браузере с помощью JavaScript. Также была опубликована статья о разработке нового статического анализатора кода PVS-Studio для JavaScript и TypeScript, который может помочь разработчикам обнаружить ошибки и улучшить качество кода.
+
+─────────────────────
+
+💚 [Signals in Vue (I): A Minimal Bridge to the Composition API](https://dev.to/luciano0322/signals-in-vue-i-a-minimal-bridge-to-the-composition-api-45cf)
+Статья о том, как интегрировать сигналы в Vue 3 Composition API. Это полезно для разработчиков, которые хотят использовать сигналы в своих приложениях Vue. Статья описывает, как безопасно подключить сигналы к Composition API, чтобы они могли быть использованы напрямую в шаблонах.
+#Vue #frontend
+
+🟨 [Пишем свой текстовый 3D движок в браузере](https://habr.com/ru/articles/1024010/?utm_campaign=1024010&utm_source=habrahabr&utm_medium=rss)
+Статья о создании текстового 3D движка в браузере с помощью JavaScript. Это может быть полезно разработчикам для создания интерактивных 3D сцен. Статья предоставляет практический разбор реализации и может быть интересна разработчикам, работающим с frontend.
+#JavaScript #frontend
+
+🟨 [Разработка нового статического анализатора: PVS-Studio JavaScript](https://habr.com/ru/companies/pvs-studio/articles/1023894/?utm_campaign=1023894&utm_source=habrahabr&utm_medium=rss)
+Статья о разработке нового статического анализатора кода PVS-Studio для JavaScript и TypeScript. Это может быть полезно разработчикам для обнаружения ошибок и улучшения качества кода. Статья предоставляет информацию о новых возможностях анализатора.
+#JavaScript #frontend
+
+📌 [Build a personal organization command center with GitHub Copilot CLI](https://github.blog/ai-and-ml/github-copilot/build-a-personal-organization-command-center-with-github-copilot-cli/)
+Статья о создании личного центра управления с помощью GitHub Copilot CLI. Это может быть полезно разработчикам для автоматизации задач и улучшения производительности. Статья предоставляет информацию о возможностях Copilot CLI и его применении.
+#AI #devtools
+
+📌 [The next evolution of the Agents SDK](https://openai.com/index/the-next-evolution-of-the-agents-sdk)
+Статья о обновлении Agents SDK от OpenAI. Это может быть полезно разработчикам для создания безопасных и долгоживущих агентов. Статья предоставляет информацию о новых возможностях SDK.
+#AI #devtools
+
+🌐 [Why Cursor Keeps Writing Wildcard CORS (And Why It Matters)](https://dev.to/chandan_karn_fb750e731394/why-cursor-keeps-writing-wildcard-cors-and-why-it-matters-io0)
+Статья о том, почему инструмент Cursor по умолчанию устанавливает wildcard CORS, и почему это может быть проблематично. Это полезно для разработчиков, которые используют Cursor и хотят понять, как избежать потенциальных проблем с CORS.
+#webdev #frontend
+
+🌐 [CSS in a Team: How I Stopped Explaining Rules and Started Enforcing Them](https://dev.to/ouvarov/css-in-a-team-how-i-stopped-explaining-rules-and-started-enforcing-them-21eg)
+Статья о том, как автор статьи решил проблему поддержания единообразия в коде CSS в своей команде. Это полезно для разработчиков, которые работают в команде и хотят поддерживать порядок в своем коде.
+#webdev #frontend
+
+_Источников: 5 · Новостей: 7_
