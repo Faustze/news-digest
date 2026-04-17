@@ -1,0 +1,23 @@
+📰 *Дайджест 17.04.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Для разработчиков на Vue важно прочитать статью "Migrating from Vue 2 to Vue 3: A Complete Guide", которая предоставляет полное руководство по миграции с Vue 2 на Vue 3. Кроме того, статья "Почему ваш бандл тяжелее чем должен быть — тестирую tree shaking на 7 бандлерах" предлагает полезные советы по оптимизации бандлов с помощью tree shaking. Для разработчиков на Python может быть интересно узнать, как GitHub использует eBPF для улучшения безопасности развертывания.
+
+─────────────────────
+
+💚 [Migrating from Vue 2 to Vue 3: A Complete Guide](https://dev.to/nickpe/migrating-from-vue-2-to-vue-3-a-complete-guide-2gkn)
+Эта статья предоставляет полное руководство по миграции с Vue 2 на Vue 3, включая улучшения производительности, безопасности и поддержку TypeScript. Это крайне важно для разработчиков, чтобы обновиться до Vue 3, поскольку Vue 2 достигает конца своего жизненного цикла.
+#Vue
+
+🟨 [Почему ваш бандл тяжелее чем должен быть — тестирую tree shaking на 7 бандлерах](https://habr.com/ru/articles/1024404/?utm_campaign=1024404&utm_source=habrahabr&utm_medium=rss)
+Статья о том, как тестировать tree shaking на разных бандлерах, включая webpack, rollup, vite и esbuild. Автор делится своим опытом и советами по оптимизации бандлов.
+#JavaScript #frontend #performance
+
+📌 [How GitHub uses eBPF to improve deployment safety](https://github.blog/engineering/infrastructure/how-github-uses-ebpf-to-improve-deployment-safety/)
+Статья о том, как GitHub использует eBPF для улучшения безопасности развертывания. Автор описывает, как eBPF помогает обнаруживать и предотвращать круговые зависимости в инструментах развертывания.
+#devtools #deployment
+
+📌 [Codex for (almost) everything](https://openai.com/index/codex-for-almost-everything)
+Статья о обновлении приложения Codex для macOS и Windows, которое добавляет новые функции для ускорения рабочих процессов разработчиков.
+#AI #devtools
+
+_Источников: 4 · Новостей: 4_
