@@ -1,0 +1,35 @@
+📰 *Дайджест 18.04.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "Axios и проблема зависимостей" подчеркивает важность решения проблем с зависимостями в Axios для обеспечения безопасности приложений. Кроме того, статья "Why I Switched from React to Vue (And Back Again)" предоставляет полезный опыт сравнения React и Vue.js, который может помочь разработчикам в выборе фреймворка для своего проекта. Также стоит отметить статью "Cómo construí un SaaS multi-rubro para gestionar expensas en Argentina con FastAPI + Vue 3", в которой описано создание SaaS-приложения с помощью FastAPI и Vue.js 3. Эти статьи могут быть полезны разработчикам, которые работают с Vue, Nuxt и Python.
+
+─────────────────────
+
+🟨 [Axios и проблема зависимостей](https://habr.com/ru/articles/1024520/?utm_campaign=1024520&utm_source=habrahabr&utm_medium=rss)
+В этой статье обсуждается проблема зависимостей в Axios и как она может повлиять на безопасность приложений. Это важно для разработчиков, которые используют Axios в своих проектах. Статья предоставляет информацию о том, как избежать проблем с зависимостями и как использовать инст
+#JavaScript #frontend
+
+💚 [Why I Switched from React to Vue (And Back Again) - Updated April 18, 2026](https://dev.to/mukhtar_abdussalam_0de093/why-i-switched-from-react-to-vue-and-back-again-updated-april-18-2026-3i0o)
+Статья о сравнении React и Vue.js, в которой автор делится своим опытом переключения между этими фреймворками. Полезно разработчикам, которые сомневаются в выборе фреймворка для своего проекта.
+#Vue #frontend
+
+📌 [Building an emoji list generator with the GitHub Copilot CLI](https://github.blog/ai-and-ml/github-copilot/building-an-emoji-list-generator-with-the-github-copilot-cli/)
+В этой статье показано, как создать генератор списка эмодзи с помощью GitHub Copilot CLI. Это может быть полезно для разработчиков, которые хотят автоматизировать задачи с помощью AI-инструментов. GitHub Copilot CLI - это мощный инструмент, который может помочь разработчикам в их
+#AI #devtools
+
+💚 [Convert an ASP .NET MVC application to Vue JS 3 TS page-by-page](https://dev.to/yogesh_bhavsar/convert-an-asp-net-mvc-application-to-vue-js-3-ts-page-by-page-4djn)
+Статья о том, как перенести существующее приложение ASP .NET MVC на Vue.js 3. Полезно разработчикам, которые хотят обновить свои старые проекты.
+#Vue #frontend
+
+🟨 [Безошибочная работа с Kafka из Node js. Часть 2 Консьюмер](https://habr.com/ru/articles/904932/?utm_campaign=904932&utm_source=habrahabr&utm_medium=rss)
+В этой статье обсуждается работа с Kafka из Node.js и как создать консьюмер для обработки сообщений. Это может быть полезно для разработчиков, которые работают с Kafka и Node.js. Статья предоставляет информацию о том, как проектировать консьюмеры и как решать проблемы с ребалансо
+#JavaScript #frontend
+
+💚 [Cómo construí un SaaS multi-rubro para gestionar expensas en Argentina con FastAPI + Vue 3](https://dev.to/cuotiaapp/como-construi-un-saas-multi-rubro-para-gestionar-expensas-en-argentina-con-fastapi-vue-3-7p9)
+Статья о создании SaaS-приложения с помощью FastAPI и Vue.js 3. Полезно разработчикам, которые хотят создать подобные приложения.
+#Vue #frontend
+
+💚 [How many times did you write the same watch + execute + loading in different components? 😅 Three tiny things that ruin data‑fetching UX](https://dev.to/serhii_muzalov_58eb4988af/how-many-times-did-you-write-the-same-watch-execute-loading-in-different-components-three-331l)
+Статья о том, как улучшить UX при работе с данными в Vue.js. Полезно разработчикам, которые хотят оптимизировать свою работу с данными.
+#Vue #frontend
+
+_Источников: 3 · Новостей: 7_
