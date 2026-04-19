@@ -1,0 +1,43 @@
+📰 *Дайджест 19.04.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "Laravel + Inertia + Vue 3: Forms, Validation & File Uploads Done Right" может быть полезна разработчикам, которые работают с Vue и Laravel, поскольку она описывает, как правильно реализовать формы, валидацию и загрузку файлов в приложении Vue 3. Кроме того, статья "Frontend Status: свежий дайджест фронтенда и AI — 18.04.2026" представляет собой дайджест по фронтенд-разработке и AI, обсуждая такие темы, как генеративные инструменты для создания игровых интерфейсов и интеграция Claude с видео. Также стоит отметить статью "You've Been Using Claude Wrong. Here's Agent Mode", которая объясняет, как правильно использовать инструмент Claude Code в режиме агента. Эти статьи могут быть полезны разработчикам, чтобы staying в курсе последних тенденций и технологий в области фронтенд-разработки и AI.
+
+─────────────────────
+
+💚 [Laravel + Inertia + Vue 3: Forms, Validation & File Uploads Done Right](https://dev.to/houdaifadev/laravel-inertia-vue-3-forms-validation-file-uploads-done-right-3mic)
+Статья о том, как правильно реализовать формы, валидацию и загрузку файлов в приложении Vue 3 с использованием Laravel и Inertia. Это может быть полезно разработчикам, которые работают с Vue и Laravel.
+#Vue #Laravel #Inertia
+
+🟨 [Frontend Status: свежий дайджест фронтенда и AI — 18.04.2026](https://habr.com/ru/articles/1025036/?utm_campaign=1025036&utm_source=habrahabr&utm_medium=rss)
+Статья представляет собой дайджест по фронтенд-разработке и AI. В ней обсуждаются такие темы, как генеративные инструменты для создания игровых интерфейсов, микро-ML на Rust/WASM и интеграция Claude с видео. Это может быть полезно разработчикам, чтобы staying в курсе последних те
+#JavaScript #frontend #AI
+
+📌 [I Tested 35+ AI Tools as a Web Developer — Here's What I Actually Found](https://dev.to/md_masudrana_7569cbd361/i-tested-35-ai-tools-as-a-web-developer-heres-what-i-actually-found-345)
+Автор статьи тестирует более 35 инструментов для автоматизации кодирования и делится своим опытом. Это может быть полезно разработчикам, которые интересуются инструментами для автоматизации кодирования.
+#AI #инструменты для автоматизации кодирования
+
+📌 [Zero-Copy GPU Inference from WebAssembly on Apple Silicon](https://abacusnoir.com/2026/04/18/zero-copy-gpu-inference-from-webassembly-on-apple-silicon/)
+Статья о том, как реализовать нулевую копию GPU-инференса из WebAssembly на Apple Silicon. Это может быть полезно разработчикам, чтобы улучшить производительность своих приложений и уменьшить задержку.
+#WebAssembly #GPU #Apple Silicon
+
+📌 [Used Claude Code for 2 months. Switched to opencode. Some thoughts.](https://dev.to/yunshan9347/used-claude-code-for-2-months-switched-to-opencode-some-thoughts-5bp7)
+Автор статьи делится своим опытом использования Claude Code и opencode, двух инструментов для автоматизации кодирования. Это может быть полезно разработчикам, которые интересуются инструментами для автоматизации кодирования.
+#AI #опенкод #Клод Код
+
+📌 [opencode vs Claude Code — six weeks in, here's where I actually land](https://dev.to/yunshan9347/opencode-vs-claude-code-six-weeks-in-heres-where-i-actually-land-2e4c)
+Автор статьи сравнивает два инструмента для автоматизации кодирования: opencode и Claude Code. Это может быть полезно разработчикам, которые интересуются инструментами для автоматизации кодирования.
+#AI #опенкод #Клод Код
+
+📌 [You've Been Using Claude Wrong. Here's Agent Mode](https://dev.to/greza_dev/youve-been-using-claude-wrong-heres-agent-mode-2pkf)
+Автор статьи объясняет, как правильно использовать инструмент Claude Code в режиме агента. Это может быть полезно разработчикам, которые используют Claude Code.
+#AI #Клод Код #режим агента
+
+📌 [How Claude Code Refactored 200+ Flutter Files in One Session — DESIGN Token Migration](https://dev.to/kanta13jp1/how-claude-code-refactored-200-flutter-files-in-one-session-design-token-migration-41ec)
+Автор статьи демонстрирует, как инструмент Claude Code может быть использован для рефакторинга кода в приложении Flutter. Это может быть полезно разработчикам, которые работают с Flutter.
+#AI #Клод Код #Flutter
+
+🟨 [Почему JS/TS — не функциональный язык (и почему это важно понимать)](https://habr.com/ru/articles/1025100/?utm_campaign=1025100&utm_source=habrahabr&utm_medium=rss)
+Статья о том, почему JavaScript и TypeScript не являются функциональными языками программирования. Автор анализирует недостатки функционального программирования в этих языках и объясняет, почему понимание этих ограничений важно для разработчиков. Это может быть полезно разработчи
+#JavaScript #frontend
+
+_Источников: 4 · Новостей: 9_
