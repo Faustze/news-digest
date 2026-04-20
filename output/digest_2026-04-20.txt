@@ -1,0 +1,67 @@
+📰 *Дайджест 20.04.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "Signals in Vue (II): Interop, Async Patterns, SSR, and Common Pitfalls" обсуждает интероперабельность, асинхронные шаблоны и серверный рендеринг в Vue, что может быть полезно разработчикам для улучшения навыков работы с фреймворком. Кроме того, была опубликована статья о правилах Cursor для Vue 3, которые позволяют создавать составные и типобезопасные компоненты. Также была представлена новая функция Claude Token Counter, которая позволяет сравнивать модели и анализировать их производительность, что может быть полезно разработчикам, работающим с AI-инструментами.
+
+─────────────────────
+
+💚 [Signals in Vue (II): Interop, Async Patterns, SSR, and Common Pitfalls](https://dev.to/luciano0322/signals-in-vue-ii-interop-async-patterns-ssr-and-common-pitfalls-284d)
+Статья о сигналах в Vue, обсуждающая интероперабельность, асинхронные шаблоны, серверный рендеринг и общие ошибки. Полезно разработчикам для улучшения навыков работы с Vue.
+#Vue #frontend
+
+💚 [Cursor Rules for Vue 3: 6 Rules That Make AI Write Composable, Type-Safe Vue](https://dev.to/olivia_craft/cursor-rules-for-vue-3-6-rules-that-make-ai-write-composable-type-safe-vue-4oef)
+Статья о правилах Cursor для Vue 3, которые позволяют создавать составные и типобезопасные компоненты Vue. Полезно разработчикам для улучшения навыков работы с Vue и AI.
+#Vue #frontend #AI
+
+💚 [Stop Hardcoding Layouts in Vue — Use Route Meta Like a Pro](https://dev.to/kais_sraieb/stop-hardcoding-layouts-in-vue-use-route-meta-like-a-pro-49on)
+Статья о том, как избежать жесткого кодирования макетов в Vue, используя метаданные маршрутов. Полезно разработчикам для улучшения навыков работы с Vue.
+#Vue #frontend
+
+🌐 [5 Claude Code Workflows I Use Every Day (For the Boring 80%)](https://dev.to/kai_outputs/5-claude-code-workflows-i-use-every-day-for-the-boring-80-5ak0)
+Статья рассказывает о том, как использовать Claude Code для автоматизации рутинных задач. Это может быть полезно разработчикам, работающим с кодом.
+#webdev #frontend
+
+🌐 [How I Control Codex and Claude Code From Telegram — a 5-Minute Setup](https://dev.to/codekingai/how-i-control-codex-and-claude-code-from-telegram-a-5-minute-setup-520c)
+Статья рассказывает о том, как контролировать Codex и Claude Code из Telegram. Это может быть полезно разработчикам, работающим с кодом.
+#webdev #frontend
+
+💚 [[Open-source Recommendation] Web Print Designer vg-print Based on Vue 3/Vue 2 + Hiprint](https://dev.to/gaomc110/open-source-recommendation-web-print-designer-vg-print-based-on-vue-3vue-2-hiprint-1bl6)
+Рекомендация открытого исходного кода для веб-дизайна печати vg-print, основанного на Vue 3/Vue 2 и Hiprint. Полезно разработчикам для создания печатных макетов.
+#Vue #frontend
+
+🟨 [Год с React Hook Form и Zod: меньше кода, но не без нюансов](https://habr.com/ru/articles/1025218/?utm_campaign=1025218&utm_source=habrahabr&utm_medium=rss)
+Статья рассказывает о опыте использования React Hook Form и Zod для разработки форм. Это может быть полезно разработчикам, работающим с React и формами.
+#JavaScript #frontend
+
+💚 [I built a production-ready Laravel 12 + Vue 3 admin dashboard — here's what I learned](https://dev.to/heap_tech/i-built-a-production-ready-laravel-12-vue-3-admin-dashboard-heres-what-i-learned-iga)
+Статья о создании панели администратора на основе Laravel 12 и Vue 3. Полезно разработчикам для создания административных панелей.
+#Vue #frontend
+
+🟨 [LOTIS: Новая парадигма WEB-разработки для бизнес-приложений](https://habr.com/ru/articles/1025380/?utm_campaign=1025380&utm_source=habrahabr&utm_medium=rss)
+LOTIS решает проблему разделения логики на клиент и сервер, мешающую разработке бизнес-приложений. Это может быть полезно разработчикам, работающим над сложными веб-приложениями.
+#JavaScript #frontend
+
+📌 [Claude Token Counter, now with model comparisons](https://simonwillison.net/2026/Apr/20/claude-token-counts/)
+Новая функция Claude Token Counter позволяет сравнивать модели. Это полезно для разработчиков, которые используют AI-инструменты в своих проектах. Функция позволяет анализировать производительность моделей и выбирать наиболее подходящую для конкретной задачи.
+#AI #Claude
+
+📌 [Changes in the system prompt between Claude Opus 4.6 and 4.7](https://simonwillison.net/2026/Apr/18/opus-system-prompt/)
+В новой версии Claude Opus 4.7 произошли изменения в системном промпте. Это может быть полезно для разработчиков, которые используют Claude в своих проектах. Изменения позволяют улучшить взаимодействие с AI-инструментом и повышают его эффективность.
+#AI #Claude
+
+🟨 [Symbiote.js: суперспособности для веб-компонентов](https://habr.com/ru/articles/1025212/?utm_campaign=1025212&utm_source=habrahabr&utm_medium=rss)
+Статья рассказывает о библиотеке Symbiote.js, которая предоставляет суперспособности для веб-компонентов. Это может быть интересно разработчикам, работающим с веб-компонентами.
+#JavaScript #frontend
+
+📌 [The RAM shortage could last years](https://www.theverge.com/ai-artificial-intelligence/914672/the-ram-shortage-could-last-years)
+Дефицит оперативной памяти может продлиться несколько лет. Это может быть полезно для разработчиков, которые планируют свои проекты и должны учитывать возможные ограничения по памяти. Зная о потенциальном дефиците, разработчики могут спланировать свои проекты более эффективно и и
+#hardware #производительность
+
+🟨 [Лицензии уходят, музыка остаётся: как я превратил тему для музыкального клиента в runtime-аддон с блекджеком и WASM](https://habr.com/ru/articles/1025248/?utm_campaign=1025248&utm_source=habrahabr&utm_medium=rss)
+Статья рассказывает о том, как превратить тему для музыкального клиента в runtime-аддон с помощью WASM. Это может быть интересно разработчикам, работающим с веб-технологиями.
+#JavaScript #frontend
+
+🟨 [108 окон: как команда без разработчиков и бюджета построила Интерактивный дом-таймлайн про ТВ 90-х](https://habr.com/ru/articles/1025152/?utm_campaign=1025152&utm_source=habrahabr&utm_medium=rss)
+Статья рассказывает о том, как команда без разработчиков и бюджета построила интерактивный дом-таймлайн про ТВ 90-х. Это может быть интересно разработчикам, работающим с веб-технологиями.
+#JavaScript #frontend
+
+_Источников: 4 · Новостей: 15_
