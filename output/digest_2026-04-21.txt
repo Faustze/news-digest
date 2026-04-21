@@ -1,0 +1,63 @@
+📰 *Дайджест 21.04.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "Migrating a Large Dashboard to Nuxt 4: Lessons from God Plan" предоставляет практические советы и рекомендации по миграции и оптимизации приложений на Nuxt 4. Кроме того, была представлена новая бесплатная сетка данных для Vue 3, которая предлагает быструю, гибкую и функциональную решению для работы с данными. Также была опубликована статья о том, как построить высокопроизводительные анимированные веб-сайты без ущерба для скорости загрузки страниц. Эти новости будут полезны разработчикам, которые работают с Vue, Nuxt и Python.
+
+─────────────────────
+
+💚 [Migrating a Large Dashboard to Nuxt 4: Lessons from God Plan](https://dev.to/parsajiravand/migrating-a-large-dashboard-to-nuxt-4-lessons-from-god-plan-4bp6)
+Статья о миграции большого дашборда на Nuxt 4, в которой описываются уроки и опыт авторов. Полезно разработчикам, которые работают с Nuxt и сталкиваются с подобными задачами. Статья предоставляет практические советы и рекомендации по миграции и оптимизации приложений.
+#Nuxt #Vue
+
+💚 [A New Free Data Grid for Vue 3: Fast, Flexible, Feature-Rich](https://dev.to/olga_tash/a-new-free-vue-data-grid-fast-flexible-feature-rich-3d1h)
+Статья о новой бесплатной сетке данных для Vue 3, которая предлагает быструю, гибкую и функциональную решению для работы с данными. Полезно разработчикам, которые работают с Vue и ищут эффективные инструменты для работы с данными.
+#Vue
+
+🟨 [Фронтенд — это REST-сервер](https://habr.com/ru/articles/1022458/?utm_campaign=1022458&utm_source=habrahabr&utm_medium=rss)
+Эта новость представляет собой статью о том, как фронтенд-разработчик может использовать архитектуру REST для создания более эффективных и масштабируемых приложений.
+#JavaScript #frontend
+
+🌐 [How We Build High-Performance Animated Websites Without Killing Page Speed](https://dev.to/pixel_mosaic/how-we-build-high-performance-animated-websites-without-killing-page-speed-1pd6)
+Статья о том, как построить высокопроизводительные анимированные веб-сайты без ущерба для скорости загрузки страниц. Полезно разработчикам, которые работают над созданием быстрых и отзывчивых веб-приложений.
+#webdev #performance
+
+🟨 [Один движок на два рантайма: как мой сайт на Next.js делит формулы с Flutter-приложением](https://habr.com/ru/articles/1025632/?utm_campaign=1025632&utm_source=habrahabr&utm_medium=rss)
+Эта новость рассказывает о том, как разработчик создал сайт на Next.js, который делит формулы с Flutter-приложением. Это может быть интересно для разработчиков, которые хотят создать кроссплатформенные приложения.
+#JavaScript #frontend
+
+🌐 [Anthropic says OpenClaw-style Claude CLI usage is allowed again](https://docs.openclaw.ai/providers/anthropic)
+Anthropic объявила, что снова разрешает использование Claude CLI в стиле OpenClaw. Это важно для разработчиков, которые используют инструменты AI в своей работе.
+#AI #webdev
+
+🌐 [Kimi vendor verifier – verify accuracy of inference providers](https://www.kimi.com/blog/kimi-vendor-verifier)
+Kimi представила новый инструмент для проверки точности провайдеров вывода. Это важно для разработчиков, которые используют AI и машинное обучение в своей работе.
+#AI #webdev
+
+📌 [How I Built a Zero-Server PII Scrubber for ChatGPT (It Works in Airplane Mode)](https://dev.to/moxno/how-i-built-a-zero-server-pii-scrubber-for-chatgpt-it-works-in-airplane-mode-21gl)
+Статья о создании инструмента для очистки конфиденциальных данных из документов для ChatGPT. Полезно разработчикам, которые работают с AI и ищут решения для защиты конфиденциальных данных.
+#AI #security
+
+🟨 [Two Direction Sticky Sidebar in Pure JavaScript](https://dev.to/jqueryscript/two-direction-sticky-sidebar-in-pure-javascript-23eg)
+Эта новость представляет собой утилиту на чистом JavaScript, которая добавляет двустороннее липкое поведение к любому элементу боковой панели. Это может быть полезно для разработчиков, которые хотят создать интерактивные и удобные в использовании боковые панели на своих веб-стран
+#JavaScript #frontend
+
+🌐 [A Roblox cheat and one AI tool brought down Vercel's platform](https://webmatrices.com/post/how-a-roblox-cheat-and-one-ai-tool-brought-down-vercel-s-entire-platform)
+Статья рассказывает о том, как одна из уязвимостей в платформе Vercel привела к сбою всего сервиса. Это важно для разработчиков, поскольку подчеркивает важность безопасности и тестирования в веб-разработке.
+#tech #webdev #security
+
+🌐 [Quantum Computers Are Not a Threat to 128-Bit Symmetric Keys](https://words.filippo.io/128-bits/)
+Статья обсуждает вопрос безопасности 128-битных симметричных ключей в контексте квантовых компьютеров. Это важно для разработчиков, которые работают с безопасностью и шифрованием.
+#security #webdev
+
+📌 [Highlights from Git 2.54](https://github.blog/open-source/git/highlights-from-git-2-54/)
+Эта новость представляет собой обзор новых функций и изменений в Git 2.54. Git — это популярная система контроля версий, используемая разработчиками.
+#devtools
+
+🌐 [ggsql: A Grammar of Graphics for SQL](https://opensource.posit.co/blog/2026-04-20_ggsql_alpha_release/)
+Представлен новый инструмент ggsql, который позволяет использовать грамматику графиков для SQL. Это может быть полезно для разработчиков, которые работают с данными и визуализацией.
+#webdev #data visualization
+
+📌 [Changes to GitHub Copilot Individual plans](https://github.blog/news-insights/company-news/changes-to-github-copilot-individual-plans/)
+Эта новость сообщает о изменениях в планах GitHub Copilot для отдельных пользователей. GitHub Copilot — это инструмент, который использует ИИ для помощи разработчикам в написании кода.
+#AI #devtools
+
+_Источников: 5 · Новостей: 14_
