@@ -1,0 +1,67 @@
+📰 *Дайджест 22.04.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Разработчики Vue.js могут быть заинтересованы в новой функции Vapor Mode, которая позволяет улучшить производительность приложений, отказавшись от виртуального DOM. Кроме того, была опубликована статья о лучших практиках использования Composition API в Vue.js, включая советы по использованию Pinia и defineModel. Также был представлен инструмент, который может автоматически генерировать TypeScript-интерфейсы из JSON-данных, что может быть полезно для разработчиков, работающих с большими объемами данных.
+
+─────────────────────
+
+💚 [What Is Vue 3 Vapor Mode?!](https://dev.to/parsajiravand/what-is-vue-3-vapor-mode-3k2o)
+Статья о новой функции Vue 3 - Vapor Mode, которая позволяет улучшить производительность приложений, отказавшись от виртуального DOM. Полезно разработчикам, которые хотят узнать о последних разработках в экосистеме Vue.js.
+#Vue #frontend
+
+💚 [Cursor Rules for Vue.js: Composition API Patterns That Scale](https://dev.to/olivia_craft/cursor-rules-for-vuejs-composition-api-patterns-that-scale-5col)
+Статья о лучших практиках использования Composition API в Vue.js, включая советы по использованию Pinia и defineModel. Полезно разработчикам, которые хотят улучшить свою продуктивность и писать более чистый код.
+#Vue #frontend
+
+💚 [🔥 7 Essential Tools Every Vue.js Developer Should Know 🚀](https://dev.to/ansonch/7-essential-tools-every-vuejs-developer-should-know-5bec)
+Статья о 7 инструментах, которые должны знать все разработчики Vue.js. Полезно разработчикам, которые хотят улучшить свою продуктивность и писать более эффективный код.
+#Vue #frontend
+
+🌐 [AI Didn't Make Coding Harder. It Moved the Bottleneck from Writing to Reviewing](https://dev.to/greza_dev/ai-didnt-make-coding-harder-it-moved-the-bottleneck-from-writing-to-reviewing-1idh)
+Статья о том, как искусственный интеллект изменил процесс разработки программного обеспечения. Полезно разработчикам, которые хотят понять, как использовать AI для улучшения своей продуктивности.
+#webdev #frontend
+
+🔷 [JSON to TypeScript Interface: Stop Writing Types Manually (Use This Free Tool Instead)](https://dev.to/hamidrazadev/json-to-typescript-interface-stop-writing-types-manually-use-this-free-tool-instead-549g)
+Эта статья представляет инструмент, который может автоматически генерировать TypeScript-интерфейсы из JSON-данных. Это может быть полезно для разработчиков, которые работают с большими объемами данных и хотят сэкономить время на написании типов вручную.
+#TypeScript #JSON #webdev
+
+💚 [Set Up ESLint and Prettier in a Vue 3 Project for Clean Code](https://dev.to/djamware_tutorial_eba1a61/set-up-eslint-and-prettier-in-a-vue-3-project-for-clean-code-32ml)
+Туториал по настройке ESLint и Prettier в проекте Vue 3 для поддержания чистого и читаемого кода. Полезно разработчикам, которые хотят улучшить качество своего кода.
+#Vue #frontend
+
+🌐 [Tools Required for Artificial Intelligence](https://dev.to/neuraplusai/tools-required-for-artificial-intelligence-c29)
+Статья о необходимых инструментах для разработки искусственного интеллекта. Полезно разработчикам, которые хотят узнать о последних разработках в экосистеме AI.
+#webdev #frontend
+
+🌐 [The Vercel breach: OAuth attack exposes risk in platform environment variables](https://www.trendmicro.com/en_us/research/26/d/vercel-breach-oauth-supply-chain.html)
+Эта статья представляет информацию о уязвимости в платформе Vercel, которая может быть интересна разработчикам, работающим с безопасностью и веб-разработкой.
+#security #Vercel #webdev
+
+💚 [RS-X 2.0](https://dev.to/robert_sanders_04918a4344/rs-x-20-1cki)
+Статья о новой версии RS-X, фреймворка для создания реактивных приложений. Полезно разработчикам, которые хотят узнать о последних разработках в экосистеме Vue.js.
+#Vue #frontend
+
+🌐 [ChatGPT Images 2.0](https://openai.com/index/introducing-chatgpt-images-2-0/)
+Эта статья представляет обновление ChatGPT Images 2.0, которое может быть интересно разработчикам, работающим с искусственным интеллектом и генерацией изображений.
+#AI #ChatGPT #webdev
+
+🌐 [SpaceX says it has agreement to acquire Cursor for $60B](https://twitter.com/spacex/status/2046713419978453374)
+Эта статья представляет новость о приобретении Cursor компанией SpaceX, что может быть интересно разработчикам, работающим с искусственным интеллектом и инструментами для разработки.
+#AI #Cursor #webdev
+
+📌 [Claude Code to be removed from Anthropic's Pro plan?](https://bsky.app/profile/edzitron.com/post/3mjzxwfx3qs2a)
+Сервис Claude Code может быть удален из плана Pro Anthropic. Это может быть интересно разработчикам, которые используют инструменты AI для генерации кода. Это изменение может повлиять на их рабочий процесс и выбор инструментов.
+#AI
+
+🌐 [Day 79 of #100DaysOfCode — Flask Routes, Requests, and Responses](https://dev.to/m_saad_ahmad/day-79-of-100daysofcode-flask-routes-requests-and-responses-hlb)
+Туториал по использованию Flask для создания веб-приложений. Полезно разработчикам, которые хотят узнать о последних разработках в экосистеме Python.
+#webdev #frontend
+
+🌐 [Show HN: VidStudio, a browser based video editor that doesn't upload your files](https://vidstudio.app/video-editor)
+VidStudio - это онлайн-редактор видео, который не требует загрузки файлов на сервер. Это может быть интересно разработчикам, которые работают с мультимедиа-контентом и ищут безопасные и удобные инструменты для редактирования видео.
+#webdev #HTML5
+
+🌐 [Kuri – Zig based agent-browser alternative](https://github.com/justrach/kuri)
+Kuri - это альтернатива браузерам, основанная на языке программирования Zig. Это может быть интересно разработчикам, которые ищут новые и инновационные решения для создания веб-приложений.
+#webdev #JavaScript
+
+_Источников: 4 · Новостей: 15_
