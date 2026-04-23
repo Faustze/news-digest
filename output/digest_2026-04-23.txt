@@ -1,0 +1,55 @@
+📰 *Дайджест 23.04.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "Vue 3 vs React 18: Which Framework Wins in 2026?" сравнивает два популярных фреймворка для создания веб-приложений, что может быть полезно разработчикам для выбора фреймворка для своих проектов. Кроме того, статья "Speeding up agentic workflows with WebSockets in the Responses API" рассказывает о том, как использовать WebSockets и кэширование для ускорения агентских рабочих процессов, что может быть полезно для оптимизации производительности приложений. Также была представлена новая модель кодирования Qwen3.6-27B, которая достигает уровня флагманских моделей и может быть полезна для генерации кода и автоматизации процессов разработки.
+
+─────────────────────
+
+📌 [Introducing workspace agents in ChatGPT](https://openai.com/index/introducing-workspace-agents-in-chatgpt)
+Эта статья представляет workspace-агентов в ChatGPT, которые являются агентами, работающими на основе Codex, и могут автоматизировать сложные рабочие процессы. Это может быть полезно разработчикам для автоматизации повторяющихся задач и улучшения производительности своей работы.
+#AI #ChatGPT #Automation
+
+📌 [Build your own LLM agent using available tools and frameworks](https://dev.to/stack_overflowed/build-your-own-llm-agent-using-available-tools-and-frameworks-39h8)
+Эта статья предоставляет системный подход к созданию собственного агента LLM с помощью доступных инструментов и фреймворков. Это может быть полезно разработчикам для создания собственных агентов и улучшения производительности своей работы.
+#AI #LLM #Agent
+
+💚 [Vue 3 vs React 18: Which Framework Wins in 2026?](https://dev.to/surendervikramsingh/vue-3-vs-react-18-which-framework-wins-in-2026-5ff2)
+Статья сравнивает Vue 3 и React 18, два популярных фреймворка для создания веб-приложений. Автор анализирует сильные и слабые стороны каждого фреймворка и дает рекомендации по выбору фреймворка для конкретных проектов. Полезно разработчикам, интересующимся выбором фреймворка для
+#Vue #frontend
+
+📌 [Speeding up agentic workflows with WebSockets in the Responses API](https://openai.com/index/speeding-up-agentic-workflows-with-websockets)
+Эта статья рассказывает о том, как использовать WebSockets и кэширование для ускорения агентских рабочих процессов в Responses API. Это может быть полезно разработчикам для оптимизации производительности своих приложений. Статья предоставляет подробный анализ кода и примеры реали
+#AI #WebSockets #API
+
+📌 [Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model](https://qwen.ai/blog?id=qwen3.6-27b)
+Qwen3.6-27B - это новая модель кодирования, которая достигает уровня флагманских моделей. Эта модель может быть полезна разработчикам для генерации кода и автоматизации процессов разработки. Она имеет размер 27B и показывает высокую производительность.
+#AI #code generation
+
+📌 [Over-editing refers to a model modifying code beyond what is necessary](https://nrehiew.github.io/blog/minimal_editing/)
+Статья обсуждает проблему переизменения кода моделями. Это может быть полезно разработчикам для понимания ограничений моделей и улучшения качества генерируемого кода. Статья предоставляет информацию о том, как минимизировать переизменение кода.
+#AI #code generation
+
+💚 [I Built a Japanese Poetry Quiz and the Web Speech API Showed Me Its Teeth](https://dev.to/sendotltd/i-built-a-japanese-poetry-quiz-and-the-web-speech-api-showed-me-its-teeth-3bce)
+Статья о создании викторины по японской поэзии с использованием Web Speech API. Автор делится опытом и проблемами, с которыми он столкнулся при реализации этого проекта. Полезно разработчикам, интересующимся созданием интерактивных приложений с использованием Web Speech API.
+#Vue #frontend
+
+🟨 [LiquidGlass: WebGL-powered Liquid Glass Effects](https://dev.to/jqueryscript/liquidglass-webgl-powered-liquid-glass-effects-1jlb)
+LiquidGlass - это библиотека JavaScript, которая применяет реалистичные эффекты жидкого стекла к любому элементу HTML с помощью WebGL-шейдеров. Это может быть полезно разработчикам для создания визуально привлекательных интерфейсов. Библиотека поддерживает такие функции, как фраг
+#JavaScript #WebGL #HTML5
+
+📌 [OpenAI's response to the Axios developer tool compromise](https://openai.com/index/axios-developer-tool-compromise/)
+OpenAI опубликовала ответ на компрометацию инструмента разработчика Axios. Это может быть полезно разработчикам для понимания мер безопасности и защиты своих инструментов и данных.
+#security #development tools
+
+📌 [Technical, cognitive, and intent debt](https://martinfowler.com/fragments/2026-04-02.html)
+Статья обсуждает концепцию технического, когнитивного и намеренного долга в разработке программного обеспечения. Это может быть полезно разработчикам для понимания и управления долгом в своих проектах.
+#software development #technical debt
+
+🌐 [We improved load time by 2s - here’s what happened to conversions](https://dev.to/pixel_mosaic/we-improved-load-time-by-2s-heres-what-happened-to-conversions-3e5l)
+Статья о том, как улучшить время загрузки веб-страницы и как это влияет на конверсию. Автор делится опытом и результатами эксперимента по улучшению времени загрузки страницы. Полезно разработчикам, интересующимся оптимизацией производительности веб-приложений.
+#webdev #frontend
+
+🌐 [So You Vibe Coded an App. But Can It Survive Real Users?](https://dev.to/chabdulwahhab310/so-you-vibe-coded-an-app-but-can-it-survive-real-users-1a71)
+Статья о проблемах, с которыми могут столкнуться разработчики при создании приложений с использованием инструментов типа Vibe Coding. Автор подчеркивает важность тестирования и отладки приложений на реальных пользователях. Полезно разработчикам, интересующимся созданием приложени
+#webdev #frontend
+
+_Источников: 4 · Новостей: 12_
