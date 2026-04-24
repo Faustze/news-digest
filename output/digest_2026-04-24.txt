@@ -1,0 +1,67 @@
+📰 *Дайджест 24.04.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "From Marketplace to Independent Stack: Migrating a B2B Industrial Site to Nuxt 3 & Spring Boot" показывает, как перенести сайт B2B из marketplace в независимую платформу с помощью Nuxt 3 и Spring Boot, что может быть полезно разработчикам для создания масштабируемых и эффективных сайтов. Кроме того, представлена новая модель GPT-5.5, которая является более быстрой и способной, чем предыдущие модели, и может быть полезна разработчикам для автоматизации задач и улучшения производительности. Также опубликована статья "A Modern CSS Reset Built for Today's Web" о современном сбросе CSS, который нормализует браузерные настройки по умолчанию, что может быть полезно разработчикам для создания кросс-браузерных сайтов.
+
+─────────────────────
+
+💚 [From Marketplace to Independent Stack: Migrating a B2B Industrial Site to Nuxt 3 & Spring Boot](https://dev.to/tarzant/from-marketplace-to-independent-stack-migrating-a-b2b-industrial-site-to-nuxt-3-vue-spring-boot-3nnm)
+Статья о том, как перенести сайт B2B из marketplace в независимую платформу с помощью Nuxt 3 и Spring Boot. Это может быть полезно разработчикам для создания масштабируемых и эффективных сайтов. Статья показывает, как использовать Nuxt 3 и Spring Boot для создания высокопроизводи
+#Nuxt #Vue #frontend
+
+📌 [Introducing GPT-5.5](https://openai.com/index/introducing-gpt-5-5)
+Статья о представлении новой модели GPT-5.5, которая является более быстрой и способной, чем предыдущие модели. Полезно разработчикам для автоматизации задач и улучшения производительности.
+#AI #devtools
+
+🌐 [Cursor Keeps Writing IDOR Into Your APIs. Here's the Fix.](https://dev.to/chandan_karn_fb750e731394/cursor-keeps-writing-idor-into-your-apis-heres-the-fix-245m)
+Статья о том, как AI-редакторы могут генерировать уязвимые API-эндпоинты. Рассказывается о проблеме и предлагается решение, чтобы избежать уязвимости. Полезно разработчикам для повышения безопасности своих приложений.
+#AI #security #webdev
+
+📌 [Automations](https://openai.com/academy/codex-automations)
+Статья о том, как использовать автоматизацию в Codex для создания отчетов, резюме и повторяющихся рабочих процессов без ручного труда. Полезно разработчикам для повышения производительности и автоматизации задач.
+#AI #devtools
+
+📌 [Top 10 uses for Codex at work](https://openai.com/academy/top-10-use-cases-codex-for-work)
+Статья о 10 практических случаях использования Codex для автоматизации задач, создания отчетов и улучшения результатов. Полезно разработчикам для повышения производительности и автоматизации задач.
+#AI #devtools
+
+📌 [What is Codex?](https://openai.com/academy/what-is-codex)
+Codex — инструмент от OpenAI, который помогает автоматизировать задачи, подключать инструменты и производить реальные результаты, такие как документы и панели управления. Это может быть полезно разработчикам для автоматизации рутинных задач и повышения производительности.
+#AI #devtools
+
+📌 [How to get started with Codex](https://openai.com/academy/codex-how-to-start)
+Эта статья предоставляет пошаговое руководство по началу работы с Codex, включая настройку проектов, создание потоков и выполнение первых задач. Это может быть полезно разработчикам, которые хотят начать использовать Codex для автоматизации задач и повышения производительности.
+#AI #devtools
+
+🎨 [A Modern CSS Reset Built for Today's Web](https://dev.to/jqueryscript/a-modern-css-reset-built-for-todays-web-3fe7)
+Статья о современном сбросе CSS, который нормализует браузерные настройки по умолчанию. Это может быть полезно разработчикам для создания кросс-браузерных сайтов. Статья показывает, как использовать новый сброс CSS для создания более совместимых сайтов.
+#CSS #frontend
+
+🟨 [CSS-in-JS vs CSS Modules: что выбрать в 2026?](https://habr.com/ru/articles/1025688/?utm_campaign=1025688&utm_source=habrahabr&utm_medium=rss)
+Статья о сравнении CSS-in-JS и CSS Modules. Рассказывается о преимуществах и недостатках каждого подхода и как они влияют на разработку и производительность приложений.
+#JavaScript #frontend #CSS
+
+🎨 [Recreating Apple’s Vision Pro Animation in CSS](https://css-tricks.com/recreating-apples-vision-pro-animation-in-css/)
+Статья о том, как создать анимацию Apple Vision Pro с помощью CSS. Это может быть полезно разработчикам для создания сложных анимаций на своих сайтах. Статья показывает, как использовать возможности CSS для создания реалистичных анимаций.
+#CSS #frontend
+
+🟨 [[Перевод] Intl: мощный браузерный API, который вы, возможно, не используете](https://habr.com/ru/companies/timeweb/articles/1026356/?utm_campaign=1026356&utm_source=habrahabr&utm_medium=rss)
+Статья о Intl API, который позволяет форматировать даты, числа и текст в соответствии с языковыми предпочтениями пользователя. Полезно разработчикам для создания более удобных и культурно-независимых интерфейсов.
+#JavaScript #frontend
+
+🎨 [I spent years trying to make CSS states predictable](https://tenphi.me/blog/why-i-spent-years-trying-to-make-css-states-predictable/)
+Автор статьи рассказывает о своем опыте в попытках сделать состояния CSS предсказуемыми. Это может быть полезно разработчикам, которые работают с CSS и сталкиваются с проблемами предсказуемости. Статья может предоставить ценную информацию о том, как улучшить навыки работы с CSS.
+#CSS
+
+🐍 [How I Automated My Entire Content Distribution Stack with 200 Lines of Python](https://dev.to/a3e_ecosystem/how-i-automated-my-entire-content-distribution-stack-with-200-lines-of-python-20jc)
+Статья о том, как автоматизировать процесс распространения контента с помощью 200 строк Python. Это может быть полезно разработчикам для автоматизации своих задач. Статья показывает, как использовать Python для создания автоматизированных процессов.
+#Python #automation
+
+🌐 [MeshCore development team splits over trademark dispute and AI-generated code](https://blog.meshcore.io/2026/04/23/the-split)
+Команда разработчиков MeshCore разделилась из-за спора о товарном знаке и коде, сгенерированном с помощью ИИ. Это может быть интересно разработчикам, которые следят за последними событиями в области ИИ и разработки программного обеспечения.
+#tech #webdev #AI
+
+🌐 [GPT-5.5](https://openai.com/index/introducing-gpt-5-5/)
+GPT-5.5 — новая версия модели языка от OpenAI. Это может быть интересно разработчикам, которые работают с ИИ и языковыми моделями.
+#tech #webdev #AI
+
+_Источников: 6 · Новостей: 15_
