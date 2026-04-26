@@ -1,0 +1,35 @@
+📰 *Дайджест 26.04.2026*
+
+Сегодня в мире фронтенда и Python произошли интересные события. Для разработчиков Vue 3 появилась возможность быстро настроить авторизацию через Google с помощью пакета `vue3-google-login`, что упрощает процесс настройки OAuth. Кроме того, была опубликована статья о создании полноценного веб-приложения Recipe-Finder.org с использованием Vue, Express, MongoDB и Vuetify, что может быть полезным примером для разработчиков. Также была опубликована статья о лучших инструментах для создания приложений с поддержкой нескольких моделей языковых моделей, что может быть интересно разработчикам, работающим с искусственным интеллектом.
+
+─────────────────────
+
+💚 [Vue 3 Google Login (OAuth) – Quick Setup with vue3-google-login](https://dev.to/devbaji/vue-3-google-login-oauth-quick-setup-with-vue3-google-login-2m28)
+Добавление авторизации через Google в приложение Vue 3 может быть сложным из-за настройки OAuth, загрузки SDK и запутанных документов. Вместо этого мы будем использовать легкий пакет npm — vue3-google-login — чтобы быстро настроить авторизацию через Google.
+#Vue #frontend
+
+💚 [Building Recipe-Finder.org: A Full-Stack Journey with Vue, Express, MongoDB, and Vuetify](https://dev.to/johnrusu/building-recipe-finderorg-a-full-stack-journey-with-vue-express-mongodb-and-vuetify-2k57)
+Статья рассказывает о создании полноценного веб-приложения Recipe-Finder.org с использованием Vue, Express, MongoDB и Vuetify. Автор делится своим опытом и описывает, как он построил приложение, используя модифицированный стек MEVN.
+#Vue #frontend
+
+🌐 [Best AI Gateway Tools for Multi-Model LLM Apps in 2026](https://dev.to/bean_bean/best-ai-gateway-tools-for-multi-model-llm-apps-in-2026-56ag)
+Статья о лучших инструментах для создания приложений с поддержкой нескольких моделей языковых моделей. Автор рассматривает различные инструменты и их возможности.
+#AI #webdev
+
+💚 [Where should related code live? A structured look at an unresolved debate](https://dev.to/lucabro/where-should-related-code-live-a-structured-look-at-an-unresolved-debate-4b44)
+Статья исследует дебаты о том, где должна находиться связанная код. Автор анализирует различные подходы и философии фреймворков, а также обсуждает компромиссы и изменения, которые происходят при выборе места для связанного кода.
+#Vue #frontend
+
+🟨 [JavaScript: Handling Large Files in the Browser. Part 1/2: Reading Large Files](https://dev.to/alexboyko/javascript-handling-large-files-in-the-browser-part-12-reading-large-files-4077)
+Статья о том, как обрабатывать большие файлы в браузере с помощью JavaScript. Автор объясняет, как хранятся данные в PNG-файлах и как можно читать большие файлы в браузере.
+#JavaScript #frontend
+
+🌐 [In-Depth Analysis: Google’s $750M Partner Fund for…](https://dev.to/norviktech/in-depth-analysis-googles-750m-partner-fund-for-2ce3)
+Статья об анализе фонда Google в размере $750M для партнеров. Автор рассматривает, как этот фонд может повлиять на развитие веб-приложений и партнерские отношения.
+#webdev #Google
+
+🔷 [`.ts` Is Not Just TypeScript — The File Extension With a Double Life](https://dev.to/hamidrazadev/ts-is-not-just-typescript-the-file-extension-with-a-double-life-301h)
+Статья о том, что расширение `.ts` может использоваться не только для файлов TypeScript, но и для видеофайлов. Автор объясняет, как можно различать эти два типа файлов.
+#TypeScript #webdev
+
+_Источников: 2 · Новостей: 7_
