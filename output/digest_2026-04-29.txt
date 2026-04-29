@@ -1,0 +1,67 @@
+📰 *Дайджест 29.04.2026*
+
+Сегодня в мире фронтенда и Python произошли интересные события. Статья "Vue vs. React: Which JavaScript UI framework is best?" поможет разработчикам выбрать лучший фреймворк для своих проектов, сравнивая Vue и React. Кроме того, статья "Benchmark: Next.js 16 Sitemap vs Nuxt 4 Sitemap vs SvelteKit 3 Sitemap" представляет результаты сравнительного тестирования производительности сitemap-функций в фреймворках Next.js, Nuxt и SvelteKit. Также стоит отметить появление VibeVoice, открытого исходного кода голосового ИИ, который может быть полезен разработчикам для интеграции голосовых функций в веб-приложения. Эти новости могут быть полезны разработчикам, работающим с веб-разработкой, Vue, Nuxt и Python.
+
+─────────────────────
+
+💚 [Vue vs. React: Which JavaScript UI framework is best?](https://dev.to/hugonaili/vue-vs-react-which-javascript-ui-framework-is-best-1coc)
+Эта статья сравнивает два популярных фреймворка для разработки пользовательского интерфейса - Vue и React. Она обсуждает их сходства и различия, а также помогает разработчикам выбрать лучший фреймворк для своих проектов.
+#Vue #React
+
+🌐 [AI-Assisted Coding: A Practical Guide for Software Engineers](https://frontendmasters.com/blog/ai-assisted-coding-a-practical-guide-for-software-engineers/)
+Эта статья предоставляет практическое руководство по использованию инструментов кодирования с поддержкой ИИ для разработчиков программного обеспечения. Она подчеркивает разницу между кодом, который работает, и кодом, готовым к производству, и предлагает советы по улучшению навыко
+#AI #webdev
+
+💚 [Benchmark: Next.js 16 Sitemap vs Nuxt 4 Sitemap vs SvelteKit 3 Sitemap](https://dev.to/johalputt/benchmark-nextjs-16-sitemap-vs-nuxt-4-sitemap-vs-sveltekit-3-sitemap-2olo)
+Эта статья представляет результаты сравнительного тестирования производительности сitemap-функций в фреймворках Next.js, Nuxt и SvelteKit. Она помогает разработчикам выбрать лучший фреймворк для своих проектов на основе производительности.
+#Nuxt #Next.js #SvelteKit
+
+💚 [Comparison: SvelteKit 3.0 vs Astro 4.0 vs Nuxt 4.0: SEO Performance for 10k Blog Posts](https://dev.to/johalputt/comparison-sveltekit-30-vs-astro-40-vs-nuxt-40-seo-performance-for-10k-blog-posts-3ae3)
+Эта статья сравнивает производительность SEO-функций в фреймворках SvelteKit, Astro и Nuxt для большого количества блог-постов. Она помогает разработчикам выбрать лучший фреймворк для своих проектов на основе производительности SEO.
+#Nuxt #SvelteKit #Astro
+
+🌐 [Google Cloud NEXT ’26: The Shift Most Developers Are Missing](https://dev.to/root_squid_4d2a5681a238de/google-cloud-next-26-the-shift-most-developers-are-missing-1cac)
+Эта статья обсуждает последние тенденции в области разработки программного обеспечения, в частности, событие Google Cloud NEXT '26. Она подчеркивает важность ИИ и его роль в разработке программного обеспечения.
+#AI #webdev
+
+🌐 [Why Your Website Gets No Traffic (Even If Your SEO Looks Fine)](https://dev.to/andrei_mironiuk_1d2c01e06/why-your-website-gets-no-traffic-even-if-your-seo-looks-fine-1en9)
+Эта статья обсуждает причины, по которым веб-сайт может не получать трафик, даже если его SEO-параметры выглядят нормально. Она предлагает советы по улучшению видимости веб-сайта и привлечению трафика.
+#SEO #webdev
+
+🌐 [7 AI Gateway Platforms for Enterprise AI (And How They Compare)](https://dev.to/therealmrmumba/7-ai-gateway-platforms-for-enterprise-ai-and-how-they-compare-46fi)
+Статья о 7 платформах для интеграции AI в企业. Автор сравнивает эти платформы и описывает их особенности. Полезно разработчикам, которые работают с AI и интеграцией в企业.
+#AI #webdev
+
+🟨 [Как я добавил в браузерного AI-агента поддержку MCP за вечер](https://habr.com/ru/articles/1029300/?utm_campaign=1029300&utm_source=habrahabr&utm_medium=rss)
+Статья о том, как добавить поддержку MCP в браузерного AI-агента. Автор делится своим опытом и описывает, как он решил эту задачу. Полезно разработчикам, которые работают с AI и браузерными агентами.
+#JavaScript #AI
+
+🟨 [WebAssembly: обзор технологии, эксперименты с числами и мечты о браузере без JS](https://habr.com/ru/companies/psb/articles/1028368/?utm_campaign=1028368&utm_source=habrahabr&utm_medium=rss)
+Статья об обзоре технологии WebAssembly. Автор описывает особенности и возможности WebAssembly. Полезно разработчикам, которые работают с веб-разработкой и браузерами.
+#JavaScript #WebAssembly
+
+🌐 [VibeVoice: Open-source frontier voice AI](https://github.com/microsoft/VibeVoice)
+VibeVoice - это открытый исходный код голосового ИИ, который может быть полезен разработчикам для интеграции голосовых функций в веб-приложения. Это может быть использовано для создания голосовых интерфейсов, чат-ботов и других приложений, требующих голосового взаимодействия. Это
+#AI #webdev
+
+🌐 [Claude for Creative Work](https://www.anthropic.com/news/claude-for-creative-work)
+Claude - это инструмент, который использует ИИ для помощи в творческой работе. Это может быть полезно разработчикам, которые занимаются созданием контента, дизайном или другими творческими задачами. Инструмент может помочь генерировать идеи, создавать контент и выполнять другие т
+#AI #webdev
+
+📌 [Securing the git push pipeline: Responding to a critical remote code execution vulnerability](https://github.blog/security/securing-the-git-push-pipeline-responding-to-a-critical-remote-code-execution-vulnerability/)
+Статья о том, как GitHub решил проблему уязвимости в git push pipeline. Автор описывает шаги, которые были предприняты для решения этой проблемы. Полезно разработчикам, которые работают с безопасностью и git.
+#devtools #security
+
+🟨 [Затенение в JavaScript](https://habr.com/ru/articles/1028948/?utm_campaign=1028948&utm_source=habrahabr&utm_medium=rss)
+Статья о затенении в JavaScript. Автор описывает, что такое затенение и как оно работает в JavaScript. Полезно разработчикам, которые работают с JavaScript.
+#JavaScript
+
+📌 [GitHub for Beginners: Getting started with Markdown](https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-markdown/)
+Статья о том, как начать работать с Markdown на GitHub. Автор описывает основные возможности и особенности Markdown. Полезно разработчикам, которые начинают работать с GitHub.
+#devtools #Markdown
+
+🌐 [An update on GitHub availability](https://github.blog/news-insights/company-news/an-update-on-github-availability/)
+GitHub опубликовал обновление о своей доступности, в котором рассказывается о мерах, принимаемых для улучшения стабильности и доступности платформы. Это может быть интересно разработчикам, которые используют GitHub для хранения и управления своим кодом. Обновление может содержать
+#webdev #GitHub
+
+_Источников: 7 · Новостей: 15_
