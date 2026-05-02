@@ -1,0 +1,35 @@
+📰 *Дайджест 02.05.2026*
+
+Сегодня в мире фронтенда и Python произошли интересные события. Статья "Building a Self-Healing SEO Architecture for a Vue SPA" может быть полезна разработчикам, которые работают с Vue и хотят улучшить SEO своих приложений. Кроме того, статья "How I built a zero-dependency, 100% client-side JWT Verifier using the Web Crypto API" представляет интерес для разработчиков, занимающихся безопасностью и аутентификацией. Также стоит отметить обзор "Baseline: апрель 2026", в котором представлены браузерные API, ставшие широко доступными в апреле 2026 года.
+
+─────────────────────
+
+🌐 [How to Deploy Llama 3.2 70B with Quantization on a $10/Month DigitalOcean Droplet: Enterprise Inference Without GPU Costs](https://dev.to/ramosai/how-to-deploy-llama-32-70b-with-quantization-on-a-10month-digitalocean-droplet-enterprise-4bc4)
+Статья о том, как развернуть Llama 3.2 70B с квантованием на DigitalOcean Droplet. Это может быть полезно разработчикам, которые работают с AI и машинным обучением.
+#webdev #frontend
+
+💚 [Building a Self-Healing SEO Architecture for a Vue SPA](https://dev.to/johnrusu/building-a-self-healing-seo-architecture-for-a-vue-spa-4lfb)
+Статья о создании архитектуры для улучшения SEO в приложениях Vue. Автор описывает проблемы, с которыми он столкнулся, и как он их решил. Полезно разработчикам, которые работают с Vue и хотят улучшить SEO своих приложений.
+#Vue #SEO
+
+🌐 [How I built a zero-dependency, 100% client-side JWT Verifier using the Web Crypto API](https://dev.to/toolsmatic/how-i-built-a-zero-dependency-100-client-side-jwt-verifier-using-the-web-crypto-api-477a)
+Статья о реализации JWT верификатора с использованием Web Crypto API. Это может быть полезно разработчикам, которые работают с безопасностью и аутентификацией.
+#webdev #frontend
+
+🌐 [Next.js for SEO: Why Your App Is Invisible to Google](https://dev.to/mitudas/nextjs-for-seo-why-your-app-is-invisible-to-google-16o6)
+Статья о том, почему приложения на Next.js могут быть невидимыми для Google. Это может быть полезно разработчикам, которые работают с SEO и оптимизацией сайтов.
+#webdev #frontend
+
+🟨 [Baseline: апрель 2026](https://habr.com/ru/articles/1028616/?utm_campaign=1028616&utm_source=habrahabr&utm_medium=rss)
+Обзор на браузерные API, которые стали Widely available в апреле 2026. Раз в месяц я буду вам напоминать, что вы уже можете использовать в проде. Это может быть полезно разработчикам для использования новых фич в браузере.
+#JavaScript #frontend
+
+🌐 [Stop using basic JSON formatters. I built one that actually fixes your errors.](https://dev.to/toolsmatic/stop-using-basic-json-formatters-i-built-one-that-actually-fixes-your-errors-567i)
+Статья о новом JSON форматере, который может исправлять ошибки. Это может быть полезно разработчикам, которые работают с JSON данными.
+#webdev #frontend
+
+🟨 [3D-кино с трекингом глаз: технический разбор моей реализации и открытые вопросы](https://habr.com/ru/articles/1027980/?utm_campaign=1027980&utm_source=habrahabr&utm_medium=rss)
+Статья о реализации 3D-кино с трекингом глаз. Это может быть интересно разработчикам, которые работают с веб-технологиями и хотят узнать о новых возможностях.
+#JavaScript #frontend
+
+_Источников: 3 · Новостей: 7_
