@@ -1,0 +1,31 @@
+📰 *Дайджест 03.05.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "Next.js 17 vs. Nuxt 4.0: Vue vs. React Full-Stack Benchmarks" сравнивает производительность фреймворков Next.js 17 и Nuxt 4.0, что может быть полезно для разработчиков, выбирающих фреймворк для своего проекта. Кроме того, был представлен инструмент Nano Stores, который является небольшим менеджером состояния и может быть полезен для небольших или средних приложений. Также был опубликован подробный обзор веб-хуков Supabase и их использования в базе данных. Эти новости могут быть интересны разработчикам, работающим с Vue, Nuxt и Python.
+
+─────────────────────
+
+💚 [Next.js 17 vs. Nuxt 4.0: Vue vs. React Full-Stack Benchmarks](https://dev.to/johalputt/nextjs-17-vs-nuxt-40-vue-vs-react-full-stack-benchmarks-4no4)
+В этой статье сравниваются производительность фреймворков Next.js 17 и Nuxt 4.0. Это может быть полезно для разработчиков, которые выбирают фреймворк для своего проекта.
+#Nuxt #frontend
+
+🌐 [Mastering Web Development in 2026: A Comprehensive Practical Guide for Aspiring Developers](https://dev.to/orbit_websites_b004ed2787/mastering-web-development-in-2026-a-comprehensive-practical-guide-for-aspiring-developers-56p6)
+Эта статья предоставляет практическое руководство для начинающих разработчиков, которые хотят освоить веб-разработку в 2026 году.
+#webdev #frontend
+
+💚 [NanoStores: A Tiny Redux Alternative for React, Vue, Svelte, and More](https://dev.to/alaminrifat/nanostores-a-tiny-redux-alternative-for-react-vue-svelte-and-more-59pd)
+Nano Stores - это небольшой менеджер состояния, который может быть полезен для небольших или средних приложений. Он построен вокруг небольших атомарных хранилищ вместо одного глобального хранилища. Это может упростить управление состоянием в приложении.
+#Vue #frontend
+
+🌐 [Gnoke SaveNative: A Durability Layer for the File System Access API on Mobile Browsers](https://dev.to/edmundsparrow/gnoke-savenative-a-durability-layer-for-the-file-system-access-api-on-mobile-browsers-1gdg)
+Эта статья описывает решение проблемы сохранения данных в файловой системе на мобильных браузерах.
+#webdev #frontend
+
+🌐 [Supabase Webhooks Deep Dive — Database Triggers, pg_net & Edge Function Patterns](https://dev.to/kanta13jp1/supabase-webhooks-deep-dive-database-triggers-pgnet-edge-function-patterns-204i)
+Эта статья предоставляет подробное описание веб-хуков Supabase и их использования в базе данных.
+#webdev #frontend
+
+🌐 [JSON to TypeScript Converter — free browser tool for developers](https://dev.to/orbit_websites_b004ed2787/json-to-typescript-converter-free-browser-tool-for-developers-374d)
+Этот инструмент может быть полезен для разработчиков, которые работают с JSON-данными и хотят автоматически генерировать TypeScript-интерфейсы.
+#webdev #frontend
+
+_Источников: 3 · Новостей: 6_
