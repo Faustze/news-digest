@@ -1,0 +1,47 @@
+📰 *Дайджест 05.05.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Сравнительный тест производительности Next.js 15 и Nuxt 4.0 при сборке приложений Vue 4.0 с более чем 50 маршрутами может быть полезен разработчикам, работающим с Vue и Nuxt. Кроме того, статья о новых возможностях CSS-селекторов, в частности, о ключевом слове `of` и его использовании в сочетании с селектором `:has()`, может быть полезна разработчикам, работающим с CSS и frontend. Также стоит отметить, что Bun, инструмент для разработки веб-приложений, переводится с языка Zig на Rust, что может быть интересно разработчикам, работающим с веб-приложениями и языками программирования.
+
+─────────────────────
+
+💚 [Benchmark: Next.js 15 vs. Nuxt 4.0: Build Time for 50+ Route Vue 4.0 Applications](https://dev.to/johalputt/benchmark-nextjs-15-vs-nuxt-40-build-time-for-50-route-vue-40-applications-4207)
+Сравнительный тест производительности Next.js 15 и Nuxt 4.0 при сборке приложений Vue 4.0 с более чем 50 маршрутами. Полезно разработчикам, работающим с Vue, Nuxt и frontend.
+#Nuxt #Vue #frontend
+
+🎨 [CSS `n of` Selectors for Conditional Validation](https://frontendmasters.com/blog/css-n-of-selectors-for-conditional-validation/)
+Статья о новых возможностях CSS-селекторов, в частности, о ключевом слове `of` и его использовании в сочетании с селектором `:has()`. Полезно разработчикам, работающим с CSS и frontend.
+#CSS #frontend
+
+🎨 [Fixed-Height Cards: More Fragile Than They Look](https://css-tricks.com/fixed-height-cards-more-fragile-than-they-look/)
+Статья о проблемах с вертикальным выравниванием карточек в CSS. Автор делится опытом и решениями для достижения желаемого результата. Полезно разработчикам, работающим с CSS и frontend.
+#CSS #frontend
+
+📌 [CheapTokenHub - Aggregated AI API for Developers](https://dev.to/cheaptokenhub/cheaptokenhub-aggregated-ai-api-for-developers-pgf)
+Платформа для разработчиков, предоставляющая агрегированный API для доступа к различным моделям ИИ. Полезно разработчикам, работающим с ИИ и машинным обучением.
+#AI #machine learning
+
+🟨 [WebMCP. Что скрывается за черновиком стандарта](https://habr.com/ru/articles/1031164/?utm_campaign=1031164&utm_source=habrahabr&utm_medium=rss)
+Статья рассказывает о черновике стандарта WebMCP и его потенциальном влиянии на разработку веб-приложений. Стандарт может позволить создавать более эффективные и быстрые веб-приложения, используя ИИ-агентов в браузере.
+#JavaScript #frontend
+
+⚙️ [API Gateway Patterns: Kong vs Envoy vs Traefik in 2025](https://dev.to/yash_pritwani_07a77613fd6/api-gateway-patterns-kong-vs-envoy-vs-traefik-in-2025-1d46)
+Статья о шаблонах API-шлюзов и сравнении Kong, Envoy и Traefik. Полезно разработчикам, работающим с backend и микросервисами.
+#backend #microservices
+
+📌 [Register now for OpenClaw: After Hours @ GitHub](https://github.blog/open-source/register-now-for-openclaw-after-hours-github/)
+Мероприятие OpenClaw: After Hours @ GitHub, где будут представлены демонстрации и обсуждения по теме ИИ и разработки. Мероприятие может быть интересно разработчикам, работающим с ИИ и веб-приложениями.
+#AI #devtools
+
+📌 [OpenAI and PwC collaborate to reimagine the office of the CFO](https://openai.com/index/openai-pwc-finance-collaboration)
+Сотрудничество между OpenAI и PwC направлено на создание инструментов для автоматизации финансовых процессов с помощью ИИ. Это может быть интересно разработчикам, работающим с ИИ и финансовыми приложениями.
+#AI #devtools
+
+🌐 [Bun is being ported from Zig to Rust](https://github.com/oven-sh/bun/commit/46d3bc29f270fa881dd5730ef1549e88407701a5)
+Bun, инструмент для разработки веб-приложений, переводится с языка Zig на Rust. Это может быть интересно разработчикам, работающим с веб-приложениями и языками программирования.
+#tech #webdev
+
+🌐 [Train Your Own LLM from Scratch](https://github.com/angelos-p/llm-from-scratch)
+Проект по созданию собственной модели ИИ с нуля. Это может быть интересно разработчикам, работающим с ИИ и машинным обучением.
+#tech #webdev
+
+_Источников: 7 · Новостей: 10_
