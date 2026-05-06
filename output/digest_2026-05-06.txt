@@ -1,0 +1,35 @@
+📰 *Дайджест 06.05.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "How I Built a Scalable i18n System in Nuxt 3" поделилась опытом создания масштабируемой системы интернационализации в Nuxt 3, что может быть полезно разработчикам, работающим с Nuxt. Кроме того, статья "Beyond Translation: Mastering RTL Layouts with i18next and Radix UI" рассказала о том, как освоить макеты с правосторонним текстом (RTL) с помощью i18next и Radix UI. Также была опубликована статья "You Have 5 Seconds Or You’ve Already Lost the User", подчеркивающая важность скорости загрузки сайта и первом впечатлении, которое он производит на пользователя. Эти статьи могут быть полезны веб-разработчикам, работающим с Vue, Nuxt и Python.
+
+─────────────────────
+
+💚 [How I Built a Scalable i18n System in Nuxt 3 — Rolling Out New Languages One Page at a Time](https://dev.to/genglin-bulkpictools/how-i-built-a-scalable-i18n-system-in-nuxt-3-rolling-out-new-languages-one-page-at-a-time-23of)
+Статья о создании масштабируемой системы интернационализации в Nuxt 3. Автор делится своим опытом и подходом к реализации поддержки нескольких языков на сайте. Это может быть полезно разработчикам, которые работают с Nuxt и сталкиваются с подобными задачами.
+#Nuxt #Vue #i18n
+
+💚 [How I Built a Scalable i18n System in Nuxt 3 — Rolling Out New Languages One Page at a Time](https://dev.to/genglin-bulkpictools/how-i-built-a-scalable-i18n-system-in-nuxt-3-rolling-out-new-languages-one-page-at-a-time-23of)
+Статья о создании масштабируемой системы интернационализации в Nuxt 3. Автор делится своим опытом и подходом к реализации поддержки нескольких языков на сайте. Это может быть полезно разработчикам, которые работают с Nuxt и сталкиваются с подобными задачами.
+#Nuxt #Vue #i18n
+
+📌 [GPT-5.5 Instant: smarter, clearer, and more personalized](https://openai.com/index/gpt-5-5-instant)
+Статья о новых возможностях GPT-5.5 Instant, который обеспечивает более умные, точные и персонализированные ответы. Это может быть полезно разработчикам, которые используют AI API и хотят улучшить качество своих приложений.
+#AI #devtools
+
+🌐 [Beyond Translation: Mastering RTL Layouts with i18next and Radix UI](https://dev.to/omerrkosar/beyond-translation-mastering-rtl-layouts-with-i18next-and-radix-ui-3159)
+Статья о том, как освоить макеты с правосторонним текстом (RTL) с помощью i18next и Radix UI. Это полезно разработчикам, которые создают многоязычные веб-приложения и хотят обеспечить правильное отображение текста для пользователей с разными языками и культурами.
+#webdev #frontend #i18n
+
+🟨 [TokenToad: как я сделал Chrome-расширение, чтобы перестать удивляться счетам за AI](https://habr.com/ru/articles/1031890/?utm_campaign=1031890&utm_source=habrahabr&utm_medium=rss)
+Статья о том, как разработчик создал Chrome-расширение для отслеживания расходов на AI API. Это может быть полезно разработчикам, которые используют AI API и хотят контролировать свои расходы.
+#JavaScript #frontend #AI
+
+🌐 [You Have 5 Seconds Or You’ve Already Lost the User](https://dev.to/bhavya_kapil_0feb7d6e6f64/you-have-5-seconds-or-youve-already-lost-the-user-mo6)
+Статья о важности скорости загрузки сайта и первом впечатлении, которое он производит на пользователя. Автор подчеркивает, что пользователь принимает решение о дальнейшем взаимодействии с сайтом в течение первых 5 секунд.
+#webdev #performance
+
+🟨 [Как я автоматизировал отправку постов в Threads* и X*, но споткнулся о невидимые лимиты Twitter*](https://habr.com/ru/articles/1031926/?utm_campaign=1031926&utm_source=habrahabr&utm_medium=rss)
+Статья о том, как разработчик автоматизировал отправку постов в социальные сети, но столкнулся с проблемами из-за ограничений Twitter. Это может быть полезно разработчикам, которые работают с API социальных сетей и хотят автоматизировать задачи.
+#JavaScript #frontend #API
+
+_Источников: 5 · Новостей: 7_
