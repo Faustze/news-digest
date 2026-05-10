@@ -1,0 +1,43 @@
+📰 *Дайджест 10.05.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Разработчик создал плагин для Vite, который позволяет использовать middleware в стиле Nuxt для Vue, что может быть полезно для разработчиков, которые используют Vue и Vite. Кроме того, была опубликована статья о структуре проектов на Vue.js, которая может помочь разработчикам улучшить организацию своего кода. Также был представлен плагин для Vite, который показывает прогресс загрузки ресурсов на странице, решая проблему белого экрана при холодном старте. Кроме того, была опубликована статья об использовании Python в области данных, которая может быть полезна для разработчиков, которые хотят изучить Python и его применение в анализе данных.
+
+─────────────────────
+
+💚 [I built a Vite plugin to bring Nuxt-style middleware to Vue](https://dev.to/roya_lan_c712e571a6d261e/i-built-a-vite-plugin-to-bring-nuxt-style-middleware-to-vue-2na7)
+Разработчик создал плагин для Vite, который позволяет использовать middleware в стиле Nuxt для Vue. Это полезно для разработчиков, которые используют Vue и Vite и хотят добавить функциональность middleware в свои приложения.
+#Vue #Vite #Nuxt
+
+📌 [Структура Vue проекта](https://habr.com/ru/articles/1033300/?utm_campaign=1033300&utm_source=habrahabr&utm_medium=rss)
+Эта статья обсуждает структуру проектов на Vue.js. Она может быть полезна для разработчиков, которые хотят улучшить организацию своего кода. Статья описывает популярные подходы к организации Vue-проектов.
+#Vue.js #Frontend
+
+💚 [Vite Cold Start White Screen? A Plugin Shows Resource Loading on Page](https://dev.to/devzuo/vite-cold-start-white-screen-a-plugin-shows-resource-loading-on-page-4gj7)
+Плагин для Vite, который показывает прогресс загрузки ресурсов на странице, решая проблему белого экрана при холодном старте. Это полезно для разработчиков, которые используют Vite и сталкиваются с этой проблемой.
+#Vue #Vite #frontend
+
+💚 [React 19 vs Vue 3.6: Same Year, Two Radically Different Frontend Philosophies](https://dev.to/jearick/react-19-vs-vue-36-same-year-two-radically-different-frontend-philosophies-2f7m)
+Статья сравнивает React 19 и Vue 3.6, два популярных фреймворка для frontend-разработки. Автор анализирует их подходы к решению проблем и подчеркивает их различия. Это полезно для разработчиков, которые хотят понять сильные и слабые стороны каждого фреймворка.
+#Vue #React #frontend
+
+📌 [Countdown Timer Accessibility: Why Your Sale Widget Fails Screen Readers](https://dev.to/agentkit/countdown-timer-accessibility-why-your-sale-widget-fails-screen-readers-1hc4)
+Эта статья обсуждает проблемы доступности таймеров обратного отсчета на веб-страницах. Она может быть полезна для разработчиков, которые хотят улучшить доступность своих веб-приложений. Статья описывает, как создать доступные таймеры обратного отсчета для пользователей с ограниче
+#Accessibility #Frontend
+
+💚 [I shipped a video player to npm — twice. What I learned about scoped CSS, "use client", and Nuxt modules.](https://dev.to/imfahad/i-shipped-a-video-player-to-npm-twice-what-i-learned-about-scoped-css-use-client-and-nuxt-2dfl)
+Разработчик создал видеоплеер и опубликовал его в npm. Он поделился своим опытом о том, как использовать scoped CSS, "use client" и Nuxt modules. Это полезно для разработчиков, которые используют Nuxt и хотят создать свои собственные модули.
+#Vue #Nuxt #scoped CSS
+
+📌 [I gave Claude a persistent memory for $0/month using Cloudflare](https://dev.to/rahil_pirani_c48446facc8c/i-gave-claude-a-persistent-memory-for-0month-using-cloudflare-2e5a)
+В этой статье рассказывается о том, как создать постоянную память для AI-модели Claude, используя Cloudflare. Это может быть полезно для разработчиков, которые работают с AI и хотят улучшить взаимодействие с пользователями. Статья описывает, как создать самодельный сервер MCP, ко
+#AI #Cloudflare #Frontend
+
+📌 [Building Social Games with AI — The Practitioner's Guide](https://dev.to/truongpx396/building-social-games-with-ai-the-practitioners-guide-o98)
+Эта статья представляет собой практическое руководство по созданию социальных игр с использованием AI. Она может быть полезна для разработчиков, которые хотят изучить возможности AI в игровой индустрии. Статья описывает, как использовать AI для создания и оперирования социальными
+#AI #Game Development
+
+🐍 [Introduction To Python and Its Use in the Data Analytics Space](https://dev.to/marwokaclintonops/introduction-to-python-and-its-use-in-the-data-analytics-space-4m7o)
+Эта статья представляет собой введение в Python и его использование в области данных. Она может быть полезна для разработчиков, которые хотят изучить Python и его применение в анализе данных. Статья описывает основы Python и его роль в обработке и анализе данных.
+#Python #Data Analytics
+
+_Источников: 3 · Новостей: 9_
