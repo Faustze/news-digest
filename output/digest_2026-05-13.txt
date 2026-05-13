@@ -1,0 +1,55 @@
+📰 *Дайджест 13.05.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "Beyond Syntax: What are Agentic Code Runners actually replacing in 2026?" обсуждает влияние агентных код-раннеров на веб-разработку и их потенциал для автоматизации задач разработчиков. Кроме того, GitHub Copilot представил новые индивидуальные планы, включая flex-аллотменты в Pro и Pro+, и новый Max-план, что может улучшить производительность разработчиков. Также была опубликована статья о создании procedurally generated roguelike с помощью GitHub Copilot CLI, что может быть интересно разработчикам, которые хотят создать подобные проекты.
+
+─────────────────────
+
+🌐 [Beyond Syntax: What are Agentic Code Runners actually replacing in 2026?](https://dev.to/karan_kundal_/beyond-syntax-what-are-agentic-code-runners-actually-replacing-in-2026-16f8)
+Статья обсуждает влияние агентных код-раннеров на веб-разработку. Автор рассматривает, какие задачи разработчиков могут быть автоматизированы с помощью этих инструментов, и какие новые возможности они открывают. Это полезно для разработчиков, которые хотят понять, как агентные ко
+#webdev #frontend
+
+💚 [Vue.js vs React: Which One Should You Choose?](https://dev.to/fuadhusnan_f44f3e13/vuejs-vs-react-which-one-should-you-choose-33p8)
+Статья сравнивает Vue.js и React, два популярных фреймворка для веб-разработки. Автор рассматривает сильные и слабые стороны каждого фреймворка, чтобы помочь разработчикам выбрать наиболее подходящий для их проектов. Это полезно для разработчиков, которые хотят понять различия ме
+#Vue #frontend
+
+📌 [GitHub Copilot individual plans: Introducing flex allotments in Pro and Pro+, and a new Max plan](https://github.blog/news-insights/company-news/github-copilot-individual-plans-introducing-flex-allotments-in-pro-and-pro-and-a-new-max-plan/)
+GitHub Copilot представил новые индивидуальные планы, включая flex-аллотменты в Pro и Pro+, и новый Max-план. Полезно разработчикам, которые используют GitHub Copilot для улучшения своей производительности.
+#AI #devtools
+
+📌 [Dungeons & Desktops: Building a procedurally generated roguelike with GitHub Copilot CLI](https://github.blog/ai-and-ml/github-copilot/dungeons-desktops-building-a-procedurally-generated-roguelike-with-github-copilot-cli/)
+Статья о создании procedurally generated roguelike с помощью GitHub Copilot CLI. Автор делится своим опытом и описывает, как он использовал GitHub Copilot для создания уникального dungeon. Полезно разработчикам, которые хотят создать подобные проекты.
+#AI #devtools
+
+🌐 [Playwright Proxy and Browser Profile Debugging: A Practical Checklist for Multi-Account Automation](https://dev.to/web4browser/playwright-proxy-and-browser-profile-debugging-a-practical-checklist-for-multi-account-automation-3mc1)
+Статья предоставляет практический чек-лист для отладки прокси и профилей браузера в Playwright. Это полезно для разработчиков, которые работают с автоматизацией и хотят понять, как правильно настроить и отладить свои тесты.
+#webdev #frontend
+
+🟨 [Книга: «Фулстек JavaScript: Секреты, которые должен знать каждый мидл»](https://habr.com/ru/companies/piter/articles/1033060/?utm_campaign=1033060&utm_source=habrahabr&utm_medium=rss)
+Книга о фулстек JavaScript-разработке. Автор делится секретами и советами, которые могут быть полезны мидл-разработчикам. Полезно для улучшения навыков и карьерного роста.
+#JavaScript #frontend
+
+💚 [Feather-toast-vue alternative for vue-sonner](https://dev.to/zinix/feather-toast-vue-alternative-for-vue-sonner-7o4)
+Автор представляет feather-toast-vue, легковесную библиотеку уведомлений для Vue 3. Эта библиотека предназначена для того, чтобы быть простой в использовании и настройке, и может быть полезна разработчикам, которые ищут альтернативу существующим библиотекам уведомлений.
+#Vue #frontend
+
+🟨 [Как я сделал desktop-версию мессенджера на vanilla Electron, не на React Native for Desktop. И не пожалел](https://habr.com/ru/articles/1034184/?utm_campaign=1034184&utm_source=habrahabr&utm_medium=rss)
+Статья о создании desktop-версии мессенджера на vanilla Electron. Автор делится своим опытом и описывает, как он решил различные проблемы. Полезно разработчикам, которые хотят создать подобные приложения.
+#JavaScript #frontend
+
+🟨 [n8n + мессенджер MAX: почему я отказался от community-ноды и перешел на «чистый» HTTP Request](https://habr.com/ru/articles/1034134/?utm_campaign=1034134&utm_source=habrahabr&utm_medium=rss)
+Статья о интеграции n8n с мессенджером MAX. Автор делится своим опытом и описывает, как он решил проблемы с community-нодой и перешел на «чистый» HTTP Request. Полезно разработчикам, которые работают с подобными интеграциями.
+#JavaScript #frontend
+
+🌐 [Zero-native – Build native desktop apps with web UI](https://zero-native.dev)
+Zero-native позволяет создавать родные приложения для настольных компьютеров с использованием веб-интерфейса. Это может быть полезно для разработчиков, которые хотят создавать кроссплатформенные приложения. Zero-native использует веб-технологии для создания родных приложений, что
+#webdev #desktop apps
+
+🌐 [Why senior developers fail to communicate their expertise](https://www.nair.sh/guides-and-opinions/communicating-your-expertise/why-senior-developers-fail-to-communicate-their-expertise)
+Статья обсуждает проблемы, с которыми сталкиваются опытные разработчики при общении своей экспертизы. Это может быть полезно для разработчиков, которые хотят улучшить свои навыки общения и делиться своим опытом с другими.
+#webdev #communication
+
+🌐 [When "idle" isn't idle: how a Linux kernel optimization became a QUIC bug](https://blog.cloudflare.com/quic-death-spiral-fix/)
+Статья рассказывает о том, как оптимизация ядра Linux стала причиной ошибки в протоколе QUIC. Это может быть интересно разработчикам, которые работают с сетевыми протоколами и хотят понять, как оптимизации могут повлиять на производительность и безопасность.
+#webdev #networking
+
+_Источников: 5 · Новостей: 12_
