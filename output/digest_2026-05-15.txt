@@ -1,0 +1,51 @@
+📰 *Дайджест 15.05.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "Next.js 15 vs Nuxt 3 in 2026" представляет сравнение между двумя популярными фреймворками для создания веб-приложений, что может быть полезно разработчикам, выбирающим технологию для своих проектов. Кроме того, команда GitHub Issues улучшила производительность навигации с помощью клиентского кэширования и сервис-воркеров, что может быть интересно разработчикам, работающим над оптимизацией производительности веб-приложений. Также была представлена коллекция из 8 бесплатных инструментов для работы с CSS, которые могут упростить процесс разработки веб-страниц.
+
+─────────────────────
+
+📌 [Next.js 15 vs Nuxt 3 in 2026: Which Framework Wins for Your SaaS?](https://dev.to/david_friedman_c2808375c1/nextjs-15-vs-nuxt-3-in-2026-which-framework-wins-for-your-saas-2mlc)
+Эта статья представляет сравнение между Next.js и Nuxt.js, двумя популярными фреймворками для создания веб-приложений. Автор делится своим опытом в разработке приложений на этих фреймворках и дает рекомендации, какой из них выбрать для конкретных проектов.
+#Nuxt.js #Vue.js
+
+📌 [From latency to instant: Modernizing GitHub Issues navigation performance](https://github.blog/engineering/architecture-optimization/from-latency-to-instant-modernizing-github-issues-navigation-performance/)
+Статья о том, как команда GitHub Issues улучшила производительность навигации с помощью клиентского кэширования, умного prefetching и сервис-воркеров. Это может быть полезно разработчикам, которые работают над оптимизацией производительности веб-приложений.
+#performance optimization #web development
+
+📌 [Building an AI Video Generation Workflow With Queues, Webhooks, and Review States](https://dev.to/top_duke_7ca8148e5df75726/building-an-ai-video-generation-workflow-with-queues-webhooks-and-review-states-4ec2)
+Эта статья описывает процесс создания рабочего процесса генерации видео с помощью ИИ, включающего очереди, веб-хуки и состояния проверки. Автор делится своим опытом в разработке такого рабочего процесса и дает рекомендации по его реализации.
+#AI #Web Development
+
+🟨 [Scoped Store: Когда useReducer не тянет, а Redux — слишком](https://habr.com/ru/articles/1034926/?utm_campaign=1034926&utm_source=habrahabr&utm_medium=rss)
+Статья о том, как использовать паттерн Scoped Store на базе Context+Zustand+useRef для решения проблем с локальным стейтом в React-модуле. Это может быть полезно разработчикам, которые работают с React и сталкиваются с проблемами масштабирования локального стейта.
+#JavaScript #React #state management
+
+🎨 [I Built 8 Free CSS Tools So You Don't Have to Do the Math Anymore](https://dev.to/csstoolkit/i-built-8-free-css-tools-so-you-dont-have-to-do-the-math-anymore-3961)
+Эта статья представляет коллекцию из 8 бесплатных инструментов для работы с CSS, которые могут упростить процесс разработки веб-страниц. Инструменты включают генераторы тени, радиусов, преобразователи единиц и другие полезные утилиты.
+#CSS
+
+🟨 [Cursor в разработке: нейропрототип модуля в корпоративной системе](https://habr.com/ru/articles/1032970/?utm_campaign=1032970&utm_source=habrahabr&utm_medium=rss)
+Статья о том, как использовать нейропрототип модуля Планирования (PlanningProto) для разработки корпоративной системы. Это может быть полезно разработчикам, которые работают над сложными системами и ищут новые подходы к разработке.
+#JavaScript #AI #development
+
+📌 [Codex is now in the ChatGPT mobile app](https://openai.com/index/work-with-codex-from-anywhere/)
+Codex, инструмент для генерации кода, теперь доступен в мобильном приложении ChatGPT. Это может быть полезно разработчикам, которые хотят быстро генерировать код на ходу.
+#AI #code generation
+
+🎨 [Computing and Displaying Discounted Prices in CSS](https://css-tricks.com/computing-and-displaying-discounted-prices-in-css/)
+Эта статья демонстрирует умное использование CSS для расчета и отображения скидок на продукты. Она подчеркивает современные возможности CSS, такие как attr(), mod() и round(), которые могут быть полезны разработчикам для создания динамических и интерактивных веб-страниц.
+#CSS
+
+📌 [I Cancelled My Cursor Pro+ Subscription. Here's What I Switched To (And Saved $45/Month)](https://dev.to/sumit2401/i-cancelled-my-cursor-pro-subscription-heres-what-i-switched-to-and-saved-45month-4c4l)
+Эта статья рассказывает о личном опыте автора в использовании инструментов ИИ для разработки и о том, как он перешел от одной платформы к другой, сэкономив при этом деньги. Статья может быть интересна разработчикам, которые ищут альтернативные инструменты для своей работы.
+#AI #Web Development
+
+📌 [Work with Codex from anywhere](https://openai.com/index/work-with-codex-from-anywhere)
+Статья о том, как использовать Codex из любого места с помощью мобильного приложения ChatGPT. Это может быть полезно разработчикам, которые работают над проектами и хотят иметь возможность контролировать и утверждать кодовые задачи в режиме реального времени.
+#AI #development #productivity
+
+📌 [How Claude Code works in large codebases](https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start)
+Статья о том, как работает Claude Code в больших кодовых базах, и какие лучшие практики можно использовать для его эффективного использования. Это может быть полезно разработчикам, которые работают с большими проектами и хотят улучшить свою производительность.
+#AI #code generation
+
+_Источников: 6 · Новостей: 11_
