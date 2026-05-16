@@ -1,0 +1,35 @@
+📰 *Дайджест 16.05.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "How to Control Infinite CSS Animations" рассматривает методы контроля бесконечных анимаций CSS, что может быть полезно разработчикам для создания более плавных и интерактивных анимаций на веб-страницах. Кроме того, статья "Каналы и авторизация в Centrifugo" рассказывает о том, как безопасно подключить real-time в Laravel, что важно для разработчиков, чтобы знать о методах безопасности при работе с real-time приложениями. Также была опубликована статья "Understanding HTTP", в которой рассматривается протокол HTTP и его использование в веб-разработке.
+
+─────────────────────
+
+🌐 [How I Built a Developer Knowledge Base with 635+ AI-Refactored Articles for /bin/zsh.12/Month](https://dev.to/kollittle/how-i-built-a-developer-knowledge-base-with-635-ai-refactored-articles-for-binzsh12month-2l4j)
+В этой статье рассказывается о создании базы знаний для разработчиков с использованием AI-инструментов. Это может быть полезно разработчикам для поиска информации и обучения.
+#AI #webdev
+
+🎨 [How to Control Infinite CSS Animations (Part 2 of 2)](https://frontendmasters.com/blog/how-to-control-infinite-css-animations-part-2-of-2/)
+В этой статье рассматриваются методы контроля бесконечных анимаций CSS. Это может быть полезно разработчикам для создания более плавных и интерактивных анимаций на веб-страницах.
+#CSS #frontend
+
+📌 [Building a general-purpose accessibility agent—and what we learned in the process](https://github.blog/ai-and-ml/github-copilot/building-a-general-purpose-accessibility-agent-and-what-we-learned-in-the-process/)
+Статья о создании общего агента доступности и о том, что было узнано в процессе. Это важно для разработчиков, чтобы знать о методах улучшения доступности своих приложений.
+#AI #accessibility
+
+🎨 [What’s !important #11: 3D Voxel Scenes, Flying Focus, CSS Syntaxes, and More](https://css-tricks.com/whats-important-11/)
+В этом выпуске рассматриваются новые возможности CSS, такие как 3D voxel сцены, анимации фокуса и новые синтаксисы CSS. Это может быть полезно разработчикам для создания более интересных и интерактивных веб-страниц.
+#CSS
+
+🟨 [Фишинг с подменой URI: или как один хитрый редирект может угнать ваши пароли](https://habr.com/ru/articles/1035814/?utm_campaign=1035814&utm_source=habrahabr&utm_medium=rss)
+Статья о методе фишинга с подменой URI, который может быть использован для кражи паролей. Это важно для разработчиков, чтобы знать об этом методе и принимать меры для защиты своих приложений и пользователей.
+#JavaScript #security
+
+🟨 [Каналы и авторизация в Centrifugo: как безопасно подключить real-time в Laravel](https://habr.com/ru/articles/1035472/?utm_campaign=1035472&utm_source=habrahabr&utm_medium=rss)
+Статья о том, как безопасно подключить real-time в Laravel с помощью Centrifugo. Это важно для разработчиков, чтобы знать о методах безопасности при работе с real-time приложениями.
+#JavaScript #security
+
+🌐 [Understanding HTTP](https://dev.to/rahul_kumarparida_6c16f5/understanding-http-10p2)
+В этой статье рассматривается протокол HTTP и его использование в веб-разработке. Это может быть полезно разработчикам для понимания основ веб-коммуникаций.
+#HTTP #webdev
+
+_Источников: 5 · Новостей: 7_
