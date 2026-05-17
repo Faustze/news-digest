@@ -1,0 +1,27 @@
+📰 *Дайджест 17.05.2026*
+
+Сегодня в мире фронтенда и Python произошли интересные события. Статья "5 Mistakes I Made Building an AI Code Review Bot" поделилась опытом создания бота для автоматического обзора кода с использованием ИИ и описала пять ошибок, которые можно избежать. Кроме того, статья "Moving away from Tailwind, and learning to structure my CSS" рассказала о том, как отказаться от Tailwind и научиться структурировать свой CSS. Для разработчиков, работающих с push-уведомлениями, может быть полезна статья "Push-уведомления в мессенджере: production-грабли которых нет в туториалах", в которой обсуждаются проблемы push-уведомлений в реальном мессенджере. Эти статьи могут быть полезны разработчикам, работающим с Vue, Nuxt и Python.
+
+─────────────────────
+
+🌐 [5 Mistakes I Made Building an AI Code Review Bot](https://dev.to/hopkins_jesse_cdb68cfa22c/5-mistakes-i-made-building-an-ai-code-review-bot-5527)
+Статья о создании бота для автоматического обзора кода с использованием ИИ. Автор делится пятью ошибками, которые он совершил при разработке бота и как их исправить. Полезно разработчикам, которые хотят создать подобный инструмент.
+#AI #code review #webdev
+
+🌐 [My AI agent can't click "Sign up for an API key" — so I built a business-day endpoint with no signup](https://dev.to/solvodevnotes/my-ai-agent-cant-click-sign-up-for-an-api-key-so-i-built-a-business-day-endpoint-with-no-signup-2hlc)
+Автор статьи создал агент ИИ, который не может кликнуть на кнопку "Зарегистрироваться" для получения API-ключа. Чтобы решить эту проблему, он создал конечную точку для бизнес-дней без регистрации.
+#AI #API #webdev
+
+🎨 [Moving away from Tailwind, and learning to structure my CSS](https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/)
+Статья о том, как автор отказался от Tailwind и научился структурировать свой CSS. Для разработчиков, работающих с CSS и Tailwind, эта статья может быть полезной.
+#CSS #Tailwind
+
+🌐 [We built a memory-powered AI sales agent using Hindsight and cascadeflow](https://dev.to/sadhuram09/we-built-a-memory-powered-ai-sales-agent-using-hindsight-and-cascadeflow-252d)
+Статья о создании агента ИИ для продаж с использованием Hindsight и cascadeflow. Авторы делится своим опытом и описывают, как они создали этот инструмент.
+#AI #sales #webdev
+
+🟨 [Push-уведомления в мессенджере: production-грабли которых нет в туториалах](https://habr.com/ru/articles/1035992/?utm_campaign=1035992&utm_source=habrahabr&utm_medium=rss)
+Статья про инженерные решения в ONEMIX, в которой обсуждаются проблемы push-уведомлений в реальном мессенджере. Автор делится своим опытом и предоставляет советы по решению этих проблем. Для разработчиков, работающих с push-уведомлениями, эта статья может быть полезной.
+#JavaScript #frontend
+
+_Источников: 3 · Новостей: 5_
