@@ -1,0 +1,27 @@
+📰 *Дайджест 18.05.2026*
+
+Сегодня в мире фронтенда и Python произошли интересные события. Статья "Stop Blindly Trusting Passport.js" показывает, как реализовать безопасную защиту от CSRF-атак при использовании OAuth 2.0 с помощью Node.js и Axios. Кроме того, статья "Telegraf.js умер" рассказывает о возрождении фреймворка Telegraf.js, который был переписан на Native Fetch и теперь поддерживает Bot API 9.6, что может быть полезно разработчикам Telegram-ботов. Также была опубликована статья "Frontend HLD: Understanding Different Types of Applications", которая рассматривает различные типы frontend-приложений и дает советы по их разработке. Эти статьи могут быть полезны веб-разработчикам, работающим с Vue, Nuxt и Python.
+
+─────────────────────
+
+🖥️ [Stop Blindly Trusting Passport.js: How to Implement Secure OAuth CSRF Protection Manually](https://dev.to/paudang/stop-blindly-trusting-passportjs-how-to-implement-secure-oauth-csrf-protection-manually-4fh2)
+Статья о том, как реализовать безопасную защиту от CSRF-атак при использовании OAuth 2.0. Автор показывает, как создать защищенный поток социальной авторизации с помощью Node.js и Axios.
+#security #frontend
+
+💚 [Macchiato Day 1: The Agentic Terminal Born from a Coffee Cup](https://dev.to/guayoyo_tech/macchiato-day-1-the-agentic-terminal-born-from-a-coffee-cup-1eom)
+Статья о создании терминала с поддержкой AI для разработки на Vue и других технологиях. Автор делится своим опытом и проблемами, с которыми он столкнулся при использовании инструментов AI в разработке.
+#Vue #AI #frontend
+
+🟨 [Telegraf.js умер. Как мы оживили фреймворк, переписали ядро на Native Fetch и затащили Bot API 9.6](https://habr.com/ru/articles/1036250/?utm_campaign=1036250&utm_source=habrahabr&utm_medium=rss)
+Статья о возрождении фреймворка Telegraf.js, который был заброшен его создателями. Авторы статьи переписали ядро фреймворка на Native Fetch и добавили поддержку Bot API 9.6. Это может быть полезно разработчикам, которые работают с Telegram-ботами на Node.js или TypeScript.
+#JavaScript #frontend
+
+🟨 [Automatiser l'Export de Tableaux Web avec JavaScript : Guide Pratique](https://dev.to/circobit/automatiser-lexport-de-tableaux-web-avec-javascript-guide-pratique-5fp0)
+Статья о том, как автоматизировать экспорт таблиц с веб-страниц с помощью JavaScript. Автор предоставляет практическое руководство по использованию JavaScript для извлечения данных из таблиц и экспорта их в различные форматы.
+#JavaScript #frontend
+
+🌐 [Frontend HLD: Understanding Different Types of Applications](https://dev.to/paras594/frontend-hld-understanding-different-types-of-applications-ea6)
+Статья о типах frontend-приложений и их особенностях. Автор статьи рассматривает различные типы приложений и дает советы по их разработке. Это может быть полезно разработчикам, которые хотят улучшить свои навыки в создании frontend-приложений.
+#webdev #frontend
+
+_Источников: 3 · Новостей: 5_
