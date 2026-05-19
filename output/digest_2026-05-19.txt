@@ -1,0 +1,67 @@
+📰 *Дайджест 19.05.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Для разработчиков Vue.js важно узнать о том, как избежать ненужных перерисовок с помощью `v-memo`, а также о проблемах с SEO в SPA-приложениях на Vue.js и о том, как их решить. Кроме того, была обнаружена компрометация 314 пакетов npm, что требует проверки проектов на наличие уязвимостей и обновления пакетов до последних версий. Эти новости будут полезны разработчикам, интересующимся Vue, frontend-разработкой и безопасностью веб-приложений.
+
+─────────────────────
+
+💚 [Avoid Unnecessary Re-renders in Vue with `v-memo`](https://dev.to/jacobandrewsky/avoid-unnecessary-re-renders-in-vue-with-v-memo-49bo)
+Эта новость рассказывает о том, как избежать ненужных перерисовок в Vue с помощью `v-memo`. Автор объясняет, как использовать `v-memo` для оптимизации рендеринга и улучшения производительности приложения. Эта новость будет полезна разработчикам, интересующимся Vue и frontend-разр
+#Vue #frontend
+
+💚 [Vue.js SPA SEO: how I made my app invisible to Google (and how I fixed it)](https://dev.to/ohugonnot/vuejs-spa-seo-how-i-made-my-app-invisible-to-google-and-how-i-fixed-it-4nng)
+Эта новость рассказывает о проблемах с SEO в SPA-приложениях на Vue.js. Автор делится своим опытом и объясняет, как он решил проблему с индексацией страниц в Google. Эта новость будет полезна разработчикам, интересующимся Vue и frontend-разработкой.
+#Vue #frontend
+
+💚 [I Built a Football Tournament Simulator with Vue 3](https://dev.to/orazch/i-built-a-football-tournament-simulator-with-vue-3-5nh)
+Эта новость рассказывает о создании футбольного турнирного симулятора с использованием Vue 3 и TypeScript. Симулятор включает в себя такие функции, как турнирные таблицы, симуляция матчей, пенальти и многое другое. Эта новость будет полезна разработчикам, интересующимся Vue и fro
+#Vue #frontend
+
+🌐 [API Calls Done Right: From Messy Fetch to Clean Data Layer](https://dev.to/gavincettolo/api-calls-done-right-from-messy-fetch-to-clean-data-layer-419i)
+Статья о том, как правильно делать API-запросы. Автор описывает проблемы, которые могут возникнуть при использовании fetch, и предлагает решения для создания чистого слоя данных. Это может быть полезно разработчикам, которые хотят улучшить свою работу с API.
+#webdev #frontend #API
+
+🌐 [Mini Shai-Hulud Strikes Again: 314 npm Packages Compromised](https://safedep.io/mini-shai-hulud-strikes-again-314-npm-packages-compromised/)
+Было обнаружено, что 314 пакетов npm были скомпрометированы. Это может быть полезно разработчикам, чтобы проверить свои проекты на наличие уязвимостей и обновить пакеты до последних версий. Это важно для поддержания безопасности и стабильности веб-приложений.
+#npm #security #webdev
+
+💚 [Vue to React Migration: A Real Component Walkthrough with VuReact](https://dev.to/smirk9581/write-vue-ship-react-a-first-vureact-walkthrough-with-a-real-component-migration-3peo)
+Эта новость рассказывает о миграции с Vue на React с помощью VuReact. Автор делится своим опытом и предоставляет реальный пример миграции компонента. Эта новость будет полезна разработчикам, интересующимся Vue и React.
+#Vue #frontend
+
+🌐 [Your Code Is Costing You More Than You Think](https://dev.to/mannyfrank_07/your-code-is-costing-you-more-than-you-think-1ad1)
+Статья о том, как плохое качество кода может привести к увеличению затрат на разработку и поддержку. Автор описывает проблемы, которые могут возникнуть из-за плохого кода, и предлагает решения для улучшения качества кода. Это может быть полезно разработчикам, которые хотят оптими
+#webdev #frontend #best practices
+
+🌐 [How to Enable APIs for Legacy Systems](https://dev.to/nico_gonzalez_ad503dc2c04/how-to-enable-apis-for-legacy-systems-21)
+Статья о том, как включить API для устаревших систем. Автор описывает проблемы, которые могут возникнуть при интеграции современных приложений с устаревшими системами, и предлагает решения для их решения. Это может быть полезно разработчикам, которые работают с устаревшими систем
+#webdev #frontend #API
+
+🎨 [Cross-Document View Transitions: The Gotchas Nobody Mentions](https://css-tricks.com/cross-document-view-transitions-part-1/)
+Эта новость рассказывает о переходах между документами в CSS и их проблемах. Автор объясняет, как избежать ошибок и оптимизировать переходы. Эта новость будет полезна разработчикам, интересующимся frontend-разработкой и CSS.
+#CSS #frontend
+
+🌐 [Die versteckte Komplexität von HTML-Tabellen](https://dev.to/circobit/die-versteckte-komplexitat-von-html-tabellen-31fn)
+Статья о сложностях работы с HTML-таблицами. Автор описывает проблемы, которые могут возникнуть при парсинге и обработке таблиц, и предлагает решения для их решения. Это может быть полезно разработчикам, которые работают с таблицами и хотят улучшить их обработку.
+#webdev #frontend #HTML
+
+🟨 [Centrifugo JS client в Laravel: frontend и production](https://habr.com/ru/articles/1036458/?utm_campaign=1036458&utm_source=habrahabr&utm_medium=rss)
+Статья о том, как использовать Centrifugo JS client в Laravel для создания реал-тайм систем. Автор описывает процесс установки и настройки клиента, а также проблемы, которые могут возникнуть при его использовании. Это может быть полезно разработчикам, которые хотят создать реал-т
+#JavaScript #frontend #Laravel
+
+🟨 [Публикация событий из Laravel в Centrifugo: Events, listeners, queue jobs и безопасный real-time payload](https://habr.com/ru/articles/1036322/?utm_campaign=1036322&utm_source=habrahabr&utm_medium=rss)
+Статья о том, как публиковать события из Laravel в Centrifugo. Автор описывает процесс публикации событий, а также проблемы, которые могут возникнуть при их обработке. Это может быть полезно разработчикам, которые хотят создать реал-тайм системы в Laravel.
+#JavaScript #frontend #Laravel
+
+📌 [Take your local GitHub sessions anywhere](https://github.blog/news-insights/product-news/take-your-local-github-sessions-anywhere/)
+Статья о том, как использовать GitHub Copilot для удаленной работы. Автор описывает возможности Copilot и как их использовать для улучшения работы. Это может быть полезно разработчикам, которые хотят улучшить свою работу с GitHub.
+#AI #devtools #GitHub
+
+📌 [OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments](https://openai.com/index/dell-codex-enterprise-partnership)
+Статья о партнерстве между OpenAI и Dell для bringen Codex в гибридные и локальные среды предприятий. Автор описывает возможности Codex и как их использовать для улучшения работы. Это может быть полезно разработчикам, которые хотят улучшить свою работу с AI.
+#AI #devtools #Codex
+
+🌐 [Cómo Reconstruimos la Identidad Visual de Guayoyo Tech Usando Skills de Diseño para Agentes de IA](https://dev.to/guayoyo_tech/como-reconstruimos-la-identidad-visual-de-guayoyo-tech-usando-skills-de-diseno-para-agentes-de-ia-4adh)
+Статья о том, как команда Guayoyo Tech использовала навыки дизайна для агентов ИИ, чтобы перестроить свою идентичность. Это может быть полезно разработчикам, которые хотят узнать о применении ИИ в дизайне. Статья описывает процесс перестройки и проблемы, с которыми столкнулась ко
+#webdev #frontend #AI
+
+_Источников: 7 · Новостей: 15_
