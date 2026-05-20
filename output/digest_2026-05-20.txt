@@ -1,0 +1,67 @@
+📰 *Дайджест 20.05.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. GitHub расследует несанкционированный доступ к их внутренним репозиториям, что может быть важно для веб-разработчиков, использующих GitHub для хранения и управления своим кодом. Кроме того, были опубликованы статьи о том, как использовать Vue 3 с React, в частности, о том, как VuReact компилирует реактивные API Vue 3 в React. Также была представлена статья о переходе от монолитной архитектуры к микрофронтендам, что может быть полезно разработчикам для улучшения масштабируемости и поддерживаемости своих проектов.
+
+─────────────────────
+
+📌 [GitHub MCP Security Scanning: How AI Coding Agents Get an Immune System](https://dev.to/pickuma/github-mcp-security-scanning-how-ai-coding-agents-get-an-immune-system-25dl)
+Статья о том, как GitHub MCP Security Scanning может помочь защитить AI-кодирование от уязвимостей. Это может быть полезно разработчикам, чтобы повысить безопасность своих проектов.
+#AI #security
+
+💚 [What Does Vue 3 reactive() Compile to in React with VuReact?](https://dev.to/smirk9581/what-does-vue-3-reactive-compile-to-in-react-with-vureact-3ad8)
+VuReact компилирует код Vue 3 в стандартный, поддерживаемый код React. В этой статье рассматривается, как VuReact компилирует реактивные API Vue 3 в React. Это полезно для разработчиков, которые хотят использовать Vue 3 с React.
+#Vue #React
+
+💚 [What Does Vue 3 `ref()` Compile to in React with VuReact?](https://dev.to/smirk9581/what-does-vue-3-ref-compile-to-in-react-with-vureact-k8i)
+VuReact компилирует код Vue 3 в стандартный, поддерживаемый код React. В этой статье рассматривается, как VuReact компилирует API ref() и shallowRef() Vue 3 в React. Это полезно для разработчиков, которые хотят использовать Vue 3 с React.
+#Vue #React
+
+💚 [Can Vue Be a React Authoring Language?](https://dev.to/smirk9581/want-to-write-react-with-vue-syntax-meet-vureact-2e5d)
+Статья рассматривает возможность использования Vue как языка для создания React-компонентов. Автор представляет инструмент VuReact, который компилирует код Vue 3 в стандартный, поддерживаемый код React. Это полезно для разработчиков, которые хотят использовать Vue с React.
+#Vue #React
+
+📌 [Claude Code Routines: Should Workflow Automation Join Your Daily Loop?](https://dev.to/pickuma/claude-code-routines-should-workflow-automation-join-your-daily-loop-412n)
+Статья о том, как использовать Claude Code Routines для автоматизации рабочих процессов. Это может быть полезно разработчикам, чтобы автоматизировать повторяющиеся задачи и повысить производительность.
+#AI #workflow automation
+
+📌 [От legacy-монолита к микрофронтендам: архитектура современного SPA](https://habr.com/ru/companies/wildberries/articles/1036296/?utm_campaign=1036296&utm_source=habrahabr&utm_medium=rss)
+Статья о том, как перейти от монолитной архитектуры к микрофронтендам. Это может быть полезно разработчикам, чтобы улучшить масштабируемость и поддерживаемость своих проектов.
+#микрофронтенды #SPA
+
+📌 [Advancing content provenance for a safer, more transparent AI ecosystem](https://openai.com/index/advancing-content-provenance)
+OpenAI представила инструменты для проверки подлинности контента, сгенерированного ИИ. Это может быть полезно разработчикам для создания более прозрачных и безопасных приложений. Инструменты включают Content Credentials, SynthID и верификационный инструмент.
+#AI #devtools
+
+📌 [OpenAI Adopts Google's SynthID Watermark for AI Images with Verification Tool](https://openai.com/index/advancing-content-provenance/)
+OpenAI приняла водяной знак SynthID от Google для изображений, сгенерированных ИИ. Это может быть полезно разработчикам для создания более прозрачных и безопасных приложений. Инструменты включают верификационный инструмент для проверки подлинности контента.
+#AI #devtools
+
+🌐 [GitHub is investigating unauthorized access to their internal repositories](https://twitter.com/github/status/2056884788179726685)
+GitHub расследует несанкционированный доступ к их внутренним репозиториям, что может быть важно для веб-разработчиков, использующих GitHub для хранения и управления своим кодом. Это может быть интересно разработчикам, работающим с npm, pnpm и другими инструментами для управления
+#webdev #security #GitHub
+
+💚 [Building System: A Modern Multi-Vendor Book Marketplace in Kurdistan](https://dev.to/shad_arf/building-system-a-modern-multi-vendor-book-marketplace-in-kurdistan-24mi)
+Разработчик поделился опытом создания многофункциональной платформы для книжного рынка в Курдистане. Он использовал Nuxt.js, Vue.js и Tailwind CSS для создания быстрой и responsивной платформы. Это полезно для разработчиков, которые хотят создать подобные платформы.
+#Nuxt #Vue #Tailwind CSS
+
+🟨 [5 распространенных ошибок новичка в E2E-тестах](https://habr.com/ru/companies/otus/articles/1034446/?utm_campaign=1034446&utm_source=habrahabr&utm_medium=rss)
+Статья о том, как избежать распространенных ошибок при написании E2E-тестов. Это может быть полезно разработчикам, чтобы улучшить качество своих тестов.
+#E2E-тесты #JavaScript
+
+📌 [Вы неправильно тестируете асинхронный код: тест проходит раньше, чем выполняется проверка](https://habr.com/ru/companies/otus/articles/1036208/?utm_campaign=1036208&utm_source=habrahabr&utm_medium=rss)
+Статья о том, как правильно тестировать асинхронный код. Это может быть полезно разработчикам, чтобы избежать ошибок при тестировании.
+#асинхронный код #тестирование
+
+🌐 [Remove–AI–Watermarks – CLI and library for removing AI watermarks from images](https://github.com/wiltodelta/remove-ai-watermarks)
+Представлена библиотека и CLI-инструмент для удаления водяных знаков ИИ из изображений. Это может быть полезно разработчикам для создания более прозрачных и безопасных приложений.
+#tech #webdev
+
+🌐 [HTML-in-Canvas Demos](https://github.com/GoogleChromeLabs/css-web-ui-demos/blob/main/html-in-canvas/awesome-html-in-canvas.md)
+Демонстрация возможностей HTML-in-Canvas, которая может быть полезна для веб-разработчиков в создании интерактивных и динамических веб-страниц. Это может быть интересно разработчикам, работающим с HTML5 и CSS3.
+#HTML5 #CSS3 #webdev
+
+🌐 [Testing MiniMax M2.7 via API on three real ML and coding workflows](https://andlukyane.com//blog/minimax-m27-workflows)
+Тестирование MiniMax M2.7 через API на трех реальных рабочих процессах машинного обучения и программирования, что может быть интересно разработчикам, работающим с AI и машинным обучением.
+#AI #machine learning #webdev
+
+_Источников: 5 · Новостей: 15_
