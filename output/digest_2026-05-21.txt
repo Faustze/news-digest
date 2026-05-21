@@ -1,0 +1,27 @@
+📰 *Дайджест 21.05.2026*
+
+Сегодня в мире фронтенда и Python произошли интересные события. Был представлен инструмент VuReact, который позволяет компилировать код Vue 3 в стандартный, поддерживаемый код React, что может быть полезно разработчикам, которые хотят перенести свой код из Vue в React. Кроме того, были опубликованы статьи о том, как VuReact компилирует различные API Vue, такие как toRef(), toRefs(), readonly() и computed(), в код React. Также была опубликована статья о 12 паттернах, которые помогут привести код в порядок, в которой рассказывается о синтаксисе деструктурирующего присваивания и других фичах, которые могут улучшить код.
+
+─────────────────────
+
+💚 [I built a Vue-to-React migration tool that writes native React code for you](https://dev.to/smirk9581/i-built-a-vue-to-react-migration-tool-that-writes-native-react-code-for-you-4613)
+VuReact - это инструмент, который компилирует код Vue 3 в стандартный, поддерживаемый код React. Это может быть полезно разработчикам, которые хотят перенести свой код из Vue в React.
+#Vue #React #frontend
+
+💚 [What Do Vue 3 toRef() и toRefs() Compile to in React with VuReact?](https://dev.to/smirk9581/what-do-vue-3-toref-and-torefs-compile-to-in-react-with-vureact-55hn)
+VuReact - это инструмент, который компилирует код Vue 3 в стандартный, поддерживаемый код React. В этой статье рассматривается, как VuReact компилирует две часто используемые API Vue: toRef() и toRefs(). Это может быть полезно разработчикам, которые хотят перенести свой код из Vu
+#Vue #React #frontend
+
+💚 [What Does Vue 3 readonly() Compile to in React with VuReact?](https://dev.to/smirk9581/what-does-vue-3-readonly-compile-to-in-react-with-vureact-1hnm)
+VuReact компилирует код Vue 3 в стандартный, поддерживаемый код React. В этой статье рассматривается, как VuReact компилирует API Vue readonly(). Это может быть полезно разработчикам, которые хотят перенести свой код из Vue в React.
+#Vue #React #frontend
+
+💚 [What Does Vue 3 computed() Compile to in React with VuReact?](https://dev.to/smirk9581/what-does-vue-3-computed-compile-to-in-react-with-vureact-3hk)
+VuReact компилирует код Vue 3 в стандартный, поддерживаемый код React. В этой статье рассматривается, как VuReact компилирует API Vue computed(). Это может быть полезно разработчикам, которые хотят перенести свой код из Vue в React.
+#Vue #React #frontend
+
+🟨 [12 паттернов, которые приведут твой код в порядок](https://habr.com/ru/articles/1037430/?utm_campaign=1037430&utm_source=habrahabr&utm_medium=rss)
+Статья о 12 паттернах, которые помогут привести код в порядок. В ней рассказывается о синтаксисе деструктурирующего присваивания и других фичах, которые могут улучшить код. Это может быть полезно разработчикам, которые хотят улучшить качество своего кода.
+#JavaScript #frontend
+
+_Источников: 2 · Новостей: 5_
