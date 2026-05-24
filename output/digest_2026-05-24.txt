@@ -1,0 +1,47 @@
+📰 *Дайджест 24.05.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Были опубликованы статьи о Feature Based Clean Architecture, в которых описываются способы масштабирования архитектуры, формализации границ ответственности и оценки архитектурного риска циклов в NestJS. Кроме того, были опубликованы статьи о VuReact, компиляторном инструментарии для миграции из Vue в React, в которых описывается, как VuReact компилирует различные функции из Vue 3 в React. Также был опубликован Python SDK для Tell A Bot API, который позволяет автоматизировать процесс верификации SMS. Эти новости будут полезны разработчикам, которые работают с Vue, React, NestJS и Python.
+
+─────────────────────
+
+🟨 [Feature Based Clean Architecture. Часть 5: Масштабирование FBCA и теоретико-графовый анализ зависимостей](https://habr.com/ru/articles/1038450/?utm_campaign=1038450&utm_source=habrahabr&utm_medium=rss)
+Статья о Feature Based Clean Architecture, в которой описывается, как масштабировать архитектуру и анализировать зависимости между модулями. Это полезно разработчикам, чтобы создавать масштабируемые и поддерживаемые системы.
+#JavaScript #frontend
+
+🟨 [Feature Based Clean Architecture. Часть 4: FBCA: формализация границ ответственности в NestJS-модуле](https://habr.com/ru/articles/1038438/?utm_campaign=1038438&utm_source=habrahabr&utm_medium=rss)
+Статья о Feature Based Clean Architecture, в которой описывается, как формализовать границы ответственности в NestJS-модуле. Это полезно разработчикам, чтобы создавать модули с чёткими зонами ответственности.
+#JavaScript #frontend
+
+🟨 [Feature Based Clean Architecture. Часть 3: Архитектурный риск циклов в NestJS: ROI решений на горизонте пяти лет](https://habr.com/ru/articles/1038426/?utm_campaign=1038426&utm_source=habrahabr&utm_medium=rss)
+Статья о Feature Based Clean Architecture, в которой описывается, как оценивать архитектурный риск циклов в NestJS. Это полезно разработчикам, чтобы принимать обоснованные решения о архитектуре системы.
+#JavaScript #frontend
+
+💚 [How does VuReact optimize Vue 3's top-level constants and variables for React?](https://dev.to/smirk9581/how-does-vureact-optimize-vue-3s-top-level-constants-and-variables-for-react-47c5)
+VuReact — это компиляторный инструментарий для миграции из Vue в React. В этой статье рассматривается, как VuReact оптимизирует константы и переменные верхнего уровня при компиляции кода Vue 3 в React. Это полезно разработчикам, которые хотят перенести свои знания Vue на React.
+#Vue #frontend
+
+💚 [How does VuReact compile Vue 3's useTemplateRef() to React?](https://dev.to/smirk9581/how-does-vureact-compile-vue-3s-usetemplateref-to-react-nkn)
+VuReact — это компиляторный инструментарий для миграции из Vue в React. В этой статье рассматривается, как VuReact компилирует функцию useTemplateRef() из Vue 3 в React. Это полезно разработчикам, которые хотят перенести свои знания Vue на React.
+#Vue #frontend
+
+💚 [How does VuReact compile Vue 3's useAttrs() to React?](https://dev.to/smirk9581/how-does-vureact-compile-vue-3s-useattrs-to-react-n1f)
+VuReact — это компиляторный инструментарий для миграции из Vue в React. В этой статье рассматривается, как VuReact компилирует функцию useAttrs() из Vue 3 в React. Это полезно разработчикам, которые хотят перенести свои знания Vue на React.
+#Vue #frontend
+
+💚 [How does VuReact compile Vue 3's defineOptions() to React?](https://dev.to/smirk9581/how-does-vureact-compile-vue-3s-defineoptions-to-react-499e)
+VuReact — это компиляторный инструментарий для миграции из Vue в React. В этой статье рассматривается, как VuReact компилирует макрос defineOptions() из Vue 3 в React. Это полезно разработчикам, которые хотят перенести свои знания Vue на React.
+#Vue #frontend
+
+🟨 [Линт проектов: собираем ESLint, Prettier и Stylelint в один пакет](https://habr.com/ru/articles/1038340/?utm_campaign=1038340&utm_source=habrahabr&utm_medium=rss)
+Статья о том, как навести порядок в линтинге проектов, собрав линт-инфраструктуру в один пакет и выстроив систему контроля кода для всех репозиториев. Это полезно разработчикам, чтобы поддерживать чистоту и порядок в коде.
+#JavaScript #frontend
+
+🟨 [Feature Based Clean Architecture. Часть 2: Декомпозиция на сервисы: анализ ограниченности подхода](https://habr.com/ru/articles/1038416/?utm_campaign=1038416&utm_source=habrahabr&utm_medium=rss)
+Статья о Feature Based Clean Architecture, в которой описывается, как декомпозировать систему на сервисы. Это полезно разработчикам, чтобы создавать системы с чёткими зонами ответственности.
+#JavaScript #frontend
+
+🐍 [Python SDK for Tell A Bot API: Automate Your SMS Verification](https://dev.to/tellabot_sms/python-sdk-for-tell-a-bot-api-automate-your-sms-verification-2c3f)
+Tell A Bot — это сервис, который предоставляет временные номера телефонов для верификации SMS. Был опубликован Python SDK для этого сервиса, который позволяет автоматизировать процесс верификации. Это полезно разработчикам, которые работают с веб-приложениями и нуждаются в автома
+#Python #webdev
+
+_Источников: 3 · Новостей: 10_
