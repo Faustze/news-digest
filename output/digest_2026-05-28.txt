@@ -1,0 +1,43 @@
+📰 *Дайджест 28.05.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "Как я 8 дней ловил утечку памяти в Nuxt 3 SSR, и несколько раз думал, что починил" может быть полезна разработчикам, которые работают с Nuxt и сталкиваются с подобными проблемами. Кроме того, статья "Why Your React or Vue App Still Leaks Private User Data After Logout (And How to Fix It)" подчеркивает важность обеспечения безопасности и конфиденциальности пользователей в приложениях. Также стоит отметить статью "Я перевёл 200K строк JS на TS с Claude Code. Что прошло, что сломалось", которая может быть полезна разработчикам, которые хотят улучшить качество своего кода и перейти на TypeScript.
+
+─────────────────────
+
+💚 [Как я 8 дней ловил утечку памяти в Nuxt 3 SSR, и несколько раз думал, что починил](https://habr.com/ru/articles/1040346/?utm_campaign=1040346&utm_source=habrahabr&utm_medium=rss)
+Статья о том, как разработчик 8 дней ловил утечку памяти в Nuxt 3 SSR и как он ее починил. Это может быть полезно разработчикам, которые работают с Nuxt и сталкиваются с подобными проблемами.
+#Nuxt #Vue #JavaScript
+
+💚 [Why Your React or Vue App Still Leaks Private User Data After Logout (And How to Fix It)](https://dev.to/adityashekhar07/why-your-react-or-vue-app-still-leaks-private-user-data-after-logout-and-how-to-fix-it-3fok)
+Статья о том, как предотвратить утечку приватных данных пользователей после выхода из приложения. Это важно для разработчиков, чтобы обеспечить безопасность и конфиденциальность пользователей.
+#Vue #frontend
+
+🔷 [Я перевёл 200K строк JS на TS с Claude Code. Что прошло, что сломалось](https://habr.com/ru/articles/1040326/?utm_campaign=1040326&utm_source=habrahabr&utm_medium=rss)
+Статья о том, как разработчик перевел 200K строк JavaScript на TypeScript с помощью Claude Code. Это может быть полезно разработчикам, которые хотят улучшить качество своего кода и перейти на TypeScript.
+#TypeScript #JavaScript #AI
+
+💚 [How does VuReact implement Vue dynamic components in React?](https://dev.to/smirk9581/how-does-vureact-implement-vue-dynamic-components-in-react-cdl)
+Статья о том, как библиотека VuReact реализует динамические компоненты Vue в React. Это может быть полезно разработчикам, которые хотят использовать Vue-компоненты в React-проектах.
+#Vue #frontend
+
+💚 [Vue v-slot to React: How does VuReact handle it?](https://dev.to/smirk9581/vue-v-slot-to-react-how-does-vureact-handle-it-26le)
+Статья о том, как библиотека VuReact обрабатывает директиву v-slot из Vue в React. Это может быть полезно разработчикам, которые хотят использовать Vue-компоненты в React-проектах.
+#Vue #frontend
+
+🟨 [Архитектура безопасности во frontend-приложениях: Server Actions и защита данных в эпоху Next.js](https://habr.com/ru/companies/simbirsoft/articles/1039136/?utm_campaign=1039136&utm_source=habrahabr&utm_medium=rss)
+Статья о том, как обеспечить безопасность во frontend-приложениях с помощью Server Actions и защиты данных. Это может быть полезно разработчикам, которые работают с Next.js и хотят улучшить безопасность своих приложений.
+#Next.js #JavaScript #безопасность
+
+🎨 [Revealing Text With CSS letter-spacing](https://css-tricks.com/revealing-text-with-css-letter-spacing/)
+Статья о том, как использовать CSS letter-spacing для создания интересных текстовых эффектов. Это может быть полезно разработчикам для создания уникальных и привлекательных интерфейсов.
+#CSS #frontend
+
+💚 [Exo: Declarative Cross‑Section Coordination for Astro Without Components or Global Mutable State](https://dev.to/lucianofedericopereira/exo-declarative-cross-section-coordination-for-astro-without-components-or-global-mutable-state-52a)
+Статья о библиотеке Exo, которая позволяет координировать интерактивные секции на странице без использования компонентов или глобального состояния. Это может быть полезно разработчикам для создания более эффективных и масштабируемых приложений.
+#Vue #frontend
+
+📌 [Cisco and OpenAI redefine enterprise engineering with Codex](https://openai.com/index/cisco)
+Статья о том, как Cisco и OpenAI работают вместе над проектом Codex, который помогает ускорить разработку и улучшить качество кода. Это может быть полезно разработчикам, которые хотят узнать о новых технологиях и инструментах.
+#AI #devtools
+
+_Источников: 4 · Новостей: 9_
