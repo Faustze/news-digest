@@ -1,0 +1,47 @@
+📰 *Дайджест 31.05.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "How to Add Lottie Animations to Vue.js (2025 Guide)" рассказывает о том, как добавить анимации Lottie в приложение Vue.js, что может быть полезно разработчикам, которые хотят улучшить пользовательский опыт своих приложений. Кроме того, была опубликована статья "Я сделал Vite-плагин, который сохраняет изменения CSS прямо в исходники", в которой автор представляет плагин для Vite, упрощающий процесс разработки. Также стоит отметить статью "How to write good commit messages and pull requests: a team guide", которая дает советы по написанию хороших сообщений коммитов и запросов на слияние. Эти статьи могут быть полезны разработчикам, работающим с Vue, React и Python.
+
+─────────────────────
+
+💚 [How does VuReact compile Vue's KeepAlive component to React?](https://dev.to/smirk9581/how-does-vureact-compile-vues-keepalive-component-to-react-2hp5)
+Статья описывает, как VuReact компилирует компонент KeepAlive из Vue в React. Это может быть полезно разработчикам, которые работают с Vue и React и хотят понять, как работает VuReact.
+#Vue #frontend
+
+💚 [Vue slot to React: How does VuReact handle it?](https://dev.to/smirk9581/vue-slot-to-react-how-does-vureact-handle-it-1935)
+Статья рассказывает о том, как VuReact обрабатывает слоты Vue в React. Это может быть полезно разработчикам, которые работают с Vue и React и хотят понять, как работает VuReact.
+#Vue #frontend
+
+💚 [How to Add Lottie Animations to Vue.js (2025 Guide)](https://dev.to/fazalshah/how-to-add-lottie-animations-to-vuejs-2025-guide-1g6c)
+Эта статья рассказывает о том, как добавить анимации Lottie в приложение Vue.js. Она описывает два основных подхода к добавлению анимаций в Vue 3. Это может быть полезно разработчикам, которые хотят улучшить пользовательский опыт своих приложений.
+#Vue #frontend
+
+💚 [How I Built a Privacy-First PDF Toolkit with Vue 3 and WebAssembly](https://dev.to/sunshey/how-i-built-a-privacy-first-pdf-toolkit-with-vue-3-and-webassembly-4g1p)
+Статья рассказывает о том, как построить инструментарий для работы с PDF, который работает в браузере и не требует сервера. Это может быть полезно разработчикам, которые хотят создать подобный инструмент.
+#Vue #frontend
+
+🎨 [Я сделал Vite-плагин, который сохраняет изменения CSS прямо в исходники](https://habr.com/ru/articles/1041454/?utm_campaign=1041454&utm_source=habrahabr&utm_medium=rss)
+Автор создал плагин для Vite, который позволяет сохранять изменения CSS прямо в исходники, упрощая процесс разработки. Это может быть полезно разработчикам, работающим с CSS и Vite.
+#Vite #CSS #JavaScript
+
+💚 [Design Tokens vs Atomic CSS: A Failed Integration and the Path to Harmony](https://dev.to/yuelinghuashu/design-tokens-vs-atomic-css-a-failed-integration-and-the-path-to-harmony-2a7a)
+Статья рассказывает о попытке интегрировать design tokens с Atomic CSS и о том, как найти гармонию между этими двумя подходами. Это может быть полезно разработчикам, которые работают с CSS и хотят улучшить свою работу.
+#Vue #frontend
+
+🌐 [Building a Browser-Based Focus Timer with Web Audio API and Picture-in-Picture](https://dev.to/nagisa_yamada/building-a-browser-based-focus-timer-with-web-audio-api-and-picture-in-picture-3fae)
+Статья рассказывает о том, как построить таймер фокуса, который работает в браузере и использует Web Audio API и Picture-in-Picture. Это может быть полезно разработчикам, которые хотят создать подобный инструмент.
+#webdev #frontend
+
+🌐 [OpenLiDARViewer: Browser-Native LiDAR Visualization for Real-World Workflows](https://dev.to/aurtechmx/openlidarviewer-browser-native-lidar-visualization-for-real-world-workflows-242h)
+OpenLiDARViewer - это браузерный инструмент для визуализации данных LiDAR, который может быть полезен разработчикам, работающим с геопространственными данными и веб-приложениями.
+#webdev #LiDAR #geospatial
+
+🌐 [How to write good commit messages and pull requests: a team guide](https://dev.to/therizwansaleem/how-to-write-good-commit-messages-and-pull-requests-a-team-guide-1jal)
+Статья рассказывает о том, как писать хорошие сообщения коммитов и запросы на слияние. Это может быть полезно разработчикам, которые хотят улучшить свою работу с Git.
+#webdev #frontend
+
+🌐 [The Website Specification](https://specification.website/)
+Спецификация для создания веб-сайтов, которая может быть полезна разработчикам для создания качественных и совместимых веб-приложений.
+#webdev #standards
+
+_Источников: 4 · Новостей: 10_
