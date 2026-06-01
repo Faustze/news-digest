@@ -1,0 +1,39 @@
+📰 *Дайджест 01.06.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "Building an AI-Powered SaaS with Nuxt 3 + Supabase" предоставляет полный обзор архитектуры приложения, созданного с использованием Nuxt 3 и Supabase, что может быть полезно разработчикам, интересующимся Nuxt и AI-интеграцией. Кроме того, статья "Prompt Caching with Claude" описывает, как использовать кэширование запросов для снижения затрат на AI API, что может быть полезно разработчикам, работающим с AI и оптимизацией производительности. Также была опубликована статья "Lottie Animations in Nuxt.js", которая предоставляет полное руководство по использованию Lottie-анимаций в Nuxt.js.
+
+─────────────────────
+
+💚 [Building an AI-Powered SaaS with Nuxt 3 + Supabase: Full Architecture Breakdown](https://dev.to/pizza_cat/building-an-ai-powered-saas-with-nuxt-3-supabase-full-architecture-breakdown-56ol)
+Статья о создании AI-пowered SaaS с использованием Nuxt 3 и Supabase. Автор делится опытом создания продукта и описывает архитектуру приложения. Полезно разработчикам, интересующимся Nuxt и AI-интеграцией.
+#Nuxt #AI
+
+📌 [Prompt Caching with Claude: How We Cut AI API Costs by 90% in Production (2026 Guide)](https://dev.to/cursuri-ai/prompt-caching-with-claude-how-we-cut-ai-api-costs-by-90-in-production-2026-guide-35lo)
+Статья рассказывает о том, как использовать кэширование запросов с Claude для снижения затрат на AI API. Авторы описывают 5 паттернов, используемых в производстве, и предоставляют реальные бенчмарки. Это может быть полезно разработчикам, работающим с AI и оптимизацией производите
+#AI #performance optimization
+
+💚 [Lottie Animations in Nuxt.js: A Complete Guide](https://dev.to/fazalshah/lottie-animations-in-nuxtjs-a-complete-guide-1o7h)
+Полное руководство по использованию Lottie-анимаций в Nuxt.js. Статья описывает проблемы, связанные с использованием Lottie в Nuxt, и предлагает решения для безопасного использования анимаций.
+#Nuxt #Lottie
+
+📌 [Подмена hero на edge по UTM: Cloudflare Pages Functions + HTMLRewriter для React SSG за 200 строк](https://habr.com/ru/articles/1041964/?utm_campaign=1041964&utm_source=habrahabr&utm_medium=rss)
+Статья описывает, как использовать Cloudflare Pages Functions и HTMLRewriter для подмены hero на edge по UTM. Это может быть полезно разработчикам, работающим с React и оптимизацией производительности.
+#React #performance optimization
+
+🌐 [After 3 months of AI doomscrolling, I realized most developers are worried about the wrong things.](https://dev.to/z4k7/after-3-months-of-ai-doomscrolling-i-realized-most-developers-are-worried-about-the-wrong-things-2ag9)
+Автор статьи делится своим опытом изучения AI и ее влияния на разработчиков. Он приходит к выводу, что многие разработчики беспокоятся о неправильных вещах и предлагает другой взгляд на проблему.
+#AI #webdev
+
+⚙️ [When AI Features Belong in Your Existing Backend](https://dev.to/saqueib/when-ai-features-belong-in-your-existing-backend-3opb)
+Статья о том, когда следует добавлять AI-функции в существующий бэкенд. Автор предлагает руководство по определению случаев, когда AI-функции следует добавлять в существующий бэкенд, а не создавать отдельный AI-сервис.
+#AI #backend
+
+🟨 [My Images Were Silently Killing My SEO (And JavaScript Is Both the Cause and the Fix)](https://dev.to/mitudas/my-images-were-silently-killing-my-seo-and-javascript-is-both-the-cause-and-the-fix-46kf)
+Автор статьи делится своим опытом оптимизации изображений для улучшения SEO. Он описывает проблемы, связанные с изображениями, и предлагает решения на основе JavaScript.
+#SEO #JavaScript
+
+📌 [Generate and Decode QR Codes via REST API — No Libraries, No Native Deps](https://dev.to/forgelabafrica/generate-and-decode-qr-codes-via-rest-api-no-libraries-no-native-deps-1nbh)
+Статья рассказывает о том, как использовать REST API для генерации и декодирования QR-кодов без использования библиотек или родных зависимостей. Это может быть полезно разработчикам, работающим с веб-разработкой и мобильными приложениями.
+#web development #mobile development
+
+_Источников: 4 · Новостей: 8_
