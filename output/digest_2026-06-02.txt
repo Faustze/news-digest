@@ -1,0 +1,51 @@
+📰 *Дайджест 02.06.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "State-Driven Animations in Vue" рассказывает о том, как создать плавные переходы в интерфейсе пользователя с помощью реактивного состояния в Vue, что может быть полезно разработчикам, которые хотят улучшить пользовательский опыт в своих приложениях. Кроме того, OpenAI объявила о доступности своих моделей и Codex на платформе AWS, что позволяет разработчикам использовать эти инструменты в своих проектах. Также стоит отметить статью о миграции на Vue 3, которая подчеркивает важность оценки объёма работ и планирования процесса разработки.
+
+─────────────────────
+
+💚 [State-Driven Animations in Vue: Create Smooth UI Transitions with Reactive State](https://dev.to/jacobandrewsky/state-driven-animations-in-vue-create-smooth-ui-transitions-with-reactive-state-d3i)
+В этой статье рассматривается, как создать плавные переходы в интерфейсе пользователя с помощью реактивного состояния в Vue. Это может быть полезно разработчикам, которые хотят улучшить пользовательский опыт в своих приложениях.
+#Vue #animations #reactive state
+
+🟨 [OpenAI models on Bedrock make AI deployment less messy](https://dev.to/jenueldev/openai-models-on-bedrock-make-ai-deployment-less-messy-4989)
+Статья рассказывает о том, как использовать модели OpenAI на платформе Bedrock для более простой и эффективной развертки AI-приложений. Это может быть полезно разработчикам, которые хотят использовать AI в своих проектах и улучшить их производительность.
+#AI #JavaScript #frontend
+
+📌 [OpenAI frontier models and Codex are now available on AWS](https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws)
+OpenAI объявила о доступности своих моделей и Codex на платформе AWS, что позволяет разработчикам использовать эти инструменты в своих проектах. Полезно разработчикам для использования AI в своих приложениях.
+#AI #devtools #AWS
+
+💚 [How does VuReact optimize Vue 3's top-level constants and variables for React?](https://dev.to/smirk9581/how-does-vureact-optimize-vue-3s-top-level-constants-and-variables-for-react-233n)
+VuReact — это инструмент для миграции из Vue в React. В этой статье рассматривается, как VuReact оптимизирует константы и переменные в коде Vue 3 для React. Это может быть полезно разработчикам, которые хотят перенести свой код из Vue в React.
+#Vue #React #migration
+
+💚 [How does VuReact compile Vue 3's TransitionGroup to React?](https://dev.to/smirk9581/how-does-vureact-compile-vue-3s-transitiongroup-to-react-1g9b)
+VuReact — это инструмент для миграции из Vue в React. В этой статье рассматривается, как VuReact компилирует компонент TransitionGroup из Vue 3 в React. Это может быть полезно разработчикам, которые хотят перенести свой код из Vue в React.
+#Vue #React #migration
+
+💚 [Vue Transition component to React: How does VuReact handle it?](https://dev.to/smirk9581/vue-transition-component-to-react-how-does-vureact-handle-it-3bed)
+VuReact — это инструмент для миграции из Vue в React. В этой статье рассматривается, как VuReact компилирует компонент Transition из Vue 3 в React. Это может быть полезно разработчикам, которые хотят перенести свой код из Vue в React.
+#Vue #React #migration
+
+🟨 [Lighthouse 100 / 100: как мы повесили GTM, GA4, Яндекс.Метрику и Clarity на статический сайт — и не уронили скорость](https://habr.com/ru/articles/1042228/?utm_campaign=1042228&utm_source=habrahabr&utm_medium=rss)
+Статья рассказывает о том, как добавить различные инструменты аналитики и маркетинга на статический сайт без ущерба для скорости. Это может быть полезно разработчикам, которые хотят улучшить производительность своего сайта и добавить новые функции.
+#Web performance #JavaScript #frontend
+
+🔷 [DI в TypeScript без декораторов: почему это будущее](https://habr.com/ru/articles/1042290/?utm_campaign=1042290&utm_source=habrahabr&utm_medium=rss)
+Статья рассказывает о том, как использовать внедрение зависимостей (DI) в TypeScript без декораторов. Это может быть полезно разработчикам, которые хотят улучшить свою кодовую базу и использовать более современные подходы.
+#TypeScript #JavaScript #frontend
+
+💚 [Миграция на Vue 3 начинается не с кода: как донести важность и подготовить проект](https://habr.com/ru/articles/1042068/?utm_campaign=1042068&utm_source=habrahabr&utm_medium=rss)
+Статья о миграции с Vue 2 на Vue 3, важности оценки объёма работ и планирования процесса разработки. Полезно разработчикам для понимания сложностей миграции и подготовки проекта.
+#Vue #JavaScript #frontend
+
+🟨 [Компонентная разработка (reusable)](https://habr.com/ru/companies/megafon/articles/1041500/?utm_campaign=1041500&utm_source=habrahabr&utm_medium=rss)
+Статья рассказывает о компонентной разработке и том, как создавать повторно используемые компоненты. Это может быть полезно разработчикам, которые хотят улучшить свою кодовую базу и использовать более модульный подход.
+#JavaScript #frontend
+
+🟨 [Новый Intl.DurationFormat привел к неожиданной ошибке приложения](https://habr.com/ru/articles/1042182/?utm_campaign=1042182&utm_source=habrahabr&utm_medium=rss)
+Статья рассказывает о баге, который возник при использовании библиотеки @formatjs/intl-durationformat для форматирования времени. Это может быть полезно разработчикам, которые используют эту библиотеку и хотят избежать подобных ошибок.
+#JavaScript #frontend
+
+_Источников: 4 · Новостей: 11_
