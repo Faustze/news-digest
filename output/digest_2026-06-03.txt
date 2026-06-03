@@ -1,0 +1,55 @@
+📰 *Дайджест 03.06.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Была обнаружена уязвимость в VSCode, которая позволяет украсть токены GitHub, поэтому разработчикам, использующим эти инструменты, следует быть осторожными. Кроме того, были опубликованы статьи о миграции legacy-приложений Vue 2 с Webpack 2 на Vite, что может быть полезно для обновления старых проектов до более современных технологий. GitHub также представил новое приложение Copilot, которое предоставляет агент-родной опыт работы на рабочем столе и может улучшить производительность разработчиков.
+
+─────────────────────
+
+🌐 [1-Click GitHub Token Stealing via a VSCode Bug](https://blog.ammaraskar.com/github-token-stealing/)
+В статье описана уязвимость в VSCode, которая позволяет украсть токены GitHub. Это важно для разработчиков, которые используют VSCode и GitHub, поскольку они должны быть осведомлены об этой уязвимости и принять меры для защиты своих токенов.
+#tech #webdev
+
+💚 [Migrando uma aplicação Vue 2 legada de Webpack 2 para Vite: Um guia prático baseado em problemas reais](https://dev.to/camilasrody/migrando-uma-aplicacao-vue-2-legada-de-webpack-2-para-vite-um-guia-pratico-baseado-em-problemas-1k1e)
+Эта статья предоставляет практическое руководство по миграции legacy-приложения Vue 2 с Webpack 2 на Vite. Это полезно для разработчиков, которые хотят обновить свои старые проекты до более современных технологий. В статье описываются проблемы, с которыми можно столкнуться при ми
+#Vue #frontend
+
+💚 [Migrating a Legacy Vue 2 Application from Webpack 2 to Vite: A Practical Step-by-Step Guide](https://dev.to/camilasrody/migrating-a-legacy-vue-2-application-from-webpack-2-to-vite-a-practical-step-by-step-guide-2gda)
+Эта статья предоставляет пошаговое руководство по миграции legacy-приложения Vue 2 с Webpack 2 на Vite. Это полезно для разработчиков, которые хотят обновить свои старые проекты до более современных технологий. В статье описываются проблемы, с которыми можно столкнуться при мигра
+#Vue #frontend
+
+📌 [GitHub Copilot app: The agent-native desktop experience](https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/)
+GitHub представил новое приложение Copilot, которое предоставляет агент-родной опыт работы на рабочем столе. Это может быть полезно разработчикам, которые используют GitHub и хотят улучшить свою производительность. Приложение позволяет работать с кодом более эффективно и предоста
+#AI #devtools
+
+🟨 [Как я разогнал Qwen3.6-27B до 73 токен/с в llama.cpp: параметры, которые реально работают](https://habr.com/ru/articles/1042716/?utm_campaign=1042716&utm_source=habrahabr&utm_medium=rss)
+Статья о том, как автор оптимизировал работу модели Qwen3.6-27B в llama.cpp, достигнув скорости 73 токена в секунду. Автор делится своими настройками и опытом.
+#JavaScript #AI
+
+📌 [Codex for every role, tool, and workflow](https://openai.com/index/codex-for-every-role-tool-workflow)
+OpenAI представил новые плагины, сайты и аннотации для Codex, которые помогают аналитикам, маркетологам, дизайнерам, инвесторам и другим командам работать более эффективно с помощью ИИ. Это может быть полезно разработчикам, которые хотят использовать ИИ в своей работе.
+#AI #devtools
+
+💚 [How does VuReact optimize Vue 3's top-level arrow functions for React?](https://dev.to/smirk9581/how-does-vureact-optimize-vue-3s-top-level-arrow-functions-for-react-4e14)
+Эта статья описывает, как VuReact оптимизирует функции верхнего уровня в Vue 3 для React. Это полезно для разработчиков, которые хотят использовать Vue 3 с React. В статье описываются детали оптимизации и как она работает.
+#Vue #frontend
+
+🟨 [The Refactor Took Three Days. The AI Undid It in One Session.](https://dev.to/avery_code/the-refactor-took-three-days-the-ai-undid-it-in-one-session-16dd)
+Статья о том, как автор провел три дня, рефакторя код, но затем AI-ассистент за одну сессию отменил все изменения. Автор делится своим опытом и размышлениями о том, почему рефакторинг без правил не дает долгосрочных результатов.
+#JavaScript #AI
+
+🟨 [Удаляем фон и замазываем лица прямо в браузере: ONNX Runtime, MediaPipe и грабли Service Worker](https://habr.com/ru/articles/1042598/?utm_campaign=1042598&utm_source=habrahabr&utm_medium=rss)
+Статья о том, как автор реализовал удаление фона и замазывание лиц в браузере, используя ONNX Runtime и MediaPipe. Автор делится своим опытом и решениями.
+#JavaScript #MediaPipe
+
+🟨 [My AI Assistant Needed a Control Plane, Not a Bigger Loop](https://dev.to/codekingai/my-ai-assistant-needed-a-control-plane-not-a-bigger-loop-15aa)
+Статья о том, как автор понял, что его AI-ассистенту нужен не более мощный цикл, а более эффективная архитектура. Автор делится своим опытом и размышлениями.
+#JavaScript #AI
+
+💚 [Disabling Console messages on your entire codebase](https://dev.to/kipyegonline/disabling-console-messages-on-your-entire-codebase-161d)
+Эта статья описывает, как отключить сообщения консоли на整个 кодовой базе. Это полезно для разработчиков, которые хотят предотвратить утечку конфиденциальной информации в производстве. В статье описываются способы отключения сообщений консоли.
+#Vue #frontend
+
+🎨 [::search-text](https://css-tricks.com/almanac/pseudo-selectors/s/search-text/)
+Эта статья описывает псевдо-элемент ::search-text в CSS, который позволяет выбрать текст, найденный в функции «Найти на странице» браузера. Это полезно для разработчиков, которые хотят стилизовать найденный текст.
+#CSS #frontend
+
+_Источников: 7 · Новостей: 12_
