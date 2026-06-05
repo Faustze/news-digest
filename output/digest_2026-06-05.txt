@@ -1,0 +1,55 @@
+📰 *Дайджест 05.06.2026*
+
+Сегодня в мире фронтенда и Python произошли интересные события. Статья "How does VuReact compile Vue 3 scoped styles to React?" объясняет, как VuReact компилирует стили Vue 3 в React, что может быть полезно разработчикам, которые хотят использовать Vue 3 с React. Кроме того, статья "I Built a SaaS with AdonisJS 7, and I Loved It" делится опытом создания SaaS-приложения с использованием AdonisJS 7, Vue 3 и Inertia. Также стоит отметить статью "JavaScript Essentials: Switch Statements and Scope Explained", которая объясняет основы операторов switch в JavaScript и их использование для улучшения читаемости кода. Эти статьи могут быть полезны разработчикам, которые хотят улучшить свои навыки и staying в курсе последних событий в области фронтенд-разработки.
+
+─────────────────────
+
+💚 [How does VuReact compile Vue 3 scoped styles to React?](https://dev.to/smirk9581/how-does-vureact-compile-vue-3-scoped-styles-to-react-407p)
+Статья о том, как VuReact компилирует стили Vue 3 в React. Автор объясняет процесс компиляции и предоставляет примеры кода. Это может быть полезно разработчикам, которые хотят использовать Vue 3 с React.
+#Vue #React
+
+📌 [Почему Claude Code и Codex не ускоряют команду: у компании нет общей памяти](https://habr.com/ru/articles/1043734/?utm_campaign=1043734&utm_source=habrahabr&utm_medium=rss)
+Статья обсуждает использование инструментов ИИ, таких как Claude Code и Codex, для ускорения разработки программного обеспечения. Автор утверждает, что основной проблемой является отсутствие общей памяти в компании.
+#AI #devtools
+
+🟨 [Frontend Status: свежий дайджест фронтенда и AI — 04.06.2026](https://habr.com/ru/articles/1043510/?utm_campaign=1043510&utm_source=habrahabr&utm_medium=rss)
+Статья представляет собой дайджест последних событий в области фронтенд-разработки и ИИ. Обсуждаются такие темы, как отложенная гидратация и использование ИИ в разработке.
+#JavaScript #frontend #AI
+
+📌 [How Endava is redesigning software delivery around AI agents](https://openai.com/index/endava-frontiers)
+Статья рассказывает о том, как компания Endava использует ИИ-агенты, ChatGPT Enterprise и Codex для ускорения доставки программного обеспечения и автоматизации рабочих процессов.
+#AI #devtools
+
+💚 [I Built a SaaS with AdonisJS 7, and I Loved It](https://dev.to/maximeshr/i-built-a-saas-with-adonisjs-7-and-i-loved-it-20f0)
+Статья о создании SaaS-приложения с использованием AdonisJS 7, Vue 3 и Inertia. Автор делится своим опытом и решениями, которые он принял во время разработки приложения. Это может быть полезно разработчикам, которые хотят создать подобные приложения.
+#Vue #AdonisJS
+
+📌 [How we built role-based access control and offline-first PWA sync for a multi-tenant pharmacy SaaS in Next.js](https://dev.to/abin_raj_cc3eb22152ca590c/how-we-built-role-based-access-control-and-offline-first-pwa-sync-for-a-multi-tenant-pharmacy-saas-mbn)
+Статья о создании системы контроля доступа и синхронизации данных для многопользовательского SaaS-приложения на основе Next.js. Авторы объясняют, как они решили проблемы контроля доступа и синхронизации данных. Это может быть полезно разработчикам, которые хотят создать подобные
+#Next.js #PWA
+
+🟨 [JavaScript Essentials: Switch Statements and Scope Explained](https://dev.to/ezhil_abinayak_e38eec8fb/javascript-essentials-switch-statements-and-scope-explained-5eeb)
+Статья объясняет основы операторов switch в JavaScript и их использование для улучшения читаемости кода. Также обсуждается понятие области видимости в JavaScript.
+#JavaScript
+
+📌 [Your React App Has an Architecture. Nobody on Your Team Chose It. The AI Did.](https://dev.to/avery_code/your-react-app-has-an-architecture-nobody-on-your-team-chose-it-the-ai-did-19p7)
+Статья о том, как AI может влиять на архитектуру React-приложений. Автор объясняет, как AI может создавать структуру приложения без намеренного участия разработчиков. Это может быть полезно разработчикам, которые хотят понять, как AI может влиять на их приложения.
+#React #AI
+
+🟨 [Компонент сам себе стор, а внешний стор это антипаттерн](https://habr.com/ru/articles/1043754/?utm_campaign=1043754&utm_source=habrahabr&utm_medium=rss)
+Статья обсуждает использование внешних хранилищ состояния, таких как Redux, и почему они могут быть антипаттерном. Автор предлагает использовать компоненты как хранилища состояния.
+#JavaScript #frontend
+
+📌 [Open Code Review – An AI-powered code review CLI tool](https://github.com/alibaba/open-code-review)
+Open Code Review - это инструмент командной строки, который использует ИИ для проверки кода. Он может быть полезен разработчикам для автоматизации процесса проверки кода и улучшения качества кода.
+#AI #devtools
+
+🎨 [Another Stab at the Perfect CSS Pie Chart… Sans JavaScript!](https://css-tricks.com/another-stab-at-the-perfect-css-pie-chart-sans-javascript/)
+Статья о создании CSS-пироговых диаграмм без использования JavaScript. Автор представляет семантические и гибкие диаграммы, созданные только с помощью CSS. Это может быть полезно разработчикам для создания интерактивных и динамических графиков на своих веб-страницах.
+#CSS
+
+📌 [Dreaming: Better memory for a more helpful ChatGPT](https://openai.com/index/chatgpt-memory-dreaming)
+ChatGPT представил новую систему памяти, которая позволяет лучше запоминать предпочтения пользователей и сохранять контекст разговора. Это может быть полезно разработчикам, которые используют ChatGPT в своих приложениях для улучшения взаимодействия с пользователями.
+#AI #devtools
+
+_Источников: 5 · Новостей: 12_
