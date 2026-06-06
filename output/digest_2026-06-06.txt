@@ -1,0 +1,43 @@
+📰 *Дайджест 06.06.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "VuReact complete guide" представляет полное руководство по миграции с Vue на React, что может быть полезно разработчикам, которые хотят перейти на новую платформу. Кроме того, статья "CSS First + Thin Component Wrapper" описывает подход к созданию эффективной и поддерживаемой библиотеки компонентов, что может быть интересно разработчикам, которые хотят оптимизировать свой код. Также была опубликована статья "gRPC vs REST vs GraphQL", которая предоставляет сравнение этих подходов и помогает разработчикам выбрать подходящий вариант для своих современных API.
+
+─────────────────────
+
+💚 [VuReact complete guide: a Vue-to-React semantic compilation reference](https://dev.to/smirk9581/vureact-complete-guide-a-vue-to-react-semantic-compilation-reference-3apb)
+Статья представляет полное руководство по VuReact, инструменту для миграции с Vue на React. Этот инструмент полезен разработчикам, которые хотят перейти с Vue на React и нуждаются в помощи с миграцией.
+#Vue #React
+
+📌 [AI Agents: How LLMs Evolve from Generating Text to Taking Action](https://dev.to/gowtham21/ai-agents-how-llms-evolve-from-generating-text-to-taking-action-2ag2)
+Статья рассказывает об эволюции больших языковых моделей (LLM) от генерации текста к выполнению действий. Она обсуждает появление AI-агентов, которые могут выполнять задачи без участия человека, и как это может изменить подход к разработке приложений.
+#AI #LLM #AI-агенты
+
+💚 [CSS First + Thin Component Wrapper: A 10KB Component Library Practice](https://dev.to/yuelinghuashu/css-first-thin-component-wrapper-a-10kb-component-library-practice-dmj)
+Статья описывает подход к созданию компонентной библиотеки с использованием CSS First и Thin Component Wrapper, что позволяет создать библиотеку размером 10KB с 500 строками кода. Этот подход полезен разработчикам, поскольку позволяет создать эффективную и поддерживаемую библиоте
+#Vue #CSS
+
+📌 [gRPC vs REST vs GraphQL: a decision framework for modern APIs](https://dev.to/therizwansaleem/grpc-vs-rest-vs-graphql-a-decision-framework-for-modern-apis-56bl)
+Статья предоставляет сравнение gRPC, REST и GraphQL, giúpая разработчикам выбрать подходящий вариант для своих современных API. Она обсуждает преимущества и недостатки каждого подхода и дает рекомендации по выбору в зависимости от типа клиентов, требований к производительности и
+#API #gRPC #REST
+
+💚 [AI writes my code now, but it's quietly trashing my i18n translations. So I built a tool to fix it.](https://dev.to/hien_nguyenduc_b509ac1b9b/ai-writes-my-code-now-but-its-quietly-trashing-my-i18n-translations-so-i-built-a-tool-to-fix-it-18j7)
+Статья рассказывает о проблеме, когда инструменты AI пишут код, но нарушают переводы. Автор построил инструмент, чтобы исправить эту проблему. Этот инструмент полезен разработчикам, которые используют AI для написания кода и сталкиваются с проблемами переводов.
+#AI #Vue
+
+📌 [Можно ли поймать вайб-кодера без нейросети? Сделал расширение для GitHub — рассказываю](https://habr.com/ru/articles/1043822/?utm_campaign=1043822&utm_source=habrahabr&utm_medium=rss)
+Статья рассказывает о создании расширения для GitHub, которое может обнаруживать код, написанный с помощью AI, без использования нейросетей. Автор делится своим опытом и объясняет, как работает расширение.
+#AI #GitHub #расширение
+
+💚 [usePagination: 3 lines of code, infinite possibilities](https://dev.to/coderhu/usepagination-3-lines-of-code-infinite-possibilities-43mp)
+Статья представляет хук usePagination, который позволяет создать пагинацию с помощью всего трех строк кода. Этот хук полезен разработчикам, которые хотят создать пагинацию в своих приложениях.
+#Vue #pagination
+
+📌 [How to debug anything: a systematic tutorial for software engineers](https://dev.to/therizwansaleem/how-to-debug-anything-a-systematic-tutorial-for-software-engineers-1o7d)
+Статья представляет систематический подход к отладке кода. Этот подход полезен разработчикам, которые хотят улучшить свои навыки отладки и решать проблемы более эффективно.
+#debugging #software engineering
+
+📌 [How to handle merge conflicts without fear: a practical guide for developers](https://dev.to/therizwansaleem/how-to-handle-merge-conflicts-without-fear-a-practical-guide-for-developers-272e)
+Статья представляет практическое руководство по решению конфликтов слияния кода. Этот подход полезен разработчикам, которые хотят улучшить свои навыки работы с Git и решать конфликты более эффективно.
+#Git #merge conflicts
+
+_Источников: 4 · Новостей: 9_
