@@ -1,0 +1,47 @@
+📰 *Дайджест 08.06.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "Пять продуктов в одном FastAPI-монолите: HTMX вместо React, грабли Telegram Mini App и биллинг на Stars" представляет интерес для разработчиков, работающих с backend и frontend, поскольку она описывает создание кросс-платформенного todo-листа с использованием FastAPI, HTMX, Alpine.js и Tailwind. Кроме того, статья "The Smallest Brain You Can Build: A Perceptron in Python" может быть полезной для разработчиков, интересующихся машинным обучением и искусственным интеллектом, поскольку она объясняет основы нейронных сетей и предоставляет пример кода на Python. Также стоит отметить выпуск новой версии SoloEngine, инструмента для работы с большими языковыми моделями, который может быть интересен разработчикам, работающим с AI и NLP.
+
+─────────────────────
+
+🌐 [Claude Code Workflow: Best Practices That Ship Code](https://dev.to/galian/claude-code-workflow-best-practices-that-ship-code-na)
+Эта статья представляет собой руководство по лучшим практикам использования Claude Code, инструмента для автоматизации кодирования. В ней описываются такие темы, как создание эффективного рабочего процесса, использование подагентов и хуков, а также верификация кода. Для разработч
+#AI #webdev #frontend
+
+🌐 [Extracting a QR login from a production app and closing 11 security holes before merge](https://dev.to/d_isaenko_dev/extracting-a-qr-login-from-a-production-app-and-closing-11-security-holes-before-merge-47nc)
+В этой статье автор делится опытом извлечения функции QR-логина из существующего приложения и исправления 11 уязвимостей безопасности. Для разработчиков, работающих над безопасностью и аутентификацией в веб-приложениях, эта статья может быть полезной.
+#webdev #security
+
+🌐 [From React Developer to AI Engineer: What Actually Changes](https://dev.to/kristinz/from-react-developer-to-ai-engineer-what-actually-changes-581n)
+Эта статья рассказывает о переходе разработчика React на позицию инженера по искусственному интеллекту. Автор описывает изменения в подходе к разработке и необходимые навыки для работы с AI. Для разработчиков, интересующихся AI и желющих расширить свои компетенции, эта статья мож
+#AI #webdev
+
+🟨 [Пять продуктов в одном FastAPI-монолите: HTMX вместо React, грабли Telegram Mini App и биллинг на Stars](https://habr.com/ru/articles/1044600/?utm_campaign=1044600&utm_source=habrahabr&utm_medium=rss)
+Статья о создании кросс-платформенного todo-листа с использованием FastAPI, HTMX, Alpine.js и Tailwind. Автор делится своим опытом и кодом, что может быть полезно разработчикам, интересующимся backend и frontend разработкой. Также упоминается использование инструмента Claude Code
+#JavaScript #frontend #FastAPI
+
+🌐 [The New Developer Stack in 2026: Less Coding, More Context](https://dev.to/saikrishna_gopannagari_f9/the-new-developer-stack-in-2026-less-coding-more-context-9j3)
+Эта статья обсуждает эволюцию стека разработки и переход к контекстно-ориентированному развитию. Автор описывает, как изменения в подходе к разработке могут повысить эффективность и качество кода. Для разработчиков, интересующихся тенденциями и лучшими практиками в области веб-ра
+#webdev #frontend
+
+📌 [LLMs are eroding my software engineering career and I don't know what to do](https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/)
+Статья о том, как Large Language Models (LLMs) могут повлиять на карьеру разработчиков. Это может быть интересно разработчикам, которые занимаются созданием приложений и хотят понять, как LLMs могут повлиять на их работу. Статья предоставляет личный опыт и может быть полезна для
+#AI tools for developers
+
+📌 [🚀 SoloEngine v0.2.1 Release — LLM Provider Architecture Refactoring, Stop Mechanism & Streaming Output Optimization](https://dev.to/sh4rlock/soloengine-v021-release-llm-provider-architecture-refactoring-stop-mechanism-streaming-3edi)
+Эта статья объявляет о выпуске новой версии SoloEngine, инструмента для работы с большими языковыми моделями. В ней описываются новые функции и улучшения, такие как отслеживание токенов и оптимизация вывода. Для разработчиков, работающих с AI и NLP, эта статья может быть интересн
+#AI #NLP
+
+📌 [🚀 SoloEngine v0.2.0 Release — File Change Tracking & Full Architecture Upgrade](https://dev.to/sh4rlock/soloengine-v020-release-file-change-tracking-full-architecture-upgrade-1c01)
+Эта статья объявляет о выпуске новой версии SoloEngine, инструмента для работы с большими языковыми моделями. В ней описываются новые функции и улучшения, такие как отслеживание изменений файлов и обновление архитектуры. Для разработчиков, работающих с AI и NLP, эта статья может
+#AI #NLP
+
+🐍 [The Smallest Brain You Can Build: A Perceptron in Python](https://ranpara.net/posts/perceptron-explained-from-scratch/)
+Статья о создании простого нейронного сети с использованием Python. Автор объясняет основы нейронных сетей и предоставляет пример кода, что может быть полезно разработчикам, интересующимся машинным обучением и искусственным интеллектом.
+#Python #machine learning #neural networks
+
+📌 [How's Linear so fast? A technical breakdown](https://performance.dev/how-is-linear-so-fast-a-technical-breakdown)
+Статья о том, как Linear достигает высокой скорости. Это может быть полезно разработчикам, чтобы улучшить производительность своих приложений. Статья предоставляет технический анализ и может быть интересна разработчикам, которые занимаются оптимизацией производительности.
+#Web performance
+
+_Источников: 3 · Новостей: 10_
