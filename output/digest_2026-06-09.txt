@@ -1,0 +1,39 @@
+📰 *Дайджест 09.06.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "Breaking the 100k Row Limit: Building High-Performance Dynamic Grids with VyncCanvasScroll in Vue 3" представляет собой решение для создания высокопроизводительных динамических гридов в Vue 3, что особенно полезно для разработчиков, работающих с большими данными. Кроме того, статья "Frontend Observability in Vue Apps with OpenTelemetry" предлагает подход к улучшению наблюдаемости и отладки frontend-приложений на Vue с помощью OpenTelemetry. Также стоит отметить статью "SSE в production: почему нативного EventSource недостаточно и что с этим делать", в которой обсуждаются проблемы использования нативного EventSource для production SSE и предлагаются решения.
+
+─────────────────────
+
+💚 [Breaking the 100k Row Limit: Building High-Performance Dynamic Grids with VyncCanvasScroll in Vue 3](https://dev.to/_80a1fa98d19e605032996/breaking-the-100k-row-limit-building-high-performance-dynamic-grids-with-vynccanvasscroll-in-vue-3-2701)
+Статья о создании высокопроизводительных динамических гридов с помощью VyncCanvasScroll в Vue 3. Это полезно для разработчиков, которые работают с большими данными и хотят улучшить производительность своих приложений.
+#Vue #frontend
+
+💚 [Frontend Observability in Vue Apps with OpenTelemetry](https://dev.to/jacobandrewsky/frontend-observability-in-vue-apps-with-opentelemetry-3fb0)
+Статья о наблюдаемости frontend-приложений на Vue с помощью OpenTelemetry. Это полезно для разработчиков, которые хотят улучшить отладку и мониторинг своих приложений.
+#Vue #frontend
+
+🟨 [[Перевод] Пишем движок для JavaScript с нуля](https://habr.com/ru/companies/piter/articles/1044852/?utm_campaign=1044852&utm_source=habrahabr&utm_medium=rss)
+Статья о создании собственного движка JavaScript с нуля. Автор делится опытом создания движка на языке Go, от лексического анализа и построения AST до реализации вычислителя и встроенных функций.
+#JavaScript
+
+🟨 [SSE в production: почему нативного EventSource недостаточно и что с этим делать](https://habr.com/ru/articles/1044808/?utm_campaign=1044808&utm_source=habrahabr&utm_medium=rss)
+Статья о проблемах использования нативного EventSource для production SSE. Автор рассматривает проблемы авторизации, reconnect, backoff и других, и предлагает решения.
+#JavaScript
+
+🟨 [Как устроен ГИГАХРУЩ: клеточный мир, WebGL-рейкастер и A-Life без движка](https://habr.com/ru/articles/1045220/?utm_campaign=1045220&utm_source=habrahabr&utm_medium=rss)
+Статья об архитектуре проекта ГИГАХРУЩ, браузерного survival horror / ARPG без движка, ассетов и спокойной жизни. Автор разбирает инженерные решения проекта.
+#JavaScript #frontend
+
+💚 [Vue-to-React Migration Deep Dive: Vuera, Veaury, and VuReact](https://dev.to/smirk9581/vue-to-react-migration-deep-dive-vuera-veaury-and-vureact-12bo)
+Статья о миграции с Vue на React. Это полезно для разработчиков, которые хотят перейти на React, но не знают, как это сделать.
+#Vue #frontend
+
+📌 [GitHub for Beginners: Answers to some common questions](https://github.blog/developer-skills/github/github-for-beginners-answers-to-some-common-questions/)
+Статья с ответами на часто задаваемые вопросы о GitHub. Автор рассматривает основные вопросы, связанные с использованием GitHub.
+#devtools
+
+🟨 [Ошибка в коде, на которую приходится не обращать внимание](https://habr.com/ru/companies/pvs-studio/articles/1044834/?utm_campaign=1044834&utm_source=habrahabr&utm_medium=rss)
+Статья о компромиссах в разработке статического анализатора. Автор рассматривает пример компромисса, когда приходится отсекать хорошие срабатывания, чтобы инструмент в целом стал лучше.
+#JavaScript
+
+_Источников: 3 · Новостей: 8_
