@@ -1,0 +1,55 @@
+📰 *Дайджест 11.06.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "Testing Nuxt apps in the real browser, against a real backend" рассказывает о том, как тестировать приложения Nuxt в реальном браузере, что может быть полезно разработчикам для обеспечения корректной работы их приложений. Кроме того, GitHub Copilot CLI теперь может использовать языковые серверы для предоставления реальной кодовой интеллекта, что позволяет разработчикам получать более точные и полезные предложения по коду. Также была опубликована статья о важности использования Breadcrumbs в frontend-мониторинге для отслеживания ошибок и событий, предшествующих ошибке. Эти новости могут быть полезны разработчикам, которые используют Vue, Nuxt и Python в своей работе.
+
+─────────────────────
+
+💚 [Testing Nuxt apps in the real browser, against a real backend](https://dev.to/kevinccbsg/testing-nuxt-apps-in-the-real-browser-against-a-real-backend-2nnk)
+Статья о том, как тестировать приложения Nuxt в реальном браузере, с реальным бэкендом. Это может быть полезно разработчикам, которые хотят убедиться, что их приложение работает корректно в реальных условиях.
+#Nuxt #frontend
+
+📌 [Give GitHub Copilot CLI real code intelligence with language servers](https://github.blog/ai-and-ml/github-copilot/give-github-copilot-cli-real-code-intelligence-with-language-servers/)
+GitHub Copilot CLI теперь может использовать языковые серверы для предоставления реальной кодовой интеллекта. Это позволяет разработчикам получать более точные и полезные предложения по коду. Эта функция особенно полезна для разработчиков, которые используют GitHub Copilot для ге
+#AI #devtools
+
+📌 [Building an HTML-first site doubled our users overnight](https://mohkohn.co.uk/writing/html-first/)
+Статья о том, как переход на HTML-first подход увеличивает производительность и доступность веб-сайтов. Это может быть полезно разработчикам, которые хотят улучшить пользовательский опыт и поисковую оптимизацию своих сайтов. Автор статьи делится своим опытом и предоставляет совет
+#HTML5 #Web development #Performance
+
+💚 [Vue to React: Stop Treating Migration Like a Toy Problem](https://dev.to/smirk9581/vue-to-react-stop-treating-migration-like-a-toy-problem-42d2)
+Статья о том, как правильно подойти к миграции приложений с Vue на React. Это может быть полезно разработчикам, которые планируют мигрировать свои приложения и хотят избежать распространенных ошибок.
+#Vue #frontend
+
+🟨 [Я устал от Electron, Tauri и Neutralino — и случайно сделал… лучше?](https://habr.com/ru/articles/1046187/?utm_campaign=1046187&utm_source=habrahabr&utm_medium=rss)
+Статья рассказывает о разработке фреймворка Webnative для создания нативных приложений на языках веба с использованием нативных webview компонентов. Это может быть интересно разработчикам, ищущим альтернативы Electron и Tauri.
+#JavaScript #frontend
+
+🐍 [Are insecure code completions in PyCharm a vulnerability?](https://sethmlarson.dev/are-insecure-code-completions-a-vulnerability)
+Статья о потенциальных уязвимостях в кодовых дополнениях PyCharm. Это может быть полезно разработчикам, которые используют PyCharm и хотят обеспечить безопасность своего кода. Автор статьи анализирует потенциальные риски и предоставляет рекомендации по их минимизации.
+#Python #Security #Code completion
+
+💚 [Know Your WebDev Math: Translating coordinates with transformation matrix](https://dev.to/vakme/know-your-webdev-math-translating-coordinates-with-transformation-matrix-17e9)
+Статья о том, как использовать матрицу преобразования для перевода координат в веб-разработке. Это может быть полезно разработчикам, которые работают с SVG-элементами и нуждаются в точном контроле над их позиционированием.
+#Vue #frontend
+
+🟨 [Путь к ошибке: зачем нужны «Breadcrumbs» во frontend-мониторинге](https://habr.com/ru/articles/1046083/?utm_campaign=1046083&utm_source=habrahabr&utm_medium=rss)
+Статья рассказывает о важности использования Breadcrumbs в frontend-мониторинге для отслеживания ошибок и событий, предшествующих ошибке. Это может быть полезно разработчикам для быстрого расследования сбоев в приложениях.
+#JavaScript #frontend
+
+🌐 [Macaroni – a single HTML file messenger](https://github.com/vanyapr/makaroshki)
+Macaroni - это новый мессенджер, который работает в одном HTML-файле. Это интересный пример использования современных веб-технологий для создания простых и эффективных приложений. Разработчики могут изучить код этого проекта, чтобы узнать о новых подходах к созданию веб-приложени
+#tech #webdev
+
+📌 [Apache Burr: Build reliable AI agents and applications](https://burr.apache.org/)
+Статья о новом проекте Apache Burr, который позволяет создавать надежные AI-агенты и приложения. Это может быть полезно разработчикам, которые хотят интегрировать AI в свои приложения. Автор статьи предоставляет информацию о возможностях и преимуществах проекта.
+#AI #Apache Burr #Web development
+
+🟨 [Медицинское обучение через игру: симулятор лечения сифилиса и ВИЧ](https://habr.com/ru/articles/1046185/?utm_campaign=1046185&utm_source=habrahabr&utm_medium=rss)
+Статья рассказывает о разработке медицинского образовательного инструмента, который работает офлайн, не требует бэкенда и не собирает данные пользователей, используя веб-технологии JS. Это может быть интересно разработчикам, работающим в области медицинского образования.
+#JavaScript #frontend
+
+🌐 [πFS](https://github.com/philipl/pifs)
+πFS - это новый файловый систем, который работает на GitHub. Это интересный проект, который может быть полезен разработчикам, которые работают с файловыми системами и хранилищами данных.
+#tech #webdev
+
+_Источников: 4 · Новостей: 12_
