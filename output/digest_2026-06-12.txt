@@ -1,0 +1,67 @@
+📰 *Дайджест 12.06.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Vue 3.6 ввела Vapor Mode, который позволяет отключить виртуальный DOM и улучшить производительность в некоторых случаях. Кроме того, была опубликована статья о разработке простых компонентов в Vue 3, с примером кнопки, которая обсуждает такие темы, как определение свойств и доступность. Также была опубликована статья о защите от атак на приложения, использующие большие языковые модели, которая рассматривает методы защиты от инъекций промптов и другие меры безопасности. Эти новости могут быть полезны разработчикам для создания более эффективных и безопасных приложений.
+
+─────────────────────
+
+💚 [Vue 3.6 Vapor Mode: Opt Out of the Virtual DOM](https://dev.to/grimicorn/vue-36-vapor-mode-opt-out-of-the-virtual-dom-50en)
+Vue 3.6 ввела Vapor Mode, который позволяет отключить виртуальный DOM. Это может улучшить производительность в некоторых случаях.
+#Vue #frontend
+
+💚 [Vue 3 Simple Component Development: API Design from the Button Component](https://dev.to/yuelinghuashu/vue-3-simple-component-development-api-design-from-the-button-component-30p2)
+Статья о разработке простых компонентов в Vue 3, с примером кнопки. Обсуждаются такие темы, как определение свойств, система вариантов, размеры и доступность.
+#Vue #frontend
+
+🌐 [Prompt injection attacks and defenses: securing LLM-powered applications](https://dev.to/therizwansaleem/prompt-injection-attacks-and-defenses-securing-llm-powered-applications-4b20)
+Статья о защите от атак на приложения, использующие большие языковые модели. Рассматриваются методы защиты от инъекций промптов и другие меры безопасности. Полезно разработчикам для создания безопасных приложений.
+#AI #webdev #security
+
+📌 [Making secret scanning more trustworthy: Reducing false positives at scale](https://github.blog/security/making-secret-scanning-more-trustworthy-reducing-false-positives-at-scale/)
+Статья о том, как улучшить секретное сканирование, уменьшив количество ложных срабатываний. Полезно разработчикам для создания более надежных систем.
+#AI #security #devtools
+
+💚 [How to Add Electronic Signatures to PDFs in the Browser (Vue 3 + HTML5 Canvas)](https://dev.to/sunshey/how-to-add-electronic-signatures-to-pdfs-in-the-browser-vue-3-html5-canvas-2804)
+Статья о том, как добавить электронные подписи к PDF-документам в браузере, используя Vue 3 и HTML5 Canvas.
+#Vue #frontend
+
+📌 [Делаем базу знаний и Телеграм бота психотерапевта, с использованием LLM Wiki и CF Workers](https://habr.com/ru/articles/1046495/?utm_campaign=1046495&utm_source=habrahabr&utm_medium=rss)
+Статья о создании базы знаний и Telegram-бота с использованием LLM Wiki и CF Workers. Полезно разработчикам для создания подобных проектов.
+#AI #Telegram #LLM
+
+🖥️ [Назад в будущее UI-kit: как мы перевели живую библиотеку на дизайн-токены и ничего не сломали](https://habr.com/ru/companies/lukit_ru/articles/1046493/?utm_campaign=1046493&utm_source=habrahabr&utm_medium=rss)
+Статья о том, как перевести живую библиотеку на дизайн-токены без сломки существующей функциональности. Полезно разработчикам для поддержки и обновления существующих проектов.
+#frontend #UI-kit #design-tokens
+
+🔷 [Schema-driven ORM для TypeScript: @cleverbrush/knex-schema и @cleverbrush/orm](https://habr.com/ru/articles/1046405/?utm_campaign=1046405&utm_source=habrahabr&utm_medium=rss)
+Статья о создании schema-driven ORM для TypeScript с использованием @cleverbrush/knex-schema и @cleverbrush/orm. Полезно разработчикам для работы с базами данных.
+#TypeScript #ORM #database
+
+📌 [Claude Fable 5: mid-tier results on coding tasks](https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype)
+Новая версия Claude Fable показала средние результаты в выполнении задач по программированию. Это может быть интересно разработчикам, которые используют инструменты ИИ для генерации кода.
+#AI #code generation
+
+📌 [Claude Fable is relentlessly proactive](https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/)
+Статья о том, как Claude Fable может быть использован для генерации кода и автоматизации задач. Это может быть полезно разработчикам, которые ищут новые инструменты для повышения производительности.
+#AI #code generation
+
+📌 [MiMo Code is now released and open-source](https://mimo.xiaomi.com/mimocode)
+MiMo Code - новый открытый инструмент для генерации кода. Это может быть интересно разработчикам, которые ищут новые инструменты для повышения производительности.
+#AI #code generation
+
+📌 [Software is made between commits](https://zed.dev/blog/introducing-deltadb)
+Статья о том, как инструменты ИИ могут быть использованы для генерации кода и автоматизации задач. Это может быть полезно разработчикам, которые ищут новые инструменты для повышения производительности.
+#AI #code generation
+
+🌐 [Property-based testing with fast-check: finding edge cases you did not think of](https://dev.to/therizwansaleem/property-based-testing-with-fast-check-finding-edge-cases-you-did-not-think-of-3gjm)
+Статья о тестировании на основе свойств с помощью fast-check, которое может помочь найти краевые случаи, которые вы не подумали.
+#webdev #frontend
+
+🌐 [Your HTTP Headers Are a Security Report Card — This Free Tool Grades Them Instantly](https://dev.to/kouadio_mathiaskouame_a6/your-http-headers-are-a-security-report-card-this-free-tool-grades-them-instantly-4e6p)
+Статья о том, как проверить безопасность HTTP-заголовков с помощью бесплатного инструмента.
+#webdev #frontend
+
+📌 [Anthropic apologizes for invisible Claude Fable guardrails](https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail)
+Anthropic извинилась за отсутствие видимых ограничений в Claude Fable, что может быть интересно разработчикам, которые используют этот инструмент для генерации кода.
+#AI #code generation
+
+_Источников: 5 · Новостей: 15_
