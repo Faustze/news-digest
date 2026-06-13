@@ -1,0 +1,47 @@
+📰 *Дайджест 13.06.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Для разработчиков, которые хотят перейти с Vue на React, была опубликована статья "Vue to React Migration in Action: Real CRM Admin Case", которая представляет собой пошаговое руководство по миграции проекта. Кроме того, была опубликована статья "How to Merge PDFs in the Browser with Vue 3 and pdf-lib", которая описывает, как можно объединять PDF-файлы прямо в браузере, используя Vue 3 и библиотеку pdf-lib. Также GitHub Copilot CLI стал более избирательным в отношении делегирования задач, что привело к улучшению оркестрации и ускорению прогресса. Эти новости могут быть полезны разработчикам, работающим с Vue, React и AI-инструментами.
+
+─────────────────────
+
+💚 [Vue to React Migration in Action: Real CRM Admin Case](https://dev.to/smirk9581/vue-to-react-migration-in-action-real-crm-admin-case-5257)
+Эта статья представляет собой пошаговое руководство по миграции проекта с Vue 3 и Vue Router на React. Оно охватывает такие темы, как клонирование и установка репозитория, поиск ключевых файлов миграции, запуск сборки и проверка сгенерированного вывода React. Для разработчиков, к
+#Vue #frontend
+
+💚 [How to Merge PDFs in the Browser with Vue 3 and pdf-lib](https://dev.to/sunshey/how-to-merge-pdfs-in-the-browser-with-vue-3-and-pdf-lib-56m6)
+Эта статья описывает, как можно объединять PDF-файлы прямо в браузере, используя Vue 3 и библиотеку pdf-lib. Это может быть полезно для разработчиков, которые хотят создать приложения, работающие с PDF, без необходимости использования серверной части.
+#Vue #frontend
+
+📌 [How we made GitHub Copilot CLI more selective about delegation](https://github.blog/ai-and-ml/how-we-made-github-copilot-cli-more-selective-about-delegation/)
+GitHub Copilot CLI стал более избирательным в отношении делегирования задач, что привело к улучшению оркестрации, уменьшению количества передач и ускорению прогресса без добавления новых функций. Это может быть полезно разработчикам, работающим с AI-инструментами.
+#AI #devtools
+
+📌 [New OpenAI Academy courses for the next era of work](https://openai.com/index/academy-courses-applying-ai-at-work)
+OpenAI представила три новых курса в рамках своей академии, которые помогут людям развить практические навыки работы с AI, создать повторяемые рабочие процессы и применить агенты в повседневной работе. Это может быть полезно разработчикам, интересующимся AI.
+#AI #devtools
+
+🌐 [I built a free WCAG scanner because I kept shipping accessibility regressions](https://dev.to/screevie/i-built-a-free-wcag-scanner-because-i-kept-shipping-accessibility-regressions-2goj)
+Эта статья рассказывает о создании бесплатного сканера WCAG, который помогает проверять доступность веб-страниц. Это может быть полезно для разработчиков, которые хотят улучшить доступность своих приложений.
+#webdev #frontend
+
+💚 [SVAR Calendar: A Free, Modern Event Calendar for React, Svelte & Vue](https://dev.to/olga_tash/svar-calendar-a-free-modern-event-calendar-for-react-svelte-vue-1h83)
+Эта статья представляет календарь событий SVAR, который является современным и бесплатным решением для React, Svelte и Vue. Он может быть полезен для разработчиков, которые хотят добавить функциональность календаря в свои приложения.
+#Vue #frontend
+
+🔷 [TypeScript's satisfies Operator: When as Lets You Down and Annotations Strip Your Types](https://dev.to/kaithorne/typescripts-satisfies-operator-when-as-lets-you-down-and-annotations-strip-your-types-2okg)
+Статья о TypeScript и операторе satisfies, который может быть полезен разработчикам, работающим с TypeScript. Оператор satisfies позволяет решить проблемы с типами и аннотациями.
+#TypeScript #webdev
+
+🖥️ [Slightly reducing the sloppiness of AI generated front end](https://envs.net/~volpe/blog/posts/reduce-slop.html)
+Статья о том, как уменьшить несовершенства, генерируемые ИИ при создании фронтенда. Это может быть полезно разработчикам, которые используют ИИ-инструменты для генерации кода.
+#AI #frontend #webdev
+
+📌 [How to setup a local coding agent on macOS](https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos)
+Статья о том, как настроить локального кодировочного агента на macOS. Это может быть полезно разработчикам, которые хотят использовать ИИ-инструменты для помощи в кодировании.
+#AI #coding #macOS
+
+📌 [On CPU Physics and CPU Cycles](https://6it.dev/blog/on-cpu-physics-and-cpu-cycles-80730)
+Статья о физике процессора и циклах процессора. Это может быть полезно разработчикам, которые работают с высокопроизводительными приложениями.
+#CPU #physics #performance
+
+_Источников: 5 · Новостей: 10_
