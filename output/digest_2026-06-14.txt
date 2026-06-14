@@ -1,0 +1,39 @@
+📰 *Дайджест 14.06.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "Building a Serverless Proxy for AI APIs: Lessons Learned" показала, как построить серверный прокси для AI-интерфейсов с помощью Vue, что может быть полезно для разработчиков, которые хотят добавить функцию AI в свои приложения. Кроме того, статья "How to Convert Word to PDF in the Browser with Vue 3, mammoth, and html2pdf.js" продемонстрировала, как конвертировать документы Word в PDF в браузере с помощью Vue 3, mammoth и html2pdf.js. Также была опубликована статья "Семь браузерных инструментов без сервера: WASM, WebGPU, шифрование на клиенте", которая рассказала о семи браузерных инструментах, которые могут работать без сервера, что может быть полезно разработчикам, которые хотят создавать приложения, которые работают офлайн или имеют повышенную безопасность.
+
+─────────────────────
+
+💚 [Building a Serverless Proxy for AI APIs: Lessons Learned](https://dev.to/__c1b9e06dc90a7e0a676b/building-a-serverless-proxy-for-ai-apis-lessons-learned-34lj)
+Эта статья показывает, как построить серверный прокси для AI-интерфейсов с помощью Vue. Это полезно для разработчиков, которые хотят добавить функцию AI в свои приложения. Статья предоставляет примеры кода и объясняет, как использовать AI-интерфейсы с Vue.
+#AI #Vue #frontend
+
+💚 [How to Send Transactional Emails with Vue and Resend](https://dev.to/mailpeek/how-to-send-transactional-emails-with-vue-and-resend-49cl)
+Эта статья показывает, как отправлять транзакционные электронные письма с помощью Vue и Resend. Это полезно для разработчиков, которые хотят автоматизировать процесс отправки электронных писем в своих приложениях. Статья предоставляет примеры кода и объясняет, как использовать Re
+#Vue #frontend
+
+💚 [How to Convert Word to PDF in the Browser with Vue 3, mammoth, and html2pdf.js](https://dev.to/sunshey/how-to-convert-word-to-pdf-in-the-browser-with-vue-3-mammoth-and-html2pdfjs-4c7h)
+Эта статья показывает, как конвертировать документы Word в PDF в браузере с помощью Vue 3, mammoth и html2pdf.js. Это полезно для разработчиков, которые хотят добавить функцию конвертирования документов в свои приложения. Статья предоставляет примеры кода и объясняет, как использ
+#Vue #frontend
+
+🐍 [Building a Real-time News Aggregator with Joffstrends Search API and Python/Node.js](https://dev.to/joffy122/building-a-real-time-news-aggregator-with-joffstrends-search-api-and-pythonnodejs-48ed)
+Эта статья показывает, как построить агрегатор новостей в реальном времени с помощью Joffstrends Search API и Python/Node.js. Это полезно для разработчиков, которые хотят добавить функцию агрегации новостей в свои приложения. Статья предоставляет примеры кода и объясняет, как исп
+#Python #Node.js #frontend
+
+🟨 [Семь браузерных инструментов без сервера: WASM, WebGPU, шифрование на клиенте](https://habr.com/ru/articles/1047200/?utm_campaign=1047200&utm_source=habrahabr&utm_medium=rss)
+Статья рассказывает о семи браузерных инструментах, которые могут работать без сервера. Это может быть полезно разработчикам, которые хотят создавать приложения, которые работают офлайн или имеют повышенную безопасность.
+#JavaScript #frontend
+
+🟨 [Передача значений переменной из PHP в JavaScript](https://habr.com/ru/articles/1047206/?utm_campaign=1047206&utm_source=habrahabr&utm_medium=rss)
+Статья посвящена передаче значений переменной PHP в JavaScript. Это может быть полезно разработчикам, которые работают с backend и frontend одновременно. Статья подойдет новичкам, которые только начинают заниматься web-программированием.
+#JavaScript #frontend
+
+🟨 [Почему может быть опасно держать открытыми Mini Apps в Telegram или где нибудь ещё: Focus Hijacking на практике](https://habr.com/ru/articles/1047232/?utm_campaign=1047232&utm_source=habrahabr&utm_medium=rss)
+Статья рассказывает о потенциальных опасностях, связанных с открытыми Mini Apps в Telegram или других приложениях. Это может быть полезно разработчикам, которые хотят создавать безопасные приложения.
+#JavaScript #frontend
+
+🟨 [Я сделал инструмент для бизнес и системного аналитика, чтобы не держать всё в голове во время разбора задачи](https://habr.com/ru/articles/1047074/?utm_campaign=1047074&utm_source=habrahabr&utm_medium=rss)
+Статья рассказывает о создании инструмента для бизнес-аналитиков, который помогает им не забыть важных вопросов при разборе задачи. Это может быть полезно разработчикам, которые работают с бизнес-аналитиками или хотят создавать подобные инструменты.
+#JavaScript #frontend
+
+_Источников: 3 · Новостей: 8_
