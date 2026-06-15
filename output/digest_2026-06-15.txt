@@ -1,0 +1,55 @@
+📰 *Дайджест 15.06.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "10 Vue Performance Mistakes I Still See in Production Apps" подчеркивает распространенные ошибки, которые могут повлиять на производительность Vue-приложений, и дает советы, как их избежать. Кроме того, статья "How I Add Watermarks to PDFs in the Browser with Vue 3 and pdf-lib" демонстрирует, как добавить водяные знаки к PDF-файлам в браузере с помощью Vue 3 и pdf-lib. Также стоит отметить статью "TypeScript Utility Types: How They Work", которая глубоко исследует утилитные типы в TypeScript и предоставляет примеры кода. Эти статьи могут быть полезны разработчикам, которые работают с Vue, Python и TypeScript.
+
+─────────────────────
+
+💚 [10 Vue Performance Mistakes I Still See in Production Apps](https://dev.to/jacobandrewsky/10-vue-performance-mistakes-i-still-see-in-production-apps-52a1)
+Статья о 10 ошибках, которые могут повлиять на производительность Vue-приложений. Автор делится опытом и дает советы, как избежать этих ошибок. Полезно разработчикам, которые хотят оптимизировать свое приложение.
+#Vue #frontend #performance
+
+📌 [Introducing the OpenAI Partner Network](https://openai.com/index/introducing-openai-partner-network)
+OpenAI запускает партнерскую сеть, инвестируя 150 миллионов долларов в ускорение принятия, развертывания и трансформации ИИ в крупных компаниях. Это может быть полезно для разработчиков, которые работают с ИИ.
+#AI #devtools
+
+🟨 [Забытый, но небесполезный: багхантинг во вкладке Source. Актуалочка для 2026 года](https://habr.com/ru/articles/1047440/?utm_campaign=1047440&utm_source=habrahabr&utm_medium=rss)
+Статья о том, как использовать вкладку Source в DevTools для багхантинга. Автор рассказывает о своем опыте и дает советы по использованию этого инструмента. Для разработчиков это может быть полезно для выявления и исправления ошибок в коде.
+#JavaScript #frontend #DevTools
+
+🟨 [[Перевод] Немного магии: как устроен API фикстур в Playwright](https://habr.com/ru/articles/1047326/?utm_campaign=1047326&utm_source=habrahabr&utm_medium=rss)
+Статья о том, как устроен API фикстур в Playwright. Автор рассказывает о своем опыте и дает советы по использованию этого инструмента. Для разработчиков это может быть полезно для автоматизации тестирования.
+#JavaScript #frontend #Playwright
+
+🌐 [How I Fixed My AI Chatbot's Timeout Nightmare](https://dev.to/__c1b9e06dc90a7e0a676b/how-i-fixed-my-ai-chatbots-timeout-nightmare-19md)
+Автор статьи рассказывает о том, как он исправил проблему с таймаутом в своем чат-боте на основе ИИ. Это может быть полезно для разработчиков, которые работают с чат-ботами и ИИ.
+#AI #chatbot #webdev
+
+💚 [How I Add Watermarks to PDFs in the Browser with Vue 3 and pdf-lib](https://dev.to/sunshey/how-i-add-watermarks-to-pdfs-in-the-browser-with-vue-3-and-pdf-lib-4kof)
+Статья о том, как добавить водяные знаки к PDF-файлам в браузере с помощью Vue 3 и pdf-lib. Автор делится своим опытом и дает пример кода.
+#Vue #frontend #pdf
+
+🟨 [Как я сделал расширение, которое показывает десктоп и мобильную версию сайта одновременно](https://habr.com/ru/articles/1047354/?utm_campaign=1047354&utm_source=habrahabr&utm_medium=rss)
+Автор статьи рассказывает о том, как он создал расширение, которое позволяет одновременно видеть десктоп и мобильную версию сайта. Это может быть полезно для разработчиков, которые работают над адаптивными сайтами.
+#JavaScript #frontend #адаптивный дизайн
+
+💚 [ColdFusion + React/Vue Frontend: The Decoupled Architecture Pattern That Works in 2026](https://dev.to/deepak_sir__/coldfusion-reactvue-frontend-the-decoupled-architecture-pattern-that-works-in-2026-26h0)
+Статья о том, как использовать ColdFusion в качестве бэкенда и React или Vue в качестве фронтенда. Автор делится своим опытом и дает советы, как реализовать эту архитектуру.
+#Vue #frontend #architecture
+
+🔷 [TypeScript Utility Types: How They Work (Not Just What They Do)](https://dev.to/kaithorne/typescript-utility-types-how-they-work-not-just-what-they-do-4bc1)
+Статья о том, как работают утилитные типы в TypeScript. Автор делится своим опытом и дает примеры кода.
+#TypeScript #frontend
+
+🖥️ [AI Wrote My Landing Page 3 Weeks Ago. I Have No Idea What's In It.](https://dev.to/backrun/ai-wrote-my-landing-page-3-weeks-ago-i-have-no-idea-whats-in-it-3eai)
+Статья о том, как использовать AI для генерации кода. Автор делится своим опытом и дает размышления о том, что это значит для разработчиков.
+#AI #frontend
+
+💚 [Best Free Open-Source Vue Gantt Charts in 2026](https://dev.to/olga_tash/best-free-open-source-vue-gantt-charts-in-2026-aaf)
+Статья о лучших бесплатных открытых Gantt-чартах для Vue. Автор делится своим опытом и дает обзор доступных вариантов.
+#Vue #frontend #Gantt
+
+🖥️ [Open Graph Meta Tags: What They Are and How to Generate Them Correctly](https://dev.to/snappy_tools/open-graph-meta-tags-what-they-are-and-how-to-generate-them-correctly-355o)
+Статья о том, что такое Open Graph мета-теги и как их правильно генерировать. Автор делится своим опытом и дает примеры кода.
+#frontend #SEO
+
+_Источников: 4 · Новостей: 12_
