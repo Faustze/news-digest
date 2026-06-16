@@ -1,0 +1,55 @@
+📰 *Дайджест 16.06.2026*
+
+Сегодня в мире фронтенда и Python произошли интересные события. Статья "Building GameShop: A Modern E-Commerce Platform for Gamers" рассказывает о создании современной платформы электронной коммерции для геймеров с использованием Vue.js. Кроме того, статья "Декларативное RPC вместо REST-ручек — победили сетевой бойлерплейт и вычистили код с помощью фреймворка Chord" описывает, как использовать фреймворк Chord для упрощения взаимодействия между фронтом и бэком. Также была опубликована статья "How I Compress PDFs in the Browser with Vue 3 and pdf-lib", в которой рассказывается о том, как сжимать PDF-файлы в браузере с использованием Vue 3 и pdf-lib. Эти статьи могут быть полезны разработчикам, работающим с фронтендом и бэкендом.
+
+─────────────────────
+
+💚 [Building GameShop: A Modern E-Commerce Platform for Gamers](https://dev.to/mahmud-r-f-farhan/building-gameshop-a-modern-e-commerce-platform-for-gamers-2864)
+Статья о создании современной платформы электронной коммерции для геймеров с использованием Vue.js. Автор делится своим опытом и подходами к разработке высокопроизводительной и удобной платформы.
+#Vue #frontend
+
+💚 [Frontend Architecture Practices for Multi-Language and Multi-Currency Agent Shopping Mall Systems](https://dev.to/taocarts0088/frontend-architecture-practices-for-multi-language-and-multi-currency-agent-shopping-mall-systems-3hp0)
+Статья о лучших практиках разработки frontend-архитектуры для многоязычных и многовалютных систем электронной коммерции. Автор делится своим опытом и подходами к решению этой задачи с использованием React и Vue.js.
+#Vue #frontend
+
+🟨 [Декларативное RPC вместо REST-ручек — победили сетевой бойлерплейт и вычистили код с помощью фреймворка Chord](https://habr.com/ru/companies/dalee_group/articles/1044744/?utm_campaign=1044744&utm_source=habrahabr&utm_medium=rss)
+Статья о том, как использовать фреймворк Chord для упрощения взаимодействия между фронтом и бэком. Авторы статьи описывают, как они решили проблему сетевого бойлерплейта и вычистили код с помощью этого фреймворка. Это может быть полезно разработчикам, работающим с TypeScript и ме
+#JavaScript #frontend #Nuxt
+
+📌 [GitHub Copilot CLI for Beginners: Overview of common slash commands](https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands/)
+GitHub Copilot CLI позволяет разработчикам использовать slash-команды для управления терминальным агентом ИИ. Это может быть полезно для автоматизации задач и повышения производительности. GitHub Copilot CLI предоставляет простой и удобный способ взаимодействия с ИИ.
+#AI #devtools
+
+💚 [VuReact | Vue to React Hybrid Migration Practice: Real Support Hub Case](https://dev.to/smirk9581/vureact-vue-to-react-hybrid-migration-practice-real-support-hub-case-19m9)
+Статья о миграции приложения с Vue на React с использованием VuReact. Автор делится своим опытом и подходами к миграции и описывает ключевые технологии, использованные в процессе.
+#Vue #frontend
+
+💚 [ColdFusion + React/Vue Frontend: The Decoupled Architecture Pattern That Works in 2026](https://dev.to/deepak_sir__/coldfusion-reactvue-frontend-the-decoupled-architecture-pattern-that-works-in-2026-26h0)
+Статья о декуплированной архитектуре с использованием ColdFusion и React/Vue в качестве frontend. Автор делится своим опытом и подходами к решению этой задачи.
+#Vue #frontend
+
+🟨 [Один SSE для четырёх LLM: стриминг OpenAI, Anthropic, DeepSeek и Kimi через один бэкенд](https://habr.com/ru/articles/1047740/?utm_campaign=1047740&utm_source=habrahabr&utm_medium=rss)
+Статья о том, как создать чат-агрегатор, который может работать с несколькими языковыми моделями в реальном времени. Автор статьи описывает, как он решил проблему стриминга ответов от разных API и как он свел все это к единому SSE-потоку. Это может быть полезно разработчикам, раб
+#JavaScript #frontend #AI
+
+📌 [Accelerating researchers and developers building multilingual AI with a new open dataset](https://github.blog/ai-and-ml/llms/accelerating-researchers-and-developers-building-multilingual-ai-with-a-new-open-dataset/)
+Новый открытый набор данных, опубликованный на GitHub, помогает исследователям и разработчикам обнаруживать многоязычный контент разработчиков. Это может быть полезно для создания более эффективных моделей ИИ. Набор данных включает README, issues и pull requests.
+#AI #devtools
+
+💚 [How I Compress PDFs in the Browser with Vue 3 and pdf-lib](https://dev.to/sunshey/how-i-compress-pdfs-in-the-browser-with-vue-3-and-pdf-lib-4d83)
+Статья о том, как сжимать PDF-файлы в браузере с использованием Vue 3 и pdf-lib. Автор делится своим опытом и подходами к решению этой задачи.
+#Vue #frontend
+
+🟨 [Frontend Status: свежий дайджест фронтенда и AI — 16.06.2026](https://habr.com/ru/articles/1047986/?utm_campaign=1047986&utm_source=habrahabr&utm_medium=rss)
+Статья представляет собой дайджест фронтенд-разработки и AI. В ней описываются новые тенденции и технологии в области фронтенда и AI. Это может быть полезно разработчикам, чтобы оставаться в курсе последних событий в этой области.
+#JavaScript #frontend #AI
+
+🌐 [I Spent a Week Comparing Multimodal AI APIs — Here's What I Found](https://dev.to/eagerspark/i-spent-a-week-comparing-multimodal-ai-apis-heres-what-i-found-171m)
+Статья о сравнении multimodal AI API. Автор делится своим опытом и подходами к решению этой задачи.
+#webdev #frontend
+
+🌐 [Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?](https://news.ycombinator.com/item?id=48542100)
+Разработчики обсуждают возможность замены облачных моделей ИИ, таких как Claude/GPT, на локальные модели для повседневного кодирования. Это может быть полезно для повышения производительности и безопасности. Обсуждение включает различные подходы и инструменты.
+#AI #webdev
+
+_Источников: 5 · Новостей: 12_
