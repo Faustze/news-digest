@@ -1,0 +1,59 @@
+📰 *Дайджест 17.06.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "All-in-one FastAPI + Nuxt + Web3 boilerplate" представляет boilerplate-проект, который объединяет FastAPI, Nuxt и Web3, что может быть полезно для разработчиков, создающих проекты с бэкендом, фронтендом и веб3-функциональностью. Кроме того, статья "How to Handle Form Submissions in Vue.js Without a Backend" показывает, как обрабатывать формы в Vue.js без использования бэкенда, используя Formgrid. Также была опубликована статья "Stop Using JWTs", в которой обсуждаются проблемы безопасности, связанные с использованием JSON Web Tokens (JWT) для аутентификации, что может быть полезно разработчикам для улучшения безопасности своих приложений.
+
+─────────────────────
+
+💚 [All-in-one FastAPI + Nuxt + Web3 boilerplate](https://dev.to/peter_jung_bcbb8a8f41e6b7/all-in-one-fastapi-nuxt-web3-boilerplate-5ck4)
+Эта статья представляет boilerplate-проект, который объединяет FastAPI, Nuxt и Web3. Это полезно для разработчиков, которые хотят создать проекты, включающие бэкенд, фронтенд и веб3-функциональность.
+#Nuxt #frontend
+
+💚 [How to Handle Form Submissions in Vue.js Without a Backend](https://dev.to/allenarduino/how-to-handle-form-submissions-in-vuejs-without-a-backend-42nn)
+Эта статья показывает, как обрабатывать формы в Vue.js без использования бэкенда. Используя Formgrid, можно хранить данные форм, отправлять уведомления по электронной почте и синхронизировать данные с Google Sheets. Это полезно для разработчиков, которые хотят упростить процесс о
+#Vue #frontend
+
+💚 [How I Convert Excel to PDF in the Browser with Vue 3, xlsx, and html2pdf.js](https://dev.to/sunshey/how-i-convert-excel-to-pdf-in-the-browser-with-vue-3-xlsx-and-html2pdfjs-4k5e)
+Эта статья показывает, как конвертировать Excel-файлы в PDF в браузере, используя Vue 3, xlsx и html2pdf.js. Это полезно для разработчиков, которые хотят добавить подобную функциональность в свои приложения.
+#Vue #frontend
+
+🟨 [Декларативное RPC вместо REST-ручек — победили сетевой бойлерплейт и вычистили код с помощью фреймворка Chord](https://habr.com/ru/companies/dalee_group/articles/1044744/?utm_campaign=1044744&utm_source=habrahabr&utm_medium=rss)
+Статья о том, как использовать фреймворк Chord для упрощения взаимодействия между фронтом и бэком. Авторы статьи описывают, как они решили проблему дублирования кода и уменьшили количество кода, посвященного обслуживанию сети. Это может быть полезно разработчикам, работающим с Ty
+#JavaScript #frontend #Nuxt
+
+📌 [Stop Using JWTs](https://gist.github.com/samsch/0d1f3d3b4745d778f78b230cf6061452)
+Эта статья обсуждает проблемы безопасности, связанные с использованием JSON Web Tokens (JWT) для аутентификации. Разработчики могут найти эту информацию полезной для улучшения безопасности своих приложений.
+#security #jwt
+
+💚 [From Idea to Launch in 72 Hours: My Astro + Cloudflare R2 + Vue "Novel" Stack](https://dev.to/an_d41105e9f4bdfec54/from-idea-to-launch-in-72-hours-my-astro-cloudflare-r2-vue-novel-stack-2d9p)
+Эта статья рассказывает о создании веб-платформы для публикации романов за 72 часа. Используя Astro, Cloudflare R2 и Vue, автор создал быструю и масштабируемую платформу. Это интересно разработчикам, которые хотят создать подобные проекты.
+#Vue #frontend
+
+🟨 [Код в эпоху AI: как перестать бороться за качество и начать контролировать деградацию](https://habr.com/ru/articles/1029170/?utm_campaign=1029170&utm_source=habrahabr&utm_medium=rss)
+Статья о том, как использовать AI для улучшения качества кода и контроля над его деградацией. Автор статьи описывает, как AI может помочь разработчикам писать код быстрее, но также подчеркивает важность контроля над качеством кода.
+#JavaScript #AI
+
+🌐 [Why Network Stability Matters More Than Speed for AI Coding Tools](https://dev.to/wenrugou/why-network-stability-matters-more-than-speed-for-ai-coding-tools-54g4)
+Эта статья обсуждает важность стабильности сети для инструментов кодирования на основе ИИ. Это полезно для разработчиков, которые используют такие инструменты в своей работе.
+#webdev #frontend
+
+🟨 [Building an Obsidian-Style Code Intelligence Graph for Any JavaScript Project](https://dev.to/vansharora21/building-an-obsidian-style-code-intelligence-graph-for-any-javascript-project-1ep6)
+Статья о том, как построить граф интеллекта кода для любого проекта на JavaScript. Автор статьи описывает процесс создания графа и предоставляет примеры кода.
+#JavaScript #webdev
+
+🌐 [I Ranked 2,200+ AI Tools by Honest Scores — Here's What I Learned](https://dev.to/aigotranked/i-ranked-2200-ai-tools-by-honest-scores-heres-what-i-learned-ic9)
+Статья о том, как автор статьи оценил более 2 200 инструментов AI и что он узнал из этого опыта. Автор статьи описывает процесс оценки и предоставляет результаты.
+#AI #webdev
+
+📌 [What are git worktrees, and why should I use them?](https://github.blog/ai-and-ml/github-copilot/what-are-git-worktrees-and-why-should-i-use-them/)
+Git worktrees позволяют работать с несколькими ветками репозитория одновременно, что может быть полезно для разработчиков. Это может улучшить производительность и упростить процесс разработки.
+#devtools #git
+
+🟨 [Как я написал «Обратную змейку» на чистом Canvas](https://habr.com/ru/companies/ruvds/articles/1047434/?utm_campaign=1047434&utm_source=habrahabr&utm_medium=rss)
+Статья о том, как написать игру «Обратная змейка» на чистом Canvas. Автор статьи описывает процесс создания игры и предоставляет примеры кода.
+#JavaScript #Canvas
+
+📌 [TIL: You can make HTTP requests without curl using Bash /dev/TCP](https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/)
+Эта статья рассказывает о том, как можно отправлять HTTP-запросы без использования curl, используя Bash и /dev/TCP. Это может быть полезно для разработчиков, которые работают с командной строкой.
+#bash #http
+
+_Источников: 6 · Новостей: 13_
