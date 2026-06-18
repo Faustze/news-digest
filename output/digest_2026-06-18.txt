@@ -1,0 +1,59 @@
+📰 *Дайджест 18.06.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Для разработчиков Vue и Nuxt была опубликована статья "Vue Performance Optimization: A Practical Guide for Faster Apps", в которой предоставляется практическое руководство по оптимизации производительности Vue-приложений. Кроме того, была опубликована статья "Overcoming the SPA Limitation: How We Solved SEO for Our Vue 3 Web App", в которой объясняется, как решить проблему SEO для Vue-приложений. Для разработчиков Python была опубликована статья "How to Validate Email Addresses in JavaScript / Node.js (Beyond Regex)", в которой объясняется, как валидировать email-адреса в JavaScript и Node.js, используя методы, выходящие за рамки регулярных выражений. Эти статьи будут очень полезны разработчикам, которые хотят улучшить производительность и безопасность своих приложений.
+
+─────────────────────
+
+💚 [Vue Performance Optimization: A Practical Guide for Faster Apps](https://dev.to/shahinur-rahman/vue-performance-optimization-a-practical-guide-for-faster-apps-1kpb)
+Эта статья предоставляет практическое руководство по оптимизации производительности Vue-приложений. Она объясняет, как выявить и устранить проблемы с производительностью, и предлагает практические советы для улучшения скорости работы приложений. Для разработчиков, которые хотят у
+#Vue #frontend
+
+💚 [How We Render 1 Million Rows Without Breaking a Sweat — Inside EliteGrid's Virtual Scrolling Engine](https://dev.to/elitegrid/how-we-render-1-million-rows-without-breaking-a-sweat-inside-elitegrids-virtual-scrolling-engine-4j79)
+Эта статья рассказывает о том, как создать высокопроизводительный виртуальный скроллинг-инжин для отображения большого количества данных. Для разработчиков, которые работают с большими наборами данных, эта статья будет очень полезна.
+#Vue #frontend
+
+💚 [Overcoming the SPA Limitation: How We Solved SEO for Our Vue 3 Web App](https://dev.to/ariyoz/overcoming-the-spa-limitation-how-we-solved-seo-for-our-vue-3-web-app-5cjd)
+Эта статья объясняет, как решить проблему SEO для Vue-приложений. Для разработчиков, которые хотят улучшить видимость своих приложений в поисковых системах, эта статья будет очень полезна.
+#Vue #frontend
+
+🌐 [The Ultimate .cursorrules Blueprint: Stop Fighting Your AI Code Editor](https://dev.to/lukefryer4/the-ultimate-cursorrules-blueprint-stop-fighting-your-ai-code-editor-2lbb)
+Статья предоставляет полное руководство по настройке .cursorrules для AI-редактора кода. Это полезно разработчикам, чтобы улучшить производительность и эффективность работы с редактором.
+#AI #code editor #webdev
+
+📌 [Getting more from each token: How Copilot improves context handling and model routing](https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing/)
+GitHub Copilot улучшает контекстное управление и маршрутизацию моделей, что позволяет сделать больше полезной работы за каждую сессию. Это улучшение позволяет разработчикам получить больше пользы от каждого токена и сделать разработку более эффективной.
+#AI #devtools
+
+💚 [Best Vue UI Components for Project Management and Scheduling](https://dev.to/olga_tash/best-vue-ui-components-for-project-management-and-scheduling-4p9d)
+Эта статья представляет собой обзор лучших UI-компонентов для управления проектами и планирования в Vue. Для разработчиков, которые хотят создать приложения для управления проектами, эта статья будет очень полезна.
+#Vue #frontend
+
+🟨 [How to Validate Email Addresses in JavaScript / Node.js (Beyond Regex)](https://dev.to/atek/how-to-validate-email-addresses-in-javascript-nodejs-beyond-regex-fk4)
+Статья объясняет, как валидировать email-адреса в JavaScript и Node.js, используя методы, выходящие за рамки регулярных выражений. Это полезно разработчикам, чтобы улучшить безопасность и надежность своих приложений.
+#JavaScript #Node.js #email validation
+
+💚 [How I Rotate PDFs in the Browser with Vue 3 and pdf-lib](https://dev.to/sunshey/how-i-rotate-pdfs-in-the-browser-with-vue-3-and-pdf-lib-541b)
+Эта статья показывает, как использовать Vue 3 и pdf-lib для поворота PDF-файлов в браузере. Для разработчиков, которые работают с PDF-файлами, эта статья будет очень полезна.
+#Vue #frontend
+
+🌐 [Confused by DV, OV, and EV SSL Certificates? This Article Will Clear It All Up](https://dev.to/fizee/confused-by-dv-ov-and-ev-ssl-certificates-this-article-will-clear-it-all-up-52ji)
+Статья объясняет разницу между DV, OV и EV SSL-сертификатами и их назначение. Это полезно разработчикам, чтобы понять, какой тип сертификата выбрать для своего проекта. DV-сертификаты используются для проверки домена, OV-сертификаты - для проверки организации, а EV-сертификаты -
+#SSL #TLS #webdev
+
+🌐 [HTTP-01, DNS-01, and DNS Delegation: What's the Difference When Getting an SSL Certificate?](https://dev.to/fizee/http-01-dns-01-and-dns-delegation-whats-the-difference-when-getting-an-ssl-certificate-13p5)
+Статья объясняет разницу между HTTP-01, DNS-01 и DNS Delegation при получении SSL-сертификата. Это полезно разработчикам, чтобы понять, какой метод выбрать для своего проекта. HTTP-01 используется для проверки домена через HTTP, DNS-01 - через DNS, а DNS Delegation - для делегиро
+#SSL #TLS #webdev
+
+🌐 [What's the Difference Between Free and Paid SSL Certificates — and Why Do Prices Vary So Much?](https://dev.to/fizee/whats-the-difference-between-free-and-paid-ssl-certificates-and-why-do-prices-vary-so-much-57j)
+Статья объясняет разницу между бесплатными и платными SSL-сертификатами и причины разницы в ценах. Это полезно разработчикам, чтобы понять, какой тип сертификата выбрать для своего проекта. Бесплатные сертификаты обычно используются для личных проектов, а платные - для коммерческ
+#SSL #TLS #webdev
+
+🟨 [Мультиверсионный UI-кит с RWC: один JS-API для разных веб-компонентов](https://habr.com/ru/articles/1048416/?utm_campaign=1048416&utm_source=habrahabr&utm_medium=rss)
+RWC позволяет создавать мультиверсионные UI-компоненты, которые могут работать вместе на одной странице, без необходимости использования одного рантайма фреймворка. Это может быть полезно для разработчиков, которые хотят мигрировать свой проект на новый фреймворк или использовать
+#JavaScript #frontend
+
+📌 [A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry](https://openai.com/index/ai-chemist-improves-reaction)
+Исследователи из OpenAI и Molecule.one продемонстрировали, как gần-автономный AI-химик, использующий GPT-5.4, улучшил ключевую реакцию в области медицины, продвинув исследования в области химии.
+#AI #devtools
+
+_Источников: 5 · Новостей: 13_
