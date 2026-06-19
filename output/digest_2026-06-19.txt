@@ -1,0 +1,67 @@
+📰 *Дайджест 19.06.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Разработчики Vue.js могут быть заинтересованы в создании интерфейса поисковой системы в реальном времени с помощью Vue.js 3 и Joffstrends Search API, а также в создании головного визуального редактора для Vue.js. Кроме того, разработчики Nuxt могут быть заинтересованы в создании своих собственных инструментов с помощью Nuxt, как это сделал один из разработчиков, создав 28 инструментов для разработчиков. Также стоит отметить статью о том, как обнаружить троянское вредоносное ПО в репозиториях GitHub, которая может быть полезна разработчикам для защиты своих проектов.
+
+─────────────────────
+
+💚 [How to Build a Real-Time Search Engine Interface in Vue.js 3 with Joffstrends Search API](https://dev.to/joffy122/how-to-build-a-real-time-search-engine-interface-in-vuejs-3-with-joffstrends-search-api-30jg)
+Эта новость рассказывает о создании интерфейса поисковой системы в реальном времени с помощью Vue.js 3 и Joffstrends Search API. Это может быть полезно разработчикам, которые работают с Vue.js и хотят создать поисковую систему. В этой статье описано, как создать поисковую систему
+#Vue #frontend
+
+💚 [Building a headless visual editor for Vue — the Vue answer to Puck](https://dev.to/yukos1221/building-a-headless-visual-editor-for-vue-the-vue-answer-to-puck-10b7)
+Эта новость рассказывает о создании головного визуального редактора для Vue.js. Это может быть полезно разработчикам, которые работают с Vue.js и хотят создать визуальный редактор. В этой статье описано, как создать редактор, который позволяет пользователям перетаскивать компонен
+#Vue #frontend
+
+💚 [I Wanted to Practice Nuxt. I Accidentally Built 28 Developer Tools.](https://dev.to/flex57/i-wanted-to-practice-nuxt-i-accidentally-built-28-developer-tools-2bam)
+Эта новость рассказывает о создании 28 инструментов для разработчиков с помощью Nuxt. Это может быть полезно разработчикам, которые работают с Nuxt и хотят создать свои собственные инструменты. Все инструменты работают без сервера, без регистрации и без отправки данных.
+#Nuxt #frontend
+
+🌐 [I found 10k GitHub repositories distributing Trojan malware](https://orchidfiles.com/github-repositories-distributing-malware/)
+Статья о том, как обнаружить троянское вредоносное ПО в репозиториях GitHub. Полезно разработчикам для понимания того, как защитить свои проекты от вредоносного ПО.
+#tech #webdev
+
+💚 [How to Embed Text and Hand-Drawn Signatures into PDFs with Vue 3 and pdf-lib](https://dev.to/sunshey/how-to-embed-text-and-hand-drawn-signatures-into-pdfs-with-vue-3-and-pdf-lib-n8j)
+Эта новость рассказывает о создании подписей и вставке их в PDF-файлы с помощью Vue 3 и pdf-lib. Это может быть полезно разработчикам, которые работают с Vue.js и хотят создать подписи в PDF-файлах. В этой статье описано, как создать подписи с помощью двух методов: ввода текста и
+#Vue #frontend
+
+🌐 [Datasette Apps: Host custom HTML applications inside Datasette](https://simonwillison.net/2026/Jun/18/datasette-apps/)
+Статья о том, как хостить пользовательские HTML-приложения внутри Datasette. Полезно разработчикам для понимания того, как работать с Datasette и HTML-приложениями.
+#tech #webdev
+
+💚 [A chatbot that helps you fill out a form](https://dev.to/steampixel/a-chatbot-that-helps-you-fill-out-a-form-1jmh)
+Эта новость рассказывает о создании чат-бота, который помогает заполнить форму. Это может быть полезно разработчикам, которые работают с формами и чат-ботами. Чат-бот может показать форму и одновременно руководить пользователем по заполнению полей или найти информацию.
+#Vue #frontend
+
+📌 [Teaching an AI Coding Agent to Review Its Own Work with Code Meridian](https://dev.to/driftya/teaching-an-ai-coding-agent-to-review-its-own-work-with-code-meridian-2p08)
+Статья о том, как обучить агента ИИ проверять свою собственную работу с помощью Code Meridian. Это может быть полезно разработчикам для улучшения качества кода и автоматизации процесса проверки.
+#AI #devtools
+
+🌐 [So You Want to Define a Well-Known URI](https://mnot.net/blog/2026/well_known_uris)
+Статья о том, как определить хорошо известный URI. Полезно разработчикам для понимания того, как работать с URI в веб-приложениях.
+#tech #webdev
+
+🌐 [.gitignore Isn't the only way to ignore files in Git](https://nelson.cloud/.gitignore-isnt-the-only-way-to-ignore-files-in-git/)
+Статья о том, как игнорировать файлы в Git, кроме использования .gitignore. Полезно разработчикам для понимания того, как работать с Git и игнорировать файлы.
+#tech #webdev
+
+🟨 [Представляем MDN MCP-сервер](https://habr.com/ru/articles/1049274/?utm_campaign=1049274&utm_source=habrahabr&utm_medium=rss)
+Статья о релизе MDN MCP-сервера, который позволяет ИИ-инструментам подключаться к внешним источникам данных. Это может быть полезно разработчикам для улучшения работы с документацией и данными о совместимости браузеров.
+#JavaScript #frontend
+
+📌 [How pull request limits are cutting down the noise](https://github.blog/open-source/maintainers/how-pull-request-limits-are-cutting-down-the-noise/)
+Статья о том, как ограничения на запросы на слияние могут помочь управлять объемом вклада в репозитории. Это может быть полезно разработчикам для улучшения работы с открытым исходным кодом.
+#AI #devtools
+
+📌 [New usage analytics and updated spend controls for enterprises](https://openai.com/index/chatgpt-enterprise-spend-controls)
+Статья о новых аналитических инструментах и контролях расходов для предприятий, которые могут помочь организациям управлять затратами и масштабировать ИИ с уверенностью.
+#AI #devtools
+
+📌 [Improving health intelligence in ChatGPT](https://openai.com/index/improving-health-intelligence-in-chatgpt)
+Статья о том, как улучшить интеллект здоровья в ChatGPT с помощью более сильного рассуждения, лучшего контекста, ясного общения и оценок, основанных на мнении врачей.
+#AI #devtools
+
+🌐 [Fable Converted Pylint to Rust](https://pypi.org/project/prylint/)
+Статья о том, как конвертировать Pylint в Rust. Полезно разработчикам для понимания того, как работать с Rust и Pylint.
+#tech #webdev
+
+_Источников: 7 · Новостей: 15_
