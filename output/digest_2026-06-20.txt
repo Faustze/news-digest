@@ -1,0 +1,43 @@
+📰 *Дайджест 20.06.2026*
+
+Сегодня в мире фронтенда и Python произошли интересные события. Статья "Vue 3 Complex Component Development: API Design for Select and Pagination" предоставляет полезные советы по разработке сложных компонентов в Vue 3. Кроме того, библиотека d3-maps позволяет создавать интерактивные SVG-карты в React и Vue. Также стоит отметить статью "Implementing Feature Flags Across Stack", в которой описывается реализация фич-флагов в приложении на Vue 3, C# и SQL. Эти статьи могут быть полезны разработчикам для создания комплексных компонентов и управления функциональностью приложения.
+
+─────────────────────
+
+💚 [Vue 3 Complex Component Development: API Design for Select and Pagination](https://dev.to/yuelinghuashu/vue-3-complex-component-development-api-design-for-select-and-pagination-1gb6)
+Статья о разработке сложных компонентов в Vue 3, включая дизайн API для селекторов и пагинации. Полезно разработчикам для создания комплексных компонентов.
+#Vue #frontend
+
+💚 [d3-maps: a toolkit for interactive SVG maps for React and Vue](https://dev.to/souljorje/d3-maps-a-toolkit-for-interactive-svg-maps-for-react-and-vue-m33)
+Статья о библиотеке d3-maps для создания интерактивных SVG-карт в React и Vue. Полезно разработчикам для создания географических визуализаций.
+#Vue #frontend
+
+📌 [How we built an internal data analytics agent](https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/)
+Статья о создании внутреннего агента аналитики данных с использованием GitHub Copilot. Агент позволяет сотрудникам задавать вопросы о данных в простом языке. Это может быть полезно разработчикам для создания подобных инструментов.
+#AI #devtools
+
+💚 [Implementing Feature Flags Across Stack](https://dev.to/leighfall/implementing-feature-flags-across-stack-29o2)
+Статья о реализации фич-флагов в приложении на Vue 3, C# и SQL. Полезно разработчикам для управления функциональностью приложения.
+#Vue #frontend
+
+🎨 [A First Look at Scroll-Triggered Animations](https://css-tricks.com/css-scroll-triggered-animations-first-look/)
+Статья о различиях между скролл-ориентированными и скролл-триггерными анимациями. Полезно разработчикам для создания интерактивных веб-страниц.
+#CSS #frontend
+
+🌐 [Postman Explained: How to Use It, Set Up Environments, and Structure a Real Project](https://dev.to/hamidrazadev/postman-explained-how-to-use-it-set-up-environments-and-structure-a-real-project-3pih)
+Статья о том, как использовать Postman для тестирования API, настройки окружений и структуризации проекта. Полезно разработчикам для работы с API.
+#webdev #frontend
+
+🌐 [I Built a Live Markdown Editor With No Library (~40 Lines)](https://dev.to/dev48v/i-built-a-live-markdown-editor-with-no-library-40-lines-3ln9)
+Статья о создании живого редактора Markdown без использования библиотек. Редактор позволяет мгновенно отображать HTML-код при вводе Markdown. Это может быть полезно разработчикам для создания подобных инструментов.
+#webdev #frontend
+
+🌐 [Surprising economics of load-balanced systems](https://brooker.co.za/blog/2020/08/06/erlang.html)
+Статья о неожиданных экономических аспектах систем с балансировкой нагрузки. Это может быть полезно разработчикам для создания более эффективных систем.
+#tech #webdev
+
+🌐 [I Stored a Website in a Favicon](https://www.timwehrle.de/blog/i-stored-a-website-in-a-favicon/)
+Статья о хранении веб-сайта в фавиконе. Это интересный пример использования нестандартных методов для хранения данных.
+#tech #webdev
+
+_Источников: 5 · Новостей: 9_
