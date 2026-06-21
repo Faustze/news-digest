@@ -25,12 +25,20 @@ def chunk(text: str, size: int = 4000):
 
 def send(text: str, parse_mode: str = "Markdown"):
     for part in chunk(text):
-        resp = httpx.post(API_URL, json={
+        payload = {
             "chat_id":    CHAT_ID,
             "text":       part,
-            "parse_mode": parse_mode,
             "disable_web_page_preview": True,
-        })
+        }
+        if parse_mode:
+            payload["parse_mode"] = parse_mode
+
+        resp = httpx.post(API_URL, json=payload)
+        if resp.status_code == 400 and parse_mode:
+            # Telegram couldn't parse the message (e.g. invalid Markdown).
+            # Retry without parse_mode as plain text.
+            payload.pop("parse_mode", None)
+            resp = httpx.post(API_URL, json=payload)
         resp.raise_for_status()
 
 if __name__ == "__main__":
