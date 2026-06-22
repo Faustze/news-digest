@@ -1,0 +1,63 @@
+📰 *Дайджест 22.06.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "JSON-LD explained for personal websites" поможет разработчикам улучшить SEO и предоставить дополнительную информацию о своем сайте. Кроме того, статья "Open-source MIT Gantt Charts for JavaScript, React, Angular, and Vue" представляет список открытых Gantt-чартов для JavaScript, включая библиотеки для Vue, что может быть полезно для создания сложных графиков и диаграмм. Также стоит отметить статью "Prefer duplication over the wrong abstraction", которая обсуждает важность избегания неправильных абстракций в программировании и предоставляет примеры и идеи для улучшения навыков программирования.
+
+─────────────────────
+
+🌐 [JSON-LD explained for personal websites](https://hawksley.dev/blog/json-ld-explained-for-personal-websites/)
+Статья объясняет, что такое JSON-LD и как его использовать на личных веб-сайтах. Это полезно для разработчиков, чтобы улучшить SEO и предоставить дополнительную информацию о своем сайте. Статья содержит примеры и код, чтобы помочь разработчикам понять, как использовать JSON-LD.
+#webdev #SEO #JSON-LD
+
+🟨 [GenUI: первый взгляд на json-render и MCP Apps](https://habr.com/ru/companies/sberbank/articles/1045380/?utm_campaign=1045380&utm_source=habrahabr&utm_medium=rss)
+Статья о создании интерактивных дашбордов прямо в чате с помощью json-render и MCP Apps. Полезно разработчикам, работающим с frontend и JavaScript.
+#JavaScript #frontend
+
+🖥️ [Good results fine tuning a local LLM like Qwen 3:0.6B to categorize questions](https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions)
+Статья о том, как добиться хороших результатов при тонкой настройке локальной модели LLM для категоризации вопросов. Полезно разработчикам, работающим с AI и frontend.
+#AI #frontend
+
+🌐 [The minimum viable unit of saleable software](https://brandur.org/minimum-viable-unit)
+Статья обсуждает концепцию минимально жизнеспособной единицы продажного программного обеспечения. Это полезно для разработчиков, чтобы понять, как создавать программное обеспечение, которое можно продавать и использовать. Статья содержит примеры и идеи, чтобы помочь разработчикам
+#webdev #software development
+
+💚 [Open-source MIT Gantt Charts for JavaScript, React, Angular, and Vue](https://dev.to/victoria_k_31e331d766411d/open-source-mit-gantt-charts-for-javascript-react-angular-and-vue-1hd4)
+В статье представлен список открытых Gantt-чартов для JavaScript, включая библиотеки для Vue. Это может быть полезно разработчикам, которым необходимо создавать сложные графики и диаграммы в своих приложениях.
+#Vue #frontend
+
+🖥️ [AI Agent Knowledge Graphs: 7 Critical Mistakes and How to Avoid Them](https://dev.to/edith_heroux_aca4c9046ef5/ai-agent-knowledge-graphs-7-critical-mistakes-and-how-to-avoid-them-3lm8)
+Статья о распространенных ошибках при реализации графов знаний для AI-агентов и о том, как их избежать. Полезно разработчикам, работающим с AI и frontend.
+#AI #frontend
+
+📌 [Samsung Electronics brings ChatGPT and Codex to employees](https://openai.com/index/samsung-electronics-chatgpt-codex-deployment)
+Статья о том, как Samsung Electronics развернула ChatGPT и Codex для своих сотрудников. Полезно разработчикам, интересующимся AI и devtools.
+#AI #devtools
+
+🌐 [Prefer duplication over the wrong abstraction](https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction)
+Статья обсуждает важность избегания неправильных абстракций в программировании. Это полезно для разработчиков, чтобы понять, как писать чистый и эффективный код. Статья содержит примеры и идеи, чтобы помочь разработчикам улучшить свои навыки программирования.
+#webdev #programming
+
+🌐 [How to Automate Image Compression with an API: A Node.js & PHP Guide](https://dev.to/roman_klymenko_39f1198f16/how-to-automate-image-compression-with-an-api-a-nodejs-php-guide-24m3)
+Статья описывает, как автоматизировать сжатие изображений с помощью API, что может быть полезно для улучшения производительности веб-приложений. Приведены примеры на Node.js и PHP.
+#webdev #frontend
+
+🌐 [10 Technical SEO Mistakes That Are Killing Your Website Traffic](https://dev.to/synfinity-dynamics-pvt-ltd/10-technical-seo-mistakes-that-are-killing-your-website-traffic-1nn8)
+В статье перечислены 10 технических ошибок, которые могут негативно повлиять на трафик веб-сайта. Это может быть полезно разработчикам, которые хотят улучшить SEO своих приложений.
+#webdev #frontend
+
+🌐 [Your Schema Is Valid. Google Still Won't Show Rich Results. Here's Why](https://dev.to/pbbdesign/your-schema-is-valid-google-still-wont-show-rich-results-heres-why-57o2)
+Статья объясняет, почему валидная схема не гарантирует отображение богатых результатов в Google. Это может быть полезно разработчикам, которые хотят улучшить видимость своих приложений в поисковых системах.
+#webdev #frontend
+
+🌐 [Why Businesses Are Investing in AI Automation and ChatGPT Integration in 2026](https://dev.to/infocratsweb/why-businesses-are-investing-in-ai-automation-and-chatgpt-integration-in-2026-3ii6)
+Статья описывает, почему компании инвестируют в автоматизацию с помощью ИИ и интеграцию с ChatGPT. Это может быть полезно разработчикам, которые хотят узнать о последних тенденциях в области ИИ и автоматизации.
+#webdev #frontend
+
+🌐 [From Research to Deployed App: Can a Non-Technical Founder Build a Secure Web App with Claude Code?](https://dev.to/inquerium/from-research-to-deployed-app-can-a-non-technical-founder-build-a-secure-web-app-with-claude-code-apm)
+Статья исследует возможность создания безопасного веб-приложения с помощью Claude Code без технических знаний. Это может быть полезно разработчикам, которые хотят узнать о новых инструментах и технологиях.
+#webdev #frontend
+
+🟨 [Бесплатное lo-fi радио + живые обои на рабочий стол: собрал десктоп-приложение на Tauri 2 (форк lofi-engine)](https://habr.com/ru/articles/1050316/?utm_campaign=1050316&utm_source=habrahabr&utm_medium=rss)
+Статья о создании десктоп-приложения на Tauri 2 для проигрывания lo-fi радио и отображения живых обоев. Полезно разработчикам, работающим с frontend и JavaScript.
+#JavaScript #frontend
+
+_Источников: 5 · Новостей: 14_
