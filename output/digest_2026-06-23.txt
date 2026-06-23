@@ -1,0 +1,67 @@
+📰 *Дайджест 23.06.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Quasar Framework получил большое обновление с app-vite v3, которое принесло улучшения производительности и новые функции. Кроме того, OpenAI представила инициативу Patch the Planet, которая помогает поддерживать открытое программное обеспечение и повышать безопасность проектов. Также была опубликована статья о том, как конвертировать документы Word в PDF прямо в браузере с помощью Vue 3, mammoth и html2pdf.js, что может быть полезно разработчикам для создания клиент-сайд конвертеров документов.
+
+─────────────────────
+
+💚 [Atualização Quasar Framework - app-vite v3](https://dev.to/patrickmonteiro/atualizacao-quasar-framework-app-vite-v3-3396)
+Quasar Framework получил большое обновление с app-vite v3, которое принесло улучшения производительности, изменения в архитектуре и новые функции, которые могут повлиять на ваши проекты. Это обновление включает в себя Rolldown вместо esbuild, новый систем переменных окружения и у
+#Vue #frontend
+
+📌 [Patch the Planet: a Daybreak initiative to support open source maintainers](https://openai.com/index/patch-the-planet)
+OpenAI представляет Patch the Planet, инициативу Daybreak, которая помогает поддерживать открытое программное обеспечение, находить, проверять и исправлять уязвимости с помощью ИИ и экспертного обзора. Это может быть полезно разработчикам для повышения безопасности своих проектов
+#AI #devtools
+
+💚 [How to Convert Word Documents to PDFs in the Browser with Vue 3, mammoth, and html2pdf.js](https://dev.to/sunshey/how-to-convert-word-documents-to-pdfs-in-the-browser-with-vue-3-mammoth-and-html2pdfjs-15kh)
+Эта статья показывает, как можно конвертировать документы Word в PDF прямо в браузере с помощью Vue 3, mammoth и html2pdf.js. Это может быть полезно для разработчиков, которые хотят создать клиент-сайд конвертер документов без необходимости использования сервера.
+#Vue #frontend
+
+🟨 [Браузер как платформа — офисные инструменты и IT-утилиты без сервера, без установки, без регистрации](https://habr.com/ru/articles/1050748/?utm_campaign=1050748&utm_source=habrahabr&utm_medium=rss)
+Статья рассказывает о создании офисных инструментов и IT-утилит, которые работают прямо в браузере, без необходимости установки или регистрации. Это может быть интересно разработчикам, которые ищут новые подходы к созданию веб-приложений.
+#JavaScript #frontend
+
+🌐 [Web Scraping vs. Browser-Extensions – Wann welches Tool für die Datenextraktion?](https://dev.to/circobit/web-scraping-vs-browser-extensions-wann-welches-tool-fur-die-datenextraktion-1ikp)
+Эта статья сравнивает веб-скрейпинг и браузер-расширения как инструменты для извлечения данных из веб-страниц. Это может быть полезно для разработчиков, которые хотят создать инструменты для извлечения данных из веб-страниц.
+#webdev #frontend
+
+🌐 [5 Trends Shaping Modern App Development in 2026](https://dev.to/noushad_patel/5-trends-shaping-modern-app-development-in-2026-5gn1)
+В статье обсуждаются 5 тенденций, формирующих современное развитие приложений в 2026 году, включая использование LLM SDK и рост популярности TypeScript. Это может быть полезно разработчикам для понимания будущих направлений в отрасли.
+#webdev #frontend
+
+🟨 [Как я собрал новостной агрегатор HypeNet на Cloudflare Workers + Supabase и что пошло не так](https://habr.com/ru/articles/1050650/?utm_campaign=1050650&utm_source=habrahabr&utm_medium=rss)
+Автор делится опытом создания новостного агрегатора HypeNet, используя Cloudflare Workers и Supabase. Статья может быть полезна разработчикам, интересующимся веб-разработкой и использованием новых технологий.
+#JavaScript #frontend
+
+🟨 [Устал загружать конфиденциальные данные в онлайн-сервисы, поэтому сделал PrivacyKit](https://habr.com/ru/articles/1050488/?utm_campaign=1050488&utm_source=habrahabr&utm_medium=rss)
+Автор создал PrivacyKit, набор инструментов для работы с конфиденциальными данными без загрузки их в онлайн-сервисы. Это может быть интересно разработчикам, которые заботятся о безопасности и конфиденциальности данных.
+#JavaScript #frontend
+
+🟨 [Я собрал линтер для юридического соответствия сайтов. Сложнее всего было отличить Google Analytics от CSS‑переменной](https://habr.com/ru/articles/1050412/?utm_campaign=1050412&utm_source=habrahabr&utm_medium=rss)
+Автор создал линтер для проверки юридического соответствия сайтов. Статья может быть полезна разработчикам, которые занимаются созданием веб-приложений и хотят обеспечить их соответствие юридическим требованиям.
+#JavaScript #frontend
+
+🟨 [GenUI: первый взгляд на json-render и MCP Apps](https://habr.com/ru/companies/sberbank/articles/1045380/?utm_campaign=1045380&utm_source=habrahabr&utm_medium=rss)
+Статья рассказывает о GenUI, инструменте для создания интерактивных дашбордов прямо в чате. Это может быть интересно разработчикам, которые занимаются созданием веб-приложений и хотят добавить новые функции.
+#JavaScript #frontend
+
+🟨 [Бесплатное lo-fi радио + живые обои на рабочий стол: собрал десктоп-приложение на Tauri 2 (форк lofi-engine)](https://habr.com/ru/articles/1050316/?utm_campaign=1050316&utm_source=habrahabr&utm_medium=rss)
+Автор создал десктоп-приложение на Tauri 2, которое включает в себя lo-fi радио и живые обои. Статья может быть полезна разработчикам, которые интересуются созданием десктоп-приложений и использованием новых технологий.
+#JavaScript #frontend
+
+📌 [Ask HN: Anthropic banned me from using Claude Code and I don't know what to do](https://news.ycombinator.com/item?id=48641160)
+Пользователь был забанен в Claude Code, инструменте для генерации кода на основе ИИ, и ищет помощи. Это может быть интересно разработчикам, которые используют подобные инструменты или сталкиваются с подобными проблемами.
+#AI #devtools
+
+💚 [Open-source MIT Gantt Charts for JavaScript, React, Angular, and Vue](https://dev.to/victoria_k_31e331d766411d/open-source-mit-gantt-charts-for-javascript-react-angular-and-vue-1hd4)
+В этой статье представлен список открытых Gantt-чартов для JavaScript, React, Angular и Vue, которые можно использовать в своих проектах. Это может быть полезно для разработчиков, которые хотят создать интерактивные графики в своих приложениях.
+#Vue #frontend
+
+🟨 [JavaScript Array Methods](https://dev.to/karthick_07/javascript-array-methods-5a15)
+Эта статья представляет обзор методов массивов в JavaScript, включая .forEach(), который можно использовать для итерации по элементам массива. Это может быть полезно для разработчиков, которые хотят улучшить свои навыки работы с массивами в JavaScript.
+#JavaScript #frontend
+
+📌 [From pledge to practice: Building a more inclusive open source ecosystem](https://github.blog/open-source/from-pledge-to-practice-building-a-more-inclusive-open-source-ecosystem/)
+Статья рассказывает о прогрессе в достижении целей по созданию более инклюзивной экосистемы открытого исходного кода. Это может быть интересно разработчикам, которые занимаются открытым исходным кодом и хотят внести свой вклад в создание более инклюзивной среды.
+#AI #devtools
+
+_Источников: 6 · Новостей: 15_
