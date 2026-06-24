@@ -1,0 +1,43 @@
+📰 *Дайджест 24.06.2026*
+
+Сегодня в мире фронтенда и Python произошли интересные события. Статья "How does VuReact compile Vue 3's defineModel to React?" описывает, как инструмент VuReact компилирует defineModel из Vue 3 в React, что может быть полезно разработчикам, которые хотят перенести свои знания Vue на React. Кроме того, статья "How I Delete PDF Pages in the Browser with Vue 3 and pdf-lib" показывает, как удалить страницы из PDF-файла в браузере с помощью Vue 3 и библиотеки pdf-lib. Также стоит отметить статью "Prop For That", в которой обсуждается возможность передачи информации из JavaScript в CSS с помощью пропсов, что может быть полезно для создания более динамичных и интерактивных веб-страниц.
+
+─────────────────────
+
+💚 [How does VuReact compile Vue 3's defineModel to React?](https://dev.to/smirk9581/how-does-vureact-compile-vue-3s-definemodel-to-react-378n)
+VuReact - это инструмент для миграции с Vue на React. В этой статье описано, как VuReact компилирует defineModel из Vue 3 в React. Это может быть полезно разработчикам, которые хотят перенести свои знания Vue на React.
+#Vue #React #frontend
+
+💚 [How I Delete PDF Pages in the Browser with Vue 3 and pdf-lib](https://dev.to/sunshey/how-i-delete-pdf-pages-in-the-browser-with-vue-3-and-pdf-lib-26ce)
+В этой статье описано, как удалить страницы из PDF-файла в браузере с помощью Vue 3 и библиотеки pdf-lib. Это может быть полезно разработчикам, которые работают с PDF-файлами в своих приложениях.
+#Vue #pdf-lib #frontend
+
+🟨 [Ограничения Manifest V3 в расширении EasyProxy для управления прокси](https://habr.com/ru/articles/1050942/?utm_campaign=1050942&utm_source=habrahabr&utm_medium=rss)
+Статья о создании расширения для управления прокси, в которой обсуждаются ограничения Manifest V3 и отличия API Firefox и Chrome Extensions. Полезно разработчикам, которые работают с расширениями браузеров и JavaScript.
+#JavaScript #frontend
+
+🖥️ [Prop For That](https://master.dev/blog/prop-for-that/)
+В этой статье обсуждается возможность передачи информации из JavaScript в CSS с помощью пропсов. Это может быть полезно разработчикам, которые хотят создавать более динамичные и интерактивные веб-страницы.
+#frontend #CSS #JavaScript
+
+📌 [I automated my job (and it made me a better leader)](https://github.blog/developer-skills/github/i-automated-my-job-and-it-made-me-a-better-leader/)
+Статья о том, как автоматизация задач может улучшить производительность и лидерство. Полезно разработчикам, которые интересуются автоматизацией и улучшением процессов.
+#AI #devtools
+
+🌐 [Adding / removing methods in Javascript](https://dev.to/pdhanush26/adding-removing-methods-in-javascript-2p74)
+Статья о добавлении и удалении методов в JavaScript. Полезно разработчикам, которые работают с JavaScript и хотят улучшить свои навыки.
+#webdev #frontend
+
+📌 [GitHub joins coalition advocating for fixes to California AI Transparency Act to protect open source](https://github.blog/news-insights/policy-news-and-insights/github-joins-coalition-advocating-for-fixes-to-california-ai-transparency-act-to-protect-open-source/)
+Статья о том, как GitHub присоединился к коалиции, выступающей за исправления закона о прозрачности ИИ в Калифорнии, чтобы защитить открытый исходный код. Полезно разработчикам, которые интересуются ИИ и открытым исходным кодом.
+#AI #devtools
+
+📌 [Helping build shared standards for advanced AI](https://openai.com/index/helping-build-shared-standards-for-advanced-ai)
+Статья о том, как OpenAI помогает создавать общие стандарты для продвинутого ИИ. Полезно разработчикам, которые интересуются ИИ и его применением.
+#AI #devtools
+
+📌 [How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery](https://openai.com/index/gpt-5-immunology-mystery)
+Статья о том, как GPT-5 помог иммунологу Дерья Унумаз решить 3-летнюю загадку. Полезно разработчикам, которые интересуются ИИ и его применением в различных областях.
+#AI #devtools
+
+_Источников: 6 · Новостей: 9_
