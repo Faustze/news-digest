@@ -1,0 +1,51 @@
+📰 *Дайджест 25.06.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "How I Add Page Numbers to PDFs in the Browser with Vue 3 and pdf-lib" рассказывает о том, как добавить номера страниц к PDF-документам в браузере с помощью Vue 3 и библиотеки pdf-lib. Кроме того, вышла статья "From Code to npm: Vue 3 Component Library Publishing Guide", которая предоставляет полное руководство по публикации библиотеки компонентов Vue 3 в npm. Также стоит отметить статью о HTML Sanitizer API, который может положить конец эпохе DOMPurify и XSS-страданий, позволяя разработчикам очищать HTML-код от вредоносного контента.
+
+─────────────────────
+
+💚 [How I Add Page Numbers to PDFs in the Browser with Vue 3 and pdf-lib](https://dev.to/sunshey/how-i-add-page-numbers-to-pdfs-in-the-browser-with-vue-3-and-pdf-lib-1812)
+Статья рассказывает о том, как добавить номера страниц к PDF-документам в браузере с помощью Vue 3 и библиотеки pdf-lib. Это может быть полезно разработчикам, которые работают с PDF-документами и хотят добавить эту функциональность к своим приложениям.
+#Vue #frontend
+
+💚 [From Code to npm: Vue 3 Component Library Publishing Guide](https://dev.to/yuelinghuashu/from-code-to-npm-vue-3-component-library-publishing-guide-1b78)
+Статья предоставляет полное руководство по публикации библиотеки компонентов Vue 3 в npm. Это может быть полезно разработчикам, которые хотят поделиться своими компонентами с другими или использовать их в своих проектах.
+#Vue #frontend
+
+🟨 [[Перевод] HTML Sanitizer API: конец эпохи DOMPurify и XSS-страданий](https://habr.com/ru/companies/timeweb/articles/1037990/?utm_campaign=1037990&utm_source=habrahabr&utm_medium=rss)
+Статья о HTML Sanitizer API, который может положить конец эпохе DOMPurify и XSS-страданий. Этот API позволяет разработчикам очищать HTML-код от вредоносного контента, что делает сайты более безопасными. Это полезно разработчикам, поскольку они могут использовать этот API для защи
+#JavaScript #frontend #security
+
+🟨 [[Перевод] Релиз Astro 7: переход на Rust, улучшенное кэширование и поддержка AI-разработки](https://habr.com/ru/companies/first/articles/1051258/?utm_campaign=1051258&utm_source=habrahabr&utm_medium=rss)
+Статья о релизе Astro 7, который включает переход на Rust, улучшенное кэширование и поддержку AI-разработки. Astro — фреймворк для сайтов, который минимизирует поставку JavaScript на клиент, обеспечивая высокую производительность. Это полезно разработчикам, поскольку они могут ис
+#JavaScript #frontend #performance
+
+💚 [Client-Side Video Transcoding with FFmpeg.wasm — No Server Required](https://dev.to/northbeamtech/client-side-video-transcoding-with-ffmpegwasm-no-server-required-4lj9)
+Статья рассказывает о том, как использовать FFmpeg.wasm для транскодирования видео на клиентской стороне без необходимости сервера. Это может быть полезно разработчикам, которые работают с видео-контентом и хотят уменьшить нагрузку на сервер.
+#Vue #frontend
+
+🌐 [AI Development in 2026: A Practical Guide for Founders and CTOs](https://dev.to/aisova_technologies/ai-development-in-2026-a-practical-guide-for-founders-and-ctos-34pp)
+Статья предоставляет практическое руководство по разработке искусственного интеллекта в 2026 году. Это может быть полезно разработчикам, которые хотят использовать AI в своих проектах и хотят понять, как это сделать эффективно.
+#webdev #frontend
+
+🌐 [Building Trust Into Authentication: Practical Access Control Patterns for Modern Apps](https://dev.to/samiatakande11/building-trust-into-authentication-practical-access-control-patterns-for-modern-apps-55pc)
+Статья рассказывает о том, как построить доверие в процесс аутентификации и авторизации. Это может быть полезно разработчикам, которые хотят создать безопасные и надежные системы аутентификации и авторизации.
+#webdev #frontend
+
+🖥️ [Let’s Play With Gap Decorations!](https://master.dev/blog/lets-play-with-gap-decorations/)
+Статья рассказывает о том, как использовать CSS-свойство `rule` для создания декоративных элементов в пробелах между колонками и строками. Это может быть полезно разработчикам, которые хотят добавить визуальный интерес к своим веб-страницам.
+#frontend #webdev
+
+📌 [Anthropic says Alibaba illicitly extracted Claude AI model capabilities](https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/)
+Статья о том, как Alibaba незаконно извлекла возможности модели AI Claude. Это может быть интересно разработчикам, которые работают с AI и машинным обучением, поскольку они могут столкнуться с подобными проблемами.
+#AI #machine learning
+
+📌 [OpenAI unveils its first custom chip, built by Broadcom](https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/)
+Статья о том, как OpenAI представила свою первую кастомную микросхему, разработанную компанией Broadcom. Это может быть интересно разработчикам, которые работают с AI и машинным обучением, поскольку они могут использовать эту микросхему для улучшения производительности своих моде
+#AI #machine learning #hardware
+
+📌 [Cloudflare launched self-managed OAuth for all](https://blog.cloudflare.com/oauth-for-all/)
+Статья о том, как Cloudflare запустила самоуправляемый OAuth для всех. Это может быть интересно разработчикам, которые работают с безопасностью и аутентификацией, поскольку они могут использовать эту функцию для улучшения безопасности своих приложений.
+#security #authentication
+
+_Источников: 5 · Новостей: 11_
