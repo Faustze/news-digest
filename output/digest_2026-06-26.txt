@@ -1,0 +1,67 @@
+📰 *Дайджест 26.06.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "Your Design System Is Now an API for Machines" обсуждает важность дизайн-систем в контексте разработки приложений с использованием ИИ. Кроме того, статья "How I Split PDFs in the Browser with Vue 3 and pdf-lib" рассказывает, как создать инструмент для разделения PDF-файлов в браузере, используя Vue 3 и библиотеку pdf-lib. Также стоит отметить статью "Convert a JSON API Response to Excel: 3 Ways (No-Code, Python, Power Query)", которая предлагает три способа конвертировать ответы API из JSON в Excel. Эти статьи могут быть полезными для разработчиков, которые работают с Vue, Python и JSON API.
+
+─────────────────────
+
+📌 [Your Design System Is Now an API for Machines](https://dev.to/parsajiravand/your-design-system-is-now-an-api-for-machines-49mo)
+Статья обсуждает важность дизайн-систем в контексте разработки приложений с использованием ИИ. Автор утверждает, что хорошо спроектированная дизайн-система может стать API для машин, позволяя им генерировать высококачественные интерфейсы. Это может быть полезно разработчикам, кот
+#AI #design system
+
+📌 [Evaluating performance and efficiency of the GitHub Copilot agentic harness across models and tasks](https://github.blog/ai-and-ml/github-copilot/evaluating-performance-and-efficiency-of-the-github-copilot-agentic-harness-across-models-and-tasks/)
+GitHub Copilot представляет собой инструмент, который может помочь разработчикам в их работе. Он может выполнять различные задачи, такие как генерация кода, и может быть полезен для разработчиков, которые работают с различными моделями и задачами. Это может быть особенно полезно
+#AI #devtools
+
+💚 [How I Split PDFs in the Browser with Vue 3 and pdf-lib](https://dev.to/sunshey/how-i-split-pdfs-in-the-browser-with-vue-3-and-pdf-lib-3gcb)
+Автор статьи рассказывает, как он создал инструмент для разделения PDF-файлов в браузере, используя Vue 3 и библиотеку pdf-lib. Для разработчиков, которые работают с PDF-файлами, эта статья может быть полезной для изучения новых подходов и инструментов.
+#Vue #frontend
+
+🐍 [Convert a JSON API Response to Excel: 3 Ways (No-Code, Python, Power Query)](https://dev.to/switchpdf/convert-a-json-api-response-to-excel-3-ways-no-code-python-power-query-3ab0)
+Статья предлагает три способа конвертировать ответы API из JSON в Excel. Автор описывает методы без кода, с использованием Python и Power Query. Это может быть полезно разработчикам, которые работают с API и cần преобразовывать данные в формат Excel.
+#API #Excel #Python
+
+🟨 [8 песочниц в браузере без Docker: как мы изолировали выполнение кода на клиенте](https://habr.com/ru/articles/1052034/?utm_campaign=1052034&utm_source=habrahabr&utm_medium=rss)
+Статья описывает восемь способов изоляции выполнения кода на клиенте в браузере без использования Docker. Автор делится своим опытом и советами по решению этой проблемы. Это может быть полезно разработчикам, которые нуждаются в изоляции кода на клиенте.
+#JavaScript #security
+
+💚 [React vs Angular vs Vue: A Beginner's Guide to Actually Picking One](https://dev.to/krabarena/react-vs-angular-vs-vue-a-beginners-guide-to-actually-picking-one-30m7)
+Статья сравнивает три популярных фреймворка для веб-разработки: React, Angular и Vue. Автор дает советы, как выбрать фреймворк, исходя из потребностей команды и рынка труда. Для разработчиков, которые только начинают работать с фреймворками, эта статья может быть полезной для выб
+#Vue #frontend
+
+🌐 [I asked four AI models which notification infrastructure to use in 2026. Three of them still send you to Twilio.](https://dev.to/bersyn/i-asked-four-ai-models-which-notification-infrastructure-to-use-in-2026-three-of-them-still-send-1gf)
+Статья исследует рекомендации четырех моделей ИИ по выбору инфраструктуры уведомлений для проектов в 2026 году. Три из них рекомендуют использовать Twilio. Это может быть полезно разработчикам, которые ищут лучшие решения для уведомлений в своих приложениях.
+#AI #webdev
+
+🟨 [Несколько LLM-агентов в одном Chrome: изоляция вкладок без потери логинов](https://habr.com/ru/articles/1052062/?utm_campaign=1052062&utm_source=habrahabr&utm_medium=rss)
+Статья описывает способ изоляции вкладок в браузере Chrome для нескольких агентов LLM без потери логинов. Автор делится своим опытом и советами по решению этой проблемы. Это может быть полезно разработчикам, которые работают с агентами LLM и нуждаются в изоляции вкладок.
+#JavaScript #LLM
+
+📌 [Nexus 3 как прокси для npm и PyPI: опыт команды из 16 разработчиков](https://habr.com/ru/articles/1051754/?utm_campaign=1051754&utm_source=habrahabr&utm_medium=rss)
+Статья описывает опыт команды разработчиков, которые использовали Nexus 3 как прокси для npm и PyPI. Автор делится своим опытом и советами по настройке и использованию Nexus 3. Это может быть полезно разработчикам, которые работают с npm и PyPI.
+#npm #PyPI
+
+🟨 [Как протестировать более 40 UI-компонентов за минуту: ускоряем скриншот-тесты](https://habr.com/ru/companies/domclick/articles/1050424/?utm_campaign=1050424&utm_source=habrahabr&utm_medium=rss)
+Статья рассказывает о том, как можно ускорить процесс тестирования UI-компонентов. Это может быть полезно для разработчиков, которые работают с большими проектами и нуждаются в помощи в тестировании. Статья предоставляет информацию о том, как можно использовать скриншот-тесты для
+#JavaScript #frontend
+
+🌐 [Why AI builds the plausible feature, not yours](https://dev.to/adrianszablowski/why-ai-builds-the-plausible-feature-not-yours-2mk8)
+Автор статьи обсуждает проблемы, которые могут возникнуть при использовании инструментов искусственного интеллекта (ИИ) для разработки программного обеспечения. Он объясняет, почему ИИ может создавать функции, которые看似 правильные, но не соответствуют требованиям конкретного прое
+#webdev #frontend
+
+🌐 [Why Converting WebP to PNG Isn't Just Save As](https://dev.to/jamiepark-design/why-converting-webp-to-png-isnt-just-save-as-1alj)
+Статья объясняет, почему конвертация изображений из WebP в PNG не так проста, как может показаться. Автор делится своим опытом и советами по преодолению проблем, связанных с конвертацией. Это может быть полезно разработчикам, которые работают с изображениями на своих проектах.
+#webdev #images
+
+🎨 [translateZ()](https://css-tricks.com/almanac/functions/t/translatez/)
+Статья описывает функцию translateZ() в CSS, которая позволяет перемещать элементы вдоль оси Z. Для разработчиков, которые работают с CSS и создают трехмерные эффекты, эта статья может быть полезной для изучения новых возможностей.
+#CSS #frontend
+
+🎨 [translateY()](https://css-tricks.com/almanac/functions/t/translatey/)
+Статья описывает функцию translateY() в CSS, которая позволяет перемещать элементы вдоль оси Y. Для разработчиков, которые работают с CSS и создают анимации, эта статья может быть полезной для изучения новых возможностей.
+#CSS #frontend
+
+🎨 [translateX()](https://css-tricks.com/almanac/functions/t/translatex/)
+Статья описывает функцию translateX() в CSS, которая позволяет перемещать элементы вдоль оси X. Для разработчиков, которые работают с CSS и создают анимации, эта статья может быть полезной для изучения новых возможностей.
+#CSS #frontend
+
+_Источников: 5 · Новостей: 15_
