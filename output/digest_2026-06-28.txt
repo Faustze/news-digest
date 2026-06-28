@@ -1,0 +1,47 @@
+📰 *Дайджест 28.06.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статьи о том, как использовать Vue 3 и pdf-lib для поворота и добавления водяных знаков к PDF-файлам в браузере, могут быть полезны разработчикам, работающим с PDF-файлами на клиентской стороне. Кроме того, статья о использовании инструментов ИИ в повседневной работе разработчика предлагает практические советы по улучшению производительности и эффективности. Также стоит отметить статью о преимуществах использования TypeScript в веб-разработке, которая описывает, как это может улучшить качество кода и уменьшить количество ошибок.
+
+─────────────────────
+
+💚 [How I Rotate PDFs in the Browser with Vue 3 and pdf-lib](https://dev.to/sunshey/how-i-rotate-pdfs-in-the-browser-with-vue-3-and-pdf-lib-106n)
+Статья описывает, как использовать Vue 3 и pdf-lib для поворота PDF-файлов в браузере. Это полезно для разработчиков, которые хотят работать с PDF-файлами на клиентской стороне. Статья предоставляет пример кода и объясняет, как реализовать эту функциональность.
+#Vue #frontend
+
+💚 [How I Add Watermarks to PDFs in the Browser with Vue 3 and pdf-lib](https://dev.to/sunshey/how-i-add-watermarks-to-pdfs-in-the-browser-with-vue-3-and-pdf-lib-1o97)
+Статья описывает, как использовать Vue 3 и pdf-lib для добавления водяных знаков к PDF-файлам в браузере. Это полезно для разработчиков, которые хотят работать с PDF-файлами на клиентской стороне. Статья предоставляет пример кода и объясняет, как реализовать эту функциональность.
+#Vue #frontend
+
+🌐 [Using AI in Your Daily Dev Workflow (Without the Hype)](https://dev.to/imkrunal/using-ai-in-your-daily-dev-workflow-without-the-hype-57b1)
+Статья предлагает практические советы по использованию инструментов ИИ в повседневной работе разработчика. Она описывает, как использовать ИИ для создания чек-листов, вариаций и быстрого исследования, а также как интегрировать ИИ в рабочий процесс. Это может быть полезно разработ
+#AI #webdev #frontend
+
+🟨 [Как превратить ChatGPT.com в Codex (но без лимитов)](https://habr.com/ru/articles/1052710/?utm_campaign=1052710&utm_source=habrahabr&utm_medium=rss)
+Статья описывает, как создать экспериментальный Chrome-плагин, который позволяет использовать ChatGPT.com как Codex, но без лимитов. Это может быть полезно разработчикам, которые хотят использовать возможности ИИ для генерации кода.
+#AI #JavaScript #frontend
+
+🌐 [TypeScript Won. Here's What That Actually Bought Us.](https://dev.to/parsajiravand/typescript-won-heres-what-that-actually-bought-us-53lo)
+Статья описывает преимущества использования TypeScript в веб-разработке. Это полезно для разработчиков, которые хотят улучшить качество своего кода и уменьшить количество ошибок.
+#webdev #frontend
+
+🌐 [How I Got My Portfolio to 100 PageSpeed on Mobile and Desktop](https://dev.to/maurya-sachin/how-i-got-my-portfolio-to-100-pagespeed-on-mobile-and-desktop-4c9l)
+Статья описывает, как автор смог улучшить производительность своего портфолио до 100 баллов в PageSpeed Insights на мобильных и настольных устройствах. Это полезно для разработчиков, которые хотят улучшить производительность своих веб-приложений.
+#webdev #frontend
+
+🟨 [FM-синтез звука в браузере. Часть 1](https://habr.com/ru/articles/1052640/?utm_campaign=1052640&utm_source=habrahabr&utm_medium=rss)
+Статья описывает возможности браузеров по синтезу звука и предлагает практическое применение - создание эмулятора синтезатора Yamaha DX7. Это может быть полезно разработчикам, которые хотят создавать интерактивные аудио-приложения.
+#JavaScript #frontend #audio
+
+🌐 [I Built a Browser-Based DNS Lookup Tool — A, AAAA, MX, TXT, SOA, CAA, SRV via DNS-over-HTTPS, 149 Tests](https://dev.to/dev_nestio_229945f10652e4/i-built-a-browser-based-dns-lookup-tool-a-aaaa-mx-txt-soa-caa-srv-via-dns-over-https-149-2i8m)
+Статья описывает, как автор создал инструмент для поиска DNS-записей в браузере. Это полезно для разработчиков, которые хотят работать с DNS-записями на клиентской стороне.
+#webdev #frontend
+
+🌐 [I Built a Markdown Table Generator in Pure Vanilla JS — Spreadsheet UI, CSV Import, HTML Output, 129 Tests](https://dev.to/dev_nestio_229945f10652e4/i-built-a-markdown-table-generator-in-pure-vanilla-js-spreadsheet-ui-csv-import-html-output-gji)
+Статья описывает, как автор создал инструмент для генерации таблиц в формате Markdown. Это полезно для разработчиков, которые хотят работать с Markdown на клиентской стороне.
+#webdev #frontend
+
+🌐 [How to Publish a Gemini AI Website in 30 Seconds (No GitHub, No Terminal)](https://dev.to/geminilaunch/how-to-publish-a-gemini-ai-website-in-30-seconds-no-github-no-terminal-p3a)
+Статья описывает, как опубликовать веб-сайт, созданный с помощью Gemini AI, за 30 секунд. Это полезно для разработчиков, которые хотят быстро развернуть свои веб-приложения.
+#webdev #frontend
+
+_Источников: 3 · Новостей: 10_
