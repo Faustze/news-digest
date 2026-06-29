@@ -1,0 +1,47 @@
+📰 *Дайджест 29.06.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Была опубликована статья о том, как ускорить разработку frontend-составляющей проекта в 10 раз с помощью инструментов типа TSGO, Oxlint, Rsbuild, React Compiler и CodeGen. Кроме того, был создан готовый шаблон аутентификации с использованием Nuxt и Supabase, который может быть полезен разработчикам для быстрого запуска новых проектов. Также была опубликована статья о создании доступного DataPicker'а с помощью AI, в которой сравниваются два подхода: использование AI для генерации кода и системное проектирование с агентом. Эти новости могут быть полезны разработчикам для оптимизации своего рабочего процесса и создания доступных интерфейсов.
+
+─────────────────────
+
+📌 [Next.js Environment Variables: The Complete Guide (2026)](https://dev.to/stacknotice/nextjs-environment-variables-the-complete-guide-2026-1f05)
+Статья предоставляет полное руководство по использованию переменных окружения в Next.js. Автор описывает, как использовать переменные окружения, как они работают и какие есть ограничения, что может быть полезно разработчикам, которые работают с Next.js.
+#Next.js #переменные окружения
+
+🟨 [Как мы ускорили разработку Frontend на 10х TSGO, Oxlint, Rsbuild, React Compiler & CodeGen](https://habr.com/ru/articles/1049908/?utm_campaign=1049908&utm_source=habrahabr&utm_medium=rss)
+Статья рассказывает о том, как авторы ускорили разработку frontend-составляющей своего проекта в 10 раз. Они описывают пять направлений, в которых получили измеримый эффект, включая type checking, linting, bundling, API-контракты и React-оптимизации. Для разработчиков это может б
+#JavaScript #frontend
+
+💚 [I made a production ready auth scaffold with Nuxt and Supabase](https://dev.to/theosucksatcode/i-made-a-production-ready-auth-scaffold-with-nuxt-and-supabase-35m2)
+Автор создал готовый шаблон аутентификации с использованием Nuxt и Supabase, который можно использовать для быстрого запуска новых проектов. Этот шаблон может быть полезен разработчикам, которые часто сталкиваются с задачей реализации аутентификации в своих приложениях.
+#Nuxt #Supabase #аутентификация
+
+🟨 [Дайджест JS/TS: новинки ES2026, гонка рантаймов и EAP](https://habr.com/ru/companies/pvs-studio/articles/1052144/?utm_campaign=1052144&utm_source=habrahabr&utm_medium=rss)
+Статья представляет собой дайджест новостей из мира JavaScript и TypeScript. В ней обсуждаются новые возможности языка, такие как новинки ES2026, и сравниваются различные рантаймы. Для разработчиков это может быть полезно для того, чтобы быть в курсе последних событий и тенденций
+#JavaScript #frontend
+
+🟨 [Два способа создания доступного DataPicker'а с помощью AI: 80/20 в пользу AI или системное проектирование с агентом](https://habr.com/ru/articles/1052932/?utm_campaign=1052932&utm_source=habrahabr&utm_medium=rss)
+Статья обсуждает два способа создания доступного DataPicker'а с помощью AI. Авторы сравнивают подходы, основанные на использовании AI для генерации кода и системном проектировании с агентом. Для разработчиков это может быть полезно для создания доступных и удобных интерфейсов.
+#JavaScript #frontend #AI
+
+🟨 [Попросили Claude создать WCAG-доступный DataPicker на React и потратили 3 дня на доработки](https://habr.com/ru/articles/1052878/?utm_campaign=1052878&utm_source=habrahabr&utm_medium=rss)
+Статья рассказывает о том, как авторы попросили AI-систему Claude создать WCAG-доступный DataPicker на React. Они описывают процесс доработки полученного кода и проблемы, с которыми столкнулись. Для разработчиков это может быть полезно для понимания возможностей и ограничений AI
+#JavaScript #frontend #AI
+
+📌 [Dynamic file catalog with Firebase RTDB + Storage (and how I fixed a Service Worker cache bug)](https://dev.to/androve2k/dynamic-file-catalog-with-firebase-rtdb-storage-and-how-i-fixed-a-service-worker-cache-bug-43bn)
+Автор рассказывает о том, как он создал динамический каталог файлов с использованием Firebase Realtime Database и Firebase Storage. Также он описывает, как он исправил ошибку кэширования Service Worker, что может быть полезно разработчикам, которые работают с Firebase и PWA.
+#Firebase #PWA #кэширование
+
+📌 [When the Buyer Is an AI: Optimizing Ecommerce for the Agent Shelf](https://dev.to/iseld/when-the-buyer-is-an-ai-optimizing-ecommerce-for-the-agent-shelf-1pg9)
+Статья рассказывает о том, как AI-агенты меняют способ покупок в интернете. Автор описывает, как разработчики и команды электронной коммерции могут оптимизировать свои приложения для работы с AI-агентами, что может быть полезно разработчикам, которые работают с электронной коммер
+#электронная коммерция #AI #оптимизация
+
+🟨 [Почему Google не индексирует страницы, хотя технически всё в порядке](https://habr.com/ru/articles/1052898/?utm_campaign=1052898&utm_source=habrahabr&utm_medium=rss)
+Статья обсуждает проблему, с которой столкнулся автор, когда Google не индексировала страницы его сайта, несмотря на то, что все технические требования были выполнены. Автор описывает процесс поиска решения и возможные причины проблемы. Для разработчиков это может быть полезно дл
+#JavaScript #frontend #SEO
+
+🎨 [Satori's CSS limits: what it can and can't render](https://dev.to/accreditly/satoris-css-limits-what-it-can-and-cant-render-1fd)
+Статья рассказывает о ограничениях Satori, движка, который конвертирует HTML и CSS в SVG. Автор описывает, какие CSS-правила поддерживаются и какие нет, что может быть полезно разработчикам, которые работают с веб-приложениями.
+#CSS #Satori #SVG
+
+_Источников: 3 · Новостей: 10_
