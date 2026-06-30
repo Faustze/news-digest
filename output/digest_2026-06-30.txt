@@ -1,0 +1,67 @@
+📰 *Дайджест 30.06.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "Vue.js vs Next.js: Modal Routing — A Side-by-Side Breakdown" сравнивает возможности Vue.js и Next.js в плане маршрутизации модальных окон, что может быть полезно разработчикам для выбора подходящего фреймворка. Кроме того, статья "Monitoring Your Vue.js App with Vigilmon" рассказывает о том, как использовать Vigilmon для мониторинга приложений Vue.js и обеспечения их стабильности и производительности. Также стоит отметить статью "Container Queries: The Responsive Primitive We Should Have Had All Along", которая представляет новый подход к созданию адаптивных версток с помощью контейнерных запросов. Эти статьи могут быть полезны разработчикам для улучшения своих навыков и создания более эффективных и масштабируемых приложений.
+
+─────────────────────
+
+💚 [Vue.js vs Next.js: Modal Routing — A Side-by-Side Breakdown](https://dev.to/heba_allah/parallel-and-intercepted-routes-between-vue-and-next-1cf1)
+Статья о сравнении Vue.js и Next.js в плане маршрутизации модальных окон. Это может быть полезно разработчикам для выбора подходящего фреймворка для своих проектов.
+#Vue #frontend
+
+💚 [Monitoring Your Vue.js App with Vigilmon: Frontend Uptime, API Health & Alerts](https://dev.to/vigilmon/monitoring-your-vuejs-app-with-vigilmon-frontend-uptime-api-health-alerts-1bc5)
+Статья о том, как использовать Vigilmon для мониторинга приложений Vue.js. Это может быть полезно разработчикам для обеспечения стабильности и производительности своих приложений.
+#Vue #frontend
+
+💚 [PrimeVue Shifts to Proprietary Licensing: Key Components Paywalled, Upgrades Require Paid License](https://dev.to/maxgeris/primevue-shifts-to-proprietary-licensing-key-components-paywalled-upgrades-require-paid-license-c2d)
+Статья о том, что PrimeVue перешел на проприетарную лицензию, что может повлиять на разработчиков, использующих этот фреймворк.
+#Vue #frontend
+
+🎨 [Container Queries: The Responsive Primitive We Should Have Had All Along](https://dev.to/parsajiravand/container-queries-the-responsive-primitive-we-should-have-had-all-along-46dn)
+Статья о контейнерных запросах, которые являются новым подходом к созданию адаптивных версток. Это может быть полезно разработчикам для создания более гибких и адаптивных компонентов.
+#CSS #responsive design
+
+🟨 [Микрофронтенды. Стабильная интеграция нескольких SPA-приложений. Часть 1](https://habr.com/ru/companies/infowatch/articles/1053506/?utm_campaign=1053506&utm_source=habrahabr&utm_medium=rss)
+Статья о микрофронтендах и их интеграции в SPA-приложениях. Это может быть полезно разработчикам для создания более масштабируемых и поддерживаемых приложений.
+#JavaScript #frontend #microfrontends
+
+🟨 [[Перевод] Набор инструментов для разработчика: готовим сайт к эпохе AI-агентов](https://habr.com/ru/articles/1053356/?utm_campaign=1053356&utm_source=habrahabr&utm_medium=rss)
+Статья о наборе инструментов для разработчиков, которые помогают подготовить сайт к эпохе AI-агентов. Это может быть полезно разработчикам для создания более удобных и эффективных интерфейсов.
+#JavaScript #AI #UX
+
+🟨 [TeamPCP: как команда хакеров-любителей «Дюны» закинула в наши Node.js-пакеты червей Shai-Hulud](https://habr.com/ru/companies/ruvds/articles/1051336/?utm_campaign=1051336&utm_source=habrahabr&utm_medium=rss)
+Статья о проблеме безопасности в Node.js-пакетах и о том, как команда хакеров смогла внедрить червей в пакеты. Полезно разработчикам, которые работают с Node.js и заботятся о безопасности своих проектов.
+#JavaScript #frontend
+
+💚 [Hublo: a web desktop that runs as your own Unix user over SSH — with a sandboxed app store](https://dev.to/aurelien_dippe_27be8338c6/hublo-a-web-desktop-that-runs-as-your-own-unix-user-over-ssh-with-a-sandboxed-app-store-394n)
+Статья о создании веб-интерфейса для управления сервером Linux без необходимости использования терминала. Это может быть полезно разработчикам для упрощения работы с серверами.
+#Vue #frontend
+
+🎨 [The Shifting Line Between CSS States and JavaScript Events](https://css-tricks.com/css-states-and-javascript-events/)
+Статья о том, как новые возможности CSS размывают границу между тем, что может быть сделано с помощью CSS и JavaScript. Это может быть полезно разработчикам для оптимизации кода и улучшения производительности.
+#CSS #frontend
+
+💚 [How I Compress PDFs in the Browser with Vue 3 and pdf-lib](https://dev.to/sunshey/how-i-compress-pdfs-in-the-browser-with-vue-3-and-pdf-lib-2f80)
+Статья о том, как сжимать PDF-файлы в браузере с помощью Vue 3 и pdf-lib. Это может быть полезно разработчикам для оптимизации размера файлов.
+#Vue #frontend
+
+🌐 [How to Create a Responsive Dropdown Menu in Tailwind CSS](https://dev.to/templatesjungle/how-to-create-a-responsive-dropdown-menu-in-tailwind-css-p72)
+Статья о том, как создать адаптивное меню dropdown с помощью Tailwind CSS. Это может быть полезно разработчикам для улучшения пользовательского опыта своих приложений.
+#webdev #frontend
+
+🟨 [Baseline: май 2026](https://habr.com/ru/articles/1053360/?utm_campaign=1053360&utm_source=habrahabr&utm_medium=rss)
+Статья об обновлениях браузерных API и их применении в продакшене. Это может быть полезно разработчикам для поддержки последних технологий и улучшения производительности приложений.
+#JavaScript #browser API
+
+🟨 [Canvas или SVG для карты офиса: как мы выбрали и справились с неочевидными граблями](https://habr.com/ru/articles/1052156/?utm_campaign=1052156&utm_source=habrahabr&utm_medium=rss)
+Статья о выборе между Canvas и SVG для создания интерактивной карты офиса. Авторы выбрали SVG и рассказывают о своем опыте. Полезно разработчикам, которые работают с frontend и сталкиваются с подобными задачами.
+#JavaScript #frontend
+
+📌 [Working With AI: A concrete example](https://htmx.org/essays/working-with-ai/)
+Эта статья предоставляет пример работы с ИИ, что может быть полезно разработчикам для понимания того, как интегрировать ИИ в свои проекты. Статья описывает опыт работы с ИИ и дает советы по эффективному использованию ИИ в разработке. Это может быть полезно для разработчиков, кото
+#AI
+
+🌐 [How AI OCR handles messy real-world screenshots](https://dev.to/lucky_chan/how-ai-ocr-handles-messy-real-world-screenshots-39ch)
+Статья о том, как AI-OCR обрабатывает реальные скриншоты с шумом и другими проблемами. Это может быть полезно разработчикам для улучшения распознавания текста в своих приложениях.
+#webdev #frontend
+
+_Источников: 5 · Новостей: 15_
