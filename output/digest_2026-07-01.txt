@@ -1,0 +1,59 @@
+📰 *Дайджест 01.07.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "Why Your Vue.js Site Isn't Ranking on Google" объясняет, почему сайты на Vue.js могут не индексироваться в Google и предлагает решение с помощью серверной отрисовки. Кроме того, статья "Микрофронтенды. Стабильная интеграция нескольких SPA-приложений. Часть 2" делится опытом о стабильной интеграции нескольких SPA-приложений, что может быть полезно для разработчиков, работающих с микрофронтендами. Также стоит отметить статью "How I Built a Browser-Based PDF to Word Converter with Vue 3, pdf.js, and docx", в которой рассказывается о создании конвертера PDF в Word, работающего прямо в браузере, используя Vue 3.
+
+─────────────────────
+
+💚 [Why Your Vue.js Site Isn't Ranking on Google](https://dev.to/f4ban/why-your-vuejs-site-isnt-ranking-on-google-16p3)
+Статья объясняет, почему сайты на Vue.js могут не индексироваться в Google. Проблема заключается в том, что Googlebot не выполняет JavaScript как браузер, поэтому не может прочитать контент сайта. Для решения этой проблемы необходимо использовать серверную отрисовку или другие ме
+#Vue #frontend
+
+📌 [Prompt Steganography in Production AI: How Claude Code Embeds Hidden Watermarks in Your API Requests — and What Every Developer Should Know](https://dev.to/monuminu/prompt-steganography-in-production-ai-how-claude-code-embeds-hidden-watermarks-in-your-api-28c5)
+Статья о том, как Claude Code использует скрытые водяные знаки в запросах API и что каждый разработчик должен знать об этом. Это может быть полезно для разработчиков, которые работают с AI и хотят понять, как защитить свои приложения от скрытых угроз.
+#AI #devtools
+
+📌 [How GitHub maintains compliance for open source dependencies](https://github.blog/enterprise-software/governance-and-compliance/how-github-maintains-compliance-for-open-source-dependencies/)
+Статья о том, как GitHub поддерживает соответствие требованиям для открытых исходных кодов. Автор делится опытом о том, как использовать новый продукт GitHub для управления открытыми исходными кодами и поддерживать соответствие требованиям. Это может быть полезно для разработчико
+#AI #devtools
+
+🟨 [Микрофронтенды. Стабильная интеграция нескольких SPA-приложений. Часть 2](https://habr.com/ru/companies/infowatch/articles/1053978/?utm_campaign=1053978&utm_source=habrahabr&utm_medium=rss)
+Статья о микрофронтендах и их интеграции. Автор делится опытом о том, как стабильно интегрировать несколько SPA-приложений и дает советы и рекомендации по этому поводу. Это может быть полезно для разработчиков, которые работают с микрофронтендами и хотят улучшить свою производите
+#JavaScript #frontend
+
+🌐 [Google copybara: moving code between repositories](https://github.com/google/copybara)
+Инструмент Google copybara позволяет перемещать код между репозиториями. Это может быть полезно разработчикам для оптимизации их рабочего процесса и управления кодовой базой.
+#devtools #webdev
+
+💚 [How I Built a Browser-Based PDF to Word Converter with Vue 3, pdf.js, and docx](https://dev.to/sunshey/how-i-built-a-browser-based-pdf-to-word-converter-with-vue-3-pdfjs-and-docx-1fa3)
+Статья рассказывает о том, как создать конвертер PDF в Word, работающий прямо в браузере, используя Vue 3, pdf.js и docx. Автор делится своим опытом и описывает процесс создания такого конвертера.
+#Vue #frontend
+
+🟨 [Pivot grid без сторонних библиотек: кэш, производительность и связанные гриды](https://habr.com/ru/articles/1053776/?utm_campaign=1053776&utm_source=habrahabr&utm_medium=rss)
+Статья о том, как создать pivot grid без использования сторонних библиотек. Автор делится опытом о том, как написать собственный pivot grid на чистом JavaScript и DOM, и как улучшить его производительность. Это может быть полезно для разработчиков, которые хотят создать свой собс
+#JavaScript #frontend
+
+📌 [How ChatGPT adoption has expanded](https://openai.com/index/how-chatgpt-adoption-has-expanded)
+Новые данные OpenAI Signals показывают, как растёт принятие ChatGPT во всём мире, пользователи увеличивают использование, исследуют больше возможностей и стимулируют рост в регионах и языках. Это может быть полезно разработчикам для понимания тенденций в области ИИ и потенциально
+#AI #devtools
+
+🌐 [Why Every Modern Web App Is Quietly Becoming an API First](https://dev.to/marketingwithinzuoo/why-every-modern-web-app-is-quietly-becoming-an-api-first-53pm)
+Статья обсуждает тенденцию современных веб-приложений становиться API-ориентированными. Автор объясняет, почему это происходит и какие преимущества это дает разработчикам.
+#webdev #frontend
+
+📌 [Matrix Orthogonalization Improves Memory in Recurrent Models](https://ayushtambde.com/blog/matrix-orthogonalization-improves-memory-in-recurrent-models/)
+Статья о том, как ортогонализация матриц улучшает память в рекуррентных моделях. Это может быть интересно разработчикам, которые работают с нейронными сетями и хотят улучшить производительность своих моделей.
+#AI #machine learning
+
+🌐 [SpaceX Just Bought the AI Coding Tool I Use. OpenAI Is Going Public at $852B. Here's What Nobody Is Explaining.](https://dev.to/filebar_ag_25deb2c5fe9420/spacex-just-bought-the-ai-coding-tool-i-use-openai-is-going-public-at-852b-heres-what-nobody-is-229i)
+Статья рассказывает о последних событиях в индустрии искусственного интеллекта, включая покупку SpaceX инструмента кодирования AI и выход OpenAI на биржу. Автор анализирует эти события и их возможные последствия для разработчиков.
+#webdev #frontend
+
+🌐 [Data privacy in AI training: federated learning, differential privacy, and synthetic data](https://dev.to/therizwansaleem/data-privacy-in-ai-training-federated-learning-differential-privacy-and-synthetic-data-3mm)
+Статья обсуждает вопросы конфиденциальности данных при обучении моделей искусственного интеллекта. Автор объясняет основные концепции, такие как федеративное обучение, дифференциальная конфиденциальность и синтетические данные.
+#webdev #frontend
+
+📌 [Claude Code is steganographically marking requests](https://thereallo.dev/blog/claude-code-prompt-steganography)
+Статья о том, как Claude Code использует стеганографию для маркировки запросов. Это может быть интересно разработчикам, которые работают с инструментами ИИ и хотят понять, как они функционируют на более глубоком уровне.
+#AI #devtools
+
+_Источников: 6 · Новостей: 13_
