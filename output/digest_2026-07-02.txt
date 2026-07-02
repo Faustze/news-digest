@@ -1,0 +1,55 @@
+📰 *Дайджест 02.07.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "How I Built a Free Online Image & PDF Processing Platform with Vue 3 + FastAPI" предоставляет информацию о том, как построить бесплатную онлайн-платформу для обработки изображений и PDF-файлов с помощью Vue 3 и FastAPI. Кроме того, статья "How I Merge PDFs in the Browser with Vue 3 and pdf-lib" показывает, как объединять PDF-файлы в браузере с помощью Vue 3 и pdf-lib. Также была опубликована статья о новом фреймворке Point0, который представляет собой фулстек TypeScript-фреймворк на Bun и React. Эти статьи могут быть полезны разработчикам, которые работают с Vue, React, Python и PDF-файлами.
+
+─────────────────────
+
+💚 [How does VuReact compile Vue 3's withDefaults to React?](https://dev.to/smirk9581/how-does-vureact-compile-vue-3s-withdefaults-to-react-5coa)
+Статья о том, как VuReact компилирует Vue 3's withDefaults в React. Полезно разработчикам, которые работают с Vue и React.
+#Vue #React
+
+📌 [6 security settings every GitHub maintainer should enable this week](https://github.blog/security/6-security-settings-every-github-maintainer-should-enable-this-week/)
+Статья предоставляет советы по безопасности для разработчиков, которые используют GitHub, что может быть полезно для улучшения безопасности их проектов.
+#devtools #security
+
+🖥️ [Totally Free Course: Claude Code](https://master.dev/blog/totally-free-course-claude-code/)
+Курс по Claude Code, инструменту для настройки кода с помощью AI. Курс охватывает такие темы, как настройка кода для конкретного кодбейса, использование CLAUDE.md и планового режима. Полезно разработчикам, которые хотят улучшить свой код с помощью AI.
+#AI #frontend
+
+💚 [How I Built a Free Online Image & PDF Processing Platform with Vue 3 + FastAPI](https://dev.to/iamuu/how-i-built-a-free-online-image-pdf-processing-platform-with-vue-3-fastapi-4p4o)
+Статья о том, как построить бесплатную онлайн-платформу для обработки изображений и PDF-файлов с помощью Vue 3 и FastAPI. Полезно разработчикам, которые работают с изображениями и PDF-файлами.
+#Vue #FastAPI
+
+🖥️ [AXE Passes, But It's Still Unusable: The Accessibility Bugs Automated Tools Can't Catch](https://dev.to/duncanfaulkner/axe-passes-but-its-still-unusable-the-accessibility-bugs-automated-tools-cant-catch-26ea)
+Статья о том, как автоматические инструменты доступности могут пропустить некоторые ошибки. Полезно разработчикам, которые работают с доступностью и хотят улучшить пользовательский опыт.
+#доступность #frontend
+
+🟨 [Point0 — фулстек TypeScript-фреймворк на Bun и React, о котором я мечтал](https://habr.com/ru/articles/1054310/?utm_campaign=1054310&utm_source=habrahabr&utm_medium=rss)
+Статья представляет новый фреймворк Point0, который может быть интересен разработчикам, которые работают с TypeScript и React.
+#JavaScript #frontend
+
+📌 [Kimi K2.7 Code is generally available in GitHub Copilot](https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/)
+Статья объявляет о доступности нового кода Kimi K2.7 в GitHub Copilot, что может быть интересно разработчикам, которые используют этот инструмент.
+#AI #devtools
+
+💚 [How I Merge PDFs in the Browser with Vue 3 and pdf-lib](https://dev.to/sunshey/how-i-merge-pdfs-in-the-browser-with-vue-3-and-pdf-lib-dp1)
+Статья о том, как объединять PDF-файлы в браузере с помощью Vue 3 и pdf-lib. Полезно разработчикам, которые работают с PDF-файлами и Vue.
+#Vue #PDF
+
+🟨 [[Перевод] Playwright в картинках: как работают фикстуры](https://habr.com/ru/articles/1054132/?utm_campaign=1054132&utm_source=habrahabr&utm_medium=rss)
+Статья объясняет, как работают фикстуры в Playwright, что может быть полезно разработчикам, которые используют этот инструмент для автоматизации тестирования.
+#JavaScript #frontend
+
+🎨 [:has() isn't a parent selector. It deletes JavaScript.](https://dev.to/parsajiravand/has-isnt-a-parent-selector-it-deletes-javascript-4hej)
+Статья о том, как использовать псевдокласс :has() для удаления JavaScript-кода. Полезно разработчикам, которые работают с CSS и JavaScript.
+#CSS #JavaScript
+
+🟨 [Как мы делаем онлайн-режим для браузерной инди-игры, когда бюджет на сервера — $10 в месяц](https://habr.com/ru/articles/1054626/?utm_campaign=1054626&utm_source=habrahabr&utm_medium=rss)
+Статья рассказывает о том, как добавить мультиплеер в браузерную игру с ограниченным бюджетом на сервера. Это может быть полезно разработчикам, которые работают над игровыми проектами и сталкиваются с подобными проблемами.
+#JavaScript #frontend
+
+📌 [The <Usermedia> HTML Element](https://developer.chrome.com/blog/usermedia-html-element)
+Новая HTML-элемент <Usermedia> позволяет получить доступ к медиа-устройствам пользователя, таким как камера и микрофон. Это может быть полезно для разработчиков, создающих веб-приложения, требующие взаимодействия с пользователями. Эта функция может быть использована в приложениях
+#HTML5
+
+_Источников: 6 · Новостей: 12_
