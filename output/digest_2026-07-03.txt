@@ -1,0 +1,67 @@
+📰 *Дайджест 03.07.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Разработчики могут узнать, как добавить личность к своей авторизации Nuxt Supabase, используя Nuxt UI, и как конвертировать страницы PDF в изображения на клиентской стороне с помощью Vue 3 и PDF.js. Кроме того, была представлена новая версия библиотеки ONNX от компании Manticore, которая позволяет ускорить процесс создания эмбеддингов в 14 раз, что полезно для разработчиков, работающих с машинным обучением и искусственным интеллектом. Также была опубликована статья о потенциальных проблемах безопасности при использовании AI-инструментов для разработки приложений, подчеркивающая важность защиты секретных ключей.
+
+─────────────────────
+
+💚 [I gave my Nuxt Supabase auth scaffold some personality on top of Nuxt UI](https://dev.to/theosucksatcode/i-gave-my-nuxt-supabase-auth-scaffold-some-personality-on-top-of-nuxt-ui-2cih)
+Разработчик поделился опытом добавления личности к своей авторизации Nuxt Supabase, используя Nuxt UI. Это может быть полезно для разработчиков, которые хотят создать уникальный и последовательный дизайн для своих приложений.
+#Nuxt #Nuxt UI
+
+💚 [How to Convert PDF Pages to Images with Vue 3 and PDF.js](https://dev.to/sunshey/how-to-convert-pdf-pages-to-images-with-vue-3-and-pdfjs-5h24)
+Эта статья описывает, как использовать Vue 3 и PDF.js для конвертации страниц PDF в изображения на клиентской стороне. Это может быть полезно для разработчиков, которые работают с PDF-файлами в своих приложениях.
+#Vue #PDF.js
+
+💚 [Understanding List Virtualization](https://dev.to/offeringofpie/understanding-list-virtualization-54fk)
+Эта статья объясняет концепцию виртуализации списков и как ее можно использовать для улучшения производительности приложений. Это может быть полезно для разработчиков, которые работают с большими списками данных.
+#Vue #performance
+
+🌐 [Convert Images to PDF in the Browser (No Upload, No Server)](https://dev.to/simran_kaur_9eda1e242c31f/convert-images-to-pdf-in-the-browser-no-upload-no-server-3aap)
+Статья о том, как конвертировать изображения в PDF прямо в браузере, без необходимости загружать их на сервер. Автор предлагает решение, которое позволяет разработчикам создавать более безопасные и удобные приложения.
+#webdev #frontend #JavaScript
+
+📌 [14× faster embeddings: how we rebuilt the ONNX path in Manticore](https://manticoresearch.com/blog/onnx-embeddings-speedup/)
+Компания Manticore представила новую версию своей библиотеки ONNX, которая позволяет ускорить процесс создания эмбеддингов в 14 раз. Это полезно для разработчиков, которые работают с машинным обучением и искусственным интеллектом.
+#AI #machine learning
+
+💚 [vike-vue-content: A Zero-Boilerplate Docs Framework Built on Vike + Vue](https://dev.to/eralchen/vike-vue-content-a-zero-boilerplate-docs-framework-built-on-vike-vue-2e96)
+Эта статья представляет новый фреймворк для создания документации, построенный на основе Vike и Vue. Это может быть полезно для разработчиков, которые хотят создать простую и легкую в использовании документацию для своих проектов.
+#Vue #documentation
+
+🌐 [Your AI-built app may look ready… until a secret key is sitting in plain sight](https://dev.to/vibesolutions/your-ai-built-app-may-look-ready-until-a-secret-key-is-sitting-in-plain-sight-16kl)
+Статья о потенциальных проблемах безопасности при использовании AI-инструментов для разработки приложений. Автор подчеркивает важность защиты секретных ключей и предлагает способы избежать утечки конфиденциальной информации. Для разработчиков важно понимать эти риски и принимать
+#AI #security #webdev
+
+🌐 [The Safari MCP server for web developers](https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers/)
+Компания Apple представила сервер Safari MCP для веб-разработчиков. Этот сервер позволяет разработчикам тестировать и отлаживать свои веб-приложения в Safari. Это полезно для разработчиков, поскольку позволяет им обеспечить совместимость своих приложений с браузером Safari.
+#webdev #Safari
+
+📌 [How GitHub used secret scanning to reach inbox zero](https://github.blog/security/application-security/how-github-used-secret-scanning-to-reach-inbox-zero/)
+Компания GitHub представила статью о том, как они использовали сканирование секретов для достижения нулевой очереди сообщений. Это полезно для разработчиков, которые хотят улучшить безопасность своих проектов.
+#security #devtools
+
+🌐 [The short leash AI coding method for beating Fable](https://blog.okturtles.org/2026/07/short-leash-ai-method/)
+Эта статья представляет собой метод короткого поводка для кодирования с помощью ИИ, который может быть полезен разработчикам для улучшения их навыков программирования. Статья описывает подход к кодированию, который включает в себя использование ИИ для генерации кода и последующей
+#AI #webdev
+
+🌐 [Claude-real-video － any LLM can watch a video](https://github.com/HUANGCHIHHUNGLeo/claude-real-video)
+Эта новость представляет собой проект, который позволяет любому большому языковому модели (LLM) смотреть видео. Это может быть интересно разработчикам, которые работают с ИИ и хотят улучшить взаимодействие между моделями и мультимедийным контентом. Проект может быть полезен для с
+#AI #webdev
+
+🌐 [WXT vs CRXJS: Which Extension Framework Wins in 2026? | ExtensionBooster](https://dev.to/quangpl/wxt-vs-crxjs-which-extension-framework-wins-in-2026-extensionbooster-2c71)
+Статья сравнивает два фреймворка для разработки расширений для браузера: WXT и CRXJS. Автор анализирует их особенности и предлагает рекомендации для разработчиков, которые хотят создать эффективные и удобные расширения.
+#webdev #frontend #extensions
+
+🌐 [Building a world-history map: PostGIS time+bbox search, a full-screen MapLibre UI, and Wikidata ETL lessons](https://dev.to/annalium/building-a-world-history-map-postgis-timebbox-search-a-full-screen-maplibre-ui-and-wikidata-etl-28d5)
+Статья о разработке интерактивной карты мировой истории. Автор делится опытом использования PostGIS, MapLibre и Wikidata для создания полноэкранного интерфейса и предлагает уроки для разработчиков, которые хотят создать подобные проекты.
+#webdev #frontend #GIS
+
+🌐 [Postgres transactions are a distributed systems superpower](https://www.dbos.dev/blog/co-locating-workflow-state-with-your-data)
+Эта статья описывает преимущества использования транзакций в PostgreSQL для распределенных систем. Статья может быть интересна разработчикам, которые работают с базами данных и хотят улучшить производительность и надежность своих систем. Транзакции могут быть полезны для обеспече
+#database #webdev
+
+🟨 [Mini bucket v 3.6.6: Мультиязычность, менеджер переводов и ворох системных исправлений](https://habr.com/ru/articles/1055100/?utm_campaign=1055100&utm_source=habrahabr&utm_medium=rss)
+Статья о новой версии инструмента Mini bucket, который получил поддержку мультиязычности и другие улучшения. Для разработчиков, которые работают с международными проектами, это может быть полезной информацией.
+#JavaScript #frontend #i18n
+
+_Источников: 6 · Новостей: 15_
