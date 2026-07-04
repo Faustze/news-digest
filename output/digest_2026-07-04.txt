@@ -1,0 +1,47 @@
+📰 *Дайджест 04.07.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "How to Build a PDF Upload Checker with Vue 3 and pdf-lib" рассказывает о том, как создать проверку загрузки PDF-файлов с помощью Vue 3 и pdf-lib, что может быть полезно для разработчиков, создающих веб-приложения. Кроме того, была опубликована статья "HTTP Just Got a New Method After 16 Years—Meet QUERY", в которой рассказывается о новой методе HTTP QUERY, позволяющей объединить простоту GET и гибкость POST, что упрощает работу с фильтрами и запросами данных. Также была опубликована статья "Оптимизация next.js monorepo приложения", в которой рассказывается о том, как оптимизировать работу с next.js monorepo приложением, заменив JS-инструменты на нативные. Эти статьи могут быть полезны разработчикам, работающим с Vue, Nuxt и Python.
+
+─────────────────────
+
+💚 [How to Build a PDF Upload Checker with Vue 3 and pdf-lib](https://dev.to/sunshey/how-to-build-a-pdf-upload-checker-with-vue-3-and-pdf-lib-1659)
+Статья о том, как создать проверку загрузки PDF-файлов с помощью Vue 3 и pdf-lib. Это полезно для разработчиков, которые хотят создавать более удобные и безопасные веб-приложения.
+#Vue #frontend #security
+
+📌 [The Rise of Loop Engineering — How AI Coding Agents Are Changing Development in 2026](https://dev.to/sar_007/the-rise-of-loop-engineering-how-ai-coding-agents-are-changing-development-in-2026-57el)
+Использование AI-агентов в разработке может изменить процесс создания программного обеспечения. Это может быть полезно разработчикам, поскольку позволяет автоматизировать некоторые задачи и улучшить производительность.
+#AI #development
+
+🖥️ [The Field Guide to Grid Lanes](https://master.dev/blog/the-field-guide-to-grid-lanes/)
+Статья о возможностях использования display: grid-lanes; для создания сложных макетов. Теперь можно создавать мasonry-лайауты с произвольными ширинами столбцов и правильным порядком вкладок, используя только HTML и CSS. Это полезно для разработчиков, которые хотят создавать сложн
+#CSS Grid #frontend
+
+🌐 [Why I Ditched Socket.IO for Raw WebSockets (And What I Learned)](https://dev.to/nikhilsharma6/why-i-ditched-socketio-for-raw-websockets-and-what-i-learned-55i6)
+Статья о том, почему автор отказался от использования Socket.IO в пользу raw WebSockets. Это полезно для разработчиков, которые хотят создавать более эффективные и масштабируемые веб-приложения.
+#webdev #frontend #performance
+
+📌 [HTTP Just Got a New Method After 16 Years—Meet QUERY](https://dev.to/ravithemore/http-just-got-a-new-method-after-16-years-meet-query-3oic)
+Новая метод HTTP QUERY позволяет объединить простоту GET и гибкость POST, что упрощает работу с фильтрами и запросами данных. Это может быть полезно разработчикам при создании REST API.
+#HTTP #REST API
+
+📌 [Agentic coding notes from Galapagos Island](https://danluu.com/ai-coding/#appendix-agentic-loops-and-writing-this-post)
+Статья о использовании AI-агентов в разработке и их влиянии на процесс создания программного обеспечения. Это может быть полезно разработчикам, интересующимся AI и разработкой.
+#AI #development
+
+💚 [Two Megabytes for Four Lines](https://dev.to/mstrauch/two-megabytes-for-four-lines-131p)
+Статья о проблеме медленной загрузки страницы, содержащей всего четыре строки текста. Автор рассказывает, как он обнаружил проблему и как ее можно решить. Это полезно для разработчиков, которые хотят оптимизировать производительность своих веб-приложений.
+#Vue #frontend #performance
+
+📌 [Оптимизация next.js monorepo приложения](https://habr.com/ru/articles/1055360/)
+Статья о том, как оптимизировать работу с next.js monorepo приложением, заменив JS-инструменты на нативные. Это может быть полезно разработчикам, работающим с next.js.
+#next.js #optimization
+
+🌐 [hreflang Has to Be Bidirectional — Auditing My Own 4-Language Blog Turned Up a Homepage Bug](https://dev.to/jangwook_kim_e31e7291ad98/hreflang-has-to-be-bidirectional-auditing-my-own-4-language-blog-turned-up-a-homepage-bug-3e2)
+Статья о важности использования тега hreflang для указания языка и региона контента. Автор рассказывает, как он обнаружил ошибку на своем собственном сайте и как ее можно исправить. Это полезно для разработчиков, которые хотят создавать более доступные и удобные веб-приложения.
+#webdev #frontend #accessibility
+
+📌 [Performance per dollar is getting faster and cheaper](https://www.wafer.ai/blog/glm52-amd)
+Статья о том, как улучшается производительность компьютеров и снижаются их цены. Это может быть полезно разработчикам, интересующимся вопросами производительности и оптимизации.
+#performance #optimization
+
+_Источников: 6 · Новостей: 10_
