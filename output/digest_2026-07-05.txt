@@ -1,0 +1,15 @@
+📰 *Дайджест 05.07.2026*
+
+Сегодня в мире фронтенда и Python произошли интересные события. Был представлен проект Art Supabase Pro, который предлагает открытый исходный код административного шаблона на основе Vue 3, TypeScript, Element Plus и Supabase, что может быть полезно разработчикам при создании административных панелей. Кроме того, был анонсирован инструмент PreviewKit, позволяющий мгновенно просматривать код, сгенерированный инструментами искусственного интеллекта, что упрощает процесс разработки. Эти новости могут быть интересны веб-разработчикам, работающим с Vue и Python.
+
+─────────────────────
+
+💚 [Building an Open-Source Vue 3 + Supabase Enterprise Admin Starter with AI SQL, Vehicle Management, and TMS](https://dev.to/869123771/building-an-open-source-vue-3-supabase-enterprise-admin-starter-with-ai-sql-vehicle-management-2pni)
+Проект Art Supabase Pro представляет собой открытый исходный код Vue 3 + TypeScript + Element Plus + Supabase административного шаблона, который эволюционирует в более практичный стартовый набор для реальных бизнес-систем. Этот проект полезен разработчикам, поскольку предоставляе
+#Vue #frontend
+
+💚 [AI Generates the Code. PreviewKit Lets You See It Instantly.](https://dev.to/make-with-rs/ai-generates-the-code-previewkit-lets-you-see-it-instantly-3kc0)
+PreviewKit позволяет мгновенно просматривать код, сгенерированный инструментами искусственного интеллекта. Этот инструмент полезен разработчикам, поскольку позволяет быстро и легко просматривать результаты генерации кода без необходимости создания отдельного проекта или настройки
+#Vue #frontend
+
+_Источников: 1 · Новостей: 2_
