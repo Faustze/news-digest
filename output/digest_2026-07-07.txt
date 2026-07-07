@@ -1,0 +1,59 @@
+📰 *Дайджест 07.07.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "Building an RTL Hebrew Video Platform with Nuxt 2 SSR and Video.js" рассказывает о создании видеоплатформы с поддержкой языка иврит, используя Nuxt 2 и Video.js. Кроме того, статья "Enforce Better Vue Architecture with ESLint" объясняет, как использовать ESLint для улучшения архитектуры приложений на Vue. Также стоит отметить статью "Image formats explained: When to use JPG vs PNG vs WebP vs AVIF in 2026", которая предоставляет практические рекомендации по выбору формата изображения в зависимости от типа контента. Эти статьи будут полезны разработчикам, которые работают с мультиязычными проектами, хотят улучшить качество своего кода и оптимизировать скорость страницы.
+
+─────────────────────
+
+💚 [Building an RTL Hebrew Video Platform with Nuxt 2 SSR and Video.js](https://dev.to/northbeamtech/building-an-rtl-hebrew-video-platform-with-nuxt-2-ssr-and-videojs-2210)
+Статья о создании видеоплатформы с поддержкой языка иврит, используя Nuxt 2 и Video.js. Автор описывает проблемы, с которыми он столкнулся, и как он их решил. Полезно для разработчиков, которые работают с мультиязычными проектами.
+#Nuxt #frontend
+
+💚 [Enforce Better Vue Architecture with ESLint](https://dev.to/jacobandrewsky/enforce-better-vue-architecture-with-eslint-3fb0)
+Статья о том, как использовать ESLint для улучшения архитектуры приложений на Vue. Автор объясняет, как настроить ESLint и как он может помочь в поддержании чистого и организованного кода.
+#Vue #frontend
+
+💚 [How to Manage Complex State in Large Vue Projects: "Scattered" vs "Systematic"](https://dev.to/uncle-pushui/how-to-manage-complex-state-in-large-vue-projects-scattered-vs-systematic-3e9n)
+Автор статьи обсуждает проблемы управления сложным состоянием в крупных проектах на Vue. Он предлагает подходы к решению этих проблем и объясняет, почему важно использовать систематический подход.
+#Vue #frontend
+
+🌐 [Image formats explained: When to use JPG vs PNG vs WebP vs AVIF in 2026](https://dev.to/arhan_ahmad_a67ef7bd2b992/image-formats-explained-when-to-use-jpg-vs-png-vs-webp-vs-avif-in-2026-2mm4)
+Статья объясняет, когда использовать каждый из четырех основных форматов изображений. Это полезно для разработчиков, чтобы оптимизировать скорость страницы и пользовательский опыт. Статья предоставляет практические рекомендации по выбору формата изображения в зависимости от типа
+#webdev #frontend #HTML5
+
+🌐 [How to reduce image file size without losing quality (5 techniques)](https://dev.to/arhan_ahmad_a67ef7bd2b992/how-to-reduce-image-file-size-without-losing-quality-5-techniques-1la9)
+Статья предоставляет пять техник для уменьшения размера файла изображения без потери качества. Это полезно для разработчиков, чтобы оптимизировать скорость страницы и пользовательский опыт. Статья объясняет, как использовать современные форматы, удалять невидимые метаданные и дру
+#webdev #frontend #HTML5
+
+💚 [I turned my e-commerce side project into a customizable template — full source + admin panel](https://dev.to/web_dev_low/i-turned-my-e-commerce-side-project-into-a-customizable-template-full-source-admin-panel-3mpd)
+Автор статьи рассказывает о том, как он создал шаблон для электронной коммерции, используя Vue 3, Node.js и MongoDB. Шаблон включает в себя поисковую систему, фильтры, корзину и панель администратора.
+#Vue #frontend
+
+🟨 [Как мы в фронтенд-команде ПСБ прокачали релизный цикл npm-пакетов](https://habr.com/ru/companies/psb/articles/1055888/?utm_campaign=1055888&utm_source=habrahabr&utm_medium=rss)
+Статья рассказывает о том, как фронтенд-команда ПСБ оптимизировала процесс выпуска npm-пакетов. Это полезно для разработчиков, чтобы улучшить процесс разработки и выпуска своих собственных пакетов.
+#JavaScript #frontend #npm
+
+🟨 [Точно ли здесь нужен `any`? 13 сценариев из TypeScript-код-ревью — от `unknown` до границы приложения](https://habr.com/ru/articles/1055944/?utm_campaign=1055944&utm_source=habrahabr&utm_medium=rss)
+Статья предоставляет советы по использованию типа `any` в TypeScript. Это полезно для разработчиков, чтобы улучшить качество своего кода и избежать ошибок.
+#JavaScript #frontend #TypeScript
+
+💚 [How I Build Vue 3 Applications (Part 1): Why I Use a Hybrid Folder Structure](https://dev.to/lazydoomslayer/how-i-build-vue-3-applications-part-1-why-i-use-a-hybrid-folder-structure-48c2)
+Автор статьи делится своим опытом создания приложений на Vue 3 и объясняет, почему он использует гибридную структуру папок. Статья полезна для разработчиков, которые хотят улучшить организацию своего кода.
+#Vue #frontend
+
+📌 [The Future of QA: AI-Powered Test Automation Explained](https://dev.to/nogrunt/the-future-of-qa-ai-powered-test-automation-explained-541)
+Статья о будущем тестирования и о том, как искусственный интеллект может быть использован для автоматизации тестирования. Автор объясняет, почему традиционные подходы к тестированию уже не достаточно и как AI может помочь.
+#AI #testing
+
+📌 [Ternlight – 7 MB embedding model that runs in browser (WASM)](https://ternlight-demo.vercel.app/)
+Модель Ternlight позволяет запускать модели машинного обучения прямо в браузере, используя технологию WASM. Это может быть полезно для разработчиков, которые хотят интегрировать модели машинного обучения в свои веб-приложения. Эта технология может быть использована для создания б
+#AI #machine learning #WASM
+
+📌 [OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files](https://github.com/iOfficeAI/OfficeCLI)
+OfficeCLI - это офисный пакет для агентов ИИ, который позволяет им читать и редактировать файлы Microsoft Office. Эта технология может быть полезна разработчикам, которые работают с ИИ и машинным обучением, и хотят интегрировать эти технологии в свои веб-приложения.
+#AI #office #Microsoft Office
+
+📌 [Learning to code is still worthwhile](https://stevekrouse.com/learn-to-code)
+Статья о том, почему изучение программирования все еще является полезным навыком. Автор статьи подчеркивает важность программирования в современном мире и дает советы тем, кто только начинает изучать программирование. Эта статья может быть полезна разработчикам, которые только на
+#programming #web development
+
+_Источников: 5 · Новостей: 13_
