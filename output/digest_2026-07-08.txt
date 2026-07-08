@@ -1,0 +1,67 @@
+📰 *Дайджест 08.07.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "Nuxt In 2026" рассказывает о фреймворке Nuxt, который предлагает множество полезных функций для разработчиков и может быть интересен как альтернатива Next.js. Кроме того, статья "What ref() and reactive() Are Actually For" объясняет разницу между ref() и reactive() в Vue 3 и дает рекомендации по их использованию. Также стоит отметить статью "Watchers Are Usually the Wrong Answer", которая объясняет, когда использовать watchers в Vue и когда их использование неоправданно. Для разработчиков, которые используют TypeScript, может быть полезна статья "TypeScript Decorators Done Right", которая описывает миграцию с устаревших декораторов на стандарт TC39.
+
+─────────────────────
+
+💚 [Nuxt In 2026: The Vue Full-Stack Framework That Deserves More Attention](https://dev.to/nazar-boyko/nuxt-in-2026-the-vue-full-stack-framework-that-deserves-more-attention-546k)
+Nuxt - один из самых продуманных фреймворков для полноценного веб-разработки. Он тихо развивался в течение последних двух лет и теперь предлагает множество полезных функций для разработчиков. Это может быть интересно разработчикам, которые ищут альтернативу Next.js.
+#Nuxt #Vue #frontend
+
+💚 [What ref() and reactive() Are Actually For](https://dev.to/ysndmr/what-ref-and-reactive-are-actually-for-c52)
+Статья объясняет разницу между ref() и reactive() в Vue 3. Автор рекомендует использовать ref() по умолчанию и reactive() только в определенных ситуациях. Это может быть интересно разработчикам, которые работают с Vue 3.
+#Vue #frontend
+
+💚 [Watchers Are Usually the Wrong Answer](https://dev.to/ysndmr/watchers-are-usually-the-wrong-answer-15an)
+Статья объясняет, когда использовать watchers в Vue и когда их использование неоправданно. Автор рекомендует использовать watchers только для побочных эффектов, а не для вычисления производных значений. Это может быть интересно разработчикам, которые работают с Vue.
+#Vue #frontend
+
+🔷 [TypeScript Decorators Done Right: Migrating from Legacy to the TC39 Standard](https://dev.to/jsmanifest/typescript-decorators-done-right-migrating-from-legacy-to-the-tc39-standard-182g)
+Статья о миграции с устаревших декораторов TypeScript на стандарт TC39. Автор описывает проблемы, которые могут возникнуть при миграции, и дает советы, как их решить. Для разработчиков, которые используют TypeScript, эта статья может быть полезной для улучшения их кода.
+#TypeScript #JavaScript
+
+📌 [GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos](https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/)
+В статье описывается уязвимость в системе GitHub, которая позволяет получить доступ к приватным репозиториям. Это важно для разработчиков, чтобы они могли оценить риски и принять меры для защиты своих проектов. Статья предоставляет информацию о том, как была обнаружена уязвимость
+#AI #GitHub #security
+
+💚 [TanStack Start vs Nuxt: One Framework to rule them all?](https://dev.to/erikch/tanstack-vs-nuxt-one-framework-to-rule-them-all-4acl)
+Сравнение TanStack Start и Nuxt. Автор статьи решил построить одно и то же приложение на обоих фреймворках, чтобы сравнить их возможности. Это может быть интересно разработчикам, которые рассматривают возможность перехода с Vue на React.
+#Nuxt #Vue #frontend
+
+🖥️ [Как мы во фронтенд-команде ПСБ прокачали релизный цикл npm-пакетов](https://habr.com/ru/companies/psb/articles/1055888/?utm_campaign=1055888&utm_source=habrahabr&utm_medium=rss)
+Статья рассказывает о том, как фронтенд-команда ПСБ улучшила процесс релиза npm-пакетов. Это может быть полезно разработчикам, которые работают с npm-пакетами и хотят оптимизировать свой процесс.
+#npm #frontend
+
+💚 [Virtualizing Dynamic Lists and Responsive Grids Without Offset Tables or Size Estimation](https://dev.to/itihon/virtualizing-dynamic-lists-and-responsive-grids-without-offset-tables-or-size-estimation-1a1l)
+Статья представляет метод виртуализации списков и сеток без использования таблиц смещения или оценки размеров. Это может быть интересно разработчикам, которые работают с динамическими списками и сетками.
+#Vue #frontend
+
+🟨 [Когда может пригодиться экзотика в ООП: миксины/трейты/аспекты](https://habr.com/ru/articles/1056780/?utm_campaign=1056780&utm_source=habrahabr&utm_medium=rss)
+Статья о применении экзотических концепций объектно-ориентированного программирования, таких как миксины, трейты и аспекты. Автор дает примеры, когда эти концепции могут быть полезными, и описывает их преимущества и недостатки. Для разработчиков, которые интересуются ООП, эта ста
+#JavaScript #ООП
+
+🟨 [1038 баллов на Hacker News собрал пост про отказ от AI-кодинга. У меня была та же ночь, но другой вывод](https://habr.com/ru/articles/1056468/?utm_campaign=1056468&utm_source=habrahabr&utm_medium=rss)
+Автор семь месяцев использовал AI-кодинг для разработки Kubernetes-дашборда, но в итоге отказался от этого подхода. Статья может быть полезна разработчикам, которые рассматривают возможность использования AI-инструментов в своей работе.
+#AI #JavaScript
+
+📌 [Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop](https://github.com/rowboatlabs/rowboat)
+Rowboat - это открытая альтернатива Claude Desktop, которая позволяет разработчикам работать с AI-моделями на локальном компьютере. Это может быть полезно для разработчиков, которые работают с конфиденциальными данными или требуют высокой производительности. Rowboat предоставляет
+#AI #open-source
+
+🎨 [Get Ready For the Powerful CSS border-shape Property!](https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/)
+Статья представляет новое свойство CSS - border-shape. Это свойство позволяет создавать сложные формы для элементов на странице. Это может быть интересно разработчикам, которые работают с CSS и хотят расширить свои возможности.
+#CSS #frontend
+
+🎨 [Boundary-Aware Styling in CSS](https://master.dev/blog/boundary-aware-styling-in-css/)
+Статья объясняет, как использовать функцию view() в CSS для создания границ, осведомленных о границах элементов. Это может быть интересно разработчикам, которые работают с CSS и хотят улучшить свои навыки.
+#CSS #frontend
+
+📌 [Local, CPU-Friendly, High-Quality TTS (Text-to-Speech) with Kokoro](https://ariya.io/2026/03/local-cpu-friendly-high-quality-tts-text-to-speech-with-kokoro/)
+Статья рассказывает о том, как использовать Kokoro для создания высококачественного текста в речь (TTS) на локальной машине. Это может быть полезно разработчикам, которые работают над проектами, связанными с обработкой речи.
+#TTS #AI
+
+📌 [Q1 2026 Innovation Graph update: Open source collaboration is accelerating worldwide](https://github.blog/news-insights/policy-news-and-insights/q1-2026-innovation-graph-update-open-source-collaboration-is-accelerating-worldwide/)
+Статья на GitHub Blog рассказывает о том, как открытая совместная работа ускоряется во всем мире. Это может быть интересно разработчикам, которые участвуют в открытых проектах или хотят узнать больше о тенденциях в индустрии.
+#open source #devtools
+
+_Источников: 7 · Новостей: 15_
