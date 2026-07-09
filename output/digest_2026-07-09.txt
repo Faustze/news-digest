@@ -1,0 +1,67 @@
+📰 *Дайджест 09.07.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Выпущена новая версия TypeScript 7.0, которая включает в себя многочисленные улучшения и новые функции, такие как улучшение поддержки типов и более строгая проверка кода. Кроме того, статья "Offline PWA with Nuxt" описывает, как добавить поддержку offline-режима в существующее приложение Nuxt без переписывания кода. Также стоит отметить статью "How GitHub Copilot enables zero DNS configuration for GitHub Pages", которая рассказывает о том, как GitHub Copilot позволяет настроить GitHub Pages без ручной конфигурации DNS. Эти новости могут быть полезны разработчикам, которые работают с Vue, Nuxt и Python.
+
+─────────────────────
+
+💚 [Offline PWA with Nuxt: Making an existing Nuxt app work offline without rewriting it](https://dev.to/smaug6739/making-an-existing-nuxt-app-work-offline-without-rewriting-it-lmh)
+Статья описывает, как добавить поддержку offline-режима в существующее приложение Nuxt без переписывания кода. Автор показывает, как это можно сделать, сохраняя чистую архитектуру.
+#Nuxt #PWA #offline
+
+📌 [Automating cross-repo documentation with GitHub Agentic Workflows](https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows/)
+Статья о автоматизации документации с помощью GitHub Agentic Workflows. Это может быть полезно разработчикам, которые хотят оптимизировать процесс документации.
+#GitHub #DevTools #AI
+
+📌 [How GitHub Copilot enables zero DNS configuration for GitHub Pages](https://github.blog/ai-and-ml/github-copilot/how-github-copilot-enables-zero-dns-configuration-for-github-pages/)
+Статья о том, как GitHub Copilot позволяет настроить GitHub Pages без ручной конфигурации DNS. Это может быть полезно разработчикам, которые хотят быстро развернуть веб-приложения.
+#GitHub #DevTools #AI
+
+🔷 [TypeScript 7](https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/)
+Выпущена новая версия TypeScript 7.0. Эта версия включает в себя многочисленные улучшения и новые функции, которые могут быть полезны разработчикам. Одной из ключевых особенностей является улучшение поддержки типов и более строгая проверка кода.
+#TypeScript
+
+💚 [Our verifier was buggier than the code it verified](https://dev.to/yoss/our-verifier-was-buggier-than-the-code-it-verified-4231)
+Статья рассказывает о проблемах с верификатором кода, который использовался для проверки миграции кода с Vue 2 на Vue 3. Авторы столкнулись с проблемой, когда верификатор выдавал ложные ошибки, что привело к необходимости переписать код.
+#Vue #frontend
+
+📌 [hulianui: a React component library with 349 components, OKLCH runtime theming, and its own llms.txt for AI coding assistants](https://dev.to/zhanglala103838/hulianui-a-react-component-library-with-349-components-oklch-runtime-theming-and-its-own-2jl3)
+Статья о библиотеке React-компонентов hulianui, которая включает 349 компонентов и поддерживает runtime-темизацию. Это может быть полезно разработчикам, которые работают с React.
+#React #UI Components #AI
+
+📌 [How to Make an Interactive Element Invisible but Accessible](https://master.dev/blog/how-to-make-an-interactive-element-invisible-but-accessible/)
+Статья описывает, как сделать интерактивный элемент невидимым, но доступным. Для этого можно использовать атрибут `hidden="until-found"` в HTML и дополнить его CSS, чтобы сохранить пространство.
+#HTML5 #CSS3 #accessibility
+
+💚 [Virtualizing Dynamic Lists and Responsive Grids Without Offset Tables or Size Estimation](https://dev.to/itihon/virtualizing-dynamic-lists-and-responsive-grids-without-offset-tables-or-size-estimation-383k)
+Статья предлагает подход к виртуализации списков с динамической высотой элементов без использования таблиц смещений или оценки размеров. Автор показывает, как это можно сделать, используя отображение индексов элементов на позицию скроллбара.
+#Vue #frontend #performance
+
+🟨 [Rethinking Web UIs: A Canvas-Native Retained-Mode UI Runtime](https://dev.to/xuepoo/rethinking-web-uis-a-canvas-native-retained-mode-ui-runtime-285f)
+Статья о переосмыслении веб-интерфейсов с использованием Canvas и retained-mode UI runtime. Это может быть полезно разработчикам для создания более интерактивных и эффективных веб-приложений.
+#HTML5 #CSS3 #JavaScript
+
+🌐 [AI changes the economics of software rewrites](https://thetruthasiseeitnow.com/ai-slop-starts-with-the-codebase-itself/)
+Использование ИИ может изменить экономику переписывания программного обеспечения. Это может быть полезно разработчикам, поскольку ИИ может автоматизировать некоторые задачи и уменьшить время разработки.
+#AI #webdev
+
+🌐 [Show HN: Microsoft releases Flint, a visualization language for AI agents](https://microsoft.github.io/flint-chart/#/)
+Microsoft выпустила язык визуализации Flint для агентов ИИ. Это может быть полезно разработчикам, которые работают с ИИ и визуализацией данных.
+#AI #webdev
+
+📌 [A bug which affected only left handed users](https://shkspr.mobi/blog/2026/07/a-bug-which-only-affected-left-handed-users/)
+Статья рассказывает о необычной ошибке, которая влияла только на леворуких пользователей. Это интересный пример того, как важна доступность и тестирование для всех типов пользователей. Для разработчиков это может быть полезным напоминанием о необходимости учитывать различные сцен
+#accessibility
+
+🌐 [Stop Copy-Pasting AI HTML Into FTP Clients](https://dev.to/juliedechili/stop-copy-pasting-ai-html-into-ftp-clients-26p)
+Статья предлагает решение проблемы копирования и вставки HTML-кода, сгенерированного AI, в FTP-клиенты. Автор показывает, как это можно сделать более эффективно, используя инструменты для автоматизации.
+#webdev #AI #productivity
+
+📌 [Separating signal from noise in coding evaluations](https://openai.com/index/separating-signal-from-noise-coding-evaluations)
+Статья о проблемах оценки кода и том, как OpenAI подходит к этой задаче. Это может быть интересно разработчикам, которые хотят улучшить качество своего кода.
+#AI #Code Quality
+
+🌐 [Benchmarking coding agents on Databricks' multi-million line codebase](https://www.databricks.com/blog/benchmarking-coding-agents-databricks-multi-million-line-codebase)
+Исследование сравнения производительности кодировочных агентов на базе кода Databricks. Это может быть полезно разработчикам, которые работают с большими базами кода.
+#tech #webdev
+
+_Источников: 8 · Новостей: 15_
