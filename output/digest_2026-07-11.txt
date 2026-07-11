@@ -1,0 +1,47 @@
+📰 *Дайджест 11.07.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Вышла новая версия TypeScript 7.0, которая является самым радикальным обновлением за 10 лет и может быть полезна разработчикам для улучшения масштабируемости и качества кода. Кроме того, был представлен инструмент Code Healing AI, который помогает разработчикам обнаруживать ошибки, исправлять код и улучшать его качество с помощью искусственного интеллекта. Также была опубликована статья о том, как использовать Vue с TypeScript 7, что может быть полезно разработчикам для изучения новых возможностей и улучшений в TypeScript 7.
+
+─────────────────────
+
+💚 [How I am using Vue with Typescript 7 today](https://dev.to/nikhilverma/how-i-am-using-vue-with-typescript-7-today-3ge3)
+Автор статьи делится своим опытом о том, как он использует Vue с TypeScript 7. Это полезно разработчикам, чтобы узнать о новых возможностях и улучшениях в TypeScript 7.
+#Vue #TypeScript
+
+💚 [I reviewed my own SaaS starter kit like a hostile buyer before selling it.](https://dev.to/konszogr/i-reviewed-my-own-saas-starter-kit-like-a-hostile-buyer-before-selling-it-it-didnt-all-pass-32b2)
+Автор статьи проверил свой собственный стартовый комплект NuxtForge как бы он был покупателем, обнаружил ошибки и исправил их. Это полезно разработчикам, чтобы оценить качество своего кода и улучшить его.
+#Vue #Nuxt
+
+💚 [How I Build Vue 3 Applications (Part 2): How I Decide Where Every Component Belongs](https://dev.to/lazydoomslayer/how-i-build-vue-3-applications-part-2-how-i-decide-where-every-component-belongs-26ac)
+Автор статьи делится своим опытом о том, как он решает, где разместить каждый компонент в приложении Vue 3. Это полезно разработчикам, чтобы улучшить структуру своего кода и сделать его более поддерживаемым.
+#Vue
+
+💚 [I reviewed my own SaaS starter kit like a hostile buyer before selling it.](https://dev.to/konszogr/i-reviewed-my-own-saas-starter-kit-like-a-hostile-buyer-before-selling-it-it-didnt-all-pass-32b2)
+Автор статьи проверил свой собственный стартовый комплект NuxtForge как бы он был покупателем, обнаружил ошибки и исправил их. Это полезно разработчикам, чтобы оценить качество своего кода и улучшить его.
+#Nuxt
+
+🟨 [[Перевод] TypeScript 7.0 — самое радикальное обновление за 10 лет](https://habr.com/ru/companies/haulmont/articles/1057526/?utm_campaign=1057526&utm_source=habrahabr&utm_medium=rss)
+Новое обновление TypeScript 7.0 может быть полезно разработчикам для улучшения масштабируемости и качества кода.
+#JavaScript #frontend
+
+🌐 [🚀 Introducing Code Healing AI – Your AI-Powered Coding Assistant](https://dev.to/santosh_nanavare_2baab6e9/introducing-code-healing-ai-your-ai-powered-coding-assistant-5a14)
+Представлен инструмент Code Healing AI, который помогает разработчикам обнаруживать ошибки, исправлять код и улучшать его качество с помощью искусственного интеллекта. Это полезно разработчикам, чтобы улучшить свой код и сделать его более поддерживаемым.
+#AI #webdev
+
+🌐 [HTTP QUERY: The First New HTTP Request Method in Years](https://dev.to/jasgigli/http-query-the-first-new-http-request-method-in-years-jdf)
+Новая метод HTTP QUERY (RFC 10008) позволяет улучшить запросы к серверу. Это может быть полезно разработчикам для оптимизации запросов и улучшения производительности веб-приложений.
+#webdev #frontend
+
+📌 [Better tools made Copilot code review worse. Here’s how we actually improved it.](https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/)
+Статья о улучшении код-ревью с помощью инструментов Copilot может быть полезна разработчикам для оптимизации процесса разработки и улучшения качества кода.
+#AI #devtools
+
+🟨 [Конвертируем цвета в JS со скоростью 6 миллиардов операций в секунду](https://habr.com/ru/articles/1057978/?utm_campaign=1057978&utm_source=habrahabr&utm_medium=rss)
+Быстрая JS-библиотека для работы с цветом может быть полезна разработчикам для оптимизации графики и улучшения производительности веб-приложений.
+#JavaScript #frontend
+
+🟨 [История JavaScript: браузерные войны, ECMAScript, Node.js, TypeScript, React](https://habr.com/ru/companies/pvs-studio/articles/1057734/?utm_campaign=1057734&utm_source=habrahabr&utm_medium=rss)
+Статья об истории JavaScript и инструментов может быть полезна разработчикам для понимания эволюции языка и его экосистемы.
+#JavaScript #frontend
+
+_Источников: 5 · Новостей: 10_
