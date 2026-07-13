@@ -1,0 +1,47 @@
+📰 *Дайджест 13.07.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "How to Bridge Login State Across SSR and CSR: Next.js, Nuxt, and Cabloy Compared" сравнивает подходы к сохранению состояния входа в систему при использовании серверного и клиентского рендеринга в популярных фреймворках. Кроме того, статья "I Built the Vue 3 Japanese Postal Code Library That Didn't Exist" представляет библиотеку nihonpost для работы с японскими почтовыми кодами в Vue 3. Также была опубликована статья "Config Translation: Writing a Recursive JSON to YAML Parser in Vanilla TypeScript", в которой описывается реализация рекурсивного парсера JSON в YAML на TypeScript. Эти статьи могут быть полезны разработчикам, которые работают над проектами, требующими аутентификации, авторизации и обработки данных в различных форматах.
+
+─────────────────────
+
+💚 [How to Bridge Login State Across SSR and CSR: Next.js, Nuxt, and Cabloy Compared](https://dev.to/uncle-pushui/how-to-bridge-login-state-across-ssr-and-csr-nextjs-nuxt-and-cabloy-compared-oee)
+Эта статья сравнивает подходы к сохранению состояния входа в систему при использовании серверного и клиентского рендеринга в Next.js, Nuxt и Cabloy. Это может быть полезно разработчикам, которые работают над проектами, требующими аутентификации и авторизации.
+#Nuxt #frontend
+
+🟨 [Жизненный цикл API-токенов: От генерации до компрометации](https://habr.com/ru/articles/1058318/?utm_campaign=1058318&utm_source=habrahabr&utm_medium=rss)
+Статья о жизненном цикле токенов, от генерации до компрометации. Рассматривается проблема кражи токенов и способы их защиты. Полезно разработчикам для понимания безопасности API.
+#JavaScript #security
+
+💚 [I Built the Vue 3 Japanese Postal Code Library That Didn't Exist](https://dev.to/thiyagu_arunachalam_e36b8/i-built-the-vue-3-japanese-postal-code-library-that-didnt-exist-2d7c)
+Эта статья рассказывает о создании библиотеки nihonpost для работы с японскими почтовыми кодами в Vue 3. Это может быть полезно разработчикам, которые работают над проектами, требующими обработки японских адресов.
+#Vue #frontend
+
+🟨 [Как устроен детектор копипасты и зачем я написал ещё один](https://habr.com/ru/articles/1058364/?utm_campaign=1058364&utm_source=habrahabr&utm_medium=rss)
+Статья о детекторе копипасты для TypeScript, JavaScript и шаблонов Vue, Svelte и Angular. Полезно разработчикам для улучшения качества кода.
+#JavaScript #code quality
+
+💚 [Why We Built Another Data Grid (and What It Took to Ship It)](https://dev.to/elitegrid/why-we-built-another-data-grid-and-what-it-took-to-ship-it-3aml)
+Эта статья представляет собой технический обзор создания EliteGrid — библиотеки данных на TypeScript с адаптерами для React, Vue и vanilla JS. Это может быть полезно разработчикам, которые работают с большими объемами данных и ищут эффективные решения для их обработки.
+#Vue #frontend
+
+🟨 [Локализация уже скомпилированных React компонентов в node_modules](https://habr.com/ru/articles/1058286/?utm_campaign=1058286&utm_source=habrahabr&utm_medium=rss)
+Статья о локализации React-компонентов без изменения их исходного кода. Полезно разработчикам для создания многоязычных приложений.
+#JavaScript #localization
+
+📌 [Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper](https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6)
+Статья о миграции производственного ИИ-агента на GPT-5.6, что привело к увеличению скорости на 2,2 раза и снижению затрат на 27%. Это может быть полезно разработчикам, которые работают с ИИ и хотят оптимизировать производительность своих агентов.
+#AI
+
+📌 [Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k](https://systima.ai/blog/claude-code-vs-opencode-token-overhead)
+Статья о сравнении двух инструментов для генерации кода: Claude Code и OpenCode. Статья показывает, что OpenCode отправляет значительно меньше токенов, прежде чем прочитать запрос, что может быть полезно разработчикам, которые хотят оптимизировать процесс генерации кода.
+#AI
+
+🔷 [Config Translation: Writing a Recursive JSON to YAML Parser in Vanilla TypeScript](https://dev.to/kandz/config-translation-writing-a-recursive-json-to-yaml-parser-in-vanilla-typescript-2kdi)
+Эта статья представляет собой пример реализации рекурсивного парсера JSON в YAML на TypeScript. Это может быть полезно разработчикам, которые работают с конфигурационными файлами и cần переводить данные между разными форматами.
+#TypeScript #frontend
+
+🟨 [Why Vanilla JavaScript](https://guseyn.com/html/posts/why-vanilla-js.html)
+Статья о преимуществах использования чистого JavaScript без дополнительных библиотек и фреймворков. Статья может быть полезна разработчикам, которые хотят улучшить свои навыки работы с JavaScript и понять основы языка.
+#JavaScript
+
+_Источников: 5 · Новостей: 10_
