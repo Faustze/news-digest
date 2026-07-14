@@ -1,0 +1,39 @@
+📰 *Дайджест 14.07.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "Serving many brands from one Nuxt 3 codebase" описывает, как использовать один кодовый базис для нескольких брендов, изменяя только данные, а не код, что может быть полезно разработчикам, которые работают с Nuxt. Кроме того, статья "How to Convert PDF to Word with Vue 3 and PDF.js" показывает, как конвертировать PDF в Word с помощью Vue 3 и PDF.js, что может быть полезно разработчикам, которые хотят добавить эту функцию в свои приложения. Также была опубликована статья "Architecture Review: Minimizing Rendering Latency in a Vanilla CSS Finance Dashboard", в которой описывается, как минимизировать задержку рендеринга в финансовом дашборде на чистом CSS.
+
+─────────────────────
+
+💚 [Serving many brands from one Nuxt 3 codebase](https://dev.to/kgjohnson/serving-many-brands-from-one-nuxt-3-codebase-2bpj)
+Статья о том, как обслуживать несколько брендов из одного кодового базиса Nuxt 3. Автор описывает, как использовать один кодовый базис для нескольких брендов, изменяя только данные, а не код. Полезно разработчикам, которые работают с Nuxt и хотят уменьшить количество кода.
+#Nuxt #frontend
+
+💚 [How to Convert PDF to Word with Vue 3 and PDF.js](https://dev.to/sunshey/how-to-convert-pdf-to-word-with-vue-3-and-pdfjs-2ie6)
+Статья о том, как конвертировать PDF в Word с помощью Vue 3 и PDF.js. Автор описывает, как создать минимальный, но готовый к производству конвертер PDF в Word. Полезно разработчикам, которые работают с Vue и хотят добавить функцию конвертирования PDF в Word в свои приложения.
+#Vue #frontend
+
+💚 [H5 Debug in Practice (2): Android WebView White Screen—From Console Remote Debug to Mock Validation](https://dev.to/yp_g_c_c8b59bf0f030337b4592/h5-debug-in-practice-2-android-webview-white-screen-from-console-remote-debug-to-mock-validation-318m)
+Статья о отладке проблем с белым экраном в Android WebView. Автор описывает, как использовать DevPeek Console для захвата логов и удаленной отладки, а также как использовать Mock для проверки интерфейса под ошибочными условиями. Полезно разработчикам, которые работают с веб-прило
+#Vue #frontend
+
+🌐 [Show HN: Sx 2.0 – Share AI skills with your team through a Dropbox folder](https://sleuth-io.github.io/sx/2026/07/10/your-dropbox-is-now-a-skill-server.html)
+Новая версия Sx позволяет делиться навыками ИИ с командой через папку Dropbox. Это может быть полезно разработчикам для обмена и использования навыков ИИ в своих проектах.
+#AI #webdev
+
+🌐 [Show HN: I implemented a neural network in SQL](https://github.com/xqlsystems/xarray-sql/blob/claude/xarray-sql-mnist-demo/benchmarks/nn.py)
+Разработчик реализовал нейронную сеть в SQL. Это может быть интересно разработчикам, которые работают с базами данных и хотят использовать ИИ в своих проектах.
+#AI #webdev
+
+🌐 [Show HN: Jacquard, a programming language for AI-written, human-reviewed code](https://github.com/jbwinters/jacquard-lang)
+Новый язык программирования Jacquard позволяет писать код с помощью ИИ, а затем проверять его человеком. Это может быть полезно разработчикам, которые хотят использовать ИИ в своих проектах.
+#AI #webdev
+
+🌐 [A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI](https://arxiv.org/abs/2607.01418)
+Исследование раннего выпуска Claude Code и GitHub Copilot CLI от Microsoft. Это может быть интересно разработчикам, которые используют эти инструменты в своих проектах.
+#AI #webdev
+
+🌐 [Architecture Review: Minimizing Rendering Latency in a Vanilla CSS Finance Dashboard](https://dev.to/pranaykumarsingh777/architecture-review-minimizing-rendering-latency-in-a-vanilla-css-finance-dashboard-33id)
+Статья об архитектуре финансового дашборда на чистом CSS. Автор описывает, как минимизировать задержку рендеринга с помощью структурированного HTML5 и CSS Grid. Полезно разработчикам, которые работают с веб-приложениями и хотят улучшить производительность.
+#webdev #frontend
+
+_Источников: 3 · Новостей: 8_
