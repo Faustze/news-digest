@@ -1,0 +1,47 @@
+📰 *Дайджест 15.07.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Для разработчиков Vue 3 вышла статья о том, как правильно использовать композиции в приложениях, а также статья о создании просмотрщика PDF-файлов в Vue.js с помощью различных библиотек. Кроме того, была обнаружена уязвимость в инструменте Cursor, которая может иметь серьезные последствия для безопасности проектов. Для разработчиков Python вышла статья о том, как геолокализовать любой IP-адрес в Python с помощью простого API-запроса.
+
+─────────────────────
+
+💚 [How I Build Vue 3 Applications (Part 3): When Logic Belongs in a Composable](https://dev.to/lazydoomslayer/how-i-build-vue-3-applications-part-3-when-logic-belongs-in-a-composable-2bpe)
+Эта статья рассказывает о том, как правильно использовать композиции в приложениях Vue 3. Автор делится своим опытом и предоставляет рекомендации по тому, когда логика должна быть вынесена в отдельную композицию. Это может быть полезно разработчикам, которые работают с Vue 3 и хо
+#Vue
+
+💚 [How to Build a PDF Viewer in Vue.js with PDF.js + AI, vue-pdf-embed, @tato30/vue-pdf, and Vue PDF Viewer (2026)](https://dev.to/ansonch/how-to-build-a-pdf-viewer-in-vuejs-with-pdfjs-ai-vue-pdf-embed-tato30vue-pdf-and-vue-pdf-2ck8)
+Эта статья сравнивает различные библиотеки и инструменты для создания просмотрщика PDF-файлов в Vue.js. Автор делится своим опытом и предоставляет рекомендации по выбору лучшего инструмента для конкретной задачи.
+#Vue
+
+📌 [Cursor 0day: When Full Disclosure Becomes the Only Protection Left](https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left)
+Статья о уязвимости в инструменте Cursor, который используется для генерации кода. Это может быть полезно разработчикам, чтобы быть в курсе последних уязвимостей и принимать меры для защиты своих проектов. Cursor - это инструмент, который может быть использован для автоматизации
+#AI #security
+
+💚 [How to Build Batch PDF Processing with Vue 3 and pdf-lib](https://dev.to/sunshey/how-to-build-batch-pdf-processing-with-vue-3-and-pdf-lib-a60)
+В этой статье показано, как можно обрабатывать PDF-файлы в браузере с помощью Vue 3 и библиотеки pdf-lib. Это может быть полезно разработчикам, которые работают с PDF-файлами и хотят создать эффективный и быстрый процесс обработки.
+#Vue
+
+🟨 [WebAssembly (WASM) — не серебряная пуля](https://habr.com/ru/articles/1058984/)
+Статья рассказывает о WebAssembly и его возможностях. WASM позволяет исполнять тяжелый код быстрее, чем JavaScript, и может быть использован не только в браузерах, но и на серверах, edge-вычислениях и других платформах.
+#WebAssembly #JavaScript
+
+🟨 [Простой способ запускать доверенный пользовательский JavaScript в Node.js](https://habr.com/ru/articles/1059208/)
+Статья рассказывает о простом способе запускать доверенный пользовательский JavaScript в Node.js. Это может быть полезно для разработчиков, которые хотят создать Function-as-a-Service платформу или запускать пользовательский код в изолированном окружении.
+#JavaScript #Node.js
+
+🐍 [How to Geolocate Any IP Address in Python with 3 Lines of Code](https://dev.to/weeknds/how-to-geolocate-any-ip-address-in-python-with-3-lines-of-code-341)
+Статья рассказывает о том, как геолокализовать любой IP-адрес в Python с помощью простого API-запроса. Это может быть полезно для разработчиков, которые хотят создать приложения, требующие геолокализации пользователей.
+#Python #geolocation
+
+📌 [How to stop Claude from saying load-bearing](https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing)
+Статья о том, как использовать инструмент Claude для генерации кода и避ать ошибок. Это может быть полезно разработчикам, которые используют Claude в своих проектах. Статья предоставляет практические советы и рекомендации по использованию Claude.
+#AI #code generation
+
+🟨 [Веб-портфолио с управлением жестами через камеру: полевой дневник](https://habr.com/ru/articles/1058358/)
+Статья рассказывает о создании веб-портфолио с управлением жестами через камеру. Это может быть полезно для разработчиков, которые хотят создать инновационные и интерактивные веб-приложения.
+#JavaScript #frontend
+
+📌 [Dependabot version updates introduce default package cooldown](https://github.blog/changelog/2026-07-14-dependabot-version-updates-introduce-default-package-cooldown/)
+Обновление Dependabot, которое вводит функцию cooldown для пакетов. Это может быть полезно разработчикам, которые используют Dependabot для управления зависимостями в своих проектах. Функция cooldown может помочь предотвратить автоматические обновления пакетов, которые могут вызв
+#package management #dependencies
+
+_Источников: 4 · Новостей: 10_
