@@ -1,0 +1,59 @@
+📰 *Дайджест 16.07.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "How to Merge Large PDFs in the Browser Without Crashing" описывает, как использовать Vue 3 и библиотеку pdf-lib для объединения больших PDF-файлов в браузере без зависания. Кроме того, была представлена статья "Point0 — простой, как tRPC, полноценный фулстек-фреймворк", в которой сравнивается фреймворк Point0 и библиотека tRPC для разработки полноценных веб-приложений. Также стоит отметить статью "Fixing INP: Field Notes on Interaction to Next Paint in a React App", в которой описываются методы оптимизации метрики Interaction to Next Paint (INP) в React-приложении, что может быть полезно разработчикам, работающим с другими фреймворками, включая Vue.
+
+─────────────────────
+
+💚 [How to Merge Large PDFs in the Browser Without Crashing](https://dev.to/sunshey/how-to-merge-large-pdfs-in-the-browser-without-crashing-49il)
+Статья описывает, как объединять большие PDF-файлы в браузере без зависания. Для этого используется Vue 3 и библиотека pdf-lib, которая позволяет обрабатывать большие файлы без их загрузки на сервер. Это полезно разработчикам, которые работают с большими PDF-файлами и хотят обесп
+#Vue #frontend
+
+🟨 [I Got Tired of Fighting AI-Generated Spaghetti Code, So I Built a Framework That Tames It](https://dev.to/ynwd/i-got-tired-of-fighting-ai-generated-spaghetti-code-so-i-built-a-framework-that-tames-it-2on0)
+Автор статьи создал фреймворк для улучшения кода, генерируемого ИИ. Это может быть полезно разработчикам, которые используют инструменты ИИ для генерации кода. Фреймворк помогает организовать код и сделать его более читаемым.
+#AI #JavaScript
+
+🟨 [Point0 — простой, как tRPC, полноценный фулстек-фреймворк](https://habr.com/ru/articles/1059310/?utm_campaign=1059310&utm_source=habrahabr&utm_medium=rss)
+Статья сравнивает фреймворк Point0 и библиотеку tRPC. Point0 предлагает более удобный и полноценный фреймворк для разработки полноценных веб-приложений.
+#JavaScript #framework
+
+🟨 [pkg-cache — простой локальный кеш пакетов](https://habr.com/ru/articles/1059574/?utm_campaign=1059574&utm_source=habrahabr&utm_medium=rss)
+Статья представляет простую реализацию кэширующего прокси для пакетов npm, composer и pip на базе node.js. Это может быть полезно разработчикам, которые хотят улучшить производительность своей работы с пакетами.
+#JavaScript #npm
+
+🌐 [Fixing INP: Field Notes on Interaction to Next Paint in a React App](https://dev.to/ahmed_mahmoud360/fixing-inp-field-notes-on-interaction-to-next-paint-in-a-react-app-32fa)
+Статья посвящена оптимизации метрики Interaction to Next Paint (INP) в React-приложении. INP измеряет время, необходимое для того, чтобы страница отреагировала на взаимодействие пользователя. Автор статьи описывает, как он оптимизировал свое приложение, чтобы улучшить эту метрику
+#webdev #frontend #performance
+
+📌 [HTML5 Fundamentals](https://dev.to/pixel_mosaic/html5-fundamentals-4627)
+Статья介绍 основы HTML5 и объясняет структуру HTML-документа. Это может быть полезно разработчикам, которые хотят улучшить свои знания по HTML5.
+#HTML5
+
+📌 [GitHub for Beginners: Your roadmap to mastering the GitHub essentials](https://github.blog/developer-skills/github/github-for-beginners-your-roadmap-to-mastering-the-github-essentials/)
+Статья представляет руководство для начинающих по GitHub, объясняя основы контроля версий, репозиториев и запросов на вытягивание. Это может быть полезно разработчикам, которые хотят улучшить свои навыки работы с GitHub.
+#GitHub #devtools
+
+📌 [Making 768 servers look like 1](https://planetscale.com/blog/making-768-servers-look-like-1)
+Статья о том, как сделать 768 серверов похожими на один, что может быть полезно для разработчиков веб-приложений. Это может помочь улучшить производительность и масштабируемость приложений. Статья доступна на сайте PlanetScale.
+#Web performance
+
+📌 [Grok Build is open source](https://github.com/xai-org/grok-build)
+Grok Build — это инструмент для автоматизации сборки и развертывания приложений. Теперь он доступен как открытый исходный код на GitHub. Это может быть полезно для разработчиков, которые ищут новые инструменты для улучшения своей производительности.
+#Tooling
+
+🎨 [pointer-events](https://css-tricks.com/almanac/properties/p/pointer-events/)
+Статья описывает свойство CSS pointer-events, которое контролирует, может ли элемент стать целевым для событий указателя, таких как клики и наведения. Это свойство полезно разработчикам, которые хотят создать интерактивные элементы на своих веб-страницах.
+#CSS #frontend
+
+🎨 [What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More](https://css-tricks.com/whats-important-15/)
+Статья представляет собой обзор новых возможностей и техник в CSS, включая boundary-aware CSS, time-based CSS и full-bleed CSS. Эти техники могут быть полезны разработчикам, которые хотят создать более сложные и интерактивные веб-страницы.
+#CSS #frontend
+
+📌 [Governments, companies, nonprofits should invest in free, open source AI [pdf]](https://www.siegelendowment.org/wp-content/uploads/2026/07/fortune-david-siegel-open-source-ai.pdf)
+Документ от Siegel Endowment обсуждает важность инвестиций в открытые источники искусственного интеллекта. Это может быть интересно разработчикам, которые работают с AI или планируют использовать его в своих проектах.
+#AI
+
+📌 [Can LLMs Perform Deep Technical Comprehension of Computer Architecture Papers](https://arxiv.org/abs/2607.11859)
+Статья исследует возможность использования крупномасштабных языковых моделей (LLM) для глубокого понимания технических документов по архитектуре компьютеров. Это может быть интересно разработчикам, которые работают с AI или занимаются исследованием в этой области.
+#AI
+
+_Источников: 6 · Новостей: 13_
