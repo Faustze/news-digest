@@ -1,0 +1,43 @@
+📰 *Дайджест 17.07.2026*
+
+Сегодня в мире фронтенда и Python произошли интересные события. Статья "WebAssembly Sparks Frontend Revolution with 20x Speed Gains" показывает, как использовать WebAssembly для создания более быстрых и эффективных приложений, что может быть полезно для разработчиков, которые хотят улучшить производительность своих приложений. Кроме того, статья "Recreating iOS's drum-roll picker in Vue 3" делится опытом создания компонента выбора даты в стиле iOS с использованием Vue 3, что может быть полезно для разработчиков, которые хотят создать мобильные приложения с похожим интерфейсом. Также стоит отметить статью "Зачем учить бинарный поиск, если платят за покраску кнопок", которая подчеркивает важность изучения алгоритмов и теоретических основ программирования для разработчиков.
+
+─────────────────────
+
+💚 [WebAssembly Sparks Frontend Revolution with 20x Speed Gains](https://dev.to/mlxio_ai/webassembly-sparks-frontend-revolution-with-20x-speed-gains-1l6p)
+Статья о том, как WebAssembly может повысить производительность фронтенд-приложений. Автор показывает, как использовать WebAssembly для создания более быстрых и эффективных приложений. Это может быть полезно для разработчиков, которые хотят улучшить производительность своих прило
+#Vue #frontend
+
+💚 [Recreating iOS's drum-roll picker in Vue 3 — inertia, rubber-banding, and the tap-vs-drag problem](https://dev.to/jlc488/recreating-ioss-drum-roll-picker-in-vue-3-inertia-rubber-banding-and-the-tap-vs-drag-problem-4269)
+Статья о создании компонента выбора даты в стиле iOS с использованием Vue 3. Автор делится своим опытом и кодом, чтобы помочь разработчикам создать подобный компонент. Это может быть полезно для разработчиков, которые хотят создать мобильные приложения с похожим интерфейсом.
+#Vue #frontend
+
+💚 [Browser-Based PDF Page Editing with Vue 3 and pdf-lib](https://dev.to/sunshey/browser-based-pdf-page-editing-with-vue-3-and-pdf-lib-3051)
+Статья о создании редактора страниц PDF с использованием Vue 3 и библиотеки pdf-lib. Автор показывает, как создать подобный редактор и делится своим опытом. Это может быть полезно для разработчиков, которые хотят создать подобные приложения.
+#Vue #frontend
+
+🌐 [Grok Walks Off With Your Repo? When the "Smartest Assistant" Becomes the Most Dangerous Tool](https://dev.to/dufrence/grok-walks-off-with-your-repo-when-the-smartest-assistant-becomes-the-most-dangerous-tool-5bdl)
+Статья о потенциальных рисках использования инструментов искусственного интеллекта для разработки. Автор предупреждает о возможных проблемах с безопасностью и конфиденциальностью при использовании таких инструментов. Это может быть полезно для разработчиков, которые хотят быть в
+#webdev #frontend
+
+🟨 [Зачем учить бинарный поиск, если платят за покраску кнопок](https://habr.com/ru/companies/domclick/articles/1055404/?utm_campaign=1055404&utm_source=habrahabr&utm_medium=rss)
+Статья о важности изучения алгоритмов и теоретических основ программирования для разработчиков. Полезно разработчикам для понимания ценности теоретических знаний в практической разработке.
+#JavaScript #frontend
+
+💚 [Building a Very Long Number Calculator Using Angular, React, Svelte, and Vue](https://dev.to/prakashks1307/building-a-very-long-number-calculator-using-angular-react-svelte-and-vue-2m49)
+Статья о создании калькулятора для длинных чисел с использованием различных фреймворков, включая Vue. Автор показывает, как создать подобный калькулятор и делится своим опытом. Это может быть полезно для разработчиков, которые хотят создать подобные приложения.
+#Vue #frontend
+
+🟨 [Build a Movie/TV Show Tracker with MongoDB and TanStack Start](https://dev.to/didicodes/build-a-movietv-show-tracker-with-mongodb-and-tanstack-start-24hb)
+Статья о создании трекера фильмов и телешоу с использованием MongoDB и TanStack Start. Полезно разработчикам для изучения примера реального приложения и понимания того, как использовать эти технологии для создания подобных проектов.
+#JavaScript #frontend
+
+📌 [FORM IN HTML](https://dev.to/parthipan_m/form-in-html-4f2)
+Статья о формах в HTML, описывающая различные теги и атрибуты, используемые для создания форм. Полезно разработчикам для понимания основ HTML и создания форм для сбора данных от пользователей.
+#HTML5
+
+📌 [Why teens deserve access to safe AI](https://openai.com/index/why-teens-deserve-access-safe-ai)
+Статья о том, почему подросткам следует предоставить доступ к безопасному ИИ. Полезно разработчикам для понимания важности безопасности и ответственности при разработке и использовании ИИ.
+#AI
+
+_Источников: 4 · Новостей: 9_
