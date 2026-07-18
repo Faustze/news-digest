@@ -1,0 +1,43 @@
+📰 *Дайджест 18.07.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Для разработчиков на Vue.js и Nuxt.js может быть интересно узнать о создании редактора PDF в браузере с помощью Vue 3 и pdf-lib, а также о создании многоязычных сайтов с помощью headless CMS. Кроме того, статья о решении проблемы пустого экрана при первоначальной загрузке приложения может быть полезна для улучшения пользовательского опыта. Для разработчиков, работающих с Python, может быть интересно сравнение AI-инструментов для помощи в кодировании, таких как Cursor, GitHub Copilot и Claude Code.
+
+─────────────────────
+
+🟨 [AI Coding Assistants Compared: Cursor vs GitHub Copilot vs Claude Code](https://dev.to/synfinity-dynamics-pvt-ltd/ai-coding-assistants-compared-cursor-vs-github-copilot-vs-claude-code-4gd8)
+Сравнение AI-инструментов для помощи в кодировании: Cursor, GitHub Copilot и Claude Code. Статья поможет разработчикам выбрать наиболее подходящий инструмент для своих нужд.
+#AI #JavaScript
+
+📌 [The cost of saying yes has changed](https://github.blog/engineering/the-cost-of-saying-yes-has-changed/)
+Статья о том, как изменилась стоимость разработки и поддержки кода в эпоху AI. Это может быть полезно для разработчиков, которые создают и поддерживают приложения.
+#AI #devtools
+
+💚 [Browser-Based PDF Editing with Vue 3 and pdf-lib](https://dev.to/sunshey/browser-based-pdf-editing-with-vue-3-and-pdf-lib-413c)
+Эта статья демонстрирует, как создать редактор PDF в браузере с помощью Vue 3 и pdf-lib. Это может быть полезно разработчикам, работающим с Vue.js, для создания приложений, требующих редактирования PDF.
+#Vue #frontend
+
+🔷 [TypeScript Declaration Merging in 2026: Augmenting Third-Party Modules Without Losing Type Safety](https://dev.to/jsmanifest/typescript-declaration-merging-in-2026-augmenting-third-party-modules-without-losing-type-safety-30ak)
+Статья о том, как использовать TypeScript Declaration Merging для расширения третьих библиотек без потери безопасности типов. Это полезно для разработчиков, которые используют TypeScript в своих проектах.
+#TypeScript #JavaScript
+
+🟨 [DI-контейнер на чистом JavaScript без TypeScript и reflect-metadata](https://habr.com/ru/articles/1060340/?utm_campaign=1060340&utm_source=habrahabr&utm_medium=rss)
+Статья о том, как создать DI-контейнер на чистом JavaScript без использования TypeScript и reflect-metadata. Это может быть полезно для разработчиков, которые создают приложения на JavaScript.
+#JavaScript #DI-контейнер
+
+💚 [Multilingual sites with a headless CMS: locales, translation groups, and AI translate](https://dev.to/rait_761f9a208b66707c899/multilingual-sites-with-a-headless-cms-locales-translation-groups-and-ai-translate-2ooe)
+Эта статья описывает, как создать многоязычные сайты с помощью headless CMS, используя NomaCMS. Это может быть полезно разработчикам, работающим с Nuxt.js, для создания многоязычных приложений.
+#Nuxt #frontend
+
+🟨 [How HTML5 Browser Games Deliver Instant Entertainment](https://dev.to/spincrush/how-html5-browser-games-deliver-instant-entertainment-1658)
+Статья о том, как HTML5-игры в браузере могут предоставлять мгновенное развлечение. Это может быть полезно для разработчиков, которые создают игры или другие интерактивные приложения.
+#HTML5 #JavaScript
+
+💚 [Solving the Blank Screen Problem on Initial App Load in the Frontend](https://dev.to/junhee916/solving-the-blank-screen-problem-on-initial-app-load-in-the-frontend-4b00)
+Эта статья решает проблему пустого экрана при первоначальной загрузке приложения. Автор предлагает добавить элемент, отражающий идентичность приложения, для улучшения впечатления пользователя. Это может быть полезно разработчикам, работающим с Vue.js, для улучшения пользовательск
+#Vue #frontend
+
+🟨 [Splitting the Compiler from the Runtime in Levelo JS](https://dev.to/motionmind2007/splitting-the-compiler-from-the-runtime-in-levelo-js-43gp)
+Статья о том, как разделить компилятор и runtime в Levelo JS. Это может быть полезно для разработчиков, которые используют Levelo JS в своих проектах.
+#JavaScript #Levelo JS
+
+_Источников: 5 · Новостей: 9_
