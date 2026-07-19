@@ -1,0 +1,39 @@
+📰 *Дайджест 19.07.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "How I Build Vue 3 Applications (Part 4): Where API Logic Belongs" предоставляет полезные советы по размещению логики API в приложениях Vue 3, что может улучшить структуру кода. Кроме того, статья "Our website is lagging? This is how to correctly Lazy Load to make it lightning fast!" предлагает подходы к реализации ленивой загрузки для улучшения производительности веб-сайта. Также стоит отметить статью "7 Open-Source Developer Tools I Wish I Started Using Earlier (100% Free)", в которой представлены 7 бесплатных открытых инструментов для разработчиков, которые могут сэкономить время и улучшить процесс разработки. Эти статьи могут быть полезны разработчикам, которые работают с Vue 3, Python и хотят улучшить качество своего кода и производительность веб-сайта.
+
+─────────────────────
+
+💚 [How I Build Vue 3 Applications (Part 4): Where API Logic Belongs](https://dev.to/lazydoomslayer/how-i-build-vue-3-applications-part-4-where-api-logic-belongs-db9)
+Статья о том, где лучше размещать логику API в приложениях Vue 3. Автор обсуждает важность согласованности в размещении API-запросов и предлагает подходы к решению этой проблемы. Полезно разработчикам, которые работают с Vue 3 и хотят улучшить структуру своего кода.
+#Vue #frontend
+
+🌐 [Our website is lagging? This is how to correctly Lazy Load to make it lightning fast!](https://dev.to/javapixastudio/our-website-is-lagging-this-is-how-to-correctly-lazy-load-to-make-it-lightning-fast-25l2)
+Статья о том, как использовать ленивую загрузку, чтобы улучшить производительность веб-сайта. Автор предлагает подходы к реализации ленивой загрузки и дает советы, как избежать распространенных ошибок. Полезно разработчикам, которые хотят улучшить скорость загрузки своего веб-сай
+#webdev #frontend
+
+🌐 [5 Proof Gates Between an AI Demo and a Shippable MVP](https://dev.to/eric-evidence-gate/5-proof-gates-between-an-ai-demo-and-a-shippable-mvp-294)
+Статья о важности проверки и верификации кода, сгенерированного с помощью инструментов ИИ. Автор предлагает использовать «ворота доказательств», чтобы убедиться, что код работает правильно и соответствует требованиям. Полезно разработчикам, которые работают с инструментами ИИ и х
+#webdev #frontend
+
+🌐 [7 Open-Source Developer Tools I Wish I Started Using Earlier (100% Free)](https://dev.to/hemanth_from_2050/7-open-source-developer-tools-i-wish-i-started-using-earlier-100-free-17p4)
+Статья о 7 бесплатных открытых инструментах для разработчиков, которые могут сэкономить время и улучшить процесс разработки. Среди инструментов есть альтернативы Postman и другие полезные утилиты. Полезно разработчикам, которые ищут новые инструменты для своей работы.
+#webdev #frontend
+
+🌐 [J'ai automatisé la production d'articles SEO avec Claude Code — et le plus important, c'est le garde-fou](https://dev.to/hernanz/jai-automatise-la-production-darticles-seo-avec-claude-code-et-le-plus-important-cest-le-421f)
+Статья о том, как использовать инструмент ИИ Claude Code для автоматизации производства статей SEO. Автор обсуждает важность настройки «гарде-фу», чтобы избежать ошибок и обеспечить качество контента. Полезно разработчикам, которые работают с инструментами ИИ и хотят улучшить кач
+#webdev #frontend
+
+📌 [I built a browser-based P2P file transfer tool using WebRTC](https://airdows.com/)
+Разработчик создал инструмент для передачи файлов между браузерами с помощью WebRTC. Это может быть полезно для разработчиков, которые работают над проектами, требующими передачи файлов между пользователями. Инструмент работает直接 в браузере, без необходимости установки дополнител
+#WebRTC #P2P #file transfer
+
+📌 [Setting up your spare Mac for Claude Code to control, a step-by-step guide](https://ykdojo.github.io/claude-controls-mac/)
+Опубликована инструкция по настройке Mac для удаленного управления с помощью Claude Code. Это может быть полезно разработчикам, которые работают над проектами, требующими удаленного доступа к компьютерам или автоматизации задач.
+#Claude Code #remote control
+
+📌 [Show HN: Q3Edit – Edit and play Quake 3 maps in the browser](https://q3edit.com)
+Представлен Q3Edit, инструмент для редактирования и игры в Quake 3 карты прямо в браузере. Это демонстрирует возможности современных веб-технологий и может быть интересно разработчикам, которые работают над игровыми проектами или проектами, требующими интерактивных 3D-сцен.
+#WebGL #game development
+
+_Источников: 3 · Новостей: 8_
