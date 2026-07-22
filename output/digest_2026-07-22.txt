@@ -1,0 +1,39 @@
+📰 *Дайджест 22.07.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Для разработчиков, работающих с Vue 3, была опубликована статья о том, как обрезать страницы PDF в браузере с помощью pdf-lib. Кроме того, была представлена библиотека HY-APP для разработки кроссплатформенных мобильных приложений с использованием Vue 3 и TypeScript. Также была опубликована статья о сравнении Nuxt и SvelteKit, двух популярных фреймворков для веб-разработки. Для разработчиков, использующих Python, может быть интересной статья о развертывании Llama 3.3 70B с vLLM и токен-стримингом на DigitalOcean GPU Droplet.
+
+─────────────────────
+
+💚 [How to Crop PDF Pages in the Browser with Vue 3 and pdf-lib](https://dev.to/sunshey/how-to-crop-pdf-pages-in-the-browser-with-vue-3-and-pdf-lib-5d75)
+Эта статья рассказывает о том, как обрезать страницы PDF в браузере с помощью Vue 3 и pdf-lib. Это полезно для разработчиков, которые хотят добавить функцию обрезки PDF в свои веб-приложения без необходимости использования серверной части.
+#Vue
+
+💚 [Supercharge Your Mobile Development with HY-APP: A Modern Vue 3 & TypeScript UI Component Library](https://dev.to/hy-app/supercharge-your-mobile-development-with-hy-app-a-modern-vue-3-typescript-ui-component-library-3i66)
+Эта статья представляет HY-APP, современную библиотеку UI-компонентов для Vue 3 и TypeScript. Она предназначена для разработки кроссплатформенных мобильных приложений и обеспечивает высокую производительность, безопасность типов и современный дизайн.
+#Vue
+
+🟨 [[Перевод] Что нового в WebStorm 2026.2](https://habr.com/ru/companies/haulmont/articles/1061378/?utm_campaign=1061378&utm_source=habrahabr&utm_medium=rss)
+Статья представляет обновления в новой версии WebStorm 2026.2, включая поддержку TypeScript 7, интеграцию с GitHub Copilot и улучшения для React, Vue и других технологий. Для разработчиков, использующих WebStorm, эта информация может быть полезной для повышения производительности
+#JavaScript #WebStorm
+
+📌 [How to Deploy Llama 3.3 70B with vLLM + Token Streaming on a $9/Month DigitalOcean GPU Droplet: Real-Time Inference at 1/155th Claude Opus Cost](https://dev.to/ramosai/how-to-deploy-llama-33-70b-with-vllm-token-streaming-on-a-9month-digitalocean-gpu-droplet-1om1)
+Статья рассказывает о том, как развернуть Llama 3.3 70B с vLLM и токен-стримингом на DigitalOcean GPU Droplet, что позволяет снизить затраты на инференцию. Для разработчиков, работающих с AI и машинным обучением, эта статья может быть полезной для оптимизации своих проектов.
+#AI #Llama
+
+💚 [Nuxt vs SvelteKit: What works better?](https://dev.to/erikch/nuxt-vs-sveltekit-what-works-better-132h)
+Эта статья сравнивает Nuxt и SvelteKit, два популярных фреймворка для веб-разработки. Автор сравнивает производительность и функциональность двух фреймворков и делает вывод, какой из них работает лучше.
+#Nuxt
+
+🟨 [Как я организовал проект на Next.js](https://habr.com/ru/articles/1061510/?utm_campaign=1061510&utm_source=habrahabr&utm_medium=rss)
+Статья рассказывает о реальном опыте организации проекта на Next.js, включая структуру проекта, маршрутизацию, работу с данными и аутентификацию. Для разработчиков, работающих с Next.js, эта статья может быть полезной для организации собственных проектов.
+#JavaScript #Next.js
+
+🟨 [What Changed in Zod 4, and How I Migrated Production Schemas](https://dev.to/ahmed_mahmoud360/what-changed-in-zod-4-and-how-i-migrated-production-schemas-di0)
+Статья обсуждает изменения в Zod 4 и предоставляет примеры миграции схем производства. Для разработчиков, использующих Zod, эта информация может быть полезной для обновления своих проектов.
+#JavaScript #Zod
+
+🟨 [«Зачем Javasript-у DI контейнер?»](https://habr.com/ru/articles/1061632/?utm_campaign=1061632&utm_source=habrahabr&utm_medium=rss)
+Статья обсуждает необходимость внедрения зависимостей в JavaScript и предоставляет ответы на этот вопрос. Для разработчиков важно понимать принципы внедрения зависимостей и их реализацию в проектах.
+#JavaScript
+
+_Источников: 4 · Новостей: 8_
