@@ -1,0 +1,55 @@
+📰 *Дайджест 23.07.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Разработчики могут быть заинтересованы в статье о том, как использовать потоковые ответы AI в Next.js, а также в обзоре Astro JS, в котором автор делится своим опытом использования этого метафреймворка в большом проекте. Кроме того, была опубликована статья о том, как развернуть модель Llama 3.3 70B на GPU-дроплете DigitalOcean за 9 долларов в месяц, что может быть полезно разработчикам, которые хотят использовать модели машинного обучения в своих проектах. Также стоит обратить внимание на статью о важности знания SIMD для разработчиков, которая может быть полезна для оптимизации производительности веб-приложений.
+
+─────────────────────
+
+📌 [Streaming AI Responses in Next.js: SSE, Fetch Streams, and What Breaks in Production](https://dev.to/ahmed_mahmoud360/streaming-ai-responses-in-nextjs-sse-fetch-streams-and-what-breaks-in-production-4f76)
+Статья описывает, как использовать потоковые ответы AI в Next.js, используя SSE и Fetch Streams. Это может быть полезно разработчикам, которые хотят создать приложения с поддержкой AI.
+#AI #Next.js
+
+🟨 [Обзор на Astro JS: опыт боевого проекта на 500+ тысяч страниц](https://habr.com/ru/articles/1061810/?utm_campaign=1061810&utm_source=habrahabr&utm_medium=rss)
+Статья об опыте использования Astro JS в большом проекте. Автор делится своим опытом и сравнивает Astro JS с другими метафреймворками.
+#JavaScript #frontend #Astro JS
+
+📌 [How to Deploy Llama 3.3 70B with vLLM + Paged Attention on a $9/Month DigitalOcean GPU Droplet: 128K Context Window at 1/155th Claude Opus Cost](https://dev.to/ramosai/how-to-deploy-llama-33-70b-with-vllm-paged-attention-on-a-9month-digitalocean-gpu-droplet-290o)
+Статья описывает, как развернуть модель Llama 3.3 70B на GPU-дроплете DigitalOcean за 9 долларов в месяц. Это может быть полезно разработчикам, которые хотят использовать модели машинного обучения в своих проектах.
+#AI #machine learning
+
+🌐 [Stop Cursor AI From Writing Broken Code](https://dev.to/gagan_builds/stop-cursor-ai-from-writing-broken-code-1h0d)
+Статья о том, как избежать ошибок при использовании инструментов AI, таких как Cursor, при разработке приложений. Автор делится опытом и советами, как правильно использовать эти инструменты, чтобы избежать ошибок и улучшить качество кода.
+#AI #webdev #frontend
+
+🟨 [Четыре месяца с Claude Code: что в итоге осталось лежать в .claude/](https://habr.com/ru/articles/1061696/?utm_campaign=1061696&utm_source=habrahabr&utm_medium=rss)
+Статья об опыте использования Claude Code в проекте. Автор делится своим опытом и проблемами, которые он遇ил при использовании этого инструмента.
+#JavaScript #frontend #AI
+
+💚 [How I Built a Blank Page Detector for PDFs with Vue 3 and Canvas](https://dev.to/sunshey/how-i-built-a-blank-page-detector-for-pdfs-with-vue-3-and-canvas-23m4)
+Разработчик создал детектор пустых страниц для PDF-файлов, используя Vue 3 и Canvas. Это может быть полезно разработчикам, которые работают с PDF-файлами и хотят автоматизировать процесс удаления пустых страниц.
+#Vue #frontend
+
+📌 [Copilot vs. raw API access: What are you actually paying for?](https://github.blog/ai-and-ml/github-copilot/copilot-vs-raw-api-access-what-are-you-actually-paying-for/)
+Статья о сравнении Copilot и прямого доступа к API. Автор анализирует, что вы платите за при использовании этих инструментов.
+#AI #devtools
+
+💚 [I reshaped a mature marketplace platform into a free "give it away" app - Laravel + Inertia + Vue + PostGIS](https://dev.to/yatta_pick_8831ada913f4e7/i-reshaped-a-mature-marketplace-platform-into-a-free-give-it-away-app-laravel-inertia-vue--4mn3)
+Разработчик создал платформу для бесплатной передачи вещей, используя Laravel, Inertia, Vue и PostGIS. Эта платформа позволяет пользователям передавать вещи, которые им больше не нужны, без комиссий и продаж. Это может быть полезно разработчикам, которые хотят создать подобные пр
+#Vue #frontend
+
+🌐 [Everyone should know SIMD](https://mitchellh.com/writing/everyone-should-know-simd)
+Статья о важности знания SIMD (Single Instruction, Multiple Data) для разработчиков. Это может быть полезно для оптимизации производительности веб-приложений. SIMD позволяет выполнять одну и ту же операцию над несколькими данными одновременно, что может существенно повысить скоро
+#tech #webdev #performance
+
+🌐 [I built free browser-based tools — files never leave your device](https://dev.to/gaurav_sheoran_515dbf72f0/i-built-free-browser-based-tools-files-never-leave-your-device-3o30)
+Разработчик создал бесплатные инструменты для работы с файлами в браузере, которые не отправляют файлы на сервер. Это может быть полезно разработчикам, которые хотят создать подобные инструменты или сервисы.
+#webdev #frontend
+
+🌐 [The startup's Postgres survival guide](https://hatchet.run/blog/postgres-survival-guide)
+Руководство по выживанию с Postgres для стартапов. Это может быть полезно разработчикам, которые работают с базами данных и ищут советы по оптимизации и управлению.
+#tech #webdev #database
+
+🌐 [So Reddit has decided that plain HTML is unsafe](https://www.cole-k.com/2026/07/21/reddit/)
+Статья о том, что Reddit считает простой HTML не безопасным. Это может быть интересно разработчикам, которые работают с HTML и CSS, поскольку может повлиять на их подход к безопасности веб-приложений.
+#tech #webdev #security
+
+_Источников: 5 · Новостей: 12_
