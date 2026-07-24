@@ -1,0 +1,43 @@
+📰 *Дайджест 24.07.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "Is Vue.js Still Worth Learning in 2026?" обсуждает актуальность изучения Vue.js в 2026 году и утверждает, что Vue остается ценным инструментом для разработчиков. Кроме того, была представлена новая статья о создании браузерного редактора пиксельной графики и анимации с использованием Vue, Laravel и ИИ. Также была опубликована статья о добавлении водяных знаков к PDF-файлам в браузере с использованием Vue 3 и библиотеки pdf-lib. Эти статьи могут быть полезны разработчикам, интересующимся созданием интерактивных приложений с использованием Vue и ИИ, а также тем, кто создает приложения для работы с PDF.
+
+─────────────────────
+
+💚 [Is Vue.js Still Worth Learning in 2026?](https://dev.to/codewiljson/is-vuejs-still-worth-learning-in-2026-48fg)
+Статья обсуждает актуальность изучения Vue.js в 2026 году. Автор делится своим опытом использования Vue для создания различных приложений и утверждает, что Vue остается ценным инструментом для разработчиков.
+#Vue #frontend
+
+💚 [I built a browser-based pixel-art & animation editor with Vue, Laravel and AI](https://dev.to/yanbess/i-built-a-browser-based-pixel-art-animation-editor-with-vue-laravel-and-ai-2l58)
+Статья рассказывает о создании браузерного редактора пиксельной графики и анимации с использованием Vue, Laravel и ИИ. Это может быть полезно разработчикам, интересующимся созданием интерактивных приложений с использованием Vue и ИИ.
+#Vue #frontend
+
+💚 [Vue 3 Rich Text Editor: A Modern, Dependency-Free Editor Built with TypeScript](https://dev.to/eramitgupta/vue-3-rich-text-editor-a-modern-dependency-free-editor-built-with-typescript-1ck8)
+Статья представляет новый редактор текста для Vue 3, построенный с использованием TypeScript. Этот редактор не требует дополнительных зависимостей и может быть полезен разработчикам, создаваям текстовые редакторы для своих приложений.
+#Vue #frontend
+
+💚 [How to Add Watermarks to PDFs in the Browser with Vue 3 and pdf-lib](https://dev.to/sunshey/how-to-add-watermarks-to-pdfs-in-the-browser-with-vue-3-and-pdf-lib-3k4n)
+Статья рассказывает о том, как добавить водяные знаки к PDF-файлам в браузере с использованием Vue 3 и библиотеки pdf-lib. Это может быть полезно разработчикам, создаваям приложения для работы с PDF.
+#Vue #frontend
+
+🔷 [Building AI Agents for Social Media with TypeScript and Hono.js](https://dev.to/naim_hossain_43eadf058df2/building-ai-agents-for-social-media-with-typescript-and-honojs-4ca8)
+Статья описывает, как построить агентов ИИ для социальных сетей с помощью TypeScript и Hono.js. Автор делится своим опытом и архитектурой, которую он использует для создания агентов, которые могут собирать данные, обрабатывать их и публиковать контент в социальных сетях.
+#TypeScript #Hono.js #AI
+
+🟨 [8 Best Resources to Learn JavaScript in 2026: An Honest Review](https://dev.to/stack_overflowed/8-best-resources-to-learn-javascript-in-2026-an-honest-review-1m0d)
+Статья представляет обзор лучших ресурсов для изучения JavaScript в 2026 году. Это может быть полезно разработчикам, желающим улучшить свои навыки в JavaScript.
+#JavaScript #frontend
+
+🖥️ [Code Splitting Messed Up? Let's Make Our Awesome Application More Optimal!](https://dev.to/javapixastudio/code-splitting-messed-up-lets-make-our-awesome-application-more-optimal-5m5)
+Статья обсуждает проблемы, связанные с код-сплиттингом, и предлагает решения для оптимизации приложений. Это может быть полезно разработчикам, сталкивающимся с проблемами производительности в своих приложениях.
+#frontend #performance
+
+🟨 [Ленивая загрузка — не лекарство: почему ваш main.js всё равно весит 2 МБ](https://habr.com/ru/companies/otus/articles/1059536/?utm_campaign=1059536&utm_source=habrahabr&utm_medium=rss)
+Статья объясняет, почему ленивая загрузка не всегда может помочь уменьшить размер файла main.js. Автор описывает, как найти лишний код в бандле и действительно сократить время загрузки приложения.
+#JavaScript #frontend #performance
+
+📌 [The case for a cooldown: Why Dependabot now waits before issuing version updates](https://github.blog/security/supply-chain-security/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates/)
+Статья объясняет, почему Dependabot теперь ждёт три дня перед выпуском обновлений версий. Это позволяет разработчикам и исследователям безопасности решить проблемы безопасности до того, как они попадут в код.
+#Dependabot #security #devtools
+
+_Источников: 5 · Новостей: 9_
