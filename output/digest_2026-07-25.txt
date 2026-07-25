@@ -1,0 +1,35 @@
+📰 *Дайджест 25.07.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "How to Resize PDF Pages in the Browser with Vue 3 and pdf-lib" описывает, как можно изменить размер страниц PDF в браузере с помощью Vue 3 и библиотеки pdf-lib. Кроме того, статья "Один поток, а всё успевает: как работает цикл событий в JavaScript" объясняет модель цикла событий в JavaScript, что может помочь разработчикам оптимизировать код и избежать ошибок. Также была представлена новая версия модели Claude Opus 5, которая занимает первое место на Artificial Analysis Intelligence Leaderboard, и статья о том, как Postgres LISTEN/NOTIFY может быть использован для масштабирования.
+
+─────────────────────
+
+💚 [How to Resize PDF Pages in the Browser with Vue 3 and pdf-lib](https://dev.to/sunshey/how-to-resize-pdf-pages-in-the-browser-with-vue-3-and-pdf-lib-3666)
+Эта статья описывает, как можно изменить размер страниц PDF в браузере с помощью Vue 3 и библиотеки pdf-lib. Это может быть полезно для разработчиков, которые работают с документами и нуждаются в функции изменения размера страниц. Статья предоставляет подробное описание реализаци
+#Vue #frontend
+
+🟨 [Один поток, а всё успевает: как работает цикл событий в JavaScript](https://habr.com/ru/companies/otus/articles/1062056/?utm_campaign=1062056&utm_source=habrahabr&utm_medium=rss)
+Статья объясняет модель цикла событий в JavaScript, которая помогает понимать, где возникают блокировки, гонки запросов и лишние задержки. Это полезно для разработчиков, чтобы оптимизировать код и избежать ошибок.
+#JavaScript #frontend
+
+🟨 [Почему сайт невидим для роботов: проблемы вайб-кодинга](https://habr.com/ru/articles/1062668/?utm_campaign=1062668&utm_source=habrahabr&utm_medium=rss)
+Статья обсуждает проблемы вайб-кодинга и почему сайты, созданные с помощью нейронок, могут быть невидимыми для поисковых роботов. Это полезно для разработчиков, чтобы понять, как оптимизировать сайты для поисковых систем.
+#JavaScript #frontend
+
+💚 [I Uninstalled Vue DevTools. My Tests Became the Better Debugger.](https://dev.to/jenueldev/i-uninstalled-vue-devtools-my-tests-became-the-better-debugger-2hi0)
+Эта статья рассказывает о том, как автор отказался от использования Vue DevTools и вместо этого начал использовать тесты для отладки своего приложения. Автор считает, что тесты могут быть более эффективным инструментом для отладки, чем Vue DevTools, и предоставляет примеры того,
+#Vue #frontend
+
+💚 [A CSV Viewer That Never Uploads Your Data](https://dev.to/kaylee8520/a-csv-viewer-that-never-uploads-your-data-bkf)
+Эта статья представляет инструмент для просмотра CSV-файлов, который не загружает данные на сервер. Это может быть полезно для разработчиков, которые работают с конфиденциальными данными и нуждаются в безопасном инструменте для их просмотра. Инструмент позволяет открывать CSV-фай
+#Vue #frontend
+
+📌 [Claude Opus 5](https://www.anthropic.com/news/claude-opus-5)
+Новая версия модели Claude Opus 5, которая занимает первое место на Artificial Analysis Intelligence Leaderboard. Это может быть полезно для разработчиков, чтобы узнать о последних достижениях в области искусственного интеллекта.
+#AI #tech
+
+📌 [Postgres LISTEN/NOTIFY actually scales](https://www.dbos.dev/blog/postgres-listen-notify-scalability)
+Статья о том, как Postgres LISTEN/NOTIFY может быть использован для масштабирования. Это может быть полезно для разработчиков, чтобы узнать о новых возможностях баз данных.
+#tech #database
+
+_Источников: 3 · Новостей: 7_
