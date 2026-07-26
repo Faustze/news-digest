@@ -1,0 +1,47 @@
+📰 *Дайджест 26.07.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Разработчики могут развернуть Llama 3.3 70B с vLLM и Prefix Caching на DigitalOcean GPU Droplet, что позволяет ускорить повторные запросы в 10 раз и снизить стоимость до 1/150 от Claude Opus. Кроме того, был представлен ZWPlayer - бесплатный HTML5 видеоплеер с поддержкой AI субтитров, интерактивных аннотаций и интеграции с Vue 2/3. Также была опубликована статья о создании готового к производству портфолио разработчика с помощью Vue 3, n8n Automation и многослойной защиты от спама. Эти новости будут полезны разработчикам, которые работают с AI, Vue и JavaScript.
+
+─────────────────────
+
+🌐 [How to Deploy Llama 3.3 70B with vLLM + Prefix Caching on a $10/Month DigitalOcean GPU Droplet: 10x Faster Repeated Queries at 1/150th Claude Opus Cost](https://dev.to/ramosai/how-to-deploy-llama-33-70b-with-vllm-prefix-caching-on-a-10month-digitalocean-gpu-droplet-10x-pe0)
+Статья показывает, как развернуть Llama 3.3 70B с vLLM и Prefix Caching на DigitalOcean GPU Droplet, что позволяет ускорить повторные запросы в 10 раз и снизить стоимость до 1/150 от Claude Opus. Это полезно разработчикам, которые работают с AI и хотят оптимизировать свои расходы
+#AI #webdev #performance
+
+💚 [ZWPlayer: A Free HTML5 Video Player with AI Subtitles, Interactive Annotations, and Vue 2/3 Support](https://dev.to/chenfanyu/zwplayer-a-free-html5-video-player-with-ai-subtitles-interactive-annotations-and-vue-23-support-4hi7)
+ZWPlayer — бесплатный HTML5 видеоплеер с поддержкой AI субтитров, интерактивных аннотаций и интеграции с Vue 2/3. Это полезно разработчикам, которым необходимо добавить видеоплеер в свой проект с поддержкой потоковых протоколов, субтитров и интерактивных функций.
+#Vue #HTML5
+
+💚 [Built a Production-Ready Developer Portfolio with Vue 3, n8n Automation, and Multi-Layer Spam Protection](https://dev.to/saurabhzaiswal/building-a-production-ready-portfolio-with-vue-3-n8n-automation-and-multi-layer-spam-protection-3odc)
+Эта статья показывает, как создать готовый к производству портфолио разработчика с помощью Vue 3, n8n Automation и многослойной защиты от спама. Это полезно разработчикам, которым необходимо создать профессиональное портфолио.
+#Vue #Web development
+
+🟨 [Ваш AI-агент не понимает код. Он просто очень уверенно угадывает — поэтому мы создали SLICER](https://habr.com/ru/articles/1063004/?utm_campaign=1063004&utm_source=habrahabr&utm_medium=rss)
+Статья разбирается CodeSlicer — локальный CLI, MCP-сервер и визуальный анализатор, который строит проверяемый граф влияния проекта. Он связывает функции, классы, DI-провайдеры, HTTP-endpoint’ы, frontend-компоненты и тесты, сохраняя evidence chain. Это полезно разработчикам, чтобы
+#JavaScript #frontend #AI
+
+💚 [How to Reverse PDF Page Order in the Browser with Vue 3 and pdf-lib](https://dev.to/sunshey/how-to-reverse-pdf-page-order-in-the-browser-with-vue-3-and-pdf-lib-47ig)
+Эта статья показывает, как обратить порядок страниц PDF в браузере с помощью Vue 3 и pdf-lib. Это полезно разработчикам, которым необходимо работать с PDF документами в своих проектах.
+#Vue #JavaScript
+
+📌 [#SHOWDEV: Built an Ultra-Fast React Luxury Fashion Storefront (100/100 Lighthouse Score)](https://dev.to/arman_molani_f59eaf5351ae/showdev-built-an-ultra-fast-react-luxury-fashion-storefront-100100-lighthouse-score-3748)
+Эта статья показывает, как создать ультрабыстрый магазин роскошной моды на React с использованием Tailwind CSS. Это полезно разработчикам, которым необходимо создать быстрые и эффективные веб-приложения.
+#React #Tailwind CSS #Web performance
+
+🟨 [пошКОДим: как превратить React-компонент в неуправляемый комбайн — 15 вредных советов](https://habr.com/ru/articles/1061620/?utm_campaign=1061620&utm_source=habrahabr&utm_medium=rss)
+Статья показывает, как не стоит писать код, и дает советы, как избежать создания неуправляемых компонентов. Это полезно разработчикам, чтобы улучшить качество своего кода и избежать распространенных ошибок.
+#JavaScript #frontend #best practices
+
+💚 [Quick Tip: Vue.js Composition API](https://dev.to/jarynagent/quick-tip-vuejs-composition-api-3hk8)
+Эта статья предоставляет быстрый совет по использованию Composition API в Vue.js. Это полезно разработчикам, которым необходимо улучшить свои навыки работы с Vue.js.
+#Vue #JavaScript
+
+🌐 [The new rules of context engineering for Claude 5 generation models](https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models)
+Статья представляет новые правила контекстного проектирования для моделей Claude 5 поколения. Это полезно разработчикам, которые работают с AI и хотят улучшить качество своих моделей.
+#AI #webdev #machine learning
+
+🟨 [JavaScript Type Coercion — Output-Based Questions ([] + [], NaN === NaN & Friends)](https://dev.to/amitkumar13/javascript-type-coercion-output-based-questions-nan-nan-friends-3jm6)
+Эта статья объясняет типы принуждения в JavaScript и предоставляет примеры вопросов и ответов. Это полезно разработчикам, которым необходимо улучшить свои навыки работы с JavaScript.
+#JavaScript #Web development
+
+_Источников: 4 · Новостей: 10_
