@@ -1,0 +1,35 @@
+📰 *Дайджест 27.07.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Компания Vercel представила компилятор Scriptc, который преобразует TypeScript в родной код без использования движка JavaScript, что может быть полезно для разработчиков, создающих высокопроизводительные приложения. Кроме того, была опубликована статья о лучших практиках загрузки файлов в Laravel, в которой даны рекомендации по безопасной загрузке и хранению файлов. Также была представлена библиотека Htmx 4.0, которая стала первой JavaScript-библиотекой, выпущенной исключительно на Game Boy, что может быть интересно для разработчиков, создающих уникальные приложения.
+
+─────────────────────
+
+📌 [File Upload Best Practices in Laravel: Validation, Security & Storage](https://dev.to/software_solutions_740799/file-upload-best-practices-in-laravel-validation-security-storage-19nk)
+Эта статья предоставляет рекомендации по безопасной загрузке файлов в Laravel, включая валидацию, безопасное хранение и генерацию уникальных имен файлов.
+#Laravel #security
+
+🔷 [Scriptc by Vercel: TypeScript-to-Native compiler, no JavaScript engine in binary](https://github.com/vercel-labs/scriptc)
+Vercel представила компилятор Scriptc, который преобразует TypeScript в родной код без использования движка JavaScript. Это может быть полезно для разработчиков, которые хотят создавать высокопроизводительные приложения. Компилятор может быть использован для создания быстрого и э
+#TypeScript #JavaScript #webdev
+
+📌 [From feedback to merged PR: making UI feedback agent-actionable](https://dev.to/matttdamon/from-feedback-to-merged-pr-making-ui-feedback-agent-actionable-12a8)
+Эта статья обсуждает важность предоставления обратной связи в разработке UI, особенно при работе с инструментами ИИ. Автор предлагает подход к созданию обратной связи, которая может быть легко обработана агентами ИИ.
+#UI #AI
+
+🌐 [Introduction to Data-Oriented Design [pdf]](https://www.gamedevs.org/uploads/introduction-to-data-oriented-design.pdf)
+Статья представляет собой введение в Data-Oriented Design, который является подходом к проектированию программного обеспечения, ориентированному на данные. Этот подход может быть полезен для разработчиков, которые хотят создавать эффективные и масштабируемые приложения. Статья пр
+#webdev #design
+
+💚 [Turning 125 AI Tools into a Practical Open Source Handbook](https://dev.to/kevinten10/turning-125-ai-tools-into-a-practical-open-source-handbook-2f96)
+Эта статья представляет собой открытый справочник по инструментам ИИ, в котором собрано 125 инструментов по семи категориям. Этот проект может быть полезен разработчикам, работающим с ИИ и веб-разработкой, поскольку он предоставляет структурированный подход к выбору инструментов
+#AI #Vue
+
+🟨 [Htmx 4.0, the first JavaScript library to release exclusively on the Game Boy](https://swag.htmx.org/en-cad/products/htmx-4-the-game)
+Библиотека Htmx 4.0 стала первой JavaScript-библиотекой, которая была выпущена исключительно на Game Boy. Это может быть интересно для разработчиков, которые хотят создавать уникальные и необычные приложения. Библиотека может быть использована для создания интерактивных и динамич
+#JavaScript #webdev
+
+🌐 [Common Technical SEO Mistakes Developers Should Avoid](https://dev.to/programers_/common-technical-seo-mistakes-developers-should-avoid-4a71)
+Эта статья перечисляет общие ошибки, которые могут совершать разработчики при оптимизации сайтов для поисковых систем. Автор предлагает советы по избежанию этих ошибок и улучшению видимости сайта в поисковых системах.
+#SEO #webdev
+
+_Источников: 2 · Новостей: 7_
