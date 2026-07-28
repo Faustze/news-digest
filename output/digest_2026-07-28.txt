@@ -1,0 +1,47 @@
+📰 *Дайджест 28.07.2026*
+
+Сегодня в мире фронтенда и Python произошли интересные события. Статья "Модель исполнения JavaScript по спецификации ECMAScript" поможет разработчикам лучше понять, как работает JavaScript. Кроме того, статья "React vs Angular vs Vue: Which Should You Learn?" сравнивает популярные фреймворки, чтобы помочь веб-разработчикам выбрать, какой фреймворк изучать. Также стоит отметить статью "Foundation: por qué construir sobre una base existente es 3-5x más rápido que empezar de cero", которая делится опытом использования существующей базы для ускорения разработки веб-приложений. Эти статьи могут быть полезны разработчикам, работающим с Vue, Nuxt и Python.
+
+─────────────────────
+
+🟨 [[Перевод] Языковая Модель без магии: Крошечная Language Model на чистом Node.js](https://habr.com/ru/articles/1063406/?utm_campaign=1063406&utm_source=habrahabr&utm_medium=rss)
+Статья о создании крошечной языковой модели на чистом Node.js. Это полезно разработчикам, поскольку они могут узнать больше об искусственном интеллекте и машинном обучении.
+#JavaScript #AI
+
+📌 [The harness is all you need (mostly)](https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/)
+Статья о практическом использовании GitHub Copilot для прототипирования, планирования, реализации и проверки программного обеспечения. Это полезно разработчикам, поскольку они могут улучшить свой рабочий процесс.
+#AI #devtools
+
+🟨 [Модель исполнения JavaScript по спецификации ECMAScript: call stack, контексты, окружения и замыкания](https://habr.com/ru/articles/1063168/?utm_campaign=1063168&utm_source=habrahabr&utm_medium=rss)
+Статья о модели исполнения JavaScript по спецификации ECMAScript. Это полезно разработчикам, поскольку они могут лучше понять, как работает JavaScript.
+#JavaScript #frontend
+
+📌 [GitHub Copilot app for Beginners: Getting started](https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started/)
+Статья для начинающих о GitHub Copilot. Это полезно разработчикам, поскольку они могут узнать, как начать работать с GitHub Copilot и улучшить свой рабочий процесс.
+#AI #devtools
+
+💚 [Foundation: por qué construir sobre una base existente es 3-5x más rápido que empezar de cero](https://dev.to/adriancolom/foundation-por-que-construir-sobre-una-base-existente-es-3-5x-mas-rapido-que-empezar-de-cero-46el)
+Статья о том, как использовать существующую базу для ускорения разработки веб-приложений. Автор делится опытом использования Foundation для сокращения времени разработки.
+#Nuxt #frontend
+
+🟨 [[Перевод] Книга аутентификации](https://habr.com/ru/articles/1063760/?utm_campaign=1063760&utm_source=habrahabr&utm_medium=rss)
+Книга об аутентификации в веб-приложениях. Это полезно разработчикам, поскольку они могут узнать больше об аутентификации и безопасности.
+#JavaScript #frontend
+
+💚 [React vs Angular vs Vue: Which Should You Learn?](https://dev.to/subha_74/react-vs-angular-vs-vue-which-should-you-learn-39j6)
+Если вы планируете карьеру в веб-разработке, вам, вероятно, интересно, какой фреймворк изучать. В этой статье сравниваются React, Angular и Vue, чтобы помочь вам принять решение.
+#Vue #frontend
+
+🌐 [The Evolution of Browser Gaming: From Flash to HTML5](https://dev.to/jizhong_cheng_900901d14eb/the-evolution-of-browser-gaming-from-flash-to-html5-4ldk)
+Эволюция браузерных игр от Flash до HTML5. HTML5 стал лучшим решением для браузерных игр, чем Flash. Это полезно разработчикам, поскольку они могут создавать более безопасные и эффективные игры.
+#HTML5 #webdev
+
+🖥️ [Why HTML5 Games Are Perfect for Mobile Devices](https://dev.to/jizhong_cheng_900901d14eb/why-html5-games-are-perfect-for-mobile-devices-12ap)
+Статья о преимуществах использования HTML5 для разработки игр на мобильных устройствах. Автор объясняет, почему HTML5-игры идеальны для мобильных устройств.
+#HTML5 #frontend
+
+💚 [An Open-Source Gantt Component](https://dev.to/nelson_li_c5265341756c7ab/an-open-source-gantt-component-35hc)
+Представлен открытый компонент Gantt, который можно использовать в веб-приложениях. Компонент доступен на сайте gantt.jordium.com.
+#Vue #frontend
+
+_Источников: 5 · Новостей: 10_
