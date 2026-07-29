@@ -1,0 +1,47 @@
+📰 *Дайджест 29.07.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "Google reCAPTCHA v2 и v3 в React, Vue или Angular, с одним пропом" представляет собой упрощенный способ интеграции Google reCAPTCHA в приложения на React, Vue или Angular, что может быть полезно разработчикам, работающим с формами. Кроме того, статья "Удаление метаданных PDF в браузере с помощью Vue 3 и pdf-lib" показывает, как удалить метаданные из файлов PDF в браузере, что может быть полезно разработчикам, работающим с файлами PDF. Также стоит отметить статью "Отмена запросов API в Vue 3", в которой автор объясняет, как использовать параметр onCleanup и другие методы для отмены запросов, что может улучшить производительность приложения.
+
+─────────────────────
+
+📌 [Disrupting supply chain attacks on npm and GitHub Actions](https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/)
+Статья о том, как GitHub и npm предотвращают атаки на цепочку поставок. Полезна для разработчиков, работающих с npm и GitHub.
+#npm #security #devtools
+
+💚 [Google reCAPTCHA v2 and v3 in React, Vue, or Angular, with one prop](https://dev.to/souhailmakni/google-recaptcha-v2-and-v3-in-react-vue-or-angular-with-one-prop-13d9)
+Статья о том, как упростить интеграцию Google reCAPTCHA в приложения на React, Vue или Angular. Автор создал три библиотеки, каждая из которых имеет одинаковый API, что упрощает процесс интеграции. Это может быть полезно разработчикам, которые работают с формами и хотят добавить
+#Vue #frontend
+
+💚 [How to Remove PDF Metadata in the Browser with Vue 3 and pdf-lib](https://dev.to/sunshey/how-to-remove-pdf-metadata-in-the-browser-with-vue-3-and-pdf-lib-5cgh)
+Статья о том, как удалить метаданные из файлов PDF в браузере с помощью Vue 3 и библиотеки pdf-lib. Это может быть полезно разработчикам, которые работают с файлами PDF и хотят удалить конфиденциальную информацию.
+#Vue #frontend
+
+💚 [Cancelling API Requests in Vue 3: One Registry, Two Paths, and the Question That Orders Them](https://dev.to/eveko/cancelling-api-requests-in-vue-3-one-registry-two-paths-and-the-question-that-orders-them-26h3)
+Статья о том, как отменить запросы API в Vue 3. Автор объясняет, как использовать параметр onCleanup и другие методы для отмены запросов. Это может быть полезно разработчикам, которые работают с запросами API и хотят улучшить производительность своего приложения.
+#Vue #frontend
+
+💚 [Широкий вход, узкий выход: Vue 3 внутри jQuery‑формы без бесконечных циклов](https://habr.com/ru/articles/1064008/?utm_campaign=1064008&utm_source=habrahabr&utm_medium=rss)
+Статья о том, как интегрировать Vue 3 с jQuery-формой без бесконечных циклов. Полезна для разработчиков, работающих с Vue.js и jQuery.
+#Vue #JavaScript #frontend
+
+💚 [5 Signs Your WooCommerce Store Is Ready for a Headless Frontend](https://dev.to/woohl/5-signs-your-woocommerce-store-is-ready-for-a-headless-frontend-225e)
+Статья о том, когда стоит использовать headless-frontend для WooCommerce-магазина. Автор перечисляет пять признаков, которые указывают на то, что магазин готов к такому переходу. Это может быть полезно разработчикам, которые работают с WooCommerce и хотят улучшить производительно
+#Nuxt #frontend
+
+🟨 [Чат на сайте стоит дороже, чем кажется: как я замерил его цену и переписал виджет под результат](https://habr.com/ru/articles/1063814/?utm_campaign=1063814&utm_source=habrahabr&utm_medium=rss)
+Статья о том, как улучшить производительность чата на сайте. Полезна для разработчиков, работающих с frontend и оптимизацией производительности.
+#JavaScript #frontend #Web performance
+
+📌 [Scientific computing in the age of agentic AI](https://openai.com/index/scientific-computing-agentic-ai)
+Статья о том, как AI-агенты используются в научных вычислениях. Полезна для разработчиков, интересующихся AI и научными вычислениями.
+#AI #devtools #scientific computing
+
+📌 [Discovering Cryptographic Weaknesses with Claude](https://www.anthropic.com/research/discovering-cryptographic-weaknesses)
+В статье исследуется использование AI-инструмента Claude для обнаружения криптографических уязвимостей. Это может быть полезно разработчикам для повышения безопасности своих приложений. Статья предоставляет информацию о том, как использовать Claude для анализа криптографических п
+#AI #security
+
+📌 [Show HN: Lean4 Datalog DSL Based on Google Zanzibar for AI Projects](https://github.com/jagg-ix/zil-lean)
+В этой статье представлен проект Lean4 Datalog DSL, основанный на Google Zanzibar, который может быть полезен разработчикам для создания AI-проектов. Статья предоставляет информацию о том, как использовать Lean4 Datalog DSL для создания и управления данными в AI-проектах.
+#AI #development
+
+_Источников: 6 · Новостей: 10_
