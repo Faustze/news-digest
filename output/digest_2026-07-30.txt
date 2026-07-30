@@ -1,0 +1,39 @@
+📰 *Дайджест 30.07.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "Laravel Sanctum with Nuxt SSR: why the session disappears on the server" объясняет, почему сессия исчезает на сервере при использовании Laravel Sanctum с Nuxt SSR и предоставляет решение этой проблемы. Кроме того, статья "Tame Dependabot: Group your updates, slow the cadence, keep security fast" рассказывает о том, как настроить Dependabot для обновления зависимостей в репозитории, чтобы не получать слишком много запросов на принятие изменений. Также была опубликована статья "A Button That Links to a Random Post in HTML & CSS Only", которая демонстрирует, как создать кнопку, которая ссылается на случайную статью, используя только HTML и CSS. Эти статьи могут быть полезны веб-разработчикам, работающим с Vue, Nuxt и Python.
+
+─────────────────────
+
+💚 [Laravel Sanctum with Nuxt SSR: why the session disappears on the server](https://dev.to/nuxavel/laravel-sanctum-with-nuxt-ssr-why-the-session-disappears-on-the-server-4eno)
+Статья объясняет, почему сессия исчезает на сервере при использовании Laravel Sanctum с Nuxt SSR. Это происходит потому, что запрос SSR является отдельным HTTP-клиентом, который не имеет доступа к куки и другим данным браузера. Статья предоставляет решение этой проблемы.
+#Nuxt #Vue #frontend
+
+🌐 [Show HN: A local merge queue for parallel Claude Code agents](https://github.com/funador/claude-code-merge-queue)
+Эта новость представляет собой инструмент для разработчиков, который позволяет использовать Claude Code agents в параллельном режиме. Это может быть полезно для разработчиков, которые работают над сложными проектами и хотят ускорить процесс разработки. Инструмент предоставляет во
+#AI #webdev #Claude Code
+
+🌐 [Your Auth Flow Can Freeze Forever If This Refresh Token Call Fails — Here's Why](https://dev.to/iqbal120708/your-auth-flow-can-freeze-forever-if-this-refresh-token-call-fails-heres-why-9ep)
+Статья о проблемах, которые могут возникнуть при использовании токенов обновления в потоке аутентификации. Автор описывает, как он столкнулся с проблемой, когда его приложение зависало из-за неудачного запроса на обновление токена.
+#webdev #security
+
+📌 [Tame Dependabot: Group your updates, slow the cadence, keep security fast](https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/)
+Статья о том, как настроить Dependabot для обновления зависимостей в репозитории, чтобы не получать слишком много запросов на принятие изменений. Это может быть полезно разработчикам для поддержания безопасности и порядка в своих проектах.
+#devtools #security
+
+🎨 [A Button That Links to a Random Post in HTML & CSS Only](https://master.dev/blog/a-button-that-links-to-a-random-post-in-html-css-only/)
+Статья демонстрирует, как создать кнопку, которая ссылается на случайную статью, используя только HTML и CSS. Это может быть полезно для разработчиков, которые хотят добавить интересные интерактивные элементы на свои сайты.
+#HTML #CSS #frontend
+
+🌐 [5 Free Browser Tools I Use Every Day as a Developer](https://dev.to/pyfiletoolkit/5-free-browser-tools-i-use-every-day-as-a-developer-1e1p)
+Статья представляет 5 бесплатных инструментов для браузера, которые могут быть полезны разработчикам. Среди них есть инструменты для форматирования JSON, кодирования и декодирования Base64 и другие.
+#webdev #frontend #productivity
+
+📌 [How enabling two settings tripled our scores on the ARC-AGI-3 benchmark](https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores)
+Статья о том, как включение двух настроек API улучшило результаты модели GPT-5.6 на бенчмарке ARC-AGI-3. Это может быть интересно разработчикам, которые работают с моделями ИИ.
+#AI #devtools
+
+📌 [Accelerating scientific discovery with ChatGPT for Academic Researchers](https://openai.com/index/chatgpt-for-academic-researchers)
+Статья о том, как OpenAI предоставляет бесплатный доступ к модели ChatGPT для академических исследователей. Это может быть интересно разработчикам, которые работают в области научных исследований.
+#AI #devtools
+
+_Источников: 7 · Новостей: 8_
