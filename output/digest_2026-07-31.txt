@@ -1,0 +1,55 @@
+📰 *Дайджест 31.07.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "Streaming Large ZIP Archives in the Browser with Vue and the File System Access API" описывает, как использовать Vue и File System Access API для потоковой передачи больших ZIP-архивов в браузере. Кроме того, вышла новая версия Rune 1.1, которая добавляет поддержку Python, редактор Emacs, индекс символов и теперь бесплатна. Также была опубликована статья "Argon2 vs bcrypt vs PBKDF2 in Node.js", в которой сравниваются алгоритмы хеширования паролей Argon2, bcrypt и PBKDF2 в Node.js, что может быть полезно разработчикам, которые хотят выбрать наиболее безопасный алгоритм для хранения паролей.
+
+─────────────────────
+
+💚 [Streaming Large ZIP Archives in the Browser with Vue and the File System Access API](https://dev.to/certosinolab/streaming-large-zip-archives-in-the-browser-with-vue-and-the-file-system-access-api-42ng)
+Статья о том, как использовать Vue и File System Access API для потоковой передачи больших ZIP-архивов в браузере. Это может быть полезно разработчикам, которые работают с большими данными и нуждаются в эффективном способе их передачи.
+#Vue #frontend
+
+🟨 [Next.js, localStorage в App Router без hydration-ошибок](https://habr.com/ru/articles/1064926/?utm_campaign=1064926&utm_source=habrahabr&utm_medium=rss)
+Статья о том, как использовать localStorage в App Router без ошибок гидратации. Автор описывает проблемы, которые могут возникнуть при использовании localStorage на сервере и в браузере, и предлагает решения для их избежания.
+#JavaScript #frontend
+
+📌 [The Economic Benefit of Refactoring](https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html)
+Статья о экономической выгоде от рефакторинга кода. Это может быть полезно разработчикам, которые хотят улучшить качество своего кода и снизить технический долг.
+#Web development best practices
+
+💚 [Deploy Laravel and Vue to cPanel Automatically with GitHub Actions](https://dev.to/tahsin000/deploy-laravel-and-vue-to-cpanel-automatically-with-github-actions-43jd)
+Статья о том, как использовать GitHub Actions для автоматического развертывания Laravel и Vue на cPanel. Это может быть полезно разработчикам, которые хотят автоматизировать процесс развертывания своих приложений.
+#Vue #frontend
+
+🟨 [Реальная и мнимая многопоточность в JS](https://habr.com/ru/articles/1064906/?utm_campaign=1064906&utm_source=habrahabr&utm_medium=rss)
+Статья о реальной и мнимой многопоточности в JavaScript. Автор объясняет, что на самом деле происходит, когда вы вызываете асинхронный код, и почему настоящая многопоточность в браузере — это отдельная история про Web Workers.
+#JavaScript #frontend
+
+🟨 [CodePen 2.0](https://chriscoyier.net/2026/07/30/codepen-2-0/)
+CodePen 2.0 - новая версия популярной платформы для создания и демонстрации фронтенд-код. Это может быть полезно разработчикам, которые работают с HTML, CSS и JavaScript.
+#HTML5 #CSS3 #JavaScript
+
+📌 [Stacked sessions and pull requests in the GitHub Copilot app](https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/)
+Статья о том, как использовать стековые сессии и запросы на вытягивание в приложении GitHub Copilot. Автор описывает, как он модернизировал старый кодовый базис с помощью этих инструментов.
+#AI #devtools
+
+🐍 [Rune 1.1: adds Python, an Emacs editor, a symbol index and is now free](https://rune.build/blog/rune-1-1-release)
+Rune 1.1 добавляет поддержку Python, редактор Emacs, индекс символов и теперь бесплатен. Это может быть полезно разработчикам, которые используют Python в своих проектах.
+#Python
+
+🌐 [Argon2 vs bcrypt vs PBKDF2 in Node.js: Which Password Hashing Algorithm Should You Use in 2026?](https://dev.to/dthiwanka/argon2-vs-bcrypt-vs-pbkdf2-in-nodejs-which-password-hashing-algorithm-should-you-use-in-2026-eng)
+Статья о сравнении алгоритмов хеширования паролей Argon2, bcrypt и PBKDF2 в Node.js. Это может быть полезно разработчикам, которые хотят выбрать наиболее безопасный алгоритм для хранения паролей.
+#webdev #frontend
+
+📌 [Advancing the price-performance frontier with GPT-5.6](https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6)
+Статья о том, как OpenAI улучшает ценовую производительность своих моделей с помощью GPT-5.6. Автор описывает, как эти модели могут помочь предприятиям развертывать рабочие процессы ИИ в большом масштабе.
+#AI #devtools
+
+🌐 [I shipped a VS Code theme that only chose 67 of its colors](https://dev.to/shadowbox/i-shipped-a-vs-code-theme-that-only-chose-67-of-its-colors-15o9)
+Статья о создании темы для VS Code, которая использует только 67 цветов из более 400 доступных. Это может быть полезно разработчикам, которые хотят создать свои собственные темы для редактора кода.
+#webdev #frontend
+
+🌐 [Stacked PRs are now live on GitHub](https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/)
+Объявление о том, что стековые запросы на вытягивание теперь доступны на GitHub. Это может быть полезно для разработчиков, которые хотят работать с несколькими запросами на вытягивание одновременно.
+#tech #webdev
+
+_Источников: 6 · Новостей: 12_
