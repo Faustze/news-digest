@@ -1,0 +1,67 @@
+📰 *Дайджест 04.08.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Для разработчиков Vue.js вышла статья о том, как добавить аннотации к PDF-файлам с помощью библиотек PDF.js, vue-pdf-embed, @tato30/vue-pdf и Vue PDF Viewer. Кроме того, была опубликована статья о том, как мониторить приложения Nuxt 3 с помощью Vigilmon, что может помочь обеспечить стабильность и производительность приложений. Также была представлена статья о создании статичного сайта с Vite + Caddy + Docker, что может быть полезно разработчикам, которые хотят развернуть статичный сайт с помощью Vite и Docker. Кроме того, вышла новая версия модели AI Claude Opus 5, которая стала более мощной и способной, и может быть использована разработчиками в своих приложениях.
+
+─────────────────────
+
+💚 [How to Add PDF Annotations in Vue.js: PDF.js, vue-pdf-embed, @tato30/vue-pdf, and Vue PDF Viewer (2026)](https://dev.to/9haroon/how-to-add-pdf-annotations-in-vuejs-pdfjs-vue-pdf-embed-tato30vue-pdf-and-vue-pdf-viewer-5b40)
+Статья рассказывает о том, как добавить аннотации к PDF-файлам в приложениях Vue.js. Для этого можно использовать библиотеки PDF.js, vue-pdf-embed, @tato30/vue-pdf и Vue PDF Viewer. Это полезно разработчикам, которые хотят добавить функцию аннотации PDF-файлов в свои приложения.
+#Vue
+
+💚 [How to Monitor Your Nuxt 3 Application with Vigilmon](https://dev.to/vigilmon/how-to-monitor-your-nuxt-3-application-with-vigilmon-8e4)
+Статья рассказывает о том, как мониторить приложения Nuxt 3 с помощью Vigilmon. Это полезно разработчикам, которые хотят обеспечить стабильность и производительность своих приложений.
+#Nuxt
+
+💚 [How to Remove PDF Annotations in the Browser with Vue 3 and pdf-lib](https://dev.to/sunshey/how-to-remove-pdf-annotations-in-the-browser-with-vue-3-and-pdf-lib-1kkl)
+Статья рассказывает о том, как удалить аннотации из PDF-файлов в браузере с помощью Vue 3 и pdf-lib. Это полезно разработчикам, которые хотят добавить функцию удаления аннотаций в свои приложения.
+#Vue
+
+🟨 [Статичный сайт с Vite + Caddy + Docker: пошаговое руководство](https://habr.com/ru/articles/1065978/?utm_campaign=1065978&utm_source=habrahabr&utm_medium=rss)
+Статья подробно рассматривает полный цикл деплоя сайта, использующего Vite в качестве инструмента сборки. Мы напишем многоступенчатый Dockerfile, чтобы собрать образ с готовой статикой, и поднимем контейнер с сервером Caddy, который автоматически выдаст и будет обновлять сертифик
+#Vite #Docker #Caddy
+
+📌 [Claude Opus 5 Is Here — And It's the Most Capable Everyday AI Model Yet](https://dev.to/hamidrazadev/claude-opus-5-is-here-and-its-the-most-capable-everyday-ai-model-yet-4fdd)
+Статья рассказывает о новой версии модели AI Claude Opus 5, которая стала более мощной и способной. Это полезно разработчикам, которые хотят использовать AI в своих приложениях.
+#AI
+
+🌐 [6 Tools Online Gratis yang Bikin Kerjaan Developer Lebih Cepat](https://dev.to/dhiecoderweb/6-tools-online-gratis-yang-bikin-kerjaan-developer-lebih-cepat-160)
+Статья представляет 6 онлайн-инструментов, которые могут помочь разработчикам работать быстрее. Это полезно разработчикам, которые хотят оптимизировать свой рабочий процесс.
+#webdev #frontend #productivity
+
+🌐 [Build Your Own Browser Tools Without a Backend](https://dev.to/offeringofpie/build-your-own-browser-tools-without-a-backend-5628)
+Статья рассказывает о том, как создать инструменты для браузера без использования бэкенда. Это полезно разработчикам, которые хотят создать свои собственные инструменты для браузера.
+#webdev #frontend #browser
+
+🌐 [Stop hls.js from flapping between quality levels on cellular (with abrSwitchInterval)](https://dev.to/masonwritescode/stop-hlsjs-from-flapping-between-quality-levels-on-cellular-with-abrswitchinterval-2ch)
+Статья рассказывает о том, как решить проблему с hls.js, который может часто переключаться между уровнями качества на мобильных устройствах. Это полезно разработчикам, которые работают с видео-плеерами.
+#webdev #frontend #video
+
+🌐 [AV2 shipped its 1.0 encoder. Here's what to actually run in your pipeline instead.](https://dev.to/masonwritescode/av2-shipped-its-10-encoder-heres-what-to-actually-run-in-your-pipeline-instead-pfa)
+Статья рассказывает о выпуске AV2 и о том, как использовать его в своем пайплайне. Это полезно разработчикам, которые работают с видео-кодированием.
+#webdev #frontend #video
+
+🌐 [Benchmark video APIs yourself: upload to playable, measured across five providers](https://dev.to/masonwritescode/benchmark-video-apis-yourself-upload-to-playable-measured-across-five-providers-3ap0)
+Статья рассказывает о том, как создать бенчмарк для видео-API. Это полезно разработчикам, которые хотят сравнить производительность разных видео-API.
+#webdev #frontend #video
+
+🌐 [The backend was green and the video kept buffering: a QoE debugging playbook](https://dev.to/masonwritescode/the-backend-was-green-and-the-video-kept-buffering-a-qoe-debugging-playbook-1kcg)
+Статья рассказывает о том, как отладить проблему с видео-буферингом. Это полезно разработчикам, которые работают с видео-плеерами.
+#webdev #frontend #video
+
+🌐 [Prevent cognitive debt by manually retyping LLM-generated code](https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/)
+Эта статья предлагает интересный подход к предотвращению когнитивного долга при работе с кодом, сгенерированным большими языковыми моделями. Автор предлагает вручную перепечатывать сгенерированный код, чтобы лучше понять его и избежать ошибок. Это может быть полезно разработчикам
+#tech #webdev
+
+🎨 [Gap Decorations Are Now Available, Here’s What’s New](https://css-tricks.com/css-gap-decorations-now-available/)
+Статья рассказывает о новых возможностях CSS, связанных с декорациями пробелов. Это полезно разработчикам, которые хотят улучшить внешний вид своих веб-страниц.
+#CSS
+
+🟨 [Мой опыт онбординга разраба с амнезией](https://habr.com/ru/articles/1066100/?utm_campaign=1066100&utm_source=habrahabr&utm_medium=rss)
+Статья рассказывает об опыте разработчика, который использует инструменты như клод, кодекс или еще какие-то агенты для ускорения цикла разработки. Это полезно разработчикам, которые хотят узнать о новых инструментах и методах разработки.
+#JavaScript #frontend #AI
+
+📌 [How we built a realtime system for responsive voice AI in six months](https://openai.com/index/continuous-voice-interaction-with-gpt-live)
+В этой статье рассказывается о создании системы реального времени для голосового взаимодействия с ИИ. Это может быть полезно разработчикам, которые работают над проектами, связанными с искусственным интеллектом и голосовым взаимодействием. Статья описывает архитектуру и технологи
+#AI #devtools
+
+_Источников: 7 · Новостей: 15_
