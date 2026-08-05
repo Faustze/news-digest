@@ -1,0 +1,67 @@
+📰 *Дайджест 05.08.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "How to Monitor Your Nuxt.js Application with Vigilmon" рассказывает о том, как мониторить приложения Nuxt.js с помощью Vigilmon, включая серверную отрисовку, маршруты API и развертывания на边ях. Кроме того, статья "How to Build a Visual PDF Page Organizer with Vue 3 and pdf-lib" описывает, как построить визуальный организатор страниц PDF с помощью Vue 3 и pdf-lib. Также стоит отметить статью "Картинка грузится, а fetch к тому же хосту — нет: как CSP тихо сломала три интеграции", которая рассказывает о проблемах, связанных с реализацией Content Security Policy (CSP) и о том, как она может повлиять на работу веб-приложений. Эти статьи могут быть полезны разработчикам для улучшения их навыков и решения актуальных задач в фронтенд-разработке.
+
+─────────────────────
+
+📌 [How the GitHub legal team used Copilot CLI to streamline their workflows](https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/)
+Статья о том, как команда GitHub использовала Copilot CLI для оптимизации своих рабочих процессов. Полезно разработчикам для понимания возможностей и применения AI-инструментов в разработке.
+#AI #devtools #productivity
+
+💚 [How to Monitor Your Nuxt.js Application with Vigilmon (SSR, API Routes, and Edge)](https://dev.to/vigilmon/how-to-monitor-your-nuxtjs-application-with-vigilmon-ssr-api-routes-and-edge-j3f)
+Эта статья рассказывает о том, как мониторить приложения Nuxt.js с помощью Vigilmon, включая серверную отрисовку, маршруты API и развертывания на边ях. Это полезно для разработчиков, чтобы обеспечить стабильность и производительность своих приложений.
+#Nuxt #Vue #frontend
+
+🟨 [Фронтенд умер? Нет, но AI уже держит лопату](https://habr.com/ru/companies/avito/articles/1066228/?utm_campaign=1066228&utm_source=habrahabr&utm_medium=rss)
+Статья о роли AI в фронтенд-разработке и о том, как она может изменить подходы к созданию веб-приложений. Полезно разработчикам для понимания тенденций и перспектив веб-разработки.
+#JavaScript #frontend #AI
+
+📌 [Turn one giant AI-generated pull request to a reviewable stack](https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/)
+Эта статья рассказывает о том, как разбить один большой пулл-реквест, сгенерированный ИИ, на более мелкие и удобные для ревью пулл-реквесты. Это может быть полезно разработчикам, работающим с ИИ и GitHub.
+#AI #devtools
+
+📌 [Third-party cyber evaluations involving OpenAI models](https://openai.com/index/third-party-cyber-evaluations-involving-openai-models)
+Эта статья рассказывает об оценках кибербезопасности моделей OpenAI и о новых мерах безопасности для тестирования и оценки моделей ИИ. Это может быть полезно разработчикам, работающим с ИИ и кибербезопасностью.
+#AI #devtools
+
+💚 [How to Build a Visual PDF Page Organizer with Vue 3 and pdf-lib](https://dev.to/sunshey/how-to-build-a-visual-pdf-page-organizer-with-vue-3-and-pdf-lib-3dfh)
+Эта статья описывает, как построить визуальный организатор страниц PDF с помощью Vue 3 и pdf-lib. Это полезно для разработчиков, которые хотят создать интерактивные и удобные интерфейсы для работы с PDF-документами.
+#Vue #frontend
+
+🟨 [Картинка грузится, а fetch к тому же хосту — нет: как CSP тихо сломала три интеграции](https://habr.com/ru/articles/1066450/?utm_campaign=1066450&utm_source=habrahabr&utm_medium=rss)
+Статья о проблемах, связанных с реализацией Content Security Policy (CSP) и о том, как она может повлиять на работу веб-приложений. Полезно разработчикам для понимания потенциальных проблем и их решения.
+#JavaScript #frontend #security
+
+🌐 [IP and DNS Leaks in WebKit Affecting Proxy Browsers and iCloud Private Relay](https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak/)
+Эта статья рассказывает об уязвимостях в WebKit, которые могут привести к утечкам IP и DNS. Это может быть полезно разработчикам, работающим с веб-разработкой и кибербезопасностью.
+#tech #webdev
+
+🟨 [Сложные сайты на вайбкоде: четыре лендинга, два пути к «дорогим» эффектам и 3D-логотип из спрайтов](https://habr.com/ru/companies/alpinadigital/articles/1066732/?utm_campaign=1066732&utm_source=habrahabr&utm_medium=rss)
+Статья о создании сложных сайтов на вайбкоде, включая примеры лендингов с интерактивными эффектами и 3D-логотипами. Полезно разработчикам для изучения новых методов и техник веб-разработки.
+#JavaScript #frontend
+
+🟨 [Заметки фром реакт документейшен | React: грабли, о которые я спотыкалась. Часть 1](https://habr.com/ru/articles/1066444/?utm_campaign=1066444&utm_source=habrahabr&utm_medium=rss)
+Статья о проблемах и решениях, связанных с разработкой на React. Полезно разработчикам для изучения лучших практик и избежания распространенных ошибок.
+#JavaScript #React #frontend
+
+🌐 [Eight Myths on Software Engineering and GenAI](https://queue.acm.org/detail.cfm?id=3807963)
+Эта статья опровергает мифы о программной инженерии и генеративном ИИ. Это может быть полезно разработчикам, интересующимся ИИ и программной инженерией.
+#tech #webdev
+
+🌐 [We finally learned to center a div, then browsers added sidebars](https://seg6.space/posts/center-div/)
+Статья о центровании div в браузерах и о том, как добавление боковых панелей изменило подход к верстке. Полезно разработчикам для понимания эволюции веб-разработки и необходимости адаптации к новым технологиям.
+#HTML5 #CSS3 #webdev
+
+🟨 [AAA Движок для GTA San Andreas в браузере и переписывание ThreeJS](https://habr.com/ru/articles/1066360/?utm_campaign=1066360&utm_source=habrahabr&utm_medium=rss)
+Статья о создании AAA-движка для запуска старых игр в браузере и о переписывании Three.js. Полезно разработчикам для изучения новых методов и техник веб-разработки.
+#JavaScript #frontend #gaming
+
+🌐 [Show HN: Simple algorithm and color space to generate diverse skin tones](https://toneyalexander.github.io/inclusive-color-space/)
+Эта статья представляет простой алгоритм и цветовое пространство для генерации разнообразных тонов кожи. Это может быть полезно разработчикам, работающим с графикой и дизайном.
+#tech #webdev
+
+🌐 [When AI Benchmarks Plateau: A Systematic Study of Benchmark Saturation](https://arxiv.org/abs/2602.16763)
+Исследование о плато в показателях ИИ-бенчмарков и систематическое изучение насыщения бенчмарков. Полезно разработчикам для понимания ограничений текущих бенчмарков и необходимости разработки новых методов оценки.
+#AI #benchmarks #webdev
+
+_Источников: 6 · Новостей: 15_
