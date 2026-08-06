@@ -1,0 +1,55 @@
+📰 *Дайджест 06.08.2026*
+
+Сегодня в мире фронтенда и Python произошли интересные события. Статья "Making Local 3D Furniture Portable in a Vue 2 Indoor-Map SDK" рассказывает о том, как сделать мебель в indoor-картах портативной, используя Vue 2 SDK, что полезно разработчикам, работающим с 3D-моделями. Кроме того, статья "How to Convert PDF to Grayscale in the Browser with Vue 3 and Canvas" описывает, как конвертировать PDF в оттенки серого в браузере, используя Vue 3 и Canvas. Также стоит отметить статью "Offline‑first PWA на примере фитнес‑трекера", которая полезна разработчикам для понимания процесса создания прогрессивных веб-приложений.
+
+─────────────────────
+
+💚 [Making Local 3D Furniture Portable in a Vue 2 Indoor-Map SDK](https://dev.to/zyl19950114/making-local-3d-furniture-portable-in-a-vue-2-indoor-map-sdk-4b25)
+Статья рассказывает о том, как сделать мебель в indoor-картах портативной, используя Vue 2 SDK. Это полезно разработчикам, которые работают с 3D-моделями и хотят сделать их более гибкими и удобными в использовании.
+#Vue
+
+💚 [How to Convert PDF to Grayscale in the Browser with Vue 3 and Canvas](https://dev.to/sunshey/how-to-convert-pdf-to-grayscale-in-the-browser-with-vue-3-and-canvas-3ffe)
+Статья описывает, как конвертировать PDF в оттенки серого в браузере, используя Vue 3 и Canvas. Это полезно разработчикам, которые работают с PDF-файлами и хотят сделать их более удобными для пользователя.
+#Vue
+
+🟨 [React Update Lifecycle: что происходит при обновлении компонента](https://habr.com/ru/articles/1066970/?utm_campaign=1066970&utm_source=habrahabr&utm_medium=rss)
+Статья о жизненном цикле React, полезна разработчикам для понимания процесса обновления компонентов и использования Virtual DOM и Fiber Reconciler.
+#JavaScript #frontend
+
+🟨 [Offline‑first PWA на примере фитнес‑трекера](https://habr.com/ru/articles/1066882/?utm_campaign=1066882&utm_source=habrahabr&utm_medium=rss)
+Статья о создании offline-first PWA, полезна разработчикам для понимания процесса создания прогрессивных веб-приложений и использования технологий như Service Worker и IndexedDB.
+#JavaScript #frontend
+
+🟨 [[Перевод] Как мигрировать 1 млн строк кода с одного языка на другой за 2 недели](https://habr.com/ru/articles/1066814/?utm_campaign=1066814&utm_source=habrahabr&utm_medium=rss)
+Статья о миграции кода с одного языка на другой, полезна разработчикам для понимания процесса миграции и использования инструментов như Claude Fable 5 и Claude Opus 4.8.
+#JavaScript #frontend
+
+📌 [Beating GPT-5.6 Sol on retrieval with 100x cheaper open models](https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency)
+В этой статье описывается, как использовать открытые модели для достижения результатов, сравнимых с GPT-5.6 Sol, но с существенно меньшими затратами. Это может быть интересно разработчикам, которые работают с AI и ищут более эффективные решения.
+#AI #GPT #open models
+
+🎨 [5 CSS Properties You Should Know for Better Text Designs](https://master.dev/blog/typographic-css-tricks/)
+Статья рассказывает о 5 свойствах CSS, которые полезны для создания более красивых и удобных текстовых дизайнов. Это полезно разработчикам, которые работают с CSS и хотят улучшить свои навыки.
+#CSS
+
+🟨 [Я написал мессенджер в одиночку … Разбор 149-ФЗ](https://habr.com/ru/articles/1067162/?utm_campaign=1067162&utm_source=habrahabr&utm_medium=rss)
+Статья о создании мессенджера на JavaScript, полезна разработчикам для понимания процесса создания подобных приложений. Статья также затрагивает тему безопасности и соответствия требованиям 149-ФЗ.
+#JavaScript #frontend
+
+📌 [Show HN: Wallfacer – A terminal session manager for Claude Code, and more](https://github.com/pradipta/wallfacer)
+Wallfacer — это инструмент для управления сессиями терминала, который поддерживает Claude Code и другие инструменты. Это может быть полезно разработчикам, которые работают с AI-инструментами и нуждаются в эффективном управлении своими сессиями.
+#AI #terminal #productivity
+
+📌 [Cloudflare OS: an open platform for agents, apps, and work](https://blog.cloudflare.com/cloudflare-os/)
+Cloudflare OS — это открытая платформа для агентов, приложений и работы. Это может быть интересно разработчикам, которые ищут новые решения для своих проектов.
+#Cloudflare #open platform
+
+🟨 [Объекты в JS не бесплатные](https://habr.com/ru/articles/1066944/?utm_campaign=1066944&utm_source=habrahabr&utm_medium=rss)
+Статья о микро-оптимизации в JavaScript, полезна разработчикам для понимания влияния объектов на производительность и использования оптимизаций.
+#JavaScript #frontend
+
+📌 [Born Against, or why hobby programming communities are against LLM usage](https://blog.fogus.me/llm/born-against.html)
+Эта статья обсуждает отношение хобби-программистских сообществ к использованию моделей языка (LLM). Это может быть интересно разработчикам, которые интересуются AI и хотят понять точки зрения разных сообществ.
+#AI #LLM #community
+
+_Источников: 4 · Новостей: 12_
