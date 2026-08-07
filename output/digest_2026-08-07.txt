@@ -1,0 +1,43 @@
+📰 *Дайджест 07.08.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "How to Set Up Rate Limiting in Nuxt" поможет разработчикам повысить безопасность и производительность своих приложений, а статья "Typing Vue 3 provide/inject Without Losing Autocomplete" позволит сохранить автозаполнение при использовании provide/inject в Vue 3. Кроме того, GitHub Actions и GitHub Pages испытывают снижение доступности, что может повлиять на рабочий процесс и время ответа приложений. Также GitHub расширил свои возможности по обнаружению вредоносного ПО за пределы npm, что улучшит безопасность проектов.
+
+─────────────────────
+
+💚 [How to Set Up Rate Limiting in Nuxt](https://dev.to/sadegh_shaikhi_0549a5c17f/how-to-set-up-rate-limiting-in-nuxt-3lcb)
+Статья о том, как настроить ограничение скорости запросов в Nuxt. Это полезно разработчикам, которые хотят повысить безопасность и производительность своих приложений.
+#Nuxt
+
+💚 [Build a Modern Site with Nuxt, Tailwind, and a Headless CMS](https://dev.to/momciloo/build-a-modern-site-with-nuxt-tailwind-and-a-headless-cms-4lo1)
+Статья о том, как построить современный сайт с помощью Nuxt, Tailwind и headless CMS. Это полезно разработчикам, которые хотят создать быстрые и масштабируемые приложения.
+#Nuxt #Tailwind
+
+📌 [GitHub Actions and Pages are experiencing degraded availability](https://www.githubstatus.com/incidents/qcvjkzcs7j74)
+GitHub Actions и GitHub Pages испытывают снижение доступности. Это важно для разработчиков, которые используют эти сервисы, поскольку может повлиять на их рабочий процесс и время ответа приложений.
+#GitHub #devtools
+
+💚 [Typing Vue 3 provide/inject Without Losing Autocomplete](https://dev.to/faisal_nadeem_752520c3e03/typing-vue-3-provideinject-without-losing-autocomplete-j3a)
+Статья о том, как сохранить автозаполнение при использовании provide/inject в Vue 3. Это полезно разработчикам, которые хотят повысить безопасность типов в своих приложениях.
+#Vue
+
+📌 [How we took malware advisories beyond npm](https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/)
+GitHub расширил свои возможности по обнаружению вредоносного ПО за пределы npm. Это полезно разработчикам, поскольку позволяет улучшить безопасность своих проектов. GitHub интегрировал данные OpenSSF о вредоносных пакетах в свою базу данных уязвимостей.
+#npm #security
+
+💚 [How to Check if Your PDF is Ready to Upload in the Browser with Vue 3 and pdf-lib](https://dev.to/sunshey/how-to-check-if-your-pdf-is-ready-to-upload-in-the-browser-with-vue-3-and-pdf-lib-4f8j)
+Статья о том, как проверить PDF-файл перед его загрузкой на сервер с помощью Vue 3 и библиотеки pdf-lib. Это полезно разработчикам, которые хотят повысить безопасность и качество своих приложений.
+#Vue
+
+📌 [A guide to slash commands in the GitHub Copilot app](https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app/)
+Руководство по использованию слэш-команд в приложении GitHub Copilot. Эти команды помогают планировать, сотрудничать, автоматизировать и настраивать рабочий процесс разработки.
+#AI #devtools
+
+📌 [Cursor vs Claude Code: Which Wins for Laravel Devs?](https://dev.to/avinashvagh/cursor-vs-claude-code-which-wins-for-laravel-devs-3ocg)
+Статья сравнивает инструменты Cursor и Claude Code для разработки на Laravel. Claude Code выигрывает для разработчиков, которые выполняют крупные задачи, в то время как Cursor лучше подходит для разработчиков, которые предпочитают ручной контроль. Для команд, работающих с Laravel
+#AI #devtools
+
+📌 [Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users](https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt)
+OpenAI улучшил модель GPT-5.6 Sol в ChatGPT, что может быть полезно разработчикам в создании более совершенных чат-ботов и интеграции ИИ в свои приложения. Также расширен доступ к GPT-5.6 Luna для бесплатных пользователей.
+#AI #ChatGPT
+
+_Источников: 6 · Новостей: 9_
