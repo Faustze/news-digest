@@ -1,0 +1,43 @@
+📰 *Дайджест 08.08.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Для разработчиков, работающих с Vue и Nuxt, вышла статья о том, как структурировать крупные приложения без потери производительности и читаемости кода. Кроме того, была опубликована статья о том, как использовать Vue 3.5 для упрощения взаимодействия между компонентами с помощью useTemplateRef и defineExpose. Для разработчиков, работающих с PDF-файлами, была опубликована статья о том, как восстановить поврежденные PDF-файлы в браузере с помощью Vue 3 и библиотеки pdf-lib. Также была опубликована статья о важности архитектуры в разработке веб-приложений, даже при использовании фреймворков и библиотек.
+
+─────────────────────
+
+💚 [Stop Using Props + Watchers Just to Trigger Actions in Child Components (Vue 3.5 useTemplateRef + defineExpose)](https://dev.to/kickbuttowski80/stop-using-props-watchers-just-to-trigger-actions-in-child-components-vue-35-usetemplateref--5gdk)
+Статья о том, как использовать Vue 3.5 для упрощения взаимодействия между компонентами. Автор предлагает использовать useTemplateRef и defineExpose вместо пропсов и вотчеров. Это может быть полезно разработчикам, работающим с Vue, для улучшения производительности и читаемости код
+#Vue
+
+💚 [How We Structured a Large Vue/Nuxt Application Without Losing Our Sanity](https://dev.to/bezzy_j/how-we-structured-a-large-vuenuxt-application-without-losing-our-sanity-56oa)
+Статья о том, как структурировать крупные приложения на Vue и Nuxt, чтобы избежать сложностей и улучшить производительность. Автор делится своим опытом и предлагает полезные советы для разработчиков, работающих с Vue и Nuxt.
+#Vue #Nuxt
+
+📌 [Inside OpenAI o3-mini & Model Context Protocol (MCP) Server Tooling: Benchmarks, System Architecture, and Production Edge Cases](https://dev.to/dinesh_kumar93/inside-openai-o3-mini-model-context-protocol-mcp-server-tooling-benchmarks-system-40ca)
+Статья о серверном инструментарии OpenAI o3-mini и протоколе Model Context Protocol (MCP), включая бенчмарки, архитектуру системы и случаи использования в производстве. Это может быть полезно разработчикам, которые работают с AI и машинным обучением.
+#AI #devtools
+
+🟨 [I built 59 free browser-based dev tools in vanilla JS — here's what I learned](https://dev.to/yuvaraj_radhakrishnan_224/i-built-59-free-browser-based-dev-tools-in-vanilla-js-heres-what-i-learned-3ncl)
+Разработчик создал 59 бесплатных инструментов для разработчиков на основе vanilla JS, без использования фреймворков и библиотек. Это может быть полезно разработчикам, которые хотят улучшить свои навыки и узнать новые подходы к разработке веб-приложений.
+#JavaScript #frontend
+
+💚 [How to Repair Corrupted PDFs in the Browser with Vue 3 and pdf-lib](https://dev.to/sunshey/how-to-repair-corrupted-pdfs-in-the-browser-with-vue-3-and-pdf-lib-3po8)
+Статья о том, как использовать Vue 3 и библиотеку pdf-lib для восстановления поврежденных PDF-файлов в браузере. Это может быть полезно разработчикам, работающим с PDF-файлами и ищущим способ восстановить поврежденные данные.
+#Vue
+
+🟨 [«Почему мы снова говорим про архитектуру?»](https://habr.com/ru/articles/1067886/?utm_campaign=1067886&utm_source=habrahabr&utm_medium=rss)
+Статья о важности архитектуры в разработке веб-приложений, даже при использовании фреймворков и библиотек. Автор подчеркивает, что архитектура является ключевым аспектом разработки, который не должен быть упущен из виду.
+#JavaScript #frontend
+
+🌐 [From 8.2s to 2.1s: How Image Compression Changed a Store's Conversion Rate](https://dev.to/jamiepark-design/from-82s-to-21s-how-image-compression-changed-a-stores-conversion-rate-3mag)
+Статья о том, как сжатие изображений может улучшить производительность веб-страниц и повысить коэффициент конверсии. Автор делится своим опытом и предлагает полезные советы для разработчиков, работающих с веб-страницами.
+#webdev #performance
+
+🌐 [Trailing Comma Took Down Production at 11 PM — A JSON Debugging Story](https://dev.to/jamiepark-design/trailing-comma-took-down-production-at-11-pm-a-json-debugging-story-1l14)
+Статья о том, как одна запятая в JSON-файле может привести к сбою производства. Автор делится своим опытом и предлагает полезные советы для разработчиков, работающих с JSON-файлами.
+#webdev #debugging
+
+🌐 [The Missing 180px Icon That Cost a Brand 6 Months of iPhone Impressions](https://dev.to/jamiepark-design/the-missing-180px-icon-that-cost-a-brand-6-months-of-iphone-impressions-38ch)
+Статья о том, как отсутствие иконки 180px может привести к потере iPhone-импрессий. Автор делится своим опытом и предлагает полезные советы для разработчиков, работающих с веб-страницами.
+#webdev #performance
+
+_Источников: 3 · Новостей: 9_
