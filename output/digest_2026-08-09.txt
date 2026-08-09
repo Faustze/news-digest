@@ -1,0 +1,23 @@
+📰 *Дайджест 09.08.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "Your Website Is Live. But Is It Actually Ready?" напоминает разработчикам о необходимости проверки готовности веб-сайта после его запуска, чтобы избежать ошибок и проблем с доступностью. Кроме того, были опубликованы две статьи о работе с PDF-файлами в браузере с помощью Vue 3 и pdf-lib: "How to Split a PDF Every N Pages in the Browser with Vue 3 and pdf-lib" и "How to Split PDF by Bookmarks in the Browser with Vue 3 and pdf-lib". Также разработчикам рекомендуется задавать себе пять вопросов перед добавлением нового пакета npm в проект, как описано в статье "Before You Add Another npm Package, Ask Yourself These 5 Questions".
+
+─────────────────────
+
+🌐 [Your Website Is Live. But Is It Actually Ready?](https://dev.to/rawan_8e6335b0c40541463cc/your-website-is-live-but-is-it-actually-ready-4n5a)
+Статья подчеркивает важность проверки готовности веб-сайта после его запуска. Автор отмечает, что наличие ошибок или проблем с доступностью может негативно повлиять на пользовательский опыт и поисковую оптимизацию. Это может быть полезно для разработчиков, которым необходимо убед
+#webdev #frontend
+
+💚 [How to Split a PDF Every N Pages in the Browser with Vue 3 and pdf-lib](https://dev.to/sunshey/how-to-split-a-pdf-every-n-pages-in-the-browser-with-vue-3-and-pdf-lib-38f3)
+Статья описывает, как создать инструмент для разделения PDF-файлов на части с помощью Vue 3 и pdf-lib. Это может быть полезно для разработчиков, которым необходимо работать с PDF-файлами в браузере. Инструмент позволяет разделить PDF-файл на части по определенным интервалам.
+#Vue #frontend
+
+💚 [How to Split PDF by Bookmarks in the Browser with Vue 3 and pdf-lib](https://dev.to/sunshey/how-to-split-pdf-by-bookmarks-in-the-browser-with-vue-3-and-pdf-lib-2flo)
+Статья описывает, как создать инструмент для разделения PDF-файлов по закладкам с помощью Vue 3 и pdf-lib. Это может быть полезно для разработчиков, которым необходимо работать с PDF-файлами в браузере. Инструмент позволяет разделить PDF-файл на части по закладкам.
+#Vue #frontend
+
+🌐 [Before You Add Another npm Package, Ask Yourself These 5 Questions](https://dev.to/ashitoshh01/before-you-add-another-npm-package-ask-yourself-these-5-questions-2mbe)
+Статья предлагает разработчикам задавать себе пять вопросов перед добавлением нового пакета npm в проект. Это может помочь избежать ненужных зависимостей и улучшить поддерживаемость кода.
+#webdev #frontend
+
+_Источников: 2 · Новостей: 4_
