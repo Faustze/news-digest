@@ -1,0 +1,35 @@
+📰 *Дайджест 10.08.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "20 Chrome DevTools Tricks Every Web Developer Should Know" представляет 20 трюков и функций Chrome DevTools, которые могут помочь разработчикам ускорить процесс отладки и разработки веб-приложений. Кроме того, статья "fastapi-viewsets vs fastapi-crudrouter: Which CRUD Generator Should You Pick in 2026?" сравнивает две библиотеки для генерации CRUD-операций в FastAPI, что может быть полезно разработчикам, работающим с FastAPI. Также стоит отметить статью "Вторая копия Vue: как лишняя строка в lockfile повесила Chromium", которая рассказывает о потенциальных проблемах с производительностью браузера Chromium, связанных с записями в yarn.lock.
+
+─────────────────────
+
+📌 [20 Chrome DevTools Tricks Every Web Developer Should Know](https://dev.to/_artclick/20-chrome-devtools-tricks-every-web-developer-should-know-hcl)
+Статья представляет 20 трюков и функций Chrome DevTools, которые могут помочь разработчикам ускорить процесс отладки и разработки веб-приложений.
+#Chrome DevTools #Web Development
+
+💚 [Вторая копия Vue: как лишняя строка в lockfile повесила Chromium](https://habr.com/ru/articles/1068420/?utm_campaign=1068420&utm_source=habrahabr&utm_medium=rss)
+Статья рассказывает о том, как лишняя запись в yarn.lock может повлиять на производительность браузера Chromium. Это может быть полезно разработчикам, работающим с Vue.js и JavaScript, чтобы избежать подобных проблем в своих проектах.
+#Vue #JavaScript
+
+🐍 [fastapi-viewsets vs fastapi-crudrouter: Which CRUD Generator Should You Pick in 2026?](https://dev.to/valenchits/fastapi-viewsets-vs-fastapi-crudrouter-which-crud-generator-should-you-pick-in-2026-19ca)
+Статья сравнивает две библиотеки для генерации CRUD-операций в FastAPI: fastapi-viewsets и fastapi-crudrouter. Это может быть полезно разработчикам, которые работают с FastAPI и ищут эффективные способы генерации CRUD-операций.
+#FastAPI #CRUD
+
+🟨 [I built 59 free browser-based dev tools in vanilla JS — here's what I learned](https://dev.to/yuvaraj_radhakrishnan_224/i-built-59-free-browser-based-dev-tools-in-vanilla-js-heres-what-i-learned-1455)
+Автор построил 59 бесплатных инструментов для разработчиков на основе vanilla JS и делится своим опытом и знаниями. Это может быть полезно разработчикам, которые хотят создавать свои собственные инструменты для разработки веб-приложений.
+#JavaScript #Web Development
+
+📌 [Auto mode is now the default in Claude Code](https://claude.com/blog/auto-mode-default-in-claude-code)
+Claude Code, инструмент для генерации кода с помощью ИИ, теперь имеет режим по умолчанию. Это может быть полезно разработчикам, которые хотят автоматизировать процесс написания кода и улучшить свою производительность.
+#AI #code generation
+
+📌 [TCP vs UDP Explained Simply: Why Video Calls Glitch and Downloads Don't](https://dev.to/syed_anzar/tcp-vs-udp-explained-simply-why-video-calls-glitch-and-downloads-dont-2ko4)
+Статья объясняет разницу между протоколами TCP и UDP и их влияние на передачу данных в сети. Это может быть полезно разработчикам, которые работают с сетевыми приложениями.
+#Network Protocols #Web Development
+
+📌 [How I use LLMs to learn complex topics](https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/)
+Статья рассказывает о том, как использовать модели языка для изучения сложных тем. Это может быть полезно разработчикам, которые хотят улучшить свои навыки и знания в области веб-разработки.
+#LLMs #learning
+
+_Источников: 3 · Новостей: 7_
