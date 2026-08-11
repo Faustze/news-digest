@@ -1,0 +1,55 @@
+📰 *Дайджест 11.08.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "Static File Caching in Nuxt" представляет простую и практическую стратегию кэширования статических файлов в Nuxt, что может улучшить производительность веб-приложений. Кроме того, статья "Preserve Component State in Vue with KeepAlive" показывает, как сохранить состояние компонента в Vue с помощью директивы KeepAlive, что может быть полезно для сохранения локального состояния и формы ввода при переключении между компонентами. Также стоит отметить статью "10 Python Design Patterns to Streamline Your Python Development Projects", которая представляет 10 шаблонов проектирования для упрощения разработки проектов на Python. Эти статьи могут быть полезны для веб-разработчиков, работающих с Vue, Nuxt и Python.
+
+─────────────────────
+
+💚 [Static File Caching in Nuxt: An Easy and Practical Strategy](https://dev.to/sadegh_shaikhi_0549a5c17f/static-file-caching-in-nuxt-an-easy-and-practical-strategy-57oo)
+Статья о простой и практической стратегии кэширования статических файлов в Nuxt. Автор делится своим опытом и предоставляет примеры кода для кэширования файлов без риска появления устаревшего контента после развертывания.
+#Nuxt #frontend
+
+💚 [How to Split PDF by File Size in the Browser with Vue 3 and pdf-lib](https://dev.to/sunshey/how-to-split-pdf-by-file-size-in-the-browser-with-vue-3-and-pdf-lib-901)
+Статья о том, как разделить PDF-файл по размеру в браузере с помощью Vue 3 и библиотеки pdf-lib. Автор предоставляет примеры кода и объясняет процесс разделения PDF-файла на части по заданному размеру.
+#Vue #frontend
+
+💚 [Preserve Component State in Vue with KeepAlive](https://dev.to/jacobandrewsky/preserve-component-state-in-vue-with-keepalive-58i1)
+Статья о том, как сохранить состояние компонента в Vue с помощью директивы KeepAlive. Автор объясняет, как использовать KeepAlive для сохранения локального состояния и формы ввода при переключении между компонентами.
+#Vue #frontend
+
+🟨 [I built 59 free browser-based dev tools in vanilla JS — here's what I learned](https://dev.to/yuvaraj_radhakrishnan_224/i-built-59-free-browser-based-dev-tools-in-vanilla-js-heres-what-i-learned-4h0b)
+Автор статьи создал коллекцию из 59 бесплатных инструментов для разработчиков, работающих прямо в браузере, используя только ванильный JavaScript. Он делится своим опытом и знаниями, полученными в процессе разработки этих инструментов.
+#JavaScript #frontend
+
+📌 [Automating Multi-Profile Browser Testing with Puppeteer + Fingerprint Config](https://dev.to/gomezpet/automating-multi-profile-browser-testing-with-puppeteer-fingerprint-config-306p)
+Автор статьи показывает, как автоматизировать тестирование браузера с использованием Puppeteer и конфигурации отпечатков. Это может помочь разработчикам упростить процесс тестирования и сделать его более эффективным.
+#Puppeteer #browser testing
+
+💚 [Making Skeleton Loaders Less Painful](https://dev.to/ajth-in/making-skeleton-loaders-less-painful-22fh)
+Статья о создании скелетных загрузчиков в Vue. Автор представляет библиотеку SkullMaster, которая помогает упростить процесс создания скелетных загрузчиков и поддерживать их синхронизацию с реальным интерфейсом.
+#Vue #frontend
+
+🐍 [10 Python Design Patterns to Streamline Your Python Development Projects](https://dev.to/sahil_khurana_486f374ecf2/10-python-design-patterns-to-streamline-your-python-development-projects-3fbi)
+Статья представляет 10 шаблонов проектирования, которые могут помочь упростить разработку проектов на Python. Автор объясняет, как использовать эти шаблоны и дает примеры их применения.
+#Python #design patterns
+
+🟨 [Agent Skills в npm-пакетах: доставка агенту знаний о библиотеке](https://habr.com/ru/articles/1068886/?utm_campaign=1068886&utm_source=habrahabr&utm_medium=rss)
+Статья рассказывает об Agent Skills, технологии, которая позволяет доставлять знания о библиотеке ИИ-агенту. Автор объясняет, как это работает и какие преимущества это дает разработчикам.
+#JavaScript #AI
+
+🎨 [[Перевод] Размытая граница между состояниями CSS и событиями JavaScript](https://habr.com/ru/companies/timeweb/articles/1059272/?utm_campaign=1059272&utm_source=habrahabr&utm_medium=rss)
+Статья обсуждает границу между состояниями CSS и событиями JavaScript. Автор объясняет, как использовать псевдоклассы в CSS, чтобы реагировать на события JavaScript без необходимости писать сам JavaScript.
+#CSS #JavaScript
+
+📌 [Using the GitHub Copilot SDK for Java](https://github.blog/engineering/using-the-github-copilot-sdk-for-java/)
+GitHub Copilot SDK для Java позволяет разработчикам использовать возможности искусственного интеллекта в своих проектах. Это может быть полезно для автоматизации рутинных задач и улучшения производительности. GitHub Copilot SDK предоставляет разработчикам новые инструменты для ра
+#AI #devtools
+
+🎨 [Animating CSS border-image](https://css-tricks.com/animating-css-border-image/)
+Статья о том, как создать анимацию границы элемента с помощью CSS. Автор объясняет, как использовать свойство border-image для создания красивых анимаций границы.
+#CSS #frontend
+
+🌐 [Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots](https://cactuscompute.com/needle)
+Needle2 - это легкая модель языкового моделирования, которая может быть использована на устройствах с ограниченными ресурсами, таких как телефоны и носимые устройства. Это может быть полезно для разработчиков, которые хотят создать приложения с поддержкой искусственного интеллект
+#AI #webdev
+
+_Источников: 7 · Новостей: 12_
