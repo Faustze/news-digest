@@ -1,0 +1,43 @@
+📰 *Дайджест 12.08.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Вышла новая версия Nuxt 4.5 с экспериментальным SSR-стримингом, который может улучшить производительность веб-приложений. Кроме того, была опубликована статья об эволюции реактивности в Vue.js и будущих планах разработчиков, что полезно для понимания принципов работы Vue и подготовки к будущим изменениям. Также была опубликована статья о том, как разделить PDF-файл на страницы с помощью Vue 3 и библиотеки pdf-lib, что может быть полезно разработчикам, работающим с Vue и PDF.
+
+─────────────────────
+
+💚 [Nuxt 4.5 SSR Streaming Is Kind Of A Big Deal](https://dev.to/erikch/nuxt-45-ssr-streaming-is-kind-of-a-big-deal-2i37)
+Статья о новой функции Nuxt 4.5 - экспериментальном SSR-стриминге. Автор показывает, как эта функция может улучшить производительность веб-приложений. Полезно разработчикам, работающим с Nuxt.
+#Nuxt #frontend
+
+📌 [История одного архитектурного круга: реактивность Vue](https://habr.com/ru/companies/first/articles/1069048/?utm_campaign=1069048&utm_source=habrahabr&utm_medium=rss)
+Статья об эволюции реактивности в Vue.js и будущих планах разработчиков. Полезно разработчикам для понимания принципов работы Vue и подготовки к будущим изменениям.
+#Vue.js #реактивность
+
+📌 [From coder to orchestrator: How agents shift the role of a developer](https://github.blog/developer-skills/career-growth/from-coder-to-orchestrator-how-agents-shift-the-role-of-a-developer/)
+Статья о том, как агенты меняют роль разработчика и требуют новых навыков и подходов. Полезно разработчикам для понимания будущих тенденций и подготовки к изменениям.
+#AI #разработка
+
+💚 [A Rename Can Be a Migration in a Local-First Markdown System](https://dev.to/lksvn/a-rename-can-be-a-migration-in-a-local-first-markdown-system-2bld)
+Статья о том, как улучшить менеджер для локальной коллекции карточек, построенный на Vue. Автор столкнулся с проблемой миграции данных при переименовании файлов и нашел решение. Полезно разработчикам, работающим с Vue и Markdown.
+#Vue #frontend
+
+💚 [How to Split PDF at Blank Pages in the Browser with Vue 3 and pdf-lib](https://dev.to/sunshey/how-to-split-pdf-at-blank-pages-in-the-browser-with-vue-3-and-pdf-lib-3ff2)
+Статья о том, как разделить PDF-файл на страницы с помощью Vue 3 и библиотеки pdf-lib. Автор показывает, как обнаруживать пустые страницы и разделять файл. Полезно разработчикам, работающим с Vue и PDF.
+#Vue #frontend
+
+🎨 [Under the Hood: Building an Interactive CSS Cubic Bezier Curve Designer](https://dev.to/kandz/under-the-hood-building-an-interactive-css-cubic-bezier-curve-designer-5bhj)
+Статья о создании интерактивного дизайнера кривых Бежье для CSS-анимаций. Полезно разработчикам для создания более реалистичных и органичных анимаций в веб-интерфейсах.
+#CSS #анимации
+
+📌 [Автоматизированное тестирование Webauthn с помощью Playwright](https://habr.com/ru/articles/1067938/?utm_campaign=1067938&utm_source=habrahabr&utm_medium=rss)
+Статья об автоматизированном тестировании Webauthn с помощью Playwright. Полезно разработчикам для улучшения безопасности и качества веб-приложений.
+#тестирование #Webauthn
+
+📌 [Making Login Pages Feel Alive with Micro-Animations](https://dev.to/ayush_saran/making-login-pages-feel-alive-with-micro-animations-2fnn)
+Статья о создании микро-анимаций для страниц входа, чтобы сделать их более живыми и привлекательными. Полезно разработчикам для улучшения пользовательского опыта.
+#анимации #UX
+
+📌 [# What Actually Happens When You Type a URL Into Your Browser?](https://dev.to/yathartsalil/-what-actually-happens-when-you-type-a-url-into-your-browser-5epk)
+Статья о том, что происходит, когда вы вводите URL-адрес в браузер. Полезно разработчикам для понимания процесса загрузки веб-страниц.
+#бразуер #загрузка страниц
+
+_Источников: 5 · Новостей: 9_
