@@ -1,0 +1,67 @@
+📰 *Дайджест 13.08.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "How to Split PDF by Text Content in the Browser with Vue 3 and pdf-lib" предлагает полезный подход к работе с PDF-файлами в браузере с помощью Vue 3 и pdf-lib. Кроме того, статья "SOP & CORS" подчеркивает важность безопасности веб-приложений, объясняя, как Same-Origin Policy (SOP) и Cross-Origin Resource Sharing (CORS) помогают защитить пользовательские данные. Также стоит отметить статью "Demystifying JavaScript's Secret Weapon: The Event Loop Explained Simply", которая помогает разработчикам лучше понять механизм событий в JavaScript. Эти статьи могут быть полезными для веб-разработчиков, работающих с Vue, Python и JavaScript.
+
+─────────────────────
+
+📌 [Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot](https://knownagents.com/insights)
+Статья предупреждает о потенциальных уязвимостях в системах безопасности, связанных с ИИ-ботами. Для веб-разработчиков это может быть полезно для понимания того, как защитить свои приложения от подобных угроз.
+#AI #Web security
+
+💚 [How to Split PDF by Text Content in the Browser with Vue 3 and pdf-lib](https://dev.to/sunshey/how-to-split-pdf-by-text-content-in-the-browser-with-vue-3-and-pdf-lib-jh)
+Статья о том, как разделить PDF-файл по текстовому содержанию с помощью Vue 3 и pdf-lib. Полезно разработчикам для работы с PDF-файлами в браузере.
+#Vue #frontend #PDF
+
+🟨 [Реалтайм на WebSocket со сквозной типизацией: TypeScript, Bun, React, Point0](https://habr.com/ru/articles/1069716/?utm_campaign=1069716&utm_source=habrahabr&utm_medium=rss)
+Статья о добавлении реалтайм-функциональности в фулстек-проект с помощью WebSocket и сквозной типизации. Автор делится своим опытом и описывает, как он добавил четыре новых реалтайм-поинта в свой фреймворк Point0. Для разработчиков, которые хотят добавить реалтайм-функциональност
+#JavaScript #frontend #TypeScript
+
+🟨 [SOP & CORS](https://habr.com/ru/articles/1069658/?utm_campaign=1069658&utm_source=habrahabr&utm_medium=rss)
+Статья о безопасности веб-приложений, в частности, о Same-Origin Policy (SOP) и Cross-Origin Resource Sharing (CORS). Автор объясняет, как эти технологии помогают защитить пользовательские данные и предотвратить атаки на веб-приложения. Для разработчиков, которые хотят создать бе
+#JavaScript #frontend #SOP
+
+🟨 [Как я собрал браузерный хоррор на Three.js: GLB-контракт, аномалии и PS1-рендеринг для слабых устройств](https://habr.com/ru/articles/1069580/?utm_campaign=1069580&utm_source=habrahabr&utm_medium=rss)
+Статья о создании браузерной 3D-игры на Three.js и Vue. Автор делится своим опытом и описывает, как он создал систему аномалий, GLB-сцену и оптимизировал игру для слабых устройств. Для разработчиков, которые хотят создать 3D-игры или визуализации в браузере, эта статья может быть
+#JavaScript #frontend #Three.js
+
+📌 [Write your first prompt with the GitHub Copilot app](https://github.blog/ai-and-ml/github-copilot/write-your-first-prompt-with-the-github-copilot-app/)
+Статья о том, как начать работать с GitHub Copilot, инструментом, который использует ИИ для помощи в написании кода. Автор объясняет, как написать первый запрос и начать использовать Copilot для автоматизации задач. Для разработчиков, которые хотят попробовать ИИ-инструменты для
+#AI #devtools #GitHub Copilot
+
+📌 [Your contributors are AI-first now. Is your project?](https://github.blog/open-source/maintainers/your-contributors-are-ai-first-now-is-your-project/)
+Статья о том, как ИИ-инструменты меняют процесс разработки и как проекты могут адаптироваться к этим изменениям. Автор объясняет, как ИИ-инструменты могут помочь в написании кода и как проекты могут использовать эти инструменты для улучшения своей работы. Для разработчиков, котор
+#AI #devtools #GitHub
+
+🟨 [HTML over WebSockets: real-time SPAs with barely any JavaScript](https://en.andros.dev/blog/ef4968f5/html-over-websockets-real-time-spas-with-barely-any-javascript/)
+Эта статья рассказывает о том, как использовать HTML over WebSockets для создания реальных веб-приложений с минимальным использованием JavaScript. Это может быть полезно для разработчиков, которые хотят создавать быстрые и эффективные веб-приложения.
+#HTML5 #WebSockets #JavaScript
+
+🟨 [AI is removing the middle class of software engineering?](https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html)
+Статья обсуждает влияние ИИ на инженерию программного обеспечения. Автор считает, что ИИ может заменить некоторых инженеров, но также создаст новые возможности для разработчиков. Для веб-разработчиков это может быть полезно для понимания того, как ИИ может изменить их работу.
+#AI #JavaScript
+
+🟨 [Demystifying JavaScript's Secret Weapon: The Event Loop Explained Simply](https://dev.to/saurav_tb_pandey/demystifying-javascripts-secret-weapon-the-event-loop-explained-simply-2pen)
+Статья о механизме событий в JavaScript и как он работает. Полезно разработчикам для понимания основ JavaScript.
+#JavaScript #frontend
+
+🎨 [Blocked aria-hidden: The Warning is Right, and Every Fix You’ve Found is Wrong](https://css-tricks.com/blocked-aria-hidden-fix/)
+Статья о проблеме с aria-hidden и как ее правильно исправить. Полезно разработчикам для создания доступных веб-приложений.
+#CSS #frontend #accessibility
+
+🌐 [I built 59 free browser-based dev tools in vanilla JS — here's what I learned](https://dev.to/yuvaraj_radhakrishnan_224/i-built-59-free-browser-based-dev-tools-in-vanilla-js-heres-what-i-learned-4gk5)
+Статья о создании 59 бесплатных инструментов для разработчиков в браузере с помощью vanilla JS. Полезно разработчикам для изучения новых инструментов и подходов.
+#webdev #frontend #tools
+
+🟨 [What a Simple Counter App Taught Me About JavaScript and Cloudflare Deployment](https://dev.to/yashmorefrontend/what-a-simple-counter-app-taught-me-about-javascript-and-cloudflare-deployment-303n)
+Статья о создании простого счетчика с помощью vanilla JS и развертывании его на Cloudflare. Полезно разработчикам для изучения новых подходов и инструментов.
+#JavaScript #frontend #Cloudflare
+
+📌 [Why tiny JPEGs look different in Chrome](https://guillaumetech.github.io/posts/jpg-scaling-chrome/)
+Статья объясняет, почему маленькие JPEG-изображения выглядят по-разному в Chrome. Это связано с тем, как Chrome обрабатывает масштабирование изображений. Для веб-разработчиков это может быть полезно для понимания того, как оптимизировать изображения для веб-страниц.
+#HTML5 #CSS3
+
+🎨 [How One Line of CSS Can Make Your Multi-Page Website Feel Premium](https://dev.to/_artclick/how-one-line-of-css-can-make-your-multi-page-website-feel-premium-4a06)
+Статья о том, как одна строка CSS может улучшить ощущение от работы с многостраничным сайтом. Полезно разработчикам для создания высококачественных веб-приложений.
+#CSS #frontend #webdev
+
+_Источников: 6 · Новостей: 15_
