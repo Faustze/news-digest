@@ -2,50 +2,40 @@
 
 ## Задача
 
-**C-05 / D-01: GitHub Actions для lint + test**
+**Phase 8: Динамический cutoff по frequency**
 
-Добавить в `.github/workflows/daily_digest.yml` шаги для ruff check и pytest перед запуском пайплайна.
+Сделать так, чтобы `cutoff_hours` в `config.yaml` вычислялся динамически на основе `user-profile.json.general.frequency`.
 
 ## Что сделать
 
-1. Добавить шаг `Lint` в workflow:
-   ```yaml
-   - name: Lint
-     run: |
-       uv run ruff check .
-       uv run ruff format --check .
-   ```
+1. Добавить функцию `cutoff_hours_for_frequency(profile: UserProfile) -> int` в `news/profile.py` или отдельный модуль `news/schedule.py`.
 
-2. Добавить шаг `Test` в workflow:
-   ```yaml
-   - name: Test
-     run: uv run pytest tests/ -v
-   ```
+2. Поддерживаемые значения:
+   - `morning` / `evening` / `daily` → 24 часа
+   - `weekly` → 7 дней (168 часов)
+   - `important_only` → 24 часа
 
-3. Порядок шагов в workflow:
-   - checkout
-   - setup python
-   - install dependencies
-   - **lint** ← новый
-   - **test** ← новый
-   - poll feedback
-   - run pipeline
-   - send to telegram
-   - commit
+3. Обновить `news_pipeline.py`:
+   - Вместо `config.get("cutoff_hours", 24)` использовать значение из профиля.
+   - Сохранить fallback на 24 часа, если frequency не задан.
 
-4. Если lint или test упадёт — pipeline не запускать.
+4. Добавить тесты в `tests/test_schedule.py`:
+   - daily → 24
+   - weekly → 168
+   - important_only → 24
+   - отсутствующий frequency → 24
 
 ## Проверка
 
 ```bash
-# Локально
 uv run ruff check .
 uv run ruff format --check .
 uv run pytest tests/ -v
+uv run python news_pipeline.py config.yaml
 ```
 
 ## Следующая задача после этого
 
-Phase 8 — динамический cutoff по frequency (daily=24h, weekly=7d).
+Phase 9 — UX дайджеста (персонализация summary, категория + теги в каждой новости, Markdown fallback).
 
 > Примечание: D-02 (деплой Web UI) будет реализован через GitHub Actions CI/CD для GitHub Pages. См. `docs/PLAN.md`.

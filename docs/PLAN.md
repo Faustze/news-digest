@@ -8,7 +8,7 @@
 | C-02 | Добавить type hints во все функции | ✅ |
 | C-03 | Добавить pydantic-модели для конфига и вывода | ✅ |
 | C-04 | Добавить unit-тесты (pytest) | ✅ (74 теста) |
-| C-05 | Добавить CI (GitHub Actions) для lint/test | ☐ |
+| C-05 | Добавить CI (GitHub Actions) для lint/test | ✅ (2026-08-14) |
 
 ## Бэклог
 
@@ -25,7 +25,7 @@
 
 | # | Задача | Статус |
 |---|--------|--------|
-| D-01 | Настроить GitHub Actions (lint/test) | ☐ |
+| D-01 | Настроить GitHub Actions (lint/test) | ✅ (2026-08-14) |
 | D-02 | Настроить GitHub Actions CI/CD для деплоя Web UI на GitHub Pages | ☐ |
 
 ---
@@ -182,8 +182,8 @@
 
 ## Что осталось (приоритет)
 
-1. **C-05 / D-01** — GitHub Actions для lint + test (в работе)
-2. **Phase 8** — Динамический cutoff по frequency
-3. **Phase 9** — UX дайджеста (персонализация summary)
-4. **D-02** — GitHub Actions CI/CD для деплоя Web UI на GitHub Pages
-5. **B-03** — Мульти-провайдер LLM
+1. **Phase 8** — Динамический cutoff по frequency (daily=24h, weekly=7d)
+2. **Phase 9** — UX дайджеста (персонализация summary)
+3. **D-02** — GitHub Actions CI/CD для деплоя Web UI на GitHub Pages
+4. **B-03** — Мульти-провайдер LLM
+5. **B-05** — Веб-интерфейс архива дайджестов
