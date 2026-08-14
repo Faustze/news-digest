@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "categories": {
+    "ai": {
+      "enabled": true,
+      "interests": {
+        "new_models": 3,
+        "ai_tools": 3,
+        "research": 3,
+        "generative_ai": 3,
+        "ai_business": 3,
+        "robotics": 3
+      }
+    },
+    "technology": {
+      "enabled": true,
+      "interests": {
+        "internet_web": 3,
+        "mobile": 3,
+        "computers_hardware": 3,
+        "cybersecurity": 3,
+        "cloud_infrastructure": 3,
+        "programming": 3
+      }
+    },
+    "science": {
+      "enabled": true,
+      "interests": {
+        "medicine_biology": 3,
+        "brain_psychology": 3,
+        "earth_nature": 3,
+        "physics": 3,
+        "chemistry_materials": 3,
+        "scientific_discoveries": 3
+      }
+    },
+    "space": {
+      "enabled": true,
+      "interests": {
+        "space_missions": 3,
+        "rockets_launches": 3,
+        "astronomy_observation": 3,
+        "planets_objects": 3,
+        "new_discoveries": 3,
+        "human_spaceflight": 3
+      }
+    },
+    "gadgets": {
+      "enabled": true,
+      "interests": {
+        "smartphones": 3,
+        "laptops_tablets": 3,
+        "headphones_audio": 3,
+        "smartwatches_wearables": 3,
+        "smart_home": 3,
+        "new_devices": 3
+      }
+    },
+    "games": {
+      "enabled": true,
+      "interests": {
+        "new_games_releases": 3,
+        "gaming_technology_hardware": 3,
+        "esports": 3,
+        "game_companies": 3,
+        "indie_games": 3,
+        "gaming_trends_industry": 3
+      }
+    },
+    "business": {
+      "enabled": true,
+      "interests": {
+        "precious_metals": 3,
+        "savings_deposits": 3,
+        "large_companies": 3,
+        "markets_economy": 3,
+        "safe_investing": 3,
+        "entrepreneurs_leaders": 3
+      }
+    },
+    "finance": {
+      "enabled": true,
+      "interests": {
+        "currencies": 3,
+        "cryptocurrencies": 3,
+        "stock_market": 3,
+        "banks_rates": 3,
+        "taxes_financial_rules": 3,
+        "personal_finance": 3
+      }
+    },
+    "running": {
+      "enabled": true,
+      "interests": {
+        "recovery": 3,
+        "motivation_habits": 3,
+        "beginners_running_technique": 3,
+        "marathon_half_marathon": 3,
+        "running_gear": 3,
+        "running_nutrition": 3
+      }
+    },
+    "movies": {
+      "enabled": true,
+      "interests": {
+        "new_movies": 3,
+        "new_series": 3,
+        "trailers_announcements": 3,
+        "actors_directors": 3,
+        "what_to_watch": 3,
+        "streaming": 3
+      }
+    },
+    "music": {
+      "enabled": true,
+      "interests": {
+        "new_releases": 3,
+        "artists_bands": 3,
+        "concerts_festivals": 3,
+        "music_recommendations": 3,
+        "awards_charts": 3,
+        "music_technology": 3
+      }
+    },
+    "world": {
+      "enabled": true,
+      "interests": {
+        "world_events": 3,
+        "usa": 3,
+        "europe": 3,
+        "asia_other_regions": 3,
+        "global_economy": 3,
+        "international_relations": 3
+      }
+    }
+  },
+  "general": {
+    "detail_level": "normal",
+    "language_level": "standard",
+    "reading_time": 10,
+    "frequency": "daily",
+    "priority": "balanced",
+    "language": "ru",
+    "source_reliability": "balanced",
+    "regions": [],
+    "exclusions": [],
+    "personal_context": ""
+  }
+}
