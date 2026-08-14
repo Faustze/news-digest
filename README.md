@@ -1,70 +1,120 @@
 # News Digest
 
-[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+Персональный агрегатор новостей с AI-персонализацией.
 
-A simple tool for aggregating news and generating digests.
+## Как это работает
 
-The project collects news from multiple sources, processes articles, and generates concise summaries in a unified digest.
+1. **Web UI** — настрой интересы через простой интерфейс (без технических терминов)
+2. **RSS** — агрегация новостей из 50+ источников по 12 категориям
+3. **AI классификация** — Groq LLM классифицирует и оценивает каждую новость
+4. **Персонализация** — ранжирование по твоим интересам, исключениям, регионам
+5. **Telegram** — дайджест с кнопками обратной связи
 
-## Features
+## Категории
 
-- Aggregates news from different sources
-- Creates short, readable digests
-- Easy to run via GitHub Actions or locally
-- Easily extensible with new feeds or summarization logic
+| Категория | Подтемы |
+|-----------|---------|
+| 🤖 AI | Новые модели, инструменты, исследования, генеративный AI, бизнес, робототехника |
+| 💻 Технологии | Веб, мобильные, железо, кибербезопасность, облака, программирование |
+| 🔬 Наука | Медицина, психология, природа, физика, химия, открытия |
+| 🚀 Космос | Миссии, ракеты, астрономия, планеты, открытия, пилотируемые полёты |
+| 📱 Гаджеты | Смартфоны, ноутбуки, аудио, часы, умный дом, новые устройства |
+| 🎮 Игры | Релизы, технологии, киберспорт, компании, инди, тренды |
+| 💼 Бизнес | Металлы, вклады, компании, рынки, инвестирование, руководители |
+| 💰 Финансы | Валюты, крипто, фондовый рынок, банки, налоги, личные финансы |
+| 🏃 Бег | Восстановление, мотивация, техника, марафоны, экипировка, питание |
+| 🎬 Кино | Фильмы, сериалы, трейлеры, актёры, рекомендации, стриминги |
+| 🎵 Музыка | Релизы, исполнители, концерты, рекомендации, чарты, технологии |
+| 🌍 Мир | События, США, Европа, Азия, экономика, отношения |
 
-## Run Locally
+## Быстрый старт
 
-### 1. Clone the repository
+### 1. Настрой профиль через Web UI
 
 ```bash
-git clone https://github.com/Faustze/news-digest.git
-cd news-digest
+cd web-ui
+npm install
+npm run dev
 ```
 
-### 2. Install dependencies
+Открой http://localhost:3000 и пройди onboarding.
 
-```bash
-pip install -r requirements.txt
-```
+### 2. Экспортируй профиль
 
-Or with [uv](https://docs.astral.sh/uv/):
+Нажми «Экспорт JSON» и сохрани файл `user-profile.json` в корень проекта.
+
+### 3. Запусти пайплайн
 
 ```bash
 uv sync
+uv run python news_pipeline.py
 ```
 
-### 3. Configure environment variables
-
-Create a `.env` file if needed:
-
-```env
-TELEGRAM_BOT_TOKEN=your_bot_token
-TELEGRAM_CHAT_ID=your_chat_id
-GROQ_API_KEY=your_groq_api_key
-```
-
-### 4. Run the project
+### 4. Отправь в Telegram
 
 ```bash
-python news_pipeline.py
+export TELEGRAM_BOT_TOKEN=your_token
+export TELEGRAM_CHAT_ID=your_chat_id
+uv run python send_telegram.py
 ```
 
-## Project Structure
+## Структура проекта
 
 ```text
 news-digest/
-├── .github/workflows/daily_digest.yml    # GitHub Actions workflow that runs the daily digest pipeline
-├── output/                               # Generated digests
-├── config.yaml                           # Configuration for news_pipeline
-├── news_pipeline.py                      # News feed pipeline — LangChain + Groq (free tier). Fetches, filters, and summarizes news from RSS feeds.
-├── send_telegram.py                      # Optional: sends the latest digest to a Telegram chat. Reads TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID from environment.
-├── requirements.txt                      # Python dependencies
-└── pyproject.toml                       # Project metadata and dependency management (uv-compatible)
+├── news/                    # Python модули
+│   ├── profile.py           # Схема профиля, загрузка, валидация
+│   ├── feedback.py          # Схема feedback, persistence
+│   ├── classify.py          # Классификация новостей через LLM
+│   ├── rank.py              # Ранжирование по профилю
+│   └── deduplicate.py       # Дедупликация статей
+├── news_pipeline.py         # Основной пайплайн
+├── send_telegram.py         # Отправка в Telegram с feedback кнопками
+├── poll_feedback.py         # Опрос Telegram callback'ов
+├── config.yaml              # RSS feeds, модель, настройки
+├── user-profile.json        # Профиль пользователя (создаётся через Web UI)
+├── feedback.json            # Реакции пользователя
+├── web-ui/                  # Nuxt Web UI
+│   ├── pages/index.vue      # Onboarding
+│   ├── pages/profile.vue    # Редактор профиля
+│   ├── composables/         # State management
+│   └── lib/                 # Типы, категории
+├── tests/                   # Тесты
+└── .github/workflows/       # GitHub Actions
 ```
 
-## License
+## GitHub Actions
 
-This project is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](LICENSE.md) license.
+Ежедневный запуск в 04:00 UTC:
 
-You are free to share and adapt the material, as long as you provide attribution and do not use it for commercial purposes.
+1. Опрос Telegram feedback
+2. Запуск пайплайна
+3. Отправка в Telegram
+4. Коммит digest и feedback
+
+Секреты: `GROQ_API_KEY`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`.
+
+## Тесты
+
+```bash
+uv run pytest tests/ -v
+```
+
+## Линтер
+
+```bash
+uv run ruff check .
+uv run ruff format .
+```
+
+## Архитектура
+
+- **Нет backend** — всё работает через GitHub Actions cron
+- **Нет базы данных** — профиль в JSON, feedback в JSON
+- **Нет VPS** — статический Web UI + GitHub Actions
+- **Single-user** — один профиль, без авторизации
+- **Groq Free Tier** — batching, rate limiting, минимум запросов
+
+## Лицензия
+
+CC BY-NC 4.0
