@@ -21,34 +21,40 @@ def rank_item(
     Factors:
     1. Category relevance (is the category enabled?)
     2. Subtopic interest (0-5)
-    3. Explicit exclusions (interest=0 → filter out)
-    4. Region relevance
-    5. Source reliability
-    6. Feedback signals
-    7. Freshness (already filtered by cutoff)
-    8. Importance (from LLM classification)
-    9. Personal context (minor boost)
+    3. Explicit exclusions (interest=0 and profile.general.exclusions → filter out)
+    4. Source reliability
+    5. Feedback signals
+    6. Freshness (already filtered by cutoff)
+    7. Importance (from LLM classification)
+    8. Personal context (minor boost)
     """
-    if not item.get("accepted", True):
+    if item.get("accepted") is not True:
         return 0.0
 
     category = item.get("category", "")
     subtopics = item.get("subtopics", [])
 
-    # Check explicit exclusions (interest=0)
+    # Hard exclusions from the profile. Nothing later may override these.
+    haystack = f"{item.get('title', '')} {item.get('summary', '')}".lower()
+    for term in profile.general.exclusions:
+        if term.strip() and term.strip().lower() in haystack:
+            return 0.0
+
+    # Check explicit exclusions (interest=0). Unconfigured subtopics are neutral.
     for st in subtopics:
         if profile.get_interest(category, st) == 0:
             return 0.0
 
-    # Check category exclusion
-    if not profile.categories.get(category, profile.categories.get("ai")).enabled:
+    # Check category exclusion. An unknown category never contributes candidates.
+    cat = profile.categories.get(category)
+    if cat is None or not cat.enabled:
         return 0.0
 
-    # Subtopic interest score (average of matched subtopics, 0-5 → 0-1)
+    # Subtopic interest score (max of matched subtopics, 0-5 → 0-1)
     interests = []
     for st in subtopics:
         interest = profile.get_interest(category, st)
-        interests.append(interest / 5.0)
+        interests.append((interest if interest is not None else 3) / 5.0)
     interest_score = max(interests) if interests else 0.5
 
     # Importance score (from LLM classification)
@@ -59,7 +65,7 @@ def rank_item(
     high_reliability = {
         "reuters",
         "bbc",
-        "ap",
+        "associated press",
         "the verge",
         "ars technica",
         "techcrunch",

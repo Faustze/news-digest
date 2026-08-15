@@ -47,6 +47,12 @@ class TestUserProfileSchema:
         profile.categories["ai"].interests["robotics"] = 0
         assert profile.get_interest("ai", "robotics") == 0
 
+    def test_unconfigured_subtopic_is_not_an_exclusion(self):
+        profile = _empty_profile()
+        del profile.categories["ai"].interests["robotics"]
+        # An absent subtopic must not read as an explicit zero-interest setting.
+        assert profile.get_interest("ai", "robotics") is None
+
     def test_category_interest_5_high_priority(self):
         profile = _empty_profile()
         profile.categories["ai"].interests["new_models"] = 5
@@ -117,11 +123,20 @@ class TestLoader:
         assert len(profile.categories) == 12
         assert path.exists()
 
-    def test_load_invalid_file_falls_back(self, tmp_path):
+    def test_load_invalid_file_raises(self, tmp_path):
         path = tmp_path / "bad.json"
         path.write_text("not valid json {{{")
-        profile = load_profile(path)
-        assert len(profile.categories) == 12
+        with pytest.raises(ValueError, match="Invalid profile"):
+            load_profile(path)
+
+    def test_invalid_file_is_preserved(self, tmp_path):
+        path = tmp_path / "bad.json"
+        original = "not valid json {{{"
+        path.write_text(original)
+        with pytest.raises(ValueError):
+            load_profile(path)
+        assert path.exists()
+        assert path.read_text() == original
 
     def test_load_valid_profile(self, tmp_path):
         data = {

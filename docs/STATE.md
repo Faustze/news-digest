@@ -15,11 +15,27 @@
 - [x] Pydantic-валидация профиля и feedback
 - [x] Классификация, ранжирование и дедупликация новостей
 - [x] Telegram inline feedback (👍👎🔕) и polling через `getUpdates`
-- [x] 51 RSS фид на все 12 категорий
+- [x] 42 RSS фида на все 12 категорий (все проверены, dead-фиды удалены)
 - [x] Nuxt Web UI: onboarding + редактор профиля
 - [x] CI: lint (ruff) + test (pytest) в GitHub Actions
 - [x] README + AGENTS.md + docs-структура
 - [x] Локальный скилл task-workflow в `.agents/skills/`
+
+## Правки по ревью CodeRabbit (PR #1)
+
+- [x] `classify_batch`: каждый item получает `accepted: false` при сбое батча; фильтр в pipeline требует `accepted is True`
+- [x] `rank_item`: неизвестная категория → 0.0 (без fallback на `ai`); применены `general.exclusions` как hard filter
+- [x] `get_interest`: отсутствующая подтема → `None` (нейтрально), `0` только при явном запрете
+- [x] Невалидный профиль → fail early с ошибкой (вместо fallback на defaults)
+- [x] Миграция профиля: `config.yaml` без `topics` больше не даёт профиль только с technology
+- [x] Telegram inline keyboard обёрнут в row (`[buttons]`)
+- [x] `poll_feedback`: курсор продвигается после сохранения реакций; non-dict payload отклоняется
+- [x] `feedback.reaction` ограничен `VALID_REACTIONS`
+- [x] Дедупликация: нормализация URL (query, fragment, trailing slash)
+- [x] Пустой дайджест не пишется и не отправляется
+- [x] Суммаризация: transport-ошибки (timeout/rate limit/HTTP) не роняют прогон
+- [x] Web UI: `disableCategory` подключён; валидация импорта профиля; keyboard-доступные категории
+- [x] 87 unit-тестов
 
 ## Решения
 

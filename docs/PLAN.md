@@ -105,7 +105,7 @@
 
 - [x] Pydantic-модель (`news/profile.py`)
 - [x] enum значения, числовые диапазоны
-- [x] Malformed JSON → fallback на defaults
+- [x] Malformed JSON → fail early с понятной ошибкой (без fallback на unrelated interests)
 - [x] Обратная совместимость: миграция из `config.yaml` topics
 
 ### Phase 2 — Категории и интересы ✅

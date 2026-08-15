@@ -17,6 +17,10 @@ class TestParseCallbackData:
         result = _parse_callback_data("not json")
         assert result is None
 
+    def test_non_dict_json(self):
+        result = _parse_callback_data("[1, 2, 3]")
+        assert result is None
+
     def test_empty_string(self):
         result = _parse_callback_data("")
         assert result is None

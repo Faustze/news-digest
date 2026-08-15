@@ -2,7 +2,23 @@
 Tests for news.deduplicate module.
 """
 
-from news.deduplicate import _normalize_title, _title_similarity, deduplicate
+from news.deduplicate import (
+    _normalize_title,
+    _normalize_url,
+    _title_similarity,
+    deduplicate,
+)
+
+
+class TestNormalizeUrl:
+    def test_drops_query_and_fragment(self):
+        assert _normalize_url("https://x.com/a?utm_source=rss#top") == "https://x.com/a"
+
+    def test_lowercases_host_and_path(self):
+        assert _normalize_url("HTTPS://X.com/Path") == "https://x.com/path"
+
+    def test_drops_trailing_slash(self):
+        assert _normalize_url("https://x.com/a/") == "https://x.com/a"
 
 
 class TestNormalizeTitle:
@@ -36,6 +52,18 @@ class TestDeduplicate:
         items = [
             {"news_id": "a", "title": "Title A", "link": "https://example.com/1"},
             {"news_id": "b", "title": "Title B", "link": "https://example.com/1"},
+        ]
+        result = deduplicate(items)
+        assert len(result) == 1
+
+    def test_removes_url_with_tracking_params(self):
+        items = [
+            {"news_id": "a", "title": "Title A", "link": "https://example.com/1"},
+            {
+                "news_id": "b",
+                "title": "Title B",
+                "link": "https://example.com/1?utm_source=rss&utm_medium=feed",
+            },
         ]
         result = deduplicate(items)
         assert len(result) == 1

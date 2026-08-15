@@ -47,6 +47,7 @@ npm run dev
 
 ```bash
 uv sync
+export GROQ_API_KEY=your_groq_key
 uv run python news_pipeline.py
 ```
 

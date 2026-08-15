@@ -15,10 +15,12 @@
       <section class="section">
         <h2>Мои интересы</h2>
         <div class="cat-list">
-          <div v-for="cat in allCategories" :key="cat.id" class="cat-card" @click="toggleCatExpand(cat.id)">
+          <div v-for="cat in allCategories" :key="cat.id" class="cat-card">
             <div class="cat-header">
-              <span class="cat-emoji">{{ cat.emoji }}</span>
-              <span class="cat-name">{{ cat.label }}</span>
+              <button type="button" class="cat-expand" @click="toggleCatExpand(cat.id)">
+                <span class="cat-emoji">{{ cat.emoji }}</span>
+                <span class="cat-name">{{ cat.label }}</span>
+              </button>
               <label class="toggle" @click.stop>
                 <input type="checkbox" :checked="profile.categories[cat.id]?.enabled" @change="toggleCat(cat.id)" />
                 <span class="toggle-slider"></span>
@@ -32,7 +34,7 @@
                     v-for="val in [0, 1, 2, 3, 4, 5]"
                     :key="val"
                     :class="['interest-btn', { active: getInterest(cat.id, st.id) === val }]"
-                    @click="setInt(cat.id, st.id, val)"
+                    @click.stop="setInt(cat.id, st.id, val)"
                   >
                     {{ val }}
                   </button>
@@ -315,6 +317,25 @@ function doReset() {
   align-items: center;
   gap: 12px;
   padding: 14px 16px;
+}
+
+.cat-expand {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0;
+  background: none;
+  border: none;
+  color: var(--color-text);
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  border-radius: 0;
+}
+
+.cat-expand:hover {
+  color: var(--color-text);
 }
 
 .cat-emoji {

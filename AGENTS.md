@@ -417,9 +417,19 @@ When these documents conflict with vague assumptions in old code, follow the exp
 
 ## Структура
 
-- `news_pipeline.py` — основной пайплайн (fetch → filter → summarize → output)
-- `send_telegram.py` — отправка дайджеста в Telegram
-- `config.yaml` — фиды, темы, модель, настройки
+- `news/` — модули пайплайна
+  - `profile.py` — схема профиля, загрузка, валидация
+  - `feedback.py` — схема feedback, persistence
+  - `classify.py` — классификация новостей через LLM
+  - `rank.py` — ранжирование по профилю
+  - `deduplicate.py` — дедупликация статей
+- `news_pipeline.py` — оркестратор (fetch → deduplicate → classify → rank → summarize → output)
+- `send_telegram.py` — отправка дайджеста в Telegram с feedback-кнопками
+- `poll_feedback.py` — опрос Telegram callback'ов (getUpdates)
+- `config.yaml` — фиды, модель, технические настройки
+- `user-profile.json` — профиль пользователя (предпочтения)
+- `feedback.json` — реакции пользователя
+- `web-ui/` — статический Nuxt-интерфейс (onboarding + редактор профиля)
 - `output/` — сгенерированные дайджесты (коммитятся в repo)
 - `.github/workflows/daily_digest.yml` — ежедневный cron (04:00 UTC)
 - `docs/` — рабочие документы

@@ -4,7 +4,7 @@
 
 **Phase 8: Динамический cutoff по frequency**
 
-Сделать так, чтобы `cutoff_hours` в `config.yaml` вычислялся динамически на основе `user-profile.json.general.frequency`.
+Сделать так, чтобы `cutoff_hours` вычислялся как runtime-значение на основе `user-profile.json.general.frequency`, не записывая пользовательские предпочтения обратно в `config.yaml` (технический конфиг — в `config.yaml`, предпочтения — в `user-profile.json`).
 
 ## Что сделать
 

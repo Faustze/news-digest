@@ -10,6 +10,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 import feedparser
+import groq
+import httpx
 import yaml
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
@@ -43,6 +45,12 @@ def fetch_rss_items(config: dict) -> list[dict]:
         except (OSError, KeyError) as e:
             print(f"[WARN] Could not fetch {feed_cfg['url']}: {e}")
             continue
+
+        if not feed.entries and feed.get("bozo"):
+            print(
+                f"[WARN] Empty feed {feed_cfg['url']}: "
+                f"{getattr(feed, 'bozo_exception', 'parse error')}"
+            )
 
         for entry in feed.entries:
             published = entry.get("published_parsed") or entry.get("updated_parsed")
@@ -101,7 +109,7 @@ async def generate_digest_summary(
 ) -> str:
     chain = DIGEST_PROMPT | llm | StrOutputParser()
     language = "русский" if profile.general.language.value == "ru" else "English"
-    detail_map = {"short": "кратко", "normal": "обычно", "detailed": " подробно"}
+    detail_map = {"short": "кратко", "normal": "обычно", "detailed": "подробно"}
     lang_map = {
         "simple": "простыми словами",
         "standard": "обычный уровень",
@@ -205,7 +213,9 @@ async def run_pipeline(
     feedback_path: str = "feedback.json",
 ) -> str:
     config = load_config(config_path)
-    profile = load_profile(profile_path, config)
+    # Use the legacy migration only while config.yaml still defines `topics`.
+    legacy_config = config if config.get("topics") else None
+    profile = load_profile(profile_path, legacy_config)
     feedback = load_feedback(feedback_path)
 
     llm = ChatGroq(
@@ -225,7 +235,7 @@ async def run_pipeline(
 
     print("[3/5] Classifying with Groq…")
     classified = await classify_batch(unique_items, llm, batch_size)
-    accepted = [i for i in classified if i.get("accepted", True)]
+    accepted = [i for i in classified if i.get("accepted") is True]
     print(f"      → {len(accepted)} accepted items")
 
     print("[4/5] Ranking by profile…")
@@ -241,11 +251,22 @@ async def run_pipeline(
             if top_items
             else "Сегодня новостей по твоим темам не нашлось."
         )
-    except (json.JSONDecodeError, ValueError) as e:
+    except (
+        json.JSONDecodeError,
+        ValueError,
+        TimeoutError,
+        groq.GroqError,
+        httpx.HTTPError,
+    ) as e:  # the digest must still ship without a summary
         print(f"[WARN] Summary failed: {e}")
         summary = "⚠️ Саммари недоступно. Смотри новости ниже."
 
     print("      Rendering Telegram message…")
+
+    if not top_items:
+        print("      → No items matched the profile; skipping the empty digest.")
+        return ""
+
     output = render_telegram(top_items, summary, profile)
 
     out_dir = Path(config.get("output_dir", "output"))

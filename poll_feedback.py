@@ -52,15 +52,18 @@ def _parse_callback_data(callback_data: str) -> dict | None:
     Format: {"id":"news_id_prefix","r":"reaction","c":"category"}
     """
     try:
-        return json.loads(callback_data)
+        payload = json.loads(callback_data)
+        return payload if isinstance(payload, dict) else None
     except (json.JSONDecodeError, ValueError):
         return None
 
 
-def poll_updates() -> list[dict]:
+def poll_updates() -> tuple[list[dict], int]:
     """
     Poll Telegram for new callback_query updates.
-    Returns list of parsed feedback reactions.
+
+    Returns a tuple of (reactions, max_update_id). The caller must persist
+    the cursor only after the returned reactions have been applied.
     """
     last_id = _load_state()
     reactions = []
@@ -79,11 +82,11 @@ def poll_updates() -> list[dict]:
         data = resp.json()
     except (httpx.HTTPError, ValueError) as e:
         print(f"[WARN] Failed to poll Telegram: {e}")
-        return reactions
+        return reactions, last_id
 
     if not data.get("ok"):
         print(f"[WARN] Telegram API error: {data}")
-        return reactions
+        return reactions, last_id
 
     updates = data.get("result", [])
     max_update_id = last_id
@@ -115,10 +118,7 @@ def poll_updates() -> list[dict]:
 
         reactions.append(parsed)
 
-    if max_update_id > last_id:
-        _save_state(max_update_id)
-
-    return reactions
+    return reactions, max_update_id
 
 
 def apply_reactions(reactions: list[dict]) -> None:
@@ -156,13 +156,21 @@ def apply_reactions(reactions: list[dict]) -> None:
 
 def main() -> None:
     print("[feedback] Polling Telegram for reactions…")
-    reactions = poll_updates()
+    reactions, max_update_id = poll_updates()
     print(f"  Found {len(reactions)} new reaction(s)")
 
-    if reactions:
-        apply_reactions(reactions)
-    else:
-        print("  No new reactions")
+    if max_update_id <= _load_state():
+        print("  No new updates")
+        return
+
+    # Advance the poll cursor only after the reactions were persisted, so a
+    # failure in apply_reactions does not lose feedback permanently.
+    try:
+        if reactions:
+            apply_reactions(reactions)
+        _save_state(max_update_id)
+    except OSError as e:
+        print(f"  [WARN] Failed to persist reactions: {e}. Cursor not advanced.")
 
 
 if __name__ == "__main__":

@@ -103,7 +103,7 @@ def build_inline_keyboard(item: dict) -> dict:
         },
     ]
 
-    return {"inline_keyboard": buttons}
+    return {"inline_keyboard": [buttons]}
 
 
 def chunk(text: str, size: int = 4000):
@@ -143,6 +143,11 @@ def send_digest(digest_text: str):
     each with its own feedback keyboard.
     """
     items = parse_items_from_digest(digest_text)
+
+    # Do not deliver an empty digest just to satisfy a schedule.
+    if not items:
+        print("No news items in digest; nothing to send.")
+        return
 
     # Find the header (everything before the first news item)
     header_lines = []

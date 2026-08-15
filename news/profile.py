@@ -193,7 +193,7 @@ class Category(BaseModel):
 class General(BaseModel):
     detail_level: DetailLevel = DetailLevel.normal
     language_level: LanguageLevel = LanguageLevel.standard
-    reading_time: int = 10
+    reading_time: int = Field(default=10, ge=1, le=120)
     frequency: Frequency = Frequency.daily
     priority: Priority = Priority.balanced
     language: Language = Language.ru
@@ -211,11 +211,17 @@ class UserProfile(BaseModel):
     def enabled_categories(self) -> list[str]:
         return [cid for cid, cat in self.categories.items() if cat.enabled]
 
-    def get_interest(self, category: str, subtopic: str) -> int:
+    def get_interest(self, category: str, subtopic: str) -> int | None:
+        """
+        Return the configured interest for a subtopic.
+
+        Returns None when the subtopic is absent from the profile (neutral),
+        and 0 only when the profile explicitly stores a zero interest.
+        """
         cat = self.categories.get(category)
         if not cat or not cat.enabled:
             return 0
-        return cat.interests.get(subtopic, 0)
+        return cat.interests.get(subtopic)
 
     def is_excluded(self, subtopic: str) -> bool:
         """Check if a subtopic has interest=0 (explicit negative preference)."""
@@ -291,7 +297,8 @@ def load_profile(
     Load user profile from JSON file.
 
     If the file doesn't exist, create a default one (optionally from config.yaml migration).
-    If the file is invalid, fall back to defaults with a warning.
+    If the file is invalid, raise an actionable error — never silently fall back
+    to unrelated default interests.
     """
     p = Path(path)
 
@@ -306,16 +313,11 @@ def load_profile(
 
     try:
         data = json.loads(p.read_text(encoding="utf-8"))
-        profile = UserProfile.model_validate(data)
-        return profile
+        return UserProfile.model_validate(data)
     except (json.JSONDecodeError, ValueError) as e:
-        print(f"[WARN] Invalid profile at {p}: {e}. Using defaults.")
-        if config:
-            profile = _migration_profile_from_config(config)
-        else:
-            profile = _empty_profile()
-        save_profile(profile, p)
-        return profile
+        raise ValueError(
+            f"Invalid profile at {p}: {e}. Fix or delete the file, then re-run."
+        ) from e
 
 
 def save_profile(profile: UserProfile, path: Path | str = DEFAULT_PROFILE_PATH) -> None:

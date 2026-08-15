@@ -2,6 +2,8 @@
 Tests for news.feedback module.
 """
 
+import json
+
 import pytest
 
 from news.feedback import (
@@ -70,6 +72,26 @@ class TestFeedbackStore:
         store = FeedbackStore()
         with pytest.raises(ValueError, match="Invalid reaction"):
             add_reaction(store, "abc", "invalid", "ai")
+
+    def test_invalid_reaction_rejected_on_load(self, tmp_path):
+        path = tmp_path / "feedback.json"
+        path.write_text(
+            json.dumps(
+                {
+                    "version": 1,
+                    "reactions": [
+                        {
+                            "news_id": "abc",
+                            "reaction": "bogus",
+                            "category": "ai",
+                            "subtopics": [],
+                        }
+                    ],
+                }
+            )
+        )
+        store = load_feedback(path)
+        assert len(store.reactions) == 0
 
     def test_get_reactions_for_category(self):
         store = FeedbackStore()

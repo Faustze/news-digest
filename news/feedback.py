@@ -9,13 +9,9 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
 
 # ── Schema ────────────────────────────────────────────────────────────────────
-
-
-class Reaction(str):
-    pass
 
 
 USEFUL = "useful"
@@ -33,6 +29,13 @@ class FeedbackEntry(BaseModel):
     timestamp: str = Field(
         default_factory=lambda: datetime.now(timezone.utc).isoformat()
     )
+
+    @field_validator("reaction")
+    @classmethod
+    def validate_reaction(cls, v: str) -> str:
+        if v not in VALID_REACTIONS:
+            raise ValueError(f"Invalid reaction: {v}. Must be one of {VALID_REACTIONS}")
+        return v
 
 
 class FeedbackStore(BaseModel):

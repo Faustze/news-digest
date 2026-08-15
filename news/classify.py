@@ -4,6 +4,7 @@ Article classification: assign category + subtopics via LLM.
 
 from __future__ import annotations
 
+import asyncio
 import json
 import re
 
@@ -56,7 +57,7 @@ def _build_categories_json() -> str:
         label = CATEGORY_LABELS.get(cat_id, cat_id)
         result[cat_id] = {
             "label": label,
-            "subtopics": {st: label for st, label in subtopics.items()},
+            "subtopics": dict(subtopics),
         }
     return json.dumps(result, ensure_ascii=False, indent=2)
 
@@ -88,7 +89,21 @@ async def classify_batch(
             content = raw.content if hasattr(raw, "content") else str(raw)
             clean = re.sub(r"```(?:json)?|```", "", content).strip()
             parsed = json.loads(clean)
-            if isinstance(parsed, list):
+        except (json.JSONDecodeError, ValueError) as e:
+            print(f"[WARN] Classification batch {i // batch_size + 1} failed: {e}")
+            for item in batch:
+                item["accepted"] = False
+            results.extend(batch)
+        else:
+            if not isinstance(parsed, list):
+                print(
+                    f"[WARN] Classification batch {i // batch_size + 1} "
+                    "returned non-list output"
+                )
+                for item in batch:
+                    item["accepted"] = False
+                results.extend(batch)
+            else:
                 # Merge classification back into items
                 by_id = {item.get("news_id"): item for item in batch}
                 for cls in parsed:
@@ -97,19 +112,10 @@ async def classify_batch(
                         by_id[nid]["category"] = cls.get("category", "")
                         by_id[nid]["subtopics"] = cls.get("subtopics", [])
                         by_id[nid]["importance"] = cls.get("importance", 0.5)
-                        by_id[nid]["accepted"] = cls.get("accepted", True)
+                        by_id[nid]["accepted"] = cls.get("accepted", False)
                 results.extend(by_id.values())
-        except (json.JSONDecodeError, ValueError) as e:
-            print(f"[WARN] Classification batch {i // batch_size + 1} failed: {e}")
-            # Mark items as unclassified
-            for item in batch:
-                item.setdefault("accepted", False)
-                results.extend(batch)
-                break
 
         if i + batch_size < len(items):
-            import asyncio
-
             await asyncio.sleep(2)
 
     return results

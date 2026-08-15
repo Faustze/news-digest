@@ -79,8 +79,9 @@ class TestBuildInlineKeyboard:
             "news_id_prefix": "abc123",
         }
         keyboard = build_inline_keyboard(item)
-        assert "inline_keyboard" in keyboard
-        assert len(keyboard["inline_keyboard"]) == 3
+        rows = keyboard["inline_keyboard"]
+        assert isinstance(rows, list) and len(rows) == 1
+        assert len(rows[0]) == 3
 
     def test_button_texts(self):
         item = {
@@ -90,7 +91,7 @@ class TestBuildInlineKeyboard:
             "news_id_prefix": "abc123",
         }
         keyboard = build_inline_keyboard(item)
-        texts = [b["text"] for b in keyboard["inline_keyboard"]]
+        texts = [b["text"] for b in keyboard["inline_keyboard"][0]]
         assert "👍 Полезно" in texts
         assert "👎 Неинтересно" in texts
         assert "🔕 Больше такого" in texts

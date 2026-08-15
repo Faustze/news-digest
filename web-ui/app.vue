@@ -1,14 +1,19 @@
 <template>
   <div id="app">
-    <NuxtPage />
+    <div v-if="ready">
+      <NuxtPage />
+    </div>
   </div>
 </template>
 
 <script setup lang="ts">
-const { init, isOnboarded } = useProfile()
+const { init } = useProfile()
+
+const ready = ref(false)
 
 onMounted(() => {
   init()
+  ready.value = true
 })
 </script>
 

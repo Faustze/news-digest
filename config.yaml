@@ -17,8 +17,8 @@ feeds:
     tags: [AI]
     categories: [ai]
 
-  - name: Anthropic News
-    url: https://www.anthropic.com/rss.xml
+  - name: DeepMind Blog
+    url: https://deepmind.google/blog/rss.xml
     tags: [AI]
     categories: [ai]
 
@@ -56,11 +56,6 @@ feeds:
   - name: Wired
     url: https://www.wired.com/feed/rss
     tags: [tech]
-    categories: [technology]
-
-  - name: Habr — Frontend
-    url: https://habr.com/ru/rss/hub/frontend/
-    tags: [frontend, webdev]
     categories: [technology]
 
   - name: Habr — JavaScript
@@ -148,11 +143,6 @@ feeds:
     tags: [business, markets]
     categories: [business, finance]
 
-  - name: Reuters Business
-    url: https://www.reutersagency.com/feed/?taxonomy=best-sectors&post_type=best
-    tags: [business]
-    categories: [business]
-
   - name: Financial Times
     url: https://www.ft.com/rss/home
     tags: [business]
@@ -164,13 +154,8 @@ feeds:
     tags: [finance]
     categories: [finance]
 
-  - name: Investopedia
-    url: https://www.investopedia.com/feedbuilder/feed/getfeed/?feedName=rss_headline
-    tags: [finance]
-    categories: [finance]
-
   - name: CoinDesk
-    url: https://www.coindesk.com/arc/outboundfeeds/rss/
+    url: https://www.coindesk.com/arc/outboundfeeds/rss
     tags: [crypto, finance]
     categories: [finance]
 
@@ -181,13 +166,8 @@ feeds:
     categories: [running]
 
   - name: Runner's World — Training
-    url: https://www.runnersworld.com/training/rss/all.xml/
+    url: https://www.runnersworld.com/rss/training/
     tags: [running, training]
-    categories: [running]
-
-  - name: Believe Training
-    url: https://believe-the-run.com/feed/
-    tags: [running]
     categories: [running]
 
   - name: iRunFar
@@ -196,11 +176,6 @@ feeds:
     categories: [running]
 
   # ── Movies & Series ──────────────────────────
-  - name: IMDb — News
-    url: https://www.imdb.com/rss/news
-    tags: [movies, series]
-    categories: [movies]
-
   - name: Variety
     url: https://variety.com/feed/
     tags: [movies, entertainment]
@@ -217,18 +192,13 @@ feeds:
     categories: [movies]
 
   # ── Music ─────────────────────────────────────
-  - name: Pitchfork
-    url: https://pitchfork.com/rss/reviews/albums/
-    tags: [music]
-    categories: [music]
-
   - name: NME
     url: https://www.nme.com/rss
     tags: [music]
     categories: [music]
 
   - name: Stereogum
-    url: https://www.stereogum.com/feed/
+    url: https://stereogum.com/feed
     tags: [music]
     categories: [music]
 
@@ -240,11 +210,6 @@ feeds:
   # ── World ─────────────────────────────────────
   - name: BBC News — World
     url: https://feeds.bbci.co.uk/news/world/rss.xml
-    tags: [world]
-    categories: [world]
-
-  - name: Reuters — World
-    url: https://www.reutersagency.com/feed/?taxonomy=best-sectors&post_type=best
     tags: [world]
     categories: [world]
 
@@ -264,17 +229,7 @@ feeds:
     tags: [Vue, frontend]
     categories: [technology]
 
-  - name: Nuxt.js Blog
-    url: https://nuxt.com/blog/feed.xml
-    tags: [Nuxt, Vue, frontend]
-    categories: [technology]
-
   - name: JavaScript Weekly
     url: https://javascriptweekly.com/rss/
     tags: [JavaScript, frontend]
-    categories: [technology]
-
-  - name: Frontend Focus
-    url: https://frontendfocus.co/rss/
-    tags: [frontend, webdev]
     categories: [technology]

@@ -158,6 +158,7 @@ const {
   isOnboarded,
   startOnboarding,
   enableCategory,
+  disableCategory,
   setInterest,
   setGeneral,
   toggleExclusion,

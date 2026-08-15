@@ -61,6 +61,58 @@ class TestRankItem:
         score = rank_item(item, profile)
         assert score == 0.0
 
+    def test_unknown_category_scores_zero(self):
+        profile = _empty_profile()
+        item = {
+            "news_id": "abc",
+            "accepted": True,
+            "category": "not_a_category",
+            "subtopics": ["new_models"],
+            "importance": 0.5,
+            "source": "Test",
+        }
+        score = rank_item(item, profile)
+        assert score == 0.0
+
+    def test_missing_accepted_is_rejected(self):
+        profile = _empty_profile()
+        item = {
+            "news_id": "abc",
+            "category": "ai",
+            "subtopics": ["new_models"],
+            "importance": 0.5,
+            "source": "Test",
+        }
+        assert rank_item(item, profile) == 0.0
+
+    def test_general_exclusion_filters_item(self):
+        profile = _empty_profile()
+        profile.general.exclusions = ["clickbait"]
+        item = {
+            "news_id": "abc",
+            "accepted": True,
+            "category": "ai",
+            "subtopics": ["new_models"],
+            "title": "Some clickbait title",
+            "summary": "Body text",
+            "importance": 0.9,
+            "source": "Reuters",
+        }
+        assert rank_item(item, profile) == 0.0
+
+    def test_unconfigured_subtopic_uses_neutral_interest(self):
+        profile = _empty_profile()
+        del profile.categories["ai"].interests["new_models"]
+        item = {
+            "news_id": "abc",
+            "accepted": True,
+            "category": "ai",
+            "subtopics": ["new_models"],
+            "importance": 0.5,
+            "source": "Test",
+        }
+        assert rank_item(item, profile) > 0
+
     def test_high_interest_scores_higher(self):
         profile = _empty_profile()
         profile.categories["ai"].interests["new_models"] = 5
@@ -102,7 +154,7 @@ class TestRankItem:
         }
         score_with = rank_item(item, profile, feedback)
         score_without = rank_item(item, profile, None)
-        assert score_with >= score_without
+        assert score_with > score_without
 
     def test_feedback_hide_similar_decreases_score(self):
         profile = _empty_profile()
@@ -119,7 +171,7 @@ class TestRankItem:
         }
         score_with = rank_item(item, profile, feedback)
         score_without = rank_item(item, profile, None)
-        assert score_with <= score_without
+        assert score_with < score_without
 
 
 class TestRankItems:
