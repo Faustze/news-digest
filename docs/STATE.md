@@ -35,7 +35,17 @@
 - [x] Пустой дайджест не пишется и не отправляется
 - [x] Суммаризация: transport-ошибки (timeout/rate limit/HTTP) не роняют прогон
 - [x] Web UI: `disableCategory` подключён; валидация импорта профиля; keyboard-доступные категории
-- [x] 87 unit-тестов
+- [x] 91 unit-тест
+
+## Правки по второму раунду CodeRabbit (PR #1, после мержа в ветку)
+
+- [x] `send_telegram.latest_digest` читает только дайджест за сегодня (пустой день больше не отправляет вчерашний)
+- [x] Workflow: `git add` feedback-файлов только если они существуют; job summary не падает без файла
+- [x] Экранирование title/summary для Telegram Markdown (кнопки не теряются при 400 fallback)
+- [x] `rank`: feedback-скоры агрегируются один раз на категорию (O(n×r) → O(r)); `context_boost` не обнуляется округлением
+- [x] `deduplicate`: word-set'ы предвычислены до цикла похожести
+- [x] `profile.is_excluded` удалён (дублирует проверку в rank)
+- [x] Web UI: `useState` вместо module-level refs; `@nuxt/devtools` убран (devtools отключён)
 
 ## Решения
 

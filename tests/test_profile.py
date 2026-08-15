@@ -63,15 +63,6 @@ class TestUserProfileSchema:
         profile.categories["ai"].enabled = False
         assert profile.get_interest("ai", "new_models") == 0
 
-    def test_is_excluded(self):
-        profile = _empty_profile()
-        profile.categories["ai"].interests["robotics"] = 0
-        assert profile.is_excluded("robotics") is True
-
-    def test_not_excluded(self):
-        profile = _empty_profile()
-        assert profile.is_excluded("robotics") is False
-
     def test_invalid_interest_raises(self):
         with pytest.raises(ValueError):
             Category(enabled=True, interests={"test": 6})

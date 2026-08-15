@@ -9,11 +9,33 @@ from news.profile import UserProfile
 
 # ── Ranking ───────────────────────────────────────────────────────────────────
 
+_FEEDBACK_DELTAS = {"useful": 0.1, "not_interesting": -0.1, "hide_similar": -0.2}
+
+
+def _category_feedback_scores(feedback: FeedbackStore | None) -> dict[str, float]:
+    """
+    Aggregate one feedback score per category, in the range 0.0-1.0.
+
+    Scanned once per run instead of once per item; order-independent because
+    the result for a category no longer depends on the reaction list order.
+    """
+    if not feedback:
+        return {}
+    scores: dict[str, float] = {}
+    for reaction in feedback.reactions:
+        delta = _FEEDBACK_DELTAS.get(reaction.reaction)
+        if delta is None:
+            continue
+        current = scores.get(reaction.category, 0.5)
+        scores[reaction.category] = min(max(current + delta, 0.0), 1.0)
+    return scores
+
 
 def rank_item(
     item: dict,
     profile: UserProfile,
     feedback: FeedbackStore | None = None,
+    category_scores: dict[str, float] | None = None,
 ) -> float:
     """
     Compute a final relevance score for an item based on multiple factors.
@@ -86,17 +108,10 @@ def rank_item(
     elif reliability_pref == "broad":
         source_score = max(source_score * 0.8, 0.3)
 
-    # Feedback adjustment
-    feedback_score = 0.5  # neutral
-    if feedback:
-        for reaction in feedback.reactions:
-            if reaction.category == category:
-                if reaction.reaction == "useful":
-                    feedback_score = min(feedback_score + 0.1, 1.0)
-                elif reaction.reaction == "not_interesting":
-                    feedback_score = max(feedback_score - 0.1, 0.0)
-                elif reaction.reaction == "hide_similar":
-                    feedback_score = max(feedback_score - 0.2, 0.0)
+    # Feedback adjustment (precomputed per-category score; 0.5 = neutral)
+    if category_scores is None:
+        category_scores = _category_feedback_scores(feedback)
+    feedback_score = category_scores.get(category, 0.5)
 
     # Personal context boost
     context_boost = 0.0
@@ -113,7 +128,7 @@ def rank_item(
         + importance * 0.25
         + source_score * 0.15
         + feedback_score * 0.15
-        + context_boost * 0.05
+        + context_boost
     )
 
     return round(final_score, 3)
@@ -125,8 +140,10 @@ def rank_items(
     feedback: FeedbackStore | None = None,
 ) -> list[dict]:
     """Rank all items and return sorted by final score descending."""
+    category_scores = _category_feedback_scores(feedback)
+
     for item in items:
-        item["final_score"] = rank_item(item, profile, feedback)
+        item["final_score"] = rank_item(item, profile, category_scores=category_scores)
 
     # Filter out zero-score items
     items = [i for i in items if i["final_score"] > 0]

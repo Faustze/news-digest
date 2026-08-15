@@ -1,4 +1,4 @@
-import { ref, computed } from 'vue'
+import { computed } from 'vue'
 import {
   type UserProfile,
   createEmptyProfile,
@@ -10,10 +10,10 @@ import {
 } from '~/lib/profile'
 import { CATEGORIES } from '~/lib/categories'
 
-const profile = ref<UserProfile | null>(null)
-const isOnboarded = ref(false)
-
 export function useProfile() {
+  const profile = useState<UserProfile | null>('news-digest-profile', () => null)
+  const isOnboarded = useState<boolean>('news-digest-onboarded', () => false)
+
   function load() {
     const loaded = loadFromStorage()
     if (loaded) {

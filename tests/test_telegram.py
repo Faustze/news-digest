@@ -3,10 +3,15 @@ Tests for send_telegram module.
 """
 
 import json
+from datetime import datetime, timezone
+
+import pytest
 
 from send_telegram import (
+    _escape_markdown,
     build_callback_data,
     build_inline_keyboard,
+    latest_digest,
     parse_items_from_digest,
 )
 
@@ -95,3 +100,28 @@ class TestBuildInlineKeyboard:
         assert "👍 Полезно" in texts
         assert "👎 Неинтересно" in texts
         assert "🔕 Больше такого" in texts
+
+
+class TestEscapeMarkdown:
+    def test_escapes_special_chars(self):
+        assert _escape_markdown("a_b *c* [d]") == r"a\_b \*c\* \[d\]"
+
+    def test_leaves_plain_text(self):
+        assert _escape_markdown("plain text 123") == "plain text 123"
+
+    def test_escapes_link_brackets(self):
+        assert (
+            _escape_markdown("[title](https://x.com)") == r"\[title\]\(https://x\.com\)"
+        )
+
+
+class TestLatestDigest:
+    def test_raises_when_no_digest_today(self, tmp_path):
+        with pytest.raises(FileNotFoundError):
+            latest_digest(str(tmp_path))
+
+    def test_reads_today_digest(self, tmp_path):
+        date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        f = tmp_path / f"digest_{date_str}.txt"
+        f.write_text("hello", encoding="utf-8")
+        assert latest_digest(str(tmp_path)) == "hello"

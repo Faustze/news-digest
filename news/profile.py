@@ -223,17 +223,6 @@ class UserProfile(BaseModel):
             return 0
         return cat.interests.get(subtopic)
 
-    def is_excluded(self, subtopic: str) -> bool:
-        """Check if a subtopic has interest=0 (explicit negative preference)."""
-        for cat in self.categories.values():
-            if (
-                cat.enabled
-                and subtopic in cat.interests
-                and cat.interests[subtopic] == 0
-            ):
-                return True
-        return False
-
 
 # ── Loader ────────────────────────────────────────────────────────────────────
 

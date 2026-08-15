@@ -3,10 +3,10 @@ Send digest to Telegram with inline feedback buttons.
 Reads TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID from environment.
 """
 
-import glob
 import json
 import os
 import re
+from datetime import datetime, timezone
 
 import httpx
 
@@ -23,11 +23,13 @@ def _api_url() -> str:
     return f"https://api.telegram.org/bot{_get_bot_token()}"
 
 
-def latest_digest() -> str:
-    files = sorted(glob.glob("output/digest_*.txt") + glob.glob("output/digest_*.md"))
-    if not files:
-        raise FileNotFoundError("No digest file found in output/")
-    return open(files[-1]).read()
+def latest_digest(output_dir: str = "output") -> str:
+    """Return today's digest text, raising if it has not been produced yet."""
+    date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    path = os.path.join(output_dir, f"digest_{date_str}.txt")
+    if not os.path.exists(path):
+        raise FileNotFoundError(f"No digest for {date_str}; nothing to send.")
+    return open(path, encoding="utf-8").read()
 
 
 def parse_items_from_digest(digest_text: str) -> list[dict]:
@@ -112,6 +114,13 @@ def chunk(text: str, size: int = 4000):
         yield text[i : i + size]
 
 
+def _escape_markdown(text: str) -> str:
+    """Escape Telegram Markdown special characters in untrusted feed text."""
+    for ch in "_*[]()~`>#+-=|{}.!":
+        text = text.replace(ch, f"\\{ch}")
+    return text
+
+
 def send_message(
     text: str,
     parse_mode: str = "Markdown",
@@ -163,14 +172,19 @@ def send_digest(digest_text: str):
 
     # Send each news item with its own feedback keyboard
     for item in items:
-        text = (
-            f"{item['title']}\n\n{item['summary']}\n\n[Читать источник]({item['link']})"
-        )
+        title = _escape_markdown(item["title"])
+        summary = _escape_markdown(item["summary"])
+        text = f"{title}\n\n{summary}\n\n[Читать источник]({item['link']})"
         keyboard = build_inline_keyboard(item)
         send_message(text, parse_mode="Markdown", reply_markup=keyboard)
 
 
 if __name__ == "__main__":
-    digest = latest_digest()
+    try:
+        digest = latest_digest()
+    except FileNotFoundError as e:
+        print(e)
+        print("Skipping delivery: no digest was produced for today.")
+        raise SystemExit(0)
     send_digest(digest)
     print("Digest sent to Telegram ✓")

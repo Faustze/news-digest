@@ -59,9 +59,16 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add output/ feedback.json feedback_state.json user-profile.json
+          git add output/ user-profile.json
+          # Only stage feedback files if they exist (they appear after the
+          # first reaction / poll), so the commit step never fails on git add.
+          for f in feedback.json feedback_state.json; do
+            if [ -f "$f" ]; then git add "$f"; fi
+          done
           git diff --cached --quiet || git commit -m "digest: $(date -u +%Y-%m-%d)"
           git push
 
       - name: Post to job summary
-        run: cat output/digest_$(date -u +%Y-%m-%d).txt >> $GITHUB_STEP_SUMMARY
+        run: |
+          f="output/digest_$(date -u +%Y-%m-%d).txt"
+          if [ -f "$f" ]; then cat "$f" >> $GITHUB_STEP_SUMMARY; fi

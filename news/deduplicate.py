@@ -29,11 +29,21 @@ def _title_similarity(a: str, b: str) -> float:
     """Simple word-overlap similarity between two titles."""
     words_a = set(_normalize_title(a).split())
     words_b = set(_normalize_title(b).split())
+    return _set_similarity(words_a, words_b)
+
+
+def _set_similarity(words_a: set[str], words_b: set[str]) -> float:
+    """Jaccard similarity between two precomputed word sets."""
     if not words_a or not words_b:
         return 0.0
     intersection = words_a & words_b
     union = words_a | words_b
     return len(intersection) / len(union)
+
+
+def _word_set(title: str) -> set[str]:
+    """Normalize a title once and return its word set for reuse."""
+    return set(_normalize_title(title).split())
 
 
 def deduplicate(items: list[dict], similarity_threshold: float = 0.6) -> list[dict]:
@@ -49,6 +59,7 @@ def deduplicate(items: list[dict], similarity_threshold: float = 0.6) -> list[di
     seen_ids: set[str] = set()
     seen_urls: set[str] = set()
     seen_titles: set[str] = set()
+    seen_word_sets: list[set[str]] = []
     unique: list[dict] = []
 
     for item in items:
@@ -70,11 +81,11 @@ def deduplicate(items: list[dict], similarity_threshold: float = 0.6) -> list[di
             continue
 
         # Check title similarity against all seen titles
-        is_similar = False
-        for existing_title in seen_titles:
-            if _title_similarity(title, existing_title) >= similarity_threshold:
-                is_similar = True
-                break
+        words = _word_set(title)
+        is_similar = any(
+            _set_similarity(words, existing) >= similarity_threshold
+            for existing in seen_word_sets
+        )
 
         if is_similar:
             continue
@@ -86,6 +97,7 @@ def deduplicate(items: list[dict], similarity_threshold: float = 0.6) -> list[di
             seen_urls.add(url)
         if norm_title:
             seen_titles.add(norm_title)
+            seen_word_sets.append(words)
         unique.append(item)
 
     return unique

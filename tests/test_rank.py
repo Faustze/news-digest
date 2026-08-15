@@ -173,6 +173,33 @@ class TestRankItem:
         score_without = rank_item(item, profile, None)
         assert score_with < score_without
 
+    def test_feedback_is_scoped_to_category(self):
+        profile = _empty_profile()
+        feedback = FeedbackStore()
+        add_reaction(feedback, "xyz", USEFUL, "ai", ["new_models"])
+
+        item_ai = {
+            "news_id": "abc",
+            "accepted": True,
+            "category": "ai",
+            "subtopics": ["new_models"],
+            "importance": 0.5,
+            "source": "Test",
+        }
+        item_games = {
+            "news_id": "def",
+            "accepted": True,
+            "category": "games",
+            "subtopics": ["new_games_releases"],
+            "importance": 0.5,
+            "source": "Test",
+        }
+        # Useful feedback on AI must not raise the Games score.
+        assert rank_item(item_ai, profile, feedback) > rank_item(item_ai, profile, None)
+        assert rank_item(item_games, profile, feedback) == rank_item(
+            item_games, profile, None
+        )
+
 
 class TestRankItems:
     def test_returns_sorted_by_score(self):
