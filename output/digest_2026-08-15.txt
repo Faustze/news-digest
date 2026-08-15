@@ -1,0 +1,67 @@
+📰 *Дайджест 15.08.2026*
+
+Сегодня в мире фронтенда и Python произошли несколько важных событий. Статья "How to Convert HEIC to PDF in the Browser with Vue 3 and Canvas" рассказывает о том, как конвертировать HEIC-файлы в PDF в браузере с помощью Vue 3 и Canvas, что может быть полезно разработчикам для работы с изображениями и PDF. Кроме того, статья "Image Optimization: The Complete 2026 Checklist for Faster Websites" предоставляет полный чек-лист для оптимизации изображений на сайте, что может улучшить производительность и рейтинг SEO. Также стоит отметить статью "Encode, don't stringify — как JSON.stringify вам врёт", которая рассказывает о проблемах, связанных с использованием JSON.stringify, и предлагает альтернативные решения. Эти статьи могут быть полезны разработчикам для улучшения навыков работы с JavaScript, CSS и оптимизации производительности веб-страниц.
+
+─────────────────────
+
+🌐 [Semantic Caching: The LLM Cost-Killer Nobody's Talking About Enough](https://dev.to/thavoncoding/semantic-caching-the-llm-cost-killer-nobodys-talking-about-enough-1cj0)
+Статья о семантическом кэшировании и его влиянии на стоимость LLM. Полезно разработчикам для оптимизации производительности и снижения затрат.
+#webdev #frontend
+
+🌐 [How to Self-Host Llama 2 on a $5/month DigitalOcean Droplet](https://dev.to/ramosai/how-to-self-host-llama-2-on-a-5month-digitalocean-droplet-lcb)
+Статья о том, как самостоятельно развернуть Llama 2 на сервере DigitalOcean за $5 в месяц. Полезно разработчикам для экономии средств и улучшения производительности.
+#webdev #frontend
+
+💚 [How to Convert HEIC to PDF in the Browser with Vue 3 and Canvas](https://dev.to/sunshey/how-to-convert-heic-to-pdf-in-the-browser-with-vue-3-and-canvas-1g9p)
+Статья о том, как конвертировать HEIC-файлы в PDF в браузере с помощью Vue 3 и Canvas. Полезно разработчикам для работы с изображениями и PDF.
+#Vue #frontend
+
+🌐 [Image Optimization: The Complete 2026 Checklist for Faster Websites](https://dev.to/_544bf5cbd223c35a49756/image-optimization-the-complete-2026-checklist-for-faster-websites-3pi5)
+Статья предоставляет полный чек-лист для оптимизации изображений на сайте, что может улучшить производительность и рейтинг SEO. Разработчикам полезно будет узнать о том, как правильно сжимать и оптимизировать изображения для веб-страниц.
+#webdev #frontend #Web performance
+
+🟨 [Use-As-Dictionary: как мы перестали отдавать один и тот же бандл по пять раз в день](https://habr.com/ru/articles/1070382/?utm_campaign=1070382&utm_source=habrahabr&utm_medium=rss)
+Статья рассказывает о том, как авторы использовали Compression Dictionary Transport для уменьшения размера бандла и улучшения производительности. Это может быть полезно разработчикам, которые работают над проектами с большими бандлами.
+#JavaScript #frontend #Web performance
+
+📌 [How to bring your software delivery workflow into GitHub with agent apps](https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/)
+Статья рассказывает о том, как использовать агент-приложения GitHub для улучшения процесса доставки программного обеспечения. Это может быть полезно разработчикам, которые используют GitHub.
+#AI #devtools #DX
+
+🌐 [I built 59 free browser-based dev tools in vanilla JS — here's what I learned](https://dev.to/yuvaraj_radhakrishnan_224/i-built-59-free-browser-based-dev-tools-in-vanilla-js-heres-what-i-learned-1fmb)
+Статья о создании 59 бесплатных инструментов для разработчиков в браузере с помощью vanilla JS. Полезно разработчикам для улучшения навыков работы с JavaScript.
+#webdev #frontend
+
+🟨 [Encode, don't stringify — как JSON.stringify вам врёт](https://habr.com/ru/articles/1070394/?utm_campaign=1070394&utm_source=habrahabr&utm_medium=rss)
+Статья рассказывает о проблемах, связанных с использованием JSON.stringify, и предлагает альтернативные решения. Это может быть полезно разработчикам, которые работают с JSON-данными.
+#JavaScript #frontend
+
+📌 [Maximizing the value of your Claude Code sessions](https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions)
+Статья о том, как максимально эффективно использовать сессии Claude Code. Claude Code - это инструмент, который использует ИИ для генерации кода. Статья может быть полезна разработчикам, которые используют этот инструмент.
+#AI
+
+🎨 [What’s !important #17: Custom Highlight API, CSS Navigation Matching, Fixing text-stroke, and More](https://css-tricks.com/whats-important-17/)
+Статья о новых возможностях CSS, включая Custom Highlight API, CSS Navigation Matching и исправление text-stroke. Полезно разработчикам для улучшения навыков работы с CSS.
+#CSS
+
+🟨 [Как я перестал разрывать архитектуру на десяток документов — и сделал свой C4-редактор](https://habr.com/ru/articles/1070526/?utm_campaign=1070526&utm_source=habrahabr&utm_medium=rss)
+Статья рассказывает о том, как автор создал свой редактор C4 для упрощения архитектуры проекта. Это может быть полезно разработчикам, которые работают над сложными проектами и ищут способы улучшить свою производительность.
+#JavaScript #frontend #DX
+
+📌 [Google is making private AI practical with homomorphic encryption](https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/)
+Google представила технологию homomorphic encryption, которая позволяет выполнять вычисления на зашифрованных данных. Это может быть полезно для разработчиков, которые работают с конфиденциальными данными. Технология позволяет выполнять вычисления на зашифрованных данных без расш
+#AI
+
+📌 [AI Driven Testing](https://app.deltix.ai)
+Статья о тестировании с использованием ИИ. Инструмент Deltix.ai позволяет автоматизировать тестирование с помощью ИИ. Это может быть полезно разработчикам, которые хотят улучшить качество своего кода.
+#AI
+
+🟨 [Astryx: дизайн-система, которой может пользоваться AI-агент](https://habr.com/ru/articles/1070514/?utm_campaign=1070514&utm_source=habrahabr&utm_medium=rss)
+Статья представляет дизайн-систему Astryx, которая может быть использована AI-агентами. Это может быть интересно разработчикам, которые работают над проектами, связанными с искусственным интеллектом.
+#JavaScript #frontend #AI
+
+🟨 [Ускоряем drop in replace Next.js в 100 раз. Часть 1](https://habr.com/ru/companies/t2/articles/1066044/?utm_campaign=1066044&utm_source=habrahabr&utm_medium=rss)
+Статья рассказывает о том, как авторы смогли ускорить замену Next.js в 100 раз. Это может быть интересно разработчикам, которые работают над проектами на Next.js.
+#JavaScript #frontend #Web performance
+
+_Источников: 6 · Новостей: 15_
