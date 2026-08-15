@@ -33,8 +33,8 @@
 
 ```bash
 cd web-ui
-npm install
-npm run dev
+pnpm install
+pnpm run dev
 ```
 
 Открой http://localhost:3000 и пройди onboarding.
