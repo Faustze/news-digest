@@ -2,9 +2,9 @@
 
 ## Позиция
 
-- **Активная задача:** Phase 9 — UX дайджеста (персонализированное summary, категория + теги, Markdown fallback)
-- **Последний коммит:** feat: dynamic cutoff hours based on profile frequency (78d3dd6)
-- **Следующий шаг:** Персонализированное summary в `generate_digest_summary`
+- **Активная задача:** D-02 — GitHub Actions CI/CD для деплоя Web UI на GitHub Pages
+- **Последний коммит:** feat: personalized summary and tagged news items in digest (c847060)
+- **Следующий шаг:** Создать `.github/workflows/deploy_ui.yml` и настроить `nuxt.config.ts` для GitHub Pages
 
 ## Выполнено
 
@@ -21,6 +21,7 @@
 - [x] README + AGENTS.md + docs-структура
 - [x] Локальный скилл task-workflow в `.agents/skills/`
 - [x] Phase 8: динамический cutoff по frequency (`daily/evening/morning/important_only=24h`, `weekly=7d`)
+- [x] Phase 9: персонализированное summary (reading_time/priority), категория + теги в новостях, Markdown fallback с сохранением кнопок
 
 ## Правки по ревью CodeRabbit (PR #1)
 
@@ -61,4 +62,4 @@
 
 ## Что в работе
 
-Phase 9: UX дайджеста — персонализированное summary, категория + теги в каждой новости, Markdown fallback.
+D-02: GitHub Actions CI/CD для деплоя Web UI на GitHub Pages (`deploy_ui.yml` + настройка `nuxt.config.ts`).

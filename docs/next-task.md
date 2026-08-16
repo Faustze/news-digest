@@ -2,17 +2,22 @@
 
 ## Задача
 
-**Phase 9: UX дайджеста**
+**D-02: GitHub Actions CI/CD для деплоя Web UI на GitHub Pages**
 
-Сделать дайджест читабельнее и персонализированнее: summary, которое адаптируется под профиль, и структура каждой новости с категорией и тегами.
+Собирать статический Nuxt-интерфейс (`web-ui/`) и публиковать на GitHub Pages. UI остаётся статичным и клиентским — без бэкенда, VPS и БД.
 
 ## Что сделать
 
-1. **Персонализированное summary** — `generate_digest_summary` уже получает profile; учесть в промпте `reading_time`, `priority` и интересы, чтобы объём/акценты summary менялись под пользователя.
+1. **Отдельный workflow** `.github/workflows/deploy_ui.yml` (не смешивать с `daily_digest.yml`):
+   - триггеры: `push` в `main` по путям `web-ui/**` + `workflow_dispatch`;
+   - `contents: write` + `pages: write` + `id-token: write` (deployment);
+   - `pnpm install --frozen-lockfile` + `pnpm generate` (статический output).
 
-2. **Категория + теги в каждой новости** — в `render_telegram` добавить в каждый пункт категорию и теги статьи (есть в `item["tags"]` и `item["category"]` после классификации).
+2. **Публикация** — деплой собранного `.output/public` на GitHub Pages:
+   - настроить `nuxt.config.ts` на `ssr: false` и корректный `baseURL` (Pages-путь);
+   - artifact `actions/upload-pages-artifact` + `actions/deploy-pages`.
 
-3. **Markdown fallback** — сохранить существующее поведение: если Telegram не принял Markdown-версию, отправить plain-text fallback (кнопки не теряются).
+3. **Проверки**: линт/тесты Web UI не ломают деплой; локально `pnpm generate` собирается без ошибок.
 
 ## Проверка
 
@@ -20,9 +25,9 @@
 uv run ruff check .
 uv run ruff format --check .
 uv run pytest tests/ -v
-uv run python news_pipeline.py config.yaml
+cd web-ui && pnpm generate
 ```
 
 ## Следующая задача после этого
 
-D-02 — GitHub Actions CI/CD для деплоя Web UI на GitHub Pages.
+B-03 — Мульти-провайдер LLM (OpenAI, Anthropic, Ollama для локального запуска).
