@@ -93,8 +93,11 @@ DIGEST_PROMPT = ChatPromptTemplate.from_messages(
 Язык: {language}.
 Уровень детализации: {detail_level}.
 Уровень языка: {language_level}.
+Время чтения: {reading_time}.
+Приоритет: {priority}.
 
-Напиши 3-4 предложения: что важного произошло сегодня.
+Напиши дайджест: что важного произошло сегодня.
+Уложись в заданное время чтения и расставь акценты согласно приоритету.
 Будь конкретным и полезным. Без воды.""",
         ),
         ("human", "Топ новостей:\n{items_json}"),
@@ -115,6 +118,11 @@ async def generate_digest_summary(
         "standard": "обычный уровень",
         "advanced": "технический язык",
     }
+    priority_map = {
+        "important_only": "только самое важное",
+        "balanced": "сбалансированный акцент",
+        "everything": "максимум новостей",
+    }
 
     return await chain.ainvoke(
         {
@@ -131,6 +139,10 @@ async def generate_digest_summary(
             ),
             "language_level": lang_map.get(
                 profile.general.language_level.value, "обычный уровень"
+            ),
+            "reading_time": f"{profile.general.reading_time} минут",
+            "priority": priority_map.get(
+                profile.general.priority.value, "сбалансированный акцент"
             ),
         }
     )
@@ -175,10 +187,13 @@ def render_telegram(items: list[dict], summary: str, profile: UserProfile) -> st
         cat_label = CATEGORY_LABELS.get(category, category)
         news_id = item.get("news_id", "")
 
+        tags = [t for t in (item.get("tags") or []) if t]
+        tag_suffix = "  " + " ".join(f"#{t}" for t in tags) if tags else ""
+
         lines += [
             f"{emoji} [{title}]({link})",
             text,
-            f"#{cat_label}  `{news_id[:12]}`",
+            f"#{cat_label}{tag_suffix}  `{news_id[:12]}`",
             "",
         ]
 
