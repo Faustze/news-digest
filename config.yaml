@@ -6,7 +6,10 @@ output_dir: output
 max_items: 15
 batch_size: 12
 
+provider: groq
 model: llama-3.3-70b-versatile
+temperature: 0
+max_tokens: 4096
 
 feeds:
 

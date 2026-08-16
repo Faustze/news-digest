@@ -10,16 +10,15 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 import feedparser
-import groq
-import httpx
 import yaml
+from langchain_core.language_models.chat_models import BaseChatModel
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_groq import ChatGroq
 
 from news.classify import classify_batch
 from news.deduplicate import deduplicate
 from news.feedback import generate_news_id, load_feedback
+from news.llm import build_llm
 from news.profile import CATEGORY_LABELS, UserProfile, load_profile
 from news.rank import rank_items
 from news.schedule import cutoff_hours_for_frequency
@@ -108,7 +107,7 @@ DIGEST_PROMPT = ChatPromptTemplate.from_messages(
 async def generate_digest_summary(
     items: list[dict],
     profile: UserProfile,
-    llm: ChatGroq,
+    llm: BaseChatModel,
 ) -> str:
     chain = DIGEST_PROMPT | llm | StrOutputParser()
     language = "русский" if profile.general.language.value == "ru" else "English"
@@ -233,11 +232,7 @@ async def run_pipeline(
     profile = load_profile(profile_path, legacy_config)
     feedback = load_feedback(feedback_path)
 
-    llm = ChatGroq(
-        model=config.get("model", "llama-3.3-70b-versatile"),
-        temperature=0,
-        max_tokens=4096,
-    )
+    llm = build_llm(config)
     batch_size = config.get("batch_size", 12)
 
     print(f"[1/5] Fetching RSS feeds ({len(config['feeds'])} sources)…")
@@ -266,13 +261,9 @@ async def run_pipeline(
             if top_items
             else "Сегодня новостей по твоим темам не нашлось."
         )
-    except (
-        json.JSONDecodeError,
-        ValueError,
-        TimeoutError,
-        groq.GroqError,
-        httpx.HTTPError,
-    ) as e:  # the digest must still ship without a summary
+    except Exception as e:  # noqa: BLE001
+        # Best-effort step: whatever the provider raises (network, rate limit,
+        # malformed output) must not sink the whole digest.
         print(f"[WARN] Summary failed: {e}")
         summary = "⚠️ Саммари недоступно. Смотри новости ниже."
 
