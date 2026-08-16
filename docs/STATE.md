@@ -2,9 +2,9 @@
 
 ## Позиция
 
-- **Активная задача:** B-03 — Мульти-провайдер LLM (Groq/OpenAI/Anthropic/Ollama)
-- **Последний коммит:** ci: deploy web-ui to GitHub Pages (9a41599)
-- **Следующий шаг:** Фабрика `news/llm.py` по конфигу и интеграция в `news_pipeline.py`
+- **Активная задача:** B-05 — Веб-интерфейс архива дайджестов
+- **Последний коммит:** feat: multi-provider LLM support via config (cc65876)
+- **Следующий шаг:** Страница `/archive` в Web UI со списком дайджестов из `output/`
 
 ## Выполнено
 
@@ -23,6 +23,7 @@
 - [x] Phase 8: динамический cutoff по frequency (`daily/evening/morning/important_only=24h`, `weekly=7d`)
 - [x] Phase 9: персонализированное summary (reading_time/priority), категория + теги в новостях, Markdown fallback с сохранением кнопок
 - [x] D-02: деплой Web UI на GitHub Pages (`deploy_ui.yml`, `pnpm generate`, `deploy-pages`)
+- [x] B-03: мульти-провайдер LLM (`news/llm.py`, провайдер из `config.yaml`)
 
 ## Правки по ревью CodeRabbit (PR #1)
 
@@ -63,4 +64,4 @@
 
 ## Что в работе
 
-B-03: мульти-провайдер LLM — фабрика `news/llm.py`, интеграция в пайплайн, тесты.
+B-05: веб-интерфейс архива дайджестов — страница `/archive`, список из `output/` на этапе сборки.
