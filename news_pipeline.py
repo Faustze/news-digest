@@ -22,6 +22,7 @@ from news.deduplicate import deduplicate
 from news.feedback import generate_news_id, load_feedback
 from news.profile import CATEGORY_LABELS, UserProfile, load_profile
 from news.rank import rank_items
+from news.schedule import cutoff_hours_for_frequency
 
 # ── Config ────────────────────────────────────────────────────────────────────
 
@@ -34,10 +35,9 @@ def load_config(path: str = "config.yaml") -> dict:
 # ── Step 1: Fetch RSS items ───────────────────────────────────────────────────
 
 
-def fetch_rss_items(config: dict) -> list[dict]:
+def fetch_rss_items(config: dict, cutoff_hours: int = 24) -> list[dict]:
     """Fetch raw entries from all configured RSS feeds."""
     items = []
-    cutoff_hours = config.get("cutoff_hours", 24)
 
     for feed_cfg in config["feeds"]:
         try:
@@ -226,7 +226,7 @@ async def run_pipeline(
     batch_size = config.get("batch_size", 12)
 
     print(f"[1/5] Fetching RSS feeds ({len(config['feeds'])} sources)…")
-    raw_items = fetch_rss_items(config)
+    raw_items = fetch_rss_items(config, cutoff_hours_for_frequency(profile))
     print(f"      → {len(raw_items)} raw items")
 
     print("[2/5] Deduplicating…")
