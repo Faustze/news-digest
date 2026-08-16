@@ -2,9 +2,9 @@
 
 ## Позиция
 
-- **Активная задача:** Phase 8 — динамический cutoff по frequency
-- **Последний коммит:** docs: update README and project documentation (dd140e1)
-- **Следующий шаг:** Реализовать `cutoff_hours_for_frequency()` и интегрировать в pipeline
+- **Активная задача:** Phase 9 — UX дайджеста (персонализированное summary, категория + теги, Markdown fallback)
+- **Последний коммит:** feat: dynamic cutoff hours based on profile frequency (78d3dd6)
+- **Следующий шаг:** Персонализированное summary в `generate_digest_summary`
 
 ## Выполнено
 
@@ -20,6 +20,7 @@
 - [x] CI: lint (ruff) + test (pytest) в GitHub Actions
 - [x] README + AGENTS.md + docs-структура
 - [x] Локальный скилл task-workflow в `.agents/skills/`
+- [x] Phase 8: динамический cutoff по frequency (`daily/evening/morning/important_only=24h`, `weekly=7d`)
 
 ## Правки по ревью CodeRabbit (PR #1)
 
@@ -60,4 +61,4 @@
 
 ## Что в работе
 
-Phase 8: динамический cutoff по frequency (`daily=24h`, `weekly=7d`).
+Phase 9: UX дайджеста — персонализированное summary, категория + теги в каждой новости, Markdown fallback.

@@ -156,10 +156,10 @@
 - [x] Feedback polling → pipeline → send → commit
 - [x] Коммит: output/, feedback.json, feedback_state.json, user-profile.json
 
-### Phase 8 — Семантика расписания
+### Phase 8 — Семантика расписания ✅
 
-- [ ] Динамический cutoff: daily=24h, weekly=7d, important_only=24h
-- [ ] Не отправлять пустой дайджест
+- [x] Динамический cutoff: daily=24h, weekly=7d, important_only=24h
+- [x] Не отправлять пустой дайджест
 
 ### Phase 9 — UX дайджеста
 
@@ -175,15 +175,14 @@
 - [x] Deduplication: URL, title, similarity
 - [x] Feedback: news_id, reactions, persistence
 - [x] Telegram: parsing, callback data, keyboard
-- [ ] Scheduling: daily/weekly cutoff, important-only
+- [x] Scheduling: daily/weekly cutoff, important-only
 - [ ] LLM mocking fixtures
 
 ---
 
 ## Что осталось (приоритет)
 
-1. **Phase 8** — Динамический cutoff по frequency (daily=24h, weekly=7d)
-2. **Phase 9** — UX дайджеста (персонализация summary)
-3. **D-02** — GitHub Actions CI/CD для деплоя Web UI на GitHub Pages
-4. **B-03** — Мульти-провайдер LLM
-5. **B-05** — Веб-интерфейс архива дайджестов
+1. **Phase 9** — UX дайджеста (персонализация summary)
+2. **D-02** — GitHub Actions CI/CD для деплоя Web UI на GitHub Pages
+3. **B-03** — Мульти-провайдер LLM
+4. **B-05** — Веб-интерфейс архива дайджестов

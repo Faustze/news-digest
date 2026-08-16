@@ -2,28 +2,17 @@
 
 ## Задача
 
-**Phase 8: Динамический cutoff по frequency**
+**Phase 9: UX дайджеста**
 
-Сделать так, чтобы `cutoff_hours` вычислялся как runtime-значение на основе `user-profile.json.general.frequency`, не записывая пользовательские предпочтения обратно в `config.yaml` (технический конфиг — в `config.yaml`, предпочтения — в `user-profile.json`).
+Сделать дайджест читабельнее и персонализированнее: summary, которое адаптируется под профиль, и структура каждой новости с категорией и тегами.
 
 ## Что сделать
 
-1. Добавить функцию `cutoff_hours_for_frequency(profile: UserProfile) -> int` в `news/profile.py` или отдельный модуль `news/schedule.py`.
+1. **Персонализированное summary** — `generate_digest_summary` уже получает profile; учесть в промпте `reading_time`, `priority` и интересы, чтобы объём/акценты summary менялись под пользователя.
 
-2. Поддерживаемые значения:
-   - `morning` / `evening` / `daily` → 24 часа
-   - `weekly` → 7 дней (168 часов)
-   - `important_only` → 24 часа
+2. **Категория + теги в каждой новости** — в `render_telegram` добавить в каждый пункт категорию и теги статьи (есть в `item["tags"]` и `item["category"]` после классификации).
 
-3. Обновить `news_pipeline.py`:
-   - Вместо `config.get("cutoff_hours", 24)` использовать значение из профиля.
-   - Сохранить fallback на 24 часа, если frequency не задан.
-
-4. Добавить тесты в `tests/test_schedule.py`:
-   - daily → 24
-   - weekly → 168
-   - important_only → 24
-   - отсутствующий frequency → 24
+3. **Markdown fallback** — сохранить существующее поведение: если Telegram не принял Markdown-версию, отправить plain-text fallback (кнопки не теряются).
 
 ## Проверка
 
@@ -36,6 +25,4 @@ uv run python news_pipeline.py config.yaml
 
 ## Следующая задача после этого
 
-Phase 9 — UX дайджеста (персонализация summary, категория + теги в каждой новости, Markdown fallback).
-
-> Примечание: D-02 (деплой Web UI) будет реализован через GitHub Actions CI/CD для GitHub Pages. См. `docs/PLAN.md`.
+D-02 — GitHub Actions CI/CD для деплоя Web UI на GitHub Pages.
