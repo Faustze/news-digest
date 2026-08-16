@@ -2,9 +2,9 @@
 
 ## Позиция
 
-- **Активная задача:** D-02 — GitHub Actions CI/CD для деплоя Web UI на GitHub Pages
-- **Последний коммит:** feat: personalized summary and tagged news items in digest (c847060)
-- **Следующий шаг:** Создать `.github/workflows/deploy_ui.yml` и настроить `nuxt.config.ts` для GitHub Pages
+- **Активная задача:** B-03 — Мульти-провайдер LLM (Groq/OpenAI/Anthropic/Ollama)
+- **Последний коммит:** ci: deploy web-ui to GitHub Pages (9a41599)
+- **Следующий шаг:** Фабрика `news/llm.py` по конфигу и интеграция в `news_pipeline.py`
 
 ## Выполнено
 
@@ -22,6 +22,7 @@
 - [x] Локальный скилл task-workflow в `.agents/skills/`
 - [x] Phase 8: динамический cutoff по frequency (`daily/evening/morning/important_only=24h`, `weekly=7d`)
 - [x] Phase 9: персонализированное summary (reading_time/priority), категория + теги в новостях, Markdown fallback с сохранением кнопок
+- [x] D-02: деплой Web UI на GitHub Pages (`deploy_ui.yml`, `pnpm generate`, `deploy-pages`)
 
 ## Правки по ревью CodeRabbit (PR #1)
 
@@ -62,4 +63,4 @@
 
 ## Что в работе
 
-D-02: GitHub Actions CI/CD для деплоя Web UI на GitHub Pages (`deploy_ui.yml` + настройка `nuxt.config.ts`).
+B-03: мульти-провайдер LLM — фабрика `news/llm.py`, интеграция в пайплайн, тесты.

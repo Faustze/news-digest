@@ -2,22 +2,26 @@
 
 ## Задача
 
-**D-02: GitHub Actions CI/CD для деплоя Web UI на GitHub Pages**
+**B-03: Мульти-провайдер LLM**
 
-Собирать статический Nuxt-интерфейс (`web-ui/`) и публиковать на GitHub Pages. UI остаётся статичным и клиентским — без бэкенда, VPS и БД.
+Разрешить выбирать LLM-провайдера через `config.yaml` (Groq по умолчанию, OpenAI, Anthropic, локальный Ollama) без переписывания кода пайплайна.
 
 ## Что сделать
 
-1. **Отдельный workflow** `.github/workflows/deploy_ui.yml` (не смешивать с `daily_digest.yml`):
-   - триггеры: `push` в `main` по путям `web-ui/**` + `workflow_dispatch`;
-   - `contents: write` + `pages: write` + `id-token: write` (deployment);
-   - `pnpm install --frozen-lockfile` + `pnpm generate` (статический output).
+1. **Новый модуль `news/llm.py`** — фабрика, которая по конфигу возвращает LangChain chat-модель:
+   - `build_llm(config) -> BaseChatModel`;
+   - `provider`: `groq` (по умолчанию), `openai`, `anthropic`, `ollama`;
+   - `model`, `temperature`, `max_tokens` из конфига;
+   - ключ API из окружения: `GROQ_API_KEY` / `OPENAI_API_KEY` / `ANTHROPIC_API_KEY` (Ollama — без ключа).
 
-2. **Публикация** — деплой собранного `.output/public` на GitHub Pages:
-   - настроить `nuxt.config.ts` на `ssr: false` и корректный `baseURL` (Pages-путь);
-   - artifact `actions/upload-pages-artifact` + `actions/deploy-pages`.
+2. **Интеграция в `news_pipeline.py`** — заменить прямое `ChatGroq(...)` на `build_llm(config)` (передаётся в `classify_batch` и `generate_digest_summary`).
 
-3. **Проверки**: линт/тесты Web UI не ломают деплой; локально `pnpm generate` собирается без ошибок.
+3. **Проверка конфига** — неизвестный `provider` → fail early с понятной ошибкой; отсутствие ключа для провайдера → понятная ошибка.
+
+4. **Тесты `tests/test_llm.py`** (без живых API):
+   - каждый провайдер возвращает модель ожидаемого типа;
+   - неизвестный провайдер → ошибка;
+   - отсутствующий ключ → ошибка (кроме ollama).
 
 ## Проверка
 
@@ -25,9 +29,8 @@
 uv run ruff check .
 uv run ruff format --check .
 uv run pytest tests/ -v
-cd web-ui && pnpm generate
 ```
 
 ## Следующая задача после этого
 
-B-03 — Мульти-провайдер LLM (OpenAI, Anthropic, Ollama для локального запуска).
+B-05 — Веб-интерфейс для просмотра архива дайджестов.
