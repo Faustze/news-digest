@@ -47,6 +47,15 @@
 - [x] `profile.is_excluded` удалён (дублирует проверку в rank)
 - [x] Web UI: `useState` вместо module-level refs; `@nuxt/devtools` убран (devtools отключён)
 
+## Правки после фейла Groq 429 (TPD 100K)
+
+- [x] `classify_batch`: `groq.RateLimitError` больше не роняет прогон — лог, оставшиеся батчи `accepted: false`, stop
+- [x] `classify_batch`: прочие `groq.GroqError`/`httpx`/timeout — лог и continue со следующими батчами
+- [x] Компактный payload классификации: summary обрезается до 250 символов, `link` не шлётся, `categories_json` без отступов
+- [x] `max_tokens` для LLM снижен 4096 → 2048 (классификация/саммари укладываются)
+- [x] Новые тесты: rate-limit stop, сохранение уже классифицированных батчей, transient error → continue
+- [x] Полный прогон без ключа: 0 accepted → пустой дайджест не создаётся, прогон не падает
+
 ## Решения
 
 - Python 3.10+, uv для управления зависимостями

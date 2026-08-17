@@ -221,7 +221,7 @@ async def run_pipeline(
     llm = ChatGroq(
         model=config.get("model", "llama-3.3-70b-versatile"),
         temperature=0,
-        max_tokens=4096,
+        max_tokens=2048,
     )
     batch_size = config.get("batch_size", 12)
 
