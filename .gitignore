@@ -2,6 +2,9 @@
 .env
 .venv/
 
+# Local tooling
+.opencode/
+
 # Python
 __pycache__/
 *.py[cod]
