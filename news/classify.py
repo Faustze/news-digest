@@ -8,6 +8,8 @@ import asyncio
 import json
 import re
 
+import groq
+import httpx
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_groq import ChatGroq
 
@@ -59,7 +61,28 @@ def _build_categories_json() -> str:
             "label": label,
             "subtopics": dict(subtopics),
         }
-    return json.dumps(result, ensure_ascii=False, indent=2)
+    return json.dumps(result, ensure_ascii=False)
+
+
+def _build_items_json(items: list[dict]) -> str:
+    """
+    Compact serialization for the classification prompt.
+
+    Only the fields the model needs are sent, and summaries are truncated,
+    so each batch stays small and fits the Groq free-tier token budget.
+    """
+    compact = [
+        {
+            "news_id": item.get("news_id", ""),
+            "title": item.get("title", ""),
+            "summary": (item.get("summary", "") or "")[:250],
+            "source": item.get("source", ""),
+            "tags": item.get("tags", []),
+            "categories": item.get("categories", []),
+        }
+        for item in items
+    ]
+    return json.dumps(compact, ensure_ascii=False)
 
 
 async def classify_batch(
@@ -83,7 +106,7 @@ async def classify_batch(
             raw = await chain.ainvoke(
                 {
                     "categories_json": categories_json,
-                    "items_json": json.dumps(batch, ensure_ascii=False, indent=2),
+                    "items_json": _build_items_json(batch),
                 }
             )
             content = raw.content if hasattr(raw, "content") else str(raw)
@@ -94,6 +117,24 @@ async def classify_batch(
             for item in batch:
                 item["accepted"] = False
             results.extend(batch)
+        except groq.RateLimitError as e:
+            print(
+                f"[WARN] Groq rate limit reached; stopping classification at "
+                f"batch {i // batch_size + 1}: {e}"
+            )
+            for item in items[i:]:
+                item["accepted"] = False
+            results.extend(items[i:])
+            break
+        except (groq.GroqError, httpx.HTTPError, TimeoutError) as e:
+            print(
+                f"[WARN] Classification batch {i // batch_size + 1} "
+                f"failed, continuing: {e}"
+            )
+            for item in batch:
+                item["accepted"] = False
+            results.extend(batch)
+            continue
         else:
             if not isinstance(parsed, list):
                 print(

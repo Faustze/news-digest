@@ -1,0 +1,20 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: news-digest-db
+    environment:
+      POSTGRES_USER: newsdigest
+      POSTGRES_PASSWORD: qwerty123
+      POSTGRES_DB: newsdigest
+    ports:
+      - "5434:5432"
+    volumes:
+      - news_digest_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U newsdigest -d newsdigest"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+volumes:
+  news_digest_data:
