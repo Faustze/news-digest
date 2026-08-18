@@ -5,6 +5,8 @@ node_modules/
 # Nuxt
 .nuxt/
 .output/
+# nitro writes a `dist` symlink pointing at .output/public
+dist
 
 # OS
 .DS_Store

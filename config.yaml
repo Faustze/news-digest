@@ -3,11 +3,13 @@
 # ─────────────────────────────────────────────
 
 output_dir: output
-cutoff_hours: 24
 max_items: 15
 batch_size: 12
 
+provider: groq
 model: llama-3.3-70b-versatile
+temperature: 0
+max_tokens: 2048
 
 feeds:
 

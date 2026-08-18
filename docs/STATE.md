@@ -2,9 +2,9 @@
 
 ## Позиция
 
-- **Активная задача:** Phase 8 — динамический cutoff по frequency
-- **Последний коммит:** docs: update README and project documentation (dd140e1)
-- **Следующий шаг:** Реализовать `cutoff_hours_for_frequency()` и интегрировать в pipeline
+- **Активная задача:** B-05 — Веб-интерфейс архива дайджестов
+- **Последний коммит:** feat: multi-provider LLM support via config (cc65876)
+- **Следующий шаг:** Страница `/archive` в Web UI со списком дайджестов из `output/`
 
 ## Выполнено
 
@@ -20,6 +20,10 @@
 - [x] CI: lint (ruff) + test (pytest) в GitHub Actions
 - [x] README + AGENTS.md + docs-структура
 - [x] Локальный скилл task-workflow в `.agents/skills/`
+- [x] Phase 8: динамический cutoff по frequency (`daily/evening/morning/important_only=24h`, `weekly=7d`)
+- [x] Phase 9: персонализированное summary (reading_time/priority), категория + теги в новостях, Markdown fallback с сохранением кнопок
+- [x] D-02: деплой Web UI на GitHub Pages (`deploy_ui.yml`, `pnpm generate`, `deploy-pages`)
+- [x] B-03: мульти-провайдер LLM (`news/llm.py`, провайдер из `config.yaml`)
 
 ## Правки по ревью CodeRabbit (PR #1)
 
@@ -69,4 +73,4 @@
 
 ## Что в работе
 
-Phase 8: динамический cutoff по frequency (`daily=24h`, `weekly=7d`).
+B-05: веб-интерфейс архива дайджестов — страница `/archive`, список из `output/` на этапе сборки.

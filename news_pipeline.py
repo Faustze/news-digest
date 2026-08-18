@@ -10,18 +10,18 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 import feedparser
-import groq
-import httpx
 import yaml
+from langchain_core.language_models.chat_models import BaseChatModel
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_groq import ChatGroq
 
 from news.classify import classify_batch
 from news.deduplicate import deduplicate
 from news.feedback import generate_news_id, load_feedback
+from news.llm import build_llm
 from news.profile import CATEGORY_LABELS, UserProfile, load_profile
 from news.rank import rank_items
+from news.schedule import cutoff_hours_for_frequency
 
 # ── Config ────────────────────────────────────────────────────────────────────
 
@@ -34,10 +34,9 @@ def load_config(path: str = "config.yaml") -> dict:
 # ── Step 1: Fetch RSS items ───────────────────────────────────────────────────
 
 
-def fetch_rss_items(config: dict) -> list[dict]:
+def fetch_rss_items(config: dict, cutoff_hours: int = 24) -> list[dict]:
     """Fetch raw entries from all configured RSS feeds."""
     items = []
-    cutoff_hours = config.get("cutoff_hours", 24)
 
     for feed_cfg in config["feeds"]:
         try:
@@ -93,8 +92,11 @@ DIGEST_PROMPT = ChatPromptTemplate.from_messages(
 Язык: {language}.
 Уровень детализации: {detail_level}.
 Уровень языка: {language_level}.
+Время чтения: {reading_time}.
+Приоритет: {priority}.
 
-Напиши 3-4 предложения: что важного произошло сегодня.
+Напиши дайджест: что важного произошло сегодня.
+Уложись в заданное время чтения и расставь акценты согласно приоритету.
 Будь конкретным и полезным. Без воды.""",
         ),
         ("human", "Топ новостей:\n{items_json}"),
@@ -105,7 +107,7 @@ DIGEST_PROMPT = ChatPromptTemplate.from_messages(
 async def generate_digest_summary(
     items: list[dict],
     profile: UserProfile,
-    llm: ChatGroq,
+    llm: BaseChatModel,
 ) -> str:
     chain = DIGEST_PROMPT | llm | StrOutputParser()
     language = "русский" if profile.general.language.value == "ru" else "English"
@@ -114,6 +116,11 @@ async def generate_digest_summary(
         "simple": "простыми словами",
         "standard": "обычный уровень",
         "advanced": "технический язык",
+    }
+    priority_map = {
+        "important_only": "только самое важное",
+        "balanced": "сбалансированный акцент",
+        "everything": "максимум новостей",
     }
 
     return await chain.ainvoke(
@@ -131,6 +138,10 @@ async def generate_digest_summary(
             ),
             "language_level": lang_map.get(
                 profile.general.language_level.value, "обычный уровень"
+            ),
+            "reading_time": f"{profile.general.reading_time} минут",
+            "priority": priority_map.get(
+                profile.general.priority.value, "сбалансированный акцент"
             ),
         }
     )
@@ -175,10 +186,13 @@ def render_telegram(items: list[dict], summary: str, profile: UserProfile) -> st
         cat_label = CATEGORY_LABELS.get(category, category)
         news_id = item.get("news_id", "")
 
+        tags = [t for t in (item.get("tags") or []) if t]
+        tag_suffix = "  " + " ".join(f"#{t}" for t in tags) if tags else ""
+
         lines += [
             f"{emoji} [{title}]({link})",
             text,
-            f"#{cat_label}  `{news_id[:12]}`",
+            f"#{cat_label}{tag_suffix}  `{news_id[:12]}`",
             "",
         ]
 
@@ -218,15 +232,11 @@ async def run_pipeline(
     profile = load_profile(profile_path, legacy_config)
     feedback = load_feedback(feedback_path)
 
-    llm = ChatGroq(
-        model=config.get("model", "llama-3.3-70b-versatile"),
-        temperature=0,
-        max_tokens=2048,
-    )
+llm = build_llm(config)
     batch_size = config.get("batch_size", 12)
 
     print(f"[1/5] Fetching RSS feeds ({len(config['feeds'])} sources)…")
-    raw_items = fetch_rss_items(config)
+    raw_items = fetch_rss_items(config, cutoff_hours_for_frequency(profile))
     print(f"      → {len(raw_items)} raw items")
 
     print("[2/5] Deduplicating…")
@@ -251,13 +261,9 @@ async def run_pipeline(
             if top_items
             else "Сегодня новостей по твоим темам не нашлось."
         )
-    except (
-        json.JSONDecodeError,
-        ValueError,
-        TimeoutError,
-        groq.GroqError,
-        httpx.HTTPError,
-    ) as e:  # the digest must still ship without a summary
+    except Exception as e:  # noqa: BLE001
+        # Best-effort step: whatever the provider raises (network, rate limit,
+        # malformed output) must not sink the whole digest.
         print(f"[WARN] Summary failed: {e}")
         summary = "⚠️ Саммари недоступно. Смотри новости ниже."
 

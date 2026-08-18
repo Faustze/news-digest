@@ -2,28 +2,23 @@
 
 ## Задача
 
-**Phase 8: Динамический cutoff по frequency**
+**B-05: Веб-интерфейс для просмотра архива дайджестов**
 
-Сделать так, чтобы `cutoff_hours` вычислялся как runtime-значение на основе `user-profile.json.general.frequency`, не записывая пользовательские предпочтения обратно в `config.yaml` (технический конфиг — в `config.yaml`, предпочтения — в `user-profile.json`).
+Добавить в статический Web UI страницу, которая показывает прошлые дайджесты из `output/` (коммитятся в репозиторий) — без бэкенда, VPS и БД.
 
 ## Что сделать
 
-1. Добавить функцию `cutoff_hours_for_frequency(profile: UserProfile) -> int` в `news/profile.py` или отдельный модуль `news/schedule.py`.
+1. **Страница архива** в `web-ui/pages/` (например `/archive`):
+   - список сохранённых дайджестов (файлы `output/digest_*.txt`);
+   - просмотр содержимого выбранного дайджеста.
 
-2. Поддерживаемые значения:
-   - `morning` / `evening` / `daily` → 24 часа
-   - `weekly` → 7 дней (168 часов)
-   - `important_only` → 24 часа
+2. **Источник данных без бэкенда** — дайджесты доступны статически. Варианты:
+   - пре-генерировать список/содержимое на этапе сборки (`pnpm generate`) из файлов `output/`;
+   - либо встроить выбранные дайджесты в статические данные при сборке.
 
-3. Обновить `news_pipeline.py`:
-   - Вместо `config.get("cutoff_hours", 24)` использовать значение из профиля.
-   - Сохранить fallback на 24 часа, если frequency не задан.
+3. **UI на человеческом языке** — без технического жаргона (без «output», «файл», «RSS»); просто «Архив», список дат, чтение дайджеста.
 
-4. Добавить тесты в `tests/test_schedule.py`:
-   - daily → 24
-   - weekly → 168
-   - important_only → 24
-   - отсутствующий frequency → 24
+4. **Навигация** — ссылка на архив из профиля/онбординга.
 
 ## Проверка
 
@@ -31,11 +26,9 @@
 uv run ruff check .
 uv run ruff format --check .
 uv run pytest tests/ -v
-uv run python news_pipeline.py config.yaml
+cd web-ui && pnpm generate
 ```
 
 ## Следующая задача после этого
 
-Phase 9 — UX дайджеста (персонализация summary, категория + теги в каждой новости, Markdown fallback).
-
-> Примечание: D-02 (деплой Web UI) будет реализован через GitHub Actions CI/CD для GitHub Pages. См. `docs/PLAN.md`.
+Phase 10 — LLM mocking fixtures (тесты пайплайна без живого Groq).

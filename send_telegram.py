@@ -59,11 +59,13 @@ def parse_items_from_digest(digest_text: str) -> list[dict]:
                 summary = lines[i + 1].strip()
             if i + 2 < len(lines):
                 tag_line = lines[i + 2].strip()
-                # Parse #Category  `news_id_prefix`
-                cat_match = re.match(r"#(\S+)\s+`(\w+)`", tag_line)
+                # Parse #Category [#tag ...]  `news_id_prefix`
+                cat_match = re.match(r"#(\S+)", tag_line)
+                id_match = re.search(r"`(\w+)`", tag_line)
                 if cat_match:
                     category = cat_match.group(1)
-                    news_id = cat_match.group(2)
+                if id_match:
+                    news_id = id_match.group(1)
 
             items.append(
                 {
@@ -139,8 +141,8 @@ def send_message(
 
     resp = httpx.post(f"{_api_url()}/sendMessage", json=payload)
     if resp.status_code == 400 and parse_mode:
+        # Fallback to plain text, but keep the feedback buttons.
         payload.pop("parse_mode", None)
-        payload.pop("reply_markup", None)
         resp = httpx.post(f"{_api_url()}/sendMessage", json=payload)
     resp.raise_for_status()
     return resp.json()

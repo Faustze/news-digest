@@ -16,7 +16,7 @@
 |---|--------|----------|--------|
 | B-01 | Добавить новые темы/фиды (51 фид, 12 категорий) | TODO.md | ✅ |
 | B-02 | Дедупликация статей (URL + title similarity) | TODO.md | ✅ |
-| B-03 | Мульти-провайдер LLM (OpenAI, Anthropic, Ollama) | TODO.md | ☐ |
+| B-03 | Мульти-провайдер LLM (OpenAI, Anthropic, Ollama) | TODO.md | ✅ |
 | B-04 | HTML-формат дайджеста (email-рассылка) | TODO.md | ☐ |
 | B-05 | Веб-интерфейс архива дайджестов | TODO.md | ☐ |
 | B-06 | Метрики пайплайна | TODO.md | ☐ |
@@ -26,7 +26,7 @@
 | # | Задача | Статус |
 |---|--------|--------|
 | D-01 | Настроить GitHub Actions (lint/test) | ✅ (2026-08-14) |
-| D-02 | Настроить GitHub Actions CI/CD для деплоя Web UI на GitHub Pages | ☐ |
+| D-02 | Настроить GitHub Actions CI/CD для деплоя Web UI на GitHub Pages | ✅ (2026-08-16) |
 
 ---
 
@@ -156,16 +156,16 @@
 - [x] Feedback polling → pipeline → send → commit
 - [x] Коммит: output/, feedback.json, feedback_state.json, user-profile.json
 
-### Phase 8 — Семантика расписания
+### Phase 8 — Семантика расписания ✅
 
-- [ ] Динамический cutoff: daily=24h, weekly=7d, important_only=24h
-- [ ] Не отправлять пустой дайджест
+- [x] Динамический cutoff: daily=24h, weekly=7d, important_only=24h
+- [x] Не отправлять пустой дайджест
 
-### Phase 9 — UX дайджеста
+### Phase 9 — UX дайджеста ✅
 
-- [ ] Персонализированное summary
-- [ ] Категория + теги в каждой новости
-- [ ] Fallback для Markdown
+- [x] Персонализированное summary
+- [x] Категория + теги в каждой новости
+- [x] Fallback для Markdown
 
 ### Phase 10 — Тесты и качество
 
@@ -175,15 +175,11 @@
 - [x] Deduplication: URL, title, similarity
 - [x] Feedback: news_id, reactions, persistence
 - [x] Telegram: parsing, callback data, keyboard
-- [ ] Scheduling: daily/weekly cutoff, important-only
+- [x] Scheduling: daily/weekly cutoff, important-only
 - [ ] LLM mocking fixtures
 
 ---
 
 ## Что осталось (приоритет)
 
-1. **Phase 8** — Динамический cutoff по frequency (daily=24h, weekly=7d)
-2. **Phase 9** — UX дайджеста (персонализация summary)
-3. **D-02** — GitHub Actions CI/CD для деплоя Web UI на GitHub Pages
-4. **B-03** — Мульти-провайдер LLM
-5. **B-05** — Веб-интерфейс архива дайджестов
+1. **B-05** — Веб-интерфейс архива дайджестов

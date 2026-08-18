@@ -3,6 +3,9 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
 
   app: {
+    // Set by the deploy workflow (NUXT_APP_BASE_URL=/<repo>/); locally the
+    // site is served from the root so '/' is the right fallback.
+    baseURL: process.env.NUXT_APP_BASE_URL || '/',
     head: {
       title: 'News Digest — Настройка',
       meta: [

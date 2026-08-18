@@ -57,6 +57,19 @@ class TestParseItemsFromDigest:
         assert items[0]["news_id_prefix"] == "abc123def456"
         assert items[1]["news_id_prefix"] == "xyz789ghi012"
 
+    def test_parses_items_with_tags(self):
+        digest = """📰 *Дайджест 14.08.2026*
+
+🤖 [New AI Model Released](https://example.com/ai)
+OpenAI выпустила новую модель.
+#AI  #ml  #research  `abc123def456`
+
+_Источников: 1 · Новостей: 1_"""
+        items = parse_items_from_digest(digest)
+        assert len(items) == 1
+        assert items[0]["category"] == "AI"
+        assert items[0]["news_id_prefix"] == "abc123def456"
+
     def test_empty_digest(self):
         items = parse_items_from_digest("")
         assert len(items) == 0
@@ -125,3 +138,32 @@ class TestLatestDigest:
         f = tmp_path / f"digest_{date_str}.txt"
         f.write_text("hello", encoding="utf-8")
         assert latest_digest(str(tmp_path)) == "hello"
+
+
+class TestSendMessage:
+    def test_400_fallback_keeps_reply_markup(self, monkeypatch):
+        import httpx
+
+        import send_telegram
+
+        req = httpx.Request("POST", "https://api.telegram.org/x")
+        responses = [
+            httpx.Response(400, text="bad", request=req),
+            httpx.Response(200, json={"ok": True}, request=req),
+        ]
+        calls = []
+
+        def fake_post(url, json=None):
+            calls.append(dict(json))
+            return responses.pop(0)
+
+        monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "tok")
+        monkeypatch.setenv("TELEGRAM_CHAT_ID", "chat")
+        monkeypatch.setattr(send_telegram.httpx, "post", fake_post)
+
+        keyboard = {"inline_keyboard": [[{"text": "👍", "callback_data": "x"}]]}
+        send_telegram.send_message("hello", reply_markup=keyboard)
+
+        assert calls[0]["parse_mode"] == "Markdown"
+        assert "parse_mode" not in calls[1]
+        assert calls[1]["reply_markup"] == json.dumps(keyboard)
