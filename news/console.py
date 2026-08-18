@@ -1,56 +1,30 @@
-from db import SessionLocal
-from sqlalchemy import text
+from datetime import datetime, timezone
+
+from news.db import SessionLocal
+from news.repositories import ArticleRepository, FeedbackRepository, UserRepository
 
 
-with SessionLocal() as session:
-    session.execute(
-        text("INSERT INTO users (telegram_id) VALUES (:telegram_id)"),
-        {"telegram_id": 987654321},
-    )
-    # session.execute(
-    #    text(
-    #        "INSERT INTO feedback (user_id, article_id, rating, comment) "
-    #        "VALUES (:user_id, :article_id, :rating, :comment)"
-    #    ),
-    #    {"user_id": 1, "article_id": 1, "rating": 5, "comment": "отлично"},
-    # )
-    session.execute(
-        text("UPDATE feedback SET rating = 3 WHERE user_id = 1 AND article_id = 1")
-    )
-    session.commit()
+def main():
+    with SessionLocal() as session:
+        user_repo = UserRepository(session)
+        feedback_repo = FeedbackRepository(session)
+        article_repo = ArticleRepository(session)
 
-with SessionLocal() as session:
-    session.execute(
-        text(
-            "INSERT INTO articles (url, title, published_at, source) "
-            "VALUES (:url , :title, NOW(), :source) "
-            "ON CONFLICT (url) DO NOTHING"
-        ),
-        {
-            "url": "https://example.com/news/2",
-            "title": "Вторая новость",
-            "source": "example.com",
-        },
-    )
-    session.execute(
-        text(
-            "INSERT INTO feedback (user_id, article_id, rating, comment) "
-            "VALUES (:user_id, :article_id, :rating, :comment) "
-            "ON CONFLICT (user_id, article_id) "
-            "DO UPDATE SET rating = :rating, comment = :comment"
-        ),
-        {"user_id": 1, "article_id": 1, "rating": 5, "comment": "отлично"},
-    )
-    session.commit()
-
-with SessionLocal() as session:
-    result = session.execute(
-        text(
-            "SELECT f.id, u.telegram_id, a.title, f.rating "
-            "FROM feedback f "
-            "JOIN users u ON u.id = f.user_id "
-            "JOIN articles a ON a.id = f.article_id"
+        user_id = user_repo.get_by_telegram_id(987654321)
+        article_id = article_repo.get_or_create(
+            url="https://example.com",
+            title="title",
+            published_at=datetime.now(timezone.utc),
+            source="example.com",
         )
-    )
-    for row in result:
-        print(row)
+        feedback_repo.upsert_feedback(
+            user_id=user_id, article_id=article_id, rating=5, comment="отлично"
+        )
+        result = feedback_repo.get_feedback_with_articles()
+        for row in result:
+            print(row)
+        session.commit()
+
+
+if __name__ == "__main__":
+    main()

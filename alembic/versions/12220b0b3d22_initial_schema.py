@@ -27,6 +27,7 @@ def upgrade() -> None:
         sa.Column("id", sa.Integer(), primary_key=True),
         sa.Column("telegram_id", sa.BigInteger(), nullable=False),
     )
+    op.create_unique_constraint("telegram_id_unique", "users", ["telegram_id"])
     op.create_table(
         "articles",
         sa.Column("id", sa.Integer(), primary_key=True),
@@ -66,6 +67,7 @@ def upgrade() -> None:
         ),
         sa.Column("rating", sa.Integer(), nullable=False),
         sa.Column("comment", sa.VARCHAR(255)),
+        sa.UniqueConstraint("user_id", "article_id"),
     )
     op.create_check_constraint(
         "ck_feedback_rating_range",
@@ -74,8 +76,12 @@ def upgrade() -> None:
     )
     op.create_table(
         "articles_digests",
-        sa.Column("article_id", sa.Integer(), sa.ForeignKey("articles.id"), nullable=False),
-        sa.Column("digest_id", sa.Integer(), sa.ForeignKey("digests.id"), nullable=False),
+        sa.Column(
+            "article_id", sa.Integer(), sa.ForeignKey("articles.id"), nullable=False
+        ),
+        sa.Column(
+            "digest_id", sa.Integer(), sa.ForeignKey("digests.id"), nullable=False
+        ),
         sa.PrimaryKeyConstraint("article_id", "digest_id"),
     )
 
