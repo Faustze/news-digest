@@ -5,7 +5,7 @@
 ## Как это работает
 
 1. **Web UI** — настрой интересы через простой интерфейс (без технических терминов)
-2. **RSS** — агрегация новостей из 50+ источников по 12 категориям
+2. **RSS** — агрегация новостей из 42 источников по 12 категориям
 3. **AI классификация** — Groq LLM классифицирует и оценивает каждую новость
 4. **Персонализация** — ранжирование по твоим интересам, исключениям, регионам
 5. **Telegram** — дайджест с кнопками обратной связи
@@ -68,11 +68,18 @@ news-digest/
 │   ├── feedback.py          # Схема feedback, persistence
 │   ├── classify.py          # Классификация новостей через LLM
 │   ├── rank.py              # Ранжирование по профилю
-│   └── deduplicate.py       # Дедупликация статей
+│   ├── deduplicate.py       # Дедупликация статей
+│   ├── llm.py               # Фабрика LLM-провайдеров (groq/openai/anthropic/ollama)
+│   ├── schedule.py          # Динамический cutoff по частоте
+│   ├── console.py           # Консольные проверки БД (точка входа)
+│   ├── db.py                # SQLAlchemy engine + SessionLocal
+│   └── repositories/        # Слой доступа к данным (user/article/feedback)
+├── alembic/                 # Миграции схемы PostgreSQL
 ├── news_pipeline.py         # Основной пайплайн
 ├── send_telegram.py         # Отправка в Telegram с feedback кнопками
 ├── poll_feedback.py         # Опрос Telegram callback'ов
 ├── config.yaml              # RSS feeds, модель, настройки
+├── docker-compose.yml       # Локальный PostgreSQL для разработки
 ├── user-profile.json        # Профиль пользователя (создаётся через Web UI)
 ├── feedback.json            # Реакции пользователя
 ├── web-ui/                  # Nuxt Web UI
@@ -111,10 +118,12 @@ uv run ruff format .
 ## Архитектура
 
 - **Нет backend** — всё работает через GitHub Actions cron
-- **Нет базы данных** — профиль в JSON, feedback в JSON
 - **Нет VPS** — статический Web UI + GitHub Actions
 - **Single-user** — один профиль, без авторизации
 - **Groq Free Tier** — batching, rate limiting, минимум запросов
+- **PostgreSQL** — локальный слой персистентности для разработки (Alembic + SQLAlchemy); пайплайн остаётся серверлессным
+
+> Примечание: проект изначально задуман без базы данных (профиль/feedback в JSON). Слой PostgreSQL (`news/db.py`, `news/repositories/`, `alembic/`) добавлен как локальный инструмент разработки и не является обязательным для работы пайплайна.
 
 ## Лицензия
 

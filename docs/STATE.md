@@ -2,9 +2,9 @@
 
 ## Позиция
 
-- **Активная задача:** B-05 — Веб-интерфейс архива дайджестов
-- **Последний коммит:** feat: multi-provider LLM support via config (cc65876)
-- **Следующий шаг:** Страница `/archive` в Web UI со списком дайджестов из `output/`
+- **Активная задача:** Слой PostgreSQL-персистентности (репозитории) — смёржен в `main`; дальше — связка Web UI с персистентностью
+- **Последний коммит:** ci: remove web-ui deploy to GitHub Pages (ffaa12e)
+- **Следующий шаг:** Связать Web UI с персистентностью или решить судьбу серверного слоя (FastAPI/uvicorn)
 
 ## Выполнено
 
@@ -24,6 +24,11 @@
 - [x] Phase 9: персонализированное summary (reading_time/priority), категория + теги в новостях, Markdown fallback с сохранением кнопок
 - [x] D-02: деплой Web UI на GitHub Pages (`deploy_ui.yml`, `pnpm generate`, `deploy-pages`)
 - [x] B-03: мульти-провайдер LLM (`news/llm.py`, провайдер из `config.yaml`)
+- [x] PostgreSQL-персистентность: Alembic-миграции, SQLAlchemy engine, docker-compose (Postgres 16, порт 5434)
+- [x] Repository pattern: `news/repositories/` (User/Article/Feedback, raw `text()`), SQL вынесен из консольных скриптов
+- [x] Интеграционные тесты против `newsdigest_test` (`tests/test_feedback_repository.py`)
+- [x] PR #2 смёржен в `main` (конфликт с multi-provider LLM разрешён: `build_llm` + `max_tokens: 2048` в конфиге)
+- [x] Deploy web-ui убран: `news.faustze.tech` сервит из корня, а билд линковал `/news-digest/_nuxt/...` → 404, страница пустая
 
 ## Правки по ревью CodeRabbit (PR #1)
 
@@ -68,9 +73,10 @@
 - feedparser для RSS
 - httpx для Telegram API
 - Nuxt 3 static SPA для Web UI, localStorage для persistence
-- Single-user, без backend/VPS/базы данных
+- Single-user, без backend/VPS
+- PostgreSQL — локальный слой персистентности (Alembic + SQLAlchemy), необязателен для пайплайна
 - GitHub Actions как orchestration layer
 
 ## Что в работе
 
-B-05: веб-интерфейс архива дайджестов — страница `/archive`, список из `output/` на этапе сборки.
+Связка Web UI с персистентностью; решение по серверному слою (FastAPI/uvicorn уже в зависимостях) относительно ограничения «без бэкенда».
