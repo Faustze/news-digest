@@ -232,7 +232,7 @@ async def run_pipeline(
     profile = load_profile(profile_path, legacy_config)
     feedback = load_feedback(feedback_path)
 
-llm = build_llm(config)
+    llm = build_llm(config)
     batch_size = config.get("batch_size", 12)
 
     print(f"[1/5] Fetching RSS feeds ({len(config['feeds'])} sources)…")
