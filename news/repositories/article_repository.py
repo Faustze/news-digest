@@ -1,5 +1,7 @@
 from sqlalchemy import text
 
+from news.url_utils import normalize_url
+
 
 class ArticleRepository:
     """Все операции с таблицей articles. SQL живёт только здесь."""
@@ -8,6 +10,7 @@ class ArticleRepository:
         self.session = session
 
     def get_or_create(self, url, title, published_at, source):
+        url = normalize_url(url)
         result = self.session.execute(
             text(
                 "INSERT INTO articles (url, title, published_at, source) "
@@ -32,7 +35,7 @@ class ArticleRepository:
         """Удаляет статью по URL. Возвращает True, если строка была удалена."""
         result = self.session.execute(
             text("DELETE FROM articles WHERE url = :url RETURNING id"),
-            {"url": url},
+            {"url": normalize_url(url)},
         ).scalar_one_or_none()
         return result is not None
 

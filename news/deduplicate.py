@@ -5,7 +5,8 @@ Deduplication: remove duplicate articles based on URL, title, and similarity.
 from __future__ import annotations
 
 import re
-from urllib.parse import urlsplit
+
+from news.url_utils import normalize_url
 
 
 def _normalize_title(title: str) -> str:
@@ -14,15 +15,6 @@ def _normalize_title(title: str) -> str:
     t = re.sub(r"[^\w\s]", "", t)
     t = re.sub(r"\s+", " ", t)
     return t
-
-
-def _normalize_url(url: str) -> str:
-    """Lowercase the host, drop the query and fragment, and drop a trailing slash."""
-    parts = urlsplit(url.strip())
-    if not parts.netloc:
-        return url.strip().lower()
-    path = parts.path.rstrip("/")
-    return f"{parts.scheme.lower()}://{parts.netloc.lower()}{path.lower()}"
 
 
 def _title_similarity(a: str, b: str) -> float:
@@ -64,7 +56,7 @@ def deduplicate(items: list[dict], similarity_threshold: float = 0.6) -> list[di
 
     for item in items:
         news_id = item.get("news_id", "")
-        url = _normalize_url(item.get("link", "") or "")
+        url = normalize_url(item.get("link", "") or "")
         title = item.get("title", "")
         norm_title = _normalize_title(title)
 
