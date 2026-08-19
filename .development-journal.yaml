@@ -1,0 +1,20 @@
+journal:
+  enabled: true
+  path: docs/development-journal
+
+detection:
+  architecture: true
+  problems: true
+  failed_approaches: true
+  discoveries: true
+  performance: true
+  refactoring: true
+  tradeoffs: true
+  milestones: true
+
+automation:
+  auto_capture: true
+  silent: true
+
+content:
+  mark_potential_topics: true
