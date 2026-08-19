@@ -51,3 +51,14 @@ class FeedbackRepository:
                 "JOIN users u ON u.id = f.user_id"
             )
         ).fetchall()
+
+    def delete_feedback(self, user_id: int, article_id: int) -> bool:
+        """Удаляет фидбек для пары (user_id, article_id). Возвращает True, если удалено."""
+        result = self.session.execute(
+            text(
+                "DELETE FROM feedback "
+                "WHERE user_id = :user_id AND article_id = :article_id RETURNING id"
+            ),
+            {"user_id": user_id, "article_id": article_id},
+        ).scalar_one_or_none()
+        return result is not None

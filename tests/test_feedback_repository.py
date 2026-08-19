@@ -139,3 +139,79 @@ def test_join_returns_user_and_article(session):
     assert row.telegram_id == 987654321
     assert row.title == "title"
     assert row.rating == 4
+
+
+def test_delete_article(session):
+    repo = ArticleRepository(session)
+    article_id = repo.get_or_create(
+        url="https://example.com",
+        title="title",
+        published_at=datetime.now(timezone.utc),
+        source="example.com",
+    )
+    session.commit()
+
+    assert repo.delete_by_id(article_id) is True
+    session.commit()
+
+    rows = session.execute(text("SELECT * FROM articles")).fetchall()
+    assert len(rows) == 0
+
+    assert repo.delete_by_id(article_id) is False
+
+
+def test_delete_article_by_url(session):
+    repo = ArticleRepository(session)
+    repo.get_or_create(
+        url="https://example.com",
+        title="title",
+        published_at=datetime.now(timezone.utc),
+        source="example.com",
+    )
+    session.commit()
+
+    assert repo.delete_by_url("https://example.com") is True
+    session.commit()
+
+    rows = session.execute(text("SELECT * FROM articles")).fetchall()
+    assert len(rows) == 0
+
+    assert repo.delete_by_url("https://example.com") is False
+
+
+def test_delete_user(session):
+    repo = UserRepository(session)
+    repo.get_by_telegram_id(987654321)
+    session.commit()
+
+    assert repo.delete_by_telegram_id(987654321) is True
+    session.commit()
+
+    rows = session.execute(text("SELECT * FROM users")).fetchall()
+    assert len(rows) == 0
+
+    assert repo.delete_by_telegram_id(987654321) is False
+
+
+def test_delete_feedback(session):
+    user_id = UserRepository(session).get_by_telegram_id(987654321)
+    article_id = ArticleRepository(session).get_or_create(
+        url="https://example.com",
+        title="title",
+        published_at=datetime.now(timezone.utc),
+        source="example.com",
+    )
+
+    feedback_repo = FeedbackRepository(session)
+    feedback_repo.upsert_feedback(
+        user_id=user_id, article_id=article_id, rating=4, comment="норм"
+    )
+    session.commit()
+
+    assert feedback_repo.delete_feedback(user_id, article_id) is True
+    session.commit()
+
+    rows = session.execute(text("SELECT * FROM feedback")).fetchall()
+    assert len(rows) == 0
+
+    assert feedback_repo.delete_feedback(user_id, article_id) is False
