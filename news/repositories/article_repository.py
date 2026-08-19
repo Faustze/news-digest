@@ -27,3 +27,19 @@ class ArticleRepository:
                 text("SELECT id FROM articles WHERE url = :url"), {"url": url}
             ).scalar_one()
         return result
+
+    def delete_by_url(self, url: str) -> bool:
+        """Удаляет статью по URL. Возвращает True, если строка была удалена."""
+        result = self.session.execute(
+            text("DELETE FROM articles WHERE url = :url RETURNING id"),
+            {"url": url},
+        ).scalar_one_or_none()
+        return result is not None
+
+    def delete_by_id(self, article_id: int) -> bool:
+        """Удаляет статью по id. Возвращает True, если строка была удалена."""
+        result = self.session.execute(
+            text("DELETE FROM articles WHERE id = :id RETURNING id"),
+            {"id": article_id},
+        ).scalar_one_or_none()
+        return result is not None

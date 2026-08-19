@@ -22,3 +22,11 @@ class UserRepository:
         if row is None:
             return self.create(telegram_id)
         return row.id
+
+    def delete_by_telegram_id(self, telegram_id: int) -> bool:
+        """Удаляет пользователя по telegram_id. Возвращает True, если строка была удалена."""
+        result = self.session.execute(
+            text("DELETE FROM users WHERE telegram_id = :telegram_id RETURNING id"),
+            {"telegram_id": telegram_id},
+        ).scalar_one_or_none()
+        return result is not None
