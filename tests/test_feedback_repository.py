@@ -179,6 +179,31 @@ def test_delete_article_by_url(session):
     assert repo.delete_by_url("https://example.com") is False
 
 
+def test_get_or_create_dedupes_normalized_url(session):
+    repo = ArticleRepository(session)
+    first_id = repo.get_or_create(
+        url="https://example.com/article?utm_source=rss",
+        title="Original title",
+        published_at=datetime.now(timezone.utc),
+        source="feed-a.com",
+    )
+    session.commit()
+
+    second_id = repo.get_or_create(
+        url="https://EXAMPLE.com/article/",
+        title="Same article from another feed",
+        published_at=datetime.now(timezone.utc),
+        source="feed-b.com",
+    )
+    session.commit()
+
+    assert second_id == first_id
+
+    rows = session.execute(text("SELECT url, title, source FROM articles")).fetchall()
+    assert len(rows) == 1
+    assert rows[0].url == "https://example.com/article"
+
+
 def test_delete_user(session):
     repo = UserRepository(session)
     repo.get_by_telegram_id(987654321)
