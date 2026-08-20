@@ -13,11 +13,23 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pull-requests: write
 
     steps:
+      # GH_PAT (personal access token) is required for the PR to trigger the
+      # required CI checks: events caused by GITHUB_TOKEN never start new
+      # workflow runs, so auto-merge would hang without required checks.
       - uses: actions/checkout@v7.0.1
         with:
           ref: main
+          token: ${{ secrets.GH_PAT || github.token }}
+
+      # Author commits as the account owner so they count on the profile
+      # contribution graph; credit the bot as co-author.
+      - name: Configure git identity
+        run: |
+          git config user.name  "Faustze"
+          git config user.email "153235662+Faustze@users.noreply.github.com"
 
       - name: Install uv
         uses: astral-sh/setup-uv@v7
@@ -36,5 +48,5 @@ jobs:
       - name: Run daily commit agent
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PAT || github.token }}
         run: uv run python daily_commit.py
