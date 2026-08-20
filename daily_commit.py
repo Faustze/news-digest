@@ -101,7 +101,7 @@ def gather_facts() -> str:
     for name in STATE_FILES:
         path = REPO / name
         existing[name] = (
-            path.read_text(errors="ignore")[:4000]
+            path.read_text(errors="ignore")[:1500]
             if path.exists()
             else "(файл отсутствует)"
         )
@@ -116,7 +116,7 @@ def gather_facts() -> str:
             "date_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes"),
             "branch": _git("rev-parse", "--abbrev-ref", "HEAD"),
             "head_commit": _git("log", "-1", "--oneline"),
-            "recent_log": _git("log", "-15", "--date=short", "--pretty=%ad %h %s"),
+            "recent_log": _git("log", "-10", "--date=short", "--pretty=%ad %h %s"),
             "status": _git("status", "--short") or "(чистый)",
             "last_commit_diff_stat": diff_stat,
             "stats": {
@@ -135,8 +135,8 @@ def gather_facts() -> str:
 def ask_llm(facts: str) -> dict:
     """Ask Groq to regenerate the state journal. Returns parsed JSON."""
     config = yaml.safe_load((REPO / "config.yaml").read_text())
-    model = config.get("model") or "llama-3.3-70b-versatile"
-    llm = ChatGroq(model=model, temperature=0, max_tokens=8192)
+    model = config.get("model") or "openai/gpt-oss-120b"
+    llm = ChatGroq(model=model, temperature=0, max_tokens=3000)
 
     raw = llm.invoke([("system", PROMPT), ("human", f"Факты репозитория:\n{facts}")])
     content = raw.content if hasattr(raw, "content") else str(raw)
@@ -160,7 +160,72 @@ def validate(answer: dict) -> None:
         raise ValueError("commit message missing or forbidden")
 
 
-def apply_and_commit(answer: dict) -> str | None:
+def _publish(commit_message: str, today: dt.date) -> str:
+    """Push to main directly; fall back to an auto-merged PR if protected."""
+    try:
+        _git("push", "origin", "HEAD:main")
+        return _git("rev-parse", "--short", "HEAD")
+    except subprocess.CalledProcessError:
+        pass
+
+    branch = f"chore/daily-commit-{today:%Y%m%d}"
+    _git("push", "--force", "origin", f"HEAD:refs/heads/{branch}")
+
+    body = "Automated state journal update generated from repository facts."
+    subprocess.run(
+        [
+            "gh",
+            "pr",
+            "create",
+            "--base",
+            "main",
+            "--head",
+            branch,
+            "--title",
+            commit_message,
+            "--body",
+            body,
+        ],
+        cwd=REPO,
+        check=True,
+        capture_output=True,
+        text=True,
+    )
+    try:
+        subprocess.run(
+            ["gh", "pr", "merge", branch, "--merge", "--auto", "--delete-branch"],
+            cwd=REPO,
+            check=True,
+            capture_output=True,
+            text=True,
+        )
+        return _git("rev-parse", "--short", "HEAD")
+    except subprocess.CalledProcessError:
+        pass
+
+    try:
+        subprocess.run(
+            ["gh", "pr", "checks", branch, "--watch"],
+            cwd=REPO,
+            check=True,
+            capture_output=True,
+            text=True,
+            timeout=15 * 60,
+        )
+    except (subprocess.CalledProcessError, subprocess.TimeoutExpired):
+        print(f"[daily-commit] WARN: PR checks failed or timed out for {branch}")
+        return _git("rev-parse", "--short", "HEAD")
+    subprocess.run(
+        ["gh", "pr", "merge", branch, "--merge", "--delete-branch"],
+        cwd=REPO,
+        check=True,
+        capture_output=True,
+        text=True,
+    )
+    return _git("rev-parse", "--short", "HEAD")
+
+
+def apply_and_commit(answer: dict, today: dt.date) -> str | None:
     """Write files, commit and push. Returns commit hash or None."""
     changed = False
     (REPO / "LAST_BUILD.md").write_text(answer["last_build"].strip() + "\n")
@@ -184,8 +249,7 @@ def apply_and_commit(answer: dict) -> str | None:
         return None
 
     _git("commit", "-m", answer["commit_message"].strip())
-    _git("push")
-    return _git("rev-parse", "--short", "HEAD")
+    return _publish(answer["commit_message"].strip(), today)
 
 
 def main() -> int:
@@ -206,9 +270,9 @@ def main() -> int:
         return 1
 
     validate(answer)
-    commit = apply_and_commit(answer)
+    commit = apply_and_commit(answer, today)
     if commit:
-        print(f"[daily-commit] pushed {commit}: {answer['commit_message']}")
+        print(f"[daily-commit] published {commit}: {answer['commit_message']}")
     else:
         print("[daily-commit] no meaningful change; nothing committed.")
     return 0
