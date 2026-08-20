@@ -160,6 +160,17 @@ def validate(answer: dict) -> None:
         raise ValueError("commit message missing or forbidden")
 
 
+def _commit_message(message: str) -> str:
+    """Append bot co-author trailer when running in GitHub Actions."""
+    if os.environ.get("GITHUB_ACTIONS") == "true":
+        return (
+            f"{message}\n\n"
+            "Co-authored-by: github-actions[bot] "
+            "<41898282+github-actions[bot]@users.noreply.github.com>"
+        )
+    return message
+
+
 def _publish(commit_message: str, today: dt.date) -> str:
     """Push to main directly; fall back to an auto-merged PR if protected."""
     try:
@@ -248,7 +259,7 @@ def apply_and_commit(answer: dict, today: dt.date) -> str | None:
     ):
         return None
 
-    _git("commit", "-m", answer["commit_message"].strip())
+    _git("commit", "-m", _commit_message(answer["commit_message"].strip()))
     return _publish(answer["commit_message"].strip(), today)
 
 
