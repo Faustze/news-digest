@@ -80,3 +80,16 @@
 ## Что в работе
 
 Связка Web UI с персистентностью; решение по серверному слою (FastAPI/uvicorn уже в зависимостях) относительно ограничения «без бэкенда».
+
+## 2026-08-20: daily-commit automation (20–28.08.2026)
+
+- Добавлен `daily_commit.py`: собирает факты репозитория (git log/status/diff, статистика файлов/тестов/TODO), отправляет Groq (модель из config.yaml), получает перезаписанные `LAST_BUILD.md` / `PROJECT_STATS.md` + commit message в JSON, валидирует ответ, коммитит и пушит только `LAST_BUILD.md`/`PROJECT_STATS.md`.
+- Добавлен `.github/workflows/daily-commit.yml`: cron 05:00 UTC (после дайджеста 04:00) + workflow_dispatch, secret `GROQ_API_KEY`, permissions contents: write.
+- Окно работы зашито в скрипте: только 20–28 августа 2026 (UTC), вне окна — no-op.
+- Анти-фабрикация: модель только переформатирует собранные факты; запрещены выдуманные тесты/метрики и сообщения вида "chore: daily commit"; пустой diff → нет коммита.
+- Проверено: ruff check/format, pytest (113 passed), сбор фактов и валидация локально без API-ключа.
+
+### 2026-08-20: digest приостановлен до 28.08
+
+- `daily_digest.yml`: добавлен gate-шаг — до 2026-08-28 (UTC) cron-запуски пропускают все шаги дайджеста (Groq-лимиты зарезервированы под daily-commit); с 29.08 дайджест возобновляется автоматически. `workflow_dispatch` не блокируется.
+- `daily_commit.py`: добавлена загрузка `.env` (только для локальных запусков; файл в .gitignore, в git не попадает — ключи берутся из GitHub Actions secrets).

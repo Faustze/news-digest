@@ -15,47 +15,70 @@ jobs:
       contents: write
 
     steps:
+      # Groq free-tier budget is reserved for the daily-commit workflow
+      # until 2026-08-28 (inclusive). From 2026-08-29 the digest resumes
+      # automatically; manual workflow_dispatch is never blocked.
+      - name: Gate (paused until 2026-08-28)
+        id: gate
+        run: |
+          if [ "$(date -u +%Y%m%d)" -ge "20260828" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Digest paused until 2026-08-28 (Groq budget reserved for daily-commit)."
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - uses: actions/checkout@v7.0.1
+        if: steps.gate.outputs.ok == 'true'
 
       - name: Install uv
+        if: steps.gate.outputs.ok == 'true'
         uses: astral-sh/setup-uv@v7
         with:
           version: "latest"
           enable-cache: true
 
       - name: Set up Python
+        if: steps.gate.outputs.ok == 'true'
         uses: actions/setup-python@v7.0.0
         with:
           python-version: "3.12"
 
       - name: Install dependencies
+        if: steps.gate.outputs.ok == 'true'
         run: uv sync
 
       - name: Lint
+        if: steps.gate.outputs.ok == 'true'
         run: |
           uv run ruff check .
           uv run ruff format --check .
 
       - name: Test
+        if: steps.gate.outputs.ok == 'true'
         run: uv run pytest tests/ -v
 
       - name: Poll Telegram feedback
+        if: steps.gate.outputs.ok == 'true'
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         run: uv run python poll_feedback.py
 
       - name: Run pipeline
+        if: steps.gate.outputs.ok == 'true'
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: uv run python news_pipeline.py config.yaml
 
       - name: Send to Telegram
+        if: steps.gate.outputs.ok == 'true'
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
         run: uv run python send_telegram.py
 
       - name: Commit digest and feedback
+        if: steps.gate.outputs.ok == 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -69,6 +92,7 @@ jobs:
           git push
 
       - name: Post to job summary
+        if: steps.gate.outputs.ok == 'true'
         run: |
           f="output/digest_$(date -u +%Y-%m-%d).txt"
           if [ -f "$f" ]; then cat "$f" >> $GITHUB_STEP_SUMMARY; fi
