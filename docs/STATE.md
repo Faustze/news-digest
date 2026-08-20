@@ -93,3 +93,11 @@
 
 - `daily_digest.yml`: добавлен gate-шаг — до 2026-08-28 (UTC) cron-запуски пропускают все шаги дайджеста (Groq-лимиты зарезервированы под daily-commit); с 29.08 дайджест возобновляется автоматически. `workflow_dispatch` не блокируется.
 - `daily_commit.py`: добавлена загрузка `.env` (только для локальных запусков; файл в .gitignore, в git не попадает — ключи берутся из GitHub Actions secrets).
+
+### 2026-08-20: daily-commit — live-прогон и исправления
+
+- Groq-модель `llama-3.3-70b-versatile` больше недоступна → `config.yaml` и `daily_commit.py` переведены на `openai/gpt-oss-120b`.
+- Обнаружен жёсткий лимит free-tier: 8000 TPM → промпт сокращён (журналы обрезаются до 1500 символов, log до 10 записей, max_tokens 3000).
+- `main` защищён (PR обязателен) → `_publish()`: прямой push, при отказе — ветка `chore/daily-commit-<date>`, PR + auto-merge (включён `allow_auto_merge` на уровне репозитория), fallback — ожидание проверок + merge.
+- В `daily-commit.yml` добавлен `GH_TOKEN` для gh CLI.
+- Live-прогон: PR #11 и #13 (docs: update project state and statistics) смержены автоматически, LAST_BUILD.md/PROJECT_STATS.md обновлены агентом.
