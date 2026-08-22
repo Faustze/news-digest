@@ -1,8 +1,8 @@
 # Last Build
 
-**Date:** 2026-08-20
+**Date:** 2026-08-22
 **Branch:** main
-**Commit:** 221326c
+**Commit:** 0df6dad
 
 ## Current State
 
@@ -10,6 +10,7 @@ News Digest — персональный агрегатор новостей с 
 
 ## Recent Progress
 
+- **2026‑08‑20** Merge pull request #16 – daily‑commit automation (commit 0df6dad).
 - **2026‑08‑20** Merge pull request #15 – fix daily‑commit CI identity (commit 221326c).
 - **2026‑08‑20** Merge pull request #12 – исправлен процесс модели и PR‑flow для `daily-commit` (commit 97d9afc).
 - **2026‑08‑20** fix(ci): switch Groq model to gpt-oss-120b and publish via PR with auto-merge (commit ec77c30).
@@ -18,12 +19,10 @@ News Digest — персональный агрегатор новостей с 
 - **2026‑08‑20** docs: update project state (commit f4611f9).
 - **2026‑08‑20** Merge pull request #10 – интегрирован агент ежедневных коммитов (`daily_commit.py`, workflow `.github/workflows/daily-commit.yml`) (commit 7a47c81).
 - **2026‑08‑20** ci: add daily-commit workflow and pause digest until 2026‑08‑28 (commit 09973df).
-- **2026‑08‑19** Merge pull request #9 – нормализация URL статьи перед вставкой в dedupe‑модуль (co
 
 ## Verification
 
-- Repository status: **чистый**.
-- Tests (`uv run pytest`): **не запускались**.
+- `uv run pytest`: **не запускался** (нет новых результатов).
 
 ## Project Statistics
 
