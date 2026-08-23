@@ -1,8 +1,8 @@
 # Last Build
 
-**Date:** 2026-08-22
+**Date:** 2026-08-23
 **Branch:** main
-**Commit:** 0df6dad
+**Commit:** a6e5266
 
 ## Current State
 
@@ -10,15 +10,7 @@ News Digest — персональный агрегатор новостей с 
 
 ## Recent Progress
 
-- **2026‑08‑20** Merge pull request #16 – daily‑commit automation (commit 0df6dad).
-- **2026‑08‑20** Merge pull request #15 – fix daily‑commit CI identity (commit 221326c).
-- **2026‑08‑20** Merge pull request #12 – исправлен процесс модели и PR‑flow для `daily-commit` (commit 97d9afc).
-- **2026‑08‑20** fix(ci): switch Groq model to gpt-oss-120b and publish via PR with auto-merge (commit ec77c30).
-- **2026‑08‑20** Merge pull request #11 – ежедневный коммит за 2026‑08‑20 (commit f95347c).
-- **2026‑08‑20** docs: update project state (commit c917a4b).
-- **2026‑08‑20** docs: update project state (commit f4611f9).
-- **2026‑08‑20** Merge pull request #10 – интегрирован агент ежедневных коммитов (`daily_commit.py`, workflow `.github/workflows/daily-commit.yml`) (commit 7a47c81).
-- **2026‑08‑20** ci: add daily-commit workflow and pause digest until 2026‑08‑28 (commit 09973df).
+- **2026‑08‑22** Merge pull request #17 – daily‑commit automation (commit a6e5266).
 
 ## Verification
 
@@ -27,3 +19,9 @@ News Digest — персональный агрегатор новостей с 
 ## Project Statistics
 
 (см. отдельный файл `PROJECT_STATS.md`)
+
+## Next Focus
+
+1. Мониторинг стабильности workflow `daily-commit`.
+2. Реактивация процесса `daily_digest` после 2026‑08‑28.
+3. Дальнейшее тестирование и отладка слоя DELETE‑операций в репозиториях.
