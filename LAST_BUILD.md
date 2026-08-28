@@ -1,8 +1,8 @@
 # Last Build
 
-**Date:** 2026-08-27
+**Date:** 2026-08-28
 **Branch:** main
-**Commit:** 1d5443b
+**Commit:** 66fbe2e
 
 ## Current State
 
@@ -10,6 +10,7 @@ News Digest — персональный агрегатор новостей с 
 
 ## Recent Progress
 
+- **2026‑08‑27** Merge pull request #24 – daily‑commit automation (commit 66fbe2e).
 - **2026‑08‑26** Merge pull request #23 – daily‑commit automation (commit 1d5443b).
 - **2026‑08‑25** Merge pull request #22 – daily‑commit automation (commit 889d502).
 
