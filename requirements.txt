@@ -6,7 +6,7 @@ annotated-doc==0.0.5
     # via fastapi
 annotated-types==0.8.0
     # via pydantic
-anthropic==0.122.0
+anthropic==1.1.0
     # via langchain-anthropic
 anyio==4.14.2
     # via
@@ -24,9 +24,9 @@ certifi==2026.7.22
     #   httpx
     #   langchain-openai
     #   requests
-charset-normalizer==3.5.0
+charset-normalizer==3.5.1
     # via requests
-click==8.4.2
+click==8.5.0
     # via uvicorn
 distro==1.9.0
     # via
@@ -44,7 +44,7 @@ feedparser-sgmllib==2.1.0
     # via feedparser
 greenlet==3.5.5
     # via sqlalchemy
-groq==0.37.1
+groq==1.7.0
     # via langchain-groq
 h11==0.16.0
     # via
@@ -67,7 +67,7 @@ httpx==0.28.1
     #   ollama
 httpx2==2.12.0
     # via openai
-idna==3.18
+idna==3.19
     # via
     #   anyio
     #   httpx
@@ -81,11 +81,11 @@ jsonpatch==1.33
     # via langchain-core
 jsonpointer==3.1.1
     # via jsonpatch
-langchain==1.3.15
+langchain==1.3.17
     # via news-digest (pyproject.toml)
-langchain-anthropic==1.5.6
+langchain-anthropic==1.6.1
     # via news-digest (pyproject.toml)
-langchain-core==1.5.4
+langchain-core==1.6.0
     # via
     #   langchain
     #   langchain-anthropic
@@ -100,9 +100,9 @@ langchain-groq==1.1.3
     # via news-digest (pyproject.toml)
 langchain-ollama==1.1.0
     # via news-digest (pyproject.toml)
-langchain-openai==1.5.1
+langchain-openai==1.6.0
     # via news-digest (pyproject.toml)
-langchain-protocol==0.0.18
+langchain-protocol==0.0.19
     # via
     #   langchain-core
     #   langgraph-sdk
@@ -114,9 +114,9 @@ langgraph-checkpoint==4.2.0
     #   langgraph-prebuilt
 langgraph-prebuilt==1.1.0
     # via langgraph
-langgraph-sdk==0.4.2
+langgraph-sdk==0.4.3
     # via langgraph
-langsmith==0.11.0
+langsmith==0.11.1
     # via langchain-core
 mako==1.4.1
     # via alembic
@@ -124,9 +124,9 @@ markupsafe==3.0.3
     # via mako
 ollama==0.6.2
     # via langchain-ollama
-openai==3.2.0
+openai==3.5.0
     # via langchain-openai
-orjson==3.11.9
+orjson==3.12.0
     # via
     #   langgraph-sdk
     #   langsmith
@@ -153,7 +153,7 @@ pydantic==2.13.4
     #   langsmith
     #   ollama
     #   openai
-pydantic-core==2.46.4
+pydantic-core==2.48.0
     # via pydantic
 python-dotenv==1.2.3
     # via uvicorn
@@ -217,18 +217,18 @@ uuid-utils==0.17.0
     # via
     #   langchain-core
     #   langsmith
-uvicorn==0.52.3
+uvicorn==0.52.4
     # via news-digest (pyproject.toml)
 uvloop==0.22.1
     # via uvicorn
 watchfiles==1.2.0
     # via uvicorn
-websockets==15.0.1
+websockets==16.1.1
     # via
     #   langgraph-sdk
     #   langsmith
     #   uvicorn
-xxhash==4.0.0
+xxhash==4.0.1
     # via
     #   langgraph
     #   langsmith
