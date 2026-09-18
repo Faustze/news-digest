@@ -6,11 +6,13 @@ Fetches, filters, classifies, ranks, and summarises news from RSS feeds.
 import asyncio
 import json
 import re
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
 import feedparser
 import yaml
+from dotenv import load_dotenv
 from langchain_core.language_models.chat_models import BaseChatModel
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
@@ -97,7 +99,12 @@ DIGEST_PROMPT = ChatPromptTemplate.from_messages(
 
 Напиши дайджест: что важного произошло сегодня.
 Уложись в заданное время чтения и расставь акценты согласно приоритету.
-Будь конкретным и полезным. Без воды.""",
+Будь конкретным и полезным. Без воды.
+
+Формат — сообщение в Telegram:
+- не длиннее 3000 символов;
+- без markdown-заголовков (#), таблиц и горизонтальных линий;
+- выделяй жирным через **текст**, списки — через «- ».""",
         ),
         ("human", "Топ новостей:\n{items_json}"),
     ]
@@ -284,10 +291,14 @@ async def run_pipeline(
     return output
 
 
-if __name__ == "__main__":
-    import sys
-
+def main() -> None:
+    """CLI entry point: ``news-digest [config.yaml]``."""
+    load_dotenv()
     cfg = sys.argv[1] if len(sys.argv) > 1 else "config.yaml"
     result = asyncio.run(run_pipeline(cfg))
     print("\n" + "─" * 60)
     print(result)
+
+
+if __name__ == "__main__":
+    main()

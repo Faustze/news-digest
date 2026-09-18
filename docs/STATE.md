@@ -72,7 +72,7 @@
 - LangChain + Groq (llama-3.3-70b-versatile) для фильтрации и суммаризации
 - feedparser для RSS
 - httpx для Telegram API
-- Nuxt 3 static SPA для Web UI, localStorage для persistence
+- Nuxt 4 static SPA для Web UI, localStorage для persistence
 - Single-user, без backend/VPS
 - PostgreSQL — локальный слой персистентности (Alembic + SQLAlchemy), необязателен для пайплайна
 - GitHub Actions как orchestration layer
@@ -101,3 +101,15 @@
 - `main` защищён (PR обязателен) → `_publish()`: прямой push, при отказе — ветка `chore/daily-commit-<date>`, PR + auto-merge (включён `allow_auto_merge` на уровне репозитория), fallback — ожидание проверок + merge.
 - В `daily-commit.yml` добавлен `GH_TOKEN` для gh CLI.
 - Live-прогон: PR #11 и #13 (docs: update project state and statistics) смержены автоматически, LAST_BUILD.md/PROJECT_STATS.md обновлены агентом.
+
+### 2026-09-18: починка daily digest, удаление daily-commit, обновление зависимостей
+
+- Daily digest падал с 28.08 на отправке в Telegram: шапка (LLM-саммари) ~7000 символов > лимита 4096 → `400 Bad Request`; plain-text fallback слал тот же длинный текст.
+  - `send_telegram.py`: шапка режется по строкам на части ≤ 4096; разметка — HTML (`md_to_html`) вместо legacy Markdown (который показывал `\.` в заголовках); ошибка Telegram логируется с `description` и без токена в URL; сбой одного сообщения не останавливает остальные.
+  - Промпт саммари: ≤ 3000 символов, без таблиц/заголовков.
+- `main` защищён → `git push` из digest невозможен. Состояние (`output/digest_*.txt`, `feedback.json`, `feedback_state.json`) хранится в ветке `digest-data` (git worktree); сохраняется даже при сбое доставки.
+- Удалён gate до 28.08 и дублирующие lint/test из digest (их гарантируют обязательные проверки CI на `main`).
+- Daily-commit (окно 20–28.08) удалён: после окна он ежедневно падал на checkout из-за истёкшего `GH_PAT` (`could not read Username`).
+- CI: Python audit проверял окружение самого pip-audit, а не проект → теперь аудит `uv export`; найденные уязвимости (anyio, httpx2) закрыты обновлением lock. Добавлены `pnpm audit` для Web UI и проверка синхронности `requirements.txt` с `uv.lock`. Раннеры закреплены на `ubuntu-24.04` (ubuntu-latest → 26 с 19.10.2026), `setup-uv` v7 → v10.1.0.
+- Зависимости: `uv lock --upgrade`; Web UI: Nuxt 3 → 4.5, vue-router 4 → 5, devalue → 5.9.2 (закрыты все 9 Dependabot-алертов; сборка и отдача страниц проверены).
+- `load_dotenv()` перенесён из импорта модулей в точки входа (тесты больше не подхватывают локальный `.env`); `news-digest` console script получил рабочий `main()`.

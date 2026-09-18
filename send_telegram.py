@@ -3,12 +3,14 @@ Send digest to Telegram with inline feedback buttons.
 Reads TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID from environment.
 """
 
+import html
 import json
 import os
 import re
 from datetime import datetime, timezone
 
 import httpx
+from dotenv import load_dotenv
 
 
 def _get_bot_token() -> str:
@@ -110,25 +112,87 @@ def build_inline_keyboard(item: dict) -> dict:
     return {"inline_keyboard": [buttons]}
 
 
-def chunk(text: str, size: int = 4000):
-    """Telegram messages max out at 4096 chars."""
-    for i in range(0, len(text), size):
-        yield text[i : i + size]
+TELEGRAM_MAX_LEN = 4096
 
 
-def _escape_markdown(text: str) -> str:
-    """Escape Telegram Markdown special characters in untrusted feed text."""
-    for ch in "_*[]()~`>#+-=|{}.!":
-        text = text.replace(ch, f"\\{ch}")
-    return text
+def split_message(text: str, limit: int = TELEGRAM_MAX_LEN) -> list[str]:
+    """Split text into chunks of at most ``limit`` chars on line boundaries.
+
+    Lines longer than ``limit`` are hard-cut as a last resort.
+    """
+    chunks: list[str] = []
+    current = ""
+    for line in text.split("\n"):
+        while len(line) > limit:
+            if current:
+                chunks.append(current)
+                current = ""
+            chunks.append(line[:limit])
+            line = line[limit:]
+        candidate = f"{current}\n{line}" if current else line
+        if len(candidate) > limit:
+            chunks.append(current)
+            current = line
+        else:
+            current = candidate
+    if current.strip():
+        chunks.append(current)
+    return [c.strip("\n") for c in chunks if c.strip()]
+
+
+def _escape_html(text: str) -> str:
+    """Escape untrusted feed text for Telegram HTML (entities decoded first)."""
+    return html.escape(html.unescape(text), quote=False)
+
+
+def md_to_html(text: str) -> str:
+    """Convert the LLM's light Markdown into Telegram-safe HTML.
+
+    Telegram supports only a small tag subset, so headings become bold,
+    horizontal rules are dropped and everything else is escaped.
+    """
+    out = []
+    for line in text.split("\n"):
+        stripped = line.strip()
+        if re.fullmatch(r"[-*_]{3,}", stripped):
+            continue
+        heading = re.match(r"^#{1,6}\s+(.*)$", stripped)
+        line = _escape_html(heading.group(1) if heading else line)
+        line = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", line)
+        line = re.sub(
+            r"(?<![*\w])\*(?!\s)([^*]+?)(?<!\s)\*(?![*\w])", r"<b>\1</b>", line
+        )
+        line = re.sub(r"`([^`]+)`", r"<code>\1</code>", line)
+        # The URL is already HTML-escaped along with the rest of the line.
+        line = re.sub(
+            r"\[([^\]]+)\]\((https?://[^)\s\"]+)\)", r'<a href="\2">\1</a>', line
+        )
+        out.append(f"<b>{line}</b>" if heading else line)
+    return re.sub(r"\n{3,}", "\n\n", "\n".join(out)).strip()
+
+
+class TelegramError(RuntimeError):
+    """Telegram Bot API rejected a request."""
+
+
+def _describe(resp: httpx.Response) -> str:
+    try:
+        return f"{resp.status_code} {resp.json().get('description', '')}".strip()
+    except ValueError:
+        return f"{resp.status_code} {resp.text[:200]}".strip()
 
 
 def send_message(
     text: str,
-    parse_mode: str = "Markdown",
+    parse_mode: str | None = "HTML",
     reply_markup: dict | None = None,
+    plain_text: str | None = None,
 ):
-    """Send a single message to Telegram."""
+    """Send a single message to Telegram.
+
+    If Telegram rejects the formatting (400), retry once without
+    ``parse_mode`` using ``plain_text`` (or ``text``), keeping the buttons.
+    """
     payload = {
         "chat_id": _get_chat_id(),
         "text": text,
@@ -139,19 +203,25 @@ def send_message(
     if reply_markup:
         payload["reply_markup"] = json.dumps(reply_markup)
 
-    resp = httpx.post(f"{_api_url()}/sendMessage", json=payload)
+    resp = httpx.post(f"{_api_url()}/sendMessage", json=payload, timeout=30)
     if resp.status_code == 400 and parse_mode:
-        # Fallback to plain text, but keep the feedback buttons.
+        print(f"[WARN] Telegram rejected formatted message: {_describe(resp)}")
         payload.pop("parse_mode", None)
-        resp = httpx.post(f"{_api_url()}/sendMessage", json=payload)
-    resp.raise_for_status()
+        payload["text"] = plain_text or text
+        resp = httpx.post(f"{_api_url()}/sendMessage", json=payload, timeout=30)
+    if resp.is_error:
+        # Do not use raise_for_status(): its message contains the bot token URL.
+        raise TelegramError(f"sendMessage failed: {_describe(resp)}")
     return resp.json()
 
 
-def send_digest(digest_text: str):
+def send_digest(digest_text: str) -> None:
     """
     Send digest to Telegram, splitting into header + individual news items
     each with its own feedback keyboard.
+
+    A failed message does not stop the rest of the delivery; the first error
+    is re-raised at the end so the job still reports failure.
     """
     items = parse_items_from_digest(digest_text)
 
@@ -168,20 +238,37 @@ def send_digest(digest_text: str):
         header_lines.append(line)
     header = "\n".join(header_lines).strip()
 
-    # Send header
-    if header:
-        send_message(header, parse_mode="Markdown")
+    errors: list[TelegramError] = []
+
+    # Telegram caps a message at 4096 chars, and the LLM summary can exceed it.
+    for part in split_message(header):
+        try:
+            send_message(md_to_html(part), plain_text=part)
+        except TelegramError as e:
+            print(f"[ERROR] Header part not sent: {e}")
+            errors.append(e)
 
     # Send each news item with its own feedback keyboard
     for item in items:
-        title = _escape_markdown(item["title"])
-        summary = _escape_markdown(item["summary"])
-        text = f"{title}\n\n{summary}\n\n[Читать источник]({item['link']})"
-        keyboard = build_inline_keyboard(item)
-        send_message(text, parse_mode="Markdown", reply_markup=keyboard)
+        title = _escape_html(item["title"])
+        summary = _escape_html(item["summary"])
+        link = html.escape(item["link"])
+        text = f'<b>{title}</b>\n\n{summary}\n\n<a href="{link}">Читать источник</a>'
+        plain = f"{item['title']}\n\n{item['summary']}\n\n{item['link']}"
+        try:
+            send_message(
+                text, reply_markup=build_inline_keyboard(item), plain_text=plain
+            )
+        except TelegramError as e:
+            print(f"[ERROR] Item {item['news_id_prefix']} not sent: {e}")
+            errors.append(e)
+
+    if errors:
+        raise errors[0]
 
 
 if __name__ == "__main__":
+    load_dotenv()
     try:
         digest = latest_digest()
     except FileNotFoundError as e:

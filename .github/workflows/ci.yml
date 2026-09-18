@@ -11,15 +11,19 @@ env:
 permissions:
   contents: read
 
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   lint:
     name: Lint (ruff + lock)
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v7.0.1
 
       - name: Install uv
-        uses: astral-sh/setup-uv@v7
+        uses: astral-sh/setup-uv@v10.1.0
         with:
           version: "latest"
           enable-cache: true
@@ -32,6 +36,12 @@ jobs:
       - name: Check uv.lock is in sync
         run: uv lock --check
 
+      - name: Check requirements.txt matches uv.lock
+        run: |
+          uv export --frozen --no-dev --no-hashes --no-emit-project \
+            --format requirements-txt -o requirements.txt
+          git diff --exit-code requirements.txt
+
       - name: Lint
         run: |
           uv run ruff check .
@@ -39,12 +49,12 @@ jobs:
 
   test:
     name: Test (pytest)
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v7.0.1
 
       - name: Install uv
-        uses: astral-sh/setup-uv@v7
+        uses: astral-sh/setup-uv@v10.1.0
         with:
           version: "latest"
           enable-cache: true
@@ -62,12 +72,12 @@ jobs:
 
   audit:
     name: Audit (pip-audit)
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v7.0.1
 
       - name: Install uv
-        uses: astral-sh/setup-uv@v7
+        uses: astral-sh/setup-uv@v10.1.0
         with:
           version: "latest"
           enable-cache: true
@@ -77,21 +87,27 @@ jobs:
         with:
           python-version: "3.12"
 
+      # Audit the project's locked runtime dependencies. A bare `uvx pip-audit`
+      # would only inspect pip-audit's own isolated environment.
       - name: Check dependencies for known vulnerabilities
-        run: uvx pip-audit
+        run: |
+          uv export --frozen --no-dev --no-emit-project \
+            --format requirements-txt -o "$RUNNER_TEMP/requirements.txt"
+          uvx pip-audit --disable-pip -r "$RUNNER_TEMP/requirements.txt"
 
   web-ui:
     name: Web UI build
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     defaults:
       run:
         working-directory: web-ui
     steps:
       - uses: actions/checkout@v7.0.1
 
+      # pnpm version comes from "packageManager" in web-ui/package.json.
       - uses: pnpm/action-setup@v6
         with:
-          version: 11.10.0
+          package_json_file: web-ui/package.json
 
       - uses: actions/setup-node@v7
         with:
@@ -101,6 +117,9 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+
+      - name: Check dependencies for known vulnerabilities
+        run: pnpm audit
 
       - name: Build
         run: pnpm build

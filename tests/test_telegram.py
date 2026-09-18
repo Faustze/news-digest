@@ -8,11 +8,13 @@ from datetime import datetime, timezone
 import pytest
 
 from send_telegram import (
-    _escape_markdown,
+    TELEGRAM_MAX_LEN,
     build_callback_data,
     build_inline_keyboard,
     latest_digest,
+    md_to_html,
     parse_items_from_digest,
+    split_message,
 )
 
 SAMPLE_DIGEST = """📰 *Дайджест 14.08.2026*
@@ -115,17 +117,46 @@ class TestBuildInlineKeyboard:
         assert "🔕 Больше такого" in texts
 
 
-class TestEscapeMarkdown:
-    def test_escapes_special_chars(self):
-        assert _escape_markdown("a_b *c* [d]") == r"a\_b \*c\* \[d\]"
+class TestMdToHtml:
+    def test_escapes_html_special_chars(self):
+        assert md_to_html("a < b & c > d") == "a &lt; b &amp; c &gt; d"
 
-    def test_leaves_plain_text(self):
-        assert _escape_markdown("plain text 123") == "plain text 123"
+    def test_bold(self):
+        assert md_to_html("**важно** и *тоже*") == "<b>важно</b> и <b>тоже</b>"
 
-    def test_escapes_link_brackets(self):
+    def test_heading_becomes_bold(self):
+        assert md_to_html("## 1. AI") == "<b>1. AI</b>"
+
+    def test_drops_horizontal_rules(self):
+        assert md_to_html("a\n\n---\n\nb") == "a\n\nb"
+
+    def test_list_marker_is_not_bold(self):
+        assert md_to_html("* item one\n* item two") == "* item one\n* item two"
+
+    def test_link(self):
         assert (
-            _escape_markdown("[title](https://x.com)") == r"\[title\]\(https://x\.com\)"
+            md_to_html("[x](https://e.com/?a=1&b=2)")
+            == '<a href="https://e.com/?a=1&amp;b=2">x</a>'
         )
+
+    def test_decodes_feed_entities_once(self):
+        assert md_to_html("Q&amp;A") == "Q&amp;A"
+
+
+class TestSplitMessage:
+    def test_short_text_is_single_chunk(self):
+        assert split_message("hello\nworld") == ["hello\nworld"]
+
+    def test_chunks_respect_limit_and_keep_lines(self):
+        lines = [f"line {i} " + "x" * 50 for i in range(200)]
+        chunks = split_message("\n".join(lines))
+        assert len(chunks) > 1
+        assert all(len(c) <= TELEGRAM_MAX_LEN for c in chunks)
+        assert "\n".join(chunks).split("\n") == lines
+
+    def test_hard_cuts_overlong_line(self):
+        chunks = split_message("y" * 10000, limit=4096)
+        assert [len(c) for c in chunks] == [4096, 4096, 1808]
 
 
 class TestLatestDigest:
@@ -153,7 +184,7 @@ class TestSendMessage:
         ]
         calls = []
 
-        def fake_post(url, json=None):
+        def fake_post(url, json=None, timeout=None):
             calls.append(dict(json))
             return responses.pop(0)
 
@@ -162,8 +193,56 @@ class TestSendMessage:
         monkeypatch.setattr(send_telegram.httpx, "post", fake_post)
 
         keyboard = {"inline_keyboard": [[{"text": "👍", "callback_data": "x"}]]}
-        send_telegram.send_message("hello", reply_markup=keyboard)
+        send_telegram.send_message(
+            "<b>hello</b>", reply_markup=keyboard, plain_text="hello"
+        )
 
-        assert calls[0]["parse_mode"] == "Markdown"
+        assert calls[0]["parse_mode"] == "HTML"
         assert "parse_mode" not in calls[1]
+        assert calls[1]["text"] == "hello"
         assert calls[1]["reply_markup"] == json.dumps(keyboard)
+
+    def test_error_does_not_leak_token(self, monkeypatch):
+        import httpx
+
+        import send_telegram
+
+        req = httpx.Request("POST", "https://api.telegram.org/botSECRET/x")
+        resp = httpx.Response(
+            400,
+            json={"ok": False, "description": "Bad Request: message is too long"},
+            request=req,
+        )
+        monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "SECRET")
+        monkeypatch.setenv("TELEGRAM_CHAT_ID", "chat")
+        monkeypatch.setattr(send_telegram.httpx, "post", lambda *a, **k: resp)
+
+        with pytest.raises(send_telegram.TelegramError) as exc:
+            send_telegram.send_message("hello")
+        assert "message is too long" in str(exc.value)
+        assert "SECRET" not in str(exc.value)
+
+
+class TestSendDigest:
+    def test_long_header_is_split_and_items_sent(self, monkeypatch):
+        import send_telegram
+
+        sent = []
+        monkeypatch.setattr(
+            send_telegram,
+            "send_message",
+            lambda text, **kw: sent.append((text, kw.get("reply_markup"))),
+        )
+        long_summary = "\n".join("- пункт " + "я" * 80 for _ in range(100))
+        digest = SAMPLE_DIGEST.replace(
+            "Сегодня важные новости в мире технологий.", long_summary
+        )
+
+        send_telegram.send_digest(digest)
+
+        header_parts = [t for t, kb in sent if kb is None]
+        item_msgs = [t for t, kb in sent if kb is not None]
+        assert len(header_parts) >= 2
+        assert all(len(t) <= TELEGRAM_MAX_LEN for t in header_parts)
+        assert len(item_msgs) == 2
+        assert '<a href="https://example.com/ai">' in item_msgs[0]

@@ -98,7 +98,8 @@ news-digest/
 1. Опрос Telegram feedback
 2. Запуск пайплайна
 3. Отправка в Telegram
-4. Коммит digest и feedback
+4. Сохранение digest и feedback в ветку `digest-data`
+   (`main` защищён, поэтому сгенерированное состояние живёт отдельно)
 
 Секреты: `GROQ_API_KEY`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`.
 
