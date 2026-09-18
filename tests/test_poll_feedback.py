@@ -45,3 +45,22 @@ class TestState:
         monkeypatch.setattr("poll_feedback.STATE_PATH", state_path)
         result = _load_state()
         assert result == 0
+
+
+class TestApplyReactions:
+    def test_maps_label_and_id_to_category_id(self, tmp_path, monkeypatch):
+        from news.feedback import load_feedback
+        from poll_feedback import apply_reactions
+
+        path = tmp_path / "feedback.json"
+        monkeypatch.setattr("poll_feedback.FEEDBACK_PATH", path)
+
+        apply_reactions(
+            [
+                {"id": "a1", "r": "useful", "c": "Технологии"},  # old buttons
+                {"id": "b2", "r": "useful", "c": "technology"},  # new buttons
+            ]
+        )
+
+        store = load_feedback(path)
+        assert [r.category for r in store.reactions] == ["technology", "technology"]

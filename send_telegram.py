@@ -12,6 +12,11 @@ from datetime import datetime, timezone
 import httpx
 from dotenv import load_dotenv
 
+from news.profile import category_id_from_label
+
+# Telegram rejects callback_data over 64 *bytes* with BUTTON_DATA_INVALID.
+CALLBACK_DATA_MAX_BYTES = 64
+
 
 def _get_bot_token() -> str:
     return os.environ["TELEGRAM_BOT_TOKEN"].strip()
@@ -84,9 +89,18 @@ def parse_items_from_digest(digest_text: str) -> list[dict]:
 
 
 def build_callback_data(news_id: str, reaction: str, category: str) -> str:
-    """Build compact callback_data for inline keyboard buttons."""
-    payload = {"id": news_id[:16], "r": reaction, "c": category}
-    return json.dumps(payload, separators=(",", ":"))
+    """Build compact callback_data for inline keyboard buttons.
+
+    The category is sent as its ASCII id: a Cyrillic label, JSON-escaped to
+    ``\\uXXXX``, overflows the 64-byte limit. If the payload still does not
+    fit, the category is dropped rather than failing the whole message.
+    """
+    payload = {"id": news_id[:16], "r": reaction, "c": category_id_from_label(category)}
+    data = json.dumps(payload, separators=(",", ":"))
+    if len(data.encode()) > CALLBACK_DATA_MAX_BYTES:
+        del payload["c"]
+        data = json.dumps(payload, separators=(",", ":"))
+    return data
 
 
 def build_inline_keyboard(item: dict) -> dict:

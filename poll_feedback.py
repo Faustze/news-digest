@@ -18,6 +18,7 @@ from news.feedback import (
     load_feedback,
     save_feedback,
 )
+from news.profile import category_id_from_label
 
 FEEDBACK_PATH = Path("feedback.json")
 STATE_PATH = Path("feedback_state.json")
@@ -137,8 +138,8 @@ def apply_reactions(reactions: list[dict]) -> None:
         if not news_id or not reaction:
             continue
 
-        # Map category label back to ID if needed
-        category_id = category.lower()
+        # New buttons carry the id; older ones carry the display label.
+        category_id = category_id_from_label(category)
 
         try:
             add_reaction(

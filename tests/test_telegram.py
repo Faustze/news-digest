@@ -7,6 +7,7 @@ from datetime import datetime, timezone
 
 import pytest
 
+from news.profile import CATEGORY_LABELS
 from send_telegram import (
     TELEGRAM_MAX_LEN,
     build_callback_data,
@@ -83,11 +84,27 @@ class TestBuildCallbackData:
         parsed = json.loads(data)
         assert parsed["id"] == "abc123"
         assert parsed["r"] == "useful"
-        assert parsed["c"] == "AI"
+        assert parsed["c"] == "ai"  # category id, not the display label
 
     def test_within_telegram_limit(self):
         data = build_callback_data("a" * 64, "not_interesting", "Technology")
-        assert len(data) <= 64
+        assert len(data.encode()) <= 64
+
+    @pytest.mark.parametrize("label", list(CATEGORY_LABELS.values()))
+    def test_every_category_label_fits_in_64_bytes(self, label):
+        # Regression: "Технологии" produced 110 bytes -> BUTTON_DATA_INVALID.
+        data = build_callback_data("87d55e17bcf5", "not_interesting", label)
+        assert len(data.encode()) <= 64
+        assert json.loads(data)["c"] in CATEGORY_LABELS
+
+    def test_label_is_sent_as_category_id(self):
+        data = build_callback_data("abc", "useful", "Бег и тренировки")
+        assert json.loads(data)["c"] == "running"
+
+    def test_drops_category_rather_than_overflowing(self):
+        data = build_callback_data("a" * 16, "not_interesting", "x" * 40)
+        assert len(data.encode()) <= 64
+        assert "c" not in json.loads(data)
 
 
 class TestBuildInlineKeyboard:

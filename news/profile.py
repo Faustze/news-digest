@@ -173,6 +173,14 @@ CATEGORY_LABELS: dict[str, str] = {
     "world": "Мир",
 }
 
+_CATEGORY_IDS_BY_LABEL = {label.lower(): cid for cid, label in CATEGORY_LABELS.items()}
+
+
+def category_id_from_label(value: str) -> str:
+    """Map a display label ("Технологии") or an id ("technology") to the id."""
+    key = value.strip().lower()
+    return _CATEGORY_IDS_BY_LABEL.get(key, key)
+
 
 # ── Models ────────────────────────────────────────────────────────────────────
 
