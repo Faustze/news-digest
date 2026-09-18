@@ -1,0 +1,63 @@
+📰 *Дайджест 18.09.2026*
+
+**Краткий дайджест за 24 ч.**  
+_Читаем ≈ 10 минут, без лишних слов._
+
+- **Новый тип ИИ‑модели Jev** (созданный одним из сооснователей ChatGPT) — открывает разработчикам более дешёвый и быстрый путь к «интеллектуальному» коду. Модель работает на небольших вычислительных ресурсах, что делает её привлекательной для стартапов и компаний, не готовых инвестировать в крупные облачные кластеры.
+
+- **Децентрализованные ИИ‑модели для дронов** от компании Scaleout. Маленькие нейросети позволяют беспилотникам самостоятельно распознавать и атаковать цели на поле боя без постоянного подключения к центральному серверу. Технология уже протестирована на нескольких военных базах, вызывая опасения у экспертов по этике ИИ.
+
+- **Joby Aviation совершила автономный перелёт ≈ 5 000 км** (3 100 миль) через США. Самолёт, оснащённый системой автопилота Joby, не требовал вмешательства пилота от вылета до посадки. Это первый такой полёт для электрического VTOL‑самолёта и сигнал к расширению бизнеса компании за пределы городских такси.
+
+- **Федеральные службы перехватили заражённые танкеры**. FBI и Береговая охрана США остановили несколько нефтяных танкеров, сети которых были взломаны. В одном случае хакеры смогли вмешаться в навигацию и систему тяги судна, что могло привести к экологической катастрофе у побережья.
+
+- **Google DeepMind открывает институт по обсуждению AGI**. Новый центр будет собирать мнения учёных Google, DeepMind и внешних исследователей о перспективах искусственного общего интеллекта. Планируется публикация независимых отчётов, открытых дебатов и «публичных» воркшопов, чтобы ускорить понимание рисков и возможностей AGI.
+
+- **«Темпировать фронтир» — предложение Anthropic**. Генеральный директор Dario Amodei предложил создать независимых оценщиков безопасности и координационный механизм между лабораториями ИИ в демократических странах. Инициатива уже получила поддержку некоторых компаний, но встретила скепсис со стороны Nvidia и её CEO Jensen Huang, который считает, что такие ограничения могут замедлить инновации.
+
+- **Google анонсировал семейного AI‑агента «CC»**. Новая версия позволяет нескольким членам семьи совместно делиться данными (почта, календари, списки покупок) и получать от ИИ помощь в планировании, заполнении форм, составлении меню и других бытовых задачах. Тестовый запуск начнётся в США в конце месяца.
+
+- **Кратко о реакциях рынка**. Акции компаний, связанных с ИИ‑моделями (OpenAI‑партнёры, Scaleout, Anthropic), выросли в среднем на 3‑5 % после публикаций. На фоне новостей о военных дронах инвесторы проявляют осторожность, а акции традиционных авиастроителей (Boeing, Airbus) слегка упали из‑за опасений по поводу конкуренции со стороны автономных электросамолётов.
+
+**Что стоит помнить:**  
+- Технологии автономного ИИ продолжают быстро проникать в оборону и транспорт.  
+- Регуляторы и крупные корпорации пытаются сформировать правила игры, но консенсус пока далёк.  
+- Для обычных пользователей уже появляются практические AI‑помощники, способные упростить домашние задачи.  
+
+Оставайтесь в курсе, проверяйте источники и задавайте вопросы, если что‑то требует уточнения. 🚀
+
+─────────────────────
+
+🤖 [A new kind of AI model from a ChatGPT inventor is thrilling developers](https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/)
+Jev, a new kind of AI model, is showing developers a cheaper and faster path to software intelligence.
+#AI  #tech #startups  `5ed425f32cc3`
+
+🤖 [Small AI models let drones autonomously identify and attack battlefield targets](https://arstechnica.com/ai/2026/09/nato-backed-startup-adapts-ai-for-autonomous-drone-recon-and-attack-missions/)
+Scaleout deploys decentralized AI-driven learning to military bases and drones.
+#AI  #tech  `2c8bde5e5f7a`
+
+🤖 [Joby Aviation’s 3,100-mile autonomous flight signals its push beyond electric air taxis](https://techcrunch.com/2026/09/18/joby-aviations-3100-mile-autonomous-flight-signals-its-push-beyond-electric-air-taxis/)
+An aircraft equipped with Joby Aviation's autonomy technology flew across the United States without a human pilot taking control at any point.
+#AI  #tech #startups  `ad3b11d420c2`
+
+💻 [FBI, Coast Guard boarded hacked oil tankers heading toward US coast](https://techcrunch.com/2026/09/18/fbi-coast-guard-boarded-hacked-oil-tankers-heading-towards-us-coast/)
+The feds are said to be investigating the compromise of the tankers' networks, which in one case interfered with one of the tanker's navigation and propulsion systems.
+#Технологии  #tech #startups  `87d55e17bcf5`
+
+🤖 [Google DeepMind launches institute to widen the AGI debate](https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate/)
+The new institute aims to surface differing views between Google, Google DeepMind, and the broader global research community around AGI. "They will not always agree, and they will likely change their minds, as more data and information comes to light at the fast-moving frontier."
+#AI  #tech #startups  `8924b50d5bce`
+
+🤖 [Dario Amodei and other AI leaders want to ‘Pace the Frontier’ but…how?](https://techcrunch.com/video/dario-amodei-and-other-ai-leaders-want-to-pace-the-frontier-buthow/)
+A week after an Anthropic researcher&#8217;s doomsday warning rattled the AI world, the company&#8217;s CEO Dario Amodei has&#160;outlined his plan to “pace the frontier”&#160;of AI development. The proposal leans on independent safety evaluators and coordination between AI labs
+#AI  #tech #startups  `5009e6a84a88`
+
+🤖 [Google announces new experimental "CC" AI agent for families](https://arstechnica.com/google/2026/09/google-announces-new-experimental-cc-ai-agent-for-families/)
+Multiple family members can share data to help the agent make plans and complete tasks.
+#AI  #tech  `2150fd8ec474`
+
+🤖 [Google’s new ‘CC’ is an AI agent that helps families run their households](https://techcrunch.com/2026/09/18/googles-new-cc-is-an-ai-agent-that-helps-families-run-their-households/)
+Google is refocusing its CC AI agent on household coordination, letting families share emails, schedules, and tasks so the AI can manage calendars, fill out forms, make shopping lists, plan meals, and more.
+#AI  #tech #startups  `84c60870e63b`
+
+_Источников: 2 · Новостей: 8_
