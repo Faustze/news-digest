@@ -11,6 +11,7 @@ import os
 from pathlib import Path
 
 import httpx
+from dotenv import load_dotenv
 
 from news.feedback import (
     add_reaction,
@@ -174,4 +175,5 @@ def main() -> None:
 
 
 if __name__ == "__main__":
+    load_dotenv()
     main()

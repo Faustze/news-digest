@@ -7,92 +7,97 @@ on:
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  # `main` is protected (PR + required checks), so generated digests and
+  # feedback state live on a separate unprotected branch instead.
+  STATE_BRANCH: digest-data
+  STATE_DIR: .state
+
+concurrency:
+  group: daily-digest
+  cancel-in-progress: false
 
 jobs:
   digest:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
     permissions:
       contents: write
 
     steps:
-      # Groq free-tier budget is reserved for the daily-commit workflow
-      # until 2026-08-28 (inclusive). From 2026-08-29 the digest resumes
-      # automatically; manual workflow_dispatch is never blocked.
-      - name: Gate (paused until 2026-08-28)
-        id: gate
-        run: |
-          if [ "$(date -u +%Y%m%d)" -ge "20260828" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "ok=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "Digest paused until 2026-08-28 (Groq budget reserved for daily-commit)."
-            echo "ok=false" >> "$GITHUB_OUTPUT"
-          fi
-
       - uses: actions/checkout@v7.0.1
-        if: steps.gate.outputs.ok == 'true'
 
       - name: Install uv
-        if: steps.gate.outputs.ok == 'true'
-        uses: astral-sh/setup-uv@v7
+        uses: astral-sh/setup-uv@v10.1.0
         with:
           version: "latest"
           enable-cache: true
 
       - name: Set up Python
-        if: steps.gate.outputs.ok == 'true'
         uses: actions/setup-python@v7.0.0
         with:
           python-version: "3.12"
 
       - name: Install dependencies
-        if: steps.gate.outputs.ok == 'true'
         run: uv sync
 
-      - name: Lint
-        if: steps.gate.outputs.ok == 'true'
+      - name: Restore state
         run: |
-          uv run ruff check .
-          uv run ruff format --check .
-
-      - name: Test
-        if: steps.gate.outputs.ok == 'true'
-        run: uv run pytest tests/ -v
+          if git fetch --depth=1 origin "$STATE_BRANCH"; then
+            git worktree add --detach "$STATE_DIR" FETCH_HEAD
+            for f in feedback.json feedback_state.json; do
+              if [ -f "$STATE_DIR/$f" ]; then cp "$STATE_DIR/$f" .; fi
+            done
+          else
+            echo "No $STATE_BRANCH branch yet; starting with empty state."
+          fi
 
       - name: Poll Telegram feedback
-        if: steps.gate.outputs.ok == 'true'
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         run: uv run python poll_feedback.py
 
       - name: Run pipeline
-        if: steps.gate.outputs.ok == 'true'
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: uv run python news_pipeline.py config.yaml
 
       - name: Send to Telegram
-        if: steps.gate.outputs.ok == 'true'
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
         run: uv run python send_telegram.py
 
-      - name: Commit digest and feedback
-        if: steps.gate.outputs.ok == 'true'
+      # Runs even if delivery failed: the feedback cursor has already been
+      # advanced on Telegram's side, so losing it would drop reactions.
+      - name: Save state
+        if: ${{ !cancelled() }}
         run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add output/ user-profile.json
-          # Only stage feedback files if they exist (they appear after the
-          # first reaction / poll), so the commit step never fails on git add.
+          if [ ! -d "$STATE_DIR" ]; then
+            # First run: start the state branch empty, without main's history.
+            git worktree add --detach "$STATE_DIR"
+            git -C "$STATE_DIR" checkout --orphan "$STATE_BRANCH"
+            git -C "$STATE_DIR" rm -rfq .
+          fi
+          mkdir -p "$STATE_DIR/output"
           for f in feedback.json feedback_state.json; do
-            if [ -f "$f" ]; then git add "$f"; fi
+            if [ -f "$f" ]; then cp "$f" "$STATE_DIR/"; fi
           done
-          git diff --cached --quiet || git commit -m "digest: $(date -u +%Y-%m-%d)"
-          git push
+          f="output/digest_$(date -u +%Y-%m-%d).txt"
+          if [ -f "$f" ]; then cp "$f" "$STATE_DIR/output/"; fi
+
+          cd "$STATE_DIR"
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "State unchanged."
+          else
+            git commit -m "digest: $(date -u +%Y-%m-%d)"
+            git push origin "HEAD:refs/heads/$STATE_BRANCH"
+          fi
 
       - name: Post to job summary
-        if: steps.gate.outputs.ok == 'true'
+        if: ${{ !cancelled() }}
         run: |
           f="output/digest_$(date -u +%Y-%m-%d).txt"
-          if [ -f "$f" ]; then cat "$f" >> $GITHUB_STEP_SUMMARY; fi
+          if [ -f "$f" ]; then cat "$f" >> "$GITHUB_STEP_SUMMARY"; fi

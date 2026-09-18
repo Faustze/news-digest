@@ -20,3 +20,9 @@ build/
 # OS
 .DS_Store
 Thumbs.db
+
+# Local digest state worktree (see daily_digest.yml)
+.state/
+
+# Windows download metadata
+*:Zone.Identifier
