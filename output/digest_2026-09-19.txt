@@ -1,0 +1,56 @@
+📰 *Дайджест 19.09.2026*
+
+**FBI и Береговая охрана перехватили заражённые танкеры** – ФБР совместно с Береговой охраной США задержали несколько нефтяных танкеров, чьи сети были взломаны. В одном случае хакеры вмешались в навигацию и систему тяги судна, что могло привести к серьёзному инциденту у американского побережья. Расследование продолжается, ожидаются новые рекомендации по кибер‑безопасности морского транспорта.
+
+**GPT‑6 Astra расшифровал радиокод WWI** – Новая модель ИИ от Astra успешно разгадала немецкий радиокод первой мировой войны, который оставался неразгаданным более ста лет. Это демонстрирует рост возможностей современных языковых моделей в области исторических криптоаналитических задач.
+
+**Исследователи использовали Claude для взлома OpenAI** – Трёхчленная команда Hacktron заявила, что за 72 часа с помощью Anthropic Claude Opus 4.8/5 получили доступ к учётным записям сотрудников OpenAI и к их внутреннему репозиторию «Monorepo». Инцидент подчёркивает риски использования сторонних ИИ‑инструментов в корпоративных средах.
+
+**Google переориентировал AI‑агента «CC» на домашнее управление** – Новый агент помогает семьям координировать расписания, делиться письмами, формировать списки покупок, планировать меню и автоматически заполнять формы. Компания позиционирует «CC» как персонального помощника для бытовых задач.
+
+**Dario Amodei о «темпе развития» ИИ** – Генеральный директор Anthropic предложил модель «pace the frontier»: независимые оценщики безопасности и международная координация между лабораториями в демократических странах. Инициатива получила поддержку части отрасли, но встретила скепсис со стороны Nvidia и её CEO Дженсена Хуана.
+
+**Физики пытаются объяснить возможный сигнал тёмной материи** – После сообщения о потенциальном обнаружении частицы тёмной материи исследователи выдвинули множество гипотез о её природе. Пока данные находятся в стадии проверки, но интерес к экспериментам резко возрос.
+
+**Новый предок CRISPR найден в вирусах** – Два исследования в журнале *Science* описали RNA‑направленную систему, существовавшую в вирусах и предшествовавшую бактериальному CRISPR. Открытие может расширить инструментарий геномного редактирования и открыть новые пути борьбы с вирусными инфекциями.
+
+**Лазерные эксперименты воспроизводят физику солнечных вспышек** – Учёные создали в лаборатории условия, позволяющие наблюдать магнитную реконнекцию – процесс, отвечающий за высвобождение энергии в солнечных вспышках и магнитных бурях Земли. Результаты подтверждают теоретические предсказания о стабильных скоростях реконнекции.
+
+─────────────────────
+
+💻 [FBI, Coast Guard boarded hacked oil tankers heading toward US coast](https://techcrunch.com/2026/09/18/fbi-coast-guard-boarded-hacked-oil-tankers-heading-towards-us-coast/)
+The feds are said to be investigating the compromise of the tankers' networks, which in one case interfered with one of the tanker's navigation and propulsion systems.
+#Технологии  #tech #startups  `87d55e17bcf5`
+
+🤖 [GPT-6 Astra Solves a WWI German Radio Cipher](https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio)
+Article URL: https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio
+Comments URL: https://news.ycombinator.com/item?id=49763987
+Points: 67
+# Comments: 27
+#AI  #AI  `5cd11fb8c02b`
+
+💻 [Security researchers used Claude to help them hack into OpenAI](https://www.theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist)
+A team of three independent security researchers at Hacktron says it took less than 72 hours for them to hack into OpenAI employee accounts using Anthropic's Claude Opus 4.8 and 5, The Wall Street Journal reports. They were able to access OpenAI's GitHub repository, called "Monor
+#Технологии  #tech  `3735590315c4`
+
+🤖 [Google’s new ‘CC’ is an AI agent that helps families run their households](https://techcrunch.com/2026/09/18/googles-new-cc-is-an-ai-agent-that-helps-families-run-their-households/)
+Google is refocusing its CC AI agent on household coordination, letting families share emails, schedules, and tasks so the AI can manage calendars, fill out forms, make shopping lists, plan meals, and more.
+#AI  #tech #startups  `84c60870e63b`
+
+🤖 [Dario Amodei and other AI leaders want to ‘Pace the Frontier’ but…how?](https://techcrunch.com/video/dario-amodei-and-other-ai-leaders-want-to-pace-the-frontier-buthow/)
+A week after an Anthropic researcher&#8217;s doomsday warning rattled the AI world, the company&#8217;s CEO Dario Amodei has&#160;outlined his plan to “pace the frontier”&#160;of AI development. The proposal leans on independent safety evaluators and coordination between AI labs
+#AI  #tech #startups  `5009e6a84a88`
+
+🔬 [Physicists are scrambling to make sense of possible dark matter signal](https://www.newscientist.com/article/2589737-physicists-are-scrambling-to-make-sense-of-possible-dark-matter-signal/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS)
+Following the possible recent detection of a dark matter particle, researchers have already come up with a veritable cornucopia of possible models for what sort of particle it might have been
+#Наука  #science  `bd1dcd564ed8`
+
+🔬 [Discovery of CRISPR's long lost ancestor may expand gene-editing toolkit](https://phys.org/news/2026-09-discovery-crispr-lost-ancestor-gene.html)
+CRISPR may be a powerful technology for gene editing, but the system existed in bacteria long before scientists began using it. For billions of years, CRISPR has acted as a natural immune system in bacteria and other microbes, helping defend them against invading viruses. But now
+#Наука  #science #physics  `f1863b91d8b7`
+
+🔬 [Laser experiments recreate solar flare physics and reveal consistent magnetic reconnection rates](https://phys.org/news/2026-09-laser-recreate-solar-flare-physics.html)
+Magnetic reconnection is a process that occurs when the magnetic fields of a conductive plasma quickly rearrange and release massive amounts of stored magnetic energy. It is widely thought to be the underlying mechanism behind cosmic events such as solar flares and substorms in E
+#Наука  #science #physics  `de218713cd8e`
+
+_Источников: 5 · Новостей: 8_
