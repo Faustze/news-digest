@@ -44,7 +44,7 @@ feedparser-sgmllib==2.1.0
     # via feedparser
 greenlet==3.5.6 ; platform_machine == 'AMD64' or platform_machine == 'WIN32' or platform_machine == 'aarch64' or platform_machine == 'amd64' or platform_machine == 'ppc64le' or platform_machine == 'win32' or platform_machine == 'x86_64'
     # via sqlalchemy
-groq==0.37.1
+groq==1.7.0
     # via langchain-groq
 h11==0.16.0
     # via
@@ -157,7 +157,7 @@ pydantic==2.13.5
     #   news-digest
     #   ollama
     #   openai
-pydantic-core==2.46.5
+pydantic-core==2.49.0
     # via pydantic
 python-dotenv==1.2.3
     # via
@@ -227,7 +227,7 @@ tzdata==2026.4 ; sys_platform == 'win32'
     # via psycopg
 urllib3==2.8.0
     # via requests
-uuid-utils==0.17.1
+uuid-utils==1.0.0
     # via
     #   langchain-core
     #   langsmith
