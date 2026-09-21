@@ -1,0 +1,70 @@
+📰 *Дайджест 21.09.2026*
+
+**Ежедневный дайджест новостей – 21 сентября 2026**  
+(примерно 10 минут чтения)
+
+- **Германия:** Канцлер Олаф Шольц (в тексте упомянут Олаф Шольц, но в новости речь о Фридрихе Мерце) назвал результаты последних выборов в Мекленбург‑Переднюю Померанию и Берлине «катастрофой» для своей партии CDU. По предварительным данным, партия потеряла более 10 % голосов, уступив лидирующие позиции СДПГ и «Зеленым». Мерц пообещал оставаться на посту, но внутри партии усиливаются разговоры о смене руководства.
+
+- **США – Китай:** В Нью‑Йорке прошли закрытые переговоры между топ‑чиновниками США и Китая о совместном плане по безопасности искусственного интеллекта. Встреча предшествует запланированному саммиту между Дональдом Трампом и Си Цзиньпином, который состоится на следующей неделе. Стороны согласились создать «многосторонний механизм» для обмена данными о рисках ИИ и разработки общих стандартов, чтобы избежать гонки вооружений в сфере генеративных моделей.
+
+- **Россия – атака на Москву:** Мэр Москвы сообщил, что в ночной атаке были сбиты **450 дронов**, запущенных из Украины. По официальным данным, в результате обстрела погибли два человека, десятки получили ранения. Власти заявили о повышении готовности противовоздушной обороны и о планах усилить электронные средства подавления.
+
+- **Выборы в России:** По итогам выборов в Государственную Думу и региональные органы власти наблюдались небольшие отклонения от прогнозов, но главное – отсутствие серьёзных сюрпризов. Аналитики BBC отмечают, что Кремль будет использовать результаты, чтобы подчеркнуть «широкую поддержку» специальной военной операции в Украине. При этом наблюдается рост голосов за оппозиционные партии в крупных городах.
+
+- **Эфиопия:** Семь крупнейших повстанческих групп объявили о создании нового альянса, названного «Объединённый фронт за мир». Объединение охватывает регионы Оромия, Амхара и Тиграй, где конфликт длится более десяти лет. Группы заявили о готовности вести переговоры с правительством при условии международного посредничества.
+
+- **Кибербезопасность энергетики:** По мнению экспертов, **человеческий фактор** остаётся главной угрозой для энергетических систем, несмотря на рост опасений по поводу «вредоносного ИИ». Недавние кибератаки на сети электроснабжения в Европе и Азии показали, что большинство уязвимостей связано с ошибками персонала и недостаточным обучением. Рекомендации включают усиление процедур доступа, регулярные учения и внедрение систем мониторинга поведения пользователей.
+
+- **Google против киберпреступности:** Группа Threat Intelligence компании Google раскрыла, что их аналитик под прикрытием проник в закрытое сообщество хакеров TeamPCP, специализирующееся на поставках вредоносного кода через цепочки поставок. Инсайдер предоставил сведения о новых эксплойтах, что позволило заблокировать несколько потенциальных атак на крупные корпорации.
+
+- **Великобритания и Канада:** Министр иностранных дел Великобритании предложил «объединить усилия» с Канадой в рамках новой европейской инициативы, направленной на укрепление трансатлантической безопасности. Предложение следует за инициативой президента Европейской комиссии, который рассматривает возможность предоставления Канаде статуса ассоциированного члена ЕС.
+
+**Что стоит отметить:**  
+- Геополитическое напряжение усиливается: США и Китай пытаются найти общий язык в сфере ИИ, а в Европе наблюдаются внутренние политические потрясения (Германия, Россия).  
+- Безопасность – двойная тема: от дроновых атак над Москвой до киберугроз энергетическим инфраструктурам и поставкам вредоносного кода.  
+- Региональные конфликты (Эфиопия) ищут новые формы коалиций, что может изменить баланс сил в Африке.
+
+**Что делать:**  
+- Следите за развитием саммита Трамп‑Си – возможны новые санкционные пакеты и технологические соглашения.  
+- Инвесторам в энергетику рекомендуется пересмотреть стратегии киберзащиты, учитывая человеческий фактор.  
+- Политическим аналитикам стоит обратить внимание на формирование новых альянсов в Африке и их влияние на международные гуманитарные программы.
+
+Оставайтесь в курсе, проверяйте источники и планируйте действия заранее.  
+
+— Ваш новостной канал.
+
+─────────────────────
+
+🌍 [German Chancellor Merz calls state election a 'disaster' for his party but vows to stay on](https://www.bbc.co.uk/news/articles/cvwyz29n0nn2o?at_medium=RSS&at_campaign=rss)
+Exit polls show damaging losses for Merz's centre-right CDU party in the state of Mecklenburg-Vorpommern and Berlin.
+#Мир  #world  `45ce41810f5b`
+
+🌍 [US and China discuss AI safety plan ahead of Trump-Xi summit](https://www.bbc.co.uk/news/articles/c8vgyzn2d31yo?at_medium=RSS&at_campaign=rss)
+Top US and Chinese officials held talks in New York on Sunday ahead of a Trump-Xi summit this week.
+#Мир  #world  `a6fc779ac5bd`
+
+🌍 [Largest attack on Moscow sees Ukraine fire hundreds of drones, mayor says](https://www.bbc.co.uk/news/articles/c34gdjk1ne8yo?at_medium=RSS&at_campaign=rss)
+Moscow's mayor says 450 drones were downed during the overnight barrage, in which two people died.
+#Мир  #world  `eb549ade3e5b`
+
+🌍 [Russia's elections had few surprises - but how the Kremlin uses the results will be crucial](https://www.bbc.co.uk/news/articles/cx4gqv239043o?at_medium=RSS&at_campaign=rss)
+Vladimir Putin will likely use the result to claim most Russians back the so-called special military operation in Ukraine, writes the BBC's Steve Rosenberg.
+#Мир  #world  `d7b3e33fae1a`
+
+🌍 [Seven Ethiopian rebel groups form new alliance](https://www.bbc.co.uk/news/articles/ckp84pj8zpngo?at_medium=RSS&at_campaign=rss)
+The groups have been active in Ethiopia's most populous regions for years and now say they will work together.
+#Мир  #world  `93da6a09101c`
+
+💻 [Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems](https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure)
+Before recent high-profile hacks raised the specter of AI possibly "killing all humans," our energy systems were already disturbingly vulnerable to cyberattack - and the risk is growing. "We were always prey. We were just kind of surviving at the appetite of our predators," Joshu
+#Технологии  #tech  `998485f4ee1a`
+
+💻 [An undercover Google analyst infiltrated a notorious supply-chain hacking gang](https://arstechnica.com/security/2026/09/an-undercover-google-analyst-infiltrated-a-notorious-supply-chain-hacking-gang/)
+Google’s threat intelligence group said it had a mole inside TeamPCP's inner circle.
+#Технологии  #tech  `8387a0dd9523`
+
+🌍 [UK should 'team up' with Canada in new Europe alliance, Canadian minister tells BBC](https://www.bbc.co.uk/news/articles/cmed7p06epxjo?at_medium=RSS&at_campaign=rss)
+It comes after European Commission President proposed "opening the door" for Canada to become an associate member of the EU.
+#Мир  #world  `37e0d993770e`
+
+_Источников: 3 · Новостей: 8_
