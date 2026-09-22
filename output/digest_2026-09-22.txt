@@ -1,0 +1,66 @@
+📰 *Дайджест 22.09.2026*
+
+**Краткий дайджест новостей за сегодня**
+
+- **G7 требует от Ирана прекратить поставки оружия хуситам**. На фоне предстоящего саммита ООН страны‑члены осудили «в самых жёстких выражениях» ракетные удары хуситов по Саудовской Аравии и предупредили, что эскалация в Йемене ставит под угрозу глобальную энергетическую безопасность.
+
+- **Британская Колумбия подала в суд на OpenAI**. Провинция обвиняет компанию в том, что она не передала в органы правопорядка сведения о том, что школьник, совершивший стрельбу в Тумблер‑Ридж, активно общался с ChatGPT и делился тревожными мыслями.
+
+- **Meta — Muse обгоняет ChatGPT в мобильных скачиваниях**. По данным Appfigures, новый AI‑агент Muse уже превзошёл показатели ChatGPT за тот же период после выхода мобильных приложений в США и Канаде, набрав больше ежедневных активных пользователей.
+
+- **Американские СМИ бойкотируют совместное освещение Трампа**. После того как президент запретил CNN, MSNBC и Politico доступ к Белому дому, крупные новостные сети объявили о прекращении совместных репортажей о его деятельности.
+
+- **Беженцы из Йемена переправляются через Красное море**. По данным BBC, тысячи людей спасаются на лодках, преодолевая пролив Баб‑эль‑Мандеб в сторону Джибути, где их ждут переполненные лагеря. Ситуация обостряется после усиления боевых действий между хуситами и поддерживаемыми Саудовской Аравией силами.
+
+- **ООН считает удары США по «наркотическим» судам преступлением против человечности**. В докладе указывается, что по крайней мере 68 атак не подпадают под категорию самообороны и могут нарушать международное гуманитарное право.
+
+- **Внутри лагеря беженцев в Джибути**. На фоне массового притока людей из Йемена лагеря сталкиваются с нехваткой продовольствия, воды и медицинской помощи. Международные организации требуют ускорения гуманитарных поставок.
+
+- **Гиперскейлеры могут потратить до триллиона долларов на ИИ к 2027 году**. По словам CEO JPMorgan Джейми Димона, крупные облачные провайдеры планируют удвоить инвестиции в искусственный интеллект, что сделает отрасль одной из самых быстрорастущих в мировой экономике.
+
+**Что важно помнить**
+
+- Геополитическое давление на Иран и хуситов усиливается, а гуманитарный кризис в Йемене приближается к масштабам массовой миграции.
+- Технологические гиганты продолжают конкурировать за лидерство в AI‑рынке, одновременно сталкиваясь с юридическими и этическими вопросами.
+- Международные организации и правозащитники всё активнее оценивают военные действия США с точки зрения международного права.
+
+Оставайтесь в курсе, проверяйте источники и следите за развитием событий.
+
+─────────────────────
+
+🌍 [Iran must stop arming Houthis in Yemen, G7 says ahead of UN General Assembly](https://www.bbc.co.uk/news/articles/cwm2qpmepmlzo?at_medium=RSS&at_campaign=rss)
+The G7 also condemns "in the strongest terms" Houthi attacks on Saudi Arabia, saying that the escalation in fighting in Yemen jeopardises global energy security.
+#Мир  #world  `807dc5edca2e`
+
+🤖 [Canadian province sues OpenAI over Tumbler Ridge school shooting](https://www.bbc.co.uk/news/articles/c3wyz2rkgrx0o?at_medium=RSS&at_campaign=rss)
+British Columbia has accused the company of failing to report the shooter's troubling interactions with ChatGPT to law enforcement.
+#AI  #world  `820679da7f77`
+
+🤖 [Meta’s Muse is outpacing ChatGPT’s early mobile launch](https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/)
+Meta’s new AI agent Muse has racked up more downloads and daily active users in the U.S. and Canada than ChatGPT did over the same period after its mobile debut, according to new estimates from Appfigures.
+#AI  #tech #startups  `c31495294377`
+
+🌍 [Major US outlets boycott shared Trump coverage in protest at media ban](https://www.bbc.co.uk/news/articles/cje3rezd92y3o?at_medium=RSS&at_campaign=rss)
+Regular coverage of the president has been disrupted after he banned CNN, MS NOW and Politico from the White House.
+#Мир  #world  `2c19ca4f18da`
+
+🌍 [Yemenis flee across Red Sea as Houthis and Saudi-backed forces escalate war](https://www.bbc.co.uk/news/articles/cw4gm7l742dmo?at_medium=RSS&at_campaign=rss)
+The BBC's Frank Gardner speaks to some of those who have fled the war by crossing the Red Sea to Djibouti.
+#Мир  #world  `0649f9919126`
+
+🌍 [US strikes on alleged drug boats could be crimes against humanity, says UN](https://www.bbc.co.uk/news/articles/ck5ye7v88qy7o?at_medium=RSS&at_campaign=rss)
+A report says the attacks, of which there have been at least 68, were not self-defence.
+#Мир  #world  `ad7b8b753810`
+
+🌍 [Inside Djibouti refugee camp for thousands fleeing Houthi advance in Yemen](https://www.bbc.co.uk/news/videos/c6z0z2nne11vo?at_medium=RSS&at_campaign=rss)
+Fighting on Yemen's west coast has prompted thousands of people to flee by boat across the Bab al-Mandab Strait.
+#Мир  #world  `75a6d5cab9a7`
+
+🤖 [JP Morgan CEO says hyperscaler AI spending could hit $1T in 2027](https://www.cnbc.com/2026/09/21/jamie-dimon-jpm-jpmorgan-indiaconference.html)
+Article URL: https://www.cnbc.com/2026/09/21/jamie-dimon-jpm-jpmorgan-indiaconference.html
+Comments URL: https://news.ycombinator.com/item?id=49797039
+Points: 3
+# Comments: 2
+#AI  #AI  `c45fba458061`
+
+_Источников: 3 · Новостей: 8_
