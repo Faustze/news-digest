@@ -1,0 +1,62 @@
+📰 *Дайджест 23.09.2026*
+
+**Краткий дайджест новостей за сегодня**  
+
+- **OpenAI представила две новые модели — GPT‑6 Sol и Luna**. По заявлению компании, они работают на той же архитектуре, что и Astra, но обходятся дешевле и делают меньше ошибок. Ожидается, что их начальное внедрение будет в корпоративных продуктах и в облачных сервисах партнёров.  
+
+- **Anthropic и OpenAI объявили о новых «эконом‑моделях»**. Оба провайдера запустили версии, которые обещают почти такой же уровень качества, но при в 30‑50 % меньших затратах. Это открывает возможности для небольших стартапов и образовательных учреждений, которые ранее откладывали внедрение ИИ из‑за цены.  
+
+- **Toyota начала обучение сотрудников работе с гуманоидными роботами**. Компания планирует использовать их в сборочных линиях и сервисных центрах, но официально заявила, что роботы не заменят людей, а лишь возьмут на себя тяжёлые и монотонные задачи.  
+
+- **Хакерская группировка ShinyHunters заявила о взломе FBI**. По их словам, были украдены личные данные агентов и соискателей, что может стать инструментом шантажа со стороны иностранных государств. Официальный ответ ФБР пока не опубликован, но уже начаты внутренние расследования.  
+
+- **Суд в Британской Колумбии подал иск против OpenAI**. Истец требует предоставить логи ChatGPT, использованные в расследовании стрельбы в Тумблер‑Ридж, где подозреваемый, по данным следствия, общался с ИИ. Дело поднимает вопросы о праве доступа к данным ИИ в уголовных процессах.  
+
+- **Города США выступили против инициативы Трампа в FCC**. План администрации предписать штатам отменить местные правила по лицензированию широкополосных сетей. Мэрии аргументируют, что без этих требований крупные провайдеры не ускорят строительство новых сетей, а лишь усилят монополию.  
+
+- **В Германии прошли протесты автопроизводителей**. Сотрудники и профсоюзы требуют от правительства мер против падения продаж, вызванного ростом конкуренции со стороны Китая и новыми тарифами США. По оценкам отрасли, в ближайшие годы может потеряться до 30 000 рабочих мест.  
+
+- **Премьер‑министр Греции Кириакос Мицотакис откровенно поговорил об ИИ**. На торговой миссии он отметил, что государства «борются с вчерашними битвами», и большинство стран пока не готовы к масштабным изменениям, которые принесёт искусственный интеллект. Греция планирует создать национальный центр экспертизы ИИ и ускорить законодательную адаптацию.  
+
+**Что важно помнить:**  
+- Новые модели OpenAI и Anthropic могут существенно снизить барьер входа в ИИ‑технологии, но одновременно усиливают вопросы о контроле и ответственности.  
+- Утечка данных FBI подчёркивает растущую уязвимость государственных структур к кибератакам.  
+- Регуляторные споры в США и судебные процессы в Канаде показывают, что правовая база для ИИ и телеком‑инфраструктуры пока отстаёт от технологического прогресса.  
+
+Следите за развитием событий — они формируют ландшафт технологий, безопасности и экономики в ближайшие месяцы.
+
+─────────────────────
+
+🤖 [OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes](https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/)
+OpenAI is launching two new models, which it says are cut from the same cloth as Astra.
+#AI  #tech #startups  `5a31fa6d726a`
+
+🤖 [New Anthropic, OpenAI models make same promise: A little more for a lot less money](https://arstechnica.com/ai/2026/09/new-anthropic-openai-models-make-same-promise-a-little-more-for-a-lot-less-money/)
+The frontier AI model race has entered its comparison shopping phase.
+#AI  #tech  `d6ca60f034b9`
+
+🤖 [Toyota orders workers to train humanoid robots but says humans won't be replaced](https://arstechnica.com/ai/2026/09/toyota-claims-plan-for-400000-factory-robots-wont-replace-human-workers/)
+Toyota's push comes as automakers race to develop and deploy humanoid robots.
+#AI  #tech  `d1dfe81290ef`
+
+💻 [Hacking group ShinyHunters claims it breached the FBI, stole agents’ and applicants’ data](https://techcrunch.com/2026/09/22/hacking-group-shinyhunters-claims-it-breached-the-fbi-stole-agents-and-applicants-data/)
+The theft of agents' personal information could present a major counterintelligence threat, where agents and their families are extorted into cooperating with a foreign government.
+#Технологии  #tech #startups  `489fcdae5b4a`
+
+🤖 [Lawsuit demands OpenAI pay for new school after ChatGPT used in shooting](https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-pay-for-new-school-after-chatgpt-used-in-shooting/)
+British Columbia sues OpenAI, demands Tumbler Ridge shooter’s ChatGPT logs.
+#AI  #tech  `5c09c438fb8f`
+
+💻 [Cities across US oppose Trump FCC plan to preempt local broadband rules](https://arstechnica.com/tech-policy/2026/09/cities-across-us-oppose-trump-fcc-plan-to-preempt-local-broadband-rules/)
+Cities defend permit requirements, say ISPs aren't building networks fast enough.
+#Технологии  #tech  `3e501e1ac0e1`
+
+💼 [Protests for Germany’s car industry as job losses loom](https://arstechnica.com/cars/2026/09/protests-for-germanys-car-industry-as-job-losses-loom/)
+A combination of Chinese competition and US tariffs is causing problems in Germany.
+#Бизнес  #tech  `504e00b89c8d`
+
+🤖 [‘We’re already fighting yesterday’s battle’: Greece’s prime minister gets candid about AI](https://techcrunch.com/2026/09/22/were-already-fighting-yesterdays-battle-greeces-prime-minister-gets-candid-about-ai/)
+Most leaders on a trade mission stick to the pitch, but when I interviewed Greek Prime Minister Kyriakos Mitsotakis this week, he also admitted that no government is ready for what AI is about to do.
+#AI  #tech #startups  `a3756e02d529`
+
+_Источников: 2 · Новостей: 8_
