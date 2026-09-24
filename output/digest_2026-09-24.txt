@@ -1,0 +1,62 @@
+📰 *Дайджест 24.09.2026*
+
+**Ежедневный дайджест новостей – 24 сентября 2026**
+
+- **Космос / Геополитика** – Бывший глава NASA Джеймс Блейн предупредил, что Китай планирует «доминировать над высотами XXI века» в лунных исследованиях. По его словам, Пекин стремится создать постоянную инфраструктуру на Луне, что может изменить баланс сил в космической сфере и усилить технологическое соперничество с США.
+
+- **Астрономия** – Учёные из Гонконгского университета совместно с командой Пекинского педагогического университета впервые смоделировали гравитационное линзирование с учётом волновой природы «мягкой» (fuzzy) тёмной материи. Трёхмерные волновые симуляции открывают новый способ проверки гипотез о ультра‑лёгкой тёмной материи и могут уточнить её распределение в галактиках.
+
+- **Астероид Бенну** – Анализ образцов, собранных миссией OSIRIS‑REx в 2023 г., показал неожиданное происхождение астероида: его материал, вероятно, сформировался в зоне Юпитера и позже был выброшен в орбиту, где стал потенциально опасным для Земли. Результаты помогут лучше понять динамику малых тел Солнечной системы.
+
+- **Технологии / AI** – YouTube запустил два новых инструмента на базе искусственного интеллекта:  
+  • **Conversational Video Editing** – в чате creators могут давать естественные команды («убери шум», «сократи начало») и получать готовый монтаж.  
+  • **Ask Music** в приложении YouTube Music позволяет описать желаемый трек обычным языком («мелодичная поп‑песня с гитарой») и сразу получать плейлист.  
+  • В YouTube Studio добавлены AI‑функции для генерации идей контента и автоматической оценки эффективности миниатюр (thumbnails).
+
+- **Безопасность на дорогах** – Национальное управление безопасностью дорожного движения США (NHTSA) открыло расследование в отношении систем автопилота от компании comma.ai после пяти зафиксированных столкновений, когда автомобили с их устройствами врезались в медленно движущиеся или остановившиеся машины. Ведётся проверка алгоритмов распознавания препятствий и их взаимодействия с другими системами ADAS.
+
+- **Экономика / Редкоземельные металлы** – Статья аналитиков указывает, что США утратили лидерство в добыче и переработке редкоземельных элементов, полностью отдав его Китаю. Дешёвый импорт в течение десятилетий привёл к зависимости от китайских поставок, что теперь рассматривается как стратегический риск для обороны и высоких технологий.
+
+**Что стоит помнить**  
+- Геополитическое соперничество в космосе усиливается: следите за новыми инициативами США и Китая в лунных проектах.  
+- AI‑инструменты YouTube могут существенно ускорить производство контента, но требуют внимательного контроля качества.  
+- Расследование comma.ai может привести к новым регулятивным требованиям к системам автопилота в США.  
+- Диверсификация поставок редкоземельных металлов становится приоритетом для правительств и крупных производителей электроники.
+
+Оставайтесь в курсе, делитесь новостями и задавайте вопросы!
+
+─────────────────────
+
+🚀 [Former NASA chief sounds alarm on China's lunar "exploration" plans](https://arstechnica.com/space/2026/09/former-nasa-chief-sounds-alarm-on-chinas-lunar-exploration-plans/)
+"Beijing's intended strategy is to dominate the high ground of the twenty-first century."
+#Космос  #tech  `913904946905`
+
+🤖 [YouTube’s conversational video editing tool lets creators make edits in natural language](https://techcrunch.com/2026/09/23/youtubes-conversational-video-editing-tool-lets-creators-make-edits-in-natural-language/)
+Creators will be able to use AI in a conversational chat interface to help them edit videos.
+#AI  #tech #startups  `139bb3b66beb`
+
+🤖 [After multiple deaths and injuries, NHTSA is investigating comma.ai](https://arstechnica.com/cars/2026/09/aftermarket-driver-assist-under-federal-probe-following-fatal-crashes/)
+Feds know of 5 crashes where cars using comma.ai devices hit slow or stopped vehicles.
+#AI  #tech  `4aa3db87c9a4`
+
+🌍 [America gave up its rare earth edge. China took full advantage.](https://arstechnica.com/reviews/2026/09/how-the-us-handed-china-control-of-the-rare-earth-supply-chain/)
+Decades of cheaper imports left US dependent on China for crucial rare earth processing.
+#Мир  #tech  `cccaea961d5c`
+
+🤖 [YouTube Music gets more conversational with new AI features](https://techcrunch.com/2026/09/23/youtube-music-gets-more-conversational-with-new-ai-features/)
+Built directly into the YouTube Music app, Ask Music lets users describe what they want to hear in everyday language rather than searching for individual songs or artists.
+#AI  #tech #startups  `3d63f028e267`
+
+🤖 [YouTube releases new AI features for creators within its Studio app](https://techcrunch.com/2026/09/23/youtube-releases-new-ai-features-for-creators-within-its-studio-app/)
+YouTube is adding new features to generate ideas and monitor the performance of thumbnails.
+#AI  #tech #startups  `9e2830e3a1b7`
+
+🔬 [Astrophysicists use wave simulations to open a new window on dark matter](https://phys.org/news/2026-09-astrophysicists-simulations-window-dark.html)
+Astrophysicists from The University of Hong Kong (HKU), working with a research team led by Beijing Normal University (BNU), have developed a more physically realistic approach to testing how ultralight, or "fuzzy," dark matter could influence gravitationally lensed images. The s
+#Наука  #science #physics  `ff1f5746c439`
+
+🔬 [Bennu asteroid samples point to a surprising origin involving Jupiter](https://phys.org/news/2026-09-bennu-asteroid-samples-involving-jupiter.html)
+The asteroid Bennu orbits the sun once every 1.2 years and approaches Earth every six years, passing within around 300,000 kilometers. NASA took advantage of this to collect material from the celestial body. In a spectacular operation in 2023, the US space agency collected sample
+#Наука  #science #physics  `28d8cd83b390`
+
+_Источников: 3 · Новостей: 8_
