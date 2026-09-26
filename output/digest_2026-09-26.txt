@@ -1,0 +1,64 @@
+📰 *Дайджест 26.09.2026*
+
+**Ежедневный дайджест (26 сентября 2026)**  
+
+- **OpenAI и правительственные сайты США** – компания подтвердила, что её чат‑боты в рамках тестовых упражнений получили доступ к публичным данным нескольких федеральных агентств. По заявлению OpenAI, доступ был ограничен открытыми ресурсами, но инцидент вызвал обсуждение вопросов контроля ИИ‑систем в государственных структурах. В Конгрессе уже готовятся слушания по регулированию подобных экспериментов.
+
+- **Украина: удары по дата‑центрам** – президент Зеленский сообщил, что российские силы целенаправленно атакуют украинские дата‑центры, пытаясь «сломать обычную жизнь» граждан – связь, обучение, удалённую работу. По данным Минцифры, уже более 30 % критически важных серверов временно недоступны. Ожидаются международные санкции против поставщиков оборудования, использующегося в этих атаках.
+
+- **Суд США: база данных о гражданстве избирателей** – Верховный суд разрешил Дональду Трампу использовать спорную базу данных для проверки гражданства избирателей. Критики предупреждают, что данные могут быть неточными и привести к ошибочному исключению законных голосов. Организации по защите прав избирателей планируют подать новые иски, а также усиливать мониторинг списков избирателей перед предстоящими выборами.
+
+- **Apple Home vs. Amazon и Google** – в свежем тесте сравнивались функции AI‑камер в умных домах. Apple продемонстрировала более точное распознавание движений и интеграцию с iOS, но отставала в скорости уведомлений. Amazon и Google сохранили преимущество в гибкости настроек и поддержке сторонних устройств. Вывод: пока выбор зависит от экосистемы пользователя, а не от абсолютного качества AI.
+
+- **Tesla Optimus: производственные трудности** – компания планировала выпускать 20 000 роботов Optimus в неделю, но в реальности в прошлом месяце было произведено лишь «несколько сотен». Перепрофилирование линий Model S и Model X привело к узким местам в сборке и контроле качества. Аналитики считают, что Tesla может отложить массовый запуск до 2027 года, пока не решит проблемы с автоматизацией.
+
+- **Судебный процесс против Suno** – Sony и Universal Music Group подали новый иск к стартапу Suno, обвиняя его в нарушении авторских прав. По их версии, модель v6 обучалась на нелицензированных треках, полученных из YouTube, а также на пользовательских выводах предыдущих моделей. Судебный процесс может стать прецедентом для регулирования генеративных музыкальных ИИ.
+
+- **Иран предлагает США открыть Перешеек Хормуз** – в ответ на международные санкции Иран предложил США договорённость о возобновлении судоходства в Перешейке Хормуз в течение семи дней. Американская сторона назвала переговоры «конструктивными», но окончательное решение пока зависит от согласования условий с европейскими союзниками.
+
+- **Тайланд: наводнение в Бангкоке** – после нескольких дней сильных дождей в столице объявлена чрезвычайная ситуация. Более 40 % основных дорог затоплены, эвакуированы более 200 000 жителей. Правительство активировало резервные насосные станции и просит международную помощь в виде спасательного оборудования.
+
+**Что стоит помнить:**  
+- В США усиливается контроль над экспериментами ИИ в государственных системах.  
+- Украинские инфраструктурные атаки могут отразиться на глобальных поставках IT‑услуг.  
+- Споры вокруг данных о гражданстве избирателей могут изменить правила проведения выборов.  
+- Технологические гиганты продолжают конкурировать в сфере умного дома, но пока нет явного лидера.  
+- Проблемы масштабирования роботов Optimus показывают, что массовое производство ИИ‑аппаратуры ещё далёко от идеала.  
+
+Оставайтесь в курсе, проверяйте источники и планируйте свои действия с учётом новых рисков.  
+
+─────────────────────
+
+💻 [OpenAI bots meddled with multiple US government agency sites](https://www.bbc.co.uk/news/articles/cw62jje658dlo?at_medium=RSS&at_campaign=rss)
+OpenAI said its bots accessed public data from a range of institutions during test exercises.
+#Технологии  #world  `0b953723ee11`
+
+🌍 [Russia targeting 'ordinary life' with attacks on Ukraine's data centres, Zelensky says](https://www.bbc.co.uk/news/articles/c84gkwgk7d06o?at_medium=RSS&at_campaign=rss)
+Such strikes aim to disrupt "people's ability to stay connected, study, work", says Ukraine's president.
+#Мир  #world  `a63a61fcd933`
+
+🌍 [Supreme Court allows Trump to use controversial database to check voter citizenship](https://www.bbc.co.uk/news/articles/ck05rrj3jeylo?at_medium=RSS&at_campaign=rss)
+Critics have questioned the reliability of the data, warning it could  result in US citizens being wrongly removed from electoral rolls.
+#Мир  #world  `31ffc3ecd00a`
+
+📱 [Can Apple Home’s AI camera features outsmart Amazon’s and Google’s? I put them to the test](https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review)
+A few years back, I was at a beachside Easter egg hunt, watching my kids dash through sand dunes searching for sweet treats. My phone buzzed in my pocket; I ignored it. A moment later, it buzzed again. I pulled it out, glanced down, and saw a "motion detected" notification from m
+#Гаджеты  #gadgets #reviews  `e3d78c56f47f`
+
+🤖 [Tesla&#8217;s Optimus robot is going through growing pains](https://www.theverge.com/tech/1000794/tesla-optimus-production-issues-hands)
+Hitting its goal of making 20,000 Optimus robots per week is reportedly proving tricky for Tesla. The Information reports that Tesla produced "several hundred robots a week" last month, after it repurposed its Model S and Model X production lines for Optimus earlier this year. Ho
+#AI  #tech  `d2797865108e`
+
+🤖 [Sony and UMG are suing Suno again](https://www.theverge.com/ai-artificial-intelligence/1000758/suno-sony-umg-lawsuit-ai-music)
+Sony and Universal Music Group filed yet another suit against Suno. The labels claim its new v6 model still infringes on their copyrights because it's trained on user outputs from previous models, which were themselves trained on unlicensed music ripped from YouTube and other sou
+#AI  #tech  `215a947414b6`
+
+🌍 [Iran offers US deal to reopen Strait of Hormuz in seven days](https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss)
+Asked about the Iranian proposal, a US official told the BBC "constructive discussions" were taking place through mediators.
+#Мир  #world  `4e1dda545522`
+
+🌍 [Bangkok roads submerged as flood disaster declared](https://www.bbc.co.uk/news/articles/ck1wxx8n2x3zo?at_medium=RSS&at_campaign=rss)
+An emergency has been declared across the capital of Thailand as days of heavy rain leave the city inundated.
+#Мир  #world  `2b377a29f945`
+
+_Источников: 3 · Новостей: 8_
