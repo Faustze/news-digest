@@ -1,0 +1,74 @@
+📰 *Дайджест 28.09.2026*
+
+**Ежедневный дайджест — 28 сентября 2026**
+
+- **Honor Magic 9 Pro Max** — в Китае стартовал флагманский смартфон серии Magic 9. Устройство получило полностью переработанный дизайн, 200 Мп основной сенсор и батарею ≈ 6000 мА·ч, что обещает более 24 часов активного использования. Это первая крупная линейка Honor после сотрудничества с компанией Arri, и уже в первые недели продаж бренд планирует выйти на рынки Ю‑ЭВ и Юго‑Восточной Азии.
+
+- **Искусственный интеллект в фокусе**  
+  - **Гонка за «самой опасной» моделью** — несколько AI‑компаний публично заявили о разработке систем, способных представлять экзистенциальный риск. Эксперты предупреждают, что без международных регуляций такие проекты могут выйти из‑под контроля.  
+  - **Nvidia представила защитный слой** — на конференции компании анонсирован «AI Safety Guard», аппаратный модуль, который отслеживает отклонения поведения автономных агентов и автоматически ограничивает их действия. Технология уже проходит пилотные испытания в дата‑центрах США и Японии.  
+  - **AI‑агенты в рабочей среде** — аналитики считают, что к 2030 году более 30 % офисных задач будет выполнять искусственный помощник. Это потребует новых правил взаимодействия, обучения персонала и пересмотра трудовых договоров.  
+  - **Политика под управлением ИИ** — в Великобритании впервые использовали полностью сгенерированную ИИ‑ом речь на парламентском заседании. Критики указывают на риск манипуляций и отсутствие прозрачности источников.  
+  - **Контент‑проблема крупных AI** — крупные модели продолжают «забирать» творческий материал у авторов, оставляя им лишь небольшую долю доходов. Обсуждается введение обязательных лицензий и микроплатежей за каждый запрос к генеративным сервисам.
+
+- **Здоровье**  
+  - **Глюкозамин и болезнь Альцгеймера** — исследование на базе национальных медицинских записей показало, что у людей, регулярно принимающих глюкозамин, риск перехода от лёгкой когнитивной недостаточности к деменции выше на 25 %. В лаборатории обнаружено усиление гликозилирования белков, характерного для патологий мозга при Альцгеймере. Учёные подчёркивают, что нужны клинические испытания, прежде чем делать выводы о причинно‑следственной связи.
+
+- **Россия**  
+  - **Сервис проверки сайтов на 152‑ФЗ почти стал сканером портов** — автор бесплатного инструмента, проверяющего сайты на соответствие требованиям закона о защите персональных данных, обнаружил, что из‑за неверно обработанных ошибок сервис раскрывал открытые порты чужих хостов через Cloudflare. Три уязвимости были быстро закрыты после автоматического ревью, но инцидент подчёркивает необходимость строгого аудита публичных сервисов.
+
+**Что взять с собой**  
+- Если планируете обновить телефон — Honor Magic 9 Pro Max стоит рассмотреть, особенно если важны камера и длительная работа без подзарядки.  
+- Следите за новостями о регуляции ИИ: новые стандарты безопасности от Nvidia могут стать обязательными для крупных дата‑центров уже в следующем году.  
+- Приём глюкозамина обсудите с врачом, особенно если у вас есть предрасположенность к когнитивным нарушениям.  
+- Российским разработчикам рекомендуется проводить независимый security‑audit перед запуском публичных сервисов, чтобы избежать непреднамеренного сканирования сети.
+
+Оставайтесь в курсе, делитесь новостями и задавайте вопросы в комментариях!
+
+─────────────────────
+
+📱 [Honor’s Magic 9 Pro Max has a big camera and a bigger battery](https://www.theverge.com/tech/1001219/honor-magic-9-pro-max-arri-cameras-snapdragon-battery-design-china)
+Honor launches its new Magic 9 flagship phones in China today, and the 9 Pro Max features a design revamp, a capable camera, and a colossal battery. This is Honor's first flagship launch - Robot Phone aside - since it announced its collaboration with camera company Arri. The init
+#Гаджеты  #tech  `769d1d4c9fbe`
+
+🤖 [AI companies in race to demonstrate their model most threatening to humanity](https://thecivilian.co.nz/2026/09/27/ai-companies-in-fierce-arms-race-to-demonstrate-their-model-is-the-most-existentially-threatening-to-humanity/)
+Article URL: https://thecivilian.co.nz/2026/09/27/ai-companies-in-fierce-arms-race-to-demonstrate-their-model-is-the-most-existentially-threatening-to-humanity/
+Comments URL: https://news.ycombinator.com/item?id=49875148
+Points: 4
+# Comments: 0
+#AI  #AI  `704997c3e554`
+
+🤖 [Nvidia Debuts System Designed to Stop AI Agents from Going Awry](https://www.bloomberg.com/news/articles/2026-09-28/nvidia-debuts-system-designed-to-stop-ai-agents-from-going-awry)
+Article URL: https://www.bloomberg.com/news/articles/2026-09-28/nvidia-debuts-system-designed-to-stop-ai-agents-from-going-awry
+Comments URL: https://news.ycombinator.com/item?id=49875573
+Points: 2
+# Comments: 0
+#AI  #AI  `b2485e0a11e5`
+
+🤖 [AI Agents Are About to Flood the Workforce. No One’s Ready for It](https://www.wired.com/story/ai-agents-are-about-to-flood-the-workforce-no-ones-ready-for-it/)
+Your next coworker might well be an AI agent—and will require a whole new model of workplace interactions.
+#AI  #tech  `52747d5c7a32`
+
+🤖 [AI-written speeches are taking over politics](https://www.economist.com/britain/2026/09/23/ai-written-speeches-are-taking-over-politics)
+Article URL: https://www.economist.com/britain/2026/09/23/ai-written-speeches-are-taking-over-politics
+Comments URL: https://news.ycombinator.com/item?id=49875732
+Points: 1
+# Comments: 1
+#AI  #AI  `df72c5e189aa`
+
+🤖 [Big AI's content problem: Take the work, keep the money](https://www.theregister.com/columnists/2026/09/27/big-ais-content-problem-take-the-work-keep-the-money/5299007)
+Article URL: https://www.theregister.com/columnists/2026/09/27/big-ais-content-problem-take-the-work-keep-the-money/5299007
+Comments URL: https://news.ycombinator.com/item?id=49875347
+Points: 3
+# Comments: 0
+#AI  #AI  `1d016d411091`
+
+🔬 [Glucosamine, a popular joint supplement, linked to faster Alzheimer’s progression](https://www.sciencedaily.com/releases/2026/09/260927033754.htm)
+A large health-record analysis found that glucosamine use was associated with a 25% higher likelihood of mild cognitive impairment progressing to dementia. Lab experiments suggest the popular joint supplement may intensify an abnormal sugar-tagging process in the Alzheimer’s brai
+#Наука  #science  `a200183ff8e6`
+
+💻 [Мой бесплатный сервис чуть не стал сканером портов для всего интернета](https://habr.com/ru/articles/1086870/?utm_campaign=1086870&utm_source=habrahabr&utm_medium=rss)
+Я сделал бесплатную проверку сайтов на нарушения 152-ФЗ: вводишь адрес, получаешь список проблем. Первая версия умела ещё кое-что, чего я в неё не закладывал. Подставляешь чужой хост и порт, и по тексту ошибки видно, открыт порт или закрыт. Бесплатный сканер портов для всего инте
+#Технологии  #JavaScript #frontend  `06f66871c4ae`
+
+_Источников: 5 · Новостей: 8_
