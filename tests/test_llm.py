@@ -4,7 +4,7 @@ Tests for news.llm module (no live API calls).
 
 import pytest
 
-from news.llm import SUPPORTED_PROVIDERS, build_llm
+from news.llm import SUPPORTED_PROVIDERS, TokenCounter, build_llm
 
 BASE_CONFIG = {"model": "test-model", "temperature": 0, "max_tokens": 512}
 
@@ -75,3 +75,26 @@ class TestBuildLlm:
         from langchain_groq import ChatGroq
 
         assert isinstance(build_llm({**BASE_CONFIG, "provider": "GROQ"}), ChatGroq)
+
+    def test_groq_reasoning_effort_passed_when_configured(self, monkeypatch):
+        monkeypatch.setenv("GROQ_API_KEY", "key")
+        llm = build_llm({**BASE_CONFIG, "provider": "groq", "reasoning_effort": "low"})
+        assert llm.reasoning_effort == "low"
+
+    def test_groq_reasoning_effort_absent_by_default(self, monkeypatch):
+        monkeypatch.setenv("GROQ_API_KEY", "key")
+        assert build_llm({**BASE_CONFIG, "provider": "groq"}).reasoning_effort is None
+
+
+class TestTokenCounter:
+    def test_sums_reported_usage(self):
+        counter = TokenCounter()
+        msg = type("Msg", (), {"usage_metadata": {"total_tokens": 40}})()
+        assert counter.add(msg) == 40
+        counter.add(msg)
+        assert counter.total == 80
+
+    def test_missing_usage_counts_zero(self):
+        counter = TokenCounter()
+        assert counter.add(object()) == 0
+        assert counter.total == 0

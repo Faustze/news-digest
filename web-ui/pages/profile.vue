@@ -78,6 +78,19 @@
         </div>
 
         <div class="setting-row">
+          <label>Когда присылать новости</label>
+          <select :value="profile.general.frequency" @change="setGen('frequency', ($event.target as HTMLSelectElement).value)">
+            <option value="daily">Раз в день, утром</option>
+            <option value="evening">Раз в день, вечером</option>
+            <option value="twice_daily">Утром и вечером</option>
+            <!-- Старые значения из импортированного профиля, чтобы селект не был пустым -->
+            <option v-if="profile.general.frequency === 'morning'" value="morning">Утром</option>
+            <option v-if="profile.general.frequency === 'weekly'" value="weekly">Раз в неделю</option>
+            <option v-if="profile.general.frequency === 'important_only'" value="important_only">Только важное</option>
+          </select>
+        </div>
+
+        <div class="setting-row">
           <label>Язык дайджеста</label>
           <select :value="profile.general.language" @change="setGen('language', ($event.target as HTMLSelectElement).value)">
             <option value="ru">Русский</option>

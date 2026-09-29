@@ -94,6 +94,7 @@ def parse_entries(
                     SUMMARY_LIMIT,
                 ),
                 "link": link,
+                "published": pub_dt.isoformat(),
                 "source": feed_cfg.get("name", feed.feed.get("title", "Unknown")),
                 "tags": feed_cfg.get("tags", []),
                 "categories": feed_cfg.get("categories", []),

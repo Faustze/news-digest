@@ -15,14 +15,23 @@ from langchain_core.language_models.chat_models import BaseChatModel
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 
+from news.candidates import select_candidates
 from news.classify import classify_batch
 from news.deduplicate import deduplicate
 from news.feedback import load_feedback
 from news.fetch import fetch_rss_items
-from news.llm import build_llm
+from news.llm import TokenCounter, build_llm
 from news.profile import CATEGORY_LABELS, UserProfile, load_profile
 from news.rank import rank_items
-from news.schedule import cutoff_hours_for_frequency
+from news.schedule import (
+    EVENING,
+    MORNING,
+    cutoff_hours_for_frequency,
+    digest_filename,
+    slot_from_env,
+    slots_for_frequency,
+)
+from news.sent import drop_already_sent, load_sent, record_sent, save_sent
 
 # ── Config ────────────────────────────────────────────────────────────────────
 
@@ -63,8 +72,9 @@ async def generate_digest_summary(
     items: list[dict],
     profile: UserProfile,
     llm: BaseChatModel,
+    usage: TokenCounter | None = None,
 ) -> str:
-    chain = DIGEST_PROMPT | llm | StrOutputParser()
+    chain = DIGEST_PROMPT | llm
     language = "русский" if profile.general.language.value == "ru" else "English"
     detail_map = {"short": "кратко", "normal": "обычно", "detailed": "подробно"}
     lang_map = {
@@ -78,7 +88,7 @@ async def generate_digest_summary(
         "everything": "максимум новостей",
     }
 
-    return await chain.ainvoke(
+    message = await chain.ainvoke(
         {
             "items_json": json.dumps(
                 [
@@ -100,6 +110,9 @@ async def generate_digest_summary(
             ),
         }
     )
+    if usage is not None:
+        usage.add(message)
+    return StrOutputParser().invoke(message)
 
 
 # ── Step 3: Render Telegram message ──────────────────────────────────────────
@@ -120,11 +133,20 @@ CATEGORY_EMOJI = {
 }
 
 
-def render_telegram(items: list[dict], summary: str, profile: UserProfile) -> str:
+DIGEST_TITLES = {
+    None: "📰 *Дайджест {date}*",
+    MORNING: "🌅 *Утренний дайджест {date}*",
+    EVENING: "🌆 *Вечерний дайджест {date}*",
+}
+
+
+def render_telegram(
+    items: list[dict], summary: str, profile: UserProfile, slot: str | None = None
+) -> str:
     date_str = datetime.now(timezone.utc).strftime("%d.%m.%Y")
 
     lines = [
-        f"📰 *Дайджест {date_str}*",
+        DIGEST_TITLES[slot].format(date=date_str),
         "",
         summary,
         "",
@@ -180,15 +202,31 @@ async def run_pipeline(
     config_path: str = "config.yaml",
     profile_path: str = "user-profile.json",
     feedback_path: str = "feedback.json",
+    sent_path: str = "sent_news.json",
+    slot: str | None = None,
 ) -> str:
+    """
+    Build the digest for one run. `slot` is the scheduled run ("morning" /
+    "evening"); None means a manual run, which always produces a digest.
+    """
     config = load_config(config_path)
     # Use the legacy migration only while config.yaml still defines `topics`.
     legacy_config = config if config.get("topics") else None
     profile = load_profile(profile_path, legacy_config)
+
+    if slot is not None and slot not in slots_for_frequency(profile):
+        print(
+            f"Skipping the {slot} run: profile frequency is "
+            f"'{profile.general.frequency.value}'. No tokens used."
+        )
+        return ""
+
     feedback = load_feedback(feedback_path)
+    sent = load_sent(sent_path)
 
     llm = build_llm(config)
     batch_size = config.get("batch_size", 12)
+    usage = TokenCounter()
 
     print(f"[1/5] Fetching RSS feeds ({len(config['feeds'])} sources)…")
     raw_items = fetch_rss_items(config, cutoff_hours_for_frequency(profile))
@@ -198,8 +236,25 @@ async def run_pipeline(
     unique_items = deduplicate(raw_items)
     print(f"      → {len(unique_items)} unique items")
 
+    fresh_items = drop_already_sent(unique_items, sent)
+    if len(fresh_items) != len(unique_items):
+        print(f"      → {len(fresh_items)} not sent in earlier digests")
+
+    candidates = select_candidates(
+        fresh_items,
+        set(profile.enabled_categories()),
+        config.get("max_items_per_source"),
+    )
+    print(f"      → {len(candidates)} candidates for classification")
+
     print("[3/5] Classifying with Groq…")
-    classified = await classify_batch(unique_items, llm, batch_size)
+    classified = await classify_batch(
+        candidates,
+        llm,
+        batch_size,
+        usage=usage,
+        tokens_per_minute=config.get("tokens_per_minute"),
+    )
     accepted = [i for i in classified if i.get("accepted") is True]
     print(f"      → {len(accepted)} accepted items")
 
@@ -212,7 +267,7 @@ async def run_pipeline(
     print("[5/5] Generating summary…")
     try:
         summary = (
-            await generate_digest_summary(top_items, profile, llm)
+            await generate_digest_summary(top_items, profile, llm, usage)
             if top_items
             else "Сегодня новостей по твоим темам не нашлось."
         )
@@ -222,19 +277,23 @@ async def run_pipeline(
         print(f"[WARN] Summary failed: {e}")
         summary = "⚠️ Саммари недоступно. Смотри новости ниже."
 
+    print(f"      LLM tokens used this run: {usage.total}")
     print("      Rendering Telegram message…")
 
     if not top_items:
         print("      → No items matched the profile; skipping the empty digest.")
         return ""
 
-    output = render_telegram(top_items, summary, profile)
+    output = render_telegram(top_items, summary, profile, slot)
 
     out_dir = Path(config.get("output_dir", "output"))
     out_dir.mkdir(exist_ok=True)
-    out_file = out_dir / f"digest_{datetime.now(timezone.utc).strftime('%Y-%m-%d')}.txt"
+    now = datetime.now(timezone.utc)
+    out_file = out_dir / digest_filename(now.strftime("%Y-%m-%d"), slot)
     out_file.write_text(output, encoding="utf-8")
     print(f"      → Saved to {out_file}")
+
+    save_sent(record_sent(sent, top_items, now.date()), sent_path)
 
     return output
 
@@ -243,7 +302,7 @@ def main() -> None:
     """CLI entry point: ``news-digest [config.yaml]``."""
     load_dotenv()
     cfg = sys.argv[1] if len(sys.argv) > 1 else "config.yaml"
-    result = asyncio.run(run_pipeline(cfg))
+    result = asyncio.run(run_pipeline(cfg, slot=slot_from_env()))
     print("\n" + "─" * 60)
     print(result)
 

@@ -29,3 +29,8 @@ Thumbs.db
 
 # Generated digests (CI stores them on the digest-data branch)
 output/
+
+# Runtime state (CI keeps it on the digest-data branch)
+feedback.json
+feedback_state.json
+sent_news.json

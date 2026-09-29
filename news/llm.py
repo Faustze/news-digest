@@ -10,6 +10,21 @@ from langchain_core.language_models.chat_models import BaseChatModel
 
 SUPPORTED_PROVIDERS = ("groq", "openai", "anthropic", "ollama")
 
+
+class TokenCounter:
+    """Sums tokens reported by the provider (LangChain `usage_metadata`)."""
+
+    def __init__(self) -> None:
+        self.total = 0
+
+    def add(self, message: object) -> int:
+        """Count one response; returns its tokens (0 if not reported)."""
+        usage = getattr(message, "usage_metadata", None) or {}
+        tokens = int(usage.get("total_tokens", 0) or 0)
+        self.total += tokens
+        return tokens
+
+
 _PROVIDER_KEY = {
     "groq": "GROQ_API_KEY",
     "openai": "OPENAI_API_KEY",
@@ -56,7 +71,14 @@ def build_llm(config: dict) -> BaseChatModel:
         _require_env(_PROVIDER_KEY["groq"], provider)
         from langchain_groq import ChatGroq
 
-        return ChatGroq(model=model, temperature=temperature, max_tokens=max_tokens)
+        extra = {}
+        if config.get("reasoning_effort"):
+            # Reasoning models (gpt-oss, qwen3): hidden reasoning is billed as
+            # output and eats max_tokens, truncating the JSON answer.
+            extra["reasoning_effort"] = config["reasoning_effort"]
+        return ChatGroq(
+            model=model, temperature=temperature, max_tokens=max_tokens, **extra
+        )
 
     if provider == "openai":
         _require_env(_PROVIDER_KEY["openai"], provider)

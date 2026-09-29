@@ -3,8 +3,17 @@ name: Daily News Digest
 on:
   schedule:
     # Off the top of the hour: GitHub delays :00 schedules by hours under load.
-    - cron: "17 4 * * *"
-  workflow_dispatch: {}
+    # The profile's frequency decides which of the two runs sends a digest;
+    # the other one exits before fetching (no LLM tokens).
+    - cron: "17 4 * * *"   # morning: 07:17 MSK
+    - cron: "17 15 * * *"  # evening: 18:17 MSK
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: Which digest to build
+        type: choice
+        options: [morning, evening]
+        default: morning
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -12,6 +21,8 @@ env:
   # feedback state live on a separate unprotected branch instead.
   STATE_BRANCH: digest-data
   STATE_DIR: .state
+  # Must match the evening cron above; everything else is the morning run.
+  DIGEST_SLOT: ${{ github.event.schedule == '17 15 * * *' && 'evening' || inputs.slot || 'morning' }}
 
 concurrency:
   group: daily-digest
@@ -45,7 +56,7 @@ jobs:
         run: |
           if git fetch --depth=1 origin "$STATE_BRANCH"; then
             git worktree add --detach "$STATE_DIR" FETCH_HEAD
-            for f in feedback.json feedback_state.json; do
+            for f in feedback.json feedback_state.json sent_news.json; do
               if [ -f "$STATE_DIR/$f" ]; then cp "$STATE_DIR/$f" .; fi
             done
           else
@@ -80,10 +91,10 @@ jobs:
             git -C "$STATE_DIR" rm -rfq .
           fi
           mkdir -p "$STATE_DIR/output"
-          for f in feedback.json feedback_state.json; do
+          for f in feedback.json feedback_state.json sent_news.json; do
             if [ -f "$f" ]; then cp "$f" "$STATE_DIR/"; fi
           done
-          f="output/digest_$(date -u +%Y-%m-%d).txt"
+          f="output/digest_$(date -u +%Y-%m-%d)_${DIGEST_SLOT}.txt"
           if [ -f "$f" ]; then cp "$f" "$STATE_DIR/output/"; fi
 
           cd "$STATE_DIR"
@@ -93,12 +104,12 @@ jobs:
           if git diff --cached --quiet; then
             echo "State unchanged."
           else
-            git commit -m "digest: $(date -u +%Y-%m-%d)"
+            git commit -m "digest: $(date -u +%Y-%m-%d) ${DIGEST_SLOT}"
             git push origin "HEAD:refs/heads/$STATE_BRANCH"
           fi
 
       - name: Post to job summary
         if: ${{ !cancelled() }}
         run: |
-          f="output/digest_$(date -u +%Y-%m-%d).txt"
+          f="output/digest_$(date -u +%Y-%m-%d)_${DIGEST_SLOT}.txt"
           if [ -f "$f" ]; then cat "$f" >> "$GITHUB_STEP_SUMMARY"; fi

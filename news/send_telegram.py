@@ -13,6 +13,7 @@ import httpx
 from dotenv import load_dotenv
 
 from news.profile import category_id_from_label
+from news.schedule import digest_filename, slot_from_env
 
 # Telegram rejects callback_data over 64 *bytes* with BUTTON_DATA_INVALID.
 CALLBACK_DATA_MAX_BYTES = 64
@@ -30,12 +31,13 @@ def _api_url() -> str:
     return f"https://api.telegram.org/bot{_get_bot_token()}"
 
 
-def latest_digest(output_dir: str = "output") -> str:
-    """Return today's digest text, raising if it has not been produced yet."""
+def latest_digest(output_dir: str = "output", slot: str | None = None) -> str:
+    """Return today's digest for this slot, raising if it was not produced."""
     date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    path = os.path.join(output_dir, f"digest_{date_str}.txt")
+    path = os.path.join(output_dir, digest_filename(date_str, slot))
     if not os.path.exists(path):
-        raise FileNotFoundError(f"No digest for {date_str}; nothing to send.")
+        label = f"{date_str} ({slot})" if slot else date_str
+        raise FileNotFoundError(f"No digest for {label}; nothing to send.")
     return open(path, encoding="utf-8").read()
 
 
@@ -284,7 +286,7 @@ def send_digest(digest_text: str) -> None:
 if __name__ == "__main__":
     load_dotenv()
     try:
-        digest = latest_digest()
+        digest = latest_digest(slot=slot_from_env())
     except FileNotFoundError as e:
         print(e)
         print("Skipping delivery: no digest was produced for today.")

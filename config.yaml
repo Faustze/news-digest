@@ -4,7 +4,14 @@
 
 output_dir: output
 max_items: 15
-batch_size: 12
+
+# ── LLM token budget (Groq free tier: per-minute and per-day token limits) ──
+# Only the newest N items of each source are classified: a digest shows a
+# handful of items, so classifying hundreds only burns the daily quota.
+max_items_per_source: 6
+batch_size: 20
+# Pause between classification batches so requests stay under the TPM limit.
+tokens_per_minute: 8000
 
 # Per-feed download timeout (seconds) and parallel downloads
 fetch_timeout: 20
@@ -14,6 +21,9 @@ provider: groq
 model: openai/gpt-oss-120b
 temperature: 0
 max_tokens: 2048
+# gpt-oss is a reasoning model: hidden reasoning is billed as output and
+# counts toward max_tokens. "low" keeps it short (remove for non-reasoning models).
+reasoning_effort: low
 
 feeds:
 
