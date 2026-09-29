@@ -132,4 +132,4 @@
 - Добавлен `[build-system]` (hatchling, пакет `news`): раньше консольный скрипт не ставился, а `pip install .` ставил папку миграций как пакет `alembic`.
 - PostgreSQL сгруппирована: `db/` (alembic.ini, migrations, docker-compose.yml с `name: news-digest` — старый том сохраняется) и `news/db/`.
 - Удалены устаревшие `LAST_BUILD.md`/`PROJECT_STATS.md`; `CONTRIBUTING.md`/`SECURITY.md` → `.github/`.
-- Открытый вопрос: `pyproject.toml` указывает лицензию MIT, `LICENSE.md` — CC BY-NC 4.0.
+- Лицензия приведена к `LICENSE.md` (CC BY-NC 4.0): в `pyproject.toml` было ошибочно MIT → `license = "CC-BY-NC-4.0"`.
