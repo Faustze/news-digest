@@ -89,7 +89,7 @@ def session(db):
 
 
 def test_insert_user(session):
-    inserted_id = UserRepository(session).get_by_telegram_id(987654321)
+    inserted_id = UserRepository(session).get_or_create(987654321)
 
     row = session.execute(
         text("SELECT id, telegram_id FROM users WHERE id = :id"),
@@ -101,7 +101,7 @@ def test_insert_user(session):
 
 
 def test_upsert_feedback(session):
-    user_id = UserRepository(session).get_by_telegram_id(987654321)
+    user_id = UserRepository(session).get_or_create(987654321)
     article_id = ArticleRepository(session).get_or_create(
         url="https://example.com",
         title="title",
@@ -129,7 +129,7 @@ def test_upsert_feedback(session):
 
 
 def test_join_returns_user_and_article(session):
-    user_id = UserRepository(session).get_by_telegram_id(987654321)
+    user_id = UserRepository(session).get_or_create(987654321)
     article_id = ArticleRepository(session).get_or_create(
         url="https://example.com",
         title="title",
@@ -222,7 +222,7 @@ def test_get_or_create_dedupes_normalized_url(session):
 
 def test_delete_user(session):
     repo = UserRepository(session)
-    repo.get_by_telegram_id(987654321)
+    repo.get_or_create(987654321)
     session.commit()
 
     assert repo.delete_by_telegram_id(987654321) is True
@@ -235,7 +235,7 @@ def test_delete_user(session):
 
 
 def test_delete_feedback(session):
-    user_id = UserRepository(session).get_by_telegram_id(987654321)
+    user_id = UserRepository(session).get_or_create(987654321)
     article_id = ArticleRepository(session).get_or_create(
         url="https://example.com",
         title="title",
