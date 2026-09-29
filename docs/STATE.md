@@ -133,3 +133,10 @@
 - PostgreSQL сгруппирована: `db/` (alembic.ini, migrations, docker-compose.yml с `name: news-digest` — старый том сохраняется) и `news/db/`.
 - Удалены устаревшие `LAST_BUILD.md`/`PROJECT_STATS.md`; `CONTRIBUTING.md`/`SECURITY.md` → `.github/`.
 - Лицензия приведена к `LICENSE.md` (CC BY-NC 4.0): в `pyproject.toml` было ошибочно MIT → `license = "CC-BY-NC-4.0"`.
+
+### 2026-09-29: сокращение расхода токенов Groq
+
+- Замер (o200k_base, живые фиды): прогон классифицировал все ~470 статей → ~110K входных + ~20K выходных токенов (+ скрытое reasoning gpt-oss). 40% входа — список категорий с русскими метками в каждом батче, ещё ~30% — 64-символьный `news_id` во входе и ответе.
+- Теперь: короткий индекс вместо `news_id`, категории как id (`ai: new_models, ...`), `max_items_per_source: 6` (`news/candidates.py`, также отбрасывает выключенные в профиле категории), `batch_size: 20` → ~18K входных + ~6K выходных на прогон (~5× меньше).
+- `reasoning_effort: low` для gpt-oss: reasoning тратил `max_tokens` и обрывал JSON (8 из 39 батчей 29.09).
+- Ответ модели валидируется (категория/подтемы из справочника, importance 0..1); паузы между батчами по `tokens_per_minute`; в логе `LLM tokens used this run`.

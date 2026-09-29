@@ -15,11 +15,12 @@ from langchain_core.language_models.chat_models import BaseChatModel
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 
+from news.candidates import select_candidates
 from news.classify import classify_batch
 from news.deduplicate import deduplicate
 from news.feedback import load_feedback
 from news.fetch import fetch_rss_items
-from news.llm import build_llm
+from news.llm import TokenCounter, build_llm
 from news.profile import CATEGORY_LABELS, UserProfile, load_profile
 from news.rank import rank_items
 from news.schedule import cutoff_hours_for_frequency
@@ -63,8 +64,9 @@ async def generate_digest_summary(
     items: list[dict],
     profile: UserProfile,
     llm: BaseChatModel,
+    usage: TokenCounter | None = None,
 ) -> str:
-    chain = DIGEST_PROMPT | llm | StrOutputParser()
+    chain = DIGEST_PROMPT | llm
     language = "русский" if profile.general.language.value == "ru" else "English"
     detail_map = {"short": "кратко", "normal": "обычно", "detailed": "подробно"}
     lang_map = {
@@ -78,7 +80,7 @@ async def generate_digest_summary(
         "everything": "максимум новостей",
     }
 
-    return await chain.ainvoke(
+    message = await chain.ainvoke(
         {
             "items_json": json.dumps(
                 [
@@ -100,6 +102,9 @@ async def generate_digest_summary(
             ),
         }
     )
+    if usage is not None:
+        usage.add(message)
+    return StrOutputParser().invoke(message)
 
 
 # ── Step 3: Render Telegram message ──────────────────────────────────────────
@@ -189,6 +194,7 @@ async def run_pipeline(
 
     llm = build_llm(config)
     batch_size = config.get("batch_size", 12)
+    usage = TokenCounter()
 
     print(f"[1/5] Fetching RSS feeds ({len(config['feeds'])} sources)…")
     raw_items = fetch_rss_items(config, cutoff_hours_for_frequency(profile))
@@ -198,8 +204,21 @@ async def run_pipeline(
     unique_items = deduplicate(raw_items)
     print(f"      → {len(unique_items)} unique items")
 
+    candidates = select_candidates(
+        unique_items,
+        set(profile.enabled_categories()),
+        config.get("max_items_per_source"),
+    )
+    print(f"      → {len(candidates)} candidates for classification")
+
     print("[3/5] Classifying with Groq…")
-    classified = await classify_batch(unique_items, llm, batch_size)
+    classified = await classify_batch(
+        candidates,
+        llm,
+        batch_size,
+        usage=usage,
+        tokens_per_minute=config.get("tokens_per_minute"),
+    )
     accepted = [i for i in classified if i.get("accepted") is True]
     print(f"      → {len(accepted)} accepted items")
 
@@ -212,7 +231,7 @@ async def run_pipeline(
     print("[5/5] Generating summary…")
     try:
         summary = (
-            await generate_digest_summary(top_items, profile, llm)
+            await generate_digest_summary(top_items, profile, llm, usage)
             if top_items
             else "Сегодня новостей по твоим темам не нашлось."
         )
@@ -222,6 +241,7 @@ async def run_pipeline(
         print(f"[WARN] Summary failed: {e}")
         summary = "⚠️ Саммари недоступно. Смотри новости ниже."
 
+    print(f"      LLM tokens used this run: {usage.total}")
     print("      Rendering Telegram message…")
 
     if not top_items:
