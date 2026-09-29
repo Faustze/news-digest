@@ -16,6 +16,10 @@ updates:
     groups:
       webui-deps:
         patterns: ["*"]
+    ignore:
+      # TypeScript 7 (native Go compiler) drops the JS API that vue-tsc needs.
+      - dependency-name: "typescript"
+        update-types: ["version-update:semver-major"]
     open-pull-requests-limit: 10
 
   - package-ecosystem: "github-actions"
