@@ -432,8 +432,8 @@ When these documents conflict with vague assumptions in old code, follow the exp
 - `user-profile.json` — профиль пользователя (предпочтения)
 - `feedback.json` — реакции пользователя
 - `web-ui/` — статический Nuxt-интерфейс (onboarding + редактор профиля)
-- `output/` — сгенерированные дайджесты (коммитятся в repo)
-- `.github/workflows/daily_digest.yml` — ежедневный cron (04:00 UTC)
+- `output/` — сгенерированные дайджесты (локально; в CI сохраняются в ветку `digest-data`)
+- `.github/workflows/daily_digest.yml` — ежедневный cron (04:17 UTC)
 - `docs/` — рабочие документы
 
 ## Процесс
@@ -445,7 +445,7 @@ When these documents conflict with vague assumptions in old code, follow the exp
 
 ## Деплой
 
-GitHub Actions: `daily_digest.yml` — cron 04:00 UTC, коммитит output, отправляет в Telegram.
+GitHub Actions: `daily_digest.yml` — cron 04:17 UTC, сохраняет output и feedback в ветку `digest-data`, отправляет в Telegram.
 Секреты: `GROQ_API_KEY`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`.
 
 ## Конвенции

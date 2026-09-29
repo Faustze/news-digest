@@ -93,7 +93,7 @@ news-digest/
 
 ## GitHub Actions
 
-Ежедневный запуск в 04:00 UTC:
+Ежедневный запуск в 04:17 UTC (не в :00 — GitHub сильно задерживает такие cron):
 
 1. Опрос Telegram feedback
 2. Запуск пайплайна
