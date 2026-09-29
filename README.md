@@ -48,7 +48,7 @@ pnpm run dev
 ```bash
 uv sync
 export GROQ_API_KEY=your_groq_key
-uv run python news_pipeline.py
+uv run python -m news.pipeline      # или: uv run news-digest
 ```
 
 ### 4. Отправь в Telegram
@@ -56,7 +56,7 @@ uv run python news_pipeline.py
 ```bash
 export TELEGRAM_BOT_TOKEN=your_token
 export TELEGRAM_CHAT_ID=your_chat_id
-uv run python send_telegram.py
+uv run python -m news.send_telegram
 ```
 
 ## Структура проекта
@@ -71,13 +71,14 @@ news-digest/
 │   ├── deduplicate.py       # Дедупликация статей
 │   ├── llm.py               # Фабрика LLM-провайдеров (groq/openai/anthropic/ollama)
 │   ├── schedule.py          # Динамический cutoff по частоте
+│   ├── fetch.py             # Загрузка RSS и очистка текста
+│   ├── pipeline.py          # Основной пайплайн (точка входа)
+│   ├── send_telegram.py     # Отправка в Telegram с feedback кнопками
+│   ├── poll_feedback.py     # Опрос Telegram callback'ов
 │   ├── console.py           # Консольные проверки БД (точка входа)
 │   ├── db.py                # SQLAlchemy engine + SessionLocal
 │   └── repositories/        # Слой доступа к данным (user/article/feedback)
 ├── alembic/                 # Миграции схемы PostgreSQL
-├── news_pipeline.py         # Основной пайплайн
-├── send_telegram.py         # Отправка в Telegram с feedback кнопками
-├── poll_feedback.py         # Опрос Telegram callback'ов
 ├── config.yaml              # RSS feeds, модель, настройки
 ├── docker-compose.yml       # Локальный PostgreSQL для разработки
 ├── user-profile.json        # Профиль пользователя (создаётся через Web UI)

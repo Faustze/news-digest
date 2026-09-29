@@ -1,8 +1,8 @@
 """
-Tests for poll_feedback module.
+Tests for news.poll_feedback module.
 """
 
-from poll_feedback import _load_state, _parse_callback_data, _save_state
+from news.poll_feedback import _load_state, _parse_callback_data, _save_state
 
 
 class TestParseCallbackData:
@@ -28,13 +28,13 @@ class TestParseCallbackData:
 
 class TestState:
     def test_load_state_missing(self, tmp_path, monkeypatch):
-        monkeypatch.setattr("poll_feedback.STATE_PATH", tmp_path / "state.json")
+        monkeypatch.setattr("news.poll_feedback.STATE_PATH", tmp_path / "state.json")
         result = _load_state()
         assert result == 0
 
     def test_save_and_load_state(self, tmp_path, monkeypatch):
         state_path = tmp_path / "state.json"
-        monkeypatch.setattr("poll_feedback.STATE_PATH", state_path)
+        monkeypatch.setattr("news.poll_feedback.STATE_PATH", state_path)
         _save_state(42)
         result = _load_state()
         assert result == 42
@@ -42,7 +42,7 @@ class TestState:
     def test_load_state_invalid(self, tmp_path, monkeypatch):
         state_path = tmp_path / "state.json"
         state_path.write_text("not json")
-        monkeypatch.setattr("poll_feedback.STATE_PATH", state_path)
+        monkeypatch.setattr("news.poll_feedback.STATE_PATH", state_path)
         result = _load_state()
         assert result == 0
 
@@ -50,10 +50,10 @@ class TestState:
 class TestApplyReactions:
     def test_maps_label_and_id_to_category_id(self, tmp_path, monkeypatch):
         from news.feedback import load_feedback
-        from poll_feedback import apply_reactions
+        from news.poll_feedback import apply_reactions
 
         path = tmp_path / "feedback.json"
-        monkeypatch.setattr("poll_feedback.FEEDBACK_PATH", path)
+        monkeypatch.setattr("news.poll_feedback.FEEDBACK_PATH", path)
 
         apply_reactions(
             [

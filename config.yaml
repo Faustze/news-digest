@@ -1,5 +1,5 @@
 # ─────────────────────────────────────────────
-# news_pipeline config
+# news pipeline config (news/pipeline.py)
 # ─────────────────────────────────────────────
 
 output_dir: output
