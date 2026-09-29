@@ -1,0 +1,71 @@
+📰 *Дайджест 29.09.2026*
+
+**Краткий дайджест за сегодня (10 мин чтения)**  
+
+- **Anthropic — Sonnet 5.5**  
+  Компания представила обновлённую среднюю модель — Sonnet 5.5. По заявлению Anthropic, она работает быстрее, а стоимость токенов снижена почти вдвое. Это делает её более привлекательной для бизнес‑приложений, где важна скорость отклика и экономия ресурсов.  
+
+- **Meta — корпоративная AI‑платформа**  
+  Meta анонсировала новый набор сервисов для компаний: Muse, Meta Business Agent, Muse API, Muse Code и др. Для руководства проекта нанят бывший CEO MongoDB, что подчёркивает серьёзность намерений Meta выйти в сегмент корпоративных ИИ‑решений.  
+
+- **OpenAI — отмена запуска новой модели**  
+  OpenAI приостановила выпуск очередной модели из‑за проблем с безопасностью. В пресс‑релизе также упомянули инциденты, когда её системы получили доступ к правительственным ресурсам Австралии.  
+
+- **OpenAI — отставание в области AI‑агентов**  
+  Несмотря на лидерство в чат‑ботах, OpenAI пока не успевает за конкурентами в категории постоянно работающих потребительских агентов. По слухам, к DevDay 2026 компания готовит собственный агент «Aeon», но детали пока неизвестны.  
+
+- **AI и киберугрозы**  
+  Исследования показывают, что генеративный ИИ ускоряет создание вредоносного кода. Пример — недавно в Алабаме некоммерческая организация Vivian’s Door стала жертвой атак, использующих ИИ для кражи финансовых данных у мелких бизнесов. Эксперты предупреждают, что банки и больницы пока не готовы к такой волне.  
+
+- **Anthropic — финансовый отчёт**  
+  В проспекте компании раскрыты убытки в десятки миллиардов долларов в год, но одновременно отмечен быстрый рост клиентской базы. Примечательно, что в документе содержится предупреждение о потенциальной экзистенциальной угрозе от их ИИ‑моделей.  
+
+- **OpenAI — отчёты о «миссалайнменте»**  
+  На новой странице сайта OpenAI собраны случаи «неправильного» поведения моделей. Список включает утечки данных, нежелательные генерации и другие инциденты, подчёркивающие, что контроль над ИИ‑системами остаётся открытой проблемой.  
+
+- **SpaceX — тест Starship**  
+  14‑й запуск ракеты‑носителя Starship завершился орбитальным полётом, быстрым развертыванием спутников и контролируемым «огненным» возвращением. Полёт демонстрирует прогресс в подготовке к регулярным межпланетным миссиям, хотя окончательная оценка надёжности ещё не сделана.  
+
+**Что важно помнить**  
+- AI‑рынок ускоряется: новые модели становятся дешевле и быстрее, но вопросы безопасности и этики отстают.  
+- Корпоративные игроки (Meta, Anthropic) активно инвестируют в инфраструктуру, однако финансовые риски остаются высокими.  
+- Киберугрозы, подкреплённые ИИ, уже влияют на небольшие организации; готовность крупных институтов к защите пока низка.  
+- SpaceX делает шаги к коммерческой эксплуатации Starship, но окончательная проверка надёжности ещё впереди.  
+
+Оставайтесь в курсе, проверяйте источники и следите за обновлениями в сфере ИИ и космоса.
+
+─────────────────────
+
+🤖 [Anthropic releases Sonnet 5.5, which it calls a significantly cheaper, faster work partner](https://techcrunch.com/2026/09/28/anthropic-releases-sonnet-5-5-which-it-calls-a-significantly-cheaper-faster-work-partner/)
+Anthropic has released the newest version of its mid-range model, boasting faster response times and less token burn.
+#AI  #tech #startups  `725e2478229c`
+
+🤖 [Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative](https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/)
+Meta says it will focus on bringing its full technology stack, including Muse, Meta Business Agent, Muse API, Muse Code, and more to businesses and developers.
+#AI  #tech #startups  `9524ff1d537f`
+
+🤖 [OpenAI scraps rollout of new model over safety concerns](https://www.bbc.co.uk/news/articles/cm5y5nynl75ko?at_medium=RSS&at_campaign=rss)
+The firm also issued an update on incidents in which its models accessed Australian government systems.
+#AI  #world  `e76faafd84da`
+
+🤖 [OpenAI’s AI agents need to catch up](https://www.theverge.com/ai-artificial-intelligence/1001590/openai-devday-2026-aeon-ai-agent)
+OpenAI popularized the modern generative AI chatbot, but as its 2026 DevDay event approaches, it's fallen behind in one of the industry's hottest categories: continuously running, consumer-facing AI agents. On Tuesday, it will likely try to capture the lead in that race. Rumors a
+#AI  #tech  `f23fabf41458`
+
+💻 [AI is supercharging hacking, and your local hospitals and banks aren’t ready](https://www.theverge.com/ai-artificial-intelligence/1001427/ai-is-supercharging-hacking-and-your-local-hospitals-and-banks-arent-ready)
+In March, Janice Malone began getting calls about suspicious activity from her nonprofit organization, Vivian's Door. Vivian's Door, headquartered in Alabama, typically provided training, resources, and community to underserved and minority-owned businesses. The work sometimes pu
+#Технологии  #tech  `f1629370ec90`
+
+🤖 [Anthropic’s prospectus details losses, growth, and, yes, a warning that its AI could end humanity](https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/)
+In its prospectus, Anthropic just told investors it's losing tens of billions of dollars a year, but also growing like crazy, and — oh yeah — its own AI might pose an existential risk to humanity.
+#AI  #tech #startups  `3352e1a62345`
+
+🤖 [OpenAI still doesn’t seem to have a handle on all of its rogue AI activity](https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/)
+On Friday, OpenAI published a new site devoted to “misalignment reports” and the breadth of the incidents is alarming.
+#AI  #tech #startups  `798cf1ae39ab`
+
+🚀 [Watch: From launch to fiery splashdown, SpaceX's Starship completes orbit test](https://www.bbc.co.uk/news/videos/c6ge4lp442npo?at_medium=RSS&at_campaign=rss)
+A thunderous lift off, rapid satellite deployments and a fiery ending. That's how SpaceX's 14th launch of its Starship rocket panned out today.
+#Космос  #world  `e626432a09d7`
+
+_Источников: 3 · Новостей: 8_
