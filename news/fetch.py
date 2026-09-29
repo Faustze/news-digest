@@ -4,6 +4,7 @@ RSS fetching: download feeds with a timeout and turn entries into raw items.
 
 from __future__ import annotations
 
+import html
 import re
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
@@ -16,6 +17,24 @@ from news.feedback import generate_news_id
 DEFAULT_TIMEOUT_SECONDS = 20.0
 DEFAULT_WORKERS = 8
 USER_AGENT = "news-digest/1.0 (+https://github.com/Faustze/news-digest)"
+SUMMARY_LIMIT = 600
+
+_TAG_RE = re.compile(r"<[^>]+>")
+
+
+def clean_text(raw: str, limit: int | None = None) -> str:
+    """
+    Turn feed HTML into plain text: strip tags, decode entities, collapse
+    whitespace, then truncate. Truncating last keeps markup from eating the
+    budget and never leaves a half-cut tag behind.
+    """
+    text = html.unescape(_TAG_RE.sub(" ", raw))
+    # Some feeds double-escape markup (&lt;em&gt;), which only shows up now.
+    text = _TAG_RE.sub(" ", text)
+    text = " ".join(text.split())
+    if limit is not None and len(text) > limit:
+        text = text[:limit].rsplit(" ", 1)[0] + "…"
+    return text
 
 
 def download_feed(url: str, timeout: float = DEFAULT_TIMEOUT_SECONDS) -> bytes | None:
@@ -55,11 +74,13 @@ def parse_entries(
     items = []
     for entry in feed.entries:
         published = entry.get("published_parsed") or entry.get("updated_parsed")
-        if published:
-            pub_dt = datetime(*published[:6], tzinfo=timezone.utc)
-            age_hours = (now - pub_dt).total_seconds() / 3600
-            if age_hours > cutoff_hours:
-                continue
+        if not published:
+            # Without a date the cutoff cannot be checked, and undated entries
+            # are often evergreen pages that would reappear in every digest.
+            continue
+        pub_dt = datetime(*published[:6], tzinfo=timezone.utc)
+        if (now - pub_dt).total_seconds() / 3600 > cutoff_hours:
+            continue
 
         title = entry.get("title", "")
         link = entry.get("link", "")
@@ -67,11 +88,10 @@ def parse_entries(
         items.append(
             {
                 "news_id": generate_news_id(title, link),
-                "title": title,
-                "summary": re.sub(
-                    r"<[^>]+>",
-                    "",
-                    entry.get("summary", entry.get("description", ""))[:600],
+                "title": clean_text(title),
+                "summary": clean_text(
+                    entry.get("summary", entry.get("description", "")),
+                    SUMMARY_LIMIT,
                 ),
                 "link": link,
                 "source": feed_cfg.get("name", feed.feed.get("title", "Unknown")),

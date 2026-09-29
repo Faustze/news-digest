@@ -7,7 +7,7 @@ from datetime import datetime, timezone
 import httpx
 
 from news import fetch
-from news.fetch import fetch_rss_items, parse_entries
+from news.fetch import SUMMARY_LIMIT, clean_text, fetch_rss_items, parse_entries
 
 NOW = datetime(2026, 9, 29, 12, 0, tzinfo=timezone.utc)
 FEED_CFG = {"name": "Example", "url": "https://example.com/rss", "tags": ["AI"]}
@@ -44,6 +44,38 @@ class TestParseEntries:
 
     def test_broken_content_gives_no_items(self):
         assert parse_entries(FEED_CFG, b"not xml at all <<<", 24, NOW) == []
+
+    def test_skips_undated_items(self):
+        undated = "<item><title>Evergreen</title><link>https://e.com/p</link></item>"
+        assert parse_entries(FEED_CFG, rss(undated), 24, NOW) == []
+
+    def test_summary_is_plain_text(self):
+        body = "&lt;p&gt;Tom &amp;amp; Jerry &lt;b&gt;win&lt;/b&gt;&lt;/p&gt;"
+        entry = (
+            "<item><title>A</title><link>https://e.com/a</link>"
+            "<pubDate>Tue, 29 Sep 2026 10:00:00 GMT</pubDate>"
+            f"<description>{body}</description></item>"
+        )
+        items = parse_entries(FEED_CFG, rss(entry), 24, NOW)
+        assert items[0]["summary"] == "Tom & Jerry win"
+
+
+class TestCleanText:
+    def test_strips_tags_and_decodes_entities(self):
+        assert clean_text("<p>A&nbsp;&amp;&#39;B</p><br/>C") == "A &'B C"
+
+    def test_strips_double_escaped_markup(self):
+        assert clean_text("New album &lt;em&gt;ZIRP!&lt;/em&gt;") == "New album ZIRP!"
+
+    def test_truncates_after_stripping_markup(self):
+        raw = '<a href="' + "x" * 1000 + '">' + "word " * 50 + "</a>"
+        text = clean_text(raw, SUMMARY_LIMIT)
+        assert text.startswith("word word")
+        assert "<" not in text and "href" not in text
+
+    def test_truncates_on_word_boundary(self):
+        text = clean_text("alpha beta gamma delta", 12)
+        assert text == "alpha beta…"
 
 
 class TestFetchRssItems:
