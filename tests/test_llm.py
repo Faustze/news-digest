@@ -60,18 +60,18 @@ class TestBuildLlm:
         with pytest.raises(ValueError, match="ANTHROPIC_API_KEY"):
             build_llm({**BASE_CONFIG, "provider": "anthropic"})
 
-    def test_default_models_per_provider(self, monkeypatch):
+    @pytest.mark.parametrize("provider", SUPPORTED_PROVIDERS)
+    @pytest.mark.parametrize("model", [None, "", "  "])
+    def test_missing_model_raises(self, monkeypatch, provider, model):
         monkeypatch.setenv("GROQ_API_KEY", "key")
-        monkeypatch.setenv("OPENAI_API_KEY", "key")
-        monkeypatch.setenv("ANTHROPIC_API_KEY", "key")
-        for provider in SUPPORTED_PROVIDERS:
-            model = getattr(
-                build_llm({"provider": provider}), "model", None
-            ) or getattr(build_llm({"provider": provider}), "model_name", None)
-            assert isinstance(model, str) and model
+        config = {"provider": provider}
+        if model is not None:
+            config["model"] = model
+        with pytest.raises(ValueError, match="No model configured"):
+            build_llm(config)
 
     def test_provider_is_case_insensitive(self, monkeypatch):
         monkeypatch.setenv("GROQ_API_KEY", "key")
         from langchain_groq import ChatGroq
 
-        assert isinstance(build_llm({"provider": "GROQ"}), ChatGroq)
+        assert isinstance(build_llm({**BASE_CONFIG, "provider": "GROQ"}), ChatGroq)

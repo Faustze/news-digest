@@ -16,17 +16,6 @@ _PROVIDER_KEY = {
     "anthropic": "ANTHROPIC_API_KEY",
 }
 
-_DEFAULT_MODELS = {
-    "groq": "llama-3.3-70b-versatile",
-    "openai": "gpt-4o-mini",
-    "anthropic": "claude-3-5-haiku-latest",
-    "ollama": "llama3.2",
-}
-
-
-def _default_model(provider: str) -> str:
-    return _DEFAULT_MODELS[provider]
-
 
 def _require_env(name: str, provider: str) -> str:
     value = os.environ.get(name, "").strip()
@@ -43,8 +32,9 @@ def build_llm(config: dict) -> BaseChatModel:
     """
     Build a chat model for the configured LLM provider.
 
-    Raises a clear ValueError for an unknown provider or a missing API key
-    (Ollama is local and needs no key).
+    Raises a clear ValueError for an unknown provider, a missing model or a
+    missing API key (Ollama is local and needs no key). There are no built-in
+    default models: provider model lists change too often for them to stay valid.
     """
     provider = str(config.get("provider", "groq")).strip().lower()
     if provider not in SUPPORTED_PROVIDERS:
@@ -53,7 +43,12 @@ def build_llm(config: dict) -> BaseChatModel:
             f"Supported: {', '.join(SUPPORTED_PROVIDERS)}."
         )
 
-    model = config.get("model") or _default_model(provider)
+    model = str(config.get("model") or "").strip()
+    if not model:
+        raise ValueError(
+            f"No model configured for LLM provider '{provider}'. "
+            f"Set `model:` in config.yaml."
+        )
     temperature = config.get("temperature", 0)
     max_tokens = config.get("max_tokens", 4096)
 
