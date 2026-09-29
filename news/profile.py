@@ -36,6 +36,7 @@ class Frequency(str, Enum):
     morning = "morning"
     evening = "evening"
     daily = "daily"
+    twice_daily = "twice_daily"
     weekly = "weekly"
     important_only = "important_only"
 

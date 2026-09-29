@@ -187,6 +187,13 @@ class TestLatestDigest:
         f.write_text("hello", encoding="utf-8")
         assert latest_digest(str(tmp_path)) == "hello"
 
+    def test_reads_slot_digest_only(self, tmp_path):
+        date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        (tmp_path / f"digest_{date_str}_morning.txt").write_text("am")
+        assert latest_digest(str(tmp_path), slot="morning") == "am"
+        with pytest.raises(FileNotFoundError, match="evening"):
+            latest_digest(str(tmp_path), slot="evening")
+
 
 class TestSendMessage:
     def test_400_fallback_keeps_reply_markup(self, monkeypatch):

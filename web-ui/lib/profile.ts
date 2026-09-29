@@ -5,7 +5,7 @@ export interface UserProfile {
     detail_level: 'short' | 'normal' | 'detailed'
     language_level: 'simple' | 'standard' | 'advanced'
     reading_time: number
-    frequency: 'morning' | 'evening' | 'daily' | 'weekly' | 'important_only'
+    frequency: 'morning' | 'evening' | 'daily' | 'twice_daily' | 'weekly' | 'important_only'
     priority: 'important_only' | 'balanced' | 'everything'
     language: 'ru' | 'en'
     source_reliability: 'verified' | 'balanced' | 'broad'
@@ -39,7 +39,7 @@ const STORAGE_KEY = 'news-digest-profile'
 
 const DETAIL_LEVELS = new Set(['short', 'normal', 'detailed'])
 const LANGUAGE_LEVELS = new Set(['simple', 'standard', 'advanced'])
-const FREQUENCIES = new Set(['morning', 'evening', 'daily', 'weekly', 'important_only'])
+const FREQUENCIES = new Set(['morning', 'evening', 'daily', 'twice_daily', 'weekly', 'important_only'])
 const PRIORITIES = new Set(['important_only', 'balanced', 'everything'])
 const LANGUAGES = new Set(['ru', 'en'])
 const SOURCE_RELIABILITIES = new Set(['verified', 'balanced', 'broad'])
