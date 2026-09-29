@@ -27,7 +27,6 @@ Before making changes, inspect:
 - `send_telegram.py`
 - `.github/workflows/daily_digest.yml`
 - `pyproject.toml`
-- `requirements.txt`
 
 Do not assume the architecture from this document is already implemented. Treat the repository code as the source of truth for current behavior.
 
