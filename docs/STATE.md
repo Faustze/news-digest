@@ -2,9 +2,8 @@
 
 ## Позиция
 
-- **Активная задача:** Слой PostgreSQL-персистентности (репозитории) — смёржен в `main`; дальше — связка Web UI с персистентностью
-- **Последний коммит:** ci: remove web-ui deploy to GitHub Pages (ffaa12e)
-- **Следующий шаг:** Связать Web UI с персистентностью или решить судьбу серверного слоя (FastAPI/uvicorn)
+- **Активная задача:** исправления по аудиту проекта (ветка `fix/audit-findings`)
+- **Следующий шаг:** заменить/удалить мёртвый фид NME (`nme.com/rss` → 404); проверить новый Dependabot PR (uv) с мажорными `groq` 1.x и `uuid-utils` 1.0
 
 ## Выполнено
 
@@ -44,7 +43,7 @@
 - [x] Пустой дайджест не пишется и не отправляется
 - [x] Суммаризация: transport-ошибки (timeout/rate limit/HTTP) не роняют прогон
 - [x] Web UI: `disableCategory` подключён; валидация импорта профиля; keyboard-доступные категории
-- [x] 91 unit-тест
+- [x] 91 unit-тест (на тот момент)
 
 ## Правки по второму раунду CodeRabbit (PR #1, после мержа в ветку)
 
@@ -69,17 +68,17 @@
 
 - Python 3.10+, uv для управления зависимостями
 - Pydantic для моделей профиля и feedback
-- LangChain + Groq (llama-3.3-70b-versatile) для фильтрации и суммаризации
-- feedparser для RSS
+- LangChain + Groq (`openai/gpt-oss-120b`, модель задаётся только в `config.yaml`) для фильтрации и суммаризации
+- feedparser для разбора RSS, httpx для загрузки (таймаут, параллельно)
 - httpx для Telegram API
 - Nuxt 4 static SPA для Web UI, localStorage для persistence
 - Single-user, без backend/VPS
-- PostgreSQL — локальный слой персистентности (Alembic + SQLAlchemy), необязателен для пайплайна
+- PostgreSQL — опциональный локальный эксперимент (группа зависимостей `db`), пайплайн/CI/cron его не используют
 - GitHub Actions как orchestration layer
 
 ## Что в работе
 
-Связка Web UI с персистентностью; решение по серверному слою (FastAPI/uvicorn уже в зависимостях) относительно ограничения «без бэкенда».
+Серверного слоя нет и не планируется (AGENTS.md): FastAPI/uvicorn удалены из зависимостей. Web UI остаётся статическим с import/export профиля.
 
 ## 2026-08-20: daily-commit automation (20–28.08.2026)
 
@@ -114,3 +113,14 @@
 - Зависимости: `uv lock --upgrade`; Web UI: Nuxt 3 → 4.5, vue-router 4 → 5, devalue → 5.9.2 (закрыты все 9 Dependabot-алертов; сборка и отдача страниц проверены).
 - `load_dotenv()` перенесён из импорта модулей в точки входа (тесты больше не подхватывают локальный `.env`); `news-digest` console script получил рабочий `main()`.
 - Первый ручной прогон после починки: шапка и 7/8 новостей доставлены; кнопки новостей с не-AI категорией падали с `BUTTON_DATA_INVALID` — кириллическая метка в `callback_data` (JSON `\uXXXX`) давала 68–136 байт при лимите 64. Теперь в кнопке ASCII id категории (`category_id_from_label`), `poll_feedback` понимает и старые метки, и id (раньше метка `"Технологии"` писалась в feedback как `"технологии"` вместо `technology`).
+
+### 2026-09-29: исправления по аудиту
+
+- Dependabot: `pip` → `uv` (pip-ecosystem правил только `requirements.txt`, CI падал на проверке lock); `requirements.txt` удалён, источник истины — `uv.lock`. PR #35 закрыт, #34 (setup-uv 10.2) смержен.
+- Web UI: `tsconfig.json` не подключал `.nuxt/tsconfig.*.json` → `nuxi typecheck` давал ~20 ошибок; исправлено, typecheck добавлен в CI (`vue-tsc`). PR #32 (TypeScript 7) закрыт: vue-tsc несовместим с TS 7 (нет JS API), мажоры TS игнорируются Dependabot.
+- ID новости — хеш нормализованного URL (заголовок только fallback без ссылки); `normalize_url` сохраняет регистр пути и значимые query-параметры, убирает только трекинговые.
+- RSS: загрузка через httpx с таймаутом (20 с) в 8 потоков, модуль `news/fetch.py`; полный fetch ~9 с. Текст чистится до обрезки (теги, в т.ч. двойное экранирование, entities), записи без даты пропускаются.
+- PostgreSQL → группа `db`; пароль убран из кода/alembic.ini/docker-compose, креды из `.env` (`.env.example`); `UserRepository.get_or_create`.
+- LLM: встроенные дефолтные модели удалены (устаревали), `model` обязателен в `config.yaml`.
+- Cron 04:00 → 04:17 UTC (запуски в :00 стартовали с опозданием на 5–6 ч). `output/` больше не отслеживается в `main`.
+- Тесты: 165 passed (с группой `db`), интеграционные тесты БД пропускаются без `TEST_DATABASE_URL`.
