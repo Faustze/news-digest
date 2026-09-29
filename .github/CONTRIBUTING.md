@@ -47,4 +47,4 @@ If you find a bug, please open an issue describing the problem and, if possible,
 
 ## License
 
-By contributing to this project, you agree that your contributions will be licensed under the [CC BY-NC 4.0](LICENSE.md) license.
+By contributing to this project, you agree that your contributions will be licensed under the [CC BY-NC 4.0](../LICENSE.md) license.
