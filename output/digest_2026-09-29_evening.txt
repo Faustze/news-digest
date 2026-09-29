@@ -1,0 +1,63 @@
+🌆 *Вечерний дайджест 29.09.2026*
+
+**Краткий дайджест новостей за сегодня**
+
+- **OpenAI готовится к крупнейшему раунду финансирования** – компания обсуждает привлечение $30 млрд при оценке $1,4 трлн. По плану это будет последний частный раунд перед запланированным IPO в 2027 году.
+
+- **GPT‑6.1 откладывается из‑за проблем безопасности** – OpenAI заявила, что новая версия модели пока слишком уязвима, несмотря на схожие с текущими моделями показатели производительности. Разработчики продолжают работу над усилением защиты.
+
+- **Apple Pay стартует в Индии** – сервис будет запущен совместно с Axis Bank. Крупные индийские банки пока не подключаются к системе, что может замедлить её распространение.
+
+- **OpenAI выходит в офисный софт** – анонсирована собственная «офисная» платформа, напоминающая функции ChatGPT и конкурирующая с традиционными пакетами Microsoft. Это шаг к более широкой экосистеме продуктов компании.
+
+- **Испания вводит мораторий на выселения** – после протестов, вызванных выселением 87‑летней женщины, правительство объявило временный запрет. Законопроект должен пройти в парламенте в течение 30 дней.
+
+- **Марокко назначило первую женщину‑премьер‑министра** – после победы на выборах король утвердил её на пост, сделав её второй женщиной, возглавившей правительство в арабском мире.
+
+- **Эстония обвиняет Россию в поджоге оборонного предприятия** – в стране зафиксирован акт вандализма в компании, поставляющей оборудование Украине. Эстония связывает инцидент с российскими саботажными действиями в странах НАТО.
+
+- **Новый CEO Apple может изменить график выпусков** – Джон Тернус, недавно назначенный генеральный директор, планирует увеличить частоту анонсов iPhone и Mac, отодвинув часть релизов из традиционного осеннего «сплеш‑сезона» в весну и лето.  
+
+**Что стоит отметить:**  
+- Финансовый раунд OpenAI может существенно изменить баланс сил в ИИ‑индустрии.  
+- Отложенный запуск GPT‑6.1 подчёркивает растущее внимание к этике и безопасности ИИ.  
+- Запуск Apple Pay в Индии открывает крупный рынок, но ограниченная поддержка банков может стать узким местом.  
+- Политические изменения в Марокко и Испании демонстрируют рост влияния женского лидерства и социального давления на правительство.  
+
+Оставайтесь с нами, чтобы быть в курсе самых значимых событий.
+
+─────────────────────
+
+💼 [OpenAI repotedly in talks to raise $30B round at $1.4T valuation](https://techcrunch.com/2026/09/29/openai-repotedly-in-talks-to-raise-30b-round-at-1-4t-valuation/)
+The new round is anticipated to be the company's last before its delayed 2027 public debut.
+#Бизнес  #tech #startups  `488fa8a201ac`
+
+🤖 [OpenAI says planned GPT-6.1 is too insecure to release](https://arstechnica.com/ai/2026/09/openai-says-planned-gpt-6-1-is-too-insecure-to-release/)
+Similar performance, security trade-offs also seen in current public models.
+#AI  #tech  `2038242bc92c`
+
+💼 [Apple Pay set to launch in India with Axis Bank today, sources say](https://techcrunch.com/2026/09/29/apple-pay-set-to-launch-in-india-with-axis-bank-today-sources-say/)
+Some of India's largest banks are holding off on supporting Apple Pay initially.
+#Бизнес  #tech #startups  `00378c2a9117`
+
+🤖 [OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite](https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/)
+OpenAI's newly announced suite of office features puts it into mor direct competition with more traditional software companies.
+#AI  #tech #startups  `c384f1fd66b9`
+
+🌍 [Spain announces ban on evictions after protests over 87-year-old woman's removal from flat](https://www.bbc.co.uk/news/articles/cwm2qmjgy93do?at_medium=RSS&at_campaign=rss)
+The ban is part of a number of proposals that must be approved in parliament within 30 days.
+#Мир  #world  `0bf69d7e1aeb`
+
+🌍 [First female prime minister named in Morocco after winning elections](https://www.bbc.co.uk/news/articles/c674kkjllw17o?at_medium=RSS&at_campaign=rss)
+Her appointment by the king makes her only the second woman to lead a government in the Arab world.
+#Мир  #world  `e8fe0bdb962f`
+
+🌍 [Estonia blames Russia for arson at defence company supplying Ukraine](https://www.bbc.co.uk/news/articles/c6m27l4er4jxo?at_medium=RSS&at_campaign=rss)
+Russia has been accused of launching sabotage attacks across a number of European Nato countries which have been helping Ukraine.
+#Мир  #world  `dde97f969995`
+
+💻 [Apple’s new CEO could change when it launches phones and laptops](https://www.theverge.com/tech/1002107/apple-ceo-john-ternus-product-launch-strategy)
+John Ternus, Apple's new CEO, wants Apple to launch products more often than its usual splashy moments in the fall and the spring, according to a Bloomberg report detailing some of Ternus's initial plans for the company. Apple regularly holds iPhone launch events in September and
+#Технологии  #tech  `91a7fe13fbcd`
+
+_Источников: 4 · Новостей: 8_
