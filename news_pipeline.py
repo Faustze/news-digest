@@ -5,12 +5,10 @@ Fetches, filters, classifies, ranks, and summarises news from RSS feeds.
 
 import asyncio
 import json
-import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-import feedparser
 import yaml
 from dotenv import load_dotenv
 from langchain_core.language_models.chat_models import BaseChatModel
@@ -19,7 +17,8 @@ from langchain_core.prompts import ChatPromptTemplate
 
 from news.classify import classify_batch
 from news.deduplicate import deduplicate
-from news.feedback import generate_news_id, load_feedback
+from news.feedback import load_feedback
+from news.fetch import fetch_rss_items
 from news.llm import build_llm
 from news.profile import CATEGORY_LABELS, UserProfile, load_profile
 from news.rank import rank_items
@@ -31,57 +30,6 @@ from news.schedule import cutoff_hours_for_frequency
 def load_config(path: str = "config.yaml") -> dict:
     with open(path) as f:
         return yaml.safe_load(f)
-
-
-# ── Step 1: Fetch RSS items ───────────────────────────────────────────────────
-
-
-def fetch_rss_items(config: dict, cutoff_hours: int = 24) -> list[dict]:
-    """Fetch raw entries from all configured RSS feeds."""
-    items = []
-
-    for feed_cfg in config["feeds"]:
-        try:
-            feed = feedparser.parse(feed_cfg["url"])
-        except (OSError, KeyError) as e:
-            print(f"[WARN] Could not fetch {feed_cfg['url']}: {e}")
-            continue
-
-        if not feed.entries and feed.get("bozo"):
-            print(
-                f"[WARN] Empty feed {feed_cfg['url']}: "
-                f"{getattr(feed, 'bozo_exception', 'parse error')}"
-            )
-
-        for entry in feed.entries:
-            published = entry.get("published_parsed") or entry.get("updated_parsed")
-            if published:
-                pub_dt = datetime(*published[:6], tzinfo=timezone.utc)
-                age_hours = (datetime.now(timezone.utc) - pub_dt).total_seconds() / 3600
-                if age_hours > cutoff_hours:
-                    continue
-
-            title = entry.get("title", "")
-            link = entry.get("link", "")
-            news_id = generate_news_id(title, link)
-
-            items.append(
-                {
-                    "news_id": news_id,
-                    "title": title,
-                    "summary": re.sub(
-                        r"<[^>]+>",
-                        "",
-                        entry.get("summary", entry.get("description", ""))[:600],
-                    ),
-                    "link": link,
-                    "source": feed_cfg.get("name", feed.feed.get("title", "Unknown")),
-                    "tags": feed_cfg.get("tags", []),
-                    "categories": feed_cfg.get("categories", []),
-                }
-            )
-
-    return items
 
 
 # ── Step 2: Executive summary ─────────────────────────────────────────────────

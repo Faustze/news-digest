@@ -6,6 +6,10 @@ output_dir: output
 max_items: 15
 batch_size: 12
 
+# Per-feed download timeout (seconds) and parallel downloads
+fetch_timeout: 20
+fetch_workers: 8
+
 provider: groq
 model: openai/gpt-oss-120b
 temperature: 0
