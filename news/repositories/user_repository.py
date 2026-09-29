@@ -14,7 +14,8 @@ class UserRepository:
         )
         return result.scalar_one()
 
-    def get_by_telegram_id(self, telegram_id: int):
+    def get_or_create(self, telegram_id: int) -> int:
+        """Возвращает id пользователя по telegram_id, создавая его при отсутствии."""
         row = self.session.execute(
             text("SELECT * FROM users WHERE telegram_id = :telegram_id"),
             {"telegram_id": telegram_id},

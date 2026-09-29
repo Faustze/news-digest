@@ -1,8 +1,15 @@
+import os
 from datetime import datetime, timezone
 
 import pytest
+
+# The DB layer is an optional dependency group: `uv sync --group db`.
+pytest.importorskip("sqlalchemy")
+pytest.importorskip("alembic")
+
 from alembic.config import Config
 from sqlalchemy import create_engine, text
+from sqlalchemy.engine import make_url
 from sqlalchemy.exc import OperationalError
 from sqlalchemy.orm import sessionmaker
 
@@ -11,10 +18,18 @@ from news.repositories.article_repository import ArticleRepository
 from news.repositories.feedback_repository import FeedbackRepository
 from news.repositories.user_repository import UserRepository
 
-TEST_DATABASE_URL = (
-    "postgresql+psycopg://newsdigest:qwerty123@localhost:5434/newsdigest_test"
+# e.g. postgresql+psycopg://newsdigest:<password>@localhost:5434/newsdigest_test
+TEST_DATABASE_URL = os.environ.get("TEST_DATABASE_URL", "").strip()
+if not TEST_DATABASE_URL:
+    pytest.skip("TEST_DATABASE_URL is not set", allow_module_level=True)
+
+TEST_DB_NAME = make_url(TEST_DATABASE_URL).database
+# Служебная база "postgres" на том же сервере — из неё создаём тестовую.
+ADMIN_DATABASE_URL = (
+    make_url(TEST_DATABASE_URL)
+    .set(database="postgres")
+    .render_as_string(hide_password=False)
 )
-ADMIN_DATABASE_URL = "postgresql+psycopg://newsdigest:qwerty123@localhost:5434/postgres"
 
 
 @pytest.fixture(scope="session")
@@ -29,10 +44,11 @@ def db():
         admin_engine = create_engine(ADMIN_DATABASE_URL, isolation_level="AUTOCOMMIT")
         with admin_engine.connect() as conn:  # with сам закроет соединение
             exists = conn.execute(
-                text("SELECT 1 FROM pg_database WHERE datname = 'newsdigest_test'")
+                text("SELECT 1 FROM pg_database WHERE datname = :name"),
+                {"name": TEST_DB_NAME},
             ).scalar()
             if not exists:  # у CREATE DATABASE нет IF NOT EXISTS — проверяем вручную
-                conn.execute(text("CREATE DATABASE newsdigest_test"))
+                conn.execute(text(f'CREATE DATABASE "{TEST_DB_NAME}"'))
 
         # alembic сам читает URL из alembic.ini, но мы подменяем его на
         # тестовую базу — чтобы миграции не тронули рабочую newsdigest.
@@ -73,7 +89,7 @@ def session(db):
 
 
 def test_insert_user(session):
-    inserted_id = UserRepository(session).get_by_telegram_id(987654321)
+    inserted_id = UserRepository(session).get_or_create(987654321)
 
     row = session.execute(
         text("SELECT id, telegram_id FROM users WHERE id = :id"),
@@ -85,7 +101,7 @@ def test_insert_user(session):
 
 
 def test_upsert_feedback(session):
-    user_id = UserRepository(session).get_by_telegram_id(987654321)
+    user_id = UserRepository(session).get_or_create(987654321)
     article_id = ArticleRepository(session).get_or_create(
         url="https://example.com",
         title="title",
@@ -113,7 +129,7 @@ def test_upsert_feedback(session):
 
 
 def test_join_returns_user_and_article(session):
-    user_id = UserRepository(session).get_by_telegram_id(987654321)
+    user_id = UserRepository(session).get_or_create(987654321)
     article_id = ArticleRepository(session).get_or_create(
         url="https://example.com",
         title="title",
@@ -206,7 +222,7 @@ def test_get_or_create_dedupes_normalized_url(session):
 
 def test_delete_user(session):
     repo = UserRepository(session)
-    repo.get_by_telegram_id(987654321)
+    repo.get_or_create(987654321)
     session.commit()
 
     assert repo.delete_by_telegram_id(987654321) is True
@@ -219,7 +235,7 @@ def test_delete_user(session):
 
 
 def test_delete_feedback(session):
-    user_id = UserRepository(session).get_by_telegram_id(987654321)
+    user_id = UserRepository(session).get_or_create(987654321)
     article_id = ArticleRepository(session).get_or_create(
         url="https://example.com",
         title="title",

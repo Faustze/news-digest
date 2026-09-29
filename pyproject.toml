@@ -19,11 +19,6 @@ dependencies = [
     "pyyaml>=6.0",
     "pydantic>=2.0",
     "python-dotenv>=1.0",
-    "sqlalchemy>=2.0.52",
-    "alembic>=1.19.1",
-    "psycopg[binary]>=3.3.4",
-    "fastapi>=0.141.1",
-    "uvicorn[standard]>=0.52.3",
 ]
 
 [project.urls]
@@ -37,3 +32,5 @@ pythonpath = ["."]
 
 [dependency-groups]
 dev = ["ruff>=0.1", "pytest>=8.0"]
+# Local PostgreSQL experiment, not used by the pipeline: `uv sync --group db`.
+db = ["sqlalchemy>=2.0.52", "alembic>=1.19.1", "psycopg[binary]>=3.3.4"]

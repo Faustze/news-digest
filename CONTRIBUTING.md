@@ -6,7 +6,7 @@ Thank you for your interest in contributing! This document outlines how to get i
 
 1. Fork the repository
 2. Clone your fork: `git clone https://github.com/<your-username>/news-digest.git`
-3. Install dependencies: `uv sync` (or `pip install -r requirements.txt`)
+3. Install dependencies: `uv sync` (or `pip install .`)
 4. Create a `.env` file with your API keys (see README.md)
 5. Create a branch for your changes: `git checkout -b feature/your-feature`
 

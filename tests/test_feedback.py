@@ -34,10 +34,26 @@ class TestNewsId:
         id2 = generate_news_id("Title B", "https://example.com/b")
         assert id1 != id2
 
-    def test_case_insensitive(self):
-        id1 = generate_news_id("Hello World", "https://Example.COM")
-        id2 = generate_news_id("hello world", "https://example.com")
+    def test_host_case_insensitive(self):
+        id1 = generate_news_id("Hello World", "https://Example.COM/a")
+        id2 = generate_news_id("hello world", "https://example.com/a")
         assert id1 == id2
+
+    def test_edited_title_keeps_id(self):
+        id1 = generate_news_id("Old headline", "https://example.com/a")
+        id2 = generate_news_id("New headline", "https://example.com/a")
+        assert id1 == id2
+
+    def test_tracking_params_ignored(self):
+        id1 = generate_news_id("T", "https://example.com/a?utm_source=rss")
+        id2 = generate_news_id("T", "https://example.com/a")
+        assert id1 == id2
+
+    def test_title_fallback_without_url(self):
+        id1 = generate_news_id("Hello  World", "")
+        id2 = generate_news_id("hello world", " ")
+        assert id1 == id2
+        assert id1 != generate_news_id("Other", "")
 
     def test_is_hex_string(self):
         nid = generate_news_id("Test", "https://example.com")

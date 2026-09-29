@@ -26,3 +26,6 @@ Thumbs.db
 
 # Windows download metadata
 *:Zone.Identifier
+
+# Generated digests (CI stores them on the digest-data branch)
+output/

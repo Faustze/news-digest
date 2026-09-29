@@ -93,7 +93,7 @@ news-digest/
 
 ## GitHub Actions
 
-Ежедневный запуск в 04:00 UTC:
+Ежедневный запуск в 04:17 UTC (не в :00 — GitHub сильно задерживает такие cron):
 
 1. Опрос Telegram feedback
 2. Запуск пайплайна
@@ -109,6 +109,19 @@ news-digest/
 uv run pytest tests/ -v
 ```
 
+## Локальная PostgreSQL (опционально)
+
+Пайплайну база не нужна. Слой PostgreSQL — локальный эксперимент, его
+зависимости вынесены в группу `db`:
+
+```bash
+cp .env.example .env   # задай POSTGRES_PASSWORD, DATABASE_URL, TEST_DATABASE_URL
+docker compose up -d
+uv sync --group db
+uv run alembic upgrade head
+uv run pytest tests/test_feedback_repository.py   # без TEST_DATABASE_URL — skip
+```
+
 ## Линтер
 
 ```bash
@@ -122,7 +135,7 @@ uv run ruff format .
 - **Нет VPS** — статический Web UI + GitHub Actions
 - **Single-user** — один профиль, без авторизации
 - **Groq Free Tier** — batching, rate limiting, минимум запросов
-- **PostgreSQL** — локальный слой персистентности для разработки (Alembic + SQLAlchemy); пайплайн остаётся серверлессным
+- **PostgreSQL** — опциональный локальный слой (группа зависимостей `db`); пайплайн, CI и cron его не используют
 
 > Примечание: проект изначально задуман без базы данных (профиль/feedback в JSON). Слой PostgreSQL (`news/db.py`, `news/repositories/`, `alembic/`) добавлен как локальный инструмент разработки и не является обязательным для работы пайплайна.
 

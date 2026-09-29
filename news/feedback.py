@@ -11,6 +11,8 @@ from pathlib import Path
 
 from pydantic import BaseModel, Field, field_validator
 
+from news.url_utils import normalize_url
+
 # ── Schema ────────────────────────────────────────────────────────────────────
 
 
@@ -48,8 +50,16 @@ class FeedbackStore(BaseModel):
 
 
 def generate_news_id(title: str, url: str) -> str:
-    """Generate a stable news ID from title and canonical URL."""
-    raw = f"{title.strip().lower()}|{url.strip().lower()}"
+    """
+    Generate a stable news ID from the canonical URL.
+
+    The title is only a fallback for entries without a link: publishers edit
+    headlines after publication, so it must not change the ID of a linked item.
+    """
+    if url.strip():
+        raw = f"url:{normalize_url(url)}"
+    else:
+        raw = f"title:{' '.join(title.lower().split())}"
     return hashlib.sha256(raw.encode("utf-8")).hexdigest()
 
 

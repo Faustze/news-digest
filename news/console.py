@@ -1,7 +1,15 @@
 from datetime import datetime, timezone
 
-from news.db import SessionLocal
-from news.repositories import ArticleRepository, FeedbackRepository, UserRepository
+from dotenv import load_dotenv
+
+load_dotenv()
+
+from news.db import SessionLocal  # after load_dotenv(): needs DATABASE_URL
+from news.repositories import (
+    ArticleRepository,
+    FeedbackRepository,
+    UserRepository,
+)
 
 
 def main():
@@ -10,7 +18,7 @@ def main():
         feedback_repo = FeedbackRepository(session)
         article_repo = ArticleRepository(session)
 
-        user_id = user_repo.get_by_telegram_id(987654321)
+        user_id = user_repo.get_or_create(987654321)
         article_id = article_repo.get_or_create(
             url="https://example.com",
             title="title",

@@ -27,14 +27,16 @@ Before making changes, inspect:
 - `send_telegram.py`
 - `.github/workflows/daily_digest.yml`
 - `pyproject.toml`
-- `requirements.txt`
 
 Do not assume the architecture from this document is already implemented. Treat the repository code as the source of truth for current behavior.
 
 ## Core constraints
 
 1. Do not introduce a backend server.
-2. Do not introduce a database.
+2. Do not introduce a database into the pipeline, CI or cron. The existing
+   local PostgreSQL experiment (`news/db.py`, `news/repositories/`, `alembic/`)
+   stays in the optional `db` dependency group and must not become a runtime
+   requirement; credentials come only from environment variables.
 3. Do not introduce a VPS or always-on process.
 4. Do not add authentication for the first single-user version.
 5. Do not expose RSS/source configuration to the normal user UI.
@@ -430,8 +432,8 @@ When these documents conflict with vague assumptions in old code, follow the exp
 - `user-profile.json` — профиль пользователя (предпочтения)
 - `feedback.json` — реакции пользователя
 - `web-ui/` — статический Nuxt-интерфейс (onboarding + редактор профиля)
-- `output/` — сгенерированные дайджесты (коммитятся в repo)
-- `.github/workflows/daily_digest.yml` — ежедневный cron (04:00 UTC)
+- `output/` — сгенерированные дайджесты (локально; в CI сохраняются в ветку `digest-data`)
+- `.github/workflows/daily_digest.yml` — ежедневный cron (04:17 UTC)
 - `docs/` — рабочие документы
 
 ## Процесс
@@ -443,7 +445,7 @@ When these documents conflict with vague assumptions in old code, follow the exp
 
 ## Деплой
 
-GitHub Actions: `daily_digest.yml` — cron 04:00 UTC, коммитит output, отправляет в Telegram.
+GitHub Actions: `daily_digest.yml` — cron 04:17 UTC, сохраняет output и feedback в ветку `digest-data`, отправляет в Telegram.
 Секреты: `GROQ_API_KEY`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`.
 
 ## Конвенции
