@@ -1,3 +1,7 @@
+# Run from the repo root: docker compose -f db/docker-compose.yml --env-file .env up -d
+# `name` keeps the project (and its volume) the same as when this file lived in the root.
+name: news-digest
+
 services:
   postgres:
     image: postgres:16

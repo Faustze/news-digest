@@ -48,7 +48,7 @@ pnpm run dev
 ```bash
 uv sync
 export GROQ_API_KEY=your_groq_key
-uv run python news_pipeline.py
+uv run python -m news.pipeline      # или: uv run news-digest
 ```
 
 ### 4. Отправь в Telegram
@@ -56,39 +56,34 @@ uv run python news_pipeline.py
 ```bash
 export TELEGRAM_BOT_TOKEN=your_token
 export TELEGRAM_CHAT_ID=your_chat_id
-uv run python send_telegram.py
+uv run python -m news.send_telegram
 ```
 
 ## Структура проекта
 
 ```text
 news-digest/
-├── news/                    # Python модули
-│   ├── profile.py           # Схема профиля, загрузка, валидация
-│   ├── feedback.py          # Схема feedback, persistence
+├── news/                    # Весь Python-код
+│   ├── pipeline.py          # Основной пайплайн (точка входа)
+│   ├── send_telegram.py     # Отправка в Telegram с feedback кнопками
+│   ├── poll_feedback.py     # Опрос Telegram callback'ов
+│   ├── fetch.py             # Загрузка RSS и очистка текста
+│   ├── deduplicate.py       # Дедупликация статей
 │   ├── classify.py          # Классификация новостей через LLM
 │   ├── rank.py              # Ранжирование по профилю
-│   ├── deduplicate.py       # Дедупликация статей
+│   ├── profile.py           # Схема профиля, загрузка, валидация
+│   ├── feedback.py          # Схема feedback, persistence
 │   ├── llm.py               # Фабрика LLM-провайдеров (groq/openai/anthropic/ollama)
 │   ├── schedule.py          # Динамический cutoff по частоте
-│   ├── console.py           # Консольные проверки БД (точка входа)
-│   ├── db.py                # SQLAlchemy engine + SessionLocal
-│   └── repositories/        # Слой доступа к данным (user/article/feedback)
-├── alembic/                 # Миграции схемы PostgreSQL
-├── news_pipeline.py         # Основной пайплайн
-├── send_telegram.py         # Отправка в Telegram с feedback кнопками
-├── poll_feedback.py         # Опрос Telegram callback'ов
-├── config.yaml              # RSS feeds, модель, настройки
-├── docker-compose.yml       # Локальный PostgreSQL для разработки
-├── user-profile.json        # Профиль пользователя (создаётся через Web UI)
-├── feedback.json            # Реакции пользователя
-├── web-ui/                  # Nuxt Web UI
-│   ├── pages/index.vue      # Onboarding
-│   ├── pages/profile.vue    # Редактор профиля
-│   ├── composables/         # State management
-│   └── lib/                 # Типы, категории
+│   ├── url_utils.py         # Нормализация URL
+│   └── db/                  # Опциональная PostgreSQL: session, repositories, console
+├── db/                      # alembic.ini, миграции, docker-compose.yml (опционально)
+├── web-ui/                  # Nuxt Web UI (onboarding + редактор профиля)
 ├── tests/                   # Тесты
-└── .github/workflows/       # GitHub Actions
+├── docs/                    # Рабочие документы (PLAN, STATE, TODO, DESIGN)
+├── .github/                 # Workflows, CONTRIBUTING, SECURITY, шаблоны
+├── config.yaml              # RSS feeds, модель, настройки
+└── user-profile.json        # Профиль пользователя (создаётся через Web UI)
 ```
 
 ## GitHub Actions
@@ -116,9 +111,9 @@ uv run pytest tests/ -v
 
 ```bash
 cp .env.example .env   # задай POSTGRES_PASSWORD, DATABASE_URL, TEST_DATABASE_URL
-docker compose up -d
+docker compose -f db/docker-compose.yml --env-file .env up -d
 uv sync --group db
-uv run alembic upgrade head
+uv run alembic -c db/alembic.ini upgrade head
 uv run pytest tests/test_feedback_repository.py   # без TEST_DATABASE_URL — skip
 ```
 
@@ -137,7 +132,7 @@ uv run ruff format .
 - **Groq Free Tier** — batching, rate limiting, минимум запросов
 - **PostgreSQL** — опциональный локальный слой (группа зависимостей `db`); пайплайн, CI и cron его не используют
 
-> Примечание: проект изначально задуман без базы данных (профиль/feedback в JSON). Слой PostgreSQL (`news/db.py`, `news/repositories/`, `alembic/`) добавлен как локальный инструмент разработки и не является обязательным для работы пайплайна.
+> Примечание: проект изначально задуман без базы данных (профиль/feedback в JSON). Слой PostgreSQL (`news/db/`, `db/`) добавлен как локальный инструмент разработки и не является обязательным для работы пайплайна.
 
 ## Лицензия
 

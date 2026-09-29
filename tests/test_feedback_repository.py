@@ -7,16 +7,16 @@ import pytest
 pytest.importorskip("sqlalchemy")
 pytest.importorskip("alembic")
 
+from alembic import command
 from alembic.config import Config
 from sqlalchemy import create_engine, text
 from sqlalchemy.engine import make_url
 from sqlalchemy.exc import OperationalError
 from sqlalchemy.orm import sessionmaker
 
-from alembic import command
-from news.repositories.article_repository import ArticleRepository
-from news.repositories.feedback_repository import FeedbackRepository
-from news.repositories.user_repository import UserRepository
+from news.db.repositories.article_repository import ArticleRepository
+from news.db.repositories.feedback_repository import FeedbackRepository
+from news.db.repositories.user_repository import UserRepository
 
 # e.g. postgresql+psycopg://newsdigest:<password>@localhost:5434/newsdigest_test
 TEST_DATABASE_URL = os.environ.get("TEST_DATABASE_URL", "").strip()
@@ -52,7 +52,7 @@ def db():
 
         # alembic сам читает URL из alembic.ini, но мы подменяем его на
         # тестовую базу — чтобы миграции не тронули рабочую newsdigest.
-        cfg = Config("alembic.ini")
+        cfg = Config("db/alembic.ini")
         cfg.set_main_option("sqlalchemy.url", TEST_DATABASE_URL)
 
         # Накатываем схему из репо на пустую тестовую базу (то же, что alembic upgrade head)

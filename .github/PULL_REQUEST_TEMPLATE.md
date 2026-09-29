@@ -12,7 +12,7 @@
 
 ## Checklist
 
-- [ ] I have tested the changes locally (`python news_pipeline.py`)
+- [ ] I have tested the changes locally (`uv run python -m news.pipeline`)
 - [ ] I have updated the README.md if needed
 - [ ] I have not committed any secrets or API keys
 - [ ] My changes follow the project's code style

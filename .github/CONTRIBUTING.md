@@ -42,9 +42,9 @@ If you find a bug, please open an issue describing the problem and, if possible,
 
 1. Update the README.md if your change affects usage or setup
 2. Update `config.yaml` if you add or remove feeds
-3. Ensure the pipeline runs successfully: `python news_pipeline.py`
+3. Ensure the pipeline runs successfully: `uv run python -m news.pipeline`
 4. Submit a pull request with a clear description of your changes
 
 ## License
 
-By contributing to this project, you agree that your contributions will be licensed under the [CC BY-NC 4.0](LICENSE.md) license.
+By contributing to this project, you agree that your contributions will be licensed under the [CC BY-NC 4.0](../LICENSE.md) license.

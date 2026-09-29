@@ -4,12 +4,12 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-from news.db import SessionLocal  # after load_dotenv(): needs DATABASE_URL
-from news.repositories import (
+from news.db.repositories import (
     ArticleRepository,
     FeedbackRepository,
     UserRepository,
 )
+from news.db.session import SessionLocal  # after load_dotenv(): needs DATABASE_URL
 
 
 def main():

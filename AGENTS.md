@@ -23,8 +23,8 @@ Before making changes, inspect:
 
 - `README.md`
 - `config.yaml`
-- `news_pipeline.py`
-- `send_telegram.py`
+- `news/pipeline.py`
+- `news/send_telegram.py`
 - `.github/workflows/daily_digest.yml`
 - `pyproject.toml`
 
@@ -34,7 +34,7 @@ Do not assume the architecture from this document is already implemented. Treat 
 
 1. Do not introduce a backend server.
 2. Do not introduce a database into the pipeline, CI or cron. The existing
-   local PostgreSQL experiment (`news/db.py`, `news/repositories/`, `alembic/`)
+   local PostgreSQL experiment (`news/db/`, `db/`)
    stays in the optional `db` dependency group and must not become a runtime
    requirement; credentials come only from environment variables.
 3. Do not introduce a VPS or always-on process.
@@ -88,7 +88,7 @@ Keep a clear separation between:
 9. Telegram delivery
 10. feedback persistence
 
-Do not put all logic back into `news_pipeline.py` if it becomes difficult to test. Extract small modules when useful.
+Do not put all logic back into `news/pipeline.py` if it becomes difficult to test. Extract small modules when useful.
 
 ## User profile semantics
 
@@ -411,8 +411,9 @@ When these documents conflict with vague assumptions in old code, follow the exp
 ## Быстрые команды
 
 - `uv sync` — установка зависимостей
-- `uv run python news_pipeline.py config.yaml` — запуск пайплайна
-- `uv run python send_telegram.py` — отправка в Telegram
+- `uv run python -m news.pipeline config.yaml` (или `uv run news-digest`) — запуск пайплайна
+- `uv run python -m news.poll_feedback` — сбор реакций из Telegram
+- `uv run python -m news.send_telegram` — отправка в Telegram
 - `uv run pytest` — тесты
 - `uv run ruff check .` — линтер
 - `uv run ruff format .` — форматирование
@@ -425,9 +426,12 @@ When these documents conflict with vague assumptions in old code, follow the exp
   - `classify.py` — классификация новостей через LLM
   - `rank.py` — ранжирование по профилю
   - `deduplicate.py` — дедупликация статей
-- `news_pipeline.py` — оркестратор (fetch → deduplicate → classify → rank → summarize → output)
-- `send_telegram.py` — отправка дайджеста в Telegram с feedback-кнопками
-- `poll_feedback.py` — опрос Telegram callback'ов (getUpdates)
+  - `fetch.py` — загрузка RSS (таймаут, параллельно) и очистка текста
+  - `pipeline.py` — оркестратор (fetch → deduplicate → classify → rank → summarize → output)
+  - `send_telegram.py` — отправка дайджеста в Telegram с feedback-кнопками
+  - `poll_feedback.py` — опрос Telegram callback'ов (getUpdates)
+  - `db/` — опциональный локальный слой PostgreSQL (session, repositories, console)
+- `db/` — `alembic.ini`, миграции и `docker-compose.yml` для опциональной PostgreSQL
 - `config.yaml` — фиды, модель, технические настройки
 - `user-profile.json` — профиль пользователя (предпочтения)
 - `feedback.json` — реакции пользователя

@@ -1,5 +1,5 @@
 """
-Tests for send_telegram module.
+Tests for news.send_telegram module.
 """
 
 import json
@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 import pytest
 
 from news.profile import CATEGORY_LABELS
-from send_telegram import (
+from news.send_telegram import (
     TELEGRAM_MAX_LEN,
     build_callback_data,
     build_inline_keyboard,
@@ -192,7 +192,7 @@ class TestSendMessage:
     def test_400_fallback_keeps_reply_markup(self, monkeypatch):
         import httpx
 
-        import send_telegram
+        from news import send_telegram
 
         req = httpx.Request("POST", "https://api.telegram.org/x")
         responses = [
@@ -222,7 +222,7 @@ class TestSendMessage:
     def test_error_does_not_leak_token(self, monkeypatch):
         import httpx
 
-        import send_telegram
+        from news import send_telegram
 
         req = httpx.Request("POST", "https://api.telegram.org/botSECRET/x")
         resp = httpx.Response(
@@ -242,7 +242,7 @@ class TestSendMessage:
 
 class TestSendDigest:
     def test_long_header_is_split_and_items_sent(self, monkeypatch):
-        import send_telegram
+        from news import send_telegram
 
         sent = []
         monkeypatch.setattr(

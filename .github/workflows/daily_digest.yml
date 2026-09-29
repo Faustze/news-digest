@@ -55,18 +55,18 @@ jobs:
       - name: Poll Telegram feedback
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-        run: uv run python poll_feedback.py
+        run: uv run python -m news.poll_feedback
 
       - name: Run pipeline
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-        run: uv run python news_pipeline.py config.yaml
+        run: uv run python -m news.pipeline config.yaml
 
       - name: Send to Telegram
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: uv run python send_telegram.py
+        run: uv run python -m news.send_telegram
 
       # Runs even if delivery failed: the feedback cursor has already been
       # advanced on Telegram's side, so losing it would drop reactions.

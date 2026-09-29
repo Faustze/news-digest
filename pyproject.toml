@@ -1,3 +1,7 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
 [project]
 name = "news-digest"
 version = "0.1.0"
@@ -25,7 +29,11 @@ dependencies = [
 Homepage = "https://github.com/Faustze/news-digest"
 
 [project.scripts]
-news-digest = "news_pipeline:main"
+news-digest = "news.pipeline:main"
+
+[tool.hatch.build.targets.wheel]
+# Only the application package: tests/, db/ migrations and web-ui/ are not installable.
+packages = ["news"]
 
 [tool.pytest.ini_options]
 pythonpath = ["."]

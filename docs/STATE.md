@@ -125,3 +125,11 @@
 - LLM: встроенные дефолтные модели удалены (устаревали), `model` обязателен в `config.yaml`.
 - Cron 04:00 → 04:17 UTC (запуски в :00 стартовали с опозданием на 5–6 ч). `output/` больше не отслеживается в `main`.
 - Тесты: 165 passed (с группой `db`), интеграционные тесты БД пропускаются без `TEST_DATABASE_URL`.
+
+### 2026-09-29: реорганизация структуры
+
+- Точки входа перенесены в пакет: `python -m news.pipeline` / `news.send_telegram` / `news.poll_feedback` (или `uv run news-digest`).
+- Добавлен `[build-system]` (hatchling, пакет `news`): раньше консольный скрипт не ставился, а `pip install .` ставил папку миграций как пакет `alembic`.
+- PostgreSQL сгруппирована: `db/` (alembic.ini, migrations, docker-compose.yml с `name: news-digest` — старый том сохраняется) и `news/db/`.
+- Удалены устаревшие `LAST_BUILD.md`/`PROJECT_STATS.md`; `CONTRIBUTING.md`/`SECURITY.md` → `.github/`.
+- Открытый вопрос: `pyproject.toml` указывает лицензию MIT, `LICENSE.md` — CC BY-NC 4.0.
