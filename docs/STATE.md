@@ -3,7 +3,7 @@
 ## Позиция
 
 - **Активная задача:** исправления по аудиту проекта (ветка `fix/audit-findings`)
-- **Следующий шаг:** заменить/удалить мёртвый фид NME (`nme.com/rss` → 404); проверить новый Dependabot PR (uv) с мажорными `groq` 1.x и `uuid-utils` 1.0
+- **Следующий шаг:** проверить новый Dependabot PR (uv) с мажорными `groq` 1.x и `uuid-utils` 1.0
 
 ## Выполнено
 
@@ -119,6 +119,7 @@
 - Dependabot: `pip` → `uv` (pip-ecosystem правил только `requirements.txt`, CI падал на проверке lock); `requirements.txt` удалён, источник истины — `uv.lock`. PR #35 закрыт, #34 (setup-uv 10.2) смержен.
 - Web UI: `tsconfig.json` не подключал `.nuxt/tsconfig.*.json` → `nuxi typecheck` давал ~20 ошибок; исправлено, typecheck добавлен в CI (`vue-tsc`). PR #32 (TypeScript 7) закрыт: vue-tsc несовместим с TS 7 (нет JS API), мажоры TS игнорируются Dependabot.
 - ID новости — хеш нормализованного URL (заголовок только fallback без ссылки); `normalize_url` сохраняет регистр пути и значимые query-параметры, убирает только трекинговые.
+- Фид NME: `nme.com/rss` (404) → `nme.com/feed`.
 - RSS: загрузка через httpx с таймаутом (20 с) в 8 потоков, модуль `news/fetch.py`; полный fetch ~9 с. Текст чистится до обрезки (теги, в т.ч. двойное экранирование, entities), записи без даты пропускаются.
 - PostgreSQL → группа `db`; пароль убран из кода/alembic.ini/docker-compose, креды из `.env` (`.env.example`); `UserRepository.get_or_create`.
 - LLM: встроенные дефолтные модели удалены (устаревали), `model` обязателен в `config.yaml`.

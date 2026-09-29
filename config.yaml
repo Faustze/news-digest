@@ -199,7 +199,7 @@ feeds:
 
   # ── Music ─────────────────────────────────────
   - name: NME
-    url: https://www.nme.com/rss
+    url: https://www.nme.com/feed
     tags: [music]
     categories: [music]
 
