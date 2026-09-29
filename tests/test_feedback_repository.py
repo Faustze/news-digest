@@ -1,8 +1,15 @@
+import os
 from datetime import datetime, timezone
 
 import pytest
+
+# The DB layer is an optional dependency group: `uv sync --group db`.
+pytest.importorskip("sqlalchemy")
+pytest.importorskip("alembic")
+
 from alembic.config import Config
 from sqlalchemy import create_engine, text
+from sqlalchemy.engine import make_url
 from sqlalchemy.exc import OperationalError
 from sqlalchemy.orm import sessionmaker
 
@@ -11,10 +18,18 @@ from news.repositories.article_repository import ArticleRepository
 from news.repositories.feedback_repository import FeedbackRepository
 from news.repositories.user_repository import UserRepository
 
-TEST_DATABASE_URL = (
-    "postgresql+psycopg://newsdigest:qwerty123@localhost:5434/newsdigest_test"
+# e.g. postgresql+psycopg://newsdigest:<password>@localhost:5434/newsdigest_test
+TEST_DATABASE_URL = os.environ.get("TEST_DATABASE_URL", "").strip()
+if not TEST_DATABASE_URL:
+    pytest.skip("TEST_DATABASE_URL is not set", allow_module_level=True)
+
+TEST_DB_NAME = make_url(TEST_DATABASE_URL).database
+# Служебная база "postgres" на том же сервере — из неё создаём тестовую.
+ADMIN_DATABASE_URL = (
+    make_url(TEST_DATABASE_URL)
+    .set(database="postgres")
+    .render_as_string(hide_password=False)
 )
-ADMIN_DATABASE_URL = "postgresql+psycopg://newsdigest:qwerty123@localhost:5434/postgres"
 
 
 @pytest.fixture(scope="session")
@@ -29,10 +44,11 @@ def db():
         admin_engine = create_engine(ADMIN_DATABASE_URL, isolation_level="AUTOCOMMIT")
         with admin_engine.connect() as conn:  # with сам закроет соединение
             exists = conn.execute(
-                text("SELECT 1 FROM pg_database WHERE datname = 'newsdigest_test'")
+                text("SELECT 1 FROM pg_database WHERE datname = :name"),
+                {"name": TEST_DB_NAME},
             ).scalar()
             if not exists:  # у CREATE DATABASE нет IF NOT EXISTS — проверяем вручную
-                conn.execute(text("CREATE DATABASE newsdigest_test"))
+                conn.execute(text(f'CREATE DATABASE "{TEST_DB_NAME}"'))
 
         # alembic сам читает URL из alembic.ini, но мы подменяем его на
         # тестовую базу — чтобы миграции не тронули рабочую newsdigest.

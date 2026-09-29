@@ -1,7 +1,15 @@
 from datetime import datetime, timezone
 
-from news.db import SessionLocal
-from news.repositories import ArticleRepository, FeedbackRepository, UserRepository
+from dotenv import load_dotenv
+
+load_dotenv()
+
+from news.db import SessionLocal  # after load_dotenv(): needs DATABASE_URL
+from news.repositories import (
+    ArticleRepository,
+    FeedbackRepository,
+    UserRepository,
+)
 
 
 def main():
