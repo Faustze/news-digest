@@ -1,0 +1,65 @@
+🌅 *Утренний дайджест 30.09.2026*
+
+**Ежедневный дайджест новостей (10 минут чтения)**  
+
+- **Медицинские прорывы**  
+  *Самый мощный препарат от ожирения* – в клиническом испытании экспериментального лекарства ретатрутide (трехгормонный препарат, имитирующий GLP‑1, GIP и глюкагон) пациенты сбросили до 25 % массы тела. Исследователи считают, что препарат может стать новым стандартом лечения тяжёлого ожирения, однако пока неясно, как быстро будет одобрен регуляторами.
+
+- **Технологии и искусственный интеллект**  
+  *OpenAI откладывает IPO* – генеральный директор Сэм Альтман заявил, что компания не будет выходить на биржу, пока не будет уверена в безопасности своих моделей. Точных сроков нет, но акцент делается на развитие систем контроля и этики.  
+  *AMD покупает World Labs* – американский полупроводниковый гигант объявил о сделке стоимостью 8,2 млрд USD, направленной на усиление собственных AI‑технологий и конкуренции с Nvidia. Ожидается закрытие сделки к концу года.  
+  *EliseAI привлекла $350 млн* – стартап, поддерживаемый a16z, удвоил свою оценку до $4 млрд, получив крупный раунд инвестиций для развития генеративных моделей в сфере креативных задач.  
+  *Tesla укрепила финансовую подушку* – автопроизводитель оформил новые кредитные линии на $30 млрд. Планируется использовать их для масштабирования проектов Cybercab и Optimus, хотя в текущем году компания не планирует их активировать.
+
+- **Кибербезопасность**  
+  *Арест лидера ShinyHunters в Нидерландах* – полиция задержала 24‑летнего жителя Амстердама, подозреваемого в организации кибератак группы ShinyHunters, известной взломами Ticketmaster, Rockstar Games и недавним нападением на FBI. Задержание произошло 15 сентября, расследование продолжается.
+
+- **Экономика и инфраструктура Африки**  
+  *Данготе открывает нефтеперерабатывающий завод в Кении* – миллиардер Алхасан Данготе, несмотря на протесты местных жителей из‑за земельных споров, продолжает реализацию проекта, который должен стать ключевым элементом его стратегии индустриализации континента к 2030 году.
+
+- **Приватность и автотехника**  
+  *Автомобили «выдают» данные* – исследователи из Northeastern University обнаружили, что многие современные автомобили и их мобильные приложения регулярно передают подробные данные (геолокацию, стиль вождения, состояние транспортного средства) крупнейшим технологическим компаниям. Эксперты советуют проверять настройки конфиденциальности и ограничивать доступ приложений к личной информации.
+
+**Что важно помнить сегодня**  
+1. Новые лекарства от ожирения могут изменить подход к лечению метаболических заболеваний, но требуют тщательной регуляторной проверки.  
+2. AI‑индустрия продолжает концентрировать инвестиции: крупные сделки AMD и EliseAI указывают на рост конкуренции и ускоренное развитие генеративных моделей.  
+3. Безопасность данных и киберугрозы остаются в центре внимания: арест лидера ShinyHunters и раскрытие масштабного сбора автоданных подчеркивают необходимость усиления защиты личной информации.  
+4. Инфраструктурные проекты в Африке, такие как нефтеперерабатывающий завод Данготе, могут стать драйверами экономического роста, но требуют решения социальных конфликтов.  
+
+Оставайтесь в курсе, проверяйте источники и защищайте свои данные.
+
+─────────────────────
+
+🔬 [Most powerful obesity drug yet: People lost up to 25% of weight in trial](https://arstechnica.com/health/2026/09/most-powerful-obesity-drug-yet-people-lost-up-to-25-of-weight-in-trial/)
+Retatrutide is a triple-hormone obesity drug simulating GLP-1, GIP, and glucagon.
+#Наука  #tech  `76710d5604fa`
+
+💼 [Africa's richest man to launch Kenya oil refinery despite land protests](https://www.bbc.co.uk/news/articles/cmkg8dpwy25po?at_medium=RSS&at_campaign=rss)
+The Kenya refinery is part of Dangote's ambitious bid to expand and help industralise Africa by 2030.
+#Бизнес  #world  `baa5f6a9c79e`
+
+🤖 [Sam Altman says OpenAI won’t go public until its models are safe](https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety)
+For months, people have wondered when OpenAI will go public. CEO Sam Altman says it won't happen until the company can make better promises about model safety, with no firm timeline in sight. "We intend to continue with AI progress … but as the models have had this surge forward
+#AI  #tech  `2070dbfbe712`
+
+💻 [Suspected ShinyHunters leader arrested in the Netherlands](https://www.theverge.com/tech/1002410/shinyhunters-hacking-suspect-arrested)
+Dutch police say they arrested a 24-year-old Amsterdam man in connection with ShinyHunters, the hacking group that claimed responsibility for high-profile attacks on Ticketmaster, Rockstar Games, and more recently, the FBI. In a press release, Dutch authorities state that they ar
+#Технологии  #tech  `2edfdf088ea2`
+
+🤖 [AMD acquires World Labs AI startup, upping the ante against Nvidia](https://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-fei-lis-world-models-startup/)
+The deal, which is expected to close by year's end, is worth $8.2 billion.
+#AI  #tech  `6c45c6b69148`
+
+💻 [Your car and its mobile app are probably handing over all kinds of data to tech companies](https://techcrunch.com/2026/09/29/your-car-and-its-mobile-app-are-probably-handing-over-all-kinds-of-data-to-tech-companies/)
+Researchers at Northeastern University found vehicles and their companion apps regularly shared detailed data with some of the largest tech companies.
+#Технологии  #tech #startups  `6e157421a52c`
+
+🤖 [a16z-backed EliseAI raises $350M, doubles valuation to $4B](https://techcrunch.com/2026/09/29/a16z-backed-eliseai-raises-350m-doubles-valuation-to-4b/)
+EliseAI raises $350M, doubles valuation in a year.
+#AI  #tech #startups  `de3756debc69`
+
+🤖 [Tesla secures $30B in new credit lines as it looks to scale Cybercab, Optimus](https://techcrunch.com/2026/09/29/tesla-secures-30b-in-new-credit-lines-as-it-looks-to-scale-cybercab-optimus/)
+The company says it won't draw on the new debt facilities this year, as it has already planned at least $25 billion in capital expenditures.
+#AI  #tech #startups  `d7009ba9f8f0`
+
+_Источников: 4 · Новостей: 8_
