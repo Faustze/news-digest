@@ -1,0 +1,62 @@
+🌆 *Вечерний дайджест 30.09.2026*
+
+**Ежедневный дайджест новостей (10 минут чтения)**  
+
+- **Украина — крупнейшая атака на энергетику**. За ночь российские силы нанесли удары по объектам электро- и газоснабжения в 11 регионах страны, а также по жилым зданиям и железнодорожным путям, сообщает премьер-министр Украины. По оценкам экспертов, это самая масштабная атака на украинскую инфраструктуру с весны. Власти предупреждают о возможных перебоях в подаче электроэнергии в ближайшие дни.
+
+- **Суд над контрабандистами в Англии**. Шесть человек получили тюремные сроки за непредумышленное убийство 31 мигранта, погибшего в катастрофе малой лодки в Ла-Манше в ноябре 2021 года. Суд признал их участниками двух сетей людейо-торговли, которые переправляли мигрантов через канал. Приговоры варьируются от 5 до 12 лет.
+
+- **Эскалация конфликта в Эфиопии**. В регионе Тиграй продолжаются боевые действия, в результате которых, по сведениям медиков, погибло 52 мирных жителя. Ситуация распространилась и на соседние области, туристов в городе Лалибела оставили без возможности передвижения. Международные организации призывают к немедленному прекращению огня.
+
+- **Утечка данных в США**. Министерство обороны уведомило миллионы действующих и бывших военнослужащих о том, что их персональные данные были украдены в результате многомесячного кибератаки. Взломщики получили доступ к именам, датам рождения, номерам соцстрахования и другим сведениям. Правительство советует менять пароли и следить за подозрительной активностью в банковских сервисах.
+
+- **Скандал с миграционной схемой «один‑в‑один»**. Франция и Великобритания объявили о прекращении совместной программы, позволяющей перемещать около 1 500 мигрантов из Британии во Францию за год. Схема была критикована за низкую эффективность и плохие условия для участников. Ожидается, что обе страны пересмотрят свои миграционные политики в ближайшее время.
+
+- **Трагедия на рейсе Flydubai**. Пассажиры рейса, направлявшегося в Израиль, зафиксировали видеоматериал с моментами после ножевого нападения в салоне. По предварительным данным, несколько человек получили ранения, пострадавший был задержан. Расследование инцидента продолжается, власти проверяют безопасность полётов из ОАЭ.
+
+- **Отмена казни в США**. Выполнение приговора к смертной казни против Криста Пайк, осуждённой за убийство в 1996 году, было отменено за несколько часов до назначенного времени. Судебные органы заявили, что возникли вопросы к процессу и правовым основаниям приговора.
+
+- **Технологический обзор: наушники Sonos Ace Ultra**. Новая модель получила положительные отзывы за качество звука, комфорт и надёжность сборки. Однако критики указывают, что прежний дизайн приложения Sonos остаётся проблемой, мешающей полному раскрытию потенциала продукта.  
+
+**Что стоит помнить**  
+1. Энергетическая инфраструктура Украины под угрозой — готовьтесь к возможным отключениям.  
+2. Утечка данных в США может затронуть и российских военнослужащих, работающих в совместных проектах — проверяйте свои аккаунты.  
+3. Эфиопский конфликт усиливается, путешествия в регион остаются рискованными.  
+
+Оставайтесь в курсе, следите за официальными источниками и берегите себя.
+
+─────────────────────
+
+🌍 [Six smugglers jailed for manslaughter over worst Channel small boats disaster](https://www.bbc.co.uk/news/articles/c6n8m33pn9djo?at_medium=RSS&at_campaign=rss)
+Thirty-one migrants died when their boat went down in November 2021. The trial found that the guilty men were part of two smuggling networks.
+#Мир  #world  `f234bc3c560a`
+
+🌍 [Russia launches largest attack on Ukraine energy infrastructure since spring](https://www.bbc.co.uk/news/articles/ckjw5jx2l393o?at_medium=RSS&at_campaign=rss)
+In total 11 regions of the country were attacked overnight, with residential buildings and railways also targeted, the Ukrainian PM says.
+#Мир  #world  `ce7de2b8b571`
+
+🌍 [Ethiopia fighting escalates in Tigray killing 52 civilians, medic tells the BBC](https://www.bbc.co.uk/news/articles/c6grveejg1e2o?at_medium=RSS&at_campaign=rss)
+The deadly fighting has also spread to neighbouring regions, stranding tourists in Lalibela.
+#Мир  #world  `045455973d27`
+
+💻 [Hackers stole millions of US military personnel records during months-long data breach](https://techcrunch.com/2026/09/30/hackers-stole-millions-of-us-military-personnel-records-during-months-long-data-breach/)
+The Department of Defense notified millions of current and former U.S. military personnel that their personal information had been stolen in a months-long breach.
+#Технологии  #tech #startups  `b6bfe493125b`
+
+📱 [The Sonos Ace Ultra are the headphones Sonos should have made the first time](https://www.theverge.com/tech/1002122/sonos-ace-ultra-headphones-review)
+The original Sonos Ace headphones should have been a triumphant entry into a new product category. Instead, they were overshadowed by Sonos's disastrous app redesign. And while the original Ace are well built, sound good, and are incredibly comfortable, they weren't good Sonos he
+#Гаджеты  #gadgets #reviews  `780adc381aaf`
+
+🌍 [UK-France 'one in, one out' migrant scheme scrapped](https://www.bbc.co.uk/news/articles/c64gvnv4eqylo?at_medium=RSS&at_campaign=rss)
+Some 1,500 people have been removed to France since the scheme began just over a year ago.
+#Мир  #world  `c90cada36194`
+
+🌍 [Execution of US murderer Christa Pike halted shortly before it was due to happen](https://www.bbc.co.uk/news/articles/cw20vxxn876no?at_medium=RSS&at_campaign=rss)
+Pike was convicted and sentenced to death in 1996 for the murder of Colleen Slemmer.
+#Мир  #world  `1c63f8a3f9d0`
+
+🌍 [Passengers describe stabbing on Israel-bound plane](https://www.bbc.co.uk/news/videos/cv70d22kd34do?at_medium=RSS&at_campaign=rss)
+Passengers on the Flydubai flight bound for Israel filmed the moments following the stabbing.
+#Мир  #world  `6a26ef5a7a31`
+
+_Источников: 3 · Новостей: 8_
