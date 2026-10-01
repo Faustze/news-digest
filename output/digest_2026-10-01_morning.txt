@@ -1,0 +1,62 @@
+🌅 *Утренний дайджест 01.10.2026*
+
+**Ежедневный дайджест новостей (10 минут чтения)**  
+
+- **Медицинская тревога:** Пятый случай смерти от кори у невакцинированного человека зафиксирован в США. CDC пока не учитывает все смертельные исходы, но в ответ штаты ускоряют вакцинацию — уже распределено более 8 500 доз вакцины.  
+
+- **Смертная казнь в США:** Заключённая на смертной казни Криста Пайк пережила попытку исполнения при двух инъекциях пентобарбиталa. Адвокат заявляет, что ей предоставляют «жизненно важные меры» в больнице. Случай возбудил новые дискуссии о надежности протоколов казни.  
+
+- **Научный прорыв:** Исследователи уточнили, что кратер, ставший причиной вымирания динозавров, мог поддерживать горячую, питательную воду более 5 млн лет после удара. Это меняет представления о том, насколько быстро планета восстановилась после катастрофы.  
+
+- **Права и границы:** Напоминаем, что «пограничное исключение» позволяет правительству США проводить обыск вашего телефона без ордера, если вы возвращаетесь из поездки за границу. Юридические эксперты советуют использовать шифрование и VPN.  
+
+- **Технологии:** Google анонсировал Gemini 4 Argon — самый мощный на сегодня ИИ‑модель компании, ориентированную на задачи программирования и кибербезопасности. По заявлению Google, модель ускорит разработку кода и обнаружение уязвимостей.  
+
+- **Инвестиции в ИИ:** Стартап Flow Engineering, разрабатывающий ИИ‑агентов для проектирования аппаратного обеспечения, привлёк инвесторов Valor, Atreides и Sequoia. Оценка компании достигла $750 млн, в совет директоров вошёл Roelof Botha.  
+
+- **Авиапроисшествие на Ближнем Востоке:** Пилот, который нанес ножевой удар другому пилоту на рейсе из Дубая в Тель‑Авив, находится под следствием в Саудовской Аравии. Премьер‑министр Израиля Биньямин Нетаньяху отметил, что пока рано говорить о причастности Ирана.  
+
+- **Экстремальный спуск:** Пассажир рейса в Израиль описал падение самолёта на 17 000 футов (≈ 5 200 м) за менее чем две минуты, после чего пилот смог стабилизировать полёт и выполнить вынужденную посадку. Инцидент расследуется международными авиационными органами.  
+
+**Что стоит помнить:**  
+- Вакцинация от кори — критически важна, особенно в условиях роста скептицизма.  
+- Право на личную жизнь в цифровом пространстве под угрозой при пересечении границы.  
+- Технологические гиганты продолжают ускорять развитие ИИ, что будет влиять на рынок труда и безопасность.  
+
+Оставайтесь в курсе, проверяйте источники и защищайте свои данные.
+
+─────────────────────
+
+🔬 [Fifth unvaccinated person dies of measles; CDC still not counting all deaths](https://arstechnica.com/health/2026/09/fifth-unvaccinated-person-dies-of-measles-cdc-still-not-counting-all-deaths/)
+State health officials race to vaccinate residents by giving over 8,500 doses.
+#Наука  #tech  `e07119be803b`
+
+🌍 [US death row inmate survives execution attempt after two lethal injections](https://www.bbc.co.uk/news/articles/cq8r6rjdvlx6o?at_medium=RSS&at_campaign=rss)
+Killer Christa Pike's lawyer says she is being given "life-saving measures" in hospital after two syringes of pentobarbital.
+#Мир  #world  `6cebc67ea5e0`
+
+🔬 [Dinosaur-killing impact crater might have been teeming with life](https://arstechnica.com/science/2026/09/dinosaur-killing-impact-crater-might-have-been-teeming-with-life/)
+Hot, nutrient water might have lasted for over 5 million years after the impact.
+#Наука  #tech  `7bbde2df8c75`
+
+🌍 [Returning from vacation? The government can search your phone without a warrant.](https://arstechnica.com/tech-policy/2026/09/immigration-advocate-sues-border-agents-for-demanding-his-cell-phone/)
+Reminder: The "border exemption" to your rights is real.
+#Мир  #tech  `3a09118155dd`
+
+🤖 [Google releases Gemini 4 Argon, called its most powerful model yet](https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/)
+Google has released its latest Gemini model, marketing it as a workhorse for coding and cybersecurity work.
+#AI  #tech #startups  `4ecce857efc5`
+
+🤖 [Valor, Atreides, and Sequoia back AI startup Flow Engineering at $750M valuation](https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/)
+Flow Engineering, which is bringing AI agents to hardware design, also landed Roelof Botha as an angel investor and board member.
+#AI  #tech #startups  `aff99a6b8734`
+
+🌍 [Too early to say if Iran involved in Dubai-Tel Aviv flight attack, Israeli PM says](https://www.bbc.co.uk/news/articles/cqgmrm7xd8wyo?at_medium=RSS&at_campaign=rss)
+A pilot who stabbed another pilot on an Israel-bound plane is being investigated in Saudi Arabia, Benjamin Netanyahu says.
+#Мир  #world  `bde1bf217063`
+
+🌍 [Plummeting Israel flight like 'rollercoaster', says passenger](https://www.bbc.co.uk/news/videos/cwm2r2v42vdeo?at_medium=RSS&at_campaign=rss)
+An aeroplane flying to Israel fell 17,000ft (5,200m) in less than two minutes before it was diverted.
+#Мир  #world  `864876294e4b`
+
+_Источников: 3 · Новостей: 8_
