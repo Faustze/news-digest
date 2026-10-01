@@ -1,0 +1,63 @@
+🌆 *Вечерний дайджест 01.10.2026*
+
+**Ежедневный дайджест новостей – 1 октября 2026**
+
+- **OpenAI расширяет возможности ChatGPT** – в сервис добавлен «виртуальный примерочный». Пользователи могут загрузить свою фотографию, примерить одежду и аксессуары, а понравившиеся товары сохранять в библиотеку «Favorites». Функция уже доступна в бета‑версии и обещает упростить онлайн‑шоппинг, особенно в эпоху визуального контента.
+
+- **OpenAI расстаётся с тремя исследователями по безопасности** – по данным WSJ, компания уволила трёх специалистов после внутреннего расследования, которое выявило утечку конфиденциальных данных. Это событие подчёркивает растущую напряжённость вокруг вопросов этики и контроля ИИ‑технологий.
+
+- **Эмуляция PS5 делает прорыв на ПК** – разработчики добились стабильного запуска таких игр, как *Astro Bot* и *Demon’s Souls*, без оригинальной консоли. Технология использует улучшенные модели процессоров и новые методы оптимизации, что открывает возможности для более широкого доступа к эксклюзивному контенту.
+
+- **Критическое состояние Криста Пайк после двойного смертного укола** – адвокаты осуждённой за убийство женщины требуют помилования после неудачной попытки исполнения приговора в Теннесси. Случай возбудил общественные дебаты о гуманности и надёжности методов казни в США.
+
+- **Квантовый прорыв: новый кубит из сверхтекучего гелия** – учёные предложили кубит, который может быть в 100 раз менее подвержен ошибкам благодаря защите от электромагнитных шумов. Если экспериментальные подтверждения подтвердятся, технология может стать дополнением к существующим сверхпроводниковым кубитам или даже основой нового типа квантовой памяти.
+
+- **Запуск миссии NASA + SpaceX Crew‑13** – 1 октября в 11:10 по восточному времени ракета Falcon 9 с капсулой Dragon поднялась с площадки LC‑40 во Флориде. На борту – астронавты NASA Джессика Уоттс и Люк Делани, канадский космонавт Джошуа Кутрик и российский космонавт Сергей Тетерятников. Миссия направлена на научные эксперименты и поддержание работы Международной космической станции.
+
+**Что стоит отметить**
+
+- **Технологический прогресс**: OpenAI делает ИИ более «практичным» в повседневной жизни, а эмуляция PS5 открывает новые горизонты гейминга на ПК. Квантовый кубит обещает ускорить развитие вычислительных мощностей.
+
+- **Этика и безопасность**: увольнение исследователей OpenAI и случай с двойным уколом в Теннесси подчёркивают, насколько важны надёжные процедуры и прозрачность в работе с новыми технологиями и правовыми системами.
+
+- **Космос**: очередной успешный запуск Crew‑13 подтверждает эффективность публично‑частного партнёрства США в пилотируемой космонавтике и поддерживает международный научный обмен на орбите.
+
+**Кратко о главном**: сегодня мир увидел, как ИИ становится ближе к реальному шоппингу, как растут риски и требования к безопасности в сфере ИИ, как геймеры получают доступ к эксклюзивным тайтлам без консоли, как продолжаются споры о смертных казнях, как квантовые технологии делают шаг к практичности, и как космические полёты продолжают расширять границы человеческого присутствия в космосе. 
+
+Оставайтесь с нами, чтобы быть в курсе самых значимых событий.
+
+─────────────────────
+
+🤖 [ChatGPT can now virtually try on clothes for you](https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/)
+OpenAI is rolling out new shopping features for ChatGPT that let users virtually try on clothing and accessories using their own photos and save products they like to a Favorites library.
+#AI  #tech #startups  `2013b1f83ffe`
+
+🎮 [PS5 emulation is suddenly making big strides on PC](https://arstechnica.com/gaming/2026/10/ps5-emulation-is-suddenly-making-big-strides-on-pc/)
+Games like Astro Bot and Demon’s Souls are running ably without a console.
+#Игры  #tech  `3eb2d79f83b0`
+
+🤖 [OpenAI cuts ties with 3 safety researchers, WSJ reports](https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/)
+OpenAI has parted ways with three safety researchers after an internal investigation found they mishandled sensitive company information, report says.
+#AI  #tech #startups  `762ed0753f9e`
+
+🌍 [Christa Pike in critical condition after surviving two lethal injections, lawyer says](https://www.bbc.co.uk/news/articles/cmn4540d4z87o?at_medium=RSS&at_campaign=rss)
+Pike’s lawyers have asked for her death sentence to be commuted following the botched execution.
+#Мир  #world  `ed7017134cb4`
+
+🌍 [What happened in the failed execution of Christa Pike - and what next?](https://www.bbc.co.uk/news/articles/ckge4eql4q7eo?at_medium=RSS&at_campaign=rss)
+The convicted killer is in hospital in Tennessee after surviving two lethal injections, in a case that has raised many questions.
+#Мир  #world  `b101de0857f4`
+
+🔬 [This new qubit could be 100 times less error-prone in superfluid quantum computer breakthrough](https://www.sciencedaily.com/releases/2026/09/260930020309.htm)
+A proposed qubit made with superfluid helium could cut quantum computing error rates by around 100 times by shielding quantum information from common forms of electromagnetic noise. If experiments confirm the predictions, the technology could eventually work alongside today’s sup
+#Наука  #science  `6ea2a6e099aa`
+
+🚀 [NASA’s SpaceX Crew-13 Launches](https://www.nasa.gov/image-article/nasas-spacex-crew-13-launches/)
+In this Oct. 1, 2026, photo, a SpaceX Falcon 9 rocket and Dragon spacecraft launch from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida. The spacecraft is carrying NASA astronauts Jessica Watkins and Luke Delaney, CSA (Canadian Space Agency) astronaut Jos
+#Космос  #space #NASA  `392409273c1e`
+
+🚀 [NASA’s SpaceX Crew-13 Launches to International Space Station](https://www.nasa.gov/news-release/nasas-spacex-crew-13-launches-to-international-space-station/)
+Four crew members of NASA’s SpaceX Crew-13 mission launched at 11:10 a.m. EDT Thursday from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida for a science expedition aboard the International Space Station. “Crew-13 is another demonstration of America’s unm
+#Космос  #space #NASA  `b4f8c79c683b`
+
+_Источников: 5 · Новостей: 8_
