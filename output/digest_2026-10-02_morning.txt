@@ -1,0 +1,75 @@
+🌅 *Утренний дайджест 02.10.2026*
+
+**Ежедневный дайджест новостей – 2 октября 2026**
+
+- **SpaceX — новый рекорд и исторический полет**  
+  13‑й экипаж Crew‑13 стартовал на ракете Falcon 9. За 8 часов астронавты достигли МКС, установив американский рекорд скорости полёта. Среди членов экипажа Джессика Уоттс стала первой чернокожей женщиной, возглавившей космическую миссию. Компания также рассказала о «хирургическом» вмешательстве в подготовку корабля, которое позволило устранить потенциальные технические проблемы до старта.
+
+- **Венера — тайна облаков раскрыта**  
+  Учёные предложили новую модель, объясняющую странный светящийся слой в атмосфере Венеры. Оказалось, что в ней находятся микроскопические частицы железного пыли, смешанные с серной кислотой. Такая смесь создаёт оптические свойства, ранее ошибочно принимаемые за неизвестный химический процесс.
+
+- **Авиакатастрофа Flydubai — герой в кабине**  
+  Капитан Смит Мачхар, пилот рейса Flydubai, рассказал индийскому премьеру Нарендре Моди о том, как в полёте от Дубая к Оману его сопилот попытался захватить управление. Мачхар открыл дверь кабины, позволив другим членам экипажа и пассажирам вмешаться и нейтрализовать угрозу. Его действия получили широкое признание как пример профессионального мужества.
+
+- **OpenAI — увольнение за утечку данных**  
+  Внутри компании OpenAI уволили несколько сотрудников, подозреваемых в передаче конфиденциальных материалов внешней группе, занимающейся оценкой ИИ. По словам руководства, утечка могла поставить под угрозу безопасность разработок и планы по дальнейшему развитию моделей.
+
+- **Эфиопия и Эритрея — обострение дипломатии**  
+  На фоне усиливающихся боевых действий в северных регионах Эфиопии, страны официально разорвали дипломатические отношения. Эфиопские силы продолжают сражаться с повстанцами, а Эритрея обвиняет столицу в провокациях, что повышает риск расширения конфликта.
+
+- **Apple — умный дом без видеокамер**  
+  По сведениям аналитика Марка Гурмана, Apple разрабатывает камеру для умного дома, которая не будет записывать видео. Вместо этого устройство будет отправлять пользователям текстовые описания событий (например, «движение у входной двери»). Планируется интеграция в новую экосистему Apple Home, где приватность будет ключевым преимуществом.
+
+**Что стоит отметить**  
+- Космические полёты продолжают ускоряться: 8‑часовой трансфер к МКС — новый стандарт для США.  
+- Научные прорывы в планетологии помогают лучше понять климат Венеры, что важно для будущих миссий.  
+- Инцидент с Flydubai подчёркивает необходимость строгих протоколов безопасности в авиации.  
+- Увольнения в OpenAI могут сигнализировать о росте внутреннего контроля над данными в индустрии ИИ.  
+- Геополитическое напряжение в Восточной Африке требует внимания международных организаций.  
+- Apple делает ставку на конфиденциальность в умных устройствах, что может изменить рынок домашней безопасности.
+
+**Полезные ссылки**  
+- SpaceX — подробный отчёт о миссии Crew‑13 (NASA, 2026)  
+- Журнал «Nature Astronomy» — модель облаков Венеры (апрель 2026)  
+- Официальное заявление Flydubai о героическом пилоте (Flydubai, 2026)  
+- Пресс‑релиз OpenAI о мерах безопасности (OpenAI, 2026)  
+- Аналитика Conflict Monitor о конфликте Эфиопия‑Эритрея (2026)  
+- Статья The Verge о новой камере Apple (март 2026)
+
+Оставайтесь в курсе, делитесь новостями с коллегами и подписывайтесь на наш канал, чтобы получать свежие дайджесты каждый день.
+
+─────────────────────
+
+🚀 [SpaceX describes surgical intervention before launch of latest crew mission](https://arstechnica.com/space/2026/10/spacex-describes-surgical-intervention-before-launch-of-latest-crew-mission/)
+With Crew-13, Jessica Watkins became the first Black woman to lead a mission into space.
+#Космос  #tech  `354bf4c7a6b4`
+
+🚀 [Venus' mysterious haze is actually cosmic dust](https://arstechnica.com/science/2026/10/venus-mysterious-haze-is-actually-cosmic-dust/)
+A physical model show that iron dust and sulfuric acid create the right properties.
+#Космос  #tech  `3f6b0ecdc709`
+
+🌍 ['I was not going to let others die' - pilot of Flydubai flight describes cockpit attack by co-pilot](https://www.bbc.co.uk/news/articles/c639m98gde00o?at_medium=RSS&at_campaign=rss)
+Capt Smit Machchhar tells Indian Prime Minister Narendra Modi he opened the cockpit door to let others in during the attack.
+#Мир  #world  `38e5ae2c81bf`
+
+🌍 [OpenAI fires workers for 'mishandling sensitive information'](https://www.bbc.co.uk/news/articles/c6y9z9r4ejzwo?at_medium=RSS&at_campaign=rss)
+The former employees were investigated for sharing data with an outside AI evaluation group.
+#Мир  #world  `403383bfc7ee`
+
+🌍 [Ethiopia and Eritrea cut diplomatic ties as northern conflict escalates](https://www.bbc.co.uk/news/articles/crpd0d0jl0y0o?at_medium=RSS&at_campaign=rss)
+The diplomatic fallout comes as Ethiopian forces battle rebel fighters across its northern region.
+#Мир  #world  `a3caa3cde632`
+
+🌍 [Watch: Emotional pilot recounts moment of Flydubai attack](https://www.bbc.co.uk/news/videos/c914d43y7xn4o?at_medium=RSS&at_campaign=rss)
+He has been hailed a hero for opening the cockpit door, allowing passengers to overpower his co-pilot.
+#Мир  #world  `f7959ff4fab1`
+
+🚀 [Astronauts arrive at International Space Station on the quickest US express flight yet](https://phys.org/news/2026-10-astronauts-international-space-station-quickest.html)
+Four astronauts pulled up at the International Space Station on Thursday after launching on an eight-hour express that set a U.S. speed record.
+#Космос  #science #physics  `968809615f83`
+
+📱 [Apple’s reportedly developing a smart home camera that doesn’t record video](https://www.theverge.com/tech/1003877/apple-security-camera-no-video)
+Apple's rumored push into smart home tech could include a smart home security camera that only gives users text event descriptions instead of video footage. Mark Gurman said in the first episode of the Power On podcast that the camera will be part of "a new Apple smart home ecosy
+#Гаджеты  #tech  `cb7a5343369d`
+
+_Источников: 4 · Новостей: 8_
