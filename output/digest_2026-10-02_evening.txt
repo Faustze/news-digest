@@ -1,0 +1,60 @@
+🌆 *Вечерний дайджест 02.10.2026*
+
+**Ежедневный дайджест новостей – 2 октября 2026**
+
+- **Космос** – SpaceX успешно провела тройной запуск ракет, подтвердив свою лидирующую позицию в коммерческих полётах. Rocket Lab подписал крупный контракт на поставку стартовых услуг, что укрепит её роль в малых спутниках. Тем временем Blue Origin просит у FAA разрешения на до 50 запусков ракеты New Glenn и 50 посадок ускорителей в год – шаг к масштабному конкурентному полёту.
+
+- **Технологии и ИИ** – Белый дом собрал почти всех топ‑менеджеров крупнейших технологических компаний (Zuckerberg, Bezos, Musk, Dario Amodei) для подписания «пакта о безопасности ИИ». Президент Дональд Трамп подписал указ, переименовывающий искусственный интеллект в «суперинтеллект», подчёркивая необходимость более строгих нормативов. Meta и OpenAI одновременно работают над «дружелюбными» интерфейсами, пытаясь снизить опасения общественности.
+
+- **Автомобили** – Rivian объявила о росте производства до 19 751 единицы и поставок 19 248 автомобилей в III квартале, что означает +85 % к годам ранее и +45 % в доставках. Успех связан с запуском более доступного модели R2. Tesla, напротив, сообщает о падении продаж Cybertruck и общем снижении объёмов в квартале по сравнению с прошлым годом, хотя показатели всё ещё находятся в пределах ожиданий аналитиков.
+
+- **Apple** – Компания ввела новые ограничения для функции **Full Disk Access** в macOS, объясняя это ростом угроз со стороны всё более автономных AI‑агентов, которые могут получать доступ к файлам, сообщениям и истории браузера. Пользователям рекомендуется обновить систему и проверить разрешения приложений.
+
+- **Украина** – Мэр Киева Виталий Кличко предупредил, что город находится в «очень драматической ситуации» из‑за усиления российских ударов по критической инфраструктуре. По его словам, разрушения затрагивают энергосистему, транспорт и связь, что усложняет жизнь жителей.
+
+- **Скандалы в образовании** – Губернатор штата Нью‑Йорк заявил, что университет Корнелла «подвёл» женщину, известную как Джейн Доу, которая обвиняет семь студентов в изнасиловании в братской организации в 2024 году. Делается акцент на необходимости реформ в процедурах расследования и поддержки пострадавших.
+
+- **Техконференция** – На TechCrunch Disrupt 2026 Джас Кхайра из Blackstone выступит на сцене Builders, рассказывая о стратегии создания новых лидеров в сфере искусственного интеллекта. Регистрация открыта, второй билет можно купить со скидкой 50 %.
+
+**Что стоит отметить:**  
+- **Суперинтеллект** в США получает официальное признание, что может ускорить законодательные инициативы.  
+- **Rivian** демонстрирует, что стратегия доступных моделей работает, тогда как Tesla сталкивается с падением интереса к Cybertruck.  
+- **Безопасность данных** становится приоритетом: Apple ужесточает контроль доступа, а Белый дом требует от технологических гигантов более ответственного подхода к ИИ.
+
+Оставайтесь с нами, чтобы быть в курсе самых важных событий.
+
+─────────────────────
+
+🚀 [Rocket Report: SpaceX completes launch triple-header; Rocket Lab nets big contract](https://arstechnica.com/space/2026/10/rocket-report-spacex-completes-launch-triple-header-rocket-lab-nets-big-contract/)
+Blue Origin seeks FAA approval for up to 50 New Glenn launches and 50 booster landings per year.
+#Космос  #tech  `35f265872b0a`
+
+🤖 [It’s not AI anymore, it’s ‘super intelligence’ (according to the White House)](https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/)
+This week, the White House got nearly every major tech CEO in one room — Zuckerberg, Bezos, Musk, and Anthropic’s Dario Amodei among them — to sign an AI safety pledge that President Donald Trump called “morally binding.” Trump also signed an executive order officially rebranding
+#AI  #tech #startups  `c811be548cd7`
+
+🌍 [Woman at centre of Cornell rape inquiry was 'failed' by officials, says New York governor](https://www.bbc.co.uk/news/articles/cqvg04718lr9o?at_medium=RSS&at_campaign=rss)
+The woman, known as Jane Doe, alleges she was raped by seven students at a fraternity house at the university in 2024.
+#Мир  #world  `248202bb4706`
+
+🌍 [Intensified Russian strikes are tearing Kyiv apart, warns mayor](https://www.bbc.co.uk/news/articles/c6wyv44y4ywjo?at_medium=RSS&at_campaign=rss)
+Vitaliy Klitschko says Ukraine's capital is in a "very dramatic situation" as Russia hits critical infrastructure.
+#Мир  #world  `802f910032c8`
+
+💼 [Rivian’s sales pop as the company’s big R2 bet starts to pay off](https://www.theverge.com/transportation/1004127/rivian-q3-2026-production-delivery-r2)
+Rivian had high hopes for its more affordable R2 vehicle - and so far, those hopes appear to be paying off. The company released its third-quarter production and delivery numbers today, reporting 19,751 vehicles produced and 19,248 delivered. That represents an 85 percent year-ov
+#Бизнес  #tech  `4c81b7c76fc3`
+
+💼 [Cybertruck sales in free fall as Tesla reports mediocre sales for Q3](https://arstechnica.com/cars/2026/10/tesla-sales-drop-2-percent-in-underwhelming-q3-2026/)
+Tesla met analysts expectations as it sold fewer cars in Q3 2026 than Q3 2025.
+#Бизнес  #tech  `8e64ad4bf78e`
+
+💻 [Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents](https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/)
+Apple says it will add new controls around macOS’s Full Disk Access permission, warning that increasingly capable AI agents make broad access to users’ files, messages, mail, and browsing history riskier.
+#Технологии  #tech #startups  `ff8a0ec83389`
+
+🤖 [TechCrunch Disrupt 2026: Blackstone’s Jas Khaira on building the next generation of AI giants](https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/)
+Blackstone's Jas Khaira will take the Builders Stage at TechCrunch Disrupt 2026 on building next-gen AI. Register for your pass and get 50% off a second.
+#AI  #tech #startups  `2a53aa14ad97`
+
+_Источников: 4 · Новостей: 8_
