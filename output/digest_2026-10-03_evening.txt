@@ -1,0 +1,67 @@
+🌆 *Вечерний дайджест 03.10.2026*
+
+**Ежедневный дайджест новостей – 3 октября 2026**
+
+- **Теннесси: провал исполнения смертной казни**  
+  Главный тюремный администратор штата Теннесси подал в отставку после неудачной попытки казни Кристи Пайк. Адвокаты заявили, что ошибка «выходит за рамки одного человека». Пайк находится в критическом состоянии после того, как дважды вводили смертельный препарат, но процесс прервался.
+
+- **Испания: массовые протесты из‑за жилищного кризиса**  
+  В субботу по всей стране прошли более 50 демонстраций, в том числе в Мадриде, где сотни людей вышли на улицы с плакатами «Гнев на улицах». Правительство не смогло пройти в парламенте экстренный закон о мерах поддержки арендаторов, и теперь обсуждается возможность досрочных выборов.  
+
+- **Бразилия: обвинения США во вмешательстве в выборы**  
+  На фоне предвыборной кампании, где соперничают Луис Инсио Лула да Силва и Жаир Болсонару, Бразилия официально обвинила США в попытках повлиять на результаты президентских выборов. Стороны обменялись резкими заявлениями о суверенитете, безопасности и внешней политике.
+
+- **Авиакатастрофа у побережья Массачусетса**  
+  Медицинский самолёт с шестью людьми на борту потерял связь с диспетчерами после резкого снижения высоты. По последним данным, самолет исчез в районе Атлантического океана. Поиск продолжается, спасательные службы задействовали вертолёты и корабли.
+
+- **Британско‑иранский случай в Фэрфорд**  
+  25‑летний британско‑иранский гражданин был освобождён под залог после ареста в Вестминстерском районе Лондона. Инцидент связан с расследованием подозрений в нелегальном обороте технологий, но детали пока не раскрыты.
+
+- **Технологии: ИИ‑детектор смеха на Twitch**  
+  Русский разработчик представил проект «Детектор смеха» – система, распознающая эмоции зрителей в реальном времени и интегрирующая их в интерактивные трансляции. Видеопоток анализируется без задержек, а комментарии зрителей влияют на геймплей. Первые цифры: более 3 000 уникальных зрителей за первые недели, среднее время удержания – 45 минут.
+
+- **Космос: ESA «Juice» использовал гравитационный манёвр у Земли**  
+  Европейская космическая агентство успешно провело гравитационный слингшот Земли 28 сентября, изменив траекторию космического аппарата «Juice» на 20° и ускорив его на 3,5 км/с. Манёвр позволил сэкономить топливо и провести тесты приборов вблизи планеты и Луны.
+
+**Что стоит запомнить**  
+1. Протесты в Испании могут привести к досрочным парламентским выборам – следите за развитием.  
+2. Обвинения Бразилии в адрес США могут усилить дипломатическое напряжение в Латинской Америке.  
+3. Технологический эксперимент с ИИ‑детектором смеха показывает, как новые интерактивные форматы меняют онлайн‑развлечения.  
+
+Оставайтесь в курсе, проверяйте источники и планируйте свой день, учитывая важные события.
+
+─────────────────────
+
+🌍 [Tennessee prison chief to resign after Christa Pike's failed execution](https://www.bbc.co.uk/news/articles/c8zxl62yzxzxo?at_medium=RSS&at_campaign=rss)
+Pike's lawyers said the failure "goes far beyond any one person". Pike is in critical condition after surviving two lethal injections.
+#Мир  #world  `9d309e69c04b`
+
+🌍 ['Anger in the streets': Tens of thousands protest in Spain over housing crisis](https://www.bbc.co.uk/news/articles/cm2kej47095no?at_medium=RSS&at_campaign=rss)
+More than 50 protests are taking place on Saturday after the government failed to get emergency legislation through parliament.
+#Мир  #world  `cab16e0942b3`
+
+🌍 [Medical plane with 6 on board missing off Massachusetts coast](https://www.bbc.co.uk/news/articles/cme3x85013llo?at_medium=RSS&at_campaign=rss)
+The aircraft lost communication with flight controllers after significantly dropping in altitude, according to flight data.
+#Мир  #world  `43a3b90702d4`
+
+🌍 [Why has Brazil accused the US of election interference?](https://www.bbc.co.uk/news/videos/c3eweld0nddeo?at_medium=RSS&at_campaign=rss)
+The Latin American country will vote for its next president, as Lula da Silva and Bolsonaro clash over sovereignty, security and ties with Washington.
+#Мир  #world  `f87aab8ecabe`
+
+🌍 [UK-Iranian dual national bailed after RAF Fairford incident arrest](https://www.bbc.co.uk/news/articles/c6d095ygggv1o?at_medium=RSS&at_campaign=rss)
+The 25-year-old man was arrested in the London borough of Westminster on Thursday.
+#Мир  #world  `bf7fb991ed9e`
+
+🌍 [Will Spain's housing crisis lead to a snap election?](https://www.bbc.co.uk/news/videos/cmgj9vz2zxelo?at_medium=RSS&at_campaign=rss)
+The BBC's Guy Hedgecoe is in Madrid, where a series of marches have been scheduled, after Spain's Congress rejected measures aimed at tackling the country's housing crisis.
+#Мир  #world  `a1e9675656db`
+
+🤖 [Сделал для Twitch “Детектор смеха”, где ИИ считывает эмоции. Рассказываю, как оно устроено внутри и делюсь цифрами](https://habr.com/ru/articles/1089960/?utm_campaign=1089960&utm_source=habrahabr&utm_medium=rss)
+Решил сделать на Twitch шоу, где нельзя смеяться, с ИИ-распознованием эмоций. Рассказываю, как оно устроено внутри и с какими проблемами столкнулся. Одновременный просмотр видео с друзьями без делея. Интеграция чтения эмоций в прямом эфире. Парсинг видео и топа комментариев, кото
+#AI  #JavaScript #frontend  `8b6fed20c31b`
+
+🚀 [ESA’s Juice just used Earth as a slingshot to Jupiter](https://www.sciencedaily.com/releases/2026/10/261001214102.htm)
+ESA’s Juice spacecraft raced past Earth on September 28, using our planet’s gravity to dramatically reshape its path toward Jupiter without burning much fuel. The flyby changed its direction by 20 degrees and increased its speed by 3.5 km/s, while also giving scientists a rare ch
+#Космос  #science  `c6815291e59d`
+
+_Источников: 3 · Новостей: 8_
