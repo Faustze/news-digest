@@ -1,0 +1,79 @@
+🌅 *Утренний дайджест 03.10.2026*
+
+**Ежедневный дайджест новостей – 3 октября 2026**
+
+**1. Инцидент в авиаперелёте — Flydubai**  
+Ко‑пилот рейса Flydubai, направлявшегося в Израиль, попытался захватить управление, ударив капитана топором. По данным ОАЭ, подозреваемый – Хамам аль‑Хаммами. Пассажиры и экипаж эвакуированы, расследование ведёт авиационная служба ОАЭ. Инцидент усиливает опасения по поводу безопасности полётов в регионе.
+
+**2. Россия наносит удары по инфраструктуре Киева**  
+Украинский мэр сообщил о втором крупном ударе России по мосту «Северный» в Киеве. Это продолжение серии атак на ключевые транспортные артерии, уже включавших разрушение моста через Днепр. Ожидаются дальнейшие ограничения движения и усиление международных санкций.
+
+**3. Apple ужесточает доступ к дискам macOS**  
+Apple вводит новые ограничения «Full Disk Access» для приложений, использующих ИИ‑агентов. Цель — снизить риск несанкционированного доступа к пользовательским данным, который возрастает с ростом возможностей генеративного ИИ. Обновление уже доступно в бета‑версии macOS 15.
+
+**4. Amazon и реакция на план по дата‑центрам**  
+Amazon объявила о бюджете в $1 млрд для снижения негативного воздействия своих дата‑центров, но столкнулась с критикой: компания сняла ограничения на раскрытие информации (NDAs), однако многие считают, что реальное снижение загрязнения пока не подтверждено.
+
+**5. G7 реагирует на угрозу цен на нефть**  
+Страны G7 согласовали выпуск миллионов баррелей нефти и дизеля в ответ на угрозу повышения цен, озвученную в США. Мероприятие направлено на стабилизацию мирового рынка и предотвращение возможного запрета на экспорт американского дизеля.
+
+**6. NASA выбирает команду для исследования лунных пещер**  
+NASA отобрала проект под руководством Planetary Science Institute, цель — изучить потенциально огромную подземную пещеру, открывающуюся из лунного кратера. Такая «лунная пещера» может стать естественным убежищем от радиации и экстремальных температур для будущих миссий.
+
+**7. Европейские акции под давлением роста доходности облигаций**  
+Исторический скачок глобальных доходностей облигаций создаёт серьёзные вызовы для европейских фондовых рынков. Инвесторы опасаются, что упорная инфляция и растущий госдолг заставят центральные банки сохранять высокие ставки дольше, чем планировалось.
+
+**8. МВФ одобрил кредит Боливии**  
+Международный валютный фонд предоставил Боливии кредитный пакет на $1,9 млрд, из которых $214 млн уже выплачены. Программа поддержит экономические реформы президента Родриго Паза, направленные на выход страны из глубокой рецессии.
+
+**Кратко о главных темах дня**  
+- **Безопасность полётов**: инцидент в Flydubai подчёркивает необходимость усиления контроля над экипажем.  
+- **Военные действия в Европе**: новые удары России по Киеву усиливают давление на украинскую инфраструктуру.  
+- **Технологические риски**: Apple ограничивает доступ к системным ресурсам из‑за роста угроз от ИИ‑агентов.  
+- **Экологическая ответственность**: Amazon сталкивается с критикой по поводу реального воздействия своих дата‑центров.  
+- **Энергетическая стабильность**: G7 пытается предотвратить рост цен на нефть, а европейские акции страдают от роста облигационных доходностей.  
+- **Космические исследования**: NASA готовится к изучению лунных пещер, потенциально меняющих подход к длительным миссиям.  
+- **Финансовая поддержка развивающихся стран**: МВФ поддерживает Боливию в её экономическом восстановлении.
+
+**Что стоит помнить**  
+- Возможные новые регуляции в авиации и ИТ‑секторе могут повлиять на бизнес‑процессы.  
+- Геополитическая напряжённость в Восточной Европе остаётся высоким фактором риска для инвесторов.  
+- Экологические инициативы крупных корпораций находятся под всё более строгим общественным контролем.  
+
+Оставайтесь в курсе, следите за развитием событий и планируйте свои решения, учитывая текущие риски и возможности.
+
+─────────────────────
+
+🌍 [Flydubai co-pilot attacked captain with axe, UAE official says](https://www.bbc.co.uk/news/articles/c61wv7lgex13o?at_medium=RSS&at_campaign=rss)
+The man accused of trying to take over the Israel-bound jet is named as Hamam al-Hammami by several media outlets.
+#Мир  #world  `9ddd0c616df1`
+
+🌍 [Russia strikes second major bridge in Kyiv, mayor says](https://www.bbc.co.uk/news/articles/c83vqxzdg1yko?at_medium=RSS&at_campaign=rss)
+The strike on Northern Bridge comes after repeat attacks on another major bridge in recent days.
+#Мир  #world  `d7e0b36c2ec7`
+
+💻 [Apple will limit Mac disk access as AI agents ‘substantially’ increase risk](https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents)
+Apple will add new limits for "full disk access" on Mac in response to risks posed by AI agents, as reported earlier by TechCrunch. In an update on Friday, Apple says it's rolling out new controls to "ensure that users who genuinely wish to grant an app this extraordinary level o
+#Технологии  #tech  `f9b4b06e0b54`
+
+💼 [Amazon’s $1B plan to combat data center backlash draws more backlash](https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/)
+Amazon praised for ending NDAs but slammed for downplaying data center pollution.
+#Бизнес  #tech  `7c8e3d75caea`
+
+🌍 [G7 to release millions of barrels of oil and diesel after Trump threat](https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss)
+The co-ordinated release is aimed at heading off further price spikes and avoiding a ban on US diesel exports.
+#Мир  #world  `52af70e2981d`
+
+🚀 [Team selected for NASA program to explore potential lunar cave](https://phys.org/news/2026-10-team-nasa-explore-potential-lunar.html)
+NASA has selected a Planetary Science Institute–led proposal to investigate whether a potentially large underground cave extends beyond the opening of a lunar pit. Such a cave may one day provide a safe haven for astronauts to escape the radiation and extreme temperature swings p
+#Космос  #science #physics  `fd8da9d55214`
+
+💼 [Europe’s Stocks Are Straining Under Pressure From Bond Yields](https://www.bloomberg.com/news/articles/2026-10-03/europe-s-stocks-are-straining-under-pressure-from-bond-yields)
+A historic surge in global bond yields is becoming a bigger problem for European stocks as investors confront the possibility of stubborn inflation and mounting government debt.
+#Бизнес  #business #markets  `5d646e873805`
+
+💼 [IMF Approves Bolivia Loan Deal to Support Paz’s Economic Reforms](https://www.bloomberg.com/news/articles/2026-10-03/imf-approves-bolivia-loan-deal-to-support-paz-s-economic-reforms)
+The International Monetary Fund approved a $1.9 billion financing program for Bolivia, including an immediate $214 million disbursement, in a package designed to help President Rodrigo Paz reverse a sharp economic slump.
+#Бизнес  #business #markets  `39e08cf83423`
+
+_Источников: 5 · Новостей: 8_
