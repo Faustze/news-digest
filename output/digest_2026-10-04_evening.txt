@@ -1,0 +1,72 @@
+🌆 *Вечерний дайджест 04.10.2026*
+
+**Ежедневный дайджест новостей – 4 октября 2026**
+
+- **Украина — новые удары по мостам в Киеве**  
+  BBC‑корреспондент Дан Джонсон показал, как на Северный мост в столице снова обрушились российские ракеты. Это уже второй день подряд, когда инфраструктура города попадает под обстрел. Власти объявили о планах ускоренного ремонта, но эксперты предупреждают о длительном восстановлении и возможных перебоях в транспортных сообщениях.
+
+- **Йемен — объявление «полной войны» против Хутусов**  
+  Президент Йемена объявил о масштабной военной операции по возвращению территорий, контролируемых хуситами. Операция сопровождается интенсивными обменами ударами между хуситами и коалицией во главе с Саудовской Аравией. Ожидается рост числа беженцев и усиление гуманитарного кризиса в регионе.
+
+- **OpenAI — юридические риски после серии кибератак**  
+  Компания раскрыла, что её инструменты ИИ стали объектом десятков взломов. Потенциальные утечки данных и нарушения конфиденциальности могут привести к серии судебных исков. Эксперты в области кибербезопасности советуют клиентам пересмотреть условия использования и усилить внутренние протоколы защиты.
+
+- **США — два массовых стрельбы**  
+  • В Винне, Джорджия, на домашней вечеринке «homecoming» открыли огонь: погибло 2 человека, более 25 получили ранения.  
+  • В Балтиморе, штат Мэриленд, в парке произошёл конфликт из‑за парковочного места: погибла 12‑летняя девочка, трое получили ранения. Оба инцидента усиливают дебаты о контроле над оружием в стране.
+
+- **Эфиопия — силы оппозиции покидают Мекелле**  
+  По сообщениям BBC, правительственные войска взяли под контроль столицу Тиграйского региона. Два местных жителя подтвердили, что боевые действия завершились, но ситуация в регионе остаётся напряжённой, учитывая возможные новые всплески насилия.
+
+- **Япония — арест морского пехотинца в Окинаве**  
+  США арестовали военнослужащего морской пехоты по подозрению в убийстве местной женщины. Японское правительство подало официальную протестную ноту, требуя от американских военных властей принять строгие меры. Инцидент может отразиться на американо‑японских отношениях и статусе военных баз в Японии.
+
+- **Индия — полиция обвиняется в сексуальном домогательстве к журналистам**  
+  На протесте, посвящённом отставке главы избирательной комиссии, полиция задержала десятки участников. Журналисты заявили о сексуальных домогательствах со стороны сотрудников правоохранительных органов. Случай вызвал общественный резонанс и требования к правительству провести независимое расследование.
+
+- **Игровая индустрия — анонс четвёртой части RuneScape**  
+  Jagex официально представила «RuneScape IV». Игра обещает полностью переработанную графику, новые механики крафта и расширенный мир. Ожидается, что релиз привлечёт как ветеранов серии, так и новых игроков, что может укрепить позиции компании на рынке MMO.
+
+**Что стоит отметить:**  
+- На международной арене усиливается напряжённость: Украина сталкивается с новыми ударами, а в Йемене начинается полномасштабная военная кампания.  
+- Внутренние проблемы технологических гигантов (OpenAI) могут привести к серьёзным юридическим последствиям.  
+- В США продолжаются трагедии с массовыми расстрелами, что вновь ставит вопрос о реформе законодательства об оружии.  
+- Региональные конфликты (Эфиопия, Окинава) и правовые скандалы (Индия) могут повлиять на дипломатические отношения и внутреннюю политику стран.
+
+Оставайтесь с нами, чтобы быть в курсе самых важных событий.
+
+─────────────────────
+
+🌍 [Watch: What we know about Russian strikes on Kyiv bridges](https://www.bbc.co.uk/news/videos/cmglwkyl9djyo?at_medium=RSS&at_campaign=rss)
+BBC Ukraine correspondent Dan Johnson is near Kyiv's Northern Bridge, which has been hit for the second day in a row.
+#Мир  #world  `770cc2fb5c97`
+
+🌍 [Yemen's government announces all-out war to reclaim land from Houthis](https://www.bbc.co.uk/news/articles/cx8dzj9vpp01o?at_medium=RSS&at_campaign=rss)
+The Yemeni president's announcement comes amid an exchange of strikes between the Houthis and the Saudi-led coalition.
+#Мир  #world  `95a9e22f4b16`
+
+🤖 [Legal risks pile up for Altman as OpenAI uncovers dozens of hacks](https://www.ft.com/content/2c24ece3-ac99-43a8-b0e6-4a3867e37ebf?syn-25a6b1a6=1)
+Cyber security incidents involving company’s AI tools leave ChatGPT maker vulnerable to wave of lawsuits
+#AI  #business  `1c2262924836`
+
+🌍 [Mass shootings leave two people dead in Georgia and 12-year-old girl dead in Baltimore](https://www.theguardian.com/us-news/2026/oct/04/mass-shootings-georgia-baltimore)
+At least 25 injured at block party shooting in Georgia and three wounded in Baltimore park shooting, officials say Two people were killed and at least 25 others injured when a shooting erupted at a homecoming block party in Vienna, Georgia, early on Sunday, according to authoriti
+#Мир  #world  `0aafdc48bbab`
+
+🌍 [Ethiopian rebel forces withdraw from Tigray regional capital](https://www.bbc.co.uk/news/articles/cqm249v07j4xo?at_medium=RSS&at_campaign=rss)
+Two residents in Mekelle tell the BBC pro-government forces have taken control of the city.
+#Мир  #world  `72e3b0b63207`
+
+🌍 [US Marine arrested over murder of woman in Okinawa, Japan](https://www.bbc.co.uk/news/articles/cme3xw4yy28do?at_medium=RSS&at_campaign=rss)
+Japan's government lodged a formal protest with the US, demanding that military officials take action.
+#Мир  #world  `0e8a107ddd0e`
+
+🌍 [Indian police accused of sexual harassment against journalists at protest](https://www.bbc.co.uk/news/articles/c9e8lvm6nrr3o?at_medium=RSS&at_campaign=rss)
+The allegations were made after police detained dozens of protesters demanding the resignation of the election chief over changes to voter rolls.
+#Мир  #world  `bc64859479df`
+
+🎮 [Fourth RuneScape officially revealed](https://www.eurogamer.net/jagex-runescape-4-mmo-unreal-engine-animated-series-moistcr1tikal)
+Jagex has announced a fourth MMO in the RuneScape series. Read more
+#Игры  #games  `181921077f55`
+
+_Источников: 4 · Новостей: 8_
