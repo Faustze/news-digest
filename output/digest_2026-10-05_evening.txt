@@ -1,0 +1,71 @@
+🌆 *Вечерний дайджест 05.10.2026*
+
+**Ежедневный дайджест новостей – 5 октября 2026**
+
+- **Оптогенетика получила Нобелевскую премию по физиологии**  
+  Учёные, разработавшие метод управления нейронами светом, удостоены премии. Технология, возникшая из исследований светолюбивых водорослей, теперь активно применяется в нейробиологии и потенциально в медицине для лечения неврологических заболеваний.
+
+- **Российские дроны атаковали украинские дата‑центры**  
+  В последние сутки беспилотники, использующие пробелы в системе ПВО, нанесли удары по нескольким объектам критической инфраструктуры – дата‑центрам и телекоммуникационным узлам. По оценкам экспертов, это подрывает работу украинской экономики в условиях войны.
+
+- **OpenAI вводит водяные знаки для текста ChatGPT в ЕС**  
+  В рамках соблюдения требований AI Act компания начнёт скрытно маркировать ответы моделей в Европе. Пользователи смогут проверить подлинность текста, однако редактирование может усложнить обнаружение метки.
+
+- **Трамп объяснил вывод американских бомбардировщиков B‑1 из RAF Fairford**  
+  По словам бывшего президента, решение о перемещении самолётов было вызвано «угрозой», однако Пентагон подтвердил, что возвращение техники в США связано с плановыми техническими работами.
+
+- **Зеленский осудил «ужасный» удар России по судну с кукурузой в Чёрном море**  
+  Турецкое судно, перевозившее зерно, было подбито. Капитан погиб, 11 членов экипажа спасены. Президент Украины назвал атаку «преступлением против человечности» и призвал к международному расследованию.
+
+- **Hyundai: только «равные условия» могут ограничить ущерб от китайских электромобилей**  
+  Генеральный директор компании отметил, что без честных правил торговли и контроля за субсидиями китайские EV могут вытеснить западных производителей. В отличие от коллег, он не предсказывает краха отрасли, а предлагает диалог с правительствами.
+
+- **Искусственный интеллект «завоёвывает» математику**  
+  За последний год модели OpenAI, Anthropic и других лабораторий решили несколько задач, ранее считавшихся недоступными для машин, включая одну из «Миллениум Прайз» – проблему Ходжа. Эксперты предупреждают о риске «перегрузки» научного сообщества быстрыми публикациями без достаточной проверки.
+
+- **Ретро‑игры: декомпиляция и новые порты**  
+  Сообщества разработчиков продолжают «выворачивать» классические игры из их оригинального кода, создавая версии для веб‑браузеров, VR‑устройств и современных консолей. Среди новинок – скейтбординг в Call of Duty и оригинальный Halo на мобильных платформах.
+
+**Что стоит запомнить:**  
+1. Нобелевка в биологии подчёркивает рост биотехнологий.  
+2. Кибератаки на инфраструктуру остаются ключевым элементом конфликта в Украине.  
+3. Регулирование ИИ в ЕС ускоряется – ожидайте новых требований к разработчикам.  
+4. Геополитика автопрома и технологических субсидий будет влиять на рынок EV в 2027‑м году.  
+
+Оставайтесь в курсе, проверяйте источники и планируйте действия с учётом этих тенденций.
+
+─────────────────────
+
+🔬 [Controlling the brain with light earns a physiology Nobel](https://arstechnica.com/science/2026/10/controlling-the-brain-with-light-earns-a-physiology-nobel/)
+The entire field of optogenetics traces back to light-seeking algae.
+#Наука  #tech  `67818696aa97`
+
+💼 [Hyundai CEO says only a ‘level playing field’ can minimize damage from China](https://www.theverge.com/transportation/1004785/hyundai-ceo-china-ev-us-market-share)
+There's been a lot of doom and gloom from the auto industry lately when the subject of China comes up. Automaker CEOs, in particular, warn that allowing low-cost, high-tech Chinese electric vehicles to be sold in the US would effectively spell the end of their businesses. Hyundai
+#Бизнес  #tech  `af67a994ba8a`
+
+🌍 [Russian drones strike Ukraine’s data centers by exploiting air defense gaps](https://arstechnica.com/gadgets/2026/10/russian-drones-strike-ukraines-data-centers-by-exploiting-air-defense-gaps/)
+Russian attacks on Internet, phone services threaten Ukraine’s wartime economy.
+#Мир  #tech  `6509a9f777bf`
+
+🤖 [OpenAI will start watermarking ChatGPT’s text in the EU](https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/)
+OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act. Editing can make the invisible marks harder to detect, it says.
+#AI  #tech #startups  `99c487ddc62b`
+
+🌍 [Trump says 'threat' led US to pull bombers from RAF Fairford](https://www.bbc.co.uk/news/articles/cwj3413e5m1lo?at_medium=RSS&at_campaign=rss)
+The Pentagon confirmed on Sunday it had removed the B1 bombers from the base in England back to their home stations in America.
+#Мир  #world  `61fd2aef3540`
+
+🌍 [Zelensky condemns 'horrific' Russian strike on boat carrying corn in Black Sea](https://www.bbc.co.uk/news/articles/cr0j0w3p8453o?at_medium=RSS&at_campaign=rss)
+The vessel's captain was killed and 11 crew members were rescued after the attack on the Turkish-owned ship, Ukraine's leader says.
+#Мир  #world  `ecf65b08e116`
+
+🤖 [All the drama around AI’s takeover of mathematics](https://www.theverge.com/ai-artificial-intelligence/1004933/ai-math-openai-breakthrough-solution)
+This past year, OpenAI, Anthropic, and other labs have announced breakthroughs on numerous long-standing mathematical problems, in some cases pushing well beyond what researchers expected current systems to be capable of — including resolving one of the famous Millennium Prize pr
+#AI  #tech  `dcff56cadfb0`
+
+🎮 [Reverse-engineered games: All the news on video game decomps, recomps, VR and web and 3D ports](https://www.theverge.com/games/1004869/reverse-engineered-games-all-the-news-on-video-game-decomps-recomps-vr-and-web-and-3d-ports)
+It’s a wild time for retro gaming. Thanks to decompilations and recompilations of classic titles, those games are becoming unshackled from their proprietary code and original hardware to be ported to new devices or updated in ways to completely change the original game. Ever imag
+#Игры  #tech  `3c650b289f38`
+
+_Источников: 4 · Новостей: 8_
