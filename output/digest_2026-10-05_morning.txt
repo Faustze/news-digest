@@ -1,0 +1,68 @@
+🌅 *Утренний дайджест 05.10.2026*
+
+**Ежедневный дайджест новостей (10 минут чтения)**  
+
+- **США — ИИ‑задачник под руководством главы разведки**  
+  Президент Трамп назначил директора национального разведывательного агентства главой новой группы, занимающейся регулированием искусственного интеллекта. Это сигнализирует о росте опасений в Вашингтоне по поводу быстрых технологических изменений и потенциальных угроз безопасности.
+
+- **Испания — Ранние выборы из‑за жилищного кризиса**  
+  Премьер Саньес объявил о досрочных парламентских выборах 29 ноября после того, как в парламенте отклонили несколько ключевых мер по решению жилищного кризиса. Протесты жильцов усилились, а правительство пытается восстановить доверие избирателей.
+
+- **Великобритания — Снятие американских бомбардиров с RAF Fairford**  
+  ВВС США вывели все стратегические бомбардировщики с базы RAF Fairford. Официальных объяснений нет, но инцидент с «подозрительными транспортными средствами» рядом с аэродромом на прошлой неделе мог стать триггером. Позиция США в Европе пока остаётся неопределённой.
+
+- **Пакистан — Марш протестов сторонников Имрана Хана**  
+  Тысячи людей вышли на улицы после того, как переговоры между правительством и партией бывшего премьера Имрана Хана зашли в тупик. Демонстранты требуют освобождения Хана и проведения новых выборов. Ситуация остаётся напряжённой, риск эскалации — высокий.
+
+- **Технологии — Проблемы Android‑приложений на Intel‑моделях Google Books**  
+  Google признал, что ноутбуки Google Books на базе Intel могут некорректно работать с частью приложений из Play Store. Компания отложила решение проблемы до выпуска обновлений прошивки, но уже готовит альтернативные варианты оптимизации.
+
+- **Наука — Нобелевская премия по медицине за оптогенетику**  
+  Нобелевскую премию 2026 года в области физиологии и медицины получили Карл Дайсерот, Питер Хегеманн и Георг Нагель за разработку оптогенетики — технологии, позволяющей управлять нейронами светом. Открытие открывает новые пути лечения нейродегенеративных заболеваний и психических расстройств.
+
+- **Археология — Новые данные о «жертвенных» захоронениях Древнего Египта**  
+  Недавний форензический анализ захоронений первой династии показал, что у 39 % черепов обнаружены следы травм от тупой силы. Учёные считают, что это подтверждает гипотезу о «жертвенных» захоронениях, практиковавшихся в раннем государстве.
+
+**Что стоит отметить:**  
+- В США усиливается контроль над ИИ, что может привести к новым регулятивным инициативам.  
+- Жилищный кризис в Испании уже стал политическим катализатором — ожидаются резкие изменения в парламенте.  
+- Технологический сбой Google Books подчеркивает, насколько важна совместимость аппаратных платформ с экосистемой Android.  
+- Нобелевская премия по оптогенетике может ускорить клинические испытания новых методов лечения мозговых заболеваний.  
+
+Оставайтесь с нами, чтобы быть в курсе самых значимых событий.
+
+─────────────────────
+
+🌍 [Trump chooses top spy boss to run new AI taskforce](https://www.bbc.co.uk/news/articles/cqj6jenp26zyo?at_medium=RSS&at_campaign=rss)
+The US president said his national intelligence chief will lead the group as worries over AI grow.
+#Мир  #world  `e8b9a316a599`
+
+🌍 [Spanish PM Sánchez calls early election after housing protests](https://www.bbc.co.uk/news/articles/cmdx39k49xw0o?at_medium=RSS&at_campaign=rss)
+Sánchez says Spain will head to the polls on 29 November after recent defeats on measures aimed at addressing the country's housing crisis.
+#Мир  #world  `ca094b3aa96f`
+
+🌍 [US air force removes all bombers from British military base RAF Fairford](https://www.bbc.co.uk/news/articles/cmwyve191dlko?at_medium=RSS&at_campaign=rss)
+No reason has been given for the withdrawal, but it follows a major incident last week when police were alerted to "suspicious vehicles" near the airbase.
+#Мир  #world  `7e968e609ae6`
+
+🌍 [Supporters of jailed ex-PM Imran Khan begin march in Pakistan](https://www.bbc.co.uk/news/articles/cmkg79z04w4zo?at_medium=RSS&at_campaign=rss)
+Thousands have taken to the streets after talks between authorities and Khan's party ended in deadlock.
+#Мир  #world  `5afbc3993e0e`
+
+🌍 [How Spain's housing crisis has resulted in an early general election](https://www.bbc.co.uk/news/videos/c83vqk2k2k20o?at_medium=RSS&at_campaign=rss)
+A series of measures to tackle the housing crisis were defeated in parliament on Friday
+#Мир  #world  `6121d9dd20fc`
+
+📱 [Google admits not every Android app runs great on Intel Googlebooks](https://www.theverge.com/tech/1004643/google-android-apps-intel-googlebooks-performance)
+Google has waited until the day its new Googlebook laptops hit the market to admit that Intel-based models may have issues running some Android apps. Before now, Google has emphasized that the Android-based Googlebooks give owners access to the "entire Play Store library" of apps
+#Гаджеты  #tech  `6dd5effbf13d`
+
+🔬 [New forensic evidence supports Egyptian "retainer sacrifice"](https://arstechnica.com/science/2026/10/new-forensice-evidence-supports-egyptian-retainer-sacrifice/)
+Fresh analysis of First Dynasty mass burials finds signs of fatal blunt force trauma on 39 percent of skulls
+#Наука  #tech  `907d14cde7d1`
+
+🔬 [Medicine Nobel awarded for brain ‘switch’ that controls neurons with light: live updates](https://www.nature.com/articles/d41586-026-03091-2)
+Nature, Published online: 05 October 2026; doi:10.1038/d41586-026-03091-2 Karl Deisseroth, Peter Hegemann and Georg Nagel win the 2026 Nobel Prize in Physiology or Medicine for their work on optogenetics, which has revolutionized neuroscience.
+#Наука  #science #research  `4af17fe1477c`
+
+_Источников: 4 · Новостей: 8_
