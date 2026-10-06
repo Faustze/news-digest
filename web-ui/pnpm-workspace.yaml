@@ -1,2 +1,15 @@
 allowBuilds:
   esbuild: true
+
+# Transitive dependencies of nuxt pinned past known advisories until nuxt
+# itself moves to the patched releases.
+overrides:
+  simple-git: ^4.0.2
+  source-map-js: ^1.2.2
+
+auditConfig:
+  # No patched release exists yet; both are build-time-only dependencies of
+  # nuxt and never ship in the static bundle. Remove once a fix is published.
+  ignoreGhsas:
+    - GHSA-vfj7-8cjw-p6xm # braces <=3.0.3
+    - GHSA-86w9-cpqp-85rv # node-forge <=1.4.0
