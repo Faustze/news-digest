@@ -1,0 +1,61 @@
+🌆 *Вечерний дайджест 06.10.2026*
+
+**Ежедневный дайджест новостей (10 минут чтения)**  
+
+- **Нобелевская премия по физике 2026 года** — Фрэнсис Халцен из Университета Висконсина‑Мэдисон получил награду за открытие высокоэнергетических нейтрино и развитие обсерватории IceCube. Учёные называют нейтрино «призраками космоса», способными передавать информацию из самых отдалённых уголков Вселенной.  
+
+- **AI‑стартап Lambda собирает $4 млрд** — При поддержке Nvidia, фондов Coatue и Blackstone компания объявила о раунде финансирования до $4 млрд при оценке $14,5 млрд. Средства планируют использовать для масштабирования вычислительных мощностей и подготовки к IPO в 2027 году.  
+
+- **Прорыв в искусственном интеллекте** — В статье Гэри Маркуса (Substack) обсуждается «самый большой прорыв в AI после появления больших языковых моделей». Основная идея — переход от статических моделей к адаптивным агентам, способным обучаться в реальном времени. Комментарии на Hacker News пока скудные, но тема уже набирает интерес среди исследователей.  
+
+- **Проблемы доступа AI‑агентов к сайтам** — Персональные помощники обещают бронировать билеты, делать покупки и планировать поездки, но сталкиваются с растущими анти‑бот системами и блокировками. В ответ разрабатывается новый открытый стандарт, который позволит сайтам безопасно предоставлять API для легитимных AI‑агентов, сохраняя контроль над данными.  
+
+- **Hark выпустил AI‑ассистента, ориентированного на конфиденциальность** — Новый продукт позиционируется как «операционная система будущего», конкурируя с Muse, Dots и Instinct. Особый упор делается на локальную обработку запросов и отсутствие передачи личных данных в облако.  
+
+- **Слияние Paramount и Warner Bros.** — Завершено объединение стоимостью $111 млрд, создавшее медиагигант «Skydance». Сделка рассматривается как попытка укрепить позиции традиционных студий перед лицом растущего давления со стороны стриминговых сервисов.  
+
+- **Протесты школьников во Франции** — В Париже и Марселе полиция применила слезоточивый газ против демонстрантов, требующих большего финансирования школ и прекращения полицейского давления. Активность протестов растёт по всей стране, привлекая внимание к проблемам образования.  
+
+**Что стоит отметить:**  
+- Нобелевская премия подчёркивает важность фундаментальных исследований в астрофизике.  
+- Инвестиции в AI‑инфраструктуру (Lambda) свидетельствуют о готовности рынка к следующему этапу масштабных вычислений.  
+- Вопросы безопасности и конфиденциальности AI‑агентов становятся центральными, что отражается в новых стандартах и продуктах (Hark).  
+- Медиа‑рынок продолжает консолидацию, а социальные протесты во Франции могут влиять на будущие бюджеты на образование.  
+
+Оставайтесь с нами, чтобы быть в курсе самых значимых событий.
+
+─────────────────────
+
+🔬 [Neutrino physicist wins 2026 Nobel Physics Prize](https://arstechnica.com/science/2026/10/neutrino-physicist-wins-2026-nobel-physics-prize/)
+Francis Halzen of University of Wisconsin-Madison led development of IceCube Neutrino Observatory.
+#Наука  #tech  `2983f9f9a1c2`
+
+🤖 [AI computing startup Lambda to raise $4B ahead of planned IPO](https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/)
+Nvidia-backed Lambda is raising up to $4 billion at a $14.5 billion pre-money valuation ahead of a planned 2027 IPO, led by Coatue and Blackstone.
+#AI  #tech #startups  `14990151e254`
+
+🤖 [The biggest advance in AI since the LLM](https://garymarcus.substack.com/p/the-biggest-advance-in-ai-since-the)
+Article URL: https://garymarcus.substack.com/p/the-biggest-advance-in-ai-since-the Comments URL: https://news.ycombinator.com/item?id=49982799 Points: 2 # Comments: 0
+#AI  #AI  `5cb8c2371fcf`
+
+🔬 [Nobel prize in physics awarded for discovery of high-energy neutrinos](https://www.newscientist.com/article/2592237-nobel-prize-in-physics-awarded-for-discovery-of-high-energy-neutrinos/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS)
+The 2026 Nobel prize in physics has been won by Francis Halzen for his work on neutrinos, which serve as 'ghost-like messengers from the cosmos'
+#Наука  #science  `523631b77083`
+
+💼 [Paramount completes $111B Warner merger, creating “Skydance” behemoth](https://arstechnica.com/tech-policy/2026/10/paramount-completes-111b-warner-merger-creating-skydance-behemoth/)
+Paramount now owns Warner Bros. as last-ditch effort to stop $111B merger fails.
+#Бизнес  #tech  `00c7fdf50340`
+
+🤖 [The next hurdle for AI agents: getting websites to let them in](https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in/)
+Personal AI agents promise to shop, book flights, and make reservations for you. But deliberate blocks and anti-bot defenses are getting in the way, leaving consumers caught in the middle. A new standard aims to help.
+#AI  #tech #startups  `049cc6434e90`
+
+🤖 [Hark releases an AI personal assistant with a focus on privacy](https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy/)
+The AI lab's personal assistant is an operating system from the future designed to compete with Muse, Dots, and Instinct.
+#AI  #tech #startups  `dabe94446d93`
+
+🌍 [Tear gas in Paris and Marseille as school protests grow across France](https://www.bbc.co.uk/news/articles/c8x23706pvz3o?at_medium=RSS&at_campaign=rss)
+Crowds of mainly teenagers called for more resources for schools and an end to what they called police repression.
+#Мир  #world  `eeb5109051a8`
+
+_Источников: 5 · Новостей: 8_
