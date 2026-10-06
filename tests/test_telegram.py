@@ -246,6 +246,54 @@ class TestSendMessage:
         assert "message is too long" in str(exc.value)
         assert "SECRET" not in str(exc.value)
 
+    def test_timeout_is_retried(self, monkeypatch):
+        import httpx
+
+        from news import send_telegram
+
+        req = httpx.Request("POST", "https://api.telegram.org/x")
+        outcomes = [
+            httpx.ReadTimeout("The read operation timed out", request=req),
+            httpx.Response(200, json={"ok": True}, request=req),
+        ]
+
+        def fake_post(url, json=None, timeout=None):
+            outcome = outcomes.pop(0)
+            if isinstance(outcome, Exception):
+                raise outcome
+            return outcome
+
+        monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "tok")
+        monkeypatch.setenv("TELEGRAM_CHAT_ID", "chat")
+        monkeypatch.setattr(send_telegram.httpx, "post", fake_post)
+        monkeypatch.setattr(send_telegram.time, "sleep", lambda s: None)
+
+        assert send_telegram.send_message("hello") == {"ok": True}
+        assert outcomes == []
+
+    def test_persistent_timeout_raises_telegram_error(self, monkeypatch):
+        import httpx
+
+        from news import send_telegram
+
+        req = httpx.Request("POST", "https://api.telegram.org/botSECRET/x")
+        calls = []
+
+        def fake_post(url, json=None, timeout=None):
+            calls.append(url)
+            raise httpx.ReadTimeout("timed out", request=req)
+
+        monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "SECRET")
+        monkeypatch.setenv("TELEGRAM_CHAT_ID", "chat")
+        monkeypatch.setattr(send_telegram.httpx, "post", fake_post)
+        monkeypatch.setattr(send_telegram.time, "sleep", lambda s: None)
+
+        with pytest.raises(send_telegram.TelegramError) as exc:
+            send_telegram.send_message("hello")
+        assert len(calls) == send_telegram.SEND_ATTEMPTS
+        assert "ReadTimeout" in str(exc.value)
+        assert "SECRET" not in str(exc.value)
+
 
 class TestSendDigest:
     def test_long_header_is_split_and_items_sent(self, monkeypatch):
