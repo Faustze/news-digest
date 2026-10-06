@@ -1,0 +1,68 @@
+🌅 *Утренний дайджест 06.10.2026*
+
+**Ежедневный дайджест новостей – 6 октября 2026**
+
+- **Нобелевская премия по физике** — бельгийский учёный Фрэнсис Хальзен получил награду за создание обсерватории, фиксирующей «призрачные частицы» (нейтрино) из космоса. Проект IceCube в Антарктиде открыл новые возможности для астрофизики и изучения экстремальных процессов во Вселенной.
+
+- **Автомобили Lucid Motors** — производство электромобилей компании упало до самого низкого уровня за почти два года. Руководство официально заявило о «стратегическом ограничении выпуска», объясняя это продолжающимися трудностями в поиске массового спроса и перенаправлением ресурсов на разработку новых моделей.
+
+- **Атаки в Чёрном море** — по данным болгарских властей, несколько судов в Чёрном море были атакованы, после чего экипажи пропали без вести. Ответственность пока не установлена, но инцидент совпал с усилением российских ударов в регионе в рамках войны с Украиной.
+
+- **Эбола в Кении** — страна зафиксировала первую смерть от Эболы. Пациент был резидентом Демократической Республики Конго, где в этом году уже более 4 000 человек умерли от заболевания. Власти усиливают карантинные меры и готовятся к возможному распространению инфекции.
+
+- **Украинские железные дороги под обстрелом** — российские дроны всё активнее атакуют железнодорожные узлы Украины, создавая серьёзные перебои и страх среди пассажиров. По данным украинских транспортных компаний, за последние сутки зафиксировано более 30 попыток атак, из которых несколько привели к разрушениям инфраструктуры.
+
+- **Баг в Amazon Alexa Plus** — пользователи умных колонок Alexa начали слышать бесконечный «lalala», иногда в течение нескольких минут. Техническая поддержка Amazon подтверждает, что проблема связана с ошибкой в обновлении программного обеспечения; исправление уже разрабатывается.
+
+- **Оппозиция в Индии протестует** — несколько депутатов оппозиции были задержаны после демонстраций против главы Центральной избирательной комиссии Гянеша Кумара. Протестующие обвиняют его в манипуляциях избирательными списками в пользу партии премьер‑министра Нарендры Моди.
+
+- **Трагедия в Нигерии** — военный самолёт разбился в болотах, в результате чего погибли 32 человека, включая членов экипажа. Президент Бола Тинубу назвал происшествие «болезненным моментом» для армии и всей страны, пообещал всестороннее расследование.
+
+**Что стоит отметить**
+
+1. **Научный прорыв**: Нобелевка Хальзена подчёркивает рост интереса к космической частицы‑физике и её практическому применению в геофизике и климатологии.  
+2. **Энергетический рынок**: Снижение выпуска Lucid Motors сигнализирует о продолжающейся переоценке спроса на премиум‑EV в условиях глобального экономического замедления.  
+3. **Геополитика**: Эскалация конфликтов в Чёрном море и на украинских железных дорогах усиливает риски для международных перевозок и морской торговли.  
+4. **Здоровье**: Первая смерть от Эболы в Кении напоминает о необходимости усиленного мониторинга и готовности к эпидемическим вспышкам в Африке.  
+
+**Полезные ссылки** (по запросу): официальные пресс‑релизы Nobel Prize, отчёт Lucid Motors о планах производства, заявления МИД России и Украины о ситуации в Чёрном море, рекомендации ВОЗ по профилактике Эболы, техническое сообщение Amazon о баге Alexa.
+
+Оставайтесь в курсе, проверяйте источники и планируйте свои действия с учётом текущих рисков.  
+
+— Ваш новостной бот.
+
+─────────────────────
+
+🔬 ['Ghost particles' from space telescope wins physics Nobel](https://www.bbc.co.uk/news/articles/cq203mymlvkeo?at_medium=RSS&at_campaign=rss)
+Belgian physicist Prof Francis Halzen has won for his pioneering work on an observatory that detects particles from space.
+#Наука  #world  `0892884e9c17`
+
+💼 [Lucid Motors’ EV output falls to lowest level in almost 2 years](https://techcrunch.com/2026/10/05/lucid-motors-ev-output-falls-to-lowest-level-in-almost-two-years/)
+The company is deliberately limiting production after years of struggling to find mass-market demand for its EVs.
+#Бизнес  #tech #startups  `8ebe19fbf62d`
+
+🌍 [Sailors missing after fresh attacks on Black Sea vessels, Bulgaria says](https://www.bbc.co.uk/news/articles/c8ly0v5r602eo?at_medium=RSS&at_campaign=rss)
+It is not clear who is behind the attacks which come as Russia intensifies strikes in the Black Sea as part of its war against Ukraine.
+#Мир  #world  `96d1872d2164`
+
+🌍 [Kenya confirms its first Ebola death as outbreak spreads](https://www.bbc.co.uk/news/articles/cqzrd7v1j163o?at_medium=RSS&at_campaign=rss)
+The patient had been living in DR Congo, where more than 4,000 people have died from the disease this year.
+#Мир  #world  `78a57508f58c`
+
+🌍 [Fear and disruption for Ukraine's rail passengers as Russia escalates drone attacks](https://www.bbc.co.uk/news/articles/cr4g1qxzwyj1o?at_medium=RSS&at_campaign=rss)
+Ukrainians travelling by train are increasingly caught in the crosshairs of Russia's attacks.
+#Мир  #world  `6b8fa06fd05c`
+
+📱 [Amazon Alexa Plus keeps creepily singing ‘lalala’ for minutes on end](https://www.theverge.com/tech/1005342/amazon-alexa-plus-keeps-creepily-singing-lalala-for-minutes-on-end)
+An unsettling Alexa Plus bug has seen some Amazon Echo smart home speakers reduced to saying - and sometimes singing - nothing but "lalala" on repeat for minutes at a time, often in the middle of conversations with users. When quizzed about the behavior, Alexa is apparently entir
+#Гаджеты  #tech  `69c865894586`
+
+🌍 [Indian opposition MPs detained in protest against election chief](https://www.bbc.co.uk/news/articles/crpdgvx82831o?at_medium=RSS&at_campaign=rss)
+Opposition leaders have alleged that CEC Gyanesh Kumar manipulated voter rolls to favour Prime Minister Narendra Modi's party during elections.
+#Мир  #world  `3c56346a5c3a`
+
+🌍 [Nigeria mourns 32 killed as military plane crashes into swamp](https://www.bbc.co.uk/news/articles/ck1wvjer20qqo?at_medium=RSS&at_campaign=rss)
+President Bola Tinubu describes the crash as a "painful moment" for the military and the entire nation.
+#Мир  #world  `83749c8b6781`
+
+_Источников: 3 · Новостей: 8_
