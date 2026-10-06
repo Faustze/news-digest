@@ -7,6 +7,7 @@ import html
 import json
 import os
 import re
+import time
 from datetime import datetime, timezone
 
 import httpx
@@ -130,6 +131,10 @@ def build_inline_keyboard(item: dict) -> dict:
 
 TELEGRAM_MAX_LEN = 4096
 
+SEND_TIMEOUT = 30
+SEND_ATTEMPTS = 3
+SEND_RETRY_DELAY = 2  # seconds, multiplied by the attempt number
+
 
 def split_message(text: str, limit: int = TELEGRAM_MAX_LEN) -> list[str]:
     """Split text into chunks of at most ``limit`` chars on line boundaries.
@@ -198,6 +203,29 @@ def _describe(resp: httpx.Response) -> str:
         return f"{resp.status_code} {resp.text[:200]}".strip()
 
 
+def _post_message(payload: dict) -> httpx.Response:
+    """POST to sendMessage, retrying transient network failures.
+
+    A timed-out request may still have been delivered, so a retry can
+    duplicate a message; that is preferable to losing the digest.
+    """
+    for attempt in range(1, SEND_ATTEMPTS + 1):
+        try:
+            return httpx.post(
+                f"{_api_url()}/sendMessage", json=payload, timeout=SEND_TIMEOUT
+            )
+        except httpx.TransportError as e:
+            # Only the exception type is reported: the request URL has the token.
+            reason = type(e).__name__
+            if attempt == SEND_ATTEMPTS:
+                raise TelegramError(
+                    f"sendMessage failed after {attempt} attempts: {reason}"
+                ) from None
+            print(f"[WARN] sendMessage attempt {attempt} failed: {reason}; retrying")
+            time.sleep(SEND_RETRY_DELAY * attempt)
+    raise AssertionError("unreachable")
+
+
 def send_message(
     text: str,
     parse_mode: str | None = "HTML",
@@ -219,12 +247,12 @@ def send_message(
     if reply_markup:
         payload["reply_markup"] = json.dumps(reply_markup)
 
-    resp = httpx.post(f"{_api_url()}/sendMessage", json=payload, timeout=30)
+    resp = _post_message(payload)
     if resp.status_code == 400 and parse_mode:
         print(f"[WARN] Telegram rejected formatted message: {_describe(resp)}")
         payload.pop("parse_mode", None)
         payload["text"] = plain_text or text
-        resp = httpx.post(f"{_api_url()}/sendMessage", json=payload, timeout=30)
+        resp = _post_message(payload)
     if resp.is_error:
         # Do not use raise_for_status(): its message contains the bot token URL.
         raise TelegramError(f"sendMessage failed: {_describe(resp)}")
