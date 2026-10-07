@@ -1,0 +1,62 @@
+🌆 *Вечерний дайджест 07.10.2026*
+
+**Ежедневный дайджест новостей – 7 октября 2026**
+
+- **Нобелевская премия по химии** присуждена за исследования асимметричных реакций, которые могли способствовать появлению жизни. Учёные показали, как изменение «ручности» молекул влияет на биохимические процессы, открывая новые пути в синтетической биологии.
+
+- **Mistral AI** представила модель **«Le Chonk»** – открытый весовой файл, способный конкурировать с лучшими закрытыми системами. По заявлению компании, модель демонстрирует сопоставимую точность в генерации текста и кода, но остаётся полностью доступной для исследователей.
+
+- **Израиль**: спустя три года после атак 7 октября 2023 г. избиратели и правозащитники требуют от премьер‑министра Биньямина Нетаньяху расследования и ответственности за провалы в системе гражданской обороны. Нетаньяху отказывается брать личную вину и отказывает в проведении официального расследования.
+
+- **Канада** приостановила план расширения доступа к эвтаназии для людей с психическими расстройствами. Инициатива, запланированная к реализации в марте 2027 г., отложена «на неопределённый срок» из‑за общественного резонанса и опасений по поводу критериев оценки психического состояния.
+
+- **Украина**: в результате ракетного удара по жилому кварталу в северной части страны погибло 19 человек, среди них пятеро детей. Обстрел уничтожил 30 квартир, семьи спали, когда удар пришёлся в ночные часы.
+
+- **Кения**: десять человек, контактировавших с первым в истории страны пациентом с Эболой, помещены под карантин. Инфицированный прошёл через несколько городов ДР Конго, затем в Уганду и, наконец, прилетел в Найроби, что вызвало опасения по поводу эффективности текущих скрининговых мер.
+
+- **Педиатры США** вновь призвали к запрету сырого молока. В новом заявлении подчёркнуто, что пастеризация остаётся единственным надёжным способом уничтожения патогенов, а «анти‑научная» риторика в поддержку сырого продукта ставит под угрозу здоровье детей.
+
+- **Microsoft** анонсировала линейку AI‑компьютеров **Surface Laptop Ultra** на базе новых чипов Nvidia. Устройства работают под обновлённой Windows 11, оптимизированной для запуска больших языковых моделей и автономных агентов. Цены стартуют от 2 500 USD, а базовая конфигурация включает 32 ГБ ОЗУ и 1 ТБ SSD.
+
+**Что стоит отметить:**  
+- Научные прорывы (Нобелевка) и технологические новинки (Le Chonk, Surface Laptop Ultra) показывают ускорение в области ИИ и биохимии.  
+- Политические и социальные вопросы (Израиль, Канада, Кения) остаются в центре общественного внимания, требуя прозрачности и ответственности.  
+- Трагедия в Украине подчёркивает продолжающийся риск гражданских жертв в зоне конфликта.  
+
+Оставайтесь в курсе, следите за официальными источниками и проверяйте информацию перед распространением.
+
+─────────────────────
+
+🔬 [Chemistry Nobel goes to reactions like those that gave life a hand](https://arstechnica.com/science/2026/10/chemistry-nobel-goes-to-reactions-like-those-that-gave-life-a-hand/)
+Altering molecular handedness has implications for the origins of life.
+#Наука  #tech  `c632ffa1d370`
+
+🤖 [Mistral says "Le Chonk" can challenge the best AI models](https://arstechnica.com/ai/2026/10/mistral-says-le-chonk-can-challenge-the-best-ai-models/)
+Mistral says Le Chonk can rival top closed models while remaining open-weight.
+#AI  #tech  `3b04a8b1772d`
+
+🌍 [Israelis demand accountability over 7 October failures three years after attacks](https://www.bbc.co.uk/news/articles/c5zjx7xx3487o?at_medium=RSS&at_campaign=rss)
+Prime Minister Benjamin Netanyahu has refused to take any personal responsibility for what happened or order a state inquiry.
+#Мир  #world  `06ed5651d210`
+
+🌍 [Canada suspends plans to expand assisted dying to people with mental illness](https://www.bbc.co.uk/news/articles/cqd09g0gj50ko?at_medium=RSS&at_campaign=rss)
+People with mental illness alone were to be eligible for assisted dying in Canada in March 2027, but that has now been paused indefinitely.
+#Мир  #world  `24acb7dc5e37`
+
+🌍 [Children killed while they slept as Russian missile kills 19 in block of flats](https://www.bbc.co.uk/news/articles/ckr5ym098vdeo?at_medium=RSS&at_campaign=rss)
+Five children are among the victims of a strike that destroyed 30 flats in northern Ukraine as families slept.
+#Мир  #world  `915899345b32`
+
+🌍 [Ten people linked to Kenya's first-ever Ebola case quarantined as screening concerns grow](https://www.bbc.co.uk/news/articles/c6eq3x3v11d5o?at_medium=RSS&at_campaign=rss)
+The patient passed through multiple cities in DR Congo, drove to Uganda and eventually flew to Kenya.
+#Мир  #world  `9329010e28c2`
+
+🔬 [Pediatricians renew call to ban raw milk as anti-science rhetoric reigns](https://arstechnica.com/health/2026/10/pediatricians-renew-call-to-ban-raw-milk-as-anti-science-rhetoric-reigns/)
+In renewed policy, pediatricians review the benefits of heating milk to kill germs.
+#Наука  #tech  `79c75ea52da3`
+
+🤖 [Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11](https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/)
+Microsoft revealed the specs and price for its Surface Laptop Ultra, AI PCs that run on Nvidia chips that are designed to run AI models and agents.
+#AI  #tech #startups  `84c4536e5233`
+
+_Источников: 3 · Новостей: 8_
