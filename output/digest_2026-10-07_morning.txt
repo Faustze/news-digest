@@ -1,0 +1,74 @@
+🌅 *Утренний дайджест 07.10.2026*
+
+**Ежедневный дайджест новостей (10 минут чтения)**  
+
+**1. Наука — Нобелевская премия по химии**  
+- Французский учёный Пьер‑Ален Пиер и японская исследователька Кэйко Окада получили Нобелевскую премию за раскрытие тайны хиральности живых молекул. Их работа показала, как в ранних условиях Земли могла возникнуть предпочтительная «правильная» ориентация биомолекул, что объясняет асимметрию жизни.  
+
+**2. Искусственный интеллект — прорывы в математике**  
+- OpenAI опубликовала пакет из **722 рукописей**, охватывающих **372 семейства результатов**. В них содержатся решения давно открытых задач и новые теоремы, полученные с помощью ещё не выпущенной модели Frontier.  
+- Публикация вызвала бурю в академическом сообществе: одни хвалят ускорение исследований, другие опасаются вопросов этики, авторства и контроля качества.  
+
+**3. Безопасность в Европе — атаки дронов**  
+- ЕС заявил, что атаки дронов у берегов стран НАТО привели к потоплению двух грузовых судов, одному из которых удалось спасти, но несколько моряков погибли или пропали без вести. Инцидент назван «недопустимым» и требует совместного расследования.  
+
+**4. Франция — ограничение полицейских гранат**  
+- После травмы школьника, у которого в результате применения светошумовой гранаты отрубили руку, правительство Франции приостановило их использование в протестных акциях. Решение поддержали правозащитные организации, требующие более мягких методов контроля.  
+
+**5. Геополитика — разговор Трампа и Путина**  
+- Президент США Дональд Трамп планирует обсудить с Владимиром Путиным смерть сотрудника лаборатории в России, подозреваемого в заражении пневмококковой чумой. Инцидент усиливает международные требования к прозрачности в биологической безопасности.  
+
+**6. Экономика — Индия повышает ставку**  
+- Банк Индии впервые с 2023 года поднял ключевую ставку, сигнализируя о росте инфляции, подпитываемой конфликтом на Ближнем Востоке и ростом цен на энергоносители. Это отражает глобальную тенденцию к ужесточению монетарной политики.  
+
+**7. Технологии — ChatGPT для подростков под критикой**  
+- НКО Common Sense Media назвала сервис **ChatGPT for Teens** «недопустимым риском» для детей. Несмотря на встроенные ограничения, эксперты указывают на возможные проблемы с конфиденциальностью и влиянием на психическое здоровье несовершеннолетних.  
+
+**8. Кратко о других событиях**  
+- **OpenAI** продолжает анонсировать новые модели, усиливая конкуренцию в сфере генеративного ИИ.  
+- В США продолжаются дебаты о регулировании ИИ‑технологий в образовании и медицине.  
+
+**Что стоит помнить**  
+- Научные прорывы (хиральность, математика) могут изменить фундаментальные представления о мире и ускорить развитие технологий.  
+- Геополитические напряжения (дроны у НАТО, биологический инцидент в России) требуют повышенного внимания к международной безопасности.  
+- Регулирование ИИ и полицейских методов остаётся острой темой, влияя на права граждан и доверие к институтам.  
+
+Оставайтесь в курсе, проверяйте источники и задавайте вопросы, если что‑то требует уточнения.  
+
+— Ваш ежедневный дайджест.
+
+─────────────────────
+
+🔬 [Chemistry Nobel awarded for solving mystery of life's asymmetry](https://www.bbc.co.uk/news/articles/c6ly038jg0d4o?at_medium=RSS&at_campaign=rss)
+The prize was given to the French and Japanese scientists for solving the mystery of life's asymmetry.
+#Наука  #world  `4cd7aaec7b29`
+
+🤖 [OpenAI drops another batch of mathematical breakthroughs](https://www.theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github)
+OpenAI has revealed solutions to a number of long-standing mathematics problems produced by an unreleased frontier model in a batch of 722 manuscripts, covering 372 result families that group related papers. It extends a run of breakthroughs that have both impressed and unsettled
+#AI  #tech  `dad84cc022e3`
+
+🌍 [Drones sink ships near NATO countries in “unacceptable” attacks, EU says](https://arstechnica.com/gadgets/2026/10/drone-strikes-likely-russian-sink-ships-in-nato-countries-economic-zones/)
+Two cargo ships have sunk, one ship was afire, and sailors are dead or missing.
+#Мир  #tech  `9294aedeb364`
+
+🌍 [France halts use of stun grenades after boy's hand blown off in student protests](https://www.bbc.co.uk/news/articles/cqzjx7z2r4gko?at_medium=RSS&at_campaign=rss)
+The step comes after several groups complained of police using disproportionate force towards teenagers.
+#Мир  #world  `21ca29fc2ac4`
+
+🌍 [Trump to speak to Putin about plague lab worker's death in Russia](https://www.bbc.co.uk/news/articles/cqgm0vrl3xp7o?at_medium=RSS&at_campaign=rss)
+Fears that the death may have been caused by pneumonic plague has prompted calls for more transparency from Russia.
+#Мир  #world  `807daf0cf6e4`
+
+🌍 [India's first bank rate hike since 2023 signals growing inflation concerns](https://www.bbc.co.uk/news/articles/c5j9kngz3j1go?at_medium=RSS&at_campaign=rss)
+The hike reflects a global shift towards tighter monetary policy as central banks battle inflation fuelled by Middle East conflict.
+#Мир  #world  `1566566424d1`
+
+🤖 [OpenAI announces 722 mathematical discoveries in one go](https://www.newscientist.com/article/2592421-openai-announces-722-mathematical-discoveries-in-one-go/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS)
+AI has been growing ever more capable in mathematics, but now OpenAI has released hundreds of papers at the same time – to the astonishment of mathematicians
+#AI  #science  `789bc4e51090`
+
+🤖 [ChatGPT for Teens is an ‘unacceptable risk,’ says Common Sense Media](https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media)
+Common Sense Media, a nonprofit that offers reviews of apps, services, and entertainment with a focus on youth safety, today said that OpenAI's ChatGPT for Teens is an "unacceptable risk." ChatGPT for Teens, introduced in August, has guardrails for teens and is designed to help s
+#AI  #tech  `2e5f07b4839a`
+
+_Источников: 4 · Новостей: 8_
