@@ -1,0 +1,71 @@
+🌆 *Вечерний дайджест 08.10.2026*
+
+**Ежедневный дайджест новостей (10 минут чтения)**  
+
+- **OpenAI — конфликт внутри компании**  
+  Трое уволенных исследователей по безопасности опубликовали открытое письмо, в котором отвергают обвинения в утечке конфиденциальных данных. Они предупреждают, что их увольнения создают «эффект охлаждения» и подрывают культуру безопасного развития ИИ в OpenAI.  
+
+- **Google — Gemini превращается в агентный ИИ**  
+  Google анонсировала новую функцию Gemini: ИИ‑агент, способный планировать и выполнять задачи, взаимодействовать с бизнес‑приложениями и даже делегировать работу суб‑агентам. У агента будет собственный «рабочий» профиль, включая электронную почту.  
+
+- **Венесуэла — обвинения против Николаса Мадуро**  
+  Бывший президент Николас Мадуро обвинён в заговоре с целью пыток. Прокуратура США предъявила обвинения за предполагаемое применение пыток к американским гражданам, находившимся в Венесуэле во время его правления.  
+
+- **Квантовый эксперимент с стеклянным шариком**  
+  Учёные впервые запутали свет с микроскопическим стеклянным шариком, заставив его вести себя как квантовый объект. Эксперимент открывает новые возможности для управления макроскопическими системами на квантовом уровне.  
+
+- **AI‑платформа Arena привлекла $200 млн**  
+  Компания, управляющая популярным рейтингом LMArena, удвоила свою оценку до $3,1 млрд после раунда инвестиций от Lightspeed и Khosla. Платформа теперь измеряет модели ИИ не только по производительности, но и по «выравниванию» — способности избегать лжи и манипуляций.  
+
+- **OpenAI — реальный доход ниже ожиданий**  
+  По новым данным, годовой доход OpenAI составляет примерно $20 млрд меньше заявленных ранее $70 млрд. Это ставит под вопрос темпы монетизации и будущие инвестиционные планы компании.  
+
+- **Протесты в Мадриде из‑за жилищного кризиса**  
+  Сотни людей развернули палаточный лагерь в центре столицы, обвиняя «вурстовые фонды» в росте цен на жильё. Премьер‑министр Педро Санчез объявил о досрочных выборах, пытаясь успокоить общество.  
+
+- **США — депортация мигрантов в Африку**  
+  По данным Human Rights Watch, более 500 мигрантов были вынуждены вернуться в африканские страны в рамках программы «безопасного возвращения». Организация назвала такие депортации «незаконными» и «эксплуатационными».  
+
+**Что стоит отметить:**  
+- Конфликт в OpenAI может повлиять на регуляцию ИИ и внутренние стандарты безопасности.  
+- Агентный Gemini от Google — первый крупный шаг к «самостоятельным» ИИ‑помощникам в бизнесе.  
+- Обвинения против Мадуро усиливают международное давление на Венесуэлу.  
+- Финансовый пересчёт OpenAI показывает, что рынок ИИ всё ещё подвержен волатильности.  
+
+Оставайтесь с нами, чтобы быть в курсе самых значимых событий.
+
+─────────────────────
+
+🤖 [Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect](https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/)
+Three fired OpenAI safety researchers dispute allegations of mishandling sensitive information, warning in an open letter that their dismissals are creating a chilling effect on the company’s AI safety culture.
+#AI  #tech #startups  `04436f7e45dd`
+
+🤖 [Google brings agentic AI to Gemini, starting with businesses](https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/)
+Google is turning Gemini into an AI agent that can plan, execute tasks, and work across business apps and systems. The agent can delegate work to subagents, use multiple AI models, and even gets its own workplace identity, complete with an email address.
+#AI  #tech #startups  `d9f349a8fa6b`
+
+🌍 [Venezuela's ex-leader Nicolás Maduro charged with conspiracy to commit torture](https://www.bbc.co.uk/news/articles/c5pvgn7xvxpzo?at_medium=RSS&at_campaign=rss)
+The new accusations relate to the alleged torture of US citizens held in Venezuela while Maduro was in power.
+#Мир  #world  `2761c2c18091`
+
+🔬 [An experimental tour-de-force: Entanglement between glass bead and light](https://arstechnica.com/science/2026/10/suspended-glass-bead-entangled-with-light-maybe-a-quantum-memory/)
+Getting a glass bead to act like a quantum object by entangling it with light.
+#Наука  #tech  `bf9885afd49c`
+
+🤖 [Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months](https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/)
+The company behind the popular LMArena leaderboard has raised $200 million led by Lightspeed and Khosla, and is now measuring AI models on alignment issues such as lying.
+#AI  #tech #startups  `4537f6af176a`
+
+🤖 [OpenAI’s revenue is reportedly $20 billion less than previously projected](https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/)
+It had previously been reported that the AI lab's annualized revenue was some $70 billion, but a new report claims it's a whole lot less than that.
+#AI  #tech #startups  `b8f195204885`
+
+🌍 [Protesters blame 'vulture funds' for Spain's housing crisis](https://www.bbc.co.uk/news/articles/c3j4790elkx7o?at_medium=RSS&at_campaign=rss)
+Hundreds have pitched their tents in central Madrid, while the Spanish prime minister has called a snap election.
+#Мир  #world  `f23d41dcd80a`
+
+🌍 [US deportations to African countries unlawful and exploit suffering, rights group says](https://www.bbc.co.uk/news/articles/c9p8gn55433jo?at_medium=RSS&at_campaign=rss)
+More than 500 migrants have been expelled from the US to African countries, HRW says, citing US data.
+#Мир  #world  `45bc8f89895e`
+
+_Источников: 3 · Новостей: 8_
