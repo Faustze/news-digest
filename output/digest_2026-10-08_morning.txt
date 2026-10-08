@@ -1,0 +1,71 @@
+🌅 *Утренний дайджест 08.10.2026*
+
+**Ежедневный дайджест новостей (10 минут чтения)**  
+
+- **Украина — российский удар по автобусу**  
+  В приграничном городе на линии фронта российские силы обстреляли переполненный автобус, в результате чего погибли 33 человека, большинство из них мирные жители. Киев обвиняет Москву в преднамеренном нападении на гражданское население. Инцидент усиливает тревогу по поводу роста числа атак на инфраструктуру и транспорт в зоне конфликта.
+
+- **Британия — отток дипломатов из Иерусалима**  
+  Израиль объявил, что большинство британских дипломатов покинут консульство в Восточном Иерусалиме в ответ на санкции Великобритании против израильских поселений на Западном берегу. Министр иностранных дел Великобритании Дэвид Миллибэнд подчеркнул, что «жизненно важные услуги» останутся, но дипломатическое присутствие будет сокращено.
+
+- **Microsoft — новый AI‑аппарат и изменения в Windows**  
+  На недавнем мероприятии Microsoft представила «AI‑friendly» процессоры и графические решения, а также анонсировала интеграцию ИИ‑функций в Windows 11: улучшенный поиск, автогенерация текста и новые инструменты для разработчиков. Ожидается, что новые устройства появятся в продаже к концу 2024 года.
+
+- **США — неудачная попытка казни**  
+  По словам адвоката, преступница Криста Пайк, осуждённая за убийство Коллин Смеллер, после двух попыток смертельных инъекций смогла встать и пройтись по палате. Случай возбудил новые дискуссии о гуманности и эффективности метода казни в США.
+
+- **Гольф‑перевал — атака на танкер**  
+  На нефтяно‑химическом танкере «Acers», находившемся в заливе у Катара, зафиксированы множественные попадания снарядов. По данным морской разведки, на борту есть пострадавшие, но точные цифры пока неизвестны. Инцидент усиливает опасения по поводу безопасности судоходства в регионе.
+
+- **Испания — смерть Марисармен Абаскаль**  
+  87‑летняя пенсионерка, ставшая символом протестов после принудительного выселения из квартиры, где проживала более 70 лет, скончалась. Её смерть вновь подняла вопрос о праве на жильё и практике выселений в Испании.
+
+- **Южная Корея — отзыв посла в Украине**  
+  Южнокорейское правительство отозвало посла в Киеве после скандала, связанного с передачей двух северокорейских военнопленных в Сеул. Инцидент обострил дипломатические отношения между Сеулом и Пхеньяном.
+
+- **Уолл‑стрит — трейдинг хедж‑фондов**  
+  Аналитики объяснили, почему крупные хедж‑фонды, заимствующие триллионы долларов, стали «дойкой» для банков. После финансового кризиса регуляторы ограничили собственные банковские ставки, а прибыль теперь генерируют торговые подразделения, обслуживая запросы фондов на кредитные линии.
+
+**Что важно помнить:**  
+1. Рост атак на гражданскую инфраструктуру в Украине повышает риск гуманитарных катастроф.  
+2. Дипломатические споры вокруг израильско‑палестинского конфликта могут привести к дальнейшему сокращению международного присутствия в регионе.  
+3. Интеграция ИИ в массовые продукты Microsoft ускорит трансформацию рабочих процессов, но потребует новых навыков от пользователей.  
+4. События в сфере безопасности (атака на танкер, казнь в США) поднимают вопросы о контроле над вооружением и правовой ответственности.  
+
+Оставайтесь в курсе, проверяйте официальные источники и планируйте действия в зависимости от развития событий.
+
+─────────────────────
+
+🌍 [Russian strike on buses kills 33, say officials, as deadly attacks on Ukraine surge](https://www.bbc.co.uk/news/articles/c875pwq134l3o?at_medium=RSS&at_campaign=rss)
+Ukraine accused Russia of targeting the crowded bus in the frontline city to kill as many civilians as possible.
+#Мир  #world  `a34cca914042`
+
+🌍 [Most UK diplomats to leave East Jerusalem consulate, Israel says, as Miliband says 'vital services' to remain](https://www.bbc.co.uk/news/articles/cw33xd6vegnno?at_medium=RSS&at_campaign=rss)
+Israel said in September it would act in response to UK sanctions on illegal Israeli settlements in the West Bank.
+#Мир  #world  `26d8a5b6f255`
+
+💻 [Microsoft event debuts new AI-friendly hardware and Windows changes](https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes/)
+Get ready for more AI in your Windows and more AI on the desktop.
+#Технологии  #tech  `cc3cda94950e`
+
+🌍 [Christa Pike now walking after failed US execution, lawyer tells BBC](https://www.bbc.co.uk/news/articles/c60rln74yzvxo?at_medium=RSS&at_campaign=rss)
+A lawyer says the murderer of Colleen Slemmer is moving around her hospital room after surviving two lethal injections.
+#Мир  #world  `c8b5ebef6e76`
+
+🌍 [Tanker hit by multiple projectiles in Gulf off Qatar, maritime agency says](https://www.bbc.co.uk/news/articles/cqlydk7796wdo?at_medium=RSS&at_campaign=rss)
+Casualties have been reported on the vessel, identified by a maritime intelligence firm as the oil and chemical tanker, Acers.
+#Мир  #world  `e8934baeed20`
+
+🌍 [Spanish pensioner whose eviction sparked nationwide protests dies](https://www.bbc.co.uk/news/articles/c6e3x21ev9wwo?at_medium=RSS&at_campaign=rss)
+Maricarmen Abascal, 87, was forcibly removed on a stretcher from her apartment of more than 70 years in September.
+#Мир  #world  `7eb70da13450`
+
+🌍 [South Korea recalls Ukraine envoy over prisoner-of-war row](https://www.bbc.co.uk/news/articles/ckwy48rrz95vo?at_medium=RSS&at_campaign=rss)
+It is the latest in a diplomatic spat after Kyiv disclosed that two North Korean prisoners were transferred to Seoul.
+#Мир  #world  `7ead968deffa`
+
+💰 [How a trillion-dollar hedge fund borrowing spree became Wall Street’s cash cow](https://www.ft.com/content/d313d0ce-d552-463e-9e84-6fa8c3efeeec?syn-25a6b1a6=1)
+Banks’ trading businesses are booming, but post-crisis regulation means it is no longer them placing the bets
+#Финансы  #business  `0f014852ce3e`
+
+_Источников: 3 · Новостей: 8_
