@@ -1,0 +1,68 @@
+🌆 *Вечерний дайджест 09.10.2026*
+
+**Ежедневный дайджест новостей (10 минут чтения)**  
+
+- **Технологии и рынок**  
+  - **Снижение поставок ПК** – глобальные поставки персональных компьютеров упали на **20,1 %**, что стало самым резким падением с 1‑го квартала 2023 года. Аналитики предупреждают, что это может стать началом нового нисходящего цикла в отрасли.  
+  - **Скидка на Samsung Galaxy S26 Ultra** – в рамках Prime Day Amazon предлагает флагманский смартфон Samsung за **$949,99** (обычная цена $1 399,99). Особенность модели – регулируемый «privacy‑display», позволяющий скрывать часть экрана от посторонних.  
+
+- **Геополитика и экономика**  
+  - **Трамп объявил о сделке с российским дизелем** – президент США Дональд Трамп сообщил о договорённости, позволяющей России продавать дизель в США. Президент Украины Владимир Зеленский назвал эту сделку «подарком Путину» и заявил, что она лишь продлит войну.  
+  - **Санкции США против Международного уголовного суда (МУС)** – Вашингтон ввёл ограничения на работу МУС, назвав его «нападением на верховенство закона». Несколько стран‑членов суда, включая Великобританию, выразили сильное несогласие с этим шагом.  
+
+- **Политика США**  
+  - **Кэти Захария назначена пресс‑секретарём Белого дома** – известный консервативный комментатор, ранее советник по коммуникациям в Trump Media & Technology Group, получила пост главного представителя администрации.  
+
+- **Природные катастрофы**  
+  - **Землетрясение в Панаме** – мощностью **7,7** баллов по шкале Рихтера ударило по территории Панамы, повредив здания и вызвав цунами‑предупреждения для соседних стран. Видеоматериалы разрушений активно распространяются в соцсетях.  
+
+- **Космос и аэрокосмическая отрасль**  
+  - **Falcon 9 пропустил запуск** – ракета SpaceX была отложена из‑за технической неисправности, что стало редким случаем «scrub». Тем временем глава United Launch Alliance заявил, что запуск ракеты Vulcan «через несколько недель», подчеркивая растущую конкуренцию в коммерческом космосе.  
+
+- **Искусственный интеллект**  
+  - **Instinct – самый обсуждаемый AI‑агент** – стартап Instinct привлек внимание благодаря «инвайт‑only» запуску без маркетинга и почти без сайта. Агент работает через обычные SMS‑сообщения, предлагая простую и прозрачную коммуникацию, что делает его популярным среди пользователей, ищущих альтернативу более громким AI‑платформам.  
+
+**Что стоит отметить**  
+- Технологический рынок переживает двойное давление: падение поставок ПК и одновременно сильные скидки на премиум‑смартфоны.  
+- Геополитические решения США (сделка с Россией, санкции против МУС) вызывают резкую реакцию со стороны союзников и могут усилить напряжённость в международных отношениях.  
+- Природные катастрофы в Центральной Америке требуют готовности к экстренным мерам в соседних странах.  
+
+**Полезные ссылки** (по запросу) – детали аналитических отчётов, официальные заявления и полные версии новостей.  
+
+Оставайтесь в курсе, делитесь важным и будьте внимательны к изменениям вокруг.
+
+─────────────────────
+
+💻 [PC shipments fall 20.1 percent in “sharpest decline” since Q1 2023](https://arstechnica.com/information-technology/2026/10/pc-shipments-fall-20-1-percent-in-sharpest-decline-since-q1-2023/)
+"The current decline may be just the beginning of a new downward cycle."
+#Технологии  #tech  `14706f5d4054`
+
+🌍 [Powerful magnitude 7.7 earthquake hits Panama, damaging buildings](https://www.bbc.co.uk/news/articles/c620r39zdp9wo?at_medium=RSS&at_campaign=rss)
+Tsunami warnings are issued for neighbouring countries as videos of destruction circulate online.
+#Мир  #world  `a2fe52df3a3d`
+
+📱 [The Samsung Galaxy S26 Ultra is down to $950 after Prime Day](https://www.theverge.com/gadgets/1008857/samsung-galaxy-s26-ultra-deal-sale)
+Amazon has the Samsung Galaxy S26 Ultra in black with 256GB of storage discounted to $949.99, a healthy discount from its usual price of $1,399.99. This phone’s standout feature is the adjustable privacy display, which can hide your entire screen, or just portions of it, from onl
+#Гаджеты  #tech  `8c86e0f648e2`
+
+🚀 [Rocket Report: A rare Falcon 9 scrub; is it just about Vulcan's time to shine?](https://arstechnica.com/space/2026/10/rocket-report-a-rare-falcon-9-scrub-is-it-just-about-vulcans-time-to-shine/)
+"I can say we’re weeks away from launching on Vulcan."
+#Космос  #tech  `9dbd3c07f641`
+
+🤖 [Instinct was the buzziest AI agent around — can it survive Muse?](https://www.theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots)
+Before there were cute little guys, there was Instinct. In August, the startup got its AI agent to market with an unusual playbook: invite-only, no marketing, and barely so much as a website. And yet, Instinct quickly became the buzziest thing in AI, garnering praise for its stra
+#AI  #gadgets #reviews  `bd3f41cfc783`
+
+🌍 [Trump announces deal for Russian diesel as Zelensky criticises 'gift to Putin'](https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss)
+Ukraine's president said allowing Russia to sell petroleum products would prolong a war that must be ended.
+#Мир  #world  `d0e304a90569`
+
+🌍 [US unveils sanctions on ICC in move court condemns as 'assault on rule of law'](https://www.bbc.co.uk/news/articles/cj20vkkx3rdvo?at_medium=RSS&at_campaign=rss)
+Several member states of the international tribunal, including the UK, say they "strongly disagree" with the sanctions.
+#Мир  #world  `2cccfe8d6988`
+
+🌍 [Commentator Katie Zacharia picked as new White House press secretary](https://www.bbc.co.uk/news/articles/c5rmy73zr0rro?at_medium=RSS&at_campaign=rss)
+The conservative commentator currently works as a communications adviser at Trump Media & Technology Group.
+#Мир  #world  `8ab0056e716e`
+
+_Источников: 4 · Новостей: 8_
