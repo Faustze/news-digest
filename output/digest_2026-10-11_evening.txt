@@ -1,0 +1,70 @@
+🌆 *Вечерний дайджест 11.10.2026*
+
+**Ежедневный дайджест новостей – 11 октября 2026**
+
+- **Аэропорт Эр-Рияда под ударом Хутти**  
+  Хутти вновь атаковали столичный аэропорт Саудовской Аравии – второй удар за два дня. По заявлению группы, в результате обстрела погибло 13 человек, повреждены терминалы и инфраструктура. Физический ущерб восстанавливается быстро, но репутация Саудовской Аравии как страны стабильности серьёзно подрывается. В ответ правительство усилило воздушную оборону и объявило о повышении готовности всех ключевых объектов.
+
+- **Трагедия у берегов Джибути**  
+  На фоне миграционного потока из Джибути в Йемен потонул катер с 305 людьми. В результате крушения погибло 139 человек, среди них дети. Выжило лишь небольшое число пассажиров, спасённые местными рыбаками и спасателями. ООН призывает к созданию безопасных маршрутов миграции и усилению контроля над нелегальными перевозками.
+
+- **Трамп объявил «энергетическое перемирие» в войне России‑Украины**  
+  Бывший президент США Дональд Трамп в соцсети объявил о «энергетическом перемирии» между Киевом и Москвой, заявив, что обе стороны согласились прекратить удары по энергетической инфраструктуре. Президент Украины Владимир Зеленский назвал эту информацию «новостью для меня», подчеркнув, что никаких официальных переговоров не проводилось. Позиция США в этом вопросе остаётся неопределённой, а международные аналитики считают заявление Трампа попыткой политического манёвра.
+
+- **NASA опубликовала 800 ГБ данных миссии Artemis II**  
+  На сайте Artemis II: Sights & Sounds of Science размещено более 800 ГБ научных материалов: 11 000+ фотографий, видеоматериалов, 8,5 часов аудио и комментарии экипажа. Данные открыты для исследователей и общественности, что позволит более детально изучить лунный орбитальный полёт и подготовку к будущим посадкам.
+
+- **Польша: задержан подозреваемый в покушении на ПМ Туск**  
+  Полиция Польши арестовала мужчину, подозреваемого в подготовке убийства премьер‑министра Дональда Туска и министра обороны. По данным следствия, были получены достоверные сведения о планируемом нападении, что позволило предотвратить инцидент. Туск в недавних выступлениях связывает рост насилия в школах с онлайн‑глорификацией агрессии.
+
+- **Скандал в польских школах**  
+  На прошлой неделе в нескольких польских школах произошли ножевые атаки, в результате которых один ученик погиб, а несколько получили ранения. Премьер‑министр Туск отметил, что рост экстремистского контента в интернете способствует «культивации насилия» среди подростков и призвал к ужесточению контроля над онлайн‑платформами.
+
+- **Орангутаны возвращаются в леса Борнео**  
+  После летних лесных пожаров, уничтоживших значительные площади тропических лесов, спасатели выпустили несколько десятков орангутанов обратно в их естественную среду обитания. Животные были временно размещены в реабилитационных центрах, где их наблюдали за здоровьем и адаптацией. Экологи считают, что восстановление ареалов обитания критически важно для сохранения вида.
+
+**Что стоит отметить:**  
+1. **Безопасность в регионе Ближнего Востока** ухудшается – новые удары Хутти могут спровоцировать более широкие международные реакции.  
+2. **Миграционный кризис в Африке** остаётся острой проблемой: трагедия у Джибути подчёркивает необходимость координации гуманитарных усилий.  
+3. **Политические заявления США** (Трамп) могут влиять на динамику конфликта в Украине, но без официальных переговоров их реальная сила ограничена.  
+4. **Научные данные Artemis II** открывают новые возможности для исследований лунного пространства и подготовки к Artemis III.  
+
+Следите за обновлениями – ситуация будет развиваться.  
+
+*Подписывайтесь, чтобы получать свежие дайджесты каждый день.*
+
+─────────────────────
+
+🌍 [Riyadh airport attacks another dangerous moment in already tense conflict](https://www.bbc.co.uk/news/articles/cr4g1pwxxlq1o?at_medium=RSS&at_campaign=rss)
+While the physical damage from Houthi attacks can be quickly repaired, the Saudi reputation for stability is taking a battering.
+#Мир  #world  `b79e5d1dd98c`
+
+🌍 [Children among 139 dead after boat capsizes off Djibouti, UN says](https://www.bbc.co.uk/news/articles/cwy7lxx60dg5o?at_medium=RSS&at_campaign=rss)
+The boat was travelling from Djibouti to Yemen with 305 people on board, when it capsized near the port town of Obock on Thursday night.
+#Мир  #world  `ea2551531d7d`
+
+🌍 [Trump announces partial ceasefire in Ukraine war as Zelenskyy says deal is ‘news to me’](https://www.theguardian.com/world/2026/oct/11/zelenskyy-trump-ukraine-russia-energy-ceasefire)
+Ukrainian president earlier rejected US call for Kyiv to stop bombing oil refineries, saying Moscow must first end attacks on energy infrastructure Donald Trump has announced an energy ceasefire between Ukraine and Russia, apparently without consulting Volodymyr Zelenskyy, who sa
+#Мир  #world  `8b5d96544c5d`
+
+🚀 [NASA dumped over 800GB of Artemis II data online](https://www.theverge.com/science/1009379/nasa-800gb-artemis-ii-data)
+If you thought you'd seen all there is to see from the Artemis II mission, you're wrong. This week NASA posted over 800GB worth of science data, images, and videos on the Artemis II: Sights & Sounds of Science site. The archive includes over 11,000 photos and videos, over 8.5 hou
+#Космос  #tech  `27b5597a5258`
+
+🌍 [Saudi capital airport hit by second Houthi strike in two days](https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss)
+The Yemeni group says it carried out attacks that killed 13 people in Riyadh over the weekend and targeted two airports and oil facilities.
+#Мир  #world  `aa90a862ae60`
+
+🌍 [Poland detains man suspected of planning assassination of PM Tusk](https://www.bbc.co.uk/news/articles/c6n9rvynl5p5o?at_medium=RSS&at_campaign=rss)
+Police received credible information about possible attacks against Donald Tusk and his defence minister.
+#Мир  #world  `23f977bd14df`
+
+🌍 [Poland stabbings driven by online glorification of violence, Tusk says](https://www.bbc.co.uk/news/articles/ckp8gyd65z2go?at_medium=RSS&at_campaign=rss)
+The PM was speaking after violent attacks at Polish schools this week left one dead and others injured.
+#Мир  #world  `188d1d0802df`
+
+🌍 [Orangutans released back into Borneo forest after devastating fires](https://www.bbc.co.uk/news/articles/cwvgde0m2d73o?at_medium=RSS&at_campaign=rss)
+Rescuers moved the apes after their habitats were threatened by intense wildfires over the summer.
+#Мир  #world  `3c4519ea09c8`
+
+_Источников: 3 · Новостей: 8_
