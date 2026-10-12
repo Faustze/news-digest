@@ -1,0 +1,64 @@
+🌆 *Вечерний дайджест 12.10.2026*
+
+**Ежедневный дайджест новостей – 12 октября 2026**  
+*Время чтения ≈ 10 минут*  
+
+**Технологии и искусственный интеллект**  
+- **Meta — новый фронтир‑модель Muse Wonder**. После лёгкой Muse Spark компания представила более крупные модели Muse Wonder и Muse Wonder Full. По заявлению Superintelligence Labs, они показывают лучшие результаты в бенчмарках и способны решать сложные задачи, включая программирование, на уровне лидеров отрасли. Модели уже доступны клиентам через API.  
+
+- **Microsoft — регуляция ИИ в Великобритании**. Президент компании Брэд Смит отметил, что в Великобритании созданы лучшие условия для разработки и контроля ИИ‑технологий. По его словам, сейчас «молоко и стиральные машины регулируются строже, чем ИИ‑компании», и требуется срочная законодательная инициатива.  
+
+- **Honeyjar — AI‑инструменты для PR**. Стартап предлагает набор сервисов, которые автоматизируют написание пресс‑релизов, мониторинг упоминаний и подбор медиаканалов. По словам основателей, это позволяет сократить цикл коммуникаций с несколькими днями до нескольких часов.  
+
+- **Blueprints AI — чертежи за минуты**. Компания из Санта‑Моники запустила сервис, генерирующий строительные чертежи, готовые к получению разрешения, из фотографии, PDF‑файла или простого эскиза. Технология уже прошла пилотные проекты в Калифорнии и Техасе.  
+
+**Бизнес и финансы**  
+- **WindBorne — контракт с ВВС США**. Силиконовая стартап‑компания, использующая метеорологические шары и ИИ для прогнозов погоды, получила почти **50 млн $** от Военно‑воздушных сил США. Данные планируются для улучшения точности тактических метеорологических моделей.  
+
+- **Элон Маск — политический донор**. По данным NYT, предприниматель перечислил **276 млн $** в пользу республиканских кампаний с июля. Из этой суммы **158 млн $** направлены в Сенат, что делает его крупнейшим известным донором в предвыборный период.  
+
+**Гаджеты и потребительская электроника**  
+- **Fitbit Edge** – новое среднее звено между Fitbit Air и Pixel Watch. Стоимость ≈ 179,99 $, корпус из алюминия, OLED‑дисплей, поддержка GPS и базовые функции здоровья. Позиционируется как более доступный вариант для тех, кто хочет «умный» браслет без полной функциональности смарт‑часов.  
+
+**Кратко о главных тенденциях**  
+1. **Ускорение конкуренции в ИИ** – Meta бросает вызов лидерам, а Microsoft поднимает вопрос регулирования.  
+2. **AI в традиционных отраслях** – от PR до строительства и метеорологии, стартапы демонстрируют практические применения.  
+3. **Политика и технологии** – крупные технологические фигуры (Маск) активно влияют на политический ландшафт, а государства (Великобритания, США) усиливают контроль и инвестируют в новые технологические решения.  
+
+Оставайтесь с нами, чтобы быть в курсе самых важных событий!
+
+─────────────────────
+
+🤖 [Meta releases its first frontier model, Muse Wonder](https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/)
+Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and said to be more capable, with higher benchmark scores and better results on complex tasks like coding.
+#AI  #tech #startups  `953632194f22`
+
+🤖 [Meta has some Wonder Full new AI models](https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model)
+Meta is making up for lost time in the AI race. After launching Muse Spark, the first model from its revamped Superintelligence Labs division, and buzzy AI agent Muse, it's now launching two new models it claims can go toe-to-toe with the industry's best. The new models, Muse Won
+#AI  #tech  `29b6868f92e0`
+
+🤖 [WindBorne wins a hefty US Air Force contract for its balloon data](https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/)
+A Silicon Valley startup that uses weather balloons and AI to predict the weather won a U.S. military contract worth almost $50 million.
+#AI  #tech #startups  `20e0ba4db8cf`
+
+🤖 [Microsoft president says UK is best placed to drive AI regulation](https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/)
+Microsoft president Brad Smith calls for urgent AI regulation, saying milk and washing machines have more oversight than AI companies.
+#AI  #tech #startups  `87f2193b0668`
+
+🌍 [Elon Musk has donated over $276 million to Republican midterm efforts](https://www.theverge.com/tech/1009604/elon-musk-2026-midterm-republican-donations)
+Elon Musk has handed out at least $276 million to Republican groups since July, The New York Times reports, making him both the party's top known donor and the biggest established midterm donor. $158 million of that money - one of the largest political donations in American histo
+#Мир  #tech  `a3c3aea67beb`
+
+🤖 [Honeyjar offers AI tools to improve PR and comms at every company](https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/)
+Journalists, entrepreneurs, and even some public relations professionals will tell you that the PR process is broken. But could AI actually make things better?
+#AI  #tech #startups  `7af87d4a59f5`
+
+🤖 [This AI startup says it can generate permit-ready blueprints in minutes](https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/)
+Blueprints AI, a bootstrapped startup based in Santa Monica, developed software that produces code-compliant construction blueprints from a photo, PDF, or sketch.
+#AI  #tech #startups  `2a71e62424e1`
+
+📱 [Fitbit Edge is Google’s middle ground between Fitbit Air and Pixel Watch](https://techcrunch.com/2026/10/12/fitbit-edge-is-googles-middle-ground-between-fitbit-air-and-pixel-watch/)
+Google’s newest wearable costs $179.99 and has a sleek feel like the Fitbit Air but with an OLED display.
+#Гаджеты  #tech #startups  `cdd07e3f7ac2`
+
+_Источников: 2 · Новостей: 8_
