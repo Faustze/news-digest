@@ -1,0 +1,63 @@
+🌆 *Вечерний дайджест 13.10.2026*
+
+**Ежедневный дайджест новостей (10 минут чтения)**  
+
+- **Папа Римский Лео III перенёс операцию** – Ватикан подтвердил, что у pontiff обнаружили рак лёгкого. Проведена успешная резекция нижней доли правого лёгкого. Ожидается восстановительный период, но состояние пациента стабильно.  
+
+- **Военные действия на Ближнем Востоке** – Саудовская коалиция нанесла удар по топливному складу вблизи Саны, контролируемой Хутами. В ответ система ПВО в районе Эр‑Рияда перехватила несколько ракет. Инцидент усиливает напряжённость в конфликте Йемена.  
+
+- **Политика США** – Президент Трамп отстранил Кимберли Гиллойф от должности посла США в Греции после обвинений в коррупции. Гиллойф отвергла обвинения, назвав их «ложными», и заявила, что служба в Греции была «честью всей её жизни».  
+
+- **Судебный процесс в сфере технологий** – Федеральный суд обязал OpenAI предоставить Apple материалы по найму, включая интервью с бывшими сотрудниками Apple, личные сообщения и показания ключевых фигур. Данные могут стать важными в деле о разглашении коммерческих тайн.  
+
+- **Google и персональные AI‑приложения** – Компания анонсировала программу, позволяющую разработчикам размещать в Play Store «вибро‑коди‑приложения», созданные ИИ под индивидуальные запросы пользователей. Планируется упрощённый процесс публикации и монетизации.  
+
+- **Технологии будущего: компактный термоядерный реактор** – Стартап Cambridge Heavy Industries работает над настольным устройством, использующим лазерный синтез для получения небольших доз энергии. Проект рассматривается как прототип для будущих компактных реакторов.  
+
+- **AI для защиты дикой природы** – Flox Intelligence разрабатывает edge‑устройства, которые распознают животных у железных дорог, аэропортов и дорог, а затем издают специфические звуки, отпугивая их. Технология уже проходит полевые испытания в США.  
+
+- **Суд над убийцей Тупака Шакура** – Бывший глава банды Дэвис получил 40‑летний срок за организацию убийства рэпера в 1996 году. Приговор стал результатом длительного расследования и судебного разбирательства.  
+
+**Что важно помнить:**  
+- Здоровье Папы Римского может влиять на международные религиозные инициативы.  
+- Эскалация в Йемене повышает риск расширения конфликта в регионе.  
+- Судебные разбирательства с OpenAI могут задать прецеденты для доступа к внутренним данным ИИ‑компаний.  
+- Новые инициативы Google и Flox показывают, как ИИ всё глубже интегрируется в повседневные сервисы и инфраструктуру.  
+
+Оставайтесь с нами, чтобы быть в курсе самых значимых событий.
+
+─────────────────────
+
+🌍 [Pope diagnosed with lung cancer but had successful surgery, Vatican says](https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss)
+Pope Leo had successful surgery to remove a lower lobe of his right lung, the Vatican said.
+#Мир  #world  `2855c649fd98`
+
+🌍 [Missiles intercepted near Riyadh after Saudi coalition hits Yemen fuel depot](https://www.bbc.co.uk/news/articles/crx2d60y1py3o?at_medium=RSS&at_campaign=rss)
+The Saudi-led coalition fighting in Yemen struck a fuel depot near the Houthi-controlled capital, Sanaa.
+#Мир  #world  `951e1f48855d`
+
+🌍 [Trump ousts Kimberly Guilfoyle as US ambassador to Greece after corruption allegations](https://www.bbc.co.uk/news/articles/cr5ynplvpg7lo?at_medium=RSS&at_campaign=rss)
+Guilfoyle the allegations of improper conduct are "false" and being ambassador was the "honour of a lifetime".
+#Мир  #world  `ad371c4b40f5`
+
+💼 [Judge orders OpenAI to turn over hiring records in Apple trade secrets case](https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/)
+A federal judge ruled that Apple can access OpenAI's interview materials involving former Apple employees, as well as private messages and testimony from key figures in the case.
+#Бизнес  #tech #startups  `5b63c671b914`
+
+🤖 [Google wants to host your personal vibe-coded apps in the Play Store](https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/)
+Google plans to help turn those personal AI-generated apps into wide releases.
+#AI  #tech  `44771a9f80d9`
+
+🔬 [Cambridge Heavy Industries has been quietly building a desktop fusion device](https://techcrunch.com/2026/10/13/cambridge-heavy-industries-has-been-quietly-building-a-desktop-fusion-device/)
+Fusion power startup Cambridge Heavy Industries is building a small, laser-powered fusion device to fuel the coming wave of fusion power plants.
+#Наука  #tech #startups  `85207c9f343f`
+
+🤖 [Flox Intelligence is building AI to keep wildlife away from trains, airports, and roads](https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads/)
+Flox's edge devices can identify animals and use species-specific sounds to drive them away from critical infrastructure.
+#AI  #tech #startups  `2f5c9350196f`
+
+🌍 [Ex-gang boss sentenced to 40 years for orchestrating Tupac Shakur's murder](https://www.bbc.co.uk/news/articles/c60rln2jvv2zo?at_medium=RSS&at_campaign=rss)
+Davis was found guilty last month over his role in the late rap superstar's death in a drive-by shooting in 1996.
+#Мир  #world  `193d2514f0f8`
+
+_Источников: 3 · Новостей: 8_
