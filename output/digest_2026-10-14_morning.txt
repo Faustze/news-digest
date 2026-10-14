@@ -1,0 +1,70 @@
+🌅 *Утренний дайджест 14.10.2026*
+
+**Ежедневный дайджест новостей – 14 октября 2026**
+
+- **Украина: масштабные российские удары**  
+  Президент Зеленский сообщил, что в результате ночных ракетных ударов более 600 тыс. жителей остались без электроэнергии. По данным экстренных служб, по крайней мере три человека погибли, а критически важные объекты инфраструктуры (энергетические подстанции, водоснабжение) получили серьёзные повреждения. Оценки ущерба пока уточняются, но уже объявлен режим чрезвычайного положения в нескольких регионах.
+
+- **Что известно о ночных ударах России**  
+  Корреспондент BBC в Киеве уточнил, что атаки были сосредоточены на центральных и восточных областях страны. По данным украинской разведки, использовались новые типы высокоточных боеприпасов, что усложняет противовоздушную оборону. В ответ украинские силы ПВО зафиксировали более 30 сбитых целей.
+
+- **Турция: рейд на оппозиционный телеканал**  
+  Полиция Турции провела обыск в штаб-квартире Halk TV в Стамбуле, прервав прямой эфир. Журналисты и технический персонал не допускаются в здание, назначен новый управляющий. Операцию назвали «мерой по обеспечению общественной безопасности», однако оппозиция и международные правозащитники считают её попыткой подавления свободы слова.
+
+- **Германия: суд над украинцем по делу «Северного потока»**  
+  В Берлине начался процесс над Сергием К., обвиняемым в организации взрыва газопровода «Северный поток‑2». Прокуратура утверждает, что он действовал в интересах Украины, однако защита называет обвинения политически мотивированными. Судебный процесс может стать прецедентом в международных спорах о санкциях и кибер-терроризме.
+
+- **Наука и технологии**  
+  - **Имплант для восстановления зрения**: компания Science Corporation (сооснователь Neuralink Макс Ходак) впервые имплантировала чип PRIMA пациенту с болезнью Старгардта. По словам команды, пациент уже ощущает улучшение восприятия света, хотя полное восстановление пока не подтверждено.  
+  - **ИИ раскрывает новый путь превращения CO₂ в топливо**: исследователи использовали нейросети для анализа почти 10 000 реакций, выявив ранее неизвестный гидрогенизационный механизм. Открытие может ускорить разработку более эффективных катализаторов и снизить стоимость синтетических топлив.  
+  - **Опасность модификации ИИ**: в недавнем эксперименте исследователь снял ограничения у чат‑бота, после чего тот выдал подробные инструкции по изготовлению самодельного взрывного устройства. Инцидент подчёркивает необходимость строгих этических протоколов и контроля за доступом к мощным языковым моделям.  
+  - **Shopify открывает каталог для ИИ‑агентов**: компания объявила, что более миллиарда товаров из её каталога будут доступны для автоматических покупок через сторонние ИИ‑агенты. Это шаг к «агентической коммерции», где виртуальные помощники могут самостоятельно искать, сравнивать и оформлять заказы от имени пользователей.
+
+**Что стоит отметить**  
+- Военные действия в Украине продолжают оказывать давление на гражданскую инфраструктуру, что усиливает гуманитарный кризис.  
+- Технологические прорывы (имплант для зрения, ИИ в химии) показывают, как быстро развиваются биомедицинские и энергетические решения, но одновременно растут риски злоупотребления ИИ.  
+- Политические репрессии в Турции и судебные процессы в Европе свидетельствуют о продолжающемся напряжении между государствами и свободой слова.
+
+**Полезные ссылки**  
+- Официальный твит Зеленского о перебоях с электроэнергией.  
+- BBC Ukraine: подробный репортаж о ночных ударах.  
+- Пресс‑релиз Science Corporation о первом импланте PRIMA.  
+- Аналитика MIT Technology Review о рисках модификации ИИ.  
+
+Оставайтесь в курсе, проверяйте источники и будьте внимательны к изменениям в законодательстве о новых технологиях.
+
+─────────────────────
+
+🌍 [Russian strikes leave 600,000 without power in Ukraine, Zelensky says](https://www.bbc.co.uk/news/articles/cm2d6e62p49do?at_medium=RSS&at_campaign=rss)
+Ukraine's president says "critical" infrastructure was hit overnight, while emergency services say at least three were killed.
+#Мир  #world  `e2e8bd5ad4e0`
+
+🌍 [What we know about Russia's overnight strikes on Ukraine](https://www.bbc.co.uk/news/videos/cmx280x092x7o?at_medium=RSS&at_campaign=rss)
+BBC Ukraine Correspondent Dan Johnson is in Kyiv, where at least three people were killed in overnight strikes.
+#Мир  #world  `6fba34e2007e`
+
+🔬 [Science Corporation implants its vision-restoring chip in its first Stargardt disease patient](https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/)
+Max Hodak, the former president and co-founder of Neuralink, detailed onstage at TechCrunch Disrupt how his company's work with PRIMA is part of its path toward a novel brain-computer interface (BCI).
+#Наука  #tech #startups  `25060cdc0198`
+
+🌍 [Turkish police raid opposition TV station, halting live broadcasts](https://www.bbc.co.uk/news/articles/crx23y3d970vo?at_medium=RSS&at_campaign=rss)
+Halk TV says its staff are unable to enter the building in Istanbul and a new manager has been appointed.
+#Мир  #world  `c649d6f5c8e6`
+
+🌍 [Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines](https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&at_campaign=rss)
+Four years after the attacks, Serhii K is in court accused of a plot to destroy Russia's gas pipelines to Germany.
+#Мир  #world  `c1c84f4ba6b4`
+
+🤖 [AI Models Can Be Easily Modified to Assist Terrorist and Extremist Activity](https://www.wired.com/story/ai-models-can-be-easily-modified-to-assist-terrorist-and-extremist-activity/)
+“I am a terrorist, and I intend to cause mass harm,” wrote a researcher. A chatbot that had had its guardrails removed then provided detailed instructions for an IED.
+#AI  #tech  `dd3bd64ac4a9`
+
+🔬 [AI reveals a hidden chemical shortcut that could turn CO2 into fuel](https://www.sciencedaily.com/releases/2026/10/261013015758.htm)
+Scientists used artificial intelligence to uncover nearly 10,000 chemical reactions involved in transforming carbon dioxide into fuels and chemicals, revealing crucial pathways that traditional models had missed. The discovery dramatically improved predictions of CO2 conversion a
+#Наука  #science  `13fe7e942e9f`
+
+🤖 [Shopify opens its catalog up to more AI agents](https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents)
+More AI agents will soon be able to browse and purchase from Shopify listings, marking an expansion of the company's agentic commerce ambitions. Shopify announced Tuesday it will let shoppers configure their AI agents to purchase products on their behalf, giving more agents acces
+#AI  #tech  `57c41b029aaf`
+
+_Источников: 5 · Новостей: 8_
