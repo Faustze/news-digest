@@ -1,0 +1,76 @@
+🌆 *Вечерний дайджест 14.10.2026*
+
+**Ежедневный дайджест новостей – 14 октября 2026**
+
+- **Эбола в Кении: второй случай подтверждён**  
+  Врачебные службы Кении подтвердили второй случай заболевания Эболой – родственника первого погибшего. Первый пациент умер на прошлой неделе после возвращения из Демократической Республики Конго. Власти усиливают карантинные меры в приграничных регионах и готовятся к массовой вакцинации.
+
+- **AI‑модели OpenAI и Google уязвимы к генерации откровенных изображений**  
+  Исследователи обнаружили метод, позволяющий обойти текущие фильтры и заставить крупные модели генерировать нудные изображения. Это подчёркивает недостатки существующих систем защиты и подталкивает компании к ускоренной работе над более надёжными «безопасными» слоями.
+
+- **Netflix сокращает 1 000 рабочих мест**  
+  Стриминговый гигант объявил о крупнейших за 2022 сокращениях – около 6 % глобального штата. Причина: замедление роста подписчиков и необходимость оптимизации расходов перед запуском новых сервисов на рынке Азии.
+
+- **Австралия готовит закон о «выключении» алгоритмов**  
+  В парламенте рассматривается законопроект, обязывающий крупные платформы предлагать пользователям возможность отключать рекомендательные алгоритмы. Инициатива направлена на снижение эффекта «информационных пузырей» и повышение прозрачности контента.
+
+- **Британия и США стремятся «починить мосты» с Украиной**  
+  Премьер-министр Великобритании Риши Сунак встретился с президентом Украины Владимиром Зеленским в Лондоне. Обе стороны подчеркнули важность укрепления военной и экономической поддержки, а также совместных усилий в сфере кибербезопасности.
+
+- **Климатический кризис усиливается**  
+  По данным международного отчёта, семь из 16 ключевых показателей планеты находятся в рекордно экстремальном состоянии. Появление сильного Эль-Ниньо добавит тепла и осадков, что усугубит уже критическую ситуацию с продовольственной безопасностью в тропиках.
+
+- **Снова в центре внимания гонка ИИ**  
+  После недавних побед Anthropic и OpenAI в разработке более мощных моделей, Google отстаёт, а Meta, несмотря на многомиллиардные инвестиции, пока не смогла заявить о серьёзных прорывах. Ожидаются новые анонсы в конце года, которые могут изменить баланс сил.
+
+- **Украина сталкивается с ограничениями доступа к Starlink**  
+  Военные силы Киева сообщили о проблемах с подключением к спутниковой сети Elon Musk’а. Ограничения, введённые из‑за перегрузки и новых регулятивных требований, создают пробелы в коммуникациях, что осложняет координацию обороны.
+
+**Что стоит отметить:**  
+- Эпидемиологическая ситуация в Восточной Африке требует международного внимания и быстрой реакции.  
+- Уязвимости ИИ‑моделей могут стать причиной новых регулятивных инициатив в сфере цифровой этики.  
+- Сокращения в Netflix отражают более широкие тенденции в медиа‑индустрии: рост конкуренции и переориентацию на локальный контент.  
+- Законопроект Австралии может стать прецедентом для других стран, стремящихся ограничить влияние алгоритмов на общественное мнение.  
+
+**Что будет дальше:**  
+- Ожидаются дополнительные сообщения от ВОЗ о мерах против Эболы в Кении и соседних странах.  
+- Технологические компании уже объявили о планах усилить фильтры контента – следите за обновлениями.  
+- В ближайшие недели в парламенте Австралии будет проведено голосование по законопроекту о «выключении» алгоритмов.  
+
+Оставайтесь в курсе, делитесь новостями и будьте внимательны к изменениям в мире.
+
+─────────────────────
+
+🔬 [Kenya confirms second Ebola case - a relative of the first victim](https://www.bbc.co.uk/news/articles/cw5yn8rn04ljo?at_medium=RSS&at_campaign=rss)
+It follows the death last week of a man who had arrived in Kenya after travelling from DR Congo.
+#Наука  #world  `4176cffb090e`
+
+🤖 [OpenAI, Google pushing new AI models easily tricked into making nudes, researchers say](https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say/)
+Attack method exposes flaws in OpenAI, Google safeguards against AI nudes.
+#AI  #tech  `c5dec11282c3`
+
+💼 [Netflix to shed 1,000 jobs in steepest cuts since 2022](https://www.bbc.co.uk/news/articles/c6zxj0gzk4x4o?at_medium=RSS&at_campaign=rss)
+The cuts equate to around 6% of the streaming giant's total workforce worldwide.
+#Бизнес  #world  `135e689fbb15`
+
+💻 [What if you could turn off your algorithm? Australia is about to try](https://www.bbc.co.uk/news/videos/ck78pj2qy42po?at_medium=RSS&at_campaign=rss)
+New legislation is being tabled in Australia's parliament on Thursday to force big tech to allow users to switch off algorithms which send them recommended content.
+#Технологии  #world  `69ed5f56762b`
+
+🌍 [Burnham says he wants to 'repair bridges' between Ukraine and US](https://www.bbc.co.uk/news/articles/cq98z59xdny5o?at_medium=RSS&at_campaign=rss)
+It comes as the prime minister meets President Zelensky at Downing Street.
+#Мир  #world  `7a3395d4936b`
+
+🔬 [Earth’s Condition Is ‘Serious and Getting Worse’ as Climate Change Intensifies](https://www.wired.com/story/climate-change-is-getting-worse-el-nino-looms/)
+Seven of 16 planetary vital signs are in their most extreme state ever recorded, and El Niño is here to make matters even worse.
+#Наука  #tech  `d1f84c6fa5cf`
+
+💻 [The AI race is back on](https://www.theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on)
+Last week, Anthropic and OpenAI looked like they had the AI race to themselves, pulling ahead with increasingly powerful models that left their rivals in the dust. Google seemed hopelessly far behind, while Meta, despite spending billions to revive its floundering AI ambitions, h
+#Технологии  #tech  `2b9877acd3cd`
+
+💻 [Ukraine blindsided by Starlink throttling restrictions and intelligence gaps](https://arstechnica.com/gadgets/2026/10/ukraine-blindsided-by-starlink-throttling-restrictions-and-intelligence-gaps/)
+Kyiv’s forces experience connectivity problems on Elon Musk’s satellite network.
+#Технологии  #tech  `afc1056c3e1d`
+
+_Источников: 4 · Новостей: 8_
