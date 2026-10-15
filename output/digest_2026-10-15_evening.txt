@@ -1,0 +1,67 @@
+🌆 *Вечерний дайджест 15.10.2026*
+
+**Ежедневный дайджест новостей – 15 октября 2026**
+
+- **Экология — реинтродукция природы на островах**  
+  Учёные показали, что восстановление популяций морских птиц, посадка местных растений и защита коралловых рифов способны ускорять естественное «наращивание» атоллов. Такие природные «строительные блоки» помогают уязвимым островным государствам противостоять росту уровня моря, снижая необходимость в дорогостоящих инженерных проектах.
+
+- **Volvo + Nvidia — партнёрство в автопилоте**  
+  Шведский автопроизводитель объявил, что к 2030 году внедрит полностью hands‑free, point‑to‑point вождение, используя новейший стек автономного вождения Nvidia. Система будет классифицироваться как Level 2++ — более продвинутая, чем текущие ассистенты, но всё ещё требующая надзора водителя. Партнёрство, начавшееся почти десятилетие назад, расширяется и на электромобили Volvo.
+
+- **Bluesky — Attie превращает соцсети в кодинг‑платформу**  
+  Экспериментальная платформа Attie от Bluesky получила AI‑поддержку, позволяя пользователям без навыков программирования создавать интерактивные веб‑страницы, мини‑игры и викторины, сразу же публикуя их в социальной сети. Это шаг к «социальному кодингу», где контент генерируется и распространяется в реальном времени.
+
+- **FTC проверяет крупные AI‑компании**  
+  После того как бывший президент США назвал опасения по поводу ИИ «обманом», Федеральная торговая комиссия начала расследование в отношении OpenAI и Anthropic. Цель — оценить, привели ли инциденты с безопасностью к реальному ущербу для потребителей и нарушили ли компании правила конкуренции.
+
+- **Meta + Apple — Muse AI на Mac**  
+  Meta представила модель Muse Spark, заявив её самой мощной открытой моделью в США. Совместно с Apple компания оптимизировала её под два процессора Apple M5 Ultra в Mac Studio, используя новый MLX‑фреймворк. Теперь крупные модели могут работать локально на настольных ПК без облака.
+
+- **Rocket Lab — отсрочка ракеты Neutron**  
+  Компания объявила о новой задержке полёта среднего‑класса ракеты Neutron, изначально планировавшегося на 2024 год. Текущий график пока не уточнён, но разработчики обещают ускорить подготовительные работы после завершения испытаний новых двигателей.
+
+- **GTA 6 — детали из трейлера**  
+  За 90‑секундным тизером Rockstar удалось заметить 33 мелких подсказки: новые локации, транспортные средства и намёки на сюжетные линии. Фанаты уже обсуждают, какие из этих элементов могут стать ключевыми в предстоящем релизе.
+
+**Что стоит запомнить:**  
+- Природные решения в борьбе с повышением уровня моря получают всё больше научного и политического внимания.  
+- Автономные системы Volvo + Nvidia могут задать новый стандарт для Level 2++ технологий.  
+- Регуляторы усиливают контроль над крупными AI‑игроками, что может привести к новым требованиям к прозрачности и безопасности.  
+
+Оставайтесь с нами, чтобы быть в курсе самых значимых событий.
+
+─────────────────────
+
+🔬 [Rewilding could help vulnerable islands keep pace with rising seas](https://arstechnica.com/science/2026/10/seabirds-forests-and-coral-could-help-save-sinking-islands/)
+Seabirds, native plants, and healthy reefs can help atolls build as seas rise.
+#Наука  #tech  `10a231148265`
+
+🤖 [Volvo will use Nvidia’s tech for hands-free, point-to-point driving](https://www.theverge.com/transportation/1011653/volvo-nvidia-autonomous-driving-level-2-hands-free-urban)
+Volvo plans to launch hands-free, point-to-point driving by 2030, powered by Nvidia's latest AI technology. The Chinese-owned, Swedish-designed automaker said Thursday it would use Nvidia's autonomous driving stack to power a new partially automated driving system similar to Tesl
+#AI  #tech  `9ca94b3d7eda`
+
+🤖 [Bluesky expands its AI-powered Attie app to let anyone build websites, games, and more](https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/)
+Bluesky is bringing “social vibe coding” to its experimental Attie platform, allowing users to create interactive experiences like games, quizzes, and websites that can tap into the social network's audience.
+#AI  #tech #startups  `0eb6bc77f8ca`
+
+🤖 [FTC probes Anthropic, OpenAI after Trump dismissed AI fears as "hoax"](https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/)
+Article URL: https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/ Comments URL: https://news.ycombinator.com/item?id=50108600 Points: 1 # Comments: 0
+#AI  #AI  `0bb2a16724dc`
+
+🎮 [33 New Details From the GTA 6 Launch Trailer](https://www.ign.com/articles/33-new-details-from-the-gta-6-launch-trailer)
+GTA 6's launch trailer may only be 90 seconds long, but there's plenty to see - here's the 33 details we spotted.
+#Игры  #games  `9a6c47e9aca3`
+
+💻 [Meta and Apple team up to make Muse AI models run better on Macs](https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx)
+Meta announced the Muse Spark Open AI model today, claiming that it's the "most capable US open-weight model to date." But the company also says that it's the "the first model in its class" that can "run on your desktop using two Apple M5 Ultra Mac Studios with the latest MLX fra
+#Технологии  #tech  `587f0944a858`
+
+🚀 [Rocket Lab announces another delay for its medium-lift Neutron rocket](https://arstechnica.com/space/2026/10/rocket-lab-announces-another-delay-for-its-medium-lift-neutron-rocket/)
+Rocket Lab announced the Neutron rocket in 2021, aiming for a first flight in 2024.
+#Космос  #tech  `1d82c44f8b32`
+
+🤖 [Volvo makes a bigger bet on Nvidia](https://techcrunch.com/2026/10/15/volvo-makes-a-bigger-bet-on-nvidia/)
+Volvo is leveling up its automated driving system through an expansion of its nearly decade-long partnership with Nvidia that will extend beyond its battery electric vehicles.
+#AI  #tech #startups  `3bcdcd76100d`
+
+_Источников: 5 · Новостей: 8_
