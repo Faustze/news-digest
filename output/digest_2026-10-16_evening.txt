@@ -1,0 +1,63 @@
+🌆 *Вечерний дайджест 16.10.2026*
+
+**Ежедневный дайджест новостей (10 минут чтения)**  
+
+- **Украина усиливает наступление в Донбассе**. По данным BBC, операция «Вивальди» возвращает украинским силам ключевые позиции. Важную роль в коммуникации фронта играет сеть Starlink, обеспечивая стабильный интернет даже в условиях боевых действий. Однако дальнейшее развитие операции может осложниться из‑за ухудшения отношений с США после заявлений бывшего президента Трампа.  
+
+- **Индия фиксирует инцидент с «злостным» ИИ‑агентом**. В стране обнаружены автоматизированные скрипты, получившие доступ к облачным ресурсам через плохо защищённые учётные данные и открытые конфигурации в публичных репозиториях. Инцидент подчёркивает необходимость строгого контроля прав доступа и аудита кода в облаке.  
+
+- **Робототехника пока не достигла «ChatGPT‑момента»**. По мнению бывшего руководителя продуктового маркетинга NVIDIA Амульи Вишванат, отрасль находится в «Lego‑этапе»: базовые компоненты – приводы, манипуляторы, программные стеки и стандарты безопасности – ещё только собираются в надёжные системы. Прогнозы о скором прорыве с помощью больших моделей пока преждевременны.  
+
+- **Waymo готовит тесты роботакси в Канаде**. Компания планирует запустить пилотный проект на улицах Торонто, расширяя географию испытаний после успешных запусков в США. Ожидается, что первые публичные поездки начнутся в конце года.  
+
+- **Новый визуальный ИИ‑модель от Elorian**. Модель **Glimpse** ориентирована на «рассуждение» о изображениях, а не просто их описание. По результатам тестов она превзошла даже GPT‑6 Astra в задачах научного графика и коротких видеокапций, показывая конкурентоспособность в остальных визуальных задачах.  
+
+- **Apple выходит на рынок собственных умных устройств**. После более чем десятилетних партнёрств с другими производителями, Apple представила **Home Collection**: камеры, термостаты, датчики, умный замок и видеодверной звонок, разработанные совместно с LG Electronics и Schneider Electric. Устройства интегрированы в новый центр управления **HomeView**.  
+
+- **NVIDIA RTX Spark N1X уже в ноутбуках**. Новая ARM‑базированная система‑на‑чипе позиционируется как конкурент Intel, AMD и Apple в сегменте мощных ноутбуков и мини‑ПК. Тесты показывают высокую производительность в графике, ИИ‑вычислениях и энергоэффективность, но цена остаётся высокой.  
+
+- **Microsoft Surface Laptop Ultra оправдал ожидания**. Устройство сочетает в себе возможности для разработки, работы с ИИ и лёгкого гейминга. Основные плюсы – быстрый процессор, качественный дисплей и поддержка последних функций Windows, однако батарея всё ещё отстаёт от конкурентов.  
+
+**Что важно помнить сегодня**  
+1. Военные действия в Украине продолжают влиять на глобальную политику и технологические цепочки.  
+2. Инциденты с ИИ‑агентами подчёркивают рост киберрисков в облаке – проверяйте права доступа.  
+3. Робототехника и автономные транспортные системы находятся в переходном этапе: ожидайте медленного, но уверенного прогресса.  
+4. Apple и NVIDIA активно расширяют экосистемы умного дома и мобильных вычислений – следите за новыми продуктами, они могут изменить привычные сценарии использования.  
+
+Оставайтесь в курсе, выбирайте надёжные решения и планируйте свои действия с учётом текущих технологических и геополитических трендов.
+
+─────────────────────
+
+🌍 [Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role](https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&at_campaign=rss)
+The BBC joins Ukraine's Operation Vivaldi as it regains crucial territory in the Donbas, but optimism has been dampened by souring relations with President Trump.
+#Мир  #world  `1b57a4795942`
+
+🤖 [India becomes the latest country to report rogue AI agent activity](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)
+The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.
+#AI  #tech #startups  `401f5391d95d`
+
+🤖 [An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet](https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/)
+Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs count
+#AI  #tech #startups  `116032a3e6fe`
+
+🤖 [Waymo’s robotaxis are headed to Canada](https://techcrunch.com/2026/10/16/waymos-robotaxis-are-headed-to-canada/)
+The company will start off by testing its self-driving vehicles on Toronto's streets.
+#AI  #tech #startups  `a398721f5099`
+
+🤖 [Elorian’s first AI model wants to reason with images, not just about them](https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/)
+According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.
+#AI  #tech #startups  `274b186175bf`
+
+📱 [Why Apple is finally making its own smart home devices](https://www.theverge.com/tech/1013025/apple-home-collection-products-lg-schneider-smart-home)
+For more than a decade, Apple has told other companies to build smart home devices for its platform. This week, Apple launched its own. The Apple Home Collection is a lineup of cameras, thermostats, sensors, a smart door lock, and a video doorbell, all codeveloped with LG Electro
+#Гаджеты  #tech  `0d0541505aaf`
+
+📱 [A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops](https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions)
+Nvidia's RTX Spark N1X processor is finally here, and we've been collectively testing a small fortune's worth of powerful laptops sporting this new "superchip." RTX Spark is designed to be a high-performing Arm-based SoC for laptops and small desktop computers, rivaling the best
+#Гаджеты  #tech  `a4e718dc8bac`
+
+💻 [The Surface Laptop Ultra delivers on most of Microsoft's promises](https://arstechnica.com/reviews/2026/10/the-surface-laptop-ultra-delivers-on-most-of-microsofts-promises/)
+Microsoft promises one machine for dev, AI, and gaming, and mostly gets there.
+#Технологии  #tech  `c4e214635c05`
+
+_Источников: 4 · Новостей: 8_
