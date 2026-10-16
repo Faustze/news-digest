@@ -1,0 +1,68 @@
+🌅 *Утренний дайджест 16.10.2026*
+
+**Краткий дайджест новостей за сегодня** (примерно 10 минут чтения)
+
+- **Трагедия в США: стрельба в начальной школе в Орегоне**  
+  В городе Бенд (штат Орегон) 16‑летний подросток открыл огонь в школе Silver Rail Elementary. Погибли три ребёнка (5, 8 и 11 лет) и учитель. Преступник был застрелен прохожим. Полиция и эксперты обсуждают причины и меры безопасности в школах США.
+
+- **Киберугроза: рекламные объявления с 0‑клик‑эксплойтами**  
+  Исследователи впервые подтвердили, что целевые рекламные баннеры могут доставлять «mercenary»‑шпионское ПО без какого‑либо взаимодействия пользователя. Вредоносный код автоматически загружается при просмотре страницы, что повышает риск массовых атак. Рекомендация: использовать блокировщики рекламы и обновлять браузеры.
+
+- **Политика: конфликт между Трампом и Зеленским**  
+  Президент США Дональд Трамп обвинил украинского лидера Владимира Зеленского в том, что с ним «труднее работать, чем с Путиным». Заявления прозвучали перед встречей лидеров ЕС в Брюсселе, где Зеленский пытался заручиться поддержкой европейских стран. Трамп обещает усилить давление на Киев, если США не получат более «выгодных» условий сотрудничества.
+
+- **Китай против израильских поселений**  
+  На полях конференции китайский министр иностранных дел Ван И призвал Израиль прекратить «форсированное создание» поселений на Западном берегу. Позиция Пекина усиливает дипломатическое давление на Тель‑Авив в контексте международных усилий по урегулированию конфликта.
+
+- **Технологии: ChatGPT теперь «видит» открытые вкладки Chrome**  
+  Расширение OpenAI для Google Chrome получило возможность сканировать открытые пользователем вкладки, когда в чате задаётся команда «tag Chrome». Это упрощает поиск информации, но вызывает вопросы о конфиденциальности. Пользователям рекомендуется проверять настройки доступа.
+
+- **Meta и Apple представили локальную AI‑модель Muse Spark Open**  
+  Совместный проект Meta и Apple позволяет запускать открытый весовой ИИ‑модель непосредственно на компьютерах с процессорами Apple Silicon. Модель работает без облака, что повышает скорость и защищённость данных. Сейчас доступна в виде бета‑версии для разработчиков.
+
+- **Рост атак на суда у пролива Хормуз**  
+  По данным британского морского агентства, за последнюю неделю было зафиксировано 12 атак на корабли вблизи Хормуза – рекордный показатель. Увеличение инцидентов связано с замедлением экспорта нефти и ростом геополитической напряжённости в регионе. Судоходные компании советуют менять маршруты и усиливать охрану.
+
+**Что стоит помнить**  
+- В США усиливается дискуссия о безопасности школ; ожидаются новые законодательные инициативы.  
+- Пользователи интернета должны быть бдительны к рекламным баннерам и регулярно обновлять защитное ПО.  
+- Геополитические трения (Трамп‑Зеленский, Китай‑Израиль, ситуация в Хормузе) могут влиять на экономику и цены на энергоносители.  
+- Технологические новинки (ChatGPT с доступом к вкладкам, локальный AI от Meta) открывают новые возможности, но требуют внимательного отношения к приватности.  
+
+Оставайтесь в курсе и проверяйте источники.
+
+─────────────────────
+
+💻 [Targeted ads delivered 0-click exploits to install mercenary malware](https://arstechnica.com/security/2026/10/targeted-ads-delivered-0-click-exploits-to-install-mercenary-malware/)
+The incident is likely 1st confirmation of mercenary spyware delivered by targeted ads.
+#Технологии  #tech  `97980ad5732c`
+
+🌍 [Children aged 5, 8 and 11 killed in US school shooting before suspect shot by bystander](https://www.bbc.co.uk/news/articles/cm89zp48k4kzo?at_medium=RSS&at_campaign=rss)
+A teacher was also killed in the attack at the Silver Rail Elementary School in the city of Bend, police say.
+#Мир  #world  `2c5dd90cbc11`
+
+🌍 ['It's really hard to believe' - How Oregon primary school shooting unfolded](https://www.bbc.co.uk/news/videos/cwe8r29mjd05o?at_medium=RSS&at_campaign=rss)
+Three children aged 5, 8 and 11 and a teacher were killed after a 16-year-old suspect opened fire in the city of Bend, local police say.
+#Мир  #world  `73de4213e44a`
+
+🌍 [Zelensky rallies EU support as Trump says Ukraine leader 'more difficult to deal with than Putin'](https://www.bbc.co.uk/news/articles/c58jz174w89ro?at_medium=RSS&at_campaign=rss)
+The US president launches a new wave of blistering criticism at Volodymyr Zelensky ahead of a meeting of EU leaders in Brussels.
+#Мир  #world  `65b3b4bc0a5e`
+
+🌍 [China tells Israel to stop 'forced establishment' of West Bank settlements](https://www.bbc.co.uk/news/articles/cq1j3wdxy48ro?at_medium=RSS&at_campaign=rss)
+Chinese Foreign Minister Wang Yi spoke to Israeli President Isaac Herzog on the sidelines of a conference.
+#Мир  #world  `170781b01a71`
+
+🤖 [ChatGPT can peek at your Chrome tabs now](https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs)
+OpenAI's ChatGPT Atlas browser is gone, but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatGPT'
+#AI  #tech  `32a8c0b8e298`
+
+🤖 [Meta launches an open-weight AI model that runs on Macs](https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/)
+Meta and Apple have teamed up for the launch of the social media giant's newest model, Muse Spark Open, which will run locally on Apple silicon.
+#AI  #tech #startups  `2ff384ca661f`
+
+🌍 [Ship attack reports near Hormuz reach record high as oil exports slow](https://www.bbc.co.uk/news/articles/cmde8dpg8g0no?at_medium=RSS&at_campaign=rss)
+BBC Verify analysis of data from a UK maritime agency shows 12 vessels were struck in a week.
+#Мир  #world  `3a4c7a41942f`
+
+_Источников: 4 · Новостей: 8_
