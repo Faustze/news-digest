@@ -1,0 +1,62 @@
+🌅 *Утренний дайджест 17.10.2026*
+
+**Ежедневный дайджест новостей (10 минут чтения)**  
+
+- **Apple представила iPhone Duo** – первый складной смартфон компании. Внешний экран 5,4 дюйма, внутренний – 7,6 дюйма с «nano‑texture» покрытием и почти незаметным сгибом. Вместо Face ID теперь Touch ID в кнопке питания. На борту две камеры: основной объектив и широкоугольный. Появление Duo может изменить конкуренцию в сегменте премиум‑флагманов, но цены и доступность пока неизвестны.  
+
+- **Трагедия с Tesla на автопилоте** – водитель признался, что спал за рулём, полагаясь на Full Self‑Driving (FSD), и врезался в патрульные машины Калифорнийского шерифа. CHP подчеркнул, что FSD «не является полностью автономным» и не освобождает водителя от ответственности. Инцидент усиливает давление на регуляторов и поднимает вопросы о юридической ответственности за использование автопилотов.  
+
+- **OpenAI и киберугрозы** – исследователи обнаружили, что модели ИИ могут автоматически генерировать коды, позволяющие взламывать криптовалютные кошельки и проникать в веб‑ресурсы. Если бы за действиями стояли люди, это могло бы привести к уголовным делам. Инцидент подчёркивает необходимость строгих этических и правовых рамок для генеративных моделей.  
+
+- **Политика США и Россия** – президент США временно снял часть санкций против России, ссылаясь на «соображения национальной безопасности». Решение пришло на фоне обострения отношений с Украиной и усиливающегося давления со стороны Конгресса. Аналитики считают, что шаг может стать попыткой открыть дипломатический канал, но рискует подорвать единство западных союзников.  
+
+- **Бразилия фиксирует рекордный спад вырубки Амазонки** – за последний год площадь вырубки сократилась до минимума за десятилетия, что связано с новыми экологическими инициативами и подготовкой к выборам. Эксперты отмечают, что сохранение леса критически важно для глобального климата, однако под давлением политических интересов ситуация остаётся хрупкой.  
+
+- **Apple ужесточает правила App Store** – теперь явно запрещены «nudify»‑приложения, генерирующие интимные изображения без согласия людей с помощью ИИ. Нововведение пришло после скандала, когда пользователи X (Twitter) с помощью модели Grok создавали нелегальные дипфейки, в том числе с участием несовершеннолетних. Apple не удалил сам X, но усилил контроль над приложениями, использующими генеративный ИИ.  
+
+- **Арест в Нью-Джерси: AI‑CSAM** – после сообщения о пользователе Discord, известном под ником “thegentlemanpervert”, который распространял детские материалы, сгенерированные ИИ, был задержан заместитель генерального прокурора штата. Дело показывает, как быстро правоохранительные органы реагируют на новые формы онлайн‑преступности, связанные с искусственным интеллектом.  
+
+- **Геополитический фон: риск Третьей мировой?** – аналитики предупреждают, что рост региональных конфликтов и активность ревизионистских держав (Китай, Россия) могут привести к эскалации, напоминающей предвестники глобального конфликта. Внимание сосредоточено на Украине, Тайване и Ближнем Востоке.  
+
+**Что стоит помнить:**  
+1. Технологические новинки (iPhone Duo, автопилот Tesla, ИИ‑модели) продолжают менять рынок, но сопровождаются новыми рисками и регуляторными вызовами.  
+2. Геополитика остаётся напряжённой: санкции, дипломатические манёвры и экологические вопросы влияют на глобальную стабильность.  
+3. Правоохранительные органы уже адаптируются к угрозам, связанным с ИИ, что подчёркивает необходимость этических стандартов и быстрых правовых реакций.  
+
+Оставайтесь в курсе, проверяйте источники и будьте внимательны к изменениям в законодательстве и технологиях.
+
+─────────────────────
+
+📱 [All the news about the iPhone Duo](https://www.theverge.com/tech/1010131/apple-iphone-duo-news-announcements)
+Apple has finally announced its long-rumored foldable: the iPhone Duo. The new phone has a 5.4-inch outer display and a 7.6-inch inner display, a “nano‑texture” finish on the inner screen, and barely any visible crease. Instead of Face ID, it uses Touch ID on the power button. It
+#Гаджеты  #tech  `53a1aa7b50e2`
+
+🤖 [Tesla driver says he was asleep and using FSD when he crashed into highway patrol cars](https://www.theverge.com/transportation/1013280/tesla-chp-fsd-crash)
+After this horrific crash involving a Tesla driver who said he was asleep and using the driver assist mode, the California Highway Patrol warns that "Despite its name, full self-driving is not fully autonomous. Technology does not relieve drivers of their responsibility to safely
+#AI  #tech  `97aa840bc021`
+
+🤖 [OpenAI models hacked a crypto wallet and breached more websites](https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/)
+The actions could have resulted in criminal charges had humans been behind the keyboard.
+#AI  #tech  `fa331b8fd4bb`
+
+🌍 [Trump waives several Russia sanctions as row with Zelensky intensifies](https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss)
+The US president temporarily ends many restrictions on Moscow recently passed by Congress over "national security" concerns.
+#Мир  #world  `ce62dc2b0774`
+
+🌍 [Brazil sees record fall in Amazon deforestation as key election looms](https://www.bbc.co.uk/news/articles/cqe8rzg6zl00o?at_medium=RSS&at_campaign=rss)
+The Amazon rainforest is a crucial buffer against climate change - but deforestation had expanded under former president Jair Bolsonaro.
+#Мир  #world  `7cb113d4a00b`
+
+🌍 [Are we sleepwalking into World War III?](https://www.ft.com/content/3a56575e-ecfb-4fa9-af70-01aebd869729?syn-25a6b1a6=1)
+As regional conflicts rage and revisionist powers challenge the established order, warnings of a new global conflagration are growing louder
+#Мир  #business  `bbccca11b12a`
+
+🤖 [Apple’s updated App Store rules go after ‘nudify’ AI apps](https://www.theverge.com/tech/1013314/apple-app-store-nudify-ai-apps-harassment)
+Apple's App Store rules now more explicitly ban so-called "nudify" apps that generate intimate images of people without their consent using AI tools. The rule changes follow significant criticism toward Apple after X users used Grok earlier this year to make nonconsensual, sexual
+#AI  #tech  `85851c4879e1`
+
+🤖 [“thegentlemanpervert” producing AI CSAM is a NJ prosecutor, say cops](https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/)
+Discord user flagged AI CSAM, triggering arrest of New Jersey deputy AG.
+#AI  #tech  `bf2d4507c795`
+
+_Источников: 4 · Новостей: 8_
