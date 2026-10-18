@@ -1,0 +1,68 @@
+🌆 *Вечерний дайджест 18.10.2026*
+
+**Ежедневный дайджест новостей – 18 октября 2026**
+
+- **Технологии и гаджеты**  
+  • **Lenovo** анонсировала новый портативный ПК Legion Go S с SteamOS. Устройство позиционируется как более мощный конкурент Steam Deck OLED: 8‑дюймовый IPS‑дисплей (1080 p, до 120 Гц), двойной объём ОЗУ и хранилища, двухступенчатые триггеры. Цена будет значительно ниже текущей стоимости Deck OLED (≈ $789).  
+
+  • **AI в медицине**: исследователи из Пенсильванского университета использовали большие языковые модели для анализа 150 тыс. постов в Reddit, выявив потенциальные побочные эффекты нового GLP‑1‑медикамента, ещё не одобренного регуляторами. Такой подход может ускорить раннее обнаружение рисков и дополнить традиционные клинические испытания.  
+
+  • **Математика и ИИ**: в статье «AI Is the Uber Moment for Mathematics» (Grey Enlightenment) обсуждается, как генеративные модели уже меняют способы решения сложных задач, автоматизируя доказательства и предлагая новые гипотезы. Пока реакция в научном сообществе скромна, но потенциал уже виден.  
+
+- **Политика и общество**  
+  • На рейве в Хайленд‑Хайтс, Кентукки, **Дональд Трамп** заявил, что Google «целует его зад», подчеркивая своё влияние в текущем президентском сроке. Комментарии прессы отмечают, что такие высказывания усиливают напряжённость в отношениях с крупными технологическими компаниями.  
+
+  • **Франция**: после очередного дня протестов против условий в школах и роста цен, в Париже произошли массовые погромы. Около 1 800 человек арестованы, повреждены автомобили, разбиты витрины магазинов. Власти объявили о повышении уровня готовности полиции.  
+
+  • **Россия**: в Санкт‑Петербурге ночью произошёл удар по нефтяным объектам и дата‑центру, аналогичному российскому «ВКонтакте». По официальным данным, в результате атак погиб один человек. Инцидент усиливает опасения о росте кибер‑ и физической угрозы инфраструктуре.  
+
+- **Бизнес и рынок труда**  
+  • **Disney** согласилась принять на работу большинство сотрудников **Character.AI**, который на прошлой неделе объявил о банкротстве. Бывший CEO стартапа Карндийп Ананд стал первым CTO Disney. По предварительным данным, Disney приобретёт часть активов компании за $20 млн, что укрепит её позиции в сфере интерактивных персонажей и ИИ‑чатботов.  
+
+**Что стоит отметить**  
+- Технологические новинки (Lenovo, AI‑медикаменты) показывают, как быстро развиваются как потребительские, так и научные решения.  
+- Политические заявления Трампа могут отразиться на регуляторных инициативах в сфере больших данных.  
+- Социальные волнения во Франции и атаки в России подчёркивают рост нестабильности в разных регионах.  
+
+**Полезные ссылки**  
+- Подробнее о Legion Go S: официальная страница Lenovo.  
+- Статья о влиянии ИИ на математику: greyenlightenment.com/2026/09/27/ai-is-the-uber-moment-for-mathematics/  
+- Исследование Penn Engineering: engineering.upenn.edu/stories/penn-engineers-use-ai-reddit-to-identify-potential-side-effects-of-unapproved-new-glp-1/  
+
+Оставайтесь в курсе, следите за проверенными источниками и планируйте свой день, учитывая текущие риски и возможности.
+
+─────────────────────
+
+📱 [Lenovo’s fast, comfy SteamOS handheld is hundreds off](https://www.theverge.com/gadgets/1013436/lenovo-legion-go-s-steamos-handheld-deal-sale)
+The Legion Go S with SteamOS is a pretty solid alternative to the $789 Steam Deck OLED. It runs identical software, but ships in a design with two-stage triggers, a bigger eight-inch IPS screen (1080p and up to 120Hz versus 800p and 90Hz in the Deck OLED), and it’s got double the
+#Гаджеты  #tech  `b2f5da4e9913`
+
+🌍 [Trump says Google kisses his ass](https://www.theverge.com/policy/1013485/trump-google-kiss-my-ass)
+During a rally on Saturday, October 17th, in Highland Heights, Kentucky, Donald Trump bragged about how much more powerful and influential he was during his second term. While listing off his accomplishments, he mentioned his decision to rename the Gulf of Mexico and Lake Ontario
+#Мир  #tech  `18fde963488e`
+
+💼 [Disney agrees to hire the majority of Character.AI’s workforce](https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/)
+After chatbot startup Character.AI filed for bankruptcy earlier this week, many of its employees will have the opportunity to take jobs at Disney. Character.AI’s former CEO Karandeep Anand recently became the entertainment giant’s first CTO, and the startup previously said that D
+#Бизнес  #tech #startups  `5a25a7d7d300`
+
+🌍 [Burnt out cars and shattered glass on Paris streets after protests turn to riots and looting](https://www.bbc.co.uk/news/articles/c574pdzl0k4no?at_medium=RSS&at_campaign=rss)
+About 1,800 people were arrested after nationwide protests saw outbreaks of violence and vandalism.
+#Мир  #world  `4b56ff835380`
+
+🌍 [Oil facilities hit in deadly overnight attack on St Petersburg](https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss)
+At least one person was killed in the strikes, which also hit a data centre used by Russia's equivalent of Facebook.
+#Мир  #world  `c768b8b9e74e`
+
+🌍 [Parisians wake up to protest damage and looted shops](https://www.bbc.co.uk/news/videos/cmn5vey19q3go?at_medium=RSS&at_campaign=rss)
+Violence broke out across France on Saturday during the latest day of demonstrations against conditions in schools and the cost of living.
+#Мир  #world  `08dac6c81ea5`
+
+🤖 [AI Is the Uber Moment for Mathematics](https://greyenlightenment.com/2026/09/27/ai-is-the-uber-moment-for-mathematics/)
+Article URL: https://greyenlightenment.com/2026/09/27/ai-is-the-uber-moment-for-mathematics/ Comments URL: https://news.ycombinator.com/item?id=50143120 Points: 1 # Comments: 0
+#AI  #AI  `8d6e98642c9f`
+
+🤖 [LLM analyzed 150k Reddit posts to identify side effects of unapproved new GLP-1](https://www.engineering.upenn.edu/stories/penn-engineers-use-ai-reddit-to-identify-potential-side-effects-of-unapproved-new-glp-1/)
+Article URL: https://www.engineering.upenn.edu/stories/penn-engineers-use-ai-reddit-to-identify-potential-side-effects-of-unapproved-new-glp-1/ Comments URL: https://news.ycombinator.com/item?id=50142726 Points: 2 # Comments: 0
+#AI  #AI  `6310e99f2454`
+
+_Источников: 4 · Новостей: 8_
