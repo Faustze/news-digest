@@ -1,0 +1,59 @@
+🌆 *Вечерний дайджест 19.10.2026*
+
+**Ежедневный дайджест новостей – 19 октября 2026**
+
+- **Кибербезопасность в США** – Флорида столкнулась с крупным утечкой данных DMV после того, как полицейский департамент хранил логины сотрудников в открытом виде. В результате хакеры получили доступ к базе данных, а штат выпустил экстренные предупреждения для владельцев водительских прав. Власти уже начали расследование и усиливают требования к защите учетных записей в государственных органах.
+
+- **Китайский космический мусор над США** – В Миннесоте упал обломок китайской ракеты‑носителя Zhuque‑2E. Фермер обнаружил в своем кукурузном поле металлические детали, которые, по мнению экспертов, являются частью первой стадии утилизации орбитального аппарата. Инцидент поднимает вопросы о международных нормах по контролю за космическим мусором.
+
+- **Amazon бросает вызов Nvidia** – Компания представила новый набор разработческих инструментов TorchNeuron, позволяющий запускать модели PyTorch на собственных чипах Amazon. Это крупнейший шаг Amazon к снижению зависимости от графических процессоров Nvidia и попытка привлечь к своей экосистеме больше AI‑разработчиков.
+
+- **США ограничивают обмен разведданными с Украиной** – Советник президента Украины Сергій Бєскрєстнов заявил BBC, что сокращение передачи разведывательной информации из США приводит к росту жертв среди мирного населения. Белый дом опроверг изменения в политике, но ситуация усиливает напряженность в отношениях между союзниками.
+
+- **AI‑инструменты под атакой** – Хакеры проникли в платформу OpenCode, популярный открытый AI‑ассистент для программирования, и украли API‑ключи пользователей, что привело к неожиданным расходам на облачные сервисы. Инструмент отказался анализировать вредоносный код, что усложнило реакцию на инцидент.
+
+- **Тревога у инди‑разработчиков** – Рост количества AI‑генерируемых клонов игр заставил независимых студий отложить демонстрацию проекта на Steam Next Fest. Разработчики опасаются, что их оригинальные идеи будут быстро скопированы и вытеснены автоматизированными продуктами.
+
+- **Инвестиции в AI‑компаньонов** – Приложение Tolan, предлагающее персонального AI‑помощника для организации жизни, привлекло ещё $30 млн инвестиций после того, как его активную пользовательскую базу (250 тыс. человек) оценили как перспективную для дальнейшего роста.
+
+- **Tenstorrent укрепляет позиции** – Чиповый стартап Tenstorrent, конкурирующий с Nvidia, завершил раунд финансирования на $1,5 млрд, доведя оценку компании до $6,2 млрд. Средства пойдут на масштабирование производства «open‑weight» AI‑чипов и развитие собственных архитектур.
+
+**Что стоит запомнить:** киберугрозы продолжают поражать как государственные, так и частные структуры; конкуренция в сфере AI‑аппаратного обеспечения усиливается, а международные вопросы (космический мусор, обмен разведданными) остаются в центре внимания.  
+
+Оставайтесь в курсе, проверяйте свои аккаунты и следите за новыми инструментами, которые могут изменить ваш бизнес или личные проекты.
+
+─────────────────────
+
+💻 [Florida DMV hacked after police dept insecurely stored login info](https://arstechnica.com/tech-policy/2026/10/huge-dmv-data-breach-impacted-current-and-former-florida-residents/)
+Florida issues alerts after statewide DMV data breach linked to ShinyHunters.
+#Технологии  #tech  `b54ec1dfd500`
+
+🚀 [A Chinese rocket deorbited over Minnesota and left this in a farmer's cornfield](https://arstechnica.com/space/2026/10/a-chinese-rocket-deorbited-over-minnesota-and-left-this-in-a-farmers-cornfield/)
+All the evidence points to the debris being part of a Chinese Zhuque-2E rocket.
+#Космос  #tech  `c738a28fd444`
+
+🤖 [Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool](https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/)
+Amazon wants to break Nvidia’s hold on PyTorch, the free toolkit used to build most AI apps, so that more developers run their apps on alternative chips like its own.
+#AI  #tech #startups  `a54ff3098cfe`
+
+🌍 [Ukrainians dying because US restricting intelligence sharing, Zelensky adviser tells BBC](https://www.bbc.co.uk/news/articles/cmj47yx572z5o?at_medium=RSS&at_campaign=rss)
+Serhii Beskrestnov says there has not been enough time to warn people about incoming missile attacks. The White House said there had been no changes to intelligence sharing.
+#Мир  #world  `c0a41eb727db`
+
+🤖 [AI game clones are making indie developers afraid to show their work](https://arstechnica.com/gaming/2026/10/ai-game-clones-are-making-indie-developers-afraid-to-show-their-work/)
+Delayed Steam Next Fest demo is a sign of a growing problem for indie devs.
+#AI  #tech  `b702043214f1`
+
+🤖 [Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts](https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/)
+OpenCode is an open-source AI coding agent that's become a popular alternative to Claude Code and Cursor. But hackers got into part of its online platform and stole some users’ API keys, and the AI tools it turned to for help kept refusing to look at the malicious code.
+#AI  #tech #startups  `4862b905b11f`
+
+🤖 [Tolan snags $30M for its AI companion that helps users navigate life](https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/)
+AI companion app Tolan has raised another $30 million after attracting more than 250,000 active users.
+#AI  #tech #startups  `89ec9b1903bd`
+
+🤖 [Tenstorrent hits $6.2B valuation to scale open-weight AI chips](https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/)
+After drawing acquisition interest earlier this year, the Nvidia challenger raised $1.5 billion to remain independent.
+#AI  #tech #startups  `9a36a80d100b`
+
+_Источников: 3 · Новостей: 8_
