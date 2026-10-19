@@ -1,0 +1,59 @@
+🌅 *Утренний дайджест 19.10.2026*
+
+**Ежедневный дайджест новостей – 19 октября 2026**
+
+- **Технологии и инвестиции**  
+  - **Илон Маск и Anthropic** объявили о совместной инициативе: компания Anthropic выделит **5 % своих акций в публичный фонд благополучия**, а Маск пообещал раздавать публичные акции своим подписчикам. Это первый крупный пример «социального» распределения капитала в сфере ИИ, который может задать новый стандарт для стартапов после предстоящего листинга Anthropic.  
+  - **Benchmark** в интервью рассказала о своей стратегии в условиях «бурного» рынка: фирма сохраняет небольшую команду партнёров, фокусируется на долгосрочных проектах и избегает спешки с инвестициями. Подход может стать моделью для других венчурных фондов, ищущих стабильность.  
+  - **Khosla Ventures** удвоила ставку в **Even Healthcare** (Индия) – раунд возглавил Khosla, оценка компании достигла **300 млн $**. План – расширить сеть больниц, улучшить экономику лечения в стране.
+
+- **Политика и общество**  
+  - **Франция** переживает рост напряжения после уличных протестов, вызванных ростом цен и ухудшением государственных услуг. По словам журналистки Катии Адлер, правительство находится под давлением, а ситуация может перерасти в более масштабные беспорядки, если не будет найден компромисс.  
+  - **Саванна, США**: бывший полицейский **Эмбер Харпе** уволена после того, как передала своему мужу‑агенту ICE доступ к системе внутреннего мониторинга **Flock**. Департамент полиции подчеркнул, что такие действия нарушают протоколы безопасности и могут поставить под угрозу конфиденциальные данные.
+
+- **Наука и природа**  
+  - **APOD** (Astronomy Picture of the Day) представил сегодня изображение «Трезвучие»: редкий рентгеновский радиоисточник, напоминающий музыкальный символ. Краткое объяснение от астронома подчёркивает, как такие объекты помогают понять процессы в экстремальных космических условиях.  
+  - **Эль-Ниньо** усиливает подъем уровня моря: в восточной части Тихого океана уже зафиксировано повышение на **40 см**. Учёные предупреждают, что при дальнейшем усилении феномена могут возникнуть наводнения от Аляски до Чили, что потребует срочных мер по защите прибрежных территорий.
+
+**Что важно помнить сегодня**  
+1. **Социальные акции в ИИ** – инициативы Маска и Anthropic могут изменить правила распределения капитала в технологическом секторе.  
+2. **Политическая нестабильность во Франции** – потенциальный рост протестов требует внимания инвесторов и компаний, работающих в Европе.  
+3. **Климатический риск от Эль-Ниньо** – уже наблюдаются реальные изменения уровня моря, что влияет на инфраструктуру и страховые рынки.  
+
+Оставайтесь в курсе, проверяйте источники и планируйте действия с учётом новых рисков и возможностей.
+
+─────────────────────
+
+🤖 [Musk and Anthropic pledge public share giveaways](https://www.bbc.co.uk/news/articles/cm2kez327gdko?at_medium=RSS&at_campaign=rss)
+Musk's announcement comes after Anthropic pledged to create a public benefit fund ahead of its blockbuster stock market listing.
+#AI  #world  `fcbc7f6de56b`
+
+🌍 [Katya Adler: France's government under pressure after weekend of widespread violence](https://www.bbc.co.uk/news/articles/crwyd02yz22vo?at_medium=RSS&at_campaign=rss)
+Political tension grips France after rioting marred protests over the cost of living and struggling public services, Katya Adler writes.
+#Мир  #world  `b2e4c30ea754`
+
+🚀 [APOD: 2026 October 19 – Treble Clef: Unusual X-ray Hot Radio Source](https://science.nasa.gov/image-article/apod-2026-october-19-treble-clef-unusual-x-ray-hot-radio-source/)
+APOD Science APOD APOD: 2026 October 19 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brie
+#Космос  #space #NASA  `874bad0b4cfd`
+
+💻 [A Savannah police officer gave her Flock login to her ICE agent husband](https://www.theverge.com/policy/1013573/spd-officer-fired-flock-ice-husband)
+Now, former Savannah police officer Amber Harpe was fired in August following a department investigation that found she had shared her Flock login information with her husband, Tyler Harpe, an ICE agent. SPD does not share its Flock data with ICE and said sharing access to the sy
+#Технологии  #tech  `66afefbfbb8f`
+
+🔬 [El Niño is dramatically increasing sea levels – how bad could it get?](https://www.newscientist.com/article/2594376-el-nino-is-dramatically-increasing-sea-levels-how-bad-could-it-get/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS)
+El Niño has already raised sea levels in part of the eastern Pacific by 40 centimetres and as it continues to strengthen there could be coastal flooding from Alaska to Chile
+#Наука  #science  `da3d26932457`
+
+💼 [Khosla Ventures doubles down on Even Healthcare to challenge India’s hospital economics](https://techcrunch.com/2026/10/19/khosla-ventures-doubles-down-on-even-healthcare-to-challenge-indias-hospital-economics/)
+Even Healthcare reaches a $300 million valuation in a Khosla Ventures-led round as it plans to expand its hospital network in India.
+#Бизнес  #tech #startups  `9d61d65f0113`
+
+💼 [No agenda, no rush, no leaving San Francisco: Benchmark’s partners on investing in a frenzied market](https://techcrunch.com/2026/10/18/no-agenda-no-rush-no-leaving-san-francisco-benchmarks-partners-on-investing-in-a-frenzied-market/)
+Benchmark may have grown its funds and swapped out some partners, but onstage the five who are left sounded like friends who just happen to be running one of the Valley’s most storied firms
+#Бизнес  #tech #startups  `82427c627369`
+
+💼 [Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’](https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/)
+Anthropic said that it will commit 5% of its shares to the fund.
+#Бизнес  #tech #startups  `bf4abc3f6fe7`
+
+_Источников: 5 · Новостей: 8_
