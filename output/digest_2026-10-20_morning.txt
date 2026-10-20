@@ -1,0 +1,70 @@
+🌅 *Утренний дайджест 20.10.2026*
+
+**Ежедневный дайджест новостей – 20 октября 2026**
+
+- **Япония запустила миссию MMX к марсианскому спутнику Фобос**  
+  Японское космическое агентство JAXA отправило космический аппарат, который к 2029 году планирует выполнить до двух посадок на Фобос и вернуть образцы на Землю. Это первый международный проект по добыче материалов с естественного спутника Марса.
+
+- **Возрождение ископаемого топлива в США**  
+  По новому докладу, в США за последний год построено больше объектов нефтегазовой инфраструктуры, чем за любые десять лет до 2020 года. Рост спроса на электроэнергию (дата‑центры, заводы, электромобили) ускоряется, а темпы роста возобновляемых источников замедляются. Эксперты предупреждают о возможных экологических и финансовых рисках.
+
+- **Пенсильвания объявила тревогу по врождённому кори**  
+  В штате зафиксированы первые случаи врождённого кори – редкой формы, не встречавшейся в США десятилетиями. Инфекция может быть смертельной, а выжившим требуется длительное медицинское наблюдение. Рекомендовано усилить вакцинацию беременных женщин.
+
+- **Элон Маск и «акции SpaceX для детей» через «Trump Accounts»**  
+  Президент Дональд Трамп объявил, что акции SpaceX, которые Маск планирует раздать каждому ребёнку в США в следующем году, будут распределяться через специальные «Trump Accounts». Маск благодарил инвестора Брэдa Герстрнера за поддержку. Публичный резонанс усилился из‑за политических и налоговых вопросов.
+
+- **Долговой кризис CoreWeave ставит под угрозу весь AI‑сектор**  
+  Облигации компании CoreWeave упали в «distressed»‑категорию (требуемая доходность превысила государственные облигации более чем на 1000 б.п.). Инвестор Чамат Палихапитиа назвал это «признаком пузыря» в частичном кредитовании AI‑инфраструктуры. Аналитики следят за возможным каскадным эффектом на другие стартапы.
+
+- **Российский спутник «Космос‑2612» подошёл к украинскому ICEYE‑X36**  
+  По данным спутниковой разведки, российский объект сблизился с украинским наблюдательным спутником до «экстремальной близости», пройдя несколько сотен километров от него. Инцидент усилил опасения по поводу космической безопасности в конфликтных регионах.
+
+- **ФБР раскрывает дело о шпионаже в OpenAI**  
+  Бывший инженер OpenAI обвиняется в передаче «Saudi Gov Docs» – материалов, связанных с правительством Саудовской Аравии. США опасаются, что Саудовская Аравия может помочь подозреваемому скрыться от преследования.
+
+- **Патч для Plex: защита от новой цепочки уязвимостей**  
+  Исследователи обнаружили, что четыре несовместимые уязвимости в Plex Media Server могут быть использованы совместно для полного компрометации сервера. Пользователям настоятельно рекомендуется установить последний патч, выпущенный сегодня, иначе их медиа‑библиотеки могут стать мишенью хакеров.
+
+**Что стоит отметить:**  
+- Космические проекты (MMX и конфликт в космосе) находятся в центре внимания – они могут влиять как на научные, так и на геополитические сценарии.  
+- Энергетический сдвиг в США и долговой стресс в AI‑индустрии могут отразиться на глобальных рынках и инвестиционных стратегиях.  
+- Внутренние угрозы кибербезопасности (Plex, шпионаж в OpenAI) требуют быстрых действий от компаний и пользователей.  
+
+Оставайтесь в курсе, проверяйте источники и обновляйте свои системы.
+
+─────────────────────
+
+🚀 [Japan launches mission to bring home a piece of the Martian moon Phobos](https://arstechnica.com/space/2026/10/japan-launches-mission-to-bring-home-a-piece-of-the-martian-moon-phobos/)
+The climax for MMX will come in 2029, when the spacecraft will attempt up to two landings on Phobos.
+#Космос  #tech  `38793774236b`
+
+💼 [The fossil fuel comeback is here](https://www.theverge.com/science/1013954/fossil-fuel-power-infrastructure-data-centers-report)
+The US is building more fossil fuel infrastructure than it has in a decade while renewable energy growth slows down, a new report shows. Electricity demand is also climbing faster than it has in more than a decade with more data centers, factories, and electric vehicles plugging
+#Бизнес  #tech  `ad34ea2cda75`
+
+🔬 [Pennsylvania issues alert on congenital measles—something US hasn't seen for decades](https://arstechnica.com/health/2026/10/pennsylvania-issues-alert-on-congenital-measles-something-us-hasnt-seen-for-decades/)
+Congenital measles can be fatal, and survivors require monitoring for years.
+#Наука  #tech  `eb95f0663a8b`
+
+💼 [Elon Musk’s proposed SpaceX stock giveaway would go into ‘Trump Accounts’](https://www.theverge.com/tech/1014115/elon-musk-spacex-trump-account)
+President Donald Trump announced this afternoon that Elon Musk's SpaceX shares for children will be given through Trump Accounts. Musk said earlier today that he would give one of his SpaceX shares to "every kid in America" sometime next year. Musk had thanked Trump Account boost
+#Бизнес  #tech  `af2a37a0d5fe`
+
+💼 [CoreWeave’s debt is becoming the whole AI industry’s problem](https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai)
+CoreWeave had a bad week last week. Its bonds slipped into distressed territory by a common definition - when investors demand 1,000 basis points more in yield than they'd get from government bonds. Last Tuesady Chamath "SPAC King" Palihapitiya noticed the distressed debt, and al
+#Бизнес  #tech  `814371679b23`
+
+🚀 [Russian spacecraft maneuvers in "extreme proximity" to satellite used by Ukraine](https://arstechnica.com/space/2026/10/russian-spacecraft-maneuvers-in-extreme-proximity-to-satellite-used-by-ukraine/)
+"Kosmos 2612 closed from hundreds of kilometers away to extreme proximity to ICEYE-X36."
+#Космос  #tech  `3b353c0fdcf8`
+
+🤖 [Accused OpenAI spy had folder called “Saudi Gov Docs,” FBI says](https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/)
+US fears Saudi government will help ex-OpenAI engineer flee spying charges.
+#AI  #tech  `7ebc5e0810ef`
+
+💻 [PSA: Patch your Plex media server before someone hacks it](https://arstechnica.com/security/2026/10/recently-fixed-plex-media-vulnerabilities-are-being-exploited-to-install-malware/)
+A researcher says attacks chaining 4 vulnerabilities is hacking unpatched boxes.
+#Технологии  #tech  `1dc6944c3f59`
+
+_Источников: 2 · Новостей: 8_
