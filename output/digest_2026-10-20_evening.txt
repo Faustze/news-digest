@@ -1,0 +1,67 @@
+🌆 *Вечерний дайджест 20.10.2026*
+
+**Ежедневный дайджест (20 октября 2026)**  
+
+**Технологии и ИИ**  
+- **Google и Amazon против Nvidia** – обе компании выпустили инструменты, позволяющие разработчикам PyTorch переносить свои модели с видеокарт Nvidia на альтернативные решения. Это усиливает конкуренцию в сфере ИИ‑инфраструктуры и может снизить доминирование Nvidia на рынке ускорителей.  
+- **Meta Muse набирает обороты** – за 40 дней приложение‑компаньон AI получило 10 млн загрузок в США, попав в узкий клуб приложений с аналогичным ростом (включая Threads). По новым данным удержание пользователей у Muse выше, чем у большинства конкурентов.  
+- **Проблемы конфиденциальности Muse** – из‑за утечки личных и бизнес‑данных при совместном использовании разговоров функция «поделиться» временно отключена, пока Meta расследует инцидент.  
+- **ChatGPT теперь можно «запереть»** – OpenAI добавила возможность блокировать отдельные чаты паролем. Функция ориентирована на конфиденциальные разговоры (личные планы, сюрпризы) и на передачу устройства другим людям.  
+- **Эксперт из Nvidia‑VC о «Physical AI»** – Амулья Вишванат (бывший сотрудник Nvidia, сейчас венчурный инвестор) в интервью TechCrunch назвала текущий этап робототехники «этапом LEGO»: базовые модули уже доступны, а прорывные приложения ждут интеграции с крупными языковыми моделями.  
+
+**Геополитика и конфликты**  
+- **Худжийская атака в Йемене** – три ракеты по тренировочному лагерю в провинции Шабва убили 73 рекрута сил безопасности. Инцидент усиливает напряжённость в регионе и поднимает вопросы о защите гражданских объектов.  
+
+**Развлечения и медиа**  
+- **JustWatch запускает собственный стриминг** – популярный сервис поиска контента (50 млн пользователей) теперь предлагает бесплатный, рекламный видеоконтент, а также платный план $3,99 / мес без рекламы и возможность арендовать фильмы. Это первый шаг JustWatch от агрегатора к прямому поставщику.  
+
+**Наука**  
+- **Новые данные о первых пяти минутах Вселенной** – международная команда астрономов измерила количество гелия, образовавшегося сразу после Большого взрыва, с беспрецедентной точностью. Исследование основано на наблюдениях 15 «чистых» галактик, служащих космическими капсулами времени, и помогает уточнить модели ранней космологии.  
+
+**Кратко о главных темах**  
+- **Конкуренция в ИИ‑инфраструктуре** (Google + Amazon vs Nvidia).  
+- **Рост и проблемы Meta Muse** (массовый скачок и вопросы конфиденциальности).  
+- **Новые функции безопасности в ChatGPT**.  
+- **Военный инцидент в Йемене** – 73 погибших.  
+- **JustWatch выходит в прямой стриминг**.  
+- **Прорыв в космологии** – точные измерения гелия первых минут после Большого взрыва.  
+
+Оставайтесь в курсе, выбирайте, что важно именно вам.  
+
+— Ваш новостной канал.
+
+─────────────────────
+
+🤖 [Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers](https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/)
+Google has joined Amazon in releasing a developer tool that makes it easy for PyTorch users to move their apps off Nvidia GPUs.
+#AI  #tech #startups  `fddc122caaf2`
+
+🤖 [Meta’s Muse hits 10M U.S. downloads in 40 days, a milestone reached by only 11 other apps](https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/)
+Meta's AI companion Muse has surpassed 10 million U.S. downloads in its first 40 days, joining an exclusive group of apps that includes Threads. New data also shows Muse is retaining users at higher rates than its AI rivals.
+#AI  #tech #startups  `b0c252f20f78`
+
+🤖 [Meta Muse exposes users' personal and business secrets when they share conversations](https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/)
+Meta is suspending the sharing feature while it investigates its privacy.
+#AI  #tech  `16dda457f036`
+
+🤖 [Ex-Nvidia-turned-VC Amulya Vishwanath: ‘Physical AI is in it’s LEGO era’](https://techcrunch.com/2026/10/20/ex-nvidia-turned-vc-amulya-vishwanath-physical-ai-is-in-its-lego-era/)
+It’s the moment everyone is waiting for — the ChatGPT moment for robotics, Amulya Vishwanath explained to TechCrunch’s Equity.
+#AI  #tech #startups  `8e1f20d6ee15`
+
+🤖 [ChatGPT now lets you lock your chats](https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/)
+The company says the feature is designed for situations where users might be discussing something personal or planning a surprise and want to keep those conversations private when handing their device to friends or family to show them something in another chat.
+#AI  #tech #startups  `0e1bbe5480e1`
+
+🌍 [Houthi missile strike on Yemen camp kills 73 security recruits, local authorities say](https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss)
+Three missiles hit a camp in government-controlled Shabwa province on Monday that was being used as a training centre, Yemen's army says.
+#Мир  #world  `04a2dc835507`
+
+🎬 [Streaming guide JustWatch becomes a streamer itself](https://techcrunch.com/2026/10/20/streaming-guide-justwatch-becomes-a-streamer-itself/)
+JustWatch, the popular streaming search guide used by 50 million people, is launching its own streaming service, offering free, ad-supported movies and shows alongside a $3.99-per-month ad-free tier and movie rentals.
+#Кино и сериалы  #tech #startups  `3c1616e6f834`
+
+🔬 [Astronomers uncover new secrets of the Universe’s first five minutes](https://www.sciencedaily.com/releases/2026/10/261019093442.htm)
+Scientists have achieved a major breakthrough in understanding the Universe’s earliest moments, measuring the amount of helium formed in the first five minutes after the Big Bang with unprecedented precision. Using one of the world’s most powerful telescopes, an international tea
+#Наука  #science  `7b87e1de55ce`
+
+_Источников: 4 · Новостей: 8_
