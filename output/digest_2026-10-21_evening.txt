@@ -1,0 +1,62 @@
+🌆 *Вечерний дайджест 21.10.2026*
+
+**Краткий дайджест новостей за сегодня**  
+*Время чтения ≈ 10 минут*  
+
+- **Meta — штраф $25 млрд**. Судья из Нью‑Мексико обязал компанию выплатить рекордные $25 млрд за более чем 43 млн нарушений закона о недобросовестных практиках. Это крупнейший штраф за 2024 год и превзошёл предыдущий рекорд в $18 млрд, наложенный Калифорнией.  
+
+- **Кибербезопасность в кризисе**. На этой неделе обнаружены серьёзные уязвимости: AI‑инструменты нашли баги в PHP, Node.js и популярном AI‑фреймворке LiteLLM. Эксперты предупреждают, что такие «древние» дыры могут быть использованы злоумышленниками, пока компании не выпустят патчи.  
+
+- **SpaceX готовится к новому полёту Starship**. Компания планирует попытку «поймать» возвращающийся Starship на следующем запуске, что должно ускорить темпы полётов. Представители SpaceX отметили конструктивный диалог с FAA, который, по их словам, поможет увеличить частоту запусков.  
+
+- **NASA уточнила сроки лунных миссий**. В рамках программы Artemis III объявлен обновлённый график: к 2026 году планируется первая высадка астронавтов на Луну, а компании SpaceX и Blue Origin получат свои контракты на лунные посадочные модули в 2025‑2026 годах.  
+
+- **Moderna готовит результаты онкологической вакцины**. Фаза III клинического испытания персонализированной раковой вакцины будет раскрыта в эти выходные. Успех может значительно повысить стоимость акций компании и открыть новый рынок для mRNA‑терапий.  
+
+- **Apple представила iPhone Duo**. Новый двойной iPhone — дорогой и экспериментальный продукт. По мнению аналитиков, он сочетает в себе несколько перспективных идей (модульность, двойные экраны), но пока остаётся «месивой» первой генерацией, требующей доработки.  
+
+- **Дополнительные штрафы Meta**. Помимо основного $25 млрд, в Калифорнии компания уже получила отдельный штраф за «лживую» политику конфиденциальности данных пользователей.  
+
+**Что важно помнить**  
+- Для Meta — финансовый удар, который может отразиться на рекламных бюджетах и стоимости акций.  
+- Уязвимости в PHP и Node.js требуют немедленного обновления серверного ПО; компании, использующие LiteLLM, должны проверить патчи.  
+- SpaceX и NASA ускоряют планы по лунным полётам — это открывает новые возможности для поставщиков космических технологий.  
+- Успех вакцины Moderna может изменить ландшафт онкологической терапии и укрепить позиции mRNA‑технологий.  
+
+Оставайтесь на связи, следите за развитием событий и проверяйте свои системы на наличие последних обновлений.
+
+─────────────────────
+
+💼 [Meta ordered to pay $25 billion in penalties over the Cambridge Analytica scandal](https://www.theverge.com/policy/1015782/meta-new-mexico-cambridge-analytica-penalty)
+The Cambridge Analytica scandal has come back to haunt Meta after a New Mexico judge ordered it to pay $25 billion in penalties for more than 43 million violations of the state's unfair practices law. The ruling marks the biggest legal hit Meta has taken this year, even as it's f
+#Бизнес  #tech  `3bbf43d83fb6`
+
+💻 [The internet is having a very bad cybersecurity day](https://techcrunch.com/2026/10/21/the-internet-is-having-a-very-bad-cybersecurity-day/)
+From AI-discovered PHP vulnerabilities to flaws in Node.js and popular AI tool LiteLLM, cybersecurity teams have plenty to worry about this week.
+#Технологии  #tech #startups  `37174ff34334`
+
+🚀 [SpaceX to attempt Starship catch on next flight, with eye on rapid cadence increase](https://arstechnica.com/space/2026/10/spacex-will-attempt-to-reach-weekly-starship-launches-by-early-2027/)
+"We have had significant constructive engagement with the FAA."
+#Космос  #tech  `f984319c31a3`
+
+💻 [PHP armageddon: OpenAI, Google’s Wiz find ancient holes, panicking the internet](https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/)
+This is the kind of security issue that was found and prevented by AI, but is also a high risk because of AI.
+#Технологии  #tech #startups  `7d65d357287c`
+
+📱 [The iPhone Duo is a messy, expensive, good time](https://www.theverge.com/tech/1015028/iphone-duo-review)
+The iPhone Duo is the riskiest Apple product in years. It's a huge rethink of what an iPhone is and could be, and it contains the seeds of many fascinating ideas that might be great in the future. But that future is yet to come. The iPhone Duo is also one of Apple's messiest firs
+#Гаджеты  #gadgets #reviews  `d21e259f3926`
+
+🌍 [Meta fined $25bn for 'lies' over user data privacy](https://www.bbc.co.uk/news/articles/cqdr8zxrr3dxo?at_medium=RSS&at_campaign=rss)
+The fine is the largest to date against Facebook's owner, larger than an $18bn deal with California.
+#Мир  #world  `7b9fc18ad8de`
+
+🚀 [When will SpaceX and Blue Origin fly to the moon? NASA reveals lunar lander timelines (and an Artemis III update)](https://www.space.com/space-exploration/artemis/when-will-spacex-and-blue-origin-fly-to-the-moon-nasa-reveals-lunar-lander-timelines-and-an-artemis-iii-update)
+NASA has updated the timeline for its Artemis III mission and mapped out the expected progress for SpaceX and Blue Origin's respective moon landers.
+#Космос  #space  `fe07b1e901ec`
+
+🔬 [Moderna is about to release the trial results for its cancer vaccine. A lot is riding on this data.](https://www.marketwatch.com/story/moderna-is-about-to-release-the-trial-results-for-its-cancer-vaccine-a-lot-is-riding-on-this-data-ccbf8c9c?mod=mw_rss_topstories)
+Moderna is one of the hottest stocks of the year because of its custom cancer treatment. Full Phase 3 data are set to be revealed this weekend.
+#Наука  #finance  `a55c5cc8278a`
+
+_Источников: 7 · Новостей: 8_
