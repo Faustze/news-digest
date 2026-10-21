@@ -1,0 +1,67 @@
+🌅 *Утренний дайджест 21.10.2026*
+
+**Ежедневный дайджест новостей – 21 октября 2026**
+
+- **Элон Маск рассматривает слияние Tesla и SpaceX**  
+  На квартальном отчёте SpaceX глава компании подтвердил, что в обеих фирмах созданы специальные комитеты из независимых директоров, которые изучают возможность «мега‑слияния». По словам Маска, объединение может дать «значительные синергетические выгоды», от совместного использования технологий батарей и ракетных двигателей до объединения финансовых ресурсов. Акционеры обеих компаний запросили формирование комитетов, однако детали состава пока не раскрыты. Если слияние состоится, это станет крупнейшей сделкой в истории индустрии высоких технологий.
+
+- **Франция в разногласиях из‑за недавних протестов**  
+  Политический аналитик Катя Адлер отмечает, что французское общество расколото в вопросе о причинах и последствиях масштабных беспорядков, которые охватили несколько крупных городов. Одни обвиняют правительство в недостаточной реакции на социальные проблемы, другие – в провокациях со стороны радикальных групп. Дискуссия уже переходит в парламент, где рассматриваются предложения по реформе полиции и усилению диалога с молодёжью.
+
+- **Австралийский депутат потерял обе ноги после нападения**  
+  В Сиднее 38‑летняя депутатка парламента, Мария Хан, стала жертвой подозреваемого автогонки. По версии полиции, 43‑летний Брэндан Нагент управляя автомобилем, целенаправленно врезался в её машину. На данный момент у обвиняемого открыты несколько обвинений, включая попытку убийства. Хан находится в реанимации, её супруг сообщил о тяжёлом состоянии пострадавшей.
+
+- **Трамп финансирует «охоту» на мошенников**  
+  Президент США Дональд Трамп совместно с вице‑президентом Дж. Д. Вэнсом объявили о запуске программы вознаграждения за раскрытие фактов мошенничества. Правительство выделит **10 000 $** видеоблогеру Ник Ширли за продвижение инициативы и **25 млн $** в виде «bounty‑программы», где любой гражданин может получить вознаграждение за предоставление достоверных сведений о коррупции и финансовых злоупотреблениях. Программа уже вызвала критику со стороны правозащитных организаций, которые считают её инструментом политической репрессии.
+
+- **Google расширяет Gemini AI для автомобилей**  
+  Компания анонсировала новую функцию «Personal Intelligence» в системе Gemini, которая будет интегрирована в Android Auto и автомобили с предустановленным Google. Теперь ИИ сможет обращаться к вашим данным из Gmail, Календаря, Maps, Photos и YouTube, предлагая, например, актуальный статус рейса, оптимальный маршрут с учётом пробок или напоминание о предстоящих встречах, не отрывая вас от дороги. По словам представителей Google, безопасность и конфиденциальность остаются приоритетом: доступ к личным данным будет возможен только после подтверждения пользователя голосом.
+
+- **Полицейская операция в США против «неэтичного» вакцинного эксперимента**  
+  Полиция Калифорнии провела обыск в офисе группы, связанной с Робертом Ф. Кеннеди‑младшим, подозревая их в подготовке нелицензированного клинического испытания вакцины против гепатита B на новорождённых. В ходе операции изъяты образцы вакцины и документы, подтверждающие попытку проведения испытаний без одобрения FDA. Руководство группы заявило, что цель проекта – «ускорить доступ к вакцинам в развивающихся странах», однако законодатели уже требуют расследования.
+
+**Что стоит запомнить:**  
+- Слияние Tesla и SpaceX может радикально изменить ландшафт космических и автомобильных технологий.  
+- Во Франции продолжаются политические споры о причинах протестов, что может отразиться на предстоящих выборах.  
+- Инцидент с австралийским депутатом подчёркивает рост угроз безопасности для публичных фигур.  
+- Программа Трампа по вознаграждению за разоблачения уже привлекла внимание международных наблюдателей.  
+- Google делает шаг к более «умным» автопомощникам, но вопросы конфиденциальности остаются открытыми.  
+- Операция против группы Кеннеди‑младшего показывает, что в США усиливается контроль над нелицензированными медицинскими экспериментами.
+
+Оставайтесь в курсе, проверяйте источники и делайте осознанный выбор.
+
+─────────────────────
+
+💼 [Elon Musk confirms he is considering merging Tesla and SpaceX](https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss)
+Musk says special committees within both companies have been formed to look at a possible mega-merger.
+#Бизнес  #world  `cff0fb76b523`
+
+🌍 [Katya Adler: France divided over who to blame for riots and what to learn from them](https://www.bbc.co.uk/news/articles/cq0me4g9p970o?at_medium=RSS&at_campaign=rss)
+In France and beyond there is widespread disagreement over what led to some of the worst unrest seen in French cities in modern history.
+#Мир  #world  `9f1a6eb220d1`
+
+🌍 [Australian MP loses both legs after alleged car attack, husband says](https://www.bbc.co.uk/news/articles/ckwyqdqxw6d0o?at_medium=RSS&at_campaign=rss)
+Her alleged attacker, 43-year-old Brendan Nugent, faces multiple charges and appeared in court for the first time on Wednesday.
+#Мир  #world  `88e5229298d0`
+
+💼 [Why is Elon Musk plotting a mega-merger of SpaceX and Tesla?](https://www.bbc.co.uk/news/articles/cr93z1e87e0do?at_medium=RSS&at_campaign=rss)
+Musk says there's "a lot to be gained" by combining the firms in what would be the biggest merger in history.
+#Бизнес  #world  `77c0f56b8e01`
+
+🚀 [Tesla and SpaceX are discussing a possible merger, Musk says](https://www.theverge.com/science/1014984/spacex-tesla-merger-elon-musk-special-committees)
+Tesla and SpaceX have formed special committees to discuss a possible merger, Elon Musk said during the latter's third quarter earnings call Tuesday. Musk, who serves as CEO of both companies, said the special committees were formed at the request of shareholders and consist of i
+#Космос  #tech  `4f88f47e0634`
+
+🌍 [Cops raid office of RFK Jr. allies planning “unethical” vaccine trial on babies](https://arstechnica.com/health/2026/10/cops-raid-office-of-rfk-jr-allies-planning-unethical-vaccine-trial-on-babies/)
+Guinea-Bissau police said hepatitis B vaccine doses were taken as part of an investigation.
+#Мир  #tech  `e411a9c28181`
+
+💻 [Trump is giving Nick Shirley $10,000 and launching a $25 million fraud bounty program](https://www.theverge.com/news/1014989/trump-fraud-tips-program-nick-shirley-influencers)
+Donald Trump and Vice President JD Vance said on Tuesday that the Trump administration was giving right-wing YouTuber Nick Shirley $10,000 and launching a $25 million bounty program for members of the public to report fraud. In December 2025, Shirley published a viral video alleg
+#Технологии  #tech  `57eb6ef2939a`
+
+💼 [Google’s more personalized Gemini AI is heading to your car](https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto)
+Google is bringing Personal Intelligence to Gemini AI in your car. With this update, Gemini in Android Auto and cars with Google built-in can tap into your information across Google apps, including Gmail, Calendar, Maps, Photos, YouTube, and Search. As an example, Google says you
+#Бизнес  #tech  `60e2e2ea8018`
+
+_Источников: 3 · Новостей: 8_
