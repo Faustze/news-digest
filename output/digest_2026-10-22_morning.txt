@@ -1,0 +1,61 @@
+🌅 *Утренний дайджест 22.10.2026*
+
+**Ежедневный дайджест новостей (10 минут чтения)**  
+
+- **Кибербезопасность:** Исследователи ИИ обнаружили скрытые уязвимости в языке программирования PHP, что привело к глобальному реагированию специалистов по кибербезопасности. Власти и крупные компании начали срочную проверку своих систем, чтобы устранить потенциальные эксплойты.  
+
+- **Политика Израиля:** В преддверии выборов арабские партии могут стать решающим фактором. Несмотря на традиционно низкую явку среди арабского населения, сейчас наблюдается активный призыв к участию, направленный на ослабление правой коалиции.  
+
+- **Tesla:**  
+  * На квартальном отчёте компания объявила, что владельцы смогут добавить свои автомобили в сеть роботакси уже в следующем году. Это первый конкретный срок после нескольких лет обещаний.  
+  * Прибыль за третий квартал 2026 г. упала на 43 %. Сократился и объём продаж в сегменте энергохранилищ.  
+  * Tesla также заявила о запуске продаж «Cybercab» (автономный двухместный автомобиль без руля) к концу года, хотя федеральные регуляторы проверяют соответствие стандартам безопасности.  
+
+- **Игровые сервисы:** Microsoft планирует ввести плату за потоковую игру «по‑часовой» модели — от 24 до 40 центов за час, к тому же сохраняется стоимость самой игры. Это может изменить подход к подпискам и монетизации в Xbox Game Pass.  
+
+- **Дата‑центры и экология:** В Техасе, где сосредоточено большинство новых дата‑центров для генеративного ИИ, прогнозируют рост загрязнения воздуха до уровней начала 2000‑х годов. Рост потребления электроэнергии требует новых решений от разработчиков и коммунальных компаний, иначе могут быть потеряны десятилетия улучшений качества воздуха.  
+
+- **Международные новости:** Две европейские гуманитарные работницы, удерживаемые в Нигере более года, были освобождены в Ливии. Гражданки Швейцарии и Австрии уже готовятся к возвращению домой.  
+
+**Что стоит отметить:**  
+- Киберугроза в PHP может затронуть миллионы веб‑сайтов, поэтому предприятиям рекомендуется провести аудит кода уже сейчас.  
+- Политический баланс в Израиле может измениться уже после ближайших выборов, что отразится на региональной стабильности.  
+- Tesla продолжает ставить амбициозные цели в автономных технологиях, но финансовые результаты показывают, что путь к прибыльности ещё далёк.  
+
+Оставайтесь с нами, чтобы быть в курсе самых важных событий.
+
+─────────────────────
+
+💻 [What is PHP and why did it spark a global cyber-security scramble?](https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o?at_medium=RSS&at_campaign=rss)
+AI uncovered long-hidden programming flaws, triggering a rare global cyber-security response.
+#Технологии  #world  `990beb82e7f5`
+
+🌍 [How Arab parties could hold critical balance of power in Israeli election](https://www.bbc.co.uk/news/articles/cx8dzrp768j8o?at_medium=RSS&at_campaign=rss)
+Disaffection has often driven down turnout among Arab Israelis, but there is a strong push to get rid of the right-wing governing coalition.
+#Мир  #world  `2709db5df882`
+
+🤖 [Tesla says customers can add their own vehicles to the robotaxi fleet next year — will it happen?](https://www.theverge.com/transportation/1016118/tesla-robotaxi-customer-owned-vehicle-fleet-network-q3-2026-earnings)
+For years, Elon Musk has been making big promises to Tesla owners about unsupervised autonomous driving and the ability to add their own vehicles to the company's robotaxi fleet. During today's third-quarter earnings call, the company finally gave itself a deadline. According to
+#AI  #tech  `e4f0424a0a3e`
+
+💻 [Data centers could erase decades of air quality gains](https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report)
+A rush of new data centers could bring air pollution roaring back to levels not seen since the 2000s in Texas, which has become ground zero for the physical infrastructure behind generative AI. New and proposed data centers are demanding a tremendous amount of electricity. How de
+#Технологии  #tech  `6095fa74ffee`
+
+🎮 [Xbox wants you to pay 24 to 40 cents per hour to stream games you already bought](https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought/)
+Time-based a la carte charges come on top of the purchase price for the games themselves.
+#Игры  #tech  `30dc4381080f`
+
+💼 [Tesla profits drop 43% in Q3](https://arstechnica.com/cars/2026/10/tesla-profits-drop-43-in-q3/)
+Tesla’s once-booming energy storage business also shrunk in Q3 2026.
+#Бизнес  #tech  `c3f0235e76f3`
+
+💼 [Tesla says it will start selling Cybercabs by end of year](https://techcrunch.com/2026/10/21/tesla-says-it-will-start-selling-cybercabs-by-end-of-year/)
+Tesla said Wednesday it will start selling its Cybercab to customers by the end of the year, even as federal regulators investigate whether the vehicle meets vehicle safety standards. The gold-hued, autonomous two-seater lacks a steering wheel and other traditional controls. Duri
+#Бизнес  #tech #startups  `05faaac02aad`
+
+🌍 [Two European women held captive for more than a year in Niger freed in Libya](https://www.bbc.co.uk/news/articles/cq62y0v7434yo?at_medium=RSS&at_campaign=rss)
+The aid workers from Switzerland and Austria are due to fly home on Thursday, reports say.
+#Мир  #world  `9c70e913ff56`
+
+_Источников: 4 · Новостей: 8_
