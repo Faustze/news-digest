@@ -1,0 +1,63 @@
+🌆 *Вечерний дайджест 22.10.2026*
+
+**Ежедневный дайджест (10 минут чтения)**  
+
+- **США отменили экспериментальную вакцину для новорождённых** – после международного резонанса и протестов trial был закрыт ещё до того, как полиция изъяла дозы. Случай подчёркивает растущую чувствительность к экспериментам с детьми и усиливает давление на регуляторов.
+
+- **Китайские хакеры использовали ИИ‑агентов для масштабного взлома** – после компрометации IT‑гиганта ConnectWise, по данным Microsoft, злоумышленники получили доступ к тысячам компаний‑клиентов. В атаке применялись автоматизированные скрипты, ускоряющие поиск уязвимостей. Эксперты советуют срочно обновить патчи и пересмотреть права доступа к облачным сервисам.
+
+- **Meta готовится обжаловать рекордный штраф в $25 млрд** – суд в США наложил крупнейший штраф на компанию после отказа Meta присоединиться к многоштатному соглашению о конфиденциальности данных. Компания заявила, что штраф «непропорционален» и будет оспариваться в апелляционном суде.
+
+- **1Password запустила безопасный вход для ИИ‑агентов** – новая функция позволяет искусственному помощнику авторизоваться в сервисах без доступа к паролю пользователя. Ключевой механизм – «zero‑knowledge» токен, который передаёт только подтверждение входа, а не сами учётные данные.
+
+- **Microsoft заявила о прорыве в медицинском ИИ** – система, разработанная под руководством Мустафы Сулеймана, превзошла общих врачей в диагностике сложных случаев (исследование в *Science*). Однако улучшения в основном связаны с базовыми моделями, а не с уникальными алгоритмами Microsoft.
+
+- **Oppo представила Find X10 Pro Max – первый телефон с тройной 200‑мегапиксельной камерой**. Реальный прирост качества снимков пока спорный: в хороших условиях камера действительно выдаёт детали, но в слабом освещении «мегапиксели» быстро теряют смысл без соответствующего сенсора.
+
+- **Украина подверглась ракетным ударам после заявления России о готовности к мирным переговорам**. Три волны ракетных атак последовали через несколько часов после того, как Москва заявила о «принципиальной готовности» возобновить диалог с США и Киевом. Инфраструктура в Донецкой и Харьковской областях пострадала.
+
+- **AI‑подтверждённый уязвимый вектор атакует более 2/3 сайтов** – исследователи обнаружили, что большинство веб‑ресурсов уязвимы к новому типу эксплойта, впервые смоделированного в 2024 г., а теперь реализованного ИИ. Рекомендация: немедленно обновить CMS, отключить устаревшие плагины и внедрить WAF с поддержкой машинного обучения.
+
+**Что делать сейчас?**  
+1. Проверьте, не использует ли ваша организация ConnectWise или аналогичные сервисы – обновите пароли и включите MFA.  
+2. Если вы администратор веб‑ресурса, запустите сканирование на уязвимость, описанную в последнем AI‑отчёте, и примените патчи.  
+3. Пользователи 1Password могут включить новую функцию «AI Login», но сохраняйте резервные пароли в офлайн‑хранилище.  
+4. Следите за развитием судебного процесса против Meta – возможны новые ограничения на обработку персональных данных.  
+
+Оставайтесь в курсе, проверяйте безопасность и планируйте действия заранее.
+
+─────────────────────
+
+🔬 [US-backed vaccine trial on babies canceled after international outcry](https://arstechnica.com/health/2026/10/unethical-vaccine-trial-on-babies-backed-by-rfk-jr-is-formally-canceled/)
+The decried trial was canceled last week before police seized vaccine doses.
+#Наука  #tech  `dde8a8b914f7`
+
+💻 [Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise](https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/)
+Microsoft points the blame for ConnectWise's breach at a China-aligned hacker, which relied on AI agents to rapidly hack into thousands of its customers.
+#Технологии  #tech #startups  `7cfdae0a2a51`
+
+💼 [Meta shocked by $25B fine after N.M. refused to join multistate settlement](https://arstechnica.com/tech-policy/2026/10/meta-whines-new-mexico-is-impossible-to-please-after-historic-25-billion-fine/)
+Meta will appeal a ruling imposing the largest fine Mark Zuckerberg has ever seen.
+#Бизнес  #tech  `388e4f502f82`
+
+💻 [1Password launches a way for AI agents to log in on your behalf without seeing your password](https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/)
+The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.
+#Технологии  #tech #startups  `effb82a2ae61`
+
+🤖 [Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’](https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/)
+Microsoft’s new AI diagnostic system beat generalist doctors on hard cases, according to a study in Science. But most of the improvement seems to come from the AI models underneath, not from Microsoft’s system itself.
+#AI  #tech #startups  `5c24b8beacfe`
+
+📱 [The world’s first triple 200-megapixel cameraphone is great](https://www.theverge.com/gadgets/1014332/oppo-find-x10-pro-max-camera-200-megapixels)
+Oppo's Find X10 Pro Max is the first phone with a triple 200-megapixel camera, which you're likely to see as either a masterful feat of engineering or a load of hyped-up marketing nonsense. The truth is somewhere in the middle. We've seen 200-megapixel cameras in phones before, s
+#Гаджеты  #gadgets #reviews  `7d2e7b6163da`
+
+🌍 [Ukraine hit by strikes after Russia agrees to new peace talks](https://www.bbc.co.uk/news/videos/c9146p1vx888o?at_medium=RSS&at_campaign=rss)
+The three waves of Russian missiles were launched at hours after Russia said it was "ready in principle" to resume peace talks with the US and Ukraine.
+#Мир  #world  `3ad318522152`
+
+🤖 [Global race to update computers as AI discovers most disruptive hack yet](https://www.newscientist.com/article/2595282-global-race-to-update-computers-as-ai-discovers-most-disruptive-hack-yet/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS)
+More than two thirds of the world's websites are vulnerable to a hack that was first theorised in 2024, which AI has now made very real
+#AI  #science  `7141da8be76d`
+
+_Источников: 5 · Новостей: 8_
