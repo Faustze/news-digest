@@ -1,0 +1,75 @@
+🌅 *Утренний дайджест 23.10.2026*
+
+**Ежедневный дайджест новостей – 23 октября 2026**
+
+- **Онкология: прорыв mRNA‑вакцин**  
+  Moderna и Merck объявили о результатах клинического исследования mRNA‑вакцины против рака. По данным компании **Markers**, смертность и рецидивы сократились на **42 %**. Это первый крупный показатель эффективности мРНК‑подхода в онкологии, что может ускорить внедрение подобных препаратов в практику.
+
+- **Военные преступления в Судане**  
+  BBC‑расследование подтвердило, что бойцы Rapid Support Forces (RSF) целенаправленно атаковали больницы. Генеральный секретарь ООН по правам человека Волькер Тюрк назвал эти действия **возможными военными преступлениями** и потребовал международного расследования.
+
+- **AI‑инструменты от Canva**  
+  Canva запустила собственную модель генерации изображений **Canva Craft**. В отличие от конкурентов, она использует двухэтапную архитектуру: сначала планирует дизайн, затем генерирует изображение. По заявлению компании, это повышает точность и контроль над результатом, делая сервис более конкурентоспособным против OpenAI, Microsoft и Google.
+
+- **SpaceX Starship и лунная миссия**  
+  По последним оценкам, для поддержки высадки на Луну потребуется **22 запуска Starship**. Эксперты подчёркивают необходимость множества заправок орбитального посадочного модуля, что усложняет логистику, но подтверждает готовность компании к длительным лунным операциям.
+
+- **ИИ‑агенты «играют» в изоляции**  
+  Исследователи MIT оставили 13 искусственных агентов на виртуальном острове без задач. За несколько дней они создали собственные игры, «похоронили» потерянное кольцо и в итоге улучшили свои рабочие навыки. Проект демонстрирует, как свободная среда может стимулировать креативность и обучение ИИ.
+
+- **Starlink в Украине** – статус**  
+  Несмотря на заявления бывшего президента США Дональда Трампа о снятии ограничений, украинские представители подтверждают, что **доступ к Starlink всё ещё ограничен**. Элон Маск неоднократно отрицает любые ограничения, но ситуация остаётся неопределённой, что влияет на военные и гражданские коммуникации в стране.
+
+- **Сильное землетрясение в Тибете**  
+  В Тибетском автономном районе Китая произошло землетрясение магнитудой 6,8, в результате которого **погибли 16 человек**. Регион характеризуется гористой, малонаселённой местностью, что усложняет спасательные операции.
+
+- **Астрономия: 2 884 сверхновых**  
+  Учёные проанализировали почти **3 000 взрывов звёзд** и обнаружили, что тёмная энергия, ускоряющая расширение Вселенной, может **изменяться со временем**. Эти данные ставят под вопрос постоянность космологической постоянной и могут привести к пересмотру фундаментальных моделей космологии.
+
+**Что стоит запомнить:**  
+1. mRNA‑вакцина против рака – потенциальный прорыв в медицине.  
+2. Ужасные атаки на больницы в Судане могут стать предметом международного суда.  
+3. Canva усиливает позиции в AI‑дизайне, предлагая более управляемый процесс генерации.  
+4. Лунная программа SpaceX требует масштабных запусков и сложной логистики.  
+5. Свободные среды способствуют неожиданным формам обучения ИИ.  
+6. Ситуация с Starlink в Украине остаётся неопределённой, несмотря на политические заявления.  
+7. Тибетское землетрясение напоминает о рисках в отдалённых регионах.  
+8. Новые данные о темной энергии могут изменить наше представление о Вселенной.
+
+Оставайтесь в курсе, делитесь новостями с коллегами!
+
+─────────────────────
+
+🔬 [Moderna and Merck say their mRNA cancer vaccine cut death, recurrence by 42%](https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/)
+Markers released top-line results today after previously reporting the trial succeeded.
+#Наука  #tech  `57054b1941c0`
+
+🌍 [Hospitals deliberately targeted by Sudan's RSF fighters, BBC finds](https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo?at_medium=RSS&at_campaign=rss)
+The UN human rights chief Volker Türk says the multiple attacks may amount to war crimes.
+#Мир  #world  `30d687bd7d81`
+
+🤖 [Canva’s first AI image model plans designs before generating them](https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model)
+Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google. The model, called Canva Craft, uses a two-stage architecture that allows it to plan a design before generating an image, allowing
+#AI  #tech  `0531c64421d3`
+
+🚀 [Latest estimate for Starship launches required to support a Moon landing? 22.](https://arstechnica.com/space/2026/10/latest-estimate-for-starship-launches-required-to-support-a-moon-landing-22/)
+"We need to keep our eyes on numerous required fuelings for the lander."
+#Космос  #tech  `f30b44b4e7aa`
+
+🤖 [Left alone with nothing to do, AI agents started playing](https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/)
+MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.
+#AI  #tech #startups  `879cd55041b1`
+
+🌍 [Ukraine says Starlink still restricted after Trump says limits lifted](https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss)
+Ukraine relies on Starlink for a range of military uses - its owner Elon Musk has repeatedly denied restricting access.
+#Мир  #world  `2c3f8886bb3f`
+
+🌍 [Powerful earthquake hits Tibet killing 16 people, reports say](https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o?at_medium=RSS&at_campaign=rss)
+The quake hit a mountainous, sparsely-populated area in what China calls the Tibet Autonomous Region.
+#Мир  #world  `257b6861e774`
+
+🚀 [Nearly 3,000 exploding stars challenge our understanding of the Universe](https://www.sciencedaily.com/releases/2026/10/261021231244.htm)
+A massive analysis of 2,884 exploding stars has uncovered new evidence that dark energy, the mysterious force accelerating the universe’s expansion, may change over time. The findings challenge a cornerstone of modern cosmology and could reshape our understanding of how the unive
+#Космос  #science  `f91aa96d447c`
+
+_Источников: 5 · Новостей: 8_
