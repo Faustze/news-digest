@@ -1,0 +1,60 @@
+🌆 *Вечерний дайджест 23.10.2026*
+
+**Ежедневный дайджест новостей (10 минут чтения)**  
+
+- **Терроризм во Франции** – Президент Эммануэль Макрон назвал недавнюю стрельбу рядом с Парижем «расистическим террористическим актом». В результате одного человека погиб, пятеро получили ранения. Подозреваемый стрелок уже задержан.  
+
+- **Трагедия в Иордании** – в южной провинции Карак в церкви, где проходила похоронная служба, вооружённые напали на собравшихся. Смертельный исход: 7 человек убиты, 34 получили ранения. На месте происшествия ведётся масштабная розыскная операция.  
+
+- **Эскалация в Западном берегу** – после убийства двух израильских солдат у контрольного пункта в Хеброне израильские силы начали сносы палестинских зданий. Инцидент усиливает напряжённость в регионе, международные наблюдатели призывают к воздержанию.  
+
+- **Космический контроль Илона Маска** – SpaceX ограничила работу сети Starshield (военная версия Starlink), использующейся Украиной. Ограничения затронули терминалы, движущиеся выше определённой скорости, что привело к отключению украинских перехватчиков, способных сбивать российские дроны‑бомбардировщики. Эксперты называют это «опасным влиянием» частного предпринимателя на военные операции.  
+
+- **Тихий мир в Олешке** – Белый дом сообщил, что Мелания Трамп выступила посредником в заключении перемирия в городе Олешко, находящемся под российским контролем. Жители, вынужденные питаться сорняками, получили шанс на гуманитарную помощь.  
+
+- **Экологическая катастрофа в ОАЭ** – после столкновения танкера с подводным объектом в Персидском заливе на берегах ОАЭ вылился нефть, образовав пятна, простирающиеся на несколько километров. Службы спасения уже начали очистку, но опасность для морской флоры и фауны остаётся высокой.  
+
+- **Технологический обзор** – The Verge оценил новый iPhone Duo в 7 из 10. Устройство позиционируется как гибрид смартфона и планшета, но эксперты отмечают, что его концепция могла бы лучше реализоваться в виде iPad.  
+
+**Что стоит помнить**  
+- Уровень угрозы в Европе растёт: от одиночных террористических актов до региональных конфликтов.  
+- Технологические компании всё активнее влияют на геополитические процессы (пример – SpaceX).  
+- Гуманитарные инициативы могут появляться из неожиданных источников, но их эффективность зависит от стабильности на местах.  
+
+Оставайтесь в курсе, следите за официальными источниками и берегите себя.
+
+─────────────────────
+
+🌍 [Deadly shooting near Paris is a 'racist terrorist attack', Macron says](https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss)
+One person is killed and five wounded in a series of attacks and the suspected gunman has been apprehended.
+#Мир  #world  `1b70a0ee9a64`
+
+🌍 [Seven shot dead by gunmen at church funeral in Jordan, officials say](https://www.bbc.co.uk/news/articles/ck87zlpzny15o?at_medium=RSS&at_campaign=rss)
+Thirty-four people are also injured in the attack in southern Karak governorate, and a manhunt is now under way.
+#Мир  #world  `e9f4f15f82d2`
+
+🌍 [Israeli forces begin demolishing Palestinian buildings in Hebron after two Israeli soldiers shot dead](https://www.bbc.co.uk/news/articles/cq4g1p974wxko?at_medium=RSS&at_campaign=rss)
+The soldiers were killed in an attack by two Palestinian gunmen at a checkpoint outside the West Bank city on Friday morning.
+#Мир  #world  `3ecd45052148`
+
+🚀 [Elon Musk’s dangerous grip on outer space](https://www.theverge.com/science/1017443/spacex-starlink-ukraine-elon-musk-monopoly)
+Last week, Starshield - the version of SpaceX's Starlink used by the Ukrainian military - was throttled to block terminals traveling above certain speeds from accessing the service. The Ukrainian army's interceptors, which counter Russian drones carrying bombs, suddenly stopped w
+#Космос  #tech  `f14347c34b8c`
+
+🌍 [White House says Melania Trump brokers truce for Ukraine city 'on brink of disaster'](https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss)
+Ukraine and Russia confirm the truce in Russian-occupied Oleshky, where residents have had to eat garden weeds to survive.
+#Мир  #world  `035d7ca21f29`
+
+🌍 [Oil spill washes up on UAE beaches after tanker strike](https://www.bbc.co.uk/news/articles/c6rey3n974g5o?at_medium=RSS&at_campaign=rss)
+Satellite images show oil spreading for miles along the coastline, threatening local marine wildlife
+#Мир  #world  `2197dfae5816`
+
+🌍 [Watch: CCTV footage appears to show gunmen near church in Jordan](https://www.bbc.co.uk/news/videos/c39wz712q0kzo?at_medium=RSS&at_campaign=rss)
+Dozens of people had been inside the church for a funeral when the shooting began, local media report.
+#Мир  #world  `648edd82097d`
+
+📱 [The iPhone Duo should have been an iPad](https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast)
+We gave the iPhone Duo a 7 /10. But that wasn't always the score we planned, and it might not be the right score forever. Such are the challenges of reviewing - and assessing - a big, new idea about the most popular smartphone in history. On this episode of The Vergecast, David a
+#Гаджеты  #tech  `1e45fec90eaf`
+
+_Источников: 2 · Новостей: 8_
