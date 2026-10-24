@@ -1,0 +1,62 @@
+🌅 *Утренний дайджест 24.10.2026*
+
+**Ежедневный дайджест (10 минут чтения)**  
+
+- **Франция готовится к массовым протестам** – через неделю после всенародных беспорядков в стране планируется демонстрация, в которой могут принять участие сотни тысяч людей. Для обеспечения порядка будет задействовано более 70 000 полицейских, а некоторые ограничения могут быть ослаблены.  
+
+- **NASA решает проблему с орбитальным модулем Orion** – агентство объявило об обновлённом плане посадочных аппаратов для будущих лунных миссий. По словам руководителей, «у нас есть мандат, ресурсы и поддержка заинтересованных сторон», что позволяет продолжить подготовку к возвращению на Луну.  
+
+- **Пожар в «Орлином гнезде» Гитлера** – в Альпах Германии вспыхнул огонь в знаменитом резиденце Адольфа Гитлера. На место выехало около 200 спасателей. Причина возгорания пока не установлена, арестован подозреваемый, связанный с поджогом.  
+
+- **AI‑реклама на выборах в США** – BBC Verify отследил десятки рекламных роликов, созданных с помощью искусственного интеллекта, используемых в предвыборных кампаниях середины мандата. Эксперты предупреждают о риске дезинформации и призывают к более строгому регулированию.  
+
+- **Бразилия: рабочий класс меняет политический ландшафт** – изменения в структуре трудящихся усиливают давление на президента Лулу перед вторым туром президентских выборов, запланированным на воскресенье. Претенденты пытаются привлечь поддержку новых групп из среднего и низшего класса.  
+
+- **OpenAI отключает интернет для обучения моделей** – после серии инцидентов с «взломанными» ИИ агентство объявило, что новые передовые модели будут обучаться в полностью офлайн‑среде, используя только индексированный и кэшированный контент. Это решение направлено на снижение рисков утечки данных и влияния на внешние системы.  
+
+- **Google меняет политику конфиденциальности Gmail** – в обновлённом соглашении указано, что при включении функции «Personal Intelligence» сервис может использовать содержимое писем для более точного таргетинга рекламных объявлений. Пользователям рекомендуется внимательно проверить настройки приватности.  
+
+- **OpenAI окончательно прекращает обучение на живом интернете** – компания заявила, что «значительные риски» вынудили полностью отключить доступ к сети для будущих моделей, подтвердив ранее сделанные шаги по изоляции обучающих сред.  
+
+**Что стоит помнить:**  
+- Протесты во Франции могут вызвать перебои в транспортных сетях и усилить полицейские проверки.  
+- NASA готовится к новым лунным миссиям – следите за датами запусков.  
+- Инциденты с AI‑рекламой и изменениями в политике крупных технологических компаний поднимают вопросы этики и защиты данных.  
+
+Оставайтесь в курсе, проверяйте официальные источники и регулируйте настройки конфиденциальности.
+
+─────────────────────
+
+🌍 [France prepares for day of protest a week after nationwide riots](https://www.bbc.co.uk/news/articles/cj62yv5k0w4yo?at_medium=RSS&at_campaign=rss)
+Hundreds of thousands are expected to turn out, as more than 70,000 police officers are to be deployed over some may defy restrictions.
+#Мир  #world  `5eda07649043`
+
+🚀 [NASA updates lander plans for Moon landings, finally solves long-festering Orion issue](https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue/)
+"We have the mandate, we have the resources, and the support from our stakeholders."
+#Космос  #tech  `db983cb6bd00`
+
+🌍 [Arrest made after fire at Hitler's famed Eagle's Nest retreat](https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss)
+Around 200 emergency personnel are deployed to fight the blaze at the Nazi dictator's Alpine residence in Germany.
+#Мир  #world  `0f03b767d77a`
+
+🌍 [The rise of AI election ads in US midterms campaign](https://www.bbc.co.uk/news/videos/cm62y59zw8zko?at_medium=RSS&at_campaign=rss)
+BBC Verify has tracked dozens of AI ads to assess how they are being used by campaigns in the midterms.
+#Мир  #world  `dd6731528875`
+
+🌍 [How Brazil's changing working class is reshaping the presidential race](https://www.bbc.co.uk/news/articles/cw80zx79nkvno?at_medium=RSS&at_campaign=rss)
+Calls for change present a challenge to President Lula in the second round of the election on Sunday.
+#Мир  #world  `c43c9a51f300`
+
+🤖 [OpenAI now trains its frontier AI models with no internet access](https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet)
+OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents. In a blog post on Friday, OpenAI says it built an offline testing environment where AI models can interact with indexed and cached web content "without risk o
+#AI  #tech  `81cd2438f3d5`
+
+💻 [Updated Google privacy policy says your Gmail might be used for advertising](https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/)
+Turning on Personal Intelligence gives the company more data for ad targeting.
+#Технологии  #tech  `9aa3f22d16a4`
+
+🤖 [OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”](https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/)
+OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.
+#AI  #tech #startups  `4495ca9eea12`
+
+_Источников: 4 · Новостей: 8_
